@@ -113,54 +113,6 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 	}
 	if = {
 		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Man the Guns"
-			original_tag = ENG
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_BRITAIN_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Death or Dishonor"
-			original_tag = YUG
-			NOT = { has_completed_focus = YUG_reunite_the_kingdom }
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_YUGOSLAVIA_TOOLTIP
-
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			has_dlc = "By Blood Alone"
-			original_tag = ETH
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_ETHIOPIA_TOOLTIP
-			
-		}
-	}
-	if = {
-		limit = {
 			OR = {
 				has_game_rule = {
 					rule = allow_release_nations
@@ -356,59 +308,7 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			has_war = no
 		}
 	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-			has_dlc = "Man the Guns"
-			original_tag = ENG
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_BRITAIN_TOOLTIP
-			
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-			has_dlc = "La Resistance"
-			original_tag = SPR
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SPAIN_TOOLTIP
-			has_global_flag = scw_over
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-			original_tag = SOV
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP
-			has_completed_focus = SOV_autonomous_soviet_republics
-		}
-	}
+	
 	if = {
 		limit = {
 			has_game_rule = {
@@ -760,7 +660,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				option = FREE_25
 			}
 		}
-		threat>0.24
+		threat > 0.24
 	}
 	if = {
 		limit = {
@@ -769,7 +669,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				option = FREE_50
 			}
 		}
-		threat>0.49
+		threat > 0.49
 	}
 	if = {
 		limit = {
@@ -778,7 +678,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				option = FREE_75
 			}
 		}
-		threat>0.74
+		threat > 0.74
 	}
 	if = {
 		limit = {
@@ -787,7 +687,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 				option = FREE_100
 			}
 		}
-		threat>0.99
+		threat > 0.99
 	}
 	if = {
 		limit = {
@@ -970,12 +870,6 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				option = ALWAYS_FREE
 			}
 		}
-		if = {
-			
-			custom_trigger_tooltip = {
-				tooltip = RULE_VOLUNTEERS_NOT_ANARCHISTS_TT
-			}
-		}
 		else = {
 			always = yes
 		}
@@ -985,12 +879,6 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 			has_game_rule = {
 				rule = allow_volunteers
 				option = LIMITED
-			}
-		}
-		if = {
-			
-			custom_trigger_tooltip = {
-				tooltip = RULE_VOLUNTEERS_NOT_ANARCHISTS_TT
 			}
 		}
 		
@@ -1012,39 +900,6 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 		limit = {
 			has_game_rule = {
 				rule = allow_volunteers
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_VOLUNTEERS_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-		if = {
-			limit = {
-				NOT = { tag = SPC }
-				NOT = { 
-					AND = {
-						tag = ETH 
-						ETH = {
-							has_completed_focus = ETH_support_spain
-						}
-					}
-				}
-				FROM = {
-					tag = SPC
-					has_completed_focus = SPR_regional_defense_council_of_aragon
-	}
-			}
-			custom_trigger_tooltip = {
-				tooltip = RULE_VOLUNTEERS_NOT_ANARCHISTS_TT
-				NOT = { FROM = { tag = SPC } }
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_volunteers
 				option = BLOCKED
 			}
 		}
@@ -1055,34 +910,25 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 	}
 }
 
+game_weight_can_add_fascist = {
+
+}
+
+game_weight_can_add_democratic = {
+	
+}
+
+game_weight_can_add_unaligned = {
+	
+}
+
+game_weight_can_add_communist = {
+	
+}
 
 DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
-	if = { # TODO_TA make more generic trigger
-		limit = {
-			NOT = { has_global_flag = ethiopia_recognized_flag }
-			FROM = {
-				tag = ETH 
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = LON_NON_INTERFERENCE_RESOLUTION_JOIN
-			always = no
-		}
-	}
+	
 }
 DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
-	if = { # TODO_TA make more generic trigger
-		limit = {
-			NOT = { has_global_flag = ethiopia_recognized_flag }
-			ROOT = {
-				tag = ETH
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = LON_NON_INTERFERENCE_RESOLUTION_CALL
-			always = no
-		}
-	}
+	
 }
