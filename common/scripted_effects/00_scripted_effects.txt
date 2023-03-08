@@ -1213,6 +1213,7 @@ bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_e
 			cost_factor = 0
 		}
 	}
+
 	else_if = {
 		limit = {
 			has_tech = basic_small_airframe
@@ -1223,6 +1224,26 @@ bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_e
 				type = small_plane_cas_airframe_1
 			}
 			cost_factor = 0
+		}
+	}
+}
+abandon_colony_tag = {
+	if = {
+		limit = {
+			is_subject = yes
+		}
+	}
+	else = {
+		if = {
+			limit = {
+				OR = {
+					has_cosmetic_tag = united_polynesia
+					has_cosmetic_tag = MAJ_UNIFIED
+				}
+			}
+		}
+		else = {
+			drop_cosmetic_tag = yes
 		}
 	}
 }

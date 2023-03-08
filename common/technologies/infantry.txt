@@ -342,12 +342,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.8
-			
-			
-			modifier = {
-				tag = GER
-				factor = 2.5
-			}
+
 			modifier = {
 				num_of_military_factories > 150
 				factor = 2.5
@@ -1169,16 +1164,6 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 15
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
 			}
 			modifier = {
 				factor = 2
@@ -1261,16 +1246,6 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
 			}
 			modifier = {
 				factor = 2
@@ -1801,10 +1776,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = USA
-				factor = 2
-			}
 		}
 	}
 
@@ -1843,10 +1814,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = USA
-				factor = 2
-			}
 		}
 	}
 
