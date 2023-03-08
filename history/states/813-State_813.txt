@@ -1,0 +1,13 @@
+state={
+	id=813
+	name="STATE_813"
+	provinces={
+		49 50 905 3711 3881 7530 7563 7574 7611 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=822
+	name="STATE_822"
+	provinces={
+		29 743 871 1709 2957 2963 4135 4311 4393 4686 4923 8040 8052 8059 8063 8077 
+	}
+	history={
+        owner = KLG
+        add_core_of = KLG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

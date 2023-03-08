@@ -1,0 +1,13 @@
+state={
+	id=526
+	name="STATE_526"
+	provinces={
+		955 2008 2215 2415 4922 6325 6375 6445 
+	}
+	history={
+        owner = MRT
+        add_core_of = MRT
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

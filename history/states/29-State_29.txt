@@ -1,0 +1,14 @@
+state={
+	id=29
+	name="STATE_29"
+        impassable = yes
+	provinces={
+		46 
+	}
+	history={
+        owner = UNC
+        add_core_of = UNC
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

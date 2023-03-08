@@ -1,0 +1,13 @@
+state={
+	id=675
+	name="STATE_675"
+	provinces={
+		947 1095 1700 1757 2661 2715 3332 4102 6908 6918 6953 6987 
+	}
+	history={
+        owner = DMN
+        add_core_of = DMN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

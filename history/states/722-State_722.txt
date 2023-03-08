@@ -1,0 +1,13 @@
+state={
+	id=722
+	name="STATE_722"
+	provinces={
+		807 2698 4457 4648 4705 7073 7077 7169 
+	}
+	history={
+        owner = CAR
+        add_core_of = CAR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

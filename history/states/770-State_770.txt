@@ -1,0 +1,13 @@
+state={
+	id=770
+	name="STATE_770"
+	provinces={
+		876 1707 2070 3346 3611 4199 8100 8116 8131 8137 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

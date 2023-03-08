@@ -1,0 +1,17 @@
+characters = {
+EQS_Twilight_Sparkle = {
+		name = EQS_Twilight_Sparkle
+		portraits = {
+			civilian = {
+				large = GFX_EQS_Twilight_Sparkle_L
+			}
+		}
+		country_leader = {
+                        desc="EQS_Twilight_desc"
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

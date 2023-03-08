@@ -1,0 +1,13 @@
+state={
+	id=374
+	name="STATE_374"
+	provinces={
+		519 715 2610 2899 3463 3696 3889 7941 7942 
+	}
+	history={
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

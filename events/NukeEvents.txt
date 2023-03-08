@@ -1,0 +1,8 @@
+﻿###########################
+# Nuclear Bomb Events
+###########################
+
+add_namespace = nuke_dropped
+
+# Hidden event to set flag on nuke dropped
+

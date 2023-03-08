@@ -1,0 +1,13 @@
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		4130 7775 7782 7795 
+	}
+	history={
+        owner = VRB
+        add_core_of = VRB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

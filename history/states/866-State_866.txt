@@ -1,0 +1,13 @@
+state={
+	id=866
+	name="STATE_866"
+	provinces={
+		540 702 2034 2288 2324 2337 2467 2527 2624 2930 3537 3663 3954 4492 7652 7678 7700 7781 7819 
+	}
+	history={
+        owner = DMN
+        add_core_of = DMN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

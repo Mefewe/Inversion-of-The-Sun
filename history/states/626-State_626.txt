@@ -1,0 +1,13 @@
+state={
+	id=626
+	name="STATE_626"
+	provinces={
+		908 2226 2540 4242 4874 6677 6702 6739 6766 6799 6842 6851 6876 6893 
+	}
+	history={
+        owner = DMN
+        add_core_of = DMN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=2
+	name="STATE_2"
+        impassable = yes
+	provinces={
+		581 836 3309 7810 
+	}
+	history={
+        owner = KNG
+        add_core_of = KNG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

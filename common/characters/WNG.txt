@@ -1,0 +1,17 @@
+characters = {
+WNG_Griffon = {
+		name = WNG_Griffon
+		portraits = {
+			civilian = {
+				large = GFX_WNG_Griffon_L
+			}
+		}
+		country_leader = {
+                        desc="WNG_Griffon_desc"
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

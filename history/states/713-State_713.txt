@@ -1,0 +1,13 @@
+state={
+	id=713
+	name="STATE_713"
+	provinces={
+		1668 3462 3701 3817 6994 7089 
+	}
+	history={
+        owner = MRT
+        add_core_of = MRT
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

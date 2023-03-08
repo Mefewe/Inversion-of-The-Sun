@@ -1,0 +1,13 @@
+state={
+	id=162
+	name="STATE_162"
+	provinces={
+		618 1004 1221 1328 1544 1689 2882 3015 3374 4810 4872 5149 5154 5183 5194 5204 5207 5213 
+	}
+	history={
+        owner = AZV
+        add_core_of = AZV
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

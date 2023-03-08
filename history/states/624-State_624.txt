@@ -1,0 +1,14 @@
+state={
+	id=624
+	name="STATE_624"
+        impassable = yes
+	provinces={
+		1364 6690 6696 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

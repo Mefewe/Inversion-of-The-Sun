@@ -1,0 +1,13 @@
+state={
+	id=544
+	name="STATE_544"
+	provinces={
+		1019 1312 1321 1538 2146 2519 3863 4195 4578 4841 4854 4927 6415 6441 6464 6499 6507 6533 6552 6553 6573 6574 6623 6667 6676 
+	}
+	history={
+        owner = HUO
+        add_core_of = HUO
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

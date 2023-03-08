@@ -1,0 +1,13 @@
+state={
+	id=899
+	name="STATE_899"
+	provinces={
+		913 1671 1174 2153 2444 2749 3967 4239 4590 7677 7712 7732 7748 7762 7767 8219 
+	}
+	history={
+        owner = KNG
+        add_core_of = KNG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

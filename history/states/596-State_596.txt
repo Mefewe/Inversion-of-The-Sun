@@ -1,0 +1,13 @@
+state={
+	id=596
+	name="STATE_596"
+	provinces={
+		585 854 2012 2626 3241 3271 3489 3535 3916 4611 6605 6637 6646 6661 6738 6759 6760 6769 6780 6793 
+	}
+	history={
+        owner = HUO
+        add_core_of = HUO
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

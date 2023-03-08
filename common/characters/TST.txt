@@ -1,0 +1,16 @@
+characters = {
+TST_Hilda = {
+		name = TST_Hilda
+		portraits = {
+			civilian = {
+				large = gfx/leaders/TST/portrait_TST_Hilda.dds
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

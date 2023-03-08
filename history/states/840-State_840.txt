@@ -1,0 +1,13 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		1499 2946 4200 7615 7627 
+	}
+	history={
+        owner = TAI
+        add_core_of = TAI
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

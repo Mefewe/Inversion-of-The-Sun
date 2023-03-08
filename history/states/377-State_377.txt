@@ -1,0 +1,13 @@
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		3211 4654 8150 8268 8269 
+	}
+	history={
+        owner = STR
+        add_core_of = STR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

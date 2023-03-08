@@ -1,0 +1,13 @@
+state={
+	id=648
+	name="STATE_648"
+	provinces={
+		73 831 894 2214 3312 3390 3708 4608 4712 4812 6790 6797 6807 6832 6836 6872 6910 
+	}
+	history={
+        owner = FEA
+        add_core_of = FEA
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

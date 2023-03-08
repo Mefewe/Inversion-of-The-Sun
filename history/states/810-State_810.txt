@@ -1,0 +1,13 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		211 802 1273 1408 1552 2009 4293 4916 7474 7509 
+	}
+	history={
+        owner = GEN
+        add_core_of = GEN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

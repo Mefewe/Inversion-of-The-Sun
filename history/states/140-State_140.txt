@@ -1,0 +1,13 @@
+state={
+	id=140
+	name="STATE_140"
+	provinces={
+		1023 1284 3218 4322 5155 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

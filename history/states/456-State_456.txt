@@ -1,0 +1,13 @@
+state={
+	id=456
+	name="STATE_456"
+	provinces={
+		351 1861 2245 2693 2877 3246 3947 4235 4350 4871 5923 6038 6055 6063 6168 6192 6217 6227 8200 
+	}
+	history={
+        owner = GRF
+        add_core_of = GRF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

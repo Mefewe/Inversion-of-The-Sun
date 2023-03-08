@@ -1,0 +1,17 @@
+characters = {
+SDL_Monarch = {
+		name = SDL_Monarch
+		portraits = {
+			civilian = {
+				large = GFX_SDL_Monarch_L
+			}
+		}
+		country_leader = {
+                        desc="SDL_Monarch_desc"
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

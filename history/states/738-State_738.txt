@@ -1,0 +1,13 @@
+state={
+	id=738
+	name="STATE_738"
+	provinces={
+		838 2139 2160 2776 7090 7123 7151 7178 7179 
+	}
+	history={
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

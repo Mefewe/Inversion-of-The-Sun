@@ -1,0 +1,14 @@
+state={
+	id=261
+	name="STATE_261"
+        impassable = yes
+	provinces={
+		33 1991 
+	}
+	history={
+        owner = OEF
+        add_core_of = OEF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

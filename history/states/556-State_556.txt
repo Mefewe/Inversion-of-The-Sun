@@ -1,0 +1,13 @@
+state={
+	id=556
+	name="STATE_556"
+	provinces={
+		958 2479 6446 6554 6561 
+	}
+	history={
+        owner = GRF
+        add_core_of = GRF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

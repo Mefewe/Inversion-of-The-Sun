@@ -1,0 +1,13 @@
+state={
+	id=681
+	name="STATE_681"
+	provinces={
+		93 226 1161 1234 1965 2022 2514 2926 3870 4631 4662 8009 8019 8039 8044 8053 8086 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

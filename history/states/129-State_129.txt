@@ -1,0 +1,13 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		139 1268 1634 1694 4582 5099 5111 5123 5135 
+	}
+	history={
+        owner = UNC
+        add_core_of = UNC
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

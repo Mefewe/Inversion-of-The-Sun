@@ -1,0 +1,13 @@
+state={
+	id=589
+	name="STATE_589"
+	provinces={
+		2345 2393 3636 7955 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+characters = {
+UNC_NoAuthority = {
+		name = UNC_NoAuthority
+		portraits = {
+			civilian = {
+				large = GFX_UNC_NoAuthority_L
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

@@ -1,0 +1,13 @@
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		1656 1818 1876 3230 3513 3609 3821 4076 7864 
+	}
+	history={
+        owner = DRG
+        add_core_of = DRG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

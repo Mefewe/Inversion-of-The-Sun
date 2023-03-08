@@ -1,0 +1,13 @@
+state={
+	id=795
+	name="STATE_795"
+	provinces={
+		1199 3170 4229 8051 
+	}
+	history={
+        owner = KNG
+        add_core_of = KNG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

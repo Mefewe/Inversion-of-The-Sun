@@ -1,0 +1,14 @@
+state={
+	id=537
+	name="STATE_537"
+        impassable = yes
+	provinces={
+		360 753 1210 1620 1756 1959 2545 2653 2663 2844 3041 3640 3903 4092 4491 4524 4695 6394 6395 6404 6417 6424 6438 6439 6456 6465 6473 6534 6607 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

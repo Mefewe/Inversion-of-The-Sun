@@ -1,0 +1,13 @@
+state={
+	id=737
+	name="STATE_737"
+	provinces={
+		177 4375 7109 7149 
+	}
+	history={
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

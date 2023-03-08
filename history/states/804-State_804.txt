@@ -1,0 +1,13 @@
+state={
+	id=804
+	name="STATE_804"
+	provinces={
+		1615 4501 7423 
+	}
+	history={
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

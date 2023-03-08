@@ -1,0 +1,13 @@
+state={
+	id=381
+	name="STATE_381"
+	provinces={
+		25 1295 1309 1746 1977 2316 2854 3213 3267 4048 4049 4219 4639 4797 4911 5619 5653 5685 5711 5738 5809 5847 5896 5959 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

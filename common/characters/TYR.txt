@@ -1,0 +1,17 @@
+characters = {
+TYR_Kriesleiter = {
+		name = TYR_Kreisleiter
+		portraits = {
+			civilian = {
+				large = GFX_TYR_Kriesleiter_L
+			}
+		}
+		country_leader = {
+                        desc="TYR_Kriesleiter_desc"
+			ideology = fascism_ideology
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

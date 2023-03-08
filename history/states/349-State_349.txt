@@ -1,0 +1,13 @@
+state={
+	id=349
+	name="STATE_349"
+	provinces={
+		8290 8294 8295 8296 8297 8298 8299 8300
+	}
+	history={
+        owner = SEQ
+        add_core_of = SEQ
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

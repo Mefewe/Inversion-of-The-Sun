@@ -1,0 +1,17 @@
+characters = {
+GRF_Griffon = {
+		name = GRF_Griffon
+		portraits = {
+			civilian = {
+				large = GFX_GRF_Griffon_L
+			}
+		}
+		country_leader = {
+                        desc="GRF_Griffon_desc"
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

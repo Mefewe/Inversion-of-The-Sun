@@ -1,0 +1,13 @@
+state={
+	id=855
+	name="STATE_855"
+	provinces={
+		844 1286 2326 2859 3101 4384 7701 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

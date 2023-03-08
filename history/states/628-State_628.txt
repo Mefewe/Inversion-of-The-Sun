@@ -1,0 +1,13 @@
+state={
+	id=628
+	name="STATE_628"
+	provinces={
+		2650 3510 
+	}
+	history={
+        owner = DRG
+        add_core_of = DRG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

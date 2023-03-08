@@ -1,0 +1,13 @@
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		536 1319 1622 2123 2446 3238 3861 3958 7358 7365 7408 7434 7465 7495 7499 7517 7553 
+	}
+	history={
+        owner = DMN
+        add_core_of = DMN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

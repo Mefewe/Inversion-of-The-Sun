@@ -1,0 +1,116 @@
+﻿oob = "CHN"
+
+capital = 715
+recruit_character = CHN_Queen_Chrysalis
+set_stability = 0.4
+set_war_support = 0.2
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+add_ideas = {
+		#laws
+		war_economy
+		service_by_requirement
+		closed_economy
+	}
+set_major = yes
+set_autonomy = {
+        target = MRT
+        autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+        target = DMN
+        autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+        target = VRB
+        autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+        target = FRD
+        autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+        target = KLG
+        autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+        target = OZB
+        autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+        target = CAR
+        autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+        target = FRZ
+        autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+        target = TYR
+        autonomous_state = autonomy_integrated_puppet
+}
+
+create_faction = NovaMill
+
+CHN = { 
+add_to_faction = MRT
+add_to_faction = DMN
+add_to_faction = VRB
+add_to_faction = FRD
+add_to_faction = KLG
+add_to_faction = CAR
+add_to_faction = OZB
+add_to_faction = FRZ
+add_to_faction = TYR }
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1768.7.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 85
+	communism = 5
+	neutrality = 5
+	fascism = 5
+}
+
+create_country_leader = {
+	name = "Franklin"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Earl"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "portrait_USA_earl_browder.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Haile"
+	desc = "POLITICS_HAILE_SELASSIE_DESC"
+	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+
+	}
+}

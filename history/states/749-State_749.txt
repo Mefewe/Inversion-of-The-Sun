@@ -1,0 +1,13 @@
+state={
+	id=749
+	name="STATE_749"
+	provinces={
+		172 334 837 1111 2340 2379 2766 2793 3083 3326 3604 3641 3775 7148 7188 7227 7282 7310 7324 
+	}
+	history={
+        owner = CAR
+        add_core_of = CAR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		991 1031 1417 1751 1905 3063 4574 4902 7908 7920 7937 7992 8229 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

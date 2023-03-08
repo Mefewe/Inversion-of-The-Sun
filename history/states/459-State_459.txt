@@ -1,0 +1,13 @@
+state={
+	id=459
+	name="STATE_459"
+	provinces={
+		3421 5970 5997 6049 6088 
+	}
+	history={
+        owner = SDL
+        add_core_of = SDL
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

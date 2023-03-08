@@ -1,0 +1,13 @@
+state={
+	id=705
+	name="STATE_705"
+	provinces={
+		857 6971 7008 7021 7053 7083 
+	}
+	history={
+        owner = GEN
+        add_core_of = GEN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

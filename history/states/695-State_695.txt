@@ -1,0 +1,13 @@
+state={
+	id=695
+	name="STATE_695"
+	provinces={
+		3191 3199 3776 4185 6940 6956 6969 6998 7041 7081 7118 7145 
+	}
+	history={
+        owner = FEA
+        add_core_of = FEA
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

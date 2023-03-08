@@ -1,0 +1,14 @@
+state={
+	id=76
+	name="STATE_76"
+        impassable = yes
+	provinces={
+		440 566 1164 2077 2165 3533 4246 4898 5027 5034 5072 
+	}
+	history={
+        owner = CRY
+        add_core_of = CRY
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

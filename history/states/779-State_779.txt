@@ -1,0 +1,13 @@
+state={
+	id=779
+	name="STATE_779"
+	provinces={
+		253 329 700 2971 3841 3924 4062 4296 4297 4791 7264 7401 7430 7547 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

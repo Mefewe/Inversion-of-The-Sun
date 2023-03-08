@@ -1,0 +1,13 @@
+state={
+	id=908
+	name="STATE_908"
+	provinces={
+		196 3221 7790 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

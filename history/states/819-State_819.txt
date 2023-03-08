@@ -1,0 +1,13 @@
+state={
+	id=819
+	name="STATE_819"
+	provinces={
+		348 882 1226 1868 2504 2925 3606 3646 7518 7575 7583 7588 7589 
+	}
+	history={
+        owner = VRB
+        add_core_of = VRB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

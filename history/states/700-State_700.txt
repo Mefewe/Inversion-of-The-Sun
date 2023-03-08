@@ -1,0 +1,14 @@
+state={
+	id=700
+	name="STATE_700"
+        impassable = yes
+	provinces={
+		1519 3923 6966 7072 7075 
+	}
+	history={
+        owner = TAI
+        add_core_of = TAI
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		2 333 787 874 1122 1679 2394 2883 4947 4965 4990 
+	}
+	history={
+        owner = UNC
+        add_core_of = UNC
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

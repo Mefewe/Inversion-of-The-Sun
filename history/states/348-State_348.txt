@@ -1,0 +1,13 @@
+state={
+	id=348
+	name="STATE_348"
+	provinces={
+		3746 8237 8240 8242 8245 8248 8247 8250 8251 8256
+	}
+	history={
+        owner = SEQ
+        add_core_of = SEQ
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

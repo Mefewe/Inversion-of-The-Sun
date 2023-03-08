@@ -1,0 +1,14 @@
+state={
+	id=910
+	name="STATE_910"
+        impassable = yes
+	provinces={
+		1388 3347 3977 7760 7772 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

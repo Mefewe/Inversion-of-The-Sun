@@ -1,0 +1,13 @@
+state={
+	id=631
+	name="STATE_631"
+	provinces={
+		1400 2078 3862 3957 4074 4218 4567 8022 8042 8062 8089 8102 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=598
+	name="STATE_598"
+	provinces={
+		38 474 520 1212 3915 8007 8024 8065 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

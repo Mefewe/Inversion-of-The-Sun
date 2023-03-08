@@ -1,0 +1,13 @@
+state={
+	id=529
+	name="STATE_529"
+	provinces={
+		1950 2141 2512 3282 6366 6505 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

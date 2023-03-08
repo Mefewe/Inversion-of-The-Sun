@@ -1,0 +1,13 @@
+state={
+	id=802
+	name="STATE_802"
+	provinces={
+		3140 3240 3987 7457 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

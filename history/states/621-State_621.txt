@@ -1,0 +1,13 @@
+state={
+	id=621
+	name="STATE_621"
+	provinces={
+		278 1798 4494 6679 6700 6741 
+	}
+	history={
+        owner = LBR
+        add_core_of = LBR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

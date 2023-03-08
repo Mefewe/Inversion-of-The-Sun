@@ -1,0 +1,14 @@
+state={
+	id=729
+	name="STATE_729"
+        impassable = yes
+	provinces={
+		377 555 1167 1649 2196 3779 4247 7106 7199 7216 7240 7275 7279 7307 
+	}
+	history={
+        owner = TAI
+        add_core_of = TAI
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

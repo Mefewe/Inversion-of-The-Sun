@@ -1,0 +1,13 @@
+state={
+	id=545
+	name="STATE_545"
+	provinces={
+		1366 1675 2780 2973 3519 6576 6618 
+	}
+	history={
+        owner = GRF
+        add_core_of = GRF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

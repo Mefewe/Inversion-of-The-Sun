@@ -1,0 +1,13 @@
+state={
+	id=28
+	name="STATE_28"
+	provinces={
+		282 310 717 1202 1354 1462 1593 1884 2044 2108 2304 2934 2939 3060 3168 4412 4768 4953 4982 5001 5011 5017 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

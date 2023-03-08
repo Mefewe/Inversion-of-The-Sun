@@ -1,0 +1,14 @@
+state={
+	id=191
+	name="STATE_191"
+        impassable = yes
+	provinces={
+		973 1516 1897 2096 2829 3112 5229 
+	}
+	history={
+        owner = CRY
+        add_core_of = CRY
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

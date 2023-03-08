@@ -1,0 +1,13 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		435 619 2428 2677 3135 3147 3427 3820 4183 4215 4395 4893 7635 7656 7664 7694 7703 7740 
+	}
+	history={
+        owner = KNG
+        add_core_of = KNG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		986 1613 1994 2033 4021 7865 7895 
+	}
+	history={
+        owner = VRB
+        add_core_of = VRB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

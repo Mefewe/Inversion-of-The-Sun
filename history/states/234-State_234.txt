@@ -1,0 +1,13 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		197 5266 5296 5320 
+	}
+	history={
+        owner = OEF
+        add_core_of = OEF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=500
+	name="STATE_500"
+	provinces={
+		2983 3028 3196 3437 3622 3728 4113 4358 4538 6249 6262 6329 6359 6369 6413 6432 8201 8202
+	}
+	history={
+        owner = MRT
+        add_core_of = MRT
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

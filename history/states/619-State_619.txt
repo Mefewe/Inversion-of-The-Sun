@@ -1,0 +1,13 @@
+state={
+	id=619
+	name="STATE_619"
+	provinces={
+		915 1007 1527 1780 2638 2855 3478 4527 6666 6689 6745 6773 6792 6835 
+	}
+	history={
+        owner = GEN
+        add_core_of = GEN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

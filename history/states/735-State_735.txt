@@ -1,0 +1,13 @@
+state={
+	id=735
+	name="STATE_735"
+	provinces={
+		1395 2181 2633 3037 3043 3152 3532 4138 4480 7058 7103 7233 7254 7270 7294 7431 7459 
+	}
+	history={
+        owner = TAI
+        add_core_of = TAI
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

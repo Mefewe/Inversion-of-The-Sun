@@ -1,0 +1,13 @@
+state={
+	id=523
+	name="STATE_523"
+	provinces={
+		778 1104 6273 6433 
+	}
+	history={
+        owner = MRT
+        add_core_of = MRT
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

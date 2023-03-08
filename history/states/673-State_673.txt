@@ -1,0 +1,13 @@
+state={
+	id=673
+	name="STATE_673"
+	provinces={
+		541 2594 3245 3430 6824 6848 6854 6890 6902 6928 6950 6995 
+	}
+	history={
+        owner = BCK
+        add_core_of = BCK
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=674
+	name="STATE_674"
+	provinces={
+		994 3049 3468 3549 4583 8238
+	}
+	history={
+        owner = KLG
+        add_core_of = KLG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

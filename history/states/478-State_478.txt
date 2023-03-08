@@ -1,0 +1,13 @@
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		431 718 2384 2705 3283 3480 4618 4765 6060 6100 6135 6174 6279 6304 
+	}
+	history={
+        owner = MRT
+        add_core_of = MRT
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

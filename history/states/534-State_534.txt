@@ -1,0 +1,14 @@
+state={
+	id=534
+	name="STATE_534"
+        impassable = yes
+	provinces={
+		384 1022 1385 4203 6363 6372 6421 6437 
+	}
+	history={
+        owner = HUO
+        add_core_of = HUO
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

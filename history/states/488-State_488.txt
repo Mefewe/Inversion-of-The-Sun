@@ -1,0 +1,13 @@
+state={
+	id=488
+	name="STATE_488"
+	provinces={
+		94 648 1394 4110 4262 4338 4826 6155 6156 6177 6195 6207 6247 6251 6268 6300 6328 6341 6350 6384 6398 
+	}
+	history={
+        owner = OEF
+        add_core_of = OEF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

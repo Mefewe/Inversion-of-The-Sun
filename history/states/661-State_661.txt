@@ -1,0 +1,13 @@
+state={
+	id=661
+	name="STATE_661"
+	provinces={
+		554 904 3685 6811 6849 
+	}
+	history={
+        owner = LBR
+        add_core_of = LBR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=280
+	name="STATE_280"
+	provinces={
+		458 1455 1836 2135 3276 3891 4001 5356 5378 5389 5427 5430 5455 5458 
+	}
+	history={
+        owner = OEF
+        add_core_of = OEF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

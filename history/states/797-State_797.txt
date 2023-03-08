@@ -1,0 +1,13 @@
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		1166 1215 1317 1463 2204 3099 4460 4693 4794 7392 7419 
+	}
+	history={
+        owner = GEN
+        add_core_of = GEN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

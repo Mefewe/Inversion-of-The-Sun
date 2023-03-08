@@ -1,0 +1,13 @@
+state={
+	id=875
+	name="STATE_875"
+	provinces={
+		78 1037 2773 2984 3755 4269 4762 7688 7720 7814 
+	}
+	history={
+        owner = VRB
+        add_core_of = VRB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

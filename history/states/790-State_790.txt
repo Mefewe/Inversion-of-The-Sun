@@ -1,0 +1,13 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		636 2003 2350 3073 3323 3797 4144 4486 7332 7383 7439 7440 7445 7487 7506 7524 7536 7541 
+	}
+	history={
+        owner = VRB
+        add_core_of = VRB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

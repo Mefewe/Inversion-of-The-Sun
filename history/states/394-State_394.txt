@@ -1,0 +1,13 @@
+state={
+	id=394
+	name="STATE_394"
+	provinces={
+		297 1143 2020 2764 3130 3248 3477 4109 4737 5696 5700 5719 5778 5835 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

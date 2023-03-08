@@ -1,0 +1,13 @@
+state={
+	id=663
+	name="STATE_663"
+	provinces={
+		8 3132 4698 6809 
+	}
+	history={
+        owner = DMN
+        add_core_of = DMN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

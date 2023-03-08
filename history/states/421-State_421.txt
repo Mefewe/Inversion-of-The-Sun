@@ -1,0 +1,13 @@
+state={
+	id=421
+	name="STATE_421"
+	provinces={
+		283 1433 1560 2400 3047 4028 7993 8016 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=552
+	name="STATE_552"
+	provinces={
+		592 2696 6458 6482 6497 6523 6550 
+	}
+	history={
+        owner = SDL
+        add_core_of = SDL
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

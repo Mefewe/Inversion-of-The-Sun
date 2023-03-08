@@ -1,0 +1,13 @@
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		437 897 2087 2707 2955 3672 4271 4565 7910 7932 7936 7947 7949 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

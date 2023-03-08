@@ -1,0 +1,13 @@
+state={
+	id=719
+	name="STATE_719"
+	provinces={
+		1755 7020 
+	}
+	history={
+        owner = BCK
+        add_core_of = BCK
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

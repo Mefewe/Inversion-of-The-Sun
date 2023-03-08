@@ -1,0 +1,13 @@
+state={
+	id=806
+	name="STATE_806"
+	provinces={
+		1569 1806 4346 4917 8084 
+	}
+	history={
+        owner = KLG
+        add_core_of = KLG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

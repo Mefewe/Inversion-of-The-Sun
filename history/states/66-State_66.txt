@@ -1,0 +1,13 @@
+state={
+	id=66
+	name="STATE_66"
+	provinces={
+		91 940 5005 5016 
+	}
+	history={
+        owner = UNC
+        add_core_of = UNC
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

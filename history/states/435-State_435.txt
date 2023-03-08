@@ -1,0 +1,13 @@
+state={
+	id=435
+	name="STATE_435"
+	provinces={
+		115 262 1704 1738 1917 2318 8152 8273 8275
+	}
+	history={
+        owner = KLG
+        add_core_of = KLG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=698
+	name="STATE_698"
+	provinces={
+		2667 3210 6981 7034 
+	}
+	history={
+        owner = HUO
+        add_core_of = HUO
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

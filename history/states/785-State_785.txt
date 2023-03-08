@@ -1,0 +1,13 @@
+state={
+	id=785
+	name="STATE_785"
+	provinces={
+		267 670 671 1673 2261 2941 3448 7326 7363 7367 7371 7402 7409 7452 7561 
+	}
+	history={
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

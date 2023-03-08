@@ -1,0 +1,13 @@
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		128 588 1032 1357 7189 7202 
+	}
+	history={
+        owner = HUO
+        add_core_of = HUO
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

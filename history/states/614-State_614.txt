@@ -1,0 +1,13 @@
+state={
+	id=614
+	name="STATE_614"
+	provinces={
+		1012 1107 1307 2023 2557 2796 3392 3442 3530 3750 4298 4542 4687 4748 6715 6744 6764 6776 6808 6826 6834 6856 6929 
+	}
+	history={
+        owner = HUO
+        add_core_of = HUO
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

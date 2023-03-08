@@ -1,0 +1,17 @@
+characters = {
+CHN_Queen_Chrysalis = {
+		name = CHN_Queen_Chrysalis
+		portraits = {
+			civilian = {
+				large = GFX_CHN_Queen_Chrysalis_L
+			}
+		}
+		country_leader = {
+                        desc="CHN_Chrysalis_desc"
+			ideology = fascism_ideology
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

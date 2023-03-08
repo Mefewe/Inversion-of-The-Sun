@@ -1,0 +1,13 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		501 2248 2292 2396 7721 7727 7756 7757 7773 7785 7800 7809 7813 7827 7844 
+	}
+	history={
+        owner = KNG
+        add_core_of = KNG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

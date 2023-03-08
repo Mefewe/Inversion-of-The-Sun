@@ -1,0 +1,13 @@
+state={
+	id=610
+	name="STATE_610"
+	provinces={
+		2634 3304 3393 4360 4669 6615 6644 
+	}
+	history={
+        owner = CAR
+        add_core_of = CAR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

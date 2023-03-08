@@ -1,0 +1,13 @@
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		1033 1308 1954 2039 2932 3718 
+	}
+	history={
+        owner = CRY
+        add_core_of = CRY
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

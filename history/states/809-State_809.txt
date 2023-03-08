@@ -1,0 +1,13 @@
+state={
+	id=809
+	name="STATE_809"
+	provinces={
+		320 860 1703 1787 2621 3990 4253 4428 4547 7453 7485 7544 7587 
+	}
+	history={
+        owner = GEN
+        add_core_of = GEN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

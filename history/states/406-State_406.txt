@@ -1,0 +1,13 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		449 2681 3189 7946 
+	}
+	history={
+        owner = KNG
+        add_core_of = KNG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

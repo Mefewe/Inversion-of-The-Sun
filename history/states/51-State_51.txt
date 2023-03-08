@@ -1,0 +1,13 @@
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		248 1741 1906 4504 7806 7830 7870 
+	}
+	history={
+        owner = VRB
+        add_core_of = VRB
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

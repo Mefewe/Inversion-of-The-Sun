@@ -1,0 +1,13 @@
+state={
+	id=781
+	name="STATE_781"
+	provinces={
+		185 464 1604 1654 1841 2052 2335 2474 3214 3919 4483 4678 7349 7373 7374 7385 7437 7456 7491 7500 7534 7568 7573 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

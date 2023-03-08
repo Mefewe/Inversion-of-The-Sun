@@ -1,0 +1,13 @@
+state={
+	id=458
+	name="STATE_458"
+	provinces={
+		439 495 3016 3350 3961 4117 4131 4821 5983 6073 6107 
+	}
+	history={
+        owner = WNG
+        add_core_of = WNG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

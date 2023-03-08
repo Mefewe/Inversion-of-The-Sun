@@ -1,0 +1,13 @@
+state={
+	id=665
+	name="STATE_665"
+	provinces={
+		75 365 371 692 984 1219 2363 2515 3224 3275 3302 3308 4026 4505 4526 4638 4673 6892 6990 7146 7197 7239 7260 7359 7390 7424 7470 7492 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

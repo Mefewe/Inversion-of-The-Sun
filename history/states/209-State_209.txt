@@ -1,0 +1,14 @@
+state={
+	id=209
+	name="STATE_209"
+        impassable = yes
+	provinces={
+		374 419 483 1743 2397 2414 2750 3086 3456 3550 3772 4413 4930 5287 5322 5323 5355 
+	}
+	history={
+        owner = CRY
+        add_core_of = CRY
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

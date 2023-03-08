@@ -1,0 +1,13 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		1064 3479 8283 8285 8287 8291 8292 
+	}
+	history={
+        owner = SEQ
+        add_core_of = SEQ
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

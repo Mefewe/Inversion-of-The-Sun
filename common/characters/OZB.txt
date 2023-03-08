@@ -1,0 +1,17 @@
+characters = {
+OZB_Kriesleiter = {
+		name = OZB_Kreisleiter
+		portraits = {
+			civilian = {
+				large = GFX_OZB_Kriesleiter_L
+			}
+		}
+		country_leader = {
+                        desc="OZB_Kriesleiter_desc"
+			ideology = fascism_ideology
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

@@ -1,0 +1,13 @@
+state={
+	id=484
+	name="STATE_484"
+	provinces={
+		16 633 1144 1632 2085 2193 2938 3150 3272 3597 7964 7970 7984 7996 8013 8014 8038 8056 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

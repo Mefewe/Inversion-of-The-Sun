@@ -1,0 +1,26 @@
+tutorial = {
+    window = "tutorial_screen_1"
+
+    use_mil_fac = {
+        textbox = "obj_1"
+    }
+    use_civ_fac = {
+        textbox = "obj_2"
+    }
+
+    use_nav_dock = {
+        textbox = "obj_3"
+    }
+
+    has_set_nat_focus = {
+        textbox = "obj_4"
+    }
+
+    is_queue_div = {
+        textbox = "obj_5"
+    }
+
+    is_researching_tech = {
+        textbox = "obj_6"
+    }
+}

@@ -1,0 +1,13 @@
+state={
+	id=868
+	name="STATE_868"
+	provinces={
+		1165 2702 3159 4256 7668 7684 7695 7714 7724 
+	}
+	history={
+        owner = DRG
+        add_core_of = DRG
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

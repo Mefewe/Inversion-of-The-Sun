@@ -1,0 +1,13 @@
+state={
+	id=602
+	name="STATE_602"
+	provinces={
+		1046 1153 2100 2360 3385 6566 6656 6681 6691
+	}
+	history={
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

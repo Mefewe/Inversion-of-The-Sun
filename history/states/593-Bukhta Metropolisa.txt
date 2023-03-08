@@ -1,0 +1,14 @@
+state={
+	id=593
+	name="STATE_593"
+	provinces={
+		 9125
+	}
+	history={
+        owner = CHN
+        add_core_of = CHN
+		victory_points = { 9125 5 }
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

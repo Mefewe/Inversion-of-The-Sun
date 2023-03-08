@@ -1,0 +1,13 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		406 746 2019 3934 7973 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

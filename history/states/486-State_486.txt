@@ -1,0 +1,13 @@
+state={
+	id=486
+	name="STATE_486"
+	provinces={
+		2471 4390 6072 6161 
+	}
+	history={
+        owner = GRF
+        add_core_of = GRF
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

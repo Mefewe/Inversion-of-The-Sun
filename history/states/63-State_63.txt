@@ -1,0 +1,14 @@
+state={
+	id=63
+	name="STATE_63"
+        impassable = yes
+	provinces={
+		135 1195 1272 2038 3255 4005 4764 4995 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

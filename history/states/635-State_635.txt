@@ -1,0 +1,13 @@
+state={
+	id=635
+	name="STATE_635"
+	provinces={
+		2133 2687 3771 4096 6653 6654 6704 6791 6853 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

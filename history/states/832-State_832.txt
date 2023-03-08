@@ -1,0 +1,13 @@
+state={
+	id=832
+	name="STATE_832"
+	provinces={
+		586 1833 8055 8075 
+	}
+	history={
+        owner = FRD
+        add_core_of = FRD
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

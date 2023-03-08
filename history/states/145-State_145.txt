@@ -1,0 +1,13 @@
+state={
+	id=145
+	name="STATE_145"
+	provinces={
+		626 676 943 2840 5150 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}
