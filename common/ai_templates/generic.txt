@@ -1,7 +1,9 @@
 armor_generic = {
 
 	blocked_for = {
-	TST
+	OEF
+	CHN
+	EQS
 	}
 
 	roles = {
@@ -496,7 +498,9 @@ armor_generic = {
 garrison_generic = {
 
 	blocked_for = {
-		TST
+		OEF
+		CHN
+		EQS
 	}
 	
 	roles = {
@@ -616,7 +620,7 @@ suppression_generic = {
 
 			modifier = {
 				factor = 50
-				tag = GER
+				tag = CHN
 				OR = {
 					AND = {
 						has_completed_focus = GER_anschluss
@@ -698,7 +702,9 @@ suppression_generic = {
 infantry_generic = {
 
 	blocked_for = {
-		TST
+		OEF
+		CHN
+		EQS
 	}
 
 	roles = {
@@ -802,7 +808,9 @@ infantry_generic = {
 infantry_big_generic = {
 
 	blocked_for = {
-		TST
+		OEF
+		CHN
+		EQS
 	}
 
 	roles = {
@@ -923,7 +931,9 @@ infantry_big_generic = {
 mountaineers_generic = {
 
 	blocked_for = {
-		TST
+		OEF
+		CHN
+		EQS
 	}
 
 	roles = {
@@ -1027,7 +1037,9 @@ mountaineers_generic = {
 marines_generic = {
 
 	blocked_for = {
-		TST
+		OEF
+		CHN
+		EQS
 	}
 
 	roles = {
@@ -1215,7 +1227,9 @@ marines_generic = {
 paratrooper_generic = {
 
 	blocked_for = {
-		TST
+		OEF
+		CHN
+		EQS
 	}
 
 	roles = {

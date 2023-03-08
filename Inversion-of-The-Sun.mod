@@ -41,6 +41,7 @@ replace_path="common/occupation_laws"
 replace_path="common/bop"
 replace_path="common/scripted_guis"
 replace_path="common/abilities"
+replace_path="common/autonomous_states"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
 replace_path="gfx/FX"
 tags={

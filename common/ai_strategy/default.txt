@@ -224,11 +224,8 @@ default_role_ratios = {
 
 bba_air_prod_1 = {
 	# TODO BFW: this was moved from germany's strats
-
 	enable = {
 		always = yes
-		NOT = { original_tag = GER } 
-		NOT = { original_tag = ENG }
 	}
 
 	abort_when_not_enabled = yes

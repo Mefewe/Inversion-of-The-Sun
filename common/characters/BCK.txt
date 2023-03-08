@@ -8,7 +8,7 @@ BCK_Griffon = {
 		}
 		country_leader = {
                         desc="BCK_Griffon_desc"
-			ideology = neutrality
+			ideology = despotism
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1

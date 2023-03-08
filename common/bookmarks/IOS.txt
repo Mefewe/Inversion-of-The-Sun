@@ -1,14 +1,35 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "IOS_S_NAME"
+		desc = "IOS_S_NAME"
 		date = 1770.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "---"
+		default_country = "OEF"
 		default = yes
-		
+		"CHN"={
+			history = "CHN_IOS_S_DESC"
+			ideology = fascism
+			available = {  }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"OEF"={
+			history = "OEF_IOS_S_DESC"
+			ideology = democratic
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "IOS_S_NAME_DESC"
 		}
 
 		effect = {
