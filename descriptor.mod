@@ -46,5 +46,5 @@ tags={
 	"Map"
 }
 name="Inversion of The Sun"
-supported_version="1.12.0"
+supported_version="1.12.*"
 path="mod/Inversion-of-The-Sun/"

@@ -46,6 +46,6 @@ replace_path="gfx/FX"
 tags={
 	"Map"
 }
-name="KAL7"
-supported_version="1.9.3"
+name="Inversion of The Sun"
+supported_version="1.12.*"
 path="mod/Inversion-of-The-Sun/"
