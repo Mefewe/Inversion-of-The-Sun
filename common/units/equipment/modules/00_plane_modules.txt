@@ -1,7 +1,5 @@
 equipment_modules = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
+
 	### Engines
 
 	engine_1_1x = {

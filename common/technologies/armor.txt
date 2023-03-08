@@ -1466,12 +1466,7 @@ technologies = {
 				factor = 1.2
 				date > "1939.1.1"
 			}
-			modifier = {
-				tag = FRA
-				factor = 3
-			}
-			
-		
+
 			modifier = {
 				factor = 0
 				OR = {
