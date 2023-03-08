@@ -1,0 +1,26 @@
+﻿focus_tree = {
+	id = maretropolia
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MRT
+		}
+	}
+	
+	focus = {
+		id = test1
+		icon = GFX_goal_generic_small_arms
+		x = -1
+		y = 1
+		relative_position_id = test1
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			}
+	    }
+    }

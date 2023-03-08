@@ -28,8 +28,98 @@ bookmarks = {
 
 			}
 		}
+
+		"EQS"={
+			history = "EQS_IOS_S_DESC"
+			ideology = neutrality
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
 		"---"={
 			history = "IOS_S_NAME_DESC"
+		}
+		"VRB"={
+                        minor = yes
+			history = "VBT_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"KLG"={
+                        minor = yes
+			history = "KLG_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"MRT"={
+                        minor = yes
+			history = "MRT_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"DMN"={
+                        minor = yes
+			history = "DMN_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"FRD"={
+                        minor = yes
+			history = "FRD_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"CAR"={
+                        minor = yes
+			history = "DMN_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
 		}
 
 		effect = {
