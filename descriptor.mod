@@ -48,4 +48,4 @@ tags={
 }
 name="Inversion of The Sun"
 supported_version="1.12.*"
-path="mod/IOS_BLYA/"
+path="mod/Inversion-of-The-Sun/"
