@@ -2,8 +2,13 @@ state={
 	id=582
 	name="STATE_582"
 	provinces={
-		
+		455 645 1937 2777 4121 4128 4378 4754 8021 8067 
+	}
+	history={
+		owner = KLG
+		add_core_of = KLG
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
