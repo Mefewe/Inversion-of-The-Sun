@@ -2,7 +2,7 @@ state={
 	id=35
 	name="STATE_35"
 	provinces={
-		66 1565 2185 2656 3802 8027 
+	 2185 2656 3802 8027 
 	}
 	history={
         owner = KNG

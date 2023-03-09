@@ -1,13 +1,18 @@
+
 state={
 	id=693
 	name="STATE_693"
-	provinces={
-		2889 3834 3858 4489 7965 7966 7968 8228 8233  
-	}
+
 	history={
-        owner = KNG
-        add_core_of = KNG
-    }
+		owner = KNG
+		add_core_of = KNG
+
+	}
+
+	provinces={
+		2889 3834 3858 4489 7965 7966 7968 8228 8233 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

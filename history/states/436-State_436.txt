@@ -1,13 +1,18 @@
+
 state={
 	id=436
 	name="STATE_436"
+
+	history={
+		owner = KNG
+		add_core_of = KNG
+
+	}
+
 	provinces={
 		66 1565 2185 2656 3802 8027 
 	}
-	history={
-        owner = KNG
-        add_core_of = KNG
-    }
 	manpower=0
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

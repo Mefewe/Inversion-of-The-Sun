@@ -1,13 +1,18 @@
+
 state={
 	id=477
 	name="STATE_477"
+
+	history={
+		owner = OZB
+		add_core_of = OZB
+
+	}
+
 	provinces={
 		479 8023 8028 
 	}
-	history={
-        owner = OZB
-        add_core_of = OZB
-    }
 	manpower=0
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
