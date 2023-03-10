@@ -1,16 +1,12 @@
-
 state={
 	id=889
 	name="STATE_889"
-
+	provinces={
+		1504
+	}
 	history={
 		owner = UNC
 		add_core_of = UNC
-
-	}
-
-	provinces={
-		1504 1589 3068 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
