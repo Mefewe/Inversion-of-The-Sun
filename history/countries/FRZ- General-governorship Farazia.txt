@@ -1,4 +1,4 @@
-﻿capital = 715
+﻿capital = 781
 recruit_character = FRZ_Kreisleiter
 set_stability = 0.4
 set_war_support = 0.2

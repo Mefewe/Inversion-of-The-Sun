@@ -1,4 +1,4 @@
-﻿capital = 715
+﻿capital = 616
 recruit_character = CAR_Waltzman
 set_stability = 0.4
 set_war_support = 0.2

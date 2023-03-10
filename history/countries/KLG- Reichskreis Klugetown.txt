@@ -1,4 +1,4 @@
-﻿capital = 715
+﻿capital = 822
 recruit_character = CHN_Queen_Chrysalis
 set_stability = 0.4
 set_war_support = 0.2

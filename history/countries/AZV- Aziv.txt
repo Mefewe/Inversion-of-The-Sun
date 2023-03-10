@@ -1,4 +1,4 @@
-﻿capital = 174
+﻿capital = 162
 recruit_character = AZV_Shel
 set_stability = 0.4
 set_war_support = 0.2

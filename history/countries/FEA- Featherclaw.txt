@@ -1,4 +1,4 @@
-﻿capital = 174
+﻿capital = 647
 recruit_character = FEA_Griffon
 set_stability = 0.4
 set_war_support = 0.2

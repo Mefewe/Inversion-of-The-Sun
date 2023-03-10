@@ -1,4 +1,4 @@
-﻿capital = 715
+﻿capital = 754
 recruit_character = TAI_Kirin
 set_stability = 0.4
 set_war_support = 0.2

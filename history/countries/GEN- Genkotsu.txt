@@ -1,4 +1,4 @@
-﻿capital = 715
+﻿capital = 748
 recruit_character = GEN_Kirin
 set_stability = 0.4
 set_war_support = 0.2

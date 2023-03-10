@@ -1,4 +1,4 @@
-﻿capital = 715
+﻿capital = 483
 recruit_character = SDL_Monarch
 set_stability = 0.4
 set_war_support = 0.2

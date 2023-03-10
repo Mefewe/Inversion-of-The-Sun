@@ -1,4 +1,4 @@
-﻿capital = 174
+﻿capital = 408
 recruit_character = WNG_Griffon
 set_stability = 0.4
 set_war_support = 0.2

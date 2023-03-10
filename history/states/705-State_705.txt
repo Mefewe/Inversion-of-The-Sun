@@ -2,7 +2,7 @@ state={
 	id=705
 	name="STATE_705"
 	provinces={
-		857 6971 7008 7021 7053 7083 
+		857 6971 7008 7021 7053 7083 9106
 	}
 	history={
         owner = GEN

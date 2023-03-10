@@ -1,4 +1,4 @@
-﻿capital = 174
+﻿capital = 679
 recruit_character = BCK_Griffon
 set_stability = 0.4
 set_war_support = 0.2
