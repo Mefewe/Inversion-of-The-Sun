@@ -7,7 +7,7 @@ FRZ_Kriesleiter = {
 			}
 		}
 		country_leader = {
-                        desc="FRZ_Kriesleiter_desc"
+            desc="FRZ_Kriesleiter_desc"
 			ideology = fascism_ideology
 			traits = {  }
 			expire = "2000.3.1.1"

@@ -7,11 +7,11 @@ SDL_Monarch = {
 			}
 		}
 		country_leader = {
-                        desc="SDL_Monarch_desc"
+            desc="SDL_Monarch_desc"
 			ideology = despotism
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1
 		}
 	}
-	}
+}

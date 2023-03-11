@@ -146,9 +146,7 @@ country_event = {
 	trigger = {
 		NOT = { has_government = fascism }
 		fascism > 0.6
-		NOT = { fascism > 0.7 }
-		check_has_focus_tree_to_switch_to_fascism = yes
-		
+		NOT = { fascism > 0.7 }		
 	}
 
 	fire_only_once = yes
@@ -274,7 +272,6 @@ country_event = {
 		NOT = { has_government = democratic }
 		democratic > 0.6
 		NOT = { democratic > 0.7 }
-		check_has_focus_tree_to_switch_to_democratic = yes		
 	}
 
 	fire_only_once = yes
@@ -369,12 +366,7 @@ country_event = {
 		name = political.16.b
 
 		ai_chance = {
-			base = 1
-			modifier = {
-				factor = 0
-				has_dlc = "Battle for the Bosporus"
-				original_tag = BUL
-			}
+			base = 1			
 		}
 
 		add_political_power = -20
@@ -470,7 +462,6 @@ country_event = {
 		#has_idea = fascist_revolutionaries
 		NOT = { has_government = fascism }
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_fascism = yes		
 	}
 
 	mean_time_to_happen = {

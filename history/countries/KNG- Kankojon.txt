@@ -1,5 +1,5 @@
 ﻿capital = 795
-recruit_character = TAI_Kirin
+recruit_character = KNG_Kirin
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {

@@ -50,11 +50,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 4
-				tag = ENG
-			}
 		}
 
 		categories = {
@@ -175,11 +170,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 8
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 
 		categories = {

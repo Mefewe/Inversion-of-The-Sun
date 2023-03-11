@@ -1,0 +1,17 @@
+characters = {
+	SEQ_Nova = {
+			name = SEQ_Nova
+			portraits = {
+				civilian = {
+					large = GFX_SEQ_Nova_L
+				}
+			}
+			country_leader = {
+				desc="SEQ_Nova_desc"
+				ideology = despotism
+				traits = {  }
+				expire = "2000.3.1.1"
+				id = -1
+			}
+		}
+	}
