@@ -1362,7 +1362,12 @@ operation_boost_resistance = { ### 8 2/40
 
 	outcome_potential = {
 		FROM.FROM = {
-			if = {	
+			if = {
+				limit = {
+					ROOT = {
+						has_completed_focus = SWI_export_saboteurs
+					}
+				}
 				add_resistance_target = {
 					amount = 25
 					tooltip = intelligency_agency_resistance_boost_tt
@@ -1377,6 +1382,7 @@ operation_boost_resistance = { ### 8 2/40
 			}
 		}
 	}
+	
 
 	
 	target_weight = {
