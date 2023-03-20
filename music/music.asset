@@ -2,7 +2,7 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "Underdog.ogg"
+	file = "FinallyLanding.ogg"
 	volume = 0.65
 }
 
