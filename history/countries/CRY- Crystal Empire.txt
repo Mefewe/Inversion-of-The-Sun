@@ -1,4 +1,4 @@
-﻿capital = 174
+﻿capital = 921
 recruit_character = CRY_Cadence
 set_stability = 0.4
 set_war_support = 0.2
