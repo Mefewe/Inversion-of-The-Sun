@@ -15,6 +15,5 @@ units = {
 		division_template = "Template1"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
-
 	}
 }

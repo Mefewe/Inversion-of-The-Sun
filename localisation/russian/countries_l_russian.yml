@@ -390,4 +390,17 @@
  UNC_democratic_ADJ:0 "A"
  UNC_neutrality_ADJ:0 "A"
  UNC_communism_ADJ:0 "A"
+
+ ANF_communism:1 "АНД"
+ ANF_communism_DEF:1 "Анти-нирикское движение"
+ ANF_communism_ADJ:1 "Анти-нирикск"
+ ANF_fascism_ADJ:1 "Анти-нирикск"
+ ANF_neutrality_ADJ:1 "Анти-нирикск"
+ ANF_democratic_ADJ:1 "Анти-нирикск"
+ ANF_fascism:0 "А"
+ ANF_fascism_DEF:0 "А"
+ ANF_democratic:0 "A"
+ ANF_democratic_DEF:0 "A"
+ ANF_neutrality:1 "A"
+ ANF_neutrality_DEF:1 "A"
  

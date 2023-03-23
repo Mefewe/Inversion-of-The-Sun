@@ -1,0 +1,18 @@
+#STR_StormKing
+characters = {
+	STR_StormKing = {
+			name = STR_StormKing
+			portraits = {
+				civilian = {
+					large = GFX_STR_StormKing_L
+				}
+			}
+			country_leader = {
+				desc="STR_StormKing_desc"
+				ideology = despotism
+				traits = {  }
+				expire = "2000.3.1.1"
+				id = -1
+			}
+		}
+	}

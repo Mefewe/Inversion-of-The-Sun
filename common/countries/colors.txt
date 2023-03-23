@@ -117,8 +117,8 @@ color_ui = rgb { 174 97 36 }
 }
 
 HUO = {
-color = rgb { 201 70 58 }
-color_ui = rgb { 201 70 58 }
+color = rgb { 64 37 34 }
+color_ui = rgb { 64 37 34 }
 }
 
 GEN = {
@@ -146,7 +146,11 @@ color = rgb { 195 195 195 }
 color_ui = rgb { 195 195 195 }
 }
 
-
+ANF = {
+	color = rgb { 220 20 60 }
+	color_ui = rgb { 220 20 60 }
+}
+	
 
 
 

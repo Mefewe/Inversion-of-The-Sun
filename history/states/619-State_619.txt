@@ -5,7 +5,8 @@ state={
 		915 1007 1527 1780 2638 2855 3478 4527 6666 6689 6745 6773 6792 6835 
 	}
 	history={
-        owner = GEN
+		owner = ANF
+		add_core_of = ANF
         add_core_of = GEN
     }
 	manpower=0
