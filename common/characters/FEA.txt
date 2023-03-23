@@ -7,7 +7,7 @@ FEA_Griffon = {
 			}
 		}
 		country_leader = {
-                        desc="FEA_Griffon_desc"
+            desc="FEA_Griffon_desc"
 			ideology = despotism
 			traits = {  }
 			expire = "2000.3.1.1"

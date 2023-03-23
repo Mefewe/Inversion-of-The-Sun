@@ -7,7 +7,7 @@ DRG_Ember = {
 			}
 		}
 		country_leader = {
-                        desc="DRG_Ember_desc"
+            desc="DRG_Ember_desc"
 			ideology = despotism
 			traits = {  }
 			expire = "2000.3.1.1"

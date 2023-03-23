@@ -1,0 +1,17 @@
+characters = {
+	ANF_Lobbery_Arms = {
+			name = ANF_Lobbery_Arms
+			portraits = {
+				civilian = {
+					large = GFX_ANF_Lobbery_Arms_L
+				}
+			}
+			country_leader = {
+				desc="ANF_Lobbery_Arms_desc"
+				ideology = revolutonary_valterism
+				traits = {  }
+				expire = "2000.3.1.1"
+				id = -1
+			}
+	}
+}

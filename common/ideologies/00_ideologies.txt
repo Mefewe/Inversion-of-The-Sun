@@ -1,16 +1,13 @@
 ideologies = {
 
-	democratic = {
+	democratic = { #Neo-harmonism
 
 		types = {
 
-			conservatism = {
+			neoharmonism = {
 			}
 
-			liberalism = {
-			}
-
-			socialism = {
+			moderate_social_valterists = {
 			}
 		}
 
@@ -64,23 +61,14 @@ ideologies = {
 	}
 
 
-	communism = {
+	communism = { #Valterism
 
 		types = {
-
-			marxism = {
+			marxism = { #Valterism
+				
 			}
+			revolutonary_valterism = { #AZIV SYSTEM OMGGG
 
-			leninism = {
-			}
-
-			stalinism = {
-			}
-
-			anti_revisionism = {
-			}
-
-			anarchist_communism = {
 			}
 		}
 
@@ -124,23 +112,19 @@ ideologies = {
 
 	}
 
-	fascism = {
+	fascism = { #Crisatocrats
 
 		types = {
 
-			nazism = {
+			fascism_ideology = { #Crisatocracu
+			}
+			
+			sigardism = {
+
 			}
 
-			gen_nazism = {
-			}
+			neocrisatocracu = {
 
-			fascism_ideology = {
-			}
-
-			falangism = {
-			}
-
-			rexism = {
 			}
 		}
 
@@ -179,24 +163,9 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.65
 	}
 
-	neutrality = {
-
+	neutrality = { #"Old" ideologies
 		types = {
-
-			despotism  = {
-			}
-
-			oligarchism  = {
-			}
-
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-
-			moderatism = {
-			}
-
-			centrism = {
+			harmony  = {
 			}
 		}
 
@@ -239,5 +208,105 @@ ideologies = {
 
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
+	}
+
+	paternalism = { #Paternalism
+		types ={
+		fake_democracy = {
+
+		}
+		despotism  = {
+
+		}
+		provisional_government = {
+
+		}
+	}
+
+	dynamic_faction_names = {
+		"FACTION_NAME_NONALIGNED_1"
+		"FACTION_NAME_NONALIGNED_2"
+	}
+
+	color = { 50 50 50 }
+
+
+	war_impact_on_world_tension = 0.25		#no major danger
+	faction_impact_on_world_tension = 0.1
+
+	rules = {
+		can_force_government = yes
+		can_puppet = yes
+		can_send_volunteers = no
+	}
+
+	modifiers = {
+		#increased_influence_factor = 0.3 #30% easier to influence
+		generate_wargoal_tension = 0.3
+		join_faction_tension = 0.3
+		lend_lease_tension = 0.3
+		send_volunteers_tension = 0.20
+		guarantee_tension = 0.3
+		drift_defence_factor = -0.2
+		civilian_intel_to_others = 20.0
+		army_intel_to_others = 10.0
+		navy_intel_to_others = 20.0
+		airforce_intel_to_others = 10.0
+	}
+
+	faction_modifiers = {
+	}
+
+	ai_neutral = yes #
+	ai_ideology_wanted_units_factor = 1.20
+	}
+
+
+	progressivism = { #Social-Valterism
+		types ={
+		social_valterism = {
+
+		}
+		popularity_progressivism_ideology = {
+			
+		}
+	}
+
+	dynamic_faction_names = {
+		"FACTION_NAME_NONALIGNED_1"
+		"FACTION_NAME_NONALIGNED_2"
+	}
+
+	color = { 153 78 167 }
+
+
+	war_impact_on_world_tension = 0.3		#no major danger
+	faction_impact_on_world_tension = 0.1
+
+	rules = {
+		can_force_government = yes
+		can_puppet = yes
+		can_send_volunteers = no
+	}
+
+	modifiers = {
+		#increased_influence_factor = 0.3 #30% easier to influence
+		generate_wargoal_tension = 0.3
+		join_faction_tension = 0.35
+		lend_lease_tension = 0.35
+		send_volunteers_tension = 0.25
+		guarantee_tension = 0.35
+		drift_defence_factor = -0.2
+		civilian_intel_to_others = 20.0
+		army_intel_to_others = 10.0
+		navy_intel_to_others = 20.0
+		airforce_intel_to_others = 10.0
+	}
+
+	faction_modifiers = {
+	}
+
+	ai_communist =  yes #
+	ai_ideology_wanted_units_factor = 1.20
 	}
 }
