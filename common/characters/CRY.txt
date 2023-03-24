@@ -7,7 +7,7 @@ CRY_Cadence = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = hybrid_goverment
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1

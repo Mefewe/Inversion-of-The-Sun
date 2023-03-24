@@ -5,6 +5,7 @@ ideologies = {
 		types = {
 
 			neoharmonism = {
+				
 			}
 
 			moderate_social_valterists = {
@@ -165,8 +166,13 @@ ideologies = {
 
 	neutrality = { #"Old" ideologies
 		types = {
+
 			harmony  = {
 			}
+
+			silence  = { #FOR RETARDED KIRINS
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -176,10 +182,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_4"
 			"FACTION_NAME_NONALIGNED_5"
 		}
-
-		color = { 81 51 145 } 
-
-
+		color = { 40 60 50 } 
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
 
@@ -219,6 +222,14 @@ ideologies = {
 
 		}
 		provisional_government = {
+
+		}
+
+		hybrid_goverment = {
+
+		}
+
+		new_silence = { #for non-honor retarded kirins
 
 		}
 	}

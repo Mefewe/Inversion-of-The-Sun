@@ -996,7 +996,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "color_block"
-			position = { x = 60 y = -8 }
+			position = { x = 64 y = -8 }
 			spriteType = "GFX_pol_party_colour"
 		}
 			

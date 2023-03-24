@@ -17,7 +17,7 @@ add_ideas = {
 		closed_economy
 	}
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -34,7 +34,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = moderate_social_valterists
 	traits = {
 		
 	}
