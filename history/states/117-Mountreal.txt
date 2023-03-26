@@ -1,0 +1,28 @@
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		400 1625 2036 3397 5103 
+	}
+manpower=56430
+
+history={
+	add_building_construction = {
+		type = air_base
+		level = 4
+	}
+	add_building_construction = {
+		type = arms_factory
+		level = 2
+	}
+	add_building_construction = {
+		type = industrial_complex
+		level = 2
+	}
+	victory_points = {	400	5 }
+owner = EQS
+add_core_of = EQS
+}
+state_category = town
+	buildings_max_level_factor=1.000
+}
