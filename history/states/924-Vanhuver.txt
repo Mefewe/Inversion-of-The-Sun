@@ -1,0 +1,16 @@
+state={
+	id=924
+	name="STATE_924"
+	provinces={
+		1993 1443 1233 8185
+	}
+	history={
+		victory_points = {1233					20}
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = large_city
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
