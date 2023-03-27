@@ -1,13 +1,15 @@
 state={
-	id=334
-	name="STATE_334"
+	id=313
+	name="STATE_313"
 	provinces={
-		427 2325 2678 4674 5502 5506 5532 5591 5597 
+		557 847 1010 1892 4597 5486 5518 5561 
 	}
 	history={
+		victory_points = {5518 5		}
         owner = EQS
         add_core_of = EQS
     }
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }

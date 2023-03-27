@@ -1,0 +1,16 @@
+state={
+	id=926
+	name="STATE_926"
+	provinces={
+		4046 1093
+	}
+	history={
+		victory_points = {4046 25}
+		victory_points = {1093 25}
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = large_city
+	manpower=0
+	buildings_max_level_factor=1.000
+}
