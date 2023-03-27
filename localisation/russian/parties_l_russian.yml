@@ -1,18 +1,27 @@
 ﻿l_russian:
 
 # Neoharmonic
+democratic:0 "Неогармония"
+democratic_noun:0 "Неогармония"
+democratic_desc:0 "Механо-магический режим"
 neoharmonism:0 "Неогармонизм"
 neoharmonism_desc:0 "Описание неогармонизма"
 moderate_social_valterists:0 "Умеренный социал-вальтеризм"
 moderate_social_valterists_desc:0 "Описание умеренного социал-вальтеризма"
 
 # Valterism
+communism:0 "Вальтеризм"
+communism_noun:0 "Вальтеризм"
+communism_desc:0 "Механистический режим"
 marxism:0 "Классический вальтеризм"
 marxism_desc:0 "Описание классического вальтеризма"
 revolutonary_valterism:0 "Революционный вальтеризм"
 revolutonary_valterism_desc:0 "Описание революционного вальтеризма"
 
 # Chrysatocracy
+fascism:0 "Кризатократия"
+fascism_noun:0 "Кризатократия"
+fascism_desc:0 "Второтипичный режим"
 fascism_ideology:0 "Кризатократия"
 fascism_ideology_desc:0 "Описание кризатократии"
 sigardism:0 "Сигардизм"
@@ -21,12 +30,18 @@ neocrisatocracu:0 "Неокризатократия"
 neocrisatocracu_desc:0 "Описание неокризатократии"
 
 # Old ideologies
+neutrality:0 "Устаревшие идеи"
+neutrality_noun:0 "Устаревшие идеи"
+neutrality_desc:0 "Смешанный режим"
 harmony:0 "Гармония"
 harmony_desc:0 "Описание гармонии"
 silence:0 "Доктрина молчания"
 silence_desc:0 "Описание доктрины молчания"
 
 # Paternalism
+paternalism:0 "Патернализм"
+paternalism_noun:0 "Патернализм"
+paternalism_desc:0 "Смешанный режим"
 fake_democracy:0 "Псевдодемократия"
 fake_democracy_desc:0 "Описание псевдодемократии"
 despotism:0 "Автократия"
