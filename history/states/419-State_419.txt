@@ -10,6 +10,6 @@ state={
 		owner = EQS
 		add_core_of = EQS
 	}
-	state_category = rural
+	state_category = town
 	buildings_max_level_factor=1.000
 }
