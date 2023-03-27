@@ -1,0 +1,39 @@
+﻿l_russian:
+
+# Neoharmonic
+neoharmonism:0 "Неогармонизм"
+neoharmonism_desc:0 "Описание неогармонизма"
+moderate_social_valterists:0 "Умеренный социал-вальтеризм"
+moderate_social_valterists_desc:0 "Описание умеренного социал-вальтеризма"
+
+# Valterism
+marxism:0 "Классический вальтеризм"
+marxism_desc:0 "Описание классического вальтеризма"
+revolutonary_valterism:0 "Революционный вальтеризм"
+revolutonary_valterism_desc:0 "Описание революционного вальтеризма"
+
+# Chrysatocracy
+fascism_ideology:0 "Кризатократия"
+fascism_ideology_desc:0 "Описание кризатократии"
+sigardism:0 "Сигардизм"
+sigardism_desc:0 "Описание сигардизма"
+neocrisatocracu:0 "Неокризатократия"
+neocrisatocracu_desc:0 "Описание неокризатократии"
+
+# Old ideologies
+harmony:0 "Гармония"
+harmony_desc:0 "Описание гармонии"
+silence:0 "Доктрина молчания"
+silence_desc:0 "Описание доктрины молчания"
+
+# Paternalism
+fake_democracy:0 "Псевдодемократия"
+fake_democracy_desc:0 "Описание псевдодемократии"
+despotism:0 "Автократия"
+despotism_desc:0 "Описание автократии"
+provisional_government:0 "Временное правительство"
+provisional_government_desc:0 "Описание временного правительства"
+hybrid_goverment:0 "Гибридный режим"
+hybrid_goverment_desc:0 "Описание гибридного режима"
+new_silence:0 "Неосайленсизм"
+new_silence_desc:0 "Описание неосайленсизма"
