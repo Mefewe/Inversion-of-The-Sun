@@ -5,9 +5,11 @@ state={
 		311 517 729 1525 2503 2831 3553 4414 5450 5456 5498 5530 5547 5599 8195
 	}
 	history={
+		victory_points = { 4414 20	}
         owner = EQS
         add_core_of = EQS
     }
+	state_category = city
 	manpower=0
 	buildings_max_level_factor=1.000
 }

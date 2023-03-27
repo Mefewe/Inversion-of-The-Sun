@@ -7,8 +7,10 @@ state={
 manpower=0
 
 history={
+	victory_points = {6269 10}
 owner = EQS
 add_core_of = EQS
 }
+state_category = large_town
 	buildings_max_level_factor=1.000
 }
