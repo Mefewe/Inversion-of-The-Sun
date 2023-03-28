@@ -1,10 +1,11 @@
 state={
-	id=360
-	name="STATE_360"
+	id=339
+	name="STATE_339"
 	provinces={
-		2186 3564 3734 4237 5610 5643 5665 
+		756 1274 2066 3165 4363 4569 5505 5531 5554 5560 5584 5600 
 	}
 	history={
+		victory_points = {2066 15}
         owner = EQS
         add_core_of = EQS
     }

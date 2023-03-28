@@ -1,0 +1,15 @@
+state={
+	id=370
+	name="STATE_370"
+	provinces={
+		152 573 593 822 850 2127 2797 2999 3009 3737 4484 4534 4702 4920 5635 5659 5675 5683 5689 
+	}
+manpower=0
+
+history={
+owner = EQS
+add_core_of = EQS
+}
+state_category = town
+	buildings_max_level_factor=1.000
+}

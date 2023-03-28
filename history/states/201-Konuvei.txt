@@ -1,14 +1,14 @@
 state={
-	id=360
-	name="STATE_360"
+	id=201
+	name="STATE_201"
 	provinces={
-		2186 3564 3734 4237 5610 5643 5665 
+		143 389 511 2870 3129 3422 4145 4282 5234 5258 5289 
 	}
 	history={
         owner = EQS
         add_core_of = EQS
     }
-	state_category = large_town
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }

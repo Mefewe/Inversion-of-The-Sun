@@ -5,9 +5,11 @@ state={
 		4175
 	}
 	history={
+		victory_points = {4175 10}
         owner = CRY
         add_core_of = CRY
     }
+	state_category = large_town
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

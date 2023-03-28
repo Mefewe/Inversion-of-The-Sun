@@ -1,0 +1,16 @@
+state={
+	id=295
+	name="STATE_295"
+	provinces={
+		497 507 941 1958 2332 4012 4205 5401 5440 5457 
+	}
+	history={
+		victory_points = {497 50} # Клауд
+		victory_points = {2332 35} # Винни
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = metropolis
+	manpower=0
+	buildings_max_level_factor=1.000
+}
