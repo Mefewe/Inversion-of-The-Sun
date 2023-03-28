@@ -10,5 +10,6 @@ history={
 owner = EQS
 add_core_of = EQS
 }
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }
