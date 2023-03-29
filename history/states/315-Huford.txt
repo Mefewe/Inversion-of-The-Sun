@@ -1,13 +1,15 @@
 state={
-	id=271
-	name="STATE_271"
+	id=315
+	name="STATE_315"
 	provinces={
-		1075 2280 3382 5340 5373 5385 
+		2182 4466 
 	}
 	history={
+		victory_points = {2182 5}
         owner = EQS
         add_core_of = EQS
     }
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }
