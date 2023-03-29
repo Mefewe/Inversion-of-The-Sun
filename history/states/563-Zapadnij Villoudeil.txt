@@ -1,0 +1,14 @@
+state={
+	id=563
+	name="STATE_563"
+	provinces={
+		2476 3137 4064 6514 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = town
+	manpower=0
+	buildings_max_level_factor=1.000
+}

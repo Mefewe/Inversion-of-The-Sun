@@ -1,0 +1,16 @@
+state={
+	id=538
+	name="STATE_538"
+	provinces={
+		99 473 805 918 2200 2183 2239 3254 3370 4481 4647 4659 4836 6367 6416 6423 6479 6488 6509 6518 6519 6520 6557 6560 
+	}
+	history={
+		victory_points = {4836 1}
+		victory_points = {99 15}
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = large_town
+	manpower=0
+	buildings_max_level_factor=1.000
+}

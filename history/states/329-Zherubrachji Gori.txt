@@ -1,0 +1,14 @@
+state={
+	id=329
+	name="STATE_329"
+	provinces={
+		579 1530 5549 5580 5588 5616 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = pastoral
+	manpower=0
+	buildings_max_level_factor=1.000
+}

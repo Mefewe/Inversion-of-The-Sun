@@ -1,0 +1,14 @@
+state={
+	id=480
+	name="STATE_480"
+	provinces={
+		689 3429 3574 3753 4723 4725 6090 6111 6132 6159 6172 6213 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = pastoral
+	manpower=0
+	buildings_max_level_factor=1.000
+}

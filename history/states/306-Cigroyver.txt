@@ -1,0 +1,15 @@
+state={
+	id=306
+	name="STATE_306"
+	provinces={
+		5422 5436 5438 5475 
+	}
+	history={
+		victory_points = {5475 10}
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = town
+	manpower=0
+	buildings_max_level_factor=1.000
+}

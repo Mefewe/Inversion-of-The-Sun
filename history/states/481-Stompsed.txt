@@ -1,0 +1,15 @@
+state={
+	id=481
+	name="STATE_481"
+	provinces={
+		587 2442 3331 3989 4332 6140 6145 6166 
+	}
+	history={
+		victory_points = {3331 15}
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = large_town
+	manpower=0
+	buildings_max_level_factor=1.000
+}

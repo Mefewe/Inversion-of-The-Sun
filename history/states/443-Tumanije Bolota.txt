@@ -1,0 +1,14 @@
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		737 1482 2806 5882 5935 5943 5965 5977 5981 6006 6018 6023 6045 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = wasteland 
+	manpower=0
+	buildings_max_level_factor=1.000
+}

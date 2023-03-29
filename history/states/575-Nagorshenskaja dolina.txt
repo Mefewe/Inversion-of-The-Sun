@@ -1,0 +1,14 @@
+state={
+	id=575
+	name="STATE_575"
+	provinces={
+		382 1346 2032 3573 6490 6530 6594 6603 6606 6620 
+	}
+	history={
+        owner = EQS
+        add_core_of = EQS
+    }
+	state_category = rural
+	manpower=0
+	buildings_max_level_factor=1.000
+}
