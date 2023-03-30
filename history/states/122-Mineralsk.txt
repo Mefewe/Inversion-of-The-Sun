@@ -1,14 +1,15 @@
 state={
-	id=124
-	name="STATE_124"
-        impassable = yes
+	id=122
+	name="STATE_122"
 	provinces={
-		86 250 415 735 832 841 975 1178 1617 1932 2233 2936 3856 5101 5131 5133 
+		322 1081 2128 2342 3690 5100 5114 
 	}
 	history={
+		victory_points = {2128 5}
         owner = CRY
         add_core_of = CRY
     }
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }

@@ -1,13 +1,17 @@
 state={
-	id=122
-	name="STATE_122"
+	id=242
+	name="STATE_242"
 	provinces={
-		322 1081 2128 2342 3690 5100 5114 
+		155
 	}
 	history={
+		victory_points = {
+			155 5
+		}
         owner = CRY
         add_core_of = CRY
     }
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }
