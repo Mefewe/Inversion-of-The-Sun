@@ -15,8 +15,7 @@ state={
         add_core_of = CRY
         victory_points = {2256 34}
         }
-
         resources = {
-        }
     }
-}
+ }
+
