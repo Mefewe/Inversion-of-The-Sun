@@ -20,6 +20,7 @@ state={
         resources = {
         oil = 6
         steel = 4
-        aluminium =  3
+        aluminium 3
         }
+    }
 }

@@ -19,5 +19,5 @@ state={
         oil = 3
         steel = 4
         }
+    }
 }
-
