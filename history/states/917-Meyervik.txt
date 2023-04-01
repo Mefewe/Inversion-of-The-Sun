@@ -1,12 +1,13 @@
 state={
-	id=916
-	name="STATE_916"
+	id=917
+	name="STATE_917"
 	provinces={
-		9130 
+		9130
 	}
 	history={
         owner = CRY
         add_core_of = CRY
+        controller = CRY
     }
 	state_category = city_district
 	manpower=0
