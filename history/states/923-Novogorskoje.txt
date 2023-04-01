@@ -9,8 +9,12 @@ state={
         owner = CRY
         add_core_of = CRY
     }
+        resurces {
+        oil = 5
+        rubber = 3
+        }
 	state_category = town
-	manpower=0
+	manpower=44234
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -2,7 +2,7 @@ state={
     id=137
     name="STATE_137"
 
-    manpower=0
+    manpower=49202
 
     state_category = rural
 
@@ -16,7 +16,10 @@ state={
         victory_points = {1088 42} # Спайкстэд
         victory_points = {987 60} # Колдвинтер
         }
+
         resources = {
+        steel = 5
+        aluminium = 3
+        }
     }
 }
-

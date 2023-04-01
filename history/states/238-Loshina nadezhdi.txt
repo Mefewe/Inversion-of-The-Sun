@@ -9,7 +9,12 @@ state={
         owner = CRY
         add_core_of = EQS
     }
+        resources = {
+        steel = 2
+        tungsten = 2
+        aluminium = 3
+        }
 	state_category = large_town
-	manpower=0
+	manpower=179571
 	buildings_max_level_factor=1.000
 }

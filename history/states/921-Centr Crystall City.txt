@@ -15,5 +15,5 @@ state={
 	state_category = city_district
 	manpower=0
 	buildings_max_level_factor=0
-	local_supplies=0.000
+	local_supplies=1.000
 }

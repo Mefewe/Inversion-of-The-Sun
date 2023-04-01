@@ -1,0 +1,23 @@
+state={
+    id=41
+    name="STATE_41"
+
+    manpower=1497
+
+    state_category = rural
+
+    provinces={
+            130 170 191 478 543 818 1042 1127 1379 1510 2064 3311 3697 4453 4478 4957 4962 4964 4975 4994 4998 5014 5019 5028 
+    }
+
+    history={
+        owner = CRY
+        add_core_of = CRY
+        }
+
+        resources = {
+        oil = 3
+        steel = 4
+        }
+    }
+}

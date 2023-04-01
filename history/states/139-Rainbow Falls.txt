@@ -2,7 +2,7 @@ state={
 	id=139
 	name="STATE_139"
 
-	manpower=0
+	manpower=139678
 
 	state_category = large_city
 
@@ -15,8 +15,11 @@ state={
         add_core_of = CRY
 	victory_points = {5108 57}
         }
-        resources = {
-    }
- }
 
+        resources = {
+        steel = 2
+        aluminium = 6
+        }
+    }
+}
 

@@ -1,6 +1,6 @@
 state={
-    id=76
-    name="STATE_76"
+    id=209
+    name="STATE_209"
     impassable = yes
 
     manpower=0
@@ -8,7 +8,7 @@ state={
     state_category = wasteland
 
     provinces={
-            440 566 1164 2077 2165 3533 4246 4898 5027 5034 5072
+            374 419 483 1743 2397 2414 2750 3086 3456 3550 3772 4413 4930 5287 5322 5323 5355  
     }
 
     history={
@@ -17,3 +17,6 @@ state={
         }
     }
 }
+
+
+

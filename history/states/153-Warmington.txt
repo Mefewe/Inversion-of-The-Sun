@@ -2,7 +2,7 @@ state={
     id=153
     name="STATE_153"
 
-    manpower=0
+    manpower=60235
 
     state_category = rural
 
@@ -15,7 +15,9 @@ state={
         add_core_of = CRY
         victory_points = {2256 34}
         }
-        resources = {
-    }
- }
 
+        resources = {
+        steel = 3
+        }
+    }
+}
