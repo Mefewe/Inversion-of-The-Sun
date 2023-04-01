@@ -15,5 +15,4 @@ state={
         add_core_of = CRY
         victory_points = {4039 10}
         }
-    }
 }

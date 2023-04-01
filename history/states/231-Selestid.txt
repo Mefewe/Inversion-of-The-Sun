@@ -19,5 +19,5 @@ state={
         resources = {
         steel = 3
         }
-    }
 }
+

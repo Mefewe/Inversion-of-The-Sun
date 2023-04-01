@@ -20,5 +20,4 @@ state={
         aluminium = 2
         steel = 1
         }
-    }
 }
