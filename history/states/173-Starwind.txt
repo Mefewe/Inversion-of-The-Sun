@@ -1,24 +1,22 @@
 state={
-    id=141
-    name="STATE_141"
+    id=173
+    name="STATE_173"
 
-    manpower=60923
+    manpower=13489
 
     state_category = rural
 
     provinces={
-            173 4918 5180 
+            368 2021 3251 5176 5197 
     }
 
     history={
         owner = CRY
         add_core_of = CRY
-        victory_points = {173 75}
         }
 
         resources = {
-        steel = 4
-        aluminium = 2
+        steel = 5
         }
     }
 }

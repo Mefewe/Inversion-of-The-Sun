@@ -10,6 +10,6 @@ state={
         add_core_of = CRY
     }
 	state_category = town
-	manpower=0
+	manpower=48502
 	buildings_max_level_factor=1.000
 }
