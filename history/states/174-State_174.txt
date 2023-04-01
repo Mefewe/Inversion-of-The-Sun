@@ -7,6 +7,7 @@ state={
 	history={
         owner = CRY
         add_core_of = CRY
+        controller = CRY
     }
 	state_category = city_district
 	manpower=0

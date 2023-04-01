@@ -2,11 +2,12 @@ state={
 	id=921
 	name="STATE_921"
 	provinces={
-		9126 9133
+		9126
 	}
 	history={
         owner = CRY
         add_core_of = CRY
+        controller = CRY
     }
 	state_category = town
 	manpower=0
