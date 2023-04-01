@@ -1,0 +1,12 @@
+#scripted triggers for Division Medals feature
+
+should_have_equestrian_medals_trigger = {
+	original_tag = EQS
+}
+
+
+should_have_any_unique_medals_trigger = {
+	OR = {
+		should_have_equestrian_medals_trigger = yes
+	}
+}
