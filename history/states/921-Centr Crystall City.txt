@@ -9,8 +9,8 @@ state={
         add_core_of = CRY
         controller = CRY
     }
-	state_category = town
-	manpower=0
+	state_category = city_district
+	manpower=200
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

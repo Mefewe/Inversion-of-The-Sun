@@ -107,232 +107,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 				rule = allow_release_nations
 				option = FREE
 			}
-			
 		}
 		always = yes
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_TRANSYLVANIA_TOOLTIP
-			
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_POLAND_DANZIG_TOOLTIP
-			
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_COSSACK_TOOLTIP
-
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_POLAND_KASHUBIA_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_POLAND_SILESIA_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_ITALY_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_ETHIOPIA_COMPLIANCE_TOOLTIP
-			
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_ITALY_PAP_TOOLTIP
-			
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SPAIN_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_ANARCHIST_SPAIN_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-	}
-	
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_KURDISTAN_TOOLTIP
-			
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_BLOCKED_TOOLTIP
-			always = no
-		}
 	}
 }
 DIPLOMACY_MILACC_ENABLE_TRIGGER = {
@@ -880,20 +656,35 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				rule = allow_volunteers
 				option = LIMITED
 			}
-		}
-		
-		#else_if = { #Can only send Volunteers to Ethiopia while having the National Spirit to do so)
+		}	
+		#else_if = { #Soviet volunteers to China (other ideologies -> Only to one China)
 		#	limit = {
-		#		has_dlc = "By Blood Alone"
-		#		has_idea = ETH_support_for_ethiopia_idea
+		#		original_tag = SOV
+		#		NOT = { has_government = communism }
+		#		FROM = { is_literally_china = yes }
 		#	}
 		#	custom_trigger_tooltip = {
-		#		tooltip = RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT
-		#		FROM = { tag = ETH } 
+		#		tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_ONLY_ONE_TT
+		#		NOT = {
+		#			any_other_country = {
+		#				is_literally_china = yes
+		#				NOT = { tag = FROM }
+		#				has_country_flag = SOV_russian_volunteers_in_china_flag
+		#			}
+		#		}
 		#	}
 		#}
-		else = {
-			always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_volunteers
+				option = SAME_IDEOLOGY
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_VOLUNTEERS_SAME_IDEOLOGY_TT
+			has_government = FROM
 		}
 	}
 	if = {
@@ -911,7 +702,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 }
 
 game_weight_can_add_fascist = {
-
+	
 }
 
 game_weight_can_add_democratic = {
@@ -923,12 +714,5 @@ game_weight_can_add_unaligned = {
 }
 
 game_weight_can_add_communist = {
-	
-}
-
-DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
-	
-}
-DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 	
 }
