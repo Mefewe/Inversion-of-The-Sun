@@ -1,13 +1,23 @@
 state={
 	id=42
 	name="STATE_42"
+
+	manpower=1257
+
+	state_category = rural
+
 	provinces={
 		408 542 596 916 1090 1138 1331 1515 2914 3265 3804 3904 4848 4959 4970 4986 4987 4988 5004 5012 5044 5051 
 	}
+
 	history={
         owner = CRY
         add_core_of = CRY
+	victory_points = {1515 10}
+        }
+
+        resources = {
+        oil = 5
+        }
     }
-	manpower=0
-	buildings_max_level_factor=1.000
 }

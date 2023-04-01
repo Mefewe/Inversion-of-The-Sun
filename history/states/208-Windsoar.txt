@@ -1,0 +1,22 @@
+state={
+    id=208
+    name="STATE_208"
+
+    manpower=0
+
+    state_category = rural
+
+    provinces={
+            1225 4013 4105 
+    }
+
+    history={
+        owner = CRY
+        add_core_of = CRY
+        victory_points = {4105 18}
+        }
+
+        resources = {
+        }
+    }
+}

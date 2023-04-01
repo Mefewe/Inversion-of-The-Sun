@@ -1,0 +1,22 @@
+state={
+    id=169
+    name="STATE_169"
+
+    manpower=0
+
+    state_category = rural
+
+    provinces={
+            684 1688 3859 3931 4593 5157 5173 
+    }
+
+    history={
+        owner = CRY
+        add_core_of = CRY
+        victory_points = {5157 82}
+        }
+
+        resources = {
+        }
+    }
+}
