@@ -314,7 +314,6 @@ technologies = {
 		}
 	
 
-		enable_tactic = tactic_blitz
 		
 		
 		path = {
@@ -369,9 +368,7 @@ technologies = {
 			max_organisation = 3
 			breakthrough = 0.20
 		}
-		
-		enable_tactic = tactic_blitz
-		
+				
 	
 		xor = {
 			mobile_infantry
@@ -1264,9 +1261,6 @@ technologies = {
 		}
 		
 		
-		enable_tactic = tactic_blitz
-		
-		
 		path = {
 			leads_to_tech = concentrated_fire_plans 
 			research_cost_coeff = 1
@@ -1965,7 +1959,6 @@ technologies = {
 			max_organisation = 5
 		}
 		
-		enable_tactic = tactic_blitz
 		enable_tactic = tactic_elastic_defense
 		
 		
@@ -2346,7 +2339,6 @@ technologies = {
 			default_morale = 0.1
 		}
 		
-		enable_tactic = tactic_blitz
 		enable_tactic = tactic_elastic_defense
 		
 		
@@ -2798,9 +2790,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
-		enable_tactic = tactic_blitz
-		
+		xp_unlock_cost = 100		
 		
 		path = {
 			leads_to_tech = operational_concentration
