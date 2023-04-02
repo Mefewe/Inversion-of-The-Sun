@@ -682,11 +682,6 @@ default_area_priority_non_africa = {
         id = africa
         value = -70
     }
-    ai_strategy = {
-        type = area_priority
-        id = suez
-        value = -40
-    }
 }
 
 default_railway_gun_management = {
