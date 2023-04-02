@@ -1,7 +1,6 @@
 state={
 	id=42
 	name="STATE_42"
-
 	manpower=1257
 
 	state_category = pastoral
@@ -11,6 +10,7 @@ state={
 	}
 
 	history={
+		set_demilitarized_zone = yes
         owner = CRY
         add_core_of = CRY
 	victory_points = {1515 10}
