@@ -99,6 +99,19 @@ categories =  {
 		sound_type = plains
 	}
 	
+	tonnel = {
+		color = { 255 129 0 }
+		movement_cost = 0.9
+		ai_terrain_importance_factor = 0.1
+		combat_width = 20
+		units = {
+			defence = +0.2
+		}
+		combat_support_width = 10
+		match_value = 0.5
+		sound_type = plains
+	}
+
 	urban = {
 		color = { 120 120 120 }
 		movement_cost = 1.2
