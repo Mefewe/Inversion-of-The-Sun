@@ -1,0 +1,7 @@
+state_categories={
+	non_industry_city_district = {
+		local_building_slots = 1
+		color = { 250 200 0 }
+        resistance_growth = 0.1
+		}
+}

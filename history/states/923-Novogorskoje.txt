@@ -13,7 +13,7 @@ state={
             arms_factory = 1
             }
     }
-        resources {
+        resources = {
         oil = 5
         rubber = 3
         }
