@@ -16,4 +16,10 @@ areas = {
 			asia
 		}
 	}
+	#################### CRY
+	cristall_city_area = {
+		strategic_regions = {
+			2 # C C
+		}
+	}
 }
