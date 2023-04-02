@@ -89,17 +89,70 @@ division_template = {
 
 units = {
         division = {
-                name = "Thing1"
-		location = 3235
-		division_template = "Infantry Divisiona"
-		start_experience_factor = 0.25
-		start_equipment_factor = 1.0
-	}
-        division = {
                 name = "Thing2"
 		location = 3235
 		division_template = "Corpa de Volunteera"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###################### ТАНКИ
+        division = {
+                name = "First Tank Brigade"
+		location = 5157
+		division_template = "Armora Brigada"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "Two Tank Brigade"
+		location = 9131
+		division_template = "Armora Brigada"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###################### ПЕХОТА
+        division = {
+                name = "1 Division of Infantry"
+		location = 3235
+		division_template = "Infantry Divisiona"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+
+        division = {
+                name = "2 Division of Infantry"
+		location = 1563
+		division_template = "Infantry Divisiona"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0 
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3 Division of Infantry"
+		location = 4039
+		division_template = "Infantry Divisiona"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4 Division of Infantry"
+		location = 155
+		division_template = "Infantry Divisiona"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5 Division of Infantry"
+		location = 2128
+		division_template = "Infantry Divisiona"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
 	}
 }
