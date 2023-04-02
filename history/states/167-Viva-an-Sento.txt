@@ -7,13 +7,13 @@ state={
     state_category = rural
 
     provinces={
-            372 796 2199 2559 
+            372 796 2199 2559 9154 
     }
 
     history={
         owner = CRY
         add_core_of = CRY
-        victory_points = {2559 19}
+        victory_points = {9154 19}
         buildings = {
             infrastructure = 2
             }

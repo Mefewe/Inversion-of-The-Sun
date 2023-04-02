@@ -1,0 +1,17 @@
+state={
+	id=930
+	name="STATE_930"
+	provinces={
+		9137 9138 
+	}
+	history={
+        owner = CRY
+        add_core_of = CRY
+        buildings = {
+            infrastructure = 2
+            }
+        }
+	state_category = wasteland
+	manpower=206
+	buildings_max_level_factor=1.000
+}

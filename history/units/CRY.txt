@@ -113,7 +113,7 @@ units = {
                 name = "1. Regimenta de Guard «Amore»"
 		location = 9126
 		division_template = "Elite Guard Regimenta"
-		start_experience_factor = 0.80
+		start_experience_factor = 0.85
 		start_equipment_factor = 0.0
                 start_manpower_factor = 1.0
 	}
