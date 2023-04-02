@@ -2,9 +2,9 @@ state={
     id=156
     name="STATE_156"
 
-    manpower=0
+    manpower=83760
 
-    state_category = rural
+    state_category = city_district
 
     provinces={
             1021 1549 5189 
@@ -13,10 +13,10 @@ state={
     history={
         owner = CRY
         add_core_of = CRY
-        victory_points = {5189 50}
+        victory_points = {5189 17}
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 2
+            }
         }
-
-        resources = {
-        }
-    }
 }

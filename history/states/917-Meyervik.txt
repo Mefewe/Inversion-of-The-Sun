@@ -8,9 +8,13 @@ state={
         owner = CRY
         add_core_of = CRY
         controller = CRY
-    }
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 1
+            }
+        }
 	state_category = city_district
-	manpower=0
+	manpower=178957
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

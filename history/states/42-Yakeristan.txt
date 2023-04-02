@@ -4,7 +4,7 @@ state={
 
 	manpower=1257
 
-	state_category = rural
+	state_category = pastoral
 
 	provinces={
 		408 542 596 916 1090 1138 1331 1515 2914 3265 3804 3904 4848 4959 4970 4986 4987 4988 5004 5012 5044 5051 
@@ -19,5 +19,4 @@ state={
         resources = {
         oil = 5
         }
-    }
 }

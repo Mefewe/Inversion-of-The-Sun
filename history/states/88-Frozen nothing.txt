@@ -4,7 +4,7 @@ state={
 
     manpower=1893
 
-    state_category = rural
+    state_category = wasteland
 
     provinces={
             1033 1308 1954 2039 2932 3718 
@@ -18,5 +18,4 @@ state={
         resources = {
         oil = 4
         }
-    }
 }

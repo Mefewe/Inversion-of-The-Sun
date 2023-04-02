@@ -4,7 +4,7 @@ state={
 
     manpower=15129
 
-    state_category = rural
+    state_category = pastoral
 
     provinces={
             1584 5186 
@@ -13,6 +13,8 @@ state={
     history={
         owner = CRY
         add_core_of = CRY
+        buildings = {
+            infrastructure = 1
+            }
         }
-    }
 }

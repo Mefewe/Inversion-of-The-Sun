@@ -4,7 +4,7 @@ state={
 
     manpower=9723
 
-    state_category = rural
+    state_category = pastoral
 
     provinces={
             1846 
@@ -13,10 +13,12 @@ state={
     history={
         owner = CRY
         add_core_of = CRY
+        buildings = {
+            infrastructure = 2
+            }
         }
 
         resources = {
         steel = 1
         }
-    }
 }

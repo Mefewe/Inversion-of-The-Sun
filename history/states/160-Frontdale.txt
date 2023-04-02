@@ -13,12 +13,14 @@ state={
     history={
         owner = CRY
         add_core_of = CRY
-        victory_points = {2322 76}
+        victory_points = {2322 15}
+        buildings = {
+            infrastructure = 2
+            }
         }
 
         resources = {
         aluminium = 2
         steel = 1
         }
-    }
 }

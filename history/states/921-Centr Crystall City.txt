@@ -8,9 +8,12 @@ state={
         owner = CRY
         add_core_of = CRY
         controller = CRY
-    }
-	state_category = town
-	manpower=0
+        buildings = {
+            infrastructure = 5
+            }
+        }
+	state_category = wasteland
+	manpower=1005
 	buildings_max_level_factor=0
 	local_supplies=1.000
 }

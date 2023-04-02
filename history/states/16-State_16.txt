@@ -1,6 +1,7 @@
 state={
 	id=16
 	name="STATE_16"
+        state_category = wasteland
 	provinces={
 		269 2974 3079 3798 4132 4945 4951 
 	}
@@ -8,6 +9,6 @@ state={
         owner = CRY
         add_core_of = CRY
     }
-	manpower=0
+	manpower=367
 	buildings_max_level_factor=1.000
 }

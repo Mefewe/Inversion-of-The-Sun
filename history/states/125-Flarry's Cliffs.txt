@@ -15,5 +15,4 @@ state={
         owner = CRY
         add_core_of = CRY
         }
-    }
 }

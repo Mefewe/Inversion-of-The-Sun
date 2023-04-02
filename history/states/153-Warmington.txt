@@ -4,7 +4,7 @@ state={
 
     manpower=60235
 
-    state_category = rural
+    state_category = city_district
 
     provinces={
 	    2256 2902 
@@ -13,11 +13,13 @@ state={
     history={
         owner = CRY
         add_core_of = CRY
-        victory_points = {2256 34}
+        victory_points = {2256 12}
+        buildings = {
+            infrastructure = 3
+            }
         }
 
         resources = {
         steel = 3
         }
-    }
 }

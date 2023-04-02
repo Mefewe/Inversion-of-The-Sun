@@ -5,11 +5,15 @@ state={
 		2145 2731 3378 5172 5192 1672 
 	}
 	history={
-		victory_points = {5172 5}
+		victory_points = {5172 12}
         owner = CRY
         add_core_of = CRY
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            }
     }
-	state_category = town
+	state_category = city_district
 	manpower=48502
 	buildings_max_level_factor=1.000
 }

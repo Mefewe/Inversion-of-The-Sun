@@ -4,7 +4,7 @@ state={
 
     manpower=1540
 
-    state_category = rural
+    state_category = wasteland
 
     provinces={
             85 1187 4108 
@@ -14,5 +14,4 @@ state={
         owner = CRY
         add_core_of = CRY
         }
-    }
 }
