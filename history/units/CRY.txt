@@ -19,9 +19,9 @@ division_template = {
 division_template = {
         name = "Elite Guard Regimenta"
         regiments = {
-                infantry = { x = 0 y = 0 }
-                infantry = { x = 0 y = 1 }
-                infantry = { x = 0 y = 2 }
+                guard = { x = 0 y = 0 }
+                guard = { x = 0 y = 1 }
+                guard = { x = 0 y = 2 }
         }
         support = {
                 engineer = { x = 0 y = 0 }
