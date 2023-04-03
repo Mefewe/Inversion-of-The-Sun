@@ -177,6 +177,13 @@ generic = {
 		unique = {}
 	}
 
+	guard = {
+		prefix = ""
+		generic = { "Guard Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+
 	# Operative code names
 	codename = {
 		prefix = ""
