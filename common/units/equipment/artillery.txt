@@ -32,7 +32,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 4
 		
-		build_cost_ic = 3.5
+		build_cost_ic = 3.0
 		resources = {
 			tungsten = 1
 			steel = 2
@@ -59,7 +59,7 @@ equipments = {
 		breakthrough = 7
 		soft_attack = 30
 		
-		build_cost_ic = 4
+		build_cost_ic = 3.5
 		resources = {
 			tungsten = 1
 			steel = 2
@@ -84,7 +84,7 @@ equipments = {
 			steel = 3
 		}
 	}
-
+############################################################### ДАЛЬШЕ ГОВНО
 	# Nebelwerfers!
 	rocket_artillery_equipment = {
 		year = 1940

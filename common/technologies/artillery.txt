@@ -4,6 +4,7 @@ technologies = {
 
 		enable_equipments = {
 			artillery_equipment_1
+			artillery_ammo_equipment_0
 		}
 
 		path = {
@@ -132,6 +133,7 @@ technologies = {
 
 		enable_equipments = {
 			artillery_equipment_2
+			artillery_ammo_equipment_1
 		}
 
 		enable_equipment_modules = {
@@ -248,7 +250,9 @@ technologies = {
 	}
 
 	artillery3 = {
-
+		enable_equipments = {
+			artillery_ammo_equipment_2
+		}
 		artillery = {
 			soft_attack = 0.1
 		}
@@ -358,7 +362,9 @@ technologies = {
 	}
 
 	artillery5 = {
-
+		enable_equipments = {
+			artillery_ammo_equipment_4
+		}
 		artillery = {
 			soft_attack = 0.1
 		}
