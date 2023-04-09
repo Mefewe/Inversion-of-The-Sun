@@ -1,0 +1,18 @@
+state_control_effect_914 = {
+	if = {
+		limit = {
+			controller = {
+				VKR_polevoje_dvizhnije = yes
+			}
+		}
+		set_state_name = STATE_914_p
+		set_province_name = {
+			id = 9128
+			name = VICTORY_POINTS_9128_p
+		}
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 9128
+	}
+}

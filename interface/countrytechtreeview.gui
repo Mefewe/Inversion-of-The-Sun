@@ -480,7 +480,7 @@ guiTypes = {
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
-				}
+				}	
 
 			}
 
@@ -533,7 +533,19 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			
+			gridboxtype = {
+				name = "military_infrastructure1_tree"
+				position = { x = 100 y = 1575 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "command_and_control1_tree"
+				position = { x = 100 y = 1750 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 
 		containerWindowType = {
