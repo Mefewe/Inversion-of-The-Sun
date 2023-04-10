@@ -2,7 +2,7 @@ state_control_effect_914 = {
 	if = {
 		limit = {
 			controller = {
-				VKR_polevoje_dvizhnije = yes
+				has_country_flag = VKR_polevoje_dvizhnije
 			}
 		}
 		set_state_name = STATE_914_p
