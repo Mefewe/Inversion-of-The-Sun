@@ -15,6 +15,13 @@ color = rgb { 182 70 255 }
 color_ui = rgb { 182 70 255 }
 }
 
+
+VKR = {
+color = rgb { 241 29 19 }
+color_ui = rgb { 241 29 19 }
+}
+
+
 YAK = {
 color = rgb { 0 61 255 }
 color_ui = rgb { 0 61 255 }

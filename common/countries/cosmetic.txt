@@ -1,0 +1,4 @@
+VKR_INS = {
+color = rgb { 220 10 10 }
+color_ui = rgb { 220 10 10 }
+}

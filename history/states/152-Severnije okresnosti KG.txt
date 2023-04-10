@@ -5,8 +5,9 @@ state={
 		1731 5138 
 	}
 	history={
-        owner = CRY
+		controller = VKR
         add_core_of = CRY
+		add_core_of = VKR
         buildings = {
             infrastructure = 3
             }
