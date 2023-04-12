@@ -1,7 +1,7 @@
 ﻿oob = "CRY"
 
 capital = 921
-recruit_character = CRY_Cadence
+recruit_character = CRY_Blekins_Ljonen
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {

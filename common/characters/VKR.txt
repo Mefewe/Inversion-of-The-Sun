@@ -1,9 +1,9 @@
 characters = {
-CRY_Blekins_Ljonen = {
-		name = CRY_Blekins_Ljonen
+VKR_Blue_Grantes = {
+		name = VKR_Blue_Grantes
 		portraits = {
 			civilian = {
-				large = GFX_CRY_Blekins_Ljonen_L
+				large = GFX_VKR_Blue_Grantes_L
 			}
 		}
 		country_leader = {
