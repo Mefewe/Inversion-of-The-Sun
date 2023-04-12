@@ -7,7 +7,7 @@ VKR_Blue_Grantes = {
 			}
 		}
 		country_leader = {
-			ideology = hybrid_goverment
+			ideology = popularity_progressivism_ideology
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1
