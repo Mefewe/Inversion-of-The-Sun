@@ -7,6 +7,7 @@ CRY_Blekins_Ljonen = {
 			}
 		}
 		country_leader = {
+		    desc="CRY_Blekins_Ljonen_desc"
 			ideology = hybrid_goverment
 			traits = {  }
 			expire = "2000.3.1.1"
