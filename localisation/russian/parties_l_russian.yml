@@ -52,3 +52,6 @@ hybrid_goverment:0 "Гибридный режим"
 hybrid_goverment_desc:0 "Описание гибридного режима"
 new_silence:0 "Неосайленсизм"
 new_silence_desc:0 "Описание неосайленсизма"
+
+
+CRY_paternalism_party:0 "ВПС"
