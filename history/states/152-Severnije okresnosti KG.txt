@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		controller = VKR
+		owner = VKR
         add_core_of = CRY
 		add_core_of = VKR
         buildings = {

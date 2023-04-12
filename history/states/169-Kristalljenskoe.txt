@@ -4,10 +4,10 @@ state={
 
     manpower=167823
 
-    state_category = town
+    state_category = city
 
     provinces={
-            684 1688 3859 3931 4593 5157 5173 9149 
+            3931 5157 9149 
     }
 
     history={

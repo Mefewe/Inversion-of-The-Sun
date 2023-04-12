@@ -5,15 +5,25 @@ state={
 		9128 
 	}
 	history={
+		15.05.1769 = {
+			set_state_name = STATE_914_p
+			set_province_name = {
+				id = 9128
+				name = VICTORY_POINTS_9128_p
+			}
+		}
 		victory_points = {
 			9128 10
 		}
 		controller = VKR
+		owner = VKR
         add_core_of = CRY
 		add_core_of = VKR
         buildings = {
             infrastructure = 5
             }
+				set_state_flag = universal_renamings
+
     }
 	state_category = rural
 	manpower=278518

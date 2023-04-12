@@ -1,0 +1,43 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			FROM.FROM = {
+				if = {
+					limit = { 
+						OR = {
+							###also fires when the endonym button is clicked
+							has_state_flag = universal_renamings 
+							### non-universal renamings - seperate effects in other file as well for code efficiency
+							has_state_flag = state_renamings 
+							###does not fire when the button is clicked, only with on actions, meant mostly for non-renaming purposes
+							has_state_flag = state_control_change_effects 
+						}
+					}
+					meta_effect = {
+						text = {
+							state_control_effect_[STATEID] = yes
+						}
+						STATEID = "[?This.GetID]"
+					}
+				}
+				if = {
+					limit = { 
+						AND = {
+							###when effects need to be differentiated
+							OR = {
+								has_state_flag = universal_renamings 
+								has_state_flag = state_renamings 
+							}
+						}
+					}
+					meta_effect = {
+						text = {
+							non_endo_state_control_effect_[STATEID] = yes
+						}
+						STATEID = "[?This.GetID]"
+					}
+				}
+			}
+		}
+	}
+}

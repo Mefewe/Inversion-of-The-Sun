@@ -1,28 +1,27 @@
 state={
-    id=203
-    name="STATE_203"
+    id=931
+    name="STATE_931"
 
     manpower=129309
 
     state_category = town
 
     provinces={
-            220 222 875 1911 2985 
+           1495 1506
     }
 
     history={
         owner = CRY
         add_core_of = CRY
-        victory_points = {220 19} # Синева
+        victory_points = {1495 23} # Лунино
         buildings = {
             infrastructure = 3
-            industrial_complex = 2
+            industrial_complex = 1
+            arms_factory = 1
             }
         }
 
         resources = {
-        oil = 6
-        steel = 4
-        aluminium = 3
+        steel = 6
         }
 }

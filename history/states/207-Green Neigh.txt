@@ -7,7 +7,7 @@ state={
     state_category = rural
 
     provinces={
-            1506 5238 
+            5238 
     }
 
     history={
