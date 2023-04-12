@@ -38,6 +38,16 @@ harmony_desc:0 "Описание гармонии"
 silence:0 "Доктрина молчания"
 silence_desc:0 "Описание доктрины молчания"
 
+# Progressivism
+progressivism:0 "Прогрессивизм"
+progressivism_noun:0 "Прогрессивизм"
+progressivism_desc:0 "Прогрессивный механо-магический режим"
+social_valterism:0 "Социал-вальтеризм"
+social_valterism_desc:0 "Описание социал-вальтеризма"
+popularity_progressivism_ideology:0 "Широкая прогрессивисткая мысль"
+popularity_progressivism_ideology_desc:0 "Описание широкой прогрессивисткой мысли"
+
+
 # Paternalism
 paternalism:0 "Патернализм"
 paternalism_noun:0 "Патернализм"
