@@ -1,0 +1,17 @@
+characters = {
+AZV_Sshelj = {
+		name = AZV_Sshelj
+		portraits = {
+			civilian = {
+				large = GFX_AZV_Sshelj_L
+			}
+		}
+		country_leader = {
+		    desc="AZV_Sshelj_desc"
+			ideology = revolutonary_valterism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

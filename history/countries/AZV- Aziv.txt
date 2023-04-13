@@ -1,5 +1,5 @@
 ﻿capital = 162
-recruit_character = AZV_Shel
+recruit_character = AZV_Sshelj
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {
@@ -17,16 +17,17 @@ add_ideas = {
 		closed_economy
 	}
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 85
-	communism = 5
-	neutrality = 5
-	fascism = 5
+	democratic = 5
+	communism = 75
+	neutrality = 0
+	fascism = 0
+	progressivism = 20
 }
 
 create_country_leader = {
