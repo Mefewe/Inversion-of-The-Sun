@@ -494,6 +494,11 @@ spriteTypes = {
 		name = "GFX_ideology_neoharmonism_group"
 		texturefile = "gfx/interface/ideologies/neoharmonism_group.dds"
 	}
+	
+	spriteType = {
+	    name = "GFX_ideology_nationalism"
+	    texturefile = "gfx/interface/ideologies/nationalism.dds"
+	}
 	### End of new
 	
 	spriteType = {

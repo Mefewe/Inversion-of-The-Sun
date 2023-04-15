@@ -1,5 +1,5 @@
 ﻿capital = 754
-recruit_character = TAI_Kirin
+recruit_character = TAI_Neosilencism
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {
@@ -23,10 +23,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 85
-	communism = 5
-	neutrality = 5
-	fascism = 5
+	democratic = 0
+	communism = 0
+	neutrality = 40
+	fascism = 10
+        progressivism = 0
+        paternalism = 50
 }
 
 create_country_leader = {

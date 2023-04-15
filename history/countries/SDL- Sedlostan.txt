@@ -23,10 +23,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 85
+	democratic = 0
 	communism = 5
-	neutrality = 5
-	fascism = 5
+	neutrality = 35
+	fascism = 3
+        progressivism = 0
+        paternalism = 57
 }
 
 create_country_leader = {

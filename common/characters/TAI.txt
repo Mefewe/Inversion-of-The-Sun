@@ -1,0 +1,17 @@
+characters = {
+TAI_Neosilencism = {
+		name = TAI_Neosilencism
+		portraits = {
+			civilian = {
+				large = GFX_TAI_Neosilencism_L
+			}
+		}
+		country_leader = {
+		    desc="CRY_Blekins_Ljonen_desc"
+			ideology = new_silence
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

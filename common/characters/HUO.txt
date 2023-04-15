@@ -1,0 +1,17 @@
+characters = {
+HUO_Nationalism = {
+		name = HUO_Nationalism
+		portraits = {
+			civilian = {
+				large = GFX_HUO_Nationalism_L
+			}
+		}
+		country_leader = {
+		    desc="CRY_Blekins_Ljonen_desc"
+			ideology = nationalism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

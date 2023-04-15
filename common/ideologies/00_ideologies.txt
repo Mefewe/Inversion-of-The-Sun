@@ -127,6 +127,10 @@ ideologies = {
 			neocrisatocracu = {
 
 			}
+
+			nationalism = {
+
+			}
 		}
 
 		dynamic_faction_names = {

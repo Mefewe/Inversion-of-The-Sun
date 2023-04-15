@@ -124,8 +124,8 @@ color_ui = rgb { 174 97 36 }
 }
 
 HUO = {
-color = rgb { 64 37 34 }
-color_ui = rgb { 64 37 34 }
+color = rgb { 176 11 33 }
+color_ui = rgb { 176 11 33 }
 }
 
 GEN = {
