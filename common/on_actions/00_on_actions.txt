@@ -296,26 +296,6 @@ on_actions = {
 		}
 	}
 
-	#ROOT = attacking side
-	#FROM = defending side
-	
-	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
-	on_state_control_changed = {
-		effect = {														
-			if = {
-				limit = {
-					FROM.FROM = {
-						state = 85
-						has_dynamic_modifier = { modifier = international_city }
-					}
-				}
-				FROM.FROM = { remove_dynamic_modifier = { modifier = international_city } }
-			}
-		}
-	}
-
-
-
 	# From is owner country
 	on_army_leader_daily = {
 		effect = {
