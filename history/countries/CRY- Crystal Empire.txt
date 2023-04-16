@@ -2,15 +2,21 @@
 
 capital = 921
 recruit_character = CRY_Blekins_Ljonen
+
+set_research_slots = 3
 set_stability = 0.4
-set_war_support = 0.2
+set_war_support = 0
+add_command_power = 20
 set_technology = {
 	infantry_weapons = 1
+        tech_support = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	basic_train = 1
+	motorised_infantry = 1
+        advanced_medium_tank = 1
 }
 add_ideas = {
 		#laws
@@ -34,21 +40,26 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Franklin"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = moderate_social_valterists
+	name = "CRY_Blekins_Ljonen"
+	expire = "2000.1.1"
+	ideology = hybrid_government
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "CRY_Aquatic_Wave"
+	expire = "2000.1.1"
+	ideology = neoharmonism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Earl"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "portrait_USA_earl_browder.dds"
-	expire = "1965.1.1"
+	name = "CRY_Crystal_Congress"
+	expire = "2000.1.1"
 	ideology = marxism
 	traits = {
 		
@@ -56,11 +67,27 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Haile"
-	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "CRY_Azzelane_de_River"
+	expire = "2000.1.1"
+	ideology = nationalism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "CRY_Warro_Shtudi"
+	expire = "2000.1.1"
+	ideology = social_valterism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "CRY_Amore_Dynasty"
+	expire = "2000.1.1"
+	ideology = harmony
 	traits = {
 
 	}

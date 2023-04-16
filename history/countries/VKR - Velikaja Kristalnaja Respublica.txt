@@ -1,7 +1,11 @@
+oob = "VKR"
+
 capital = 914
 recruit_character = VKR_Blue_Grantes
-set_stability = 0.4
-set_war_support = 0.2
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.7
+add_command_power = 25
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
@@ -9,6 +13,43 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 	basic_train = 1
+        tech_support = 1
+	motorised_infantry = 1
+        advanced_medium_tank = 1
+}
+add_equipment_to_stockpile = {
+        type = infantry_equipment_1
+        amount = 4948
+}
+add_equipment_to_stockpile = {
+        type = infantry_ammo_equipment_1
+        amount = 15068
+
+}
+add_equipment_to_stockpile = {
+        type = artillery_equipment_1
+        amount = 736
+
+}
+add_equipment_to_stockpile = {
+        type = artillery_ammo_equipment_0
+        amount = 1486
+
+}
+add_equipment_to_stockpile = {
+        type = support_equipment_1
+        amount = 5690
+
+}
+add_equipment_to_stockpile = {
+        type = medium_tank_equipment_3
+        amount = 205
+
+}
+add_equipment_to_stockpile = {
+        type = motorized_equipment_1
+        amount = 740
+
 }
 ###
 set_country_flag = VKR_polevoje_dvizhnije
@@ -30,7 +71,6 @@ set_popularities = {
 	democratic = 20
 	communism = 15
     progressivism = 65
-
 }
 
 create_country_leader = {
