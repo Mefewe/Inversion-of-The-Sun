@@ -1,0 +1,37 @@
+VKR_mejrvik_battle = {
+	vkr_push_ammo_to_mejrvik = {
+		allowed = {
+			original_tag = VKR
+		}
+		visible = {
+			has_war = no
+			OR = {
+				has_completed_focus = start_battle_of_mejrvik
+				has_country_flag = VKR_battle_of_mejrvik
+			}
+		}
+		available = {
+			has_political_power > 50
+			has_equipment = {
+				infantry_ammo_equipment > 150
+			}
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		days_re_enable = 20
+		complete_effect = {
+			add_political_power = -50
+			custom_effect_tooltip = VKR_battle_of_mejrvik_ammo_push
+			add_equipment_to_stockpile = {
+				type = infantry_ammo_equipment
+				amount = -150
+			}
+			add_power_balance_value = {
+				id = VKR_MEJRVIK_balance
+				value = -0.1
+			}			
+		}
+	}
+}

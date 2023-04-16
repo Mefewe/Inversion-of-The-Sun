@@ -1,0 +1,58 @@
+add_namespace = VKR
+add_namespace = VKR_gerilua
+country_event = {
+	id = VKR_gerilua.1 #defeat in majrvik
+	title = VKR_gerilua.1.title
+	desc = VKR_gerilua.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+
+	option = {
+		name = VKR_gerilua.1.1
+		custom_effect_tooltip = VKR_defeat_in_mejrvik_tooltip
+		hidden_effect = {
+			VKR={
+				if={
+					limit = {
+						has_power_balance = {id = VKR_MEJRVIK_balance}
+					}
+					remove_power_balance = {id =VKR_MEJRVIK_balance}
+				}
+				set_country_flag = VKR_defeat_in_mejrvik
+				clr_country_flag = start_battle_of_mejrvik
+			}
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+country_event = {
+	id = VKR_gerilua.2 #victory in majrvik
+	title = VKR_gerilua.2.title
+	desc = VKR_gerilua.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+
+	option = {
+		name = VKR_gerilua.2.1
+		custom_effect_tooltip = VKR_victory_in_mejrvik_tooltip
+		hidden_effect = {
+			VKR={
+				if={
+					limit = {
+						has_power_balance = {id = VKR_MEJRVIK_balance}
+					}
+					remove_power_balance = {id =VKR_MEJRVIK_balance}
+				}
+				set_country_flag = VKR_victory_in_mejrvik
+				set_state_controller = 917
+				set_state_owner = 917
+				clr_country_flag = start_battle_of_mejrvik
+			}
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}

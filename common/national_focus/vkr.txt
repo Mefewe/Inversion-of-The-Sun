@@ -1,0 +1,41 @@
+focus_tree = {
+	id = vkr_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VKR
+		}
+	}
+	
+	focus = {
+		id = start_battle_of_mejrvik
+		icon = GFX_goal_generic_small_arms
+		x = 10
+		y = 1
+		cost = 10
+		ai_will_do = {
+			base = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = VKR_battle_of_mejrvik_focus
+			hidden_effect = {
+				VKR={
+					set_country_flag = VKR_battle_of_mejrvik
+					set_power_balance = {
+						id=VKR_MEJRVIK_balance
+						set_value = -0.7 # должно быть 0.1
+						left_side = pro_VKR
+						right_side = pro_CRY
+					}
+				}
+			}
+		}
+	}
+}
