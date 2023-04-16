@@ -1,0 +1,124 @@
+division_template = {
+        name = "Volunteera Brigada"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 0 y = 3 }
+                infantry = { x = 0 y = 4 }
+                infantry = { x = 1 y = 0 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+                recon = { x = 0 y = 1 }
+        }
+}
+division_template = {
+        name = "Mechanized Brigada"
+        regiments = {
+                motorized = { x = 0 y = 0 }
+                motorized = { x = 0 y = 1 }
+                motorized = { x = 0 y = 2 }
+                motorized = { x = 0 y = 3 }
+                medium_armor = { x = 1 y = 0 }
+                medium_armor = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+                recon = { x = 0 y = 1 }
+        }
+}
+division_template = {
+        is_locked = yes
+        name = "Interbrigada"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 0 y = 3 }
+                motorized = { x = 1 y = 0 }
+                motorized = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+                recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 }
+        }
+}
+
+units = {
+################### ПЕХОТА
+        division = {
+                name = "1. Liberationa Valter's Brigada"
+		location = 9128
+		division_template = "Volunteera Brigada"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Liberationa Brigada"
+		location = 5138
+		division_template = "Volunteera Brigada"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Liberationa Brigada"
+		location = 1731
+		division_template = "Volunteera Brigada"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Liberationa Brigada"
+		location = 9128
+		division_template = "Volunteera Brigada"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Liberationa Brigada"
+		location = 5138
+		division_template = "Volunteera Brigada"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Liberationa Brigada"
+		location = 1731
+		division_template = "Volunteera Brigada"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "1. Interbrigada de Solidarista"
+		location = 1731
+		division_template = "Interbrigada"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+################### МЕХАНИЗАЦИЯ
+        division = {
+                name = "1. Mechanized Brigada"
+		location = 9128
+		division_template = "Mechanized Brigada"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Mechanized Brigada"
+		location = 9128
+		division_template = "Mechanized Brigada"
+		start_experience_factor = 0.37
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

@@ -14,4 +14,74 @@ CRY_Blekins_Ljonen = {
 			id = -1
 		}
 	}
+CRY_Aquatic_Wave = {
+		name = CRY_Aquatic_Wave
+		portraits = {
+			civilian = {
+				large = GFX_CRY_Aquatic_Wave_L
+			}
+		}
+		country_leader = {
+			ideology = neoharmonism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+CRY_Crystal_Congress = {
+		name = CRY_Crystal_Congress
+		portraits = {
+			civilian = {
+				large = GFX_CRY_Crystal_Congress_L
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+CRY_Azzelane_de_River = {
+		name = CRY_Azzelane_de_River
+		portraits = {
+			civilian = {
+				large = GFX_CRY_Azzelane_de_River_L
+			}
+		}
+		country_leader = {
+			ideology = nationalism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+CRY_Warro_Shtudi = {
+		name = CRY_Warro_Shtudi
+		portraits = {
+			civilian = {
+				large = GFX_CRY_Warro_Shtudi_L
+			}
+		}
+		country_leader = {
+			ideology = social_valterism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+CRY_Amore_Dynasty = {
+		name = CRY_Amore_Dynasty
+		portraits = {
+			civilian = {
+				large = GFX_CRY_Amore_Dynasty_L
+			}
+		}
+		country_leader = {
+			ideology = harmony
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
 }
