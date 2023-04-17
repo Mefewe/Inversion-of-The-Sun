@@ -26,8 +26,19 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = VKR_battle_of_mejrvik_focus
 			hidden_effect = {
+				917 = {
+					set_demilitarized_zone = yes
+				}
 				VKR={
 					set_country_flag = VKR_battle_of_mejrvik
+					set_power_balance = {
+						id=VKR_MEJRVIK_balance
+						set_value = -0.7 # должно быть 0.1
+						left_side = pro_VKR
+						right_side = pro_CRY
+					}
+				}
+				CRY = {
 					set_power_balance = {
 						id=VKR_MEJRVIK_balance
 						set_value = -0.7 # должно быть 0.1

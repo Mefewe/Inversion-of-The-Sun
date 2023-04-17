@@ -1,0 +1,41 @@
+﻿l_russian:
+
+ IOS_PEACE_POPUP_TITLE:0 "ДИПЛОМАТИЧЕСКОЕ ОПОВЕЩЕНИЕ"
+ IOS_PEACE_POPUP_DESCRIPTION:0 "[GetWarStatus]"
+ IOS_PEACE_POPUP_FLAVOR:0 "[GetFlavor]"
+
+ IOS_PEACE_POPUP_CLOSE:0 "ЗАКРЫТЬ"
+ 
+ IOS_PEACE_POPUP_FLAG1_TT: "§GПобедитель:§! [winning_country.GetFlag] §Y[winning_country.GetName]§!"
+ IOS_PEACE_POPUP_FLAG2_TT: "§RПроигравший:§! [losing_country.GetFlag] §Y[losing_country.GetName]§!"
+
+ IOS_PEACE_POPUP_COUNTRY_PLURAL:0 " и их союзники "
+ IOS_PEACE_POPUP_COUNTRY_SINGULAR:0 " "
+
+ IOS_PEACE_POPUP_COUNTRY_PLURAL_HAS:0 " и их союзники "
+ IOS_PEACE_POPUP_COUNTRY_SINGULAR_HAS:0 " "
+
+ #TNO_PEACE_POPUP_WINNER_FACTION_LEADER:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§!"
+ #TNO_PEACE_POPUP_WINNER_NOT_FACTION_LEADER:0 "As part of §Y[winning_country.GetFactionName]§!, [winning_country.GetFlag] §Y[winning_country.GetNameDef]§!, "
+#
+ #TNO_PEACE_POPUP_LOSER_FACTION_LEADER:0 "[losing_country.GetFlag] §Y[losing_country.GetNameDef]§!"
+ #TNO_PEACE_POPUP_LOSER_NOT_FACTION_LEADER:0 "[losing_country.GetFlag] §Y[losing_country.GetNameDef]§!, as part of §Y[losing_country.GetFactionName]§!,"
+
+ #Peace event/war loc
+ IOS_PEACE_POPUP_WAR_CONCLUSION:0 "[GetWarConclusionLoc]"
+ IOS_PEACE_POPUP_WAR_CONTINUING:0 "[GetWarContinuationLoc]"
+
+ #Wars that have finished
+ IOS_PEACE_POPUP_WAR_CONCLUSION_DEFAULT:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas] побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies] в войне."
+ IOS_PEACE_POPUP_WAR_CONCLUSION_VKR_WIN_CRY:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas] смог одолеть реакционеров из [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies] в войне за свободу Кристалии."
+
+ #Capitulation (war continuing) events
+ 
+ IOS_PEACE_POPUP_WAR_CONTINUING_DEFAULT:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! в продолжающемся конфликте."
+ 
+ #Flavor loc
+ 
+ IOS_PEACE_POPUP_FLAVOR_DEFAULT:0 "ХУЙ ВОЙНЕ!"
+ IOS_PEACE_POPUP_FLAVOR_VKR_WIN_CRY:0 "Наиболее ужасно - кладбище живых; потому что хуже всего жить и уже быть мертвым."
+
+ IOS_PEACE_POPUP_FLAVOR_NEEBU:0 "Но что случится с отложенной мечтой?"

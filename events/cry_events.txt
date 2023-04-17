@@ -1,29 +1,28 @@
-add_namespace = VKR
-add_namespace = VKR_gerilua
+add_namespace = CRY
+add_namespace = CRY_ATO_G
 country_event = {
-	id = VKR_gerilua.1 #defeat in majrvik
-	title = VKR_gerilua.1.title
-	desc = VKR_gerilua.1.desc
+	id = CRY_ATO_G.1 #defeat in majrvik
+	title = CRY_ATO_G.1.title
+	desc = CRY_ATO_G.1.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
-		name = VKR_gerilua.1.1
-		custom_effect_tooltip = VKR_defeat_in_mejrvik_tooltip
+		name = CRY_ATO_G.1.1
+		custom_effect_tooltip = CRY_defeat_in_mejrvik_tooltip
 		hidden_effect = {
 			917 = {
 				set_demilitarized_zone = no
 			}
-			VKR={
+			CRY={
 				if={
 					limit = {
 						has_power_balance = {id = VKR_MEJRVIK_balance}
 					}
 					remove_power_balance = {id =VKR_MEJRVIK_balance}
 				}
-				set_country_flag = VKR_defeat_in_mejrvik
-				clr_country_flag = start_battle_of_mejrvik
+				set_country_flag = CRY_defeat_in_mejrvik
 			}
 		}
 		ai_chance = {
@@ -32,31 +31,27 @@ country_event = {
 	}
 }
 country_event = {
-	id = VKR_gerilua.2 #victory in majrvik
-	title = VKR_gerilua.2.title
-	desc = VKR_gerilua.2.desc
+	id = CRY_ATO_G.2 #victory in majrvik
+	title = CRY_ATO_G.2.title
+	desc = CRY_ATO_G.2.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
-
 	option = {
-		name = VKR_gerilua.2.1
-		custom_effect_tooltip = VKR_victory_in_mejrvik_tooltip
+		name = CRY_ATO_G.2.1
+		custom_effect_tooltip = CRY_victory_in_mejrvik_tooltip
 		hidden_effect = {
 			917 = {
 				set_demilitarized_zone = no
 			}
-			VKR={
+			CRY={
 				if={
 					limit = {
 						has_power_balance = {id = VKR_MEJRVIK_balance}
 					}
 					remove_power_balance = {id =VKR_MEJRVIK_balance}
 				}
-				set_country_flag = VKR_victory_in_mejrvik
-				set_state_controller = 917
-				set_state_owner = 917
-				clr_country_flag = start_battle_of_mejrvik
+				set_country_flag = CRY_victory_in_mejrvik
 			}
 		}
 		ai_chance = {

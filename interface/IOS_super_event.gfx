@@ -32,4 +32,8 @@ spriteTypes = {
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_flag_overlay_stateview_large"
+		textureFile = "gfx/interface/flag_overlay_stateview_large.dds"
+	}
 }

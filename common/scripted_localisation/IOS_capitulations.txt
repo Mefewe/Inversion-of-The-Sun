@@ -1,0 +1,58 @@
+defined_text = {
+	name = GetWarStatus
+	text = {
+		trigger = {
+			has_global_flag = war_won
+		}
+		localization_key = IOS_PEACE_POPUP_WAR_CONCLUSION
+	}
+	text = {
+		trigger = {
+			has_global_flag = war_continuing
+		}
+		localization_key = IOS_PEACE_POPUP_WAR_CONTINUING
+	}
+}
+defined_text = {
+	name = GetWarConclusionLoc
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = CRY
+			}
+			event_target:winning_country = {
+				original_tag = VKR
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_WAR_CONCLUSION_VKR_WIN_CRY
+	}
+	text = {
+		localization_key = IOS_PEACE_POPUP_WAR_CONCLUSION_DEFAULT
+	}
+}
+defined_text = {
+	name = GetWarContinuationLoc
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = IOS_PEACE_POPUP_WAR_CONTINUING_DEFAULT
+	}
+}
+defined_text = {
+	name = GetFlavor
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = CRY
+			}
+			event_target:winning_country = {
+				original_tag = VKR
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_VKR_WIN_CRY
+	}
+	text = {
+		localization_key = IOS_PEACE_POPUP_FLAVOR_DEFAULT
+	}
+}

@@ -4,7 +4,7 @@ VKR_MEJRVIK_balance = {
     right_side = pro_CRY
     decision_category = VKR_mejrvik_battle
     range = {
-        id = mid_range
+        id = VKR_MEJRVIK_MID_BALANCE
         min = -0.1
         max = 0.1
         modifier = {
@@ -37,7 +37,10 @@ VKR_MEJRVIK_balance = {
             }
             on_activate = {
                 VKR = {
-				country_event = VKR_gerilua.2
+				    country_event = VKR_gerilua.2
+                }
+                CRY= {
+                    country_event = CRY_ATO_G.1
                 }
 			}
         }
@@ -69,7 +72,11 @@ VKR_MEJRVIK_balance = {
             }
 			on_activate = {
                 VKR = {
-				country_event = VKR_gerilua.1}
+				    country_event = VKR_gerilua.1
+                }
+                CRY= {
+                    country_event = CRY_ATO_G.2
+                }
 			}
         }
     }
