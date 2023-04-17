@@ -56,3 +56,52 @@ defined_text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_DEFAULT
 	}
 }
+defined_text = {
+	name = GetLoserAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = IOS_PEACE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = {
+		localization_key = IOS_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+
+defined_text = {
+	name = GetWinnerAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = IOS_PEACE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = {
+		localization_key = IOS_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+defined_text = {
+	name = GetLoserAllies
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = IOS_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = IOS_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}
+defined_text = {
+	name = GetWinnerAllies
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = IOS_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = IOS_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}

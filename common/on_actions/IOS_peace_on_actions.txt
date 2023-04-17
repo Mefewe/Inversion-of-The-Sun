@@ -63,6 +63,9 @@ on_actions = {
 							transfer_troops = no
 						}
 						drop_cosmetic_tag = yes
+						######
+
+						######
 					}
 				}
 			}
