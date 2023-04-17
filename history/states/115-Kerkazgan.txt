@@ -1,0 +1,25 @@
+state={
+	id=115
+	name="STATE_115"
+        state_category = city_district
+	provinces={
+		195 569 938 968 2980 5092 5095 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {5092 25}
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            arms_factory = 1
+            }
+        }
+
+        resources = {
+        steel = 3
+        }
+
+	manpower=78239
+	buildings_max_level_factor=1.000
+}

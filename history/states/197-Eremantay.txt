@@ -1,0 +1,24 @@
+state={
+	id=197
+	name="STATE_197"
+        state_category = city_district
+	provinces={
+		783 2203 5190 5193 5222 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {5193 23}
+        buildings = {
+            infrastructure = 2
+            }
+        }
+
+        resources = {
+        oil = 4
+        tungsten = 1
+        }
+
+	manpower=23891
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=182
+	name="STATE_182"
+        state_category = large_town
+	provinces={
+		11 4331 4717 8182 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 3
+            }
+        }
+        resources = {
+        steel = 6
+        aluminium = 4
+        chromium = 3
+        }
+
+	manpower=48682
+	buildings_max_level_factor=1.000
+}

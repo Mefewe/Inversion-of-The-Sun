@@ -1,13 +1,19 @@
 state={
 	id=22
 	name="STATE_22"
+        state_category = wasteland
 	provinces={
 		412 500 622 872 937 1514 1721 1773 1794 1943 2015 2241 2468 3102 3785 4003 4192 4666 4941 4955 4985 5006 5022 8167 8171 8174 
 	}
 	history={
         owner = YAK
         add_core_of = YAK
-    }
-	manpower=0
+        }
+
+        resources = {
+        oil = 3
+        }
+
+	manpower=2954
 	buildings_max_level_factor=1.000
 }

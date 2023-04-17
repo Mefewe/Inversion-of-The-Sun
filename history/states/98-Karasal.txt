@@ -1,0 +1,23 @@
+state={
+	id=98
+	name="STATE_98"
+        state_category = city_district
+	provinces={
+		515 571 2312 2928 2998 4438 5045 5145 5165 8181 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            arms_factory = 1
+            }
+        }
+
+        resources = {
+        aluminium = 5
+        }
+	manpower=34691
+	buildings_max_level_factor=1.000
+}

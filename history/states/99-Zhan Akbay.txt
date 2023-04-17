@@ -1,0 +1,26 @@
+state={
+	id=99
+	name="STATE_99"
+        state_category = city
+	provinces={
+		1824 4167 5041 5056 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {1824 30}
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 4
+            }
+        }
+        resources = {
+        steel = 4
+        aluminium = 3
+        chromium = 6
+        tungsten = 4
+        }
+
+	manpower=56031
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=87
+	name="STATE_87"
+        state_category = pastoral
+	provinces={
+		2464 4361 5038 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        buildings = {
+            infrastructure = 1
+            }
+        }
+        resources = {
+        tungsten = 1
+        aluminium = 1
+        chromium = 1
+        }
+
+	manpower=23058
+	buildings_max_level_factor=1.000
+}

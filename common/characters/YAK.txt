@@ -1,9 +1,9 @@
 characters = {
-YAK_Yak = {
-		name = YAK_Yak
+YAK_Prince_Rutherford = {
+		name = YAK_Prince_Rutherford
 		portraits = {
 			civilian = {
-				large = GFX_YAK_Yak_L
+				large = GFX_YAK_Prince_Rutherford_L
 			}
 		}
 		country_leader = {

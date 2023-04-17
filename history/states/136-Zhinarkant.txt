@@ -1,0 +1,23 @@
+state={
+	id=136
+	name="STATE_136"
+        state_category = pastoral
+	provinces={
+		630 2747 3993 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {2747 20}
+        buildings = {
+            infrastructure = 1
+            }
+        }
+
+        resources = {
+        aluminium = 2
+        }
+
+	manpower=23957
+	buildings_max_level_factor=1.000
+}

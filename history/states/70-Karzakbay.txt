@@ -1,0 +1,24 @@
+state={
+	id=70
+	name="STATE_70"
+        state_category = rural
+	provinces={
+		706 923 1558 1619 4554 5010 5018 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {1558 12}
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            }
+        }
+
+        resources = {
+        steel = 3
+        }
+
+	manpower=58205
+	buildings_max_level_factor=1.000
+}

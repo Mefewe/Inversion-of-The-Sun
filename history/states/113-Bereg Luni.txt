@@ -1,0 +1,17 @@
+state={
+	id=113
+	name="STATE_113"
+        state_category = rural
+	provinces={
+		681 931 1028 1348 2581 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        buildings = {
+            infrastructure = 2
+            }
+        }
+	manpower=39824
+	buildings_max_level_factor=1.000
+}

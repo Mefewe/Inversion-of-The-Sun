@@ -1,0 +1,26 @@
+state={
+	id=144
+	name="STATE_144"
+        state_category = town
+	provinces={
+		1767 2167 2950 5125 5140 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {5125 20}
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            arms_factory = 2
+            }
+        }
+
+        resources = {
+        aluminium = 2
+        steel = 1
+        }
+
+	manpower=78234
+	buildings_max_level_factor=1.000
+}

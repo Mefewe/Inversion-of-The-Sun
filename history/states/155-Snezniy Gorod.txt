@@ -1,0 +1,23 @@
+state={
+	id=155
+	name="STATE_155"
+        state_category = rural
+	provinces={
+		496 733 2618 3088 3198 5160 5166 5175 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {5160 10}
+        buildings = {
+            infrastructure = 2
+            }
+        }
+
+        resources = {
+        oil = 3
+        }
+
+	manpower=43857
+	buildings_max_level_factor=1.000
+}

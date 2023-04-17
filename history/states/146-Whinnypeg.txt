@@ -1,0 +1,27 @@
+state={
+	id=146
+	name="STATE_146"
+        state_category = town
+	provinces={
+		732 4657 5124 5127 
+	}
+	history={
+        owner = YAK
+        add_core_of = YAK
+        victory_points = {4657 20}
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 2
+            arms_factory = 1
+            }
+        }
+
+        resources = {
+        oil = 2
+        steel = 3
+        aluminium = 2
+        }
+
+	manpower=89267
+	buildings_max_level_factor=1.000
+}

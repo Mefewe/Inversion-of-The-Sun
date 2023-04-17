@@ -1,13 +1,18 @@
 state={
 	id=85
 	name="STATE_85"
+        state_category = pastoral
 	provinces={
 		275 2315 2864 4107 5035 5078 
 	}
 	history={
         owner = YAK
         add_core_of = YAK
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 1
+            }
+        }
+
+	manpower=21058
 	buildings_max_level_factor=1.000
 }

@@ -1,8 +1,10 @@
 state={
-	id=115
-	name="STATE_115"
+	id=58
+	name="STATE_58"
+        state_category = wasteland
+        impassable = yes
 	provinces={
-		195 569 938 968 2980 5092 5095 
+		96 697 698 1419 2482 2682 3180 3355 4171 
 	}
 	history={
         owner = YAK
