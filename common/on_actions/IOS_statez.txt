@@ -2,39 +2,23 @@ on_actions = {
 	on_state_control_changed = {
 		effect = {
 			FROM.FROM = {
-				if = {
-					limit = { 
-						OR = {
-							###also fires when the endonym button is clicked
-							has_state_flag = universal_renamings 
-							### non-universal renamings - seperate effects in other file as well for code efficiency
-							has_state_flag = state_renamings 
-							###does not fire when the button is clicked, only with on actions, meant mostly for non-renaming purposes
-							has_state_flag = state_control_change_effects 
+				if = {	
+					limit = {
+						state = 914
+					}
+					if = {
+						limit = { 
+							ROOT = {has_country_flag = VKR_polevoje_dvizhnije}
+						}
+						set_state_name = STATE_914_p
+						set_province_name = {
+							id = 9128
+							name = VICTORY_POINTS_9128_p
 						}
 					}
-					meta_effect = {
-						text = {
-							state_control_effect_[STATEID] = yes
-						}
-						STATEID = "[?This.GetID]"
-					}
-				}
-				if = {
-					limit = { 
-						AND = {
-							###when effects need to be differentiated
-							OR = {
-								has_state_flag = universal_renamings 
-								has_state_flag = state_renamings 
-							}
-						}
-					}
-					meta_effect = {
-						text = {
-							non_endo_state_control_effect_[STATEID] = yes
-						}
-						STATEID = "[?This.GetID]"
+					else = {
+						reset_state_name = yes
+						reset_province_name = 9128
 					}
 				}
 			}
