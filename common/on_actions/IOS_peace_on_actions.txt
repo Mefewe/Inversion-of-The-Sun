@@ -53,8 +53,8 @@ on_actions = {
 				set_global_flag = war_won
 				if = {
 					limit = {		
-						FROM = VKR
-						ROOT = CRY
+						FROM ={ original_tag = VKR }
+						ROOT = { original_tag = CRY }
 					}
 					FROM = {
 						clr_country_flag = VKR_polevoje_dvizhnije

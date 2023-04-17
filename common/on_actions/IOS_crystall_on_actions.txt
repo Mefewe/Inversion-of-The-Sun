@@ -37,13 +37,14 @@ on_actions = {
 						FROM = {
 							original_tag = CRY
 						}
+					}
 						VKR = {
 							set_state_controller = 917
 							set_state_owner = 917
 							set_country_flag = VKR_victory_in_mejrvik
 							clr_country_flag = start_battle_of_mejrvik
 						}
-					}
+					
 				}
 				else = {
 					914 = {
