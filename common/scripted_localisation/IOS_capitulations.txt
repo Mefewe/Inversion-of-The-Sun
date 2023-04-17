@@ -27,6 +27,18 @@ defined_text = {
 		localization_key = IOS_PEACE_POPUP_WAR_CONCLUSION_VKR_WIN_CRY
 	}
 	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = CHN
+			}
+			event_target:winning_country = {
+				original_tag = EQS
+				has_government = paternalism
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_WAR_CONCLUSION_EQS_WIN_CHN_PATERNALISM
+	}
+	text = {
 		localization_key = IOS_PEACE_POPUP_WAR_CONCLUSION_DEFAULT
 	}
 }
@@ -51,6 +63,18 @@ defined_text = {
 			}
 		}
 		localization_key = IOS_PEACE_POPUP_FLAVOR_VKR_WIN_CRY
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = CHN
+			}
+			event_target:winning_country = {
+				original_tag = EQS
+				has_government = paternalism
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_EQS_WIN_CHN_PATERNALISM
 	}
 	text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_DEFAULT

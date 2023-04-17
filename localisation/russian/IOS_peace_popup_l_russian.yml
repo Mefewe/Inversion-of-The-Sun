@@ -32,10 +32,12 @@
  #Capitulation (war continuing) events
  
  IOS_PEACE_POPUP_WAR_CONTINUING_DEFAULT:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! в продолжающемся конфликте."
+
+ IOS_PEACE_POPUP_WAR_CONCLUSION_EQS_WIN_CHN_PATERNALISM:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]уничтожает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в Второй Великой Войне. Чейнджлинги потеряли право на свободную жизнь."
  
  #Flavor loc
  
  IOS_PEACE_POPUP_FLAVOR_DEFAULT:0 "ХУЙ ВОЙНЕ!"
  IOS_PEACE_POPUP_FLAVOR_VKR_WIN_CRY:0 "Наиболее ужасно - кладбище живых; потому что хуже всего жить и уже быть мертвым."
-
+ IOS_PEACE_POPUP_FLAVOR_EQS_WIN_CHN_PATERNALISM:0 "«У монархии в Эквестрии было столько врагов, что все они умерли в давке в Кантерлоте. А когда Эквестрия вернулась в Каракоу и Гоундурас, их души попросили прощения и получили его, ведь Твалайт - Прощающая и Милосердная» (с) Священная Книга Монархии, [?global.year], Кантерлот."
  IOS_PEACE_POPUP_FLAVOR_NEEBU:0 "Но что случится с отложенной мечтой?"

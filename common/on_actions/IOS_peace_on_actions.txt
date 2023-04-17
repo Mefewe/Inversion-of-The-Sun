@@ -44,12 +44,12 @@ on_actions = {
 						ROOT = { is_in_faction = no }
 						ROOT = {
 							all_allied_country = {
-								has_capitulated = yes
+								has_capitulated = yes				
 							}
 						}
 					}
 				}
-				log = "war_won"
+				log = "[GetDateText]: War Won BAZA"
 				set_global_flag = war_won
 				if = {
 					limit = {		
@@ -68,7 +68,57 @@ on_actions = {
 						######
 					}
 				}
+				#DEFAULT CAPITULATION
+				if = {
+					limit = { NOT = { has_global_flag = skip_default_capitulation } }
+					#Annex every country they've been fighting against
+					log = "Default Capitulation"
+					FROM = {
+						every_enemy_country = {
+							limit = {
+								OR = {
+									original_tag = ROOT
+									is_in_faction_with = ROOT
+									is_puppet_of = ROOT
+								}
+							}
+							FROM = {
+								white_peace = PREV
+								annex_country = {
+									target = PREV
+									transfer_troops = no
+								}
+							}
+						}
+					}
+				}	
 			}
+			else_if = {
+				limit = {						
+					FROM = { original_tag = EQS }
+					ROOT = { original_tag = CHN }					
+				}
+				set_global_flag = war_won
+				log = "[GetDateText]: EQS WON WAR WITH CHN"
+				FROM = { #Эту хуйню надо переделать позже, пока что это тест но потом будет конкретно реконструкционные правительства и прочая поебота.
+					every_enemy_country = {
+						limit = {
+							OR = {
+								original_tag = ROOT
+								is_in_faction_with = ROOT
+								is_puppet_of = ROOT
+							}
+						}
+						FROM = {
+							white_peace = PREV
+							annex_country = {
+								target = PREV
+								transfer_troops = no
+							}
+						}
+					}
+				}
+			}		
 		}	
 	}
 }
