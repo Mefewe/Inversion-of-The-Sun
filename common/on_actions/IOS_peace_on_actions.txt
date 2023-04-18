@@ -68,6 +68,13 @@ on_actions = {
 						######
 					}
 				}
+				if = {
+					limit = {		
+						FROM = { original_tag = EQS }
+						ROOT = { original_tag = CHN }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
 				#DEFAULT CAPITULATION
 				if = {
 					limit = { NOT = { has_global_flag = skip_default_capitulation } }
@@ -93,7 +100,20 @@ on_actions = {
 					}
 				}	
 			}
-			else_if = {
+			if = { 
+				limit = {
+					ROOT = {
+						is_puppet = yes
+						if = {
+							limit = { is_puppet = yes }
+							OVERLORD = { has_capitulated = no }
+						}
+					}
+				}
+				log = "endded puppet"
+				ROOT = { OVERLORD = { end_puppet = PREV } }
+			}
+			if = {
 				limit = {						
 					FROM = { original_tag = EQS }
 					ROOT = { original_tag = CHN }					
@@ -118,7 +138,13 @@ on_actions = {
 						}
 					}
 				}
-			}		
+			}
+			clr_global_flag = skip_default_capitulation	
 		}	
+	}
+	on_declare_war = {
+		effect = {
+			log="[GetDateText]: [Root.GetName] declared war on [From.GetName]"
+		}
 	}
 }
