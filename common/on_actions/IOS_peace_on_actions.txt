@@ -64,7 +64,10 @@ on_actions = {
 						}
 						drop_cosmetic_tag = yes
 						######
-
+						914 = {
+							reset_state_name = yes
+							reset_province_name = 9128
+						}
 						######
 					}
 				}
