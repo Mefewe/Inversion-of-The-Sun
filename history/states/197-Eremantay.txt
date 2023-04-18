@@ -8,7 +8,7 @@ state={
 	history={
         owner = YAK
         add_core_of = YAK
-        victory_points = {5193 23}
+        victory_points = {5193 14}
         buildings = {
             infrastructure = 2
             }

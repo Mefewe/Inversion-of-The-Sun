@@ -31,6 +31,7 @@ division_template = {
 }
 
 division_template = {
+        priority = 2
         name = "Elite Guard Regimenta"
         regiments = {
                 guard = { x = 0 y = 0 }

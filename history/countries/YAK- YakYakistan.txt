@@ -1,4 +1,6 @@
-﻿capital = 95
+﻿oob = "YAK"
+
+capital = 95
 recruit_character = YAK_Prince_Rutherford
 set_stability = 0.7
 set_war_support = 0.4
