@@ -33,15 +33,6 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "YAK_Prince_Rutherford"
-	expire = "2000.1.1"
-	ideology = despotism
-	traits = {
-
-	}
-}
-
-create_country_leader = {
 	name = "Franklin"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"

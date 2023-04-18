@@ -13,4 +13,4 @@ YAK_Prince_Rutherford = {
 			id = -1
 		}
 	}
-	}
+}
