@@ -1,0 +1,47 @@
+defined_text = {
+	name = CRY_VKR_Esc
+	text = {
+		trigger = { 
+			has_global_flag = {
+				flag = cry_vkr_escal_flag
+				value < 3
+			}
+		}
+		localization_key = CRY_VKR_LOW_ESCALATION
+	}
+	text = {
+		trigger = { 
+			has_global_flag = {
+				flag = cry_vkr_escal_flag
+				value < 6
+			}
+		}
+		localization_key = CRY_VKR_MEDIUM_ESCALATION
+	}
+	text = {
+		trigger = { 
+			has_global_flag = {
+				flag = cry_vkr_escal_flag
+				value < 9
+			}
+		}
+		localization_key = CRY_VKR_HIGH_ESCALATION
+	}
+	text = {
+		trigger = { 
+			has_global_flag = {
+				flag = cry_vkr_escal_flag
+				value > 9
+			}
+		}
+		localization_key = CRY_VKR_VERY_HIGH_ESCALATION
+	}
+	text = {
+		trigger = { 
+			VKR = {
+				has_war_with = CRY
+			}
+		}
+		localization_key = CRY_VKR_WAR_ESCALATION
+	}
+}

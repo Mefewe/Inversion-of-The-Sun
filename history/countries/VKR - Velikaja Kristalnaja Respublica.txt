@@ -1,5 +1,8 @@
 oob = "VKR"
-
+set_global_flag = {
+	flag = cry_vkr_escal_flag
+	value = 1
+}
 capital = 914
 recruit_character = VKR_Blue_Grantes
 set_research_slots = 2

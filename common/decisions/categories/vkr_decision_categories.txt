@@ -1,14 +1,31 @@
 VKR_mejrvik_battle = {
 	icon = generic_crisis
-	priority = 1945
+	priority = 15
 	allowed = {
 		OR = {
-		original_tag = VKR
-		original_tag = CRY
+			original_tag = VKR
+			original_tag = CRY
 		}
 	}
 	visible = {
 		has_war = no
 		has_power_balance = {id = VKR_MEJRVIK_balance}
+	}
+}
+
+CRY_VKR_Escalation = {
+	icon = generic_crisis
+	priority = 20
+	allowed = {
+		OR = {
+			original_tag = VKR
+			original_tag = CRY
+		}
+	}
+	visible = {
+		has_war = no
+		VKR = {
+			has_country_flag = VKR_polevoje_dvizhnije
+		}
 	}
 }
