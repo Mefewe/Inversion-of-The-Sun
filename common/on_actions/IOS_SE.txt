@@ -1,0 +1,21 @@
+on_actions = {
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							ROOT = {original_tag = ZNC}
+							FROM ={original_tag = RPK}
+						}
+						AND = {
+							ROOT = {original_tag = RPK}
+							FROM ={original_tag = ZNC}
+						}
+					}
+				}
+				country_event = { id = IOSSEE.1 days = 1 }
+			}
+		}
+	}
+}

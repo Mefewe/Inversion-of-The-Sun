@@ -1,7 +1,7 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "EAWSE_custom_super_event"
+		name = "IOS_super_event"
 		size = { width = 580 height = 565 }
 		position = { x = 0 y = 0 }
 		Orientation = center
@@ -19,7 +19,7 @@ guiTypes = {
 			position = { x = 0 y = 15 }
 			font = "aldrich_18_outline"
 			borderSize = {x = 0 y = 0}
-			text = "[EAWSEGetEventTitle]"
+			text = "[IOSSEGetEventTitle]"
 			maxWidth = 580
 			maxHeight = 24
 			format = center
@@ -38,7 +38,7 @@ guiTypes = {
 			}
 			
 			iconType = {
-				name ="EAWSE_image"
+				name ="IOSSE_image"
 				position = { x=15 y =15 }
 				#Orientation = center
 				alwaystransparent = yes
@@ -56,7 +56,7 @@ guiTypes = {
 				name = "Description"
 				position = {  x= 20 y = -140 }
 				font = "Bomb_20"
-				text = "[EAWSEGetEventDescription]"
+				text = "[IOSSEGetEventDescription]"
 				maxWidth = 565
 				maxHeight = 175
 				fixedsize = yes
@@ -64,10 +64,9 @@ guiTypes = {
 				Orientation = lower_left
 			}
 		}
-			
 		buttonType = {
 			name = "Option"
-			text = "[EAWSEGetEventAnswer]"
+			text = "[IOSSEGetEventAnswer]"
 			shortcut = "ESCAPE"
 			position = { x = -200 y = 240 }
 			quadTextureSprite ="GFX_button_399x34"

@@ -1,0 +1,6 @@
+IOSSE_show_super_event = {
+	if = {
+		limit = { check_variable = { global.IOSSE_super_event = 1 } }
+		sound_effect = "super_event_zebri_poni_war_se"
+	}
+}

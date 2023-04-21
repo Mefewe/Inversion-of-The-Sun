@@ -1,0 +1,17 @@
+characters = {
+	ZNC_Zebroval_Alovic = {
+			name = ZNC_Zebroval_Alovic
+			portraits = {
+				civilian = {
+					large = GFX_ZNC_Zebroval_Alovic_L
+				}
+			}
+			country_leader = {
+				desc="ZNC_Zebroval_Alovic_desc"
+				ideology = nationalism
+				traits = {  }
+				expire = "2000.3.1.1"
+				id = -1
+			}
+		}
+	}

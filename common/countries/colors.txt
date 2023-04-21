@@ -5,6 +5,21 @@ color = rgb { 116 249 209 }
 color_ui = rgb { 116 249 209 }
 }
 
+RPK = {
+color = rgb { 185 155 100 }
+color_ui = rgb { 185 155 100 }
+}
+
+KRE = {
+color = rgb { 185 185 100 }
+color_ui = rgb { 185 185 100 }
+}
+
+ZNC = {
+color = rgb { 150 80 200 }
+color_ui = rgb { 150 80 200 }
+}
+
 CHN = {
 color = rgb { 59 104 20 }
 color_ui = rgb { 59 104 20 }

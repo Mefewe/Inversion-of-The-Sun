@@ -1,0 +1,19 @@
+add_namespace = ZNC
+
+####### START WAR
+country_event = {
+	id = ZNC.1 #separate RPK war
+	title = ZNC.1.title
+	desc = ZNC.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ZNC.1.1
+		ZNC_RPK_war_start = yes
+		ai_chance = {
+			base = 10
+		}
+	}
+}

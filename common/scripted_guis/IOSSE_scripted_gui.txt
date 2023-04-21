@@ -1,0 +1,18 @@
+scripted_gui = {
+	IOSSE_custom_super_events = {
+		context_type = player_context
+		window_name = "IOS_super_event"
+		visible = {
+			is_ai = no
+			has_variable = global.IOSSE_super_event
+		}
+		properties = {
+			IOSSE_image = { image = "[IOSSEGetEventImage]" }
+		}
+		effects = {
+			Option_click = {
+				clear_variable = global.IOSSE_super_event
+			}
+		}
+	}
+}

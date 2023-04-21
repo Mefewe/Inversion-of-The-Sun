@@ -1,0 +1,17 @@
+characters = {
+	RPK_Elovic_Krensloj = {
+		name = RPK_Elovic_Krensloj
+		portraits = {
+			civilian = {
+			large = GFX_RPK_Elovic_Krensloj_L
+			}
+		}
+		country_leader = {
+			desc="RPK_Elovic_Krensloj_desc"
+			ideology = provisional_government
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

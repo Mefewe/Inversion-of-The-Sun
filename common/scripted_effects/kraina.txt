@@ -1,0 +1,100 @@
+independence_of_KRE = {
+	925 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	378 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	343 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	389 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	375 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	343 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	428 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	416 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	394 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	340 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+	381 = {
+		add_core_of = KRE
+		transfer_state_to = KRE
+	}
+}
+independence_of_ZNC = {
+	416 = {
+		add_core_of = ZNC
+		transfer_state_to = ZNC
+	}
+	394 = {
+		add_core_of = ZNC
+		transfer_state_to = ZNC
+	}
+	375 = {
+		add_core_of = ZNC
+		transfer_state_to = ZNC
+	}
+	343 = {
+		add_core_of = ZNC
+		transfer_state_to = ZNC
+	}
+	340 = {
+		add_core_of = ZNC
+		transfer_state_to = ZNC
+	}
+	381 = {
+		add_core_of = ZNC
+		transfer_state_to = ZNC
+	}
+}
+ZNC_RPK_war_start = {
+	416 = {
+		add_core_of = RPK
+		transfer_state_to = RPK
+	}
+	394 = {
+		add_core_of = RPK
+	}
+	375 = {
+		add_core_of = RPK
+	}
+	343 = {
+		add_core_of = RPK
+	}
+	340 = {
+		add_core_of = RPK
+	}
+	381 = {
+		add_core_of = RPK
+		transfer_state_to = RPK
+	}
+	RPK = {
+		declare_war_on = {
+			target = ZNC
+			type = annex_everything
+		}
+	}
+}

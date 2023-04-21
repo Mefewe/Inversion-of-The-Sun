@@ -1,0 +1,31 @@
+defined_text = {
+	name = IOSSEGetEventImage
+	text = {
+		trigger = { check_variable = { global.IOSSE_super_event = 1 } }
+		localization_key = "GFX_super_event_test"
+	}
+}
+
+defined_text = {
+	name = IOSSEGetEventTitle
+	text = {
+		trigger = { check_variable = { global.IOSSE_super_event = 1 } }
+		localization_key = "SE_TEST_CV_T"
+	}
+}
+
+defined_text = {
+	name = IOSSEGetEventDescription
+	text = {
+		trigger = { check_variable = { global.IOSSE_super_event = 1 } }
+		localization_key = "SE_TEST_CV_D"
+	}
+}
+
+defined_text = {
+	name = IOSSEGetEventAnswer
+	text = {
+		trigger = { check_variable = { global.IOSSE_super_event = 1 } }
+		localization_key = "SE_TEST_CV_A"
+	}
+}

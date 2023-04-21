@@ -1169,25 +1169,6 @@ add_ruling_to_neu = {
 		}
 	}
 }
-
-
-on_daily = {
-
-}
-
-#on_daily_USA = {
-#	# you can specify an on daily action for a specific country
-#}
-
-###Game weight variables for faction load balancing.
-###We store these on germany because ... we have to
-
-leave_the_league_of_nations = {
-	custom_effect_tooltip = leave_the_league_of_nations_tt
-	hidden_effect = { remove_ideas = league_of_nations_member_idea }
-}
-
-
 bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_effect has run already to generate a design template if necessary
 	if = {
 		limit = {

@@ -1,0 +1,5 @@
+sound = {
+	name = "super_event_zebri_poni_war_se_sound"
+	file = "soundz/Krainskavojna.wav"
+	always_load = no
+}

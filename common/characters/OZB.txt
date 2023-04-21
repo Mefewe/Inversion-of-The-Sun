@@ -14,4 +14,4 @@ OZB_Kriesleiter = {
 			id = -1
 		}
 	}
-	}
+}

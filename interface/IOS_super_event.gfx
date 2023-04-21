@@ -36,4 +36,10 @@ spriteTypes = {
 		name = "GFX_flag_overlay_stateview_large"
 		textureFile = "gfx/interface/flag_overlay_stateview_large.dds"
 	}
+		#Super Events#
+
+	spriteType = {
+		name = "GFX_super_event_test"
+		textureFile = "gfx/IOS_sevents/IOS_TEST_SE.tga"
+	}	
 }
