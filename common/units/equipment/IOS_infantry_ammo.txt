@@ -19,15 +19,15 @@ equipments = {
 		reliability = 0.1
 
 		#Defensive Abilities
-		defense = 42
+		defense = 0
 		breakthrough = 0
 		hardness = 0
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 8
-		hard_attack = 1
-		ap_attack = 6.5
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
 		air_attack = 0
 
 		#Space taken in convoy
@@ -61,11 +61,11 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 46
+		defense = 0
 		#Offensive Abilities
-		soft_attack = 10
-		hard_attack = 2
-		ap_attack = 7
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
 		air_attack = 0
 
 		build_cost_ic = 0.05
@@ -84,9 +84,9 @@ equipments = {
 		defense = 53
 
 		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 3
-		ap_attack = 8
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
 		air_attack = 0
 		
 		build_cost_ic = 0.07
@@ -107,11 +107,11 @@ equipments = {
 		visual_level = 3
 		
 		#Defensive Abilities
-		defense = 58
+		defense = 0
 		#Offensive Abilities
-		soft_attack = 14.5
-		hard_attack = 3.5
-		ap_attack = 10
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
 		air_attack = 0
 		
 		build_cost_ic = 0.10

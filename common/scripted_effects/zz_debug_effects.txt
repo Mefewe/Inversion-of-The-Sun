@@ -38,6 +38,18 @@ d_collaboration = {
 		}
 	}
 }
+d_auf = {
+	if = {
+		limit = {
+			has_tech = deficit_inf_1
+		}
+		log = "!!!YES!!!"
+	}
+	else = {
+		log = "!!!NO!!! [?infantry_eq_coef]"
+	}
+}
+
 
 d_add_fake_armies = {
 	if = {

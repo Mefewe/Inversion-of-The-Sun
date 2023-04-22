@@ -1,0 +1,376 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			every_country = {
+				set_variable = {
+					infantry_ammo_strelkovoje_st = num_equipment@infantry_ammo_equipment # Количество патронов в складах
+				}
+				divide_variable = {
+					infantry_ammo_strelkovoje_st = 1000
+				}
+				set_variable = {
+					infantry_ammo_artillery_st = num_equipment@artillery_ammo_equipment # Количество арт. снарядов в складах
+				}
+				divide_variable = {
+					infantry_ammo_artillery_st = 1000
+				}
+				set_variable = {
+					infantry_ammo_strelkovoje_zp = num_equipment_in_armies_k@infantry_ammo_equipment # Количество патронов в армии
+				}
+				set_variable = {
+					infantry_ammo_artillery_zp = num_equipment_in_armies_k@artillery_ammo_equipment # Количество арт. снарядов в армии
+				}
+				set_variable = {
+					infantry_strelkovoje_cel = num_target_equipment_in_armies_k@infantry_ammo_equipment # Необходимое количество патронов в армии
+				}
+				set_variable = {
+					infantry_artillery_cel = num_target_equipment_in_armies_k@artillery_ammo_equipment # Необходимое количество арт. снарядов в армии
+				}
+				set_variable = {
+					infantry_strelkovoje_voj = infantry_ammo_strelkovoje_st # 
+				}
+				set_variable = {
+					infantry_artillery_voj = infantry_ammo_artillery_st # 
+				}
+				subtract_from_variable = {
+					infantry_strelkovoje_voj = infantry_strelkovoje_cel # Запасы патронов в войсках
+				} 
+				subtract_from_variable = {
+					infantry_artillery_voj = infantry_artillery_cel # Запасы арт. снарядов в войсках
+				} 
+				
+				set_variable = {
+					infantry_eq_coef = 1 # оснащённость патронами и соответственно влияние на характеристики
+				}
+				set_variable = {
+					arta_eq_coef = 1 # оснащённость арт. снарядами и соответственно влияние на характеристики
+				}
+				if = {
+					limit = {
+						check_variable = {
+							infantry_strelkovoje_voj < 0
+						}
+					}
+					if = {
+						limit = {
+							check_variable = {
+								infantry_ammo_strelkovoje_st = 0
+							}
+							check_variable = {
+								infantry_ammo_strelkovoje_st > infantry_strelkovoje_voj
+							}
+						}
+						set_temp_variable = {
+							coef_ammo_eq = infantry_ammo_strelkovoje_zp
+						}
+						divide_temp_variable  = {
+							coef_ammo_eq = infantry_strelkovoje_cel
+						}
+						multiply_variable = {
+							infantry_eq_coef = coef_ammo_eq
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							infantry_artillery_voj < 0
+						}
+					}
+					if = {
+						limit = {
+							check_variable = {
+								infantry_ammo_artillery_st = 0
+							}
+							check_variable = {
+								infantry_ammo_artillery_st > infantry_artillery_voj
+							}
+						}
+						set_temp_variable = {
+							coef_ammo_eq2 = infantry_ammo_artillery_zp
+						}
+						divide_temp_variable  = {
+							coef_ammo_eq2 = infantry_artillery_cel
+						}
+						multiply_variable = {
+							infantry_eq_coef = coef_ammo_eq2
+						}
+					}
+				}
+				#	set_variable = { # Коэфициент на атаку пехотки
+				#		inf_eq_attack_cf = infantry_eq_coef
+				#	}
+				#	set_variable = { # Коэфициент на защиту пехотки
+				#		inf_eq_def_cf = infantry_eq_coef
+				#	}
+				#	set_variable = { # Коэфициент на атаку арты
+				#		art_eq_attack_cf = arta_eq_coef
+				#	}
+				#	set_variable = { # Коэфициент на защиту арты
+				#		art_eq_def_cf = arta_eq_coef
+				#	}
+				#	log = "[?infantry_equipment@soft_attack] D"
+				#	###################
+				#	category_all_infantry@attack = inf_eq_attack_cf
+				#	category_all_infantry@defense = inf_eq_def_cf
+				#	category_artillery@attack = arta_eq_coef
+				#	category_artillery@defense = arta_eq_coef
+				#	log = "[?infantry_equipment@soft_attack] P"
+				#	###################
+				################################### ПЕХОТА
+				if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef < 1.0
+						}
+					}
+					set_technology = {
+						deficit_inf_1 = 1
+						popup = no
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef > 1.0
+						}
+					}
+					set_technology = {
+						deficit_inf_1 = 0
+						popup = no
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef < 0.8
+						}
+					}
+					set_technology = {
+						deficit_inf_2 = 1
+						popup = no
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef > 0.8
+						}
+					}
+					set_technology = {
+						deficit_inf_2 = 0
+						popup = no
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef < 0.65
+						}
+					}
+					set_technology = {
+						deficit_inf_3 = 1
+						popup = no
+					}	
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef > 0.65
+						}
+					}
+					set_technology = {
+						deficit_inf_3 = 0
+						popup = no
+					}	
+				}
+				if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef < 0.5
+						}}
+						set_technology = {
+							deficit_inf_4 = 1
+							popup = no
+						}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef > 0.5
+						}}
+						set_technology = {
+							deficit_inf_4 = 0
+							popup = no
+						}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef < 0.4
+						}}
+						set_technology = {
+							deficit_inf_5 = 1
+							popup = no
+						}	
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef > 0.4
+						}}
+						set_technology = {
+							deficit_inf_5 = 0
+							popup = no
+						}	
+				}
+				if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef < 0.2
+						}}
+						set_technology = {
+							deficit_inf_6 = 1
+							popup = no
+						}		
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							infantry_eq_coef > 0.2
+						}}
+						set_technology = {
+							deficit_inf_6 = 0
+							popup = no
+						}		
+				}
+					######## АРТА
+				if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef < 1.0
+						}
+					}
+					set_technology = {
+						deficit_art_1 = 1
+						popup = no
+					}					
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef > 1.0
+						}
+					}
+					set_technology = {
+						deficit_art_1 = 0
+						popup = no
+					}					
+				}
+				if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef < 0.8
+						}}
+						set_technology = {
+							deficit_art_2 = 1
+							popup = no
+						}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef > 0.8
+						}}
+						set_technology = {
+							deficit_art_2 = 0
+							popup = no
+						}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef < 0.65
+						}}
+						set_technology = {
+							deficit_art_3 = 1
+							popup = no
+						}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef > 0.65
+						}}
+						set_technology = {
+							deficit_art_3 = 0
+							popup = no
+						}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef < 0.5
+						}}
+						set_technology = {
+							deficit_art_4 = 1
+							popup = no
+						}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef > 0.5
+						}}
+						set_technology = {
+							deficit_art_4 = 0
+							popup = no
+						}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef < 0.4
+						}}
+						set_technology = {
+							deficit_art_5 = 1
+							popup = no
+						}		
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef > 0.4
+						}}
+						set_technology = {
+							deficit_art_5 = 0
+							popup = no
+						}		
+				}
+				if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef < 0.2
+						}
+					}
+					set_technology = {
+						deficit_art_6 = 1
+						popup = no
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							arta_eq_coef > 0.2
+						}
+					}
+					set_technology = {
+						deficit_art_6 = 0
+						popup = no
+					}
+				}
+			##########
+			}
+		}
+	}
+}

@@ -1,0 +1,112 @@
+technologies = {
+	##### INF
+	deficit_inf_1 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_all_infantry = {
+			max_organisation = -4
+		}
+	}
+	deficit_inf_2 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_all_infantry = {
+			max_organisation = -10
+		}
+	}
+	deficit_inf_3 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_all_infantry = {
+			max_organisation = -10
+		}
+	}
+	deficit_inf_4 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_all_infantry = {
+			max_organisation = -10
+		}
+	}
+	deficit_inf_5 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_all_infantry = {
+			max_organisation = -5
+		}
+	}
+	deficit_inf_6 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_all_infantry = {
+			max_organisation = -10
+		}
+	}
+	####ARTILLERY
+	deficit_art_1 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -1
+		}	
+	}
+	deficit_art_2 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -3
+		}	
+	}
+	deficit_art_3 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -4
+		}	
+	}
+	deficit_art_4 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -5
+		}	
+	}
+	deficit_art_5 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -5
+		}	
+	}
+	deficit_art_6 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -5
+		}	
+	}
+}
