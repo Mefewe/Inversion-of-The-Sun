@@ -51,7 +51,7 @@ d_auf = {
 }
 
 d_gays = {
-	log = "1 = [?infantry_ammo_strelkovoje_st] | 2 = [?infantry_ammo_strelkovoje_zp] | 3 = [?infantry_strelkovoje_cel]"
+	log = "1 = [?infantry_ammo_strelkovoje_st] | 2 = [?infantry_ammo_strelkovoje_zp] | 3 = [?infantry_strelkovoje_cel] | 4 = [?infantry_eq_coef]"
 }
 
 d_add_fake_armies = {
