@@ -1,27 +1,24 @@
 state={
-    id=931
-    name="STATE_931"
+    id=473
+    name="STATE_473"
 
-    manpower=129309
+    manpower=32521
 
     state_category = town
 
     provinces={
-           1495 1506
+           372 5173 3859 684 4593 1688 796
     }
 
     history={
         owner = CRY
         add_core_of = CRY
-        victory_points = {1495 23} # Лунино
         buildings = {
             infrastructure = 3
             industrial_complex = 1
-            arms_factory = 1
             }
         }
-
         resources = {
-        steel = 6
+        steel = 2
         }
 }
