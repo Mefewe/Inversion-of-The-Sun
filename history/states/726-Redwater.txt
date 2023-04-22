@@ -1,0 +1,17 @@
+state={
+	id=726
+	name="STATE_726"
+        state_category = pastoral
+	provinces={
+		1383 4146 7117 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+    }
+        resources = {
+        oil = 1
+        }
+	manpower=917
+	buildings_max_level_factor=1.000
+}

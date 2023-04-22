@@ -1,0 +1,17 @@
+state={
+	id=731
+	name="STATE_731"
+        state_category = rural
+	provinces={
+		1687 2236 3777 7121 7122 7158 7195 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+    }
+        resources = {
+        oil = 2
+        }
+	manpower=1824
+	buildings_max_level_factor=1.000
+}

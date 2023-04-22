@@ -1,0 +1,17 @@
+state={
+	id=555
+	name="STATE_555"
+        state_category = rural
+	provinces={
+		752 1008 1376 2405 3698 4417 4861 6474 6579 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+        buildings = {
+                infrastructure = 1
+           }
+        }
+	manpower=49851
+	buildings_max_level_factor=1.000
+}

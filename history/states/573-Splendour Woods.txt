@@ -1,0 +1,18 @@
+state={
+	id=573
+	name="STATE_573"
+        state_category = rural
+	provinces={
+		1786 2643 2686 3675 4149 4191 6492 6496 6524 6572 6575 6584 6616 6630 8205 8206
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+        buildings = {
+                infrastructure = 1
+           }
+        }
+
+	manpower=19751
+	buildings_max_level_factor=1.000
+}

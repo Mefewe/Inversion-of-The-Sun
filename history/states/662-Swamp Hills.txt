@@ -1,0 +1,18 @@
+state={
+	id=662
+	name="STATE_662"
+        state_category = pastoral
+	provinces={
+		492 910 2001 2313 2580 2753 2837 3278 4568 6822 6870 6905 6916 7006 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+        }
+        resources = {
+        oil = 1
+        }
+        
+        manpower = 2856
+	buildings_max_level_factor=1.000
+}

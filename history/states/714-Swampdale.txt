@@ -1,0 +1,17 @@
+state={
+	id=714
+	name="STATE_714"
+        state_category = wasteland
+	provinces={
+		3173 4446 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+    }
+        resources = {
+        oil = 1
+        }
+	manpower=791
+	buildings_max_level_factor=1.000
+}

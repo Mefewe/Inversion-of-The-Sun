@@ -1,0 +1,45 @@
+state={
+	id=715
+	name="STATE_715"
+        state_category = megalopolis
+	provinces={
+		1645 3407 4700 4775 6976 7003 7025 7031 7066 7074 7080 
+	}
+	history={
+	victory_points = {7074 75}
+	victory_points = {7025 50}
+        owner = CHN
+        add_core_of = CHN
+        buildings = {
+                infrastructure = 5
+                industrial_complex = 5
+                arms_factory = 4
+                dockyard = 3
+                air_base = 10
+                anti_air = 5
+                radar_station = 6
+                7074 = {
+                bunker = 3
+                }
+                7066 = {
+                coastal_bunker = 1
+                }
+                7025 = {
+                coastal_bunker = 2
+                }
+                3407 = {
+                coastal_bunker = 1
+                }
+           }
+        }
+
+        resources = {
+        steel = 7
+        aluminium = 8
+        tungsten = 5
+        oil = 4
+        }
+
+	manpower=598591
+	buildings_max_level_factor=1.000
+}

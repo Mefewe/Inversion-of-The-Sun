@@ -1,0 +1,24 @@
+state={
+	id=658
+	name="STATE_658"
+        state_category = city_district
+	provinces={
+		1256 1996 2587 2597 3115 6860 6861 6871 6887 6909 6945 7014 7051 
+	}
+	history={
+	victory_points = {6909 15}
+        owner = MRT
+        add_core_of = EQS
+        buildings = {
+                infrastructure = 2
+                industrial_complex = 1
+           }
+        }
+        resources = {
+        steel = 2
+        aluminium = 1
+        oil = 2
+        }
+	manpower=109124
+	buildings_max_level_factor=1.000
+}
