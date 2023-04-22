@@ -1,7 +1,7 @@
 on_actions = {
 	on_declare_war = {
 		effect = {
-			if = { #Mejrvik battle
+			if = {
 				limit = {
 					OR= {
 						ROOT ={
@@ -17,31 +17,39 @@ on_actions = {
 							}		
 						}
 					}
-					OR = {
-						ROOT = {
-							has_power_balance = {id = VKR_MEJRVIK_balance}
-						}
-						FROM = {
-							has_power_balance = {id = VKR_MEJRVIK_balance}
+				}	
+				if = {
+					limit = {
+						OR = {
+							ROOT = {
+								has_power_balance = {id = VKR_MEJRVIK_balance}
+							}
+							FROM = {
+								has_power_balance = {id = VKR_MEJRVIK_balance}
+							}
 						}
 					}
-				}	
-				VKR = {		
-					remove_power_balance = {id =VKR_MEJRVIK_balance}
+					VKR = {		
+						remove_power_balance = {id = VKR_MEJRVIK_balance}
+					}
+					CRY = {
+						remove_power_balance = {id = VKR_MEJRVIK_balance}
+					}	
 				}
-				CRY = {
-					remove_power_balance = {id =VKR_MEJRVIK_balance}
-				}	
 				if = {
 					limit = {
 						FROM = {
 							original_tag = CRY
 						}
 					}
+						914 = {
+							set_demilitarized_zone = no
+						}
 						VKR = {
 							set_state_controller = 917
 							set_state_owner = 917
 							set_country_flag = VKR_victory_in_mejrvik
+							clr_country_flag = VKR_defeat_in_mejrvik
 							clr_country_flag = start_battle_of_mejrvik
 						}
 					
