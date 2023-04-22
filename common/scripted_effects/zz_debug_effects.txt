@@ -43,10 +43,10 @@ d_auf = {
 		limit = {
 			has_tech = deficit_inf_1
 		}
-		log = "!!!YES!!!"
+		log = "We have deficit: [?infantry_eq_coef]"
 	}
 	else = {
-		log = "!!!NO!!! [?infantry_eq_coef]"
+		log = "We dont have deficit: [?infantry_eq_coef]"
 	}
 }
 
