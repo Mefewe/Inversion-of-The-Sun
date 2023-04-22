@@ -45,57 +45,24 @@ on_actions = {
 				set_variable = {
 					arta_eq_coef = 1 # оснащённость арт. снарядами и соответственно влияние на характеристики
 				}
-				if = {
-					limit = {
-						check_variable = {
-							infantry_strelkovoje_voj < 0
-						}
-					}
-					if = {
-						limit = {
-							check_variable = {
-								infantry_ammo_strelkovoje_st = 0
-							}
-							check_variable = {
-								infantry_ammo_strelkovoje_st > infantry_strelkovoje_voj
-							}
-						}
-						set_temp_variable = {
-							coef_ammo_eq = infantry_ammo_strelkovoje_zp
-						}
-						divide_temp_variable  = {
-							coef_ammo_eq = infantry_strelkovoje_cel
-						}
-						multiply_variable = {
-							infantry_eq_coef = coef_ammo_eq
-						}
-					}
+
+				set_temp_variable = {
+					inf_eq_coef_temp = infantry_ammo_strelkovoje_zp
 				}
-				if = {
-					limit = {
-						check_variable = {
-							infantry_artillery_voj < 0
-						}
-					}
-					if = {
-						limit = {
-							check_variable = {
-								infantry_ammo_artillery_st = 0
-							}
-							check_variable = {
-								infantry_ammo_artillery_st > infantry_artillery_voj
-							}
-						}
-						set_temp_variable = {
-							coef_ammo_eq2 = infantry_ammo_artillery_zp
-						}
-						divide_temp_variable  = {
-							coef_ammo_eq2 = infantry_artillery_cel
-						}
-						multiply_variable = {
-							infantry_eq_coef = coef_ammo_eq2
-						}
-					}
+				divide_temp_variable  = {
+					inf_eq_coef_temp = infantry_strelkovoje_cel
+				}
+				set_variable = {
+					infantry_eq_coef = inf_eq_coef_temp # оснащённость патронами и соответственно влияние на характеристики
+				}
+				set_temp_variable = {
+					art_eq_coef_temp = infantry_ammo_artillery_zp
+				}
+				divide_temp_variable  = {
+					art_eq_coef_temp = infantry_artillery_cel
+				}
+				set_variable = {
+					arta_eq_coef = art_eq_coef_temp # оснащённость патронами и соответственно влияние на характеристики
 				}
 				#	set_variable = { # Коэфициент на атаку пехотки
 				#		inf_eq_attack_cf = infantry_eq_coef
