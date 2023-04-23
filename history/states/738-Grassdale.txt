@@ -1,0 +1,18 @@
+state={
+	id=738
+	name="STATE_738"
+        state_category = large_town
+	provinces={
+		838 2139 2160 2776 7090 7123 7151 7178 
+	}
+	history={
+	victory_points = {2776 13} # Новый Брукенбург
+	victory_points = {7178 12} # Гиферсли
+	victory_points = {2139 17} # Нова-Кризалия
+	victory_points = {7123 16} # Рейсланд
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=2107561
+	buildings_max_level_factor=1.000
+}

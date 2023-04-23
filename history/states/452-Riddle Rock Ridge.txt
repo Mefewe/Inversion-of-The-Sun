@@ -1,0 +1,15 @@
+state={
+	id=452
+	name="STATE_452"
+        state_category = pastoral
+	provinces={
+		380 1084 1184 1359 1795 2301 2382 3188 4726 5969 5978 6046 6086 6112 6124 6173 6196 6235 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+        }
+
+	manpower=21571
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=566
+	name="STATE_566"
+        state_category = large_town
+	provinces={
+		12 1586 1890 2622 2717 2989 3563 3951 4249 6491 6562 6608 6682 6735 6783 
+	}
+	history={
+	victory_points = {6735 22}
+        owner = MRT
+        add_core_of = EQS
+        buildings = {
+                infrastructure = 3
+                industrial_complex = 2
+           }
+        }
+
+        resources = {
+        oil = 4
+        steel = 3
+        aluminium = 4
+        }
+
+	manpower=210846
+	buildings_max_level_factor=1.000
+}

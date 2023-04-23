@@ -1,0 +1,23 @@
+state={
+	id=526
+	name="STATE_526"
+        state_category = town
+	provinces={
+		955 2008 2215 2415 4922 6325 6375 6445 
+	}
+	history={
+	victory_points = {6375 25}
+        owner = MRT
+        add_core_of = EQS
+        buildings = {
+                infrastructure = 3
+                industrial_complex = 2
+           }
+        }
+        resources = {
+        steel = 3
+        }
+
+	manpower=116712
+	buildings_max_level_factor=1.000
+}
