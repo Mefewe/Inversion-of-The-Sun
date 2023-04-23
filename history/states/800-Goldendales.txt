@@ -5,6 +5,9 @@ state={
 		82 2469 3320 7442 7489 
 	}
 	history={
+	victory_points = {7442 20} # Зиберт-Хайв
+	victory_points = {2469 10} # Брасдон
+	victory_points = {82 12} # Гроувальд
         owner = CHN
         add_core_of = CHN
     }

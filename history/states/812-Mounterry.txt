@@ -1,10 +1,11 @@
 state={
-	id=786
-	name="STATE_786"
+	id=812
+	name="STATE_812"
 	provinces={
-		254 1608 2948 4034 7317 7327 7334 7348 7372 
+		1939 3823 7436 7482 7490 7529 7558 8212
 	}
 	history={
+	victory_points = {3823 14} # Маунтерри
         owner = CHN
         add_core_of = CHN
     }

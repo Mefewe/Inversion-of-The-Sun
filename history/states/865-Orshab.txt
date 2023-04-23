@@ -1,10 +1,11 @@
 state={
-	id=804
-	name="STATE_804"
+	id=865
+	name="STATE_865"
 	provinces={
-		1615 4501 7423 
+		669 2122 2688 3019 3514 7630 7655 7685 7697 7729 
 	}
 	history={
+	victory_points = {7685 10} # Оршаб
         owner = CHN
         add_core_of = CHN
     }

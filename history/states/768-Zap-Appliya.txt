@@ -1,0 +1,17 @@
+state={
+	id=768
+	name="STATE_768"
+	provinces={
+		1961 2523 2695 3523 7258 
+	}
+	history={
+	victory_points = {2695 14} # Нью-Доули
+	victory_points = {2523 10} # Ватерплау
+	victory_points = {7258 20} # Церфальд
+	victory_points = {1961 15} # Заппенпол
+        owner = CHN
+        add_core_of = CHN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

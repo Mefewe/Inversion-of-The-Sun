@@ -1,0 +1,28 @@
+state={
+	id=769
+	name="STATE_769"
+        state_category = large_town
+	provinces={
+		2090 2620 7230 7249 7267 
+	}
+	history={
+	victory_points = {7267 13} # Зейвхорнс
+	victory_points = {7230 13} # Олденплац
+	victory_points = {7249 10} # Клёцель
+        owner = CHN
+        add_core_of = CHN
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 4
+            arms_factory = 1
+            synthetic_refinery = 1
+            }
+    }
+
+        resources = {
+        oil = 7
+        }
+
+	manpower=576129
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=765
+	name="STATE_765"
+        state_category = large_town
+	provinces={
+		2060 4564 
+	}
+	history={
+	victory_points = {2060 14} # Гивери
+	victory_points = {4564 15} # Юкатансбург
+        owner = CHN
+        add_core_of = CHN
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 3
+            arms_factory = 1
+            }
+        }
+
+        resources = {
+        oil = 1
+        chromium = 1
+        }
+
+	manpower=521748
+	buildings_max_level_factor=1.000
+}

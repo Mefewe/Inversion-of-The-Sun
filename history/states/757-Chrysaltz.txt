@@ -1,0 +1,30 @@
+state={
+	id=757
+	name="STATE_757"
+        state_category = megalopolis
+	provinces={
+		1555 
+	}
+	history={
+	victory_points = {1555 60} # Кризальц
+        owner = CHN
+        add_core_of = CHN
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 5
+            arms_factory = 4
+            anti_air_building = 3
+            dockyard = 2
+            air_base = 10
+            radar_station = 3
+            }
+        }
+
+        resources = {
+        tungsten = 6
+        chromium = 4
+        }
+
+	manpower=890475
+	buildings_max_level_factor=1.000
+}

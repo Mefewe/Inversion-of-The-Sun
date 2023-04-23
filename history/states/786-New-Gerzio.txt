@@ -1,0 +1,17 @@
+state={
+	id=786
+	name="STATE_786"
+	provinces={
+		254 1608 2948 4034 7317 7327 7334 7348 7372 
+	}
+	history={
+	victory_points = {7372 10} # Галоп-де-Сьюр
+	victory_points = {4034 12} # Аллея Триумфа
+	victory_points = {2948 20} # Герцальц
+	victory_points = {7317 14} # Порт-ин-Вилль 
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -19,8 +19,6 @@ state={
         }
 
         resources = {
-        oil = 5
-        chromium = 3
         tungsten = 2
         }
 

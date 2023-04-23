@@ -1,0 +1,18 @@
+state={
+	id=784
+	name="STATE_784"
+	provinces={
+		105 3605 3953 7328 7352 
+	}
+	history={
+	victory_points = {105 12} # Клоувер
+	victory_points = {7328 20} # Хьюгард-Хайв
+	victory_points = {3605 11} # Харвествальд
+	victory_points = {7352 10} # Мун-Бернау
+	victory_points = {3953 15} # Октансбург
+        owner = CHN
+        add_core_of = CHN
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+}

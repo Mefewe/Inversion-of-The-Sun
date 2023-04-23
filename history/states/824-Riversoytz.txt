@@ -2,9 +2,10 @@ state={
 	id=824
 	name="STATE_824"
 	provinces={
-		420 972 1471 4065 4537 
+		420 972 1471 4065 4537 1615 4501 7423 2941 7452 2261 7402 7371
 	}
 	history={
+	victory_points = {972 10} # Гоундурас
         owner = CHN
         add_core_of = CHN
     }
