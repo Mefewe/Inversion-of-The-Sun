@@ -109,4 +109,71 @@ technologies = {
 			soft_attack = -5
 		}	
 	}
+	####TANKS
+	deficit_tank_1 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -1
+			reliability_factor = -0.2
+			hard_attack = -1
+		}	
+	}
+	deficit_tank_2 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -3
+			reliability_factor = -0.2
+			hard_attack = -3
+		}	
+	}
+	deficit_tank_3 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -4
+			reliability_factor = -0.2
+			hard_attack = -4
+		}	
+	}
+	deficit_tank_4 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -5
+			reliability_factor = -0.2
+			hard_attack = -5
+		}	
+	}
+	deficit_tank_5 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -5
+			reliability_factor = -0.2
+			hard_attack = -5
+		}	
+	}
+	deficit_tank_6 = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+		category_artillery = {
+			soft_attack = -5
+			reliability_factor = -0.2
+			hard_attack = -5
+		}	
+	}
 }

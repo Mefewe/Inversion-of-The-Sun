@@ -24,6 +24,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
+			tank_ammo_equipment = 200
 			medium_tank_chassis = 50
 		}
 		manpower = 500

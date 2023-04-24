@@ -10,7 +10,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3454;8197;sea;9002;-1;-1;-1;-1;;idk
 337;8190;sea;8635;-1;-1;-1;-1;;idk
 2906;8188;sea;9011;-1;-1;-1;-1;;idk
-3169;4601;sea;8635;-1;-1;-1;-1;;idk
 3169;8191;sea;9011;-1;-1;-1;-1;;idk
 4601;1061;sea;9011;-1;-1;-1;-1;;idk
 5209;8187;sea;8624;-1;-1;-1;-1;;idk
@@ -43,7 +42,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5878;3369;sea;8333;-1;-1;-1;-1;;idk
 4235;5923;sea;8333;-1;-1;-1;-1;;idk
 4350;8200;sea;8333;-1;-1;-1;-1;;idk
-4875;5818;sea;8333;-1;-1;-1;-1;;idk
 5937;3732;sea;8484;-1;-1;-1;-1;;idk
 2958;4493;sea;8787;-1;-1;-1;-1;;idk
 4410;2493;sea;8931;-1;-1;-1;-1;;idk
@@ -119,7 +117,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2299;678;sea;8975;-1;-1;-1;-1;;idk
 7853;4016;sea;8975;-1;-1;-1;-1;;idk
 4016;7774;sea;8875;-1;-1;-1;-1;;idk
-2626;6760;sea;8760;-1;-1;-1;-1;;idk
 1494;6635;sea;9073;-1;-1;-1;-1;;idk
 1618;2154;sea;8464;-1;-1;-1;-1;;idk
 6565;1265;sea;8464;-1;-1;-1;-1;;idk
@@ -162,7 +159,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6732;8208;sea;8739;-1;-1;-1;-1;;idk
 8208;8207;sea;8739;-1;-1;-1;-1;;idk
 6732;8207;sea;8739;-1;-1;-1;-1;;idk
-4283;8207;sea;8245;-1;-1;-1;-1;;idk
 6563;8204;sea;8425;-1;-1;-1;-1;;idk
 3623;8203;sea;8425;-1;-1;-1;-1;;idk
 1104;6273;sea;8838;-1;-1;-1;-1;;idk

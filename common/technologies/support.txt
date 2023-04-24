@@ -150,12 +150,6 @@ technologies = {
 			dozer_blade
 			flamethrower
 		}
-
-		enable_subunits = {
-			light_flame_tank
-			medium_flame_tank
-			heavy_flame_tank
-		}
 		
 		
 		path = {
@@ -204,31 +198,6 @@ technologies = {
 				defence = 0.10
 			}
 		}
-
-		light_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		heavy_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
 		path = {
 			leads_to_tech = tech_engineers4
 			research_cost_coeff = 1
@@ -273,30 +242,6 @@ technologies = {
 			urban = {
 				attack = 0.1	
 				defence = 0.1
-			}
-		}
-		light_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		medium_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
-			}
-		}
-		heavy_flame_tank = {
-			urban = {
-				attack = 0.1
-			}
-			fort = {
-				attack = 0.10
 			}
 		}
 		research_cost = 1.5
@@ -1581,11 +1526,6 @@ technologies = {
 		military_expenditures_factor = -0.02
 		barracks_coverage_modifier = 0.05
 
-		path = {
-			leads_to_tech = military_infrastructure4
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.5
 		start_year = 1780
 		folder = {
@@ -1672,11 +1612,6 @@ technologies = {
 		army_org_regain = 0.1
 		army_org_factor = 0.05
 		navy_org_factor = 0.05
-
-		path = {
-			leads_to_tech = command_and_control4
-			research_cost_coeff = 1
-		}
 
 		research_cost = 1.5
 		start_year = 1780
