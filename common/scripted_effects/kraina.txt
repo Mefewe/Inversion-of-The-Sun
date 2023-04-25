@@ -1,5 +1,5 @@
 independence_of_KRE = {
-	925 = {
+	750 = {
 		add_core_of = KRE
 		transfer_state_to = KRE
 	}

@@ -1,4 +1,4 @@
-﻿capital = 925
+﻿capital = 750
 recruit_character = KRE_Penl_Lont
 set_stability = 0.7
 set_war_support = 0.4
@@ -16,10 +16,10 @@ add_ideas = {
 		war_economy
 		service_by_requirement
 		closed_economy
-	}
+}
 set_politics = {
 	ruling_party = democratic
-	last_election = "1768.7.8"
+	last_election = "1770.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
