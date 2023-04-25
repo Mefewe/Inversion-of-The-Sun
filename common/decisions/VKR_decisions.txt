@@ -5,6 +5,12 @@ VKR_mejrvik_battle = {
 		}
 		visible = {
 			has_war = no
+			VKR = {
+				exists = yes
+			}
+			CRY = {
+				exists = yes
+			}
 			OR = {
 				has_completed_focus = start_battle_of_mejrvik
 				has_country_flag = VKR_battle_of_mejrvik
@@ -40,6 +46,12 @@ VKR_mejrvik_battle = {
 		}
 		visible = {
 			has_war = no
+			VKR = {
+				exists = yes
+			}
+			CRY = {
+				exists = yes
+			}
 			CRY = {
 				has_power_balance = {id = VKR_MEJRVIK_balance}
 			}
@@ -76,6 +88,12 @@ CRY_VKR_Escalation = {
 		}
 		visible = {
 			has_war = no
+			VKR = {
+				exists = yes
+			}
+			CRY = {
+				exists = yes
+			}
 		}
 		available = {
 			has_global_flag = {
@@ -99,6 +117,12 @@ CRY_VKR_Escalation = {
 		}
 		visible = {
 			has_war = no
+			VKR = {
+				exists = yes
+			}
+			CRY = {
+				exists = yes
+			}
 		}
 		available = {
 			has_global_flag = {

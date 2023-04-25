@@ -8,6 +8,12 @@ VKR_mejrvik_battle = {
 		}
 	}
 	visible = {
+		VKR = {
+			exists = yes
+		}
+		CRY = {
+			exists = yes
+		}
 		has_war = no
 		has_power_balance = {id = VKR_MEJRVIK_balance}
 	}
@@ -23,6 +29,12 @@ CRY_VKR_Escalation = {
 		}
 	}
 	visible = {
+		VKR = {
+			exists = yes
+		}
+		CRY = {
+			exists = yes
+		}
 		has_war = no
 		VKR = {
 			has_country_flag = VKR_polevoje_dvizhnije
