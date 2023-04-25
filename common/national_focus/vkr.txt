@@ -16,6 +16,10 @@ focus_tree = {
 		x = 10
 		y = 1
 		cost = 10
+		available = {
+			has_war = no
+		}
+		bypass_if_unavailable = yes
 		ai_will_do = {
 			base = 5
 			modifier = {
