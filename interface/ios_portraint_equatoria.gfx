@@ -15,4 +15,8 @@ spriteTypes = {
         name = GFX_YAK_Prince_Rutherford_L
         texturefile = gfx/leaders/YAK/portrait_Prince_Rutherford.dds
     }
+    spriteType = {
+        name = GFX_MRT_Kreisleiter_Phazeylis_L
+        texturefile = gfx/leaders/MRT/portrait_Kreisleiter_Phazeylis.dds
+    }
 }
