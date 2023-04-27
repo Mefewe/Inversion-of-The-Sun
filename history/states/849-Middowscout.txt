@@ -5,6 +5,12 @@ state={
 		390 631 656 1322 1553 1856 1936 2176 2317 2392 2691 2799 3126 3325 3869 4036 4316 4747 4783 7625 7696 7715 7728 7759 7791 
 	}
 	history={
+	victory_points = {2176 13} # Плёзен
+	victory_points = {3325 10} # Изервальд
+	victory_points = {656 20} # Версмольд
+	victory_points = {4036 15} # Кайзеринбах
+	victory_points = {2799 15} # Вэйх
+	victory_points = {7625 10} # Лэнгоуз
         owner = CHN
         add_core_of = CHN
     }

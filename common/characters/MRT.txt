@@ -7,6 +7,7 @@ MRT_Kreisleiter_Phazeylis = {
 			}
 		}
 		country_leader = {
+                        desc="MRT_Kreisleiter_Phazeylis_desc"
 			ideology = fascism_ideology
 			traits = {  }
 			expire = "2000.3.1.1"

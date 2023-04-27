@@ -5,6 +5,7 @@ state={
 		453 793 926 1003 2357 2940 3578 3655 4224 4455 7823 7848 7873 7896 9121 
 	}
 	history={
+	victory_points = {7896 13} # Кёрнихен
         owner = CHN
         add_core_of = CHN
     }

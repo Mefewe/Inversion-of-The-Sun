@@ -5,6 +5,8 @@ state={
 		88 608 653 1973 3050 3541 3791 4585 4757 7995 
 	}
 	history={
+	victory_points = {3541 10} # Ост-Эйхигенштаат
+	victory_points = {3050 10} # Кёрнау
         owner = CHN
         add_core_of = CHN
     }

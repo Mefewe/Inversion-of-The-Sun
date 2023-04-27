@@ -5,6 +5,8 @@ state={
 		318 506 2055 2529 4499 4619 4851 4888 7679 
 	}
 	history={
+	victory_points = {2529 20} # Ринтэл
+	victory_points = {4888 13} # Кортенберг
         owner = CHN
         add_core_of = CHN
     }

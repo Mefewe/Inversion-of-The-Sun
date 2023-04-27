@@ -5,6 +5,8 @@ state={
 		216 459 833 2173 2300 2727 3762 7837 7856 7903 7924 
 	}
 	history={
+	victory_points = {2727 10} # Лампертейм
+	victory_points = {216 10} # Остерхуфен
         owner = CHN
         add_core_of = CHN
     }
