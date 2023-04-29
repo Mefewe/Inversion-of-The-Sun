@@ -6,7 +6,7 @@ state={
 	}
 	history={
         owner = FRD
-        add_core_of = FRD
+        add_core_of = EQS
     }
 	manpower=0
 	buildings_max_level_factor=1.000
