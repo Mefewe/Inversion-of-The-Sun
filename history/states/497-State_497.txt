@@ -2,7 +2,7 @@ state={
 	id=497
 	name="STATE_497"
 	provinces={
-		180 1293 1735 3111 3673 4294 7904 7938 
+		180 1293 3111 3673 4294 7938 
 	}
 	history={
         owner = FRD
