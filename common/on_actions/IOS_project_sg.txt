@@ -120,6 +120,11 @@ on_actions = {
 						check_variable = {
 							infantry_eq_coef < 0.95
 						}
+						NOT = {
+							check_variable = {
+								infantry_eq_coef = 1
+							}
+						}
 					}
 					set_technology = {
 						deficit_inf_1 = 1
@@ -128,8 +133,13 @@ on_actions = {
 				}
 				else_if = {
 					limit = {
-						check_variable = {
-							infantry_eq_coef > 0.95
+						OR ={
+							check_variable = {
+								infantry_eq_coef > 0.95
+							}
+							check_variable = {
+								infantry_eq_coef = 1
+							}
 						}
 					}
 					set_technology = {
@@ -247,6 +257,11 @@ on_actions = {
 						check_variable = {
 							arta_eq_coef < 0.95
 						}
+						NOT = {
+							check_variable = {
+								arta_eq_coef = 1
+							}
+						}
 					}
 					set_technology = {
 						deficit_art_1 = 1
@@ -255,8 +270,13 @@ on_actions = {
 				}
 				else_if = {
 					limit = {
-						check_variable = {
-							arta_eq_coef > 0.95
+						OR = {
+							check_variable = {
+								arta_eq_coef > 0.95
+							}
+							check_variable = {
+								arta_eq_coef = 1
+							}
 						}
 					}
 					set_technology = {
@@ -372,6 +392,11 @@ on_actions = {
 						check_variable = {
 							tank_eq_coef < 0.95
 						}
+						NOT = {
+							check_variable = {
+								tank_eq_coef = 1
+							}
+						}
 					}
 					set_technology = {
 						deficit_tank_1 = 1
@@ -380,9 +405,14 @@ on_actions = {
 				}
 				else_if = {
 					limit = {
-						check_variable = {
-							tank_eq_coef > 0.95
-						}
+						OR = {
+							check_variable = {
+								tank_eq_coef > 0.95
+							}
+							check_variable = {
+								tank_eq_coef = 1
+							}
+					 	}
 					}
 					set_technology = {
 						deficit_tank_1 = 0
