@@ -5,6 +5,7 @@ state={
 		607 829 4327 4840 7531 7548 7596 7604 7638 7666 2302 3830 7613 7736
 	}
 	history={
+	victory_points = {829 10} # Тирмонт
         owner = CHN
         add_core_of = EQS
     }

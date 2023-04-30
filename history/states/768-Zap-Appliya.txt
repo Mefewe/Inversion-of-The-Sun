@@ -1,6 +1,7 @@
 state={
 	id=768
 	name="STATE_768"
+        state_category = megalopolis
 	provinces={
 		1961 2523 2695 3523 7258 
 	}
@@ -11,7 +12,13 @@ state={
 	victory_points = {1961 15} # Заппенпол
         owner = CHN
         add_core_of = CHN
-	}
-	manpower=0
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 6
+            arms_factory = 2
+            }
+        }
+
+	manpower=2759712
 	buildings_max_level_factor=1.000
 }

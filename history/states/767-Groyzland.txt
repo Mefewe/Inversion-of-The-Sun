@@ -5,6 +5,7 @@ state={
 		1173 2377 4807 7298 7337 7384 
 	}
 	history={
+	victory_points = {4807 20} # Пиголиа
         owner = CHN
         add_core_of = EQS
     }

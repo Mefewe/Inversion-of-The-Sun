@@ -5,6 +5,7 @@ state={
 		2221 3174 3175 7242 7284 
 	}
 	history={
+	victory_points = {7284 10} # Даунфолл-Филд
         owner = CHN
         add_core_of = EQS
     }

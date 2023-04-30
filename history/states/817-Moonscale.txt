@@ -1,6 +1,7 @@
 state={
 	id=817
 	name="STATE_817"
+        state_category = metropolis
 	provinces={
 		693 970 1750 2110 3899 3946 4008 4353 7503 7504 7546 7620 7654 
 	}
@@ -13,7 +14,15 @@ state={
 	victory_points = {7503 25} # Чейнджинктон
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 5
+            arms_factory = 3
+            radar_station = 3
+            air_base = 5
+            }
+        }
+
+	manpower=1579067
 	buildings_max_level_factor=1.000
 }

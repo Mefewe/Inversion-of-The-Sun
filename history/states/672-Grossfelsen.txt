@@ -5,6 +5,7 @@ state={
 		906 1683 1758 3488 3610 4299 4857 6845 6865 6904 6973 7009 7024 
 	}
 	history={
+	victory_points = {6904 10} # Серебрянка
         owner = CHN
         add_core_of = EQS
     }

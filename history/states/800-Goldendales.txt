@@ -10,7 +10,18 @@ state={
 	victory_points = {82 12} # Гроувальд
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 3
+            arms_factory = 5
+            anti_air_building = 1
+            dockyard = 1
+            7442 = {
+                 naval_base = 1
+            }
+          }
+        }
+
+	manpower=1658991
 	buildings_max_level_factor=1.000
 }

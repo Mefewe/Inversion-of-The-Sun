@@ -1,6 +1,7 @@
 state={
 	id=798
 	name="STATE_798"
+        state_categroy = large_city
 	provinces={
 		771 2556 2652 3178 4458 7395 7446 7463 7477 7479 7481 7511 7526 
 	}
@@ -10,7 +11,13 @@ state={
 	victory_points = {4458 20} # Вуншторф
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 4
+            arms_factory = 2
+            }
+        }
+
+	manpower=782386
 	buildings_max_level_factor=1.000
 }

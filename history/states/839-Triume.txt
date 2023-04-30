@@ -5,6 +5,7 @@ state={
 		80 171 353 436 1151 1232 3642 4546 7579 7595 7612 7636 7641 7648 7665 56
 	}
 	history={
+	victory_points = {171 20} # Овсянск
         owner = CHN
         add_core_of = EQS
     }

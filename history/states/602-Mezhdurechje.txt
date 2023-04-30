@@ -1,10 +1,11 @@
 state={
-	id=603
-	name="STATE_603"
+	id=602
+	name="STATE_602"
 	provinces={
-		801 891 942 1220 1266 1472 2921 3984 4082 6686 6723 6753 6768 6806 6813 
+		1046 1153 2100 2360 3385 6566 6656 6681 6691
 	}
 	history={
+	victory_points = {6656 10} # Ривервэй
         owner = CHN
         add_core_of = EQS
     }

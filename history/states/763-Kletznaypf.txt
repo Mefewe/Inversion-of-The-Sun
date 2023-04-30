@@ -5,6 +5,7 @@ state={
 		2041 2172 2748 2871 4407 7248 7290 
 	}
 	history={
+	victory_points = {7248 10} # Тауншип
         owner = CHN
         add_core_of = EQS
     }
