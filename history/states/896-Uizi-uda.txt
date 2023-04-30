@@ -1,9 +1,8 @@
 state={
-	id=2
-	name="STATE_2"
-        impassable = yes
+	id=896
+	name="STATE_896"
 	provinces={
-		581 836 3309 7810 
+		122 330 2630 3026 3233 3495 7780 7829 7852 
 	}
 	history={
         owner = KNG
@@ -11,4 +10,5 @@ state={
     }
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category = town
 }

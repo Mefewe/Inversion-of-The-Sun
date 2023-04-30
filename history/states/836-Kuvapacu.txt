@@ -5,9 +5,11 @@ state={
 		1894 2447 2720 3008 3219 3624 3975 4475 7629 7631 7632 7657 7661 7680 7719 
 	}
 	history={
+		victory_points = {3624 15}
         owner = KNG
         add_core_of = KNG
     }
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category = large_city
 }
