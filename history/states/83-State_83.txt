@@ -2,11 +2,11 @@ state={
 	id=83
 	name="STATE_83"
 	provinces={
-		964 1305 4517 7990 
+		964 1305 7990 
 	}
 	history={
         owner = FRD
-        add_core_of = FRD
+        add_core_of = EQS
     }
 	manpower=0
 	buildings_max_level_factor=1.000

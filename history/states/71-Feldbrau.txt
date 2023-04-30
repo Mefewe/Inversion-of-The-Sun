@@ -1,10 +1,11 @@
 state={
-	id=580
-	name="STATE_580"
+	id=71
+	name="STATE_71"
 	provinces={
-		2571 3123 3654 4722 6531 6544 6577 
+		24 3517 3828 4323 7807 7828 7832 7883 7884 
 	}
 	history={
+	victory_points = {3828 10} # Эйдект
         owner = CHN
         add_core_of = CHN
     }

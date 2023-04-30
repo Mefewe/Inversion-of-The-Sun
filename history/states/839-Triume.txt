@@ -2,11 +2,11 @@ state={
 	id=839
 	name="STATE_839"
 	provinces={
-		80 171 353 436 1151 1232 3642 4546 7579 7595 7612 7636 7641 7648 7665 
+		80 171 353 436 1151 1232 3642 4546 7579 7595 7612 7636 7641 7648 7665 56
 	}
 	history={
         owner = CHN
-        add_core_of = CHN
+        add_core_of = EQS
     }
 	manpower=0
 	buildings_max_level_factor=1.000

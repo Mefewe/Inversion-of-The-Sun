@@ -26,7 +26,6 @@ state={
                 }
                 7025 = {
                 coastal_bunker = 2
-                naval_base = 15
                 }
                 3407 = {
                 coastal_bunker = 1
@@ -41,6 +40,6 @@ state={
         oil = 4
         }
 
-	manpower=598591
+	manpower=2198591
 	buildings_max_level_factor=1.000
 }

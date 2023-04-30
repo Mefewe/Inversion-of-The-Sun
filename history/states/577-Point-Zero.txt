@@ -5,8 +5,9 @@ state={
 		530 1427 1664 1949 4425 6494 6521 6535 6595 
 	}
 	history={
+	victory_points = {6535 5} # Поинт-Зиро
         owner = CHN
-        add_core_of = CHN
+        add_core_of = EQS
     }
 	manpower=0
 	buildings_max_level_factor=1.000

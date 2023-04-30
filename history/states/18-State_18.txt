@@ -2,11 +2,11 @@ state={
 	id=18
 	name="STATE_18"
 	provinces={
-		286 594 1294 2455 2868 3010 4119 7812 7836 7838 7862 7863 7881
+		286 594 1294 2455 2868 3010 4119 7812 7836 7838 7862 7863 7881 2011
 	}
 	history={
         owner = FRD
-        add_core_of = FRD
+        add_core_of = EQS
     }
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -5,6 +5,13 @@ state={
 		223 338 2553 2593 2783 3344 3998 4066 4339 7849 7906 7916 7928 7934 3496 3205 2555 7821 
 	}
 	history={
+	victory_points = {7849 25} # Штуттсварм
+	victory_points = {7934 30} # Мунхитин
+	victory_points = {4339 15} # Ньёзирген
+	victory_points = {3998 12} # Пирмонт
+	victory_points = {7906 13} # Наунен
+	victory_points = {2593 12} # Дессель
+	victory_points = {3496 10} # Вельтен
         owner = CHN
         add_core_of = CHN
     }
