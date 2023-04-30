@@ -1,13 +1,15 @@
 state={
-	id=250
-	name="STATE_250"
+	id=859
+	name="STATE_859"
+    impassable = yes
 	provinces={
-		316 2641 2982 3315 4137 4539 8047 8060 
+		392 3017 4437 7643 7702 
 	}
 	history={
         owner = KNG
         add_core_of = KNG
     }
+	state_category = pastoral
 	manpower=0
 	buildings_max_level_factor=1.000
 }

@@ -1,13 +1,14 @@
 state={
-	id=23
-	name="STATE_23"
+	id=874
+	name="STATE_874"
 	provinces={
-		1541 1982 2403 2554 3707 4281 4743 7861 7885 7912 
+		203 1870 2438 2807 2821 3300 3774 4909 7693 7706 7722 7770 
 	}
 	history={
         owner = KNG
         add_core_of = KNG
     }
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }

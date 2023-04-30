@@ -1,13 +1,15 @@
 state={
-	id=874
-	name="STATE_874"
+	id=55
+	name="STATE_55"
 	provinces={
-		203 1870 2438 2807 2821 3300 3774 4909 7693 7706 7722 7770 
+		168 208 1680 2129 4610 8006 8235
 	}
 	history={
+		victory_points = {168 15}
         owner = KNG
         add_core_of = KNG
     }
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category = city
 }
