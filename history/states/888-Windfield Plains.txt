@@ -1,6 +1,7 @@
 state={
 	id=888
 	name="STATE_888"
+        state_category = city
 	provinces={
 		183 685 1930 3752 7711 7786 7816 7825 
 	}
@@ -8,7 +9,17 @@ state={
         victory_points = {1930 10} # Дёльсдорф
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 3
+            arms_factory = 1
+            }
+        }
+
+        resources = {
+        oil = 1
+        }
+
+	manpower=868164
 	buildings_max_level_factor=1.000
 }

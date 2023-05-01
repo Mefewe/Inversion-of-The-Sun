@@ -1,6 +1,7 @@
 state={
 	id=603
 	name="STATE_603"
+        state_category = rural
 	provinces={
 		801 891 942 1220 1266 1472 2921 3984 4082 6686 6723 6753 6768 6806 6813 
 	}
@@ -8,7 +9,16 @@ state={
 	victory_points = {1472 10} # Шахты Кейв
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 3
+            }
+        }
+
+        resources = {
+        steel = 4
+        tungsten = 3
+        }
+
+	manpower=3078491
 	buildings_max_level_factor=1.000
 }

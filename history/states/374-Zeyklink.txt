@@ -1,6 +1,7 @@
 state={
 	id=374
 	name="STATE_374"
+        state_category = large_town
 	provinces={
 		519 715 2610 2899 3463 3696 3889 7941 7942 3036 
 	}
@@ -8,7 +9,12 @@ state={
 	victory_points = {2899 10} # Хандфельд
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 4
+            }
+        }
+
+	manpower=589164
 	buildings_max_level_factor=1.000
 }

@@ -1,6 +1,7 @@
 state={
 	id=206
 	name="STATE_206"
+        state_category = large_town
 	provinces={
 		453 793 926 1003 2357 2940 3578 3655 4224 4455 7823 7848 7873 7896 9121 
 	}
@@ -8,7 +9,16 @@ state={
 	victory_points = {7896 13} # Кёрнихен
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+            }
+        }
+
+        resources = {
+        oil = 3
+        }
+
+	manpower=896178
 	buildings_max_level_factor=1.000
 }

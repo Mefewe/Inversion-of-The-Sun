@@ -19,6 +19,11 @@ state={
             }
         }
 
+        resources = {
+        chromium = 5
+        oil = 3
+        }
+
 	manpower=2759712
 	buildings_max_level_factor=1.000
 }

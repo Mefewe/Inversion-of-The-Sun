@@ -1,13 +1,18 @@
 state={
 	id=580
 	name="STATE_580"
+        state_category = rural
 	provinces={
 		2571 3123 3654 4722 6531 6544 6577 
 	}
 	history={
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 2
+            }
+        }
+
+	manpower=874901
 	buildings_max_level_factor=1.000
 }

@@ -1,6 +1,7 @@
 state={
 	id=577
 	name="STATE_577"
+        state_category = rural
 	provinces={
 		530 1427 1664 1949 4425 6494 6521 6535 6595 
 	}
@@ -9,6 +10,12 @@ state={
         owner = CHN
         add_core_of = EQS
     }
-	manpower=0
+
+        resources = {
+        steel = 4
+        tungsten = 5
+        }
+
+	manpower=609812
 	buildings_max_level_factor=1.000
 }

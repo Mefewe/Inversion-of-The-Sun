@@ -1,6 +1,7 @@
 state={
 	id=599
 	name="STATE_599"
+        state_category = town
 	provinces={
 		1163 1189 1342 1722 1761 2880 3287 3499 3782 4572 4683 6578 6604 6613 6651 6671 6687 6712 6775 
 	}
@@ -8,7 +9,16 @@ state={
 	victory_points = {4572 10} # Мэйнвилль
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            }
+        }
+
+        resources = {
+        steel = 2
+        }
+
+	manpower=2608192
 	buildings_max_level_factor=1.000
 }

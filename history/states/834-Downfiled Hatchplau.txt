@@ -1,6 +1,7 @@
 state={
 	id=834
 	name="STATE_834"
+        state_category = town
 	provinces={
 		607 829 4327 4840 7531 7548 7596 7604 7638 7666 2302 3830 7613 7736
 	}
@@ -8,7 +9,15 @@ state={
 	victory_points = {829 10} # Тирмонт
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 1
+            }
+        }
+
+        resources = {
+        oil = 2
+        }
+
+	manpower=1204681
 	buildings_max_level_factor=1.000
 }

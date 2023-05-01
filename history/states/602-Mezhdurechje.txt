@@ -1,6 +1,7 @@
 state={
 	id=602
 	name="STATE_602"
+        state_category = town
 	provinces={
 		1046 1153 2100 2360 3385 6566 6656 6681 6691
 	}
@@ -8,7 +9,16 @@ state={
 	victory_points = {6656 10} # Ривервэй
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 3
+            }
+        }
+
+        resources = {
+        steel = 2
+        tungsten = 4
+        }
+
+	manpower=2038401
 	buildings_max_level_factor=1.000
 }

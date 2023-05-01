@@ -1,6 +1,7 @@
 state={
 	id=623
 	name="STATE_623"
+        state_category = metropolis
 	provinces={
 		88 608 653 1973 3050 3541 3791 4585 4757 7995 
 	}
@@ -9,7 +10,20 @@ state={
 	victory_points = {3050 10} # Кёрнау
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 5
+            arms_factory = 6
+            radar_station = 4
+            }
+        }
+
+        resources = {
+        chromium = 5
+        steel = 4
+        aluminium = 3
+        }
+
+	manpower=3491749
 	buildings_max_level_factor=1.000
 }

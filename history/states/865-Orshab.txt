@@ -1,6 +1,7 @@
 state={
 	id=865
 	name="STATE_865"
+        state_category = town
 	provinces={
 		669 2122 2688 3019 3514 7630 7655 7685 7697 7729 
 	}
@@ -8,7 +9,13 @@ state={
 	victory_points = {7685 10} # Оршаб
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+            arms_factory = 1
+            }
+        }
+
+	manpower=808174
 	buildings_max_level_factor=1.000
 }

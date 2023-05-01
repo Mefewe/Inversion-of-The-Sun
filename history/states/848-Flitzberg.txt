@@ -1,6 +1,7 @@
 state={
 	id=848
 	name="STATE_848"
+        state_category = city
 	provinces={
 		165 466 2568 3113 3950 4451 7610 7633 7667 7683 7705 7718 307
 	}
@@ -8,7 +9,16 @@ state={
 	victory_points = {3113 16} # Флицберг
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 5
+            industrial_complex = 4
+            }
+        }
+
+        resources = {
+        oil = 2
+        }
+
+	manpower=901724
 	buildings_max_level_factor=1.000
 }

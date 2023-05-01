@@ -1,6 +1,7 @@
 state={
 	id=763
 	name="STATE_763"
+        state_category = rural
 	provinces={
 		2041 2172 2748 2871 4407 7248 7290 
 	}
@@ -8,7 +9,11 @@ state={
 	victory_points = {7248 10} # Тауншип
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 2
+            }
+        }
+
+	manpower=408581
 	buildings_max_level_factor=1.000
 }

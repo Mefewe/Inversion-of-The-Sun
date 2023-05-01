@@ -18,6 +18,12 @@ state={
             }
         }
 
+        resources = {
+        steel = 5
+        aluminium = 4
+        oil = 3
+        }
+
 	manpower=782386
 	buildings_max_level_factor=1.000
 }

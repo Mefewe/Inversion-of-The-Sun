@@ -1,6 +1,7 @@
 state={
 	id=775
 	name="STATE_775"
+        state_category = town
 	provinces={
 		26 462 765 1053 2002 2296 2462 2648 2654 2762 4255 7297 7325 7333 7347 7362 7380 7394 7422 7451 7455 7467 7478 7510 7521 7545 548 1323 1752 2018 2666 4222 7361 7366 7413 7421 7441 7488 7519 7520 7557 
 	}
@@ -8,7 +9,15 @@ state={
 	victory_points = {7347 10} # Маковка
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 2
+            }
+        }
+
+        resources = {
+        rubber = 5
+        }
+
+	manpower=1091788
 	buildings_max_level_factor=1.000
 }

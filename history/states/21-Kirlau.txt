@@ -1,6 +1,7 @@
 state={
 	id=21
 	name="STATE_21"
+        state_category = large_city
 	provinces={
 		216 459 833 2173 2300 2727 3762 7837 7856 7903 7924 
 	}
@@ -9,7 +10,13 @@ state={
 	victory_points = {216 10} # Остерхуфен
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 3
+            arms_factory = 3
+            }
+        }
+
+	manpower=1608194
 	buildings_max_level_factor=1.000
 }

@@ -1,6 +1,7 @@
 state={
 	id=812
 	name="STATE_812"
+        state_category = town
 	provinces={
 		1939 3823 7436 7482 7490 7529 7558 8212
 	}
@@ -8,7 +9,13 @@ state={
 	victory_points = {3823 14} # Маунтерри
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 2
+            arms_factory = 1
+            }
+        }
+
+	manpower=690912
 	buildings_max_level_factor=1.000
 }

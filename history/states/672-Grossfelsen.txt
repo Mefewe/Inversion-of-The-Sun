@@ -1,6 +1,7 @@
 state={
 	id=672
 	name="STATE_672"
+        state_category = rural
 	provinces={
 		906 1683 1758 3488 3610 4299 4857 6845 6865 6904 6973 7009 7024 
 	}
@@ -8,7 +9,18 @@ state={
 	victory_points = {6904 10} # Серебрянка
         owner = CHN
         add_core_of = EQS
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            }
+        }
+
+        resources = {
+        steel = 3
+        aluminium = 3
+        oil = 1
+        }
+
+	manpower=1268491
 	buildings_max_level_factor=1.000
 }

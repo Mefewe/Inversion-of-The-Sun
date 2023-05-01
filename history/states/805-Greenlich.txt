@@ -22,6 +22,14 @@ state={
             }
         }
 
+        resources = {
+        chromium = 4
+        steel = 5
+        aluminium = 6
+        tungsten = 4
+        oil = 7
+        }
+
 	manpower=871929
 	buildings_max_level_factor=1.000
 }

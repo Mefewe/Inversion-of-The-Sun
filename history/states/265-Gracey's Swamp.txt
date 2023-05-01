@@ -1,13 +1,19 @@
 state={
 	id=265
 	name="STATE_265"
+        state_category = town
 	provinces={
 		639 1048 1106 2452 3034 3092 4111 4677 7874 7944 7971 7974 7977 7983 9120 9122
 	}
 	history={
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 2
+            }
+        }
+
+	manpower=702784
 	buildings_max_level_factor=1.000
 }

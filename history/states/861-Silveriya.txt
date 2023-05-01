@@ -1,6 +1,7 @@
 state={
 	id=861
 	name="STATE_861"
+        state_category = large_city
 	provinces={
 		318 506 2055 2529 4499 4619 4851 4888 7679 
 	}
@@ -9,7 +10,13 @@ state={
 	victory_points = {4888 13} # Кортенберг
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 4
+            arms_factory = 1
+            }
+        }
+
+	manpower=1397162
 	buildings_max_level_factor=1.000
 }

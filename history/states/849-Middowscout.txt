@@ -1,6 +1,7 @@
 state={
 	id=849
 	name="STATE_849"
+        state_category = large_city
 	provinces={
 		390 631 656 1322 1553 1856 1936 2176 2317 2392 2691 2799 3126 3325 3869 4036 4316 4747 4783 7625 7696 7715 7728 7759 7791 
 	}
@@ -13,7 +14,13 @@ state={
 	victory_points = {7625 10} # Лэнгоуз
         owner = CHN
         add_core_of = CHN
-    }
-	manpower=0
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 5
+            arms_factory = 6
+            }
+        }
+
+	manpower=2591720
 	buildings_max_level_factor=1.000
 }
