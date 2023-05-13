@@ -5,9 +5,13 @@ state={
 		603 1099 1320 2271 2376 3298 3758 3901 4091 4382 6108 6129 6179 6194 6218 6222 6263 6276 6293 6336 6381 
 	}
 	history={
+		victory_points = {
+			2271 50
+		}
         owner = SDL
         add_core_of = SDL
     }
+	state_category = metropolis 
 	manpower=0
 	buildings_max_level_factor=1.000
 }

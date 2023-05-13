@@ -5,9 +5,11 @@ state={
 		388 438 845 1858 2080 2427 2670 2892 3243 3570 4867 4931 6586 6610 6619 6674 6708 6728 
 	}
 	history={
+		victory_points = {2427 5}
         owner = SDL
         add_core_of = SDL
     }
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }

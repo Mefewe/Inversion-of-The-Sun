@@ -1,13 +1,14 @@
 state={
-	id=504
-	name="STATE_504"
+	id=595
+	name="STATE_595"
 	provinces={
-		487 724 1440 2481 2917 3244 4808 6219 6299 6342 6390 6411 6427 6481 
+		1466 1765 2759 3190 3201 3644 4441 6665 
 	}
 	history={
         owner = SDL
         add_core_of = SDL
     }
+	state_category = rural
 	manpower=0
 	buildings_max_level_factor=1.000
 }

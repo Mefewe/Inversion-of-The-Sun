@@ -1,13 +1,17 @@
 state={
-	id=620
-	name="STATE_620"
+	id=501
+	name="STATE_501"
 	provinces={
-		846 2284 2637 2690 3007 3941 6658 6762 6777 
+		404 901 3225 4776 6242 6292 6310 6386 6546 6547 
 	}
 	history={
+		victory_points = {
+			404 5
+		}
         owner = SDL
         add_core_of = SDL
     }
+	state_category = town
 	manpower=0
 	buildings_max_level_factor=1.000
 }
