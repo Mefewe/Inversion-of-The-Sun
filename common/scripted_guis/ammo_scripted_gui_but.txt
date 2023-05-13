@@ -1,0 +1,47 @@
+scripted_gui = {
+	ammo_gui_b = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "ammo_gui_b"
+		visible = {
+			is_ai = no
+		}
+		effects = {
+			ammo_buttonA_click = {
+				if = {
+					limit = { NOT = { has_variable = global.open_ammo } }
+					set_variable = { global.open_ammo = 1 }
+				}
+				else = {
+					clear_variable = global.open_ammo
+				}
+			}
+		}
+		triggers = {
+        }
+	}
+}
+scripted_gui = {
+
+    ammo_gui_e = {
+    
+        context_type = player_context
+		
+		window_name = "ammo_gui_e"
+		
+		visible = {
+			is_ai = no
+            has_variable = global.open_ammo
+		}
+		
+		effects = {   
+			button_close_click = {            
+				clear_variable = global.open_ammo
+			}
+		}
+        
+		triggers = {          
+
+        }
+    }
+} 

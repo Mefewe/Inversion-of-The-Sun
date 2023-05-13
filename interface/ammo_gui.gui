@@ -1,0 +1,76 @@
+guiTypes = {
+	containerWindowType = { # Основной контейнер
+		name = "ammo_gui_b" # У всех основных контейнеров должно быть своё уникальное название
+		position = { x = 0 y = 0 } # Его позиция в координатах (1 = 1 пиксель)
+		Orientation = UPPER_LEFT
+		buttonType = {
+			name = "ammo_buttonA"
+			position = { x = 1000 y = 0 }
+			quadTextureSprite ="GFX_staff_office_button"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			pdx_tooltip ="AMMO_TOOLTIP_A"
+			pdx_tooltip_delayed = "AMMO_TOOLTIP_B"
+			buttonFont = "hoi_18"
+			oversound = ui_menu_over
+		}
+	}
+}
+guiTypes = {
+	containerWindowType = {
+		name = "ammo_gui_e"
+		position = { x = 0 y = 0}	
+		
+		size = { width = 500 height = 720 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = CENTER
+        
+		background = {
+			name = "Background"		
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+
+        instantTextboxType = {
+			name = "title"
+			position = { x = 15 y = 11 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "AMMOTITLEGUI"
+			maxWidth = 240
+			maxHeight = 20
+			format = center	
+		}
+            
+		buttonType = {
+			name = "button_close"
+			position = { x = 200 y = 675 }
+			spriteType = "GFX_sort_button_100x29_2"
+			frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "Exit"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+			Orientation = "UPPER_LEFT"
+		}
+        
+        instantTextBoxType = {
+            name = "help"
+            position = { x = 200 y = 22 }
+            font = "hoi_18mbs"
+            text = "AMMOTITLEDESC"
+            maxWidth = 470
+            maxHeight = 200
+            Orientation = "UPPER_LEFT"	
+            allwaystransparent = yes
+        }
+    }
+}
+
+                
