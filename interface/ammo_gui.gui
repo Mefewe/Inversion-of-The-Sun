@@ -68,7 +68,7 @@ guiTypes = {
             maxWidth = 470
             maxHeight = 200
             Orientation = "UPPER_LEFT"	
-            allwaystransparent = yes
+            alwaystransparent = yes
         }
     }
 }
