@@ -50,6 +50,24 @@ d_auf = {
 	}
 }
 
+d_deletedeficit1 = {
+	set_technology = {
+		deficit_inf_1 = 0
+		popup = no
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_tech = deficit_inf_1
+			}
+		}
+		log = "DEFICIT1 IS 0"
+	}
+	else = {
+		log = "DEFICIT1 IS 1"
+	}
+}
+
 d_gays = {
 	log = "1 = [?infantry_ammo_strelkovoje_st] | 2 = [?infantry_ammo_strelkovoje_zp] | 3 = [?infantry_strelkovoje_cel] | 4 = [?infantry_eq_coef]"
 }
