@@ -1,7 +1,7 @@
 guiTypes = {
-	containerWindowType = { # Основной контейнер
-		name = "ammo_gui_b" # У всех основных контейнеров должно быть своё уникальное название
-		position = { x = 0 y = 0 } # Его позиция в координатах (1 = 1 пиксель)
+	containerWindowType = { 
+		name = "ammo_gui_b" 
+		position = { x = 0 y = 0 } 
 		Orientation = UPPER_LEFT
 		buttonType = {
 			name = "ammo_buttonA"
@@ -29,25 +29,75 @@ guiTypes = {
 		show_sound = menu_open_window
 		click_to_front = yes
         
-		orientation = CENTER
+		orientation = CENTER_UP
         
 		background = {
 			name = "Background"		
 			quadTextureSprite = "GFX_tiled_window2_1b_border"
 		}
 
-
         instantTextboxType = {
 			name = "title"
-			position = { x = 15 y = 11 }
+			position = { x = 100 y = 8 }
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "AMMOTITLEGUI"
 			maxWidth = 240
 			maxHeight = 20
-			format = center	
+			format = centre
 		}
-            
+
+        iconType = {
+			name = "ammoinf"
+			position = { x = 20 y = 100 }
+			#spriteType = "GFX_ammo_p1"
+			pdx_tooltip = "ammoinftooltip"
+			alwaystransparent = yes
+		}
+        iconType = {
+			name = "ammoart"
+			position = { x = 20 y = 300 }
+			#spriteType = "GFX_ammo_t1"
+			pdx_tooltip = "ammoarttooltip"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "ammotank"
+			position = { x = 20 y = 500 }
+			#spriteType = "GFX_ammo_a1"
+			pdx_tooltip = "ammotanktooltip"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+            name = "ammoinftext"
+            position = { x = 200 y = 100 }
+            font = "hoi_16mbs"
+            text = "AMMOINFTEXTA"
+            maxWidth = 470
+            maxHeight = 200
+            Orientation = "UPPER_LEFT"	
+            alwaystransparent = yes
+        }
+		instantTextBoxType = {
+            name = "ammoarttext"
+            position = { x = 200 y = 300 }
+            font = "hoi_16mbs"
+            text = "AMMOARTTEXTA"
+            maxWidth = 470
+            maxHeight = 200
+            Orientation = "UPPER_LEFT"	
+            alwaystransparent = yes
+        }
+		instantTextBoxType = {
+            name = "ammotanktext"
+            position = { x = 200 y = 500 }
+            font = "hoi_16mbs"
+            text = "AMMOTANKTEXTA"
+            maxWidth = 470
+            maxHeight = 200
+            Orientation = "UPPER_LEFT"	
+            alwaystransparent = yes
+        }
 		buttonType = {
 			name = "button_close"
 			position = { x = 200 y = 675 }
@@ -62,8 +112,8 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "help"
-            position = { x = 200 y = 22 }
-            font = "hoi_18mbs"
+            position = { x = 20 y = 35 }
+            font = "hoi_16mbs"
             text = "AMMOTITLEDESC"
             maxWidth = 470
             maxHeight = 200

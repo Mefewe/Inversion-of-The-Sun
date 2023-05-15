@@ -11,6 +11,7 @@ scripted_gui = {
 				if = {
 					limit = { NOT = { has_variable = global.open_ammo } }
 					set_variable = { global.open_ammo = 1 }
+					log = "[GETAMMOINFTEXTURE]"
 				}
 				else = {
 					clear_variable = global.open_ammo
@@ -35,7 +36,7 @@ scripted_gui = {
 		}
 		
 		effects = {   
-			button_close_click = {            
+			button_close_click = {
 				clear_variable = global.open_ammo
 			}
 		}
@@ -43,5 +44,16 @@ scripted_gui = {
 		triggers = {          
 
         }
+		properties = {
+			ammoart = {
+				image = "[GETAMMOARTILLERYTEXTURE]"
+			}
+			ammoinf = {
+				image = "[GETAMMOINFTEXTURE]"
+			}
+			ammotank = {
+				image = "[GETAMMOTANKTEXTURE]"
+			}
+		}
     }
 } 

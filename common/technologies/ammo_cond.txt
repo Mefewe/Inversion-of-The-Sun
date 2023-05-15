@@ -1,7 +1,7 @@
 technologies = {
 	##### INF
 	deficit_inf_1 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -10,16 +10,16 @@ technologies = {
 		}
 	}
 	deficit_inf_2 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
 		category_all_infantry = {
-			max_organisation = -10
+			max_organisation = agr
 		}
 	}
 	deficit_inf_3 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -28,7 +28,7 @@ technologies = {
 		}
 	}
 	deficit_inf_4 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -37,7 +37,7 @@ technologies = {
 		}
 	}
 	deficit_inf_5 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -46,7 +46,7 @@ technologies = {
 		}
 	}
 	deficit_inf_6 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -56,7 +56,7 @@ technologies = {
 	}
 	####ARTILLERY
 	deficit_art_1 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -65,7 +65,7 @@ technologies = {
 		}	
 	}
 	deficit_art_2 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -74,7 +74,7 @@ technologies = {
 		}	
 	}
 	deficit_art_3 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -83,7 +83,7 @@ technologies = {
 		}	
 	}
 	deficit_art_4 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -92,7 +92,7 @@ technologies = {
 		}	
 	}
 	deficit_art_5 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -101,7 +101,7 @@ technologies = {
 		}	
 	}
 	deficit_art_6 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -111,7 +111,7 @@ technologies = {
 	}
 	####TANKS
 	deficit_tank_1 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -122,7 +122,7 @@ technologies = {
 		}	
 	}
 	deficit_tank_2 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -133,7 +133,7 @@ technologies = {
 		}	
 	}
 	deficit_tank_3 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -144,7 +144,7 @@ technologies = {
 		}	
 	}
 	deficit_tank_4 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -155,7 +155,7 @@ technologies = {
 		}	
 	}
 	deficit_tank_5 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}
@@ -166,7 +166,7 @@ technologies = {
 		}	
 	}
 	deficit_tank_6 = {	
-		research_cost = 1
+		research_cost = 0
 		allow = {
 			always = no
 		}

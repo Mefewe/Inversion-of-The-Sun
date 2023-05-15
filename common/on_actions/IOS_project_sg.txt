@@ -94,60 +94,34 @@ on_actions = {
 				set_variable = {
 					arta_eq_coef = art_eq_coef_temp # оснащённость арт снарядами и соответственно влияние на характеристики
 				}
-				#	set_variable = { # Коэфициент на атаку пехотки
-				#		inf_eq_attack_cf = infantry_eq_coef
-				#	}
-				#	set_variable = { # Коэфициент на защиту пехотки
-				#		inf_eq_def_cf = infantry_eq_coef
-				#	}
-				#	set_variable = { # Коэфициент на атаку арты
-				#		art_eq_attack_cf = arta_eq_coef
-				#	}
-				#	set_variable = { # Коэфициент на защиту арты
-				#		art_eq_def_cf = arta_eq_coef
-				#	}
-				#	log = "[?infantry_equipment@soft_attack] D"
-				#	###################
-				#	category_all_infantry@attack = inf_eq_attack_cf
-				#	category_all_infantry@defense = inf_eq_def_cf
-				#	category_artillery@attack = arta_eq_coef
-				#	category_artillery@defense = arta_eq_coef
-				#	log = "[?infantry_equipment@soft_attack] P"
-				#	###################
-				################################### ПЕХОТА
+				if = {
+					limit = {has_variable = infantry_eq_coef}
+				
 				if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef < 0.95
-						}
-						NOT = {
-							check_variable = {
-								infantry_eq_coef = 1
-							}
 						}
 					}
 					set_technology = {
 						deficit_inf_1 = 1
 						popup = no
 					}
-				}
-				else_if = {
+					set_country_flag = DI1
+					}
+					else_if = {
 					limit = {
-						OR ={
-							check_variable = {
-								infantry_eq_coef > 0.95
-							}
-							check_variable = {
-								infantry_eq_coef = 1
-							}
-						}
+						check_variable = {
+							infantry_eq_coef > 0.95
+						}		
 					}
 					set_technology = {
 						deficit_inf_1 = 0
 						popup = no
 					}
-				}
-				if = {
+					clr_country_flag = DI1
+					}
+					if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef < 0.8
@@ -157,8 +131,9 @@ on_actions = {
 						deficit_inf_2 = 1
 						popup = no
 					}
-				}
-				else_if = {
+					set_country_flag = DI2
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef > 0.8
@@ -168,8 +143,9 @@ on_actions = {
 						deficit_inf_2 = 0
 						popup = no
 					}
-				}
-				if = {
+					clr_country_flag = DI2
+					}
+					if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef < 0.65
@@ -179,8 +155,9 @@ on_actions = {
 						deficit_inf_3 = 1
 						popup = no
 					}	
-				}
-				else_if = {
+					set_country_flag = DI3
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef > 0.65
@@ -190,38 +167,45 @@ on_actions = {
 						deficit_inf_3 = 0
 						popup = no
 					}	
-				}
-				if = {
+					clr_country_flag = DI3
+					}
+					if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef < 0.5
-						}}
-						set_technology = {
-							deficit_inf_4 = 1
-							popup = no
 						}
-				}
-				else_if = {
+					}
+					set_technology = {
+						deficit_inf_4 = 1
+						popup = no
+					}
+					set_country_flag = DI4
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef > 0.5
-						}}
-						set_technology = {
-							deficit_inf_4 = 0
-							popup = no
 						}
-				}
-				if = {
+					}
+					set_technology = {
+						deficit_inf_4 = 0
+						popup = no
+					}
+					clr_country_flag = DI4
+					}
+					if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef < 0.4
-						}}
-						set_technology = {
-							deficit_inf_5 = 1
-							popup = no
-						}	
-				}
-				else_if = {
+						}
+					}
+					set_technology = {
+						deficit_inf_5 = 1
+						popup = no
+					}	
+					set_country_flag = DI5
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef > 0.4
@@ -230,8 +214,9 @@ on_actions = {
 							deficit_inf_5 = 0
 							popup = no
 						}	
-				}
-				if = {
+						clr_country_flag = DI5
+					}
+					if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef < 0.2
@@ -239,9 +224,10 @@ on_actions = {
 						set_technology = {
 							deficit_inf_6 = 1
 							popup = no
-						}		
-				}
-				else_if = {
+						}	
+						set_country_flag = DI6	
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef > 0.2
@@ -249,12 +235,15 @@ on_actions = {
 						set_technology = {
 							deficit_inf_6 = 0
 							popup = no
-						}		
-				}
+						}	
+						clr_country_flag = DI6	
+					}
+			   	 }
+				if = {limit = {has_variable = arta_eq_coef}
 					######## АРТА
-				if = {
-					limit = {
-						check_variable = {
+					if = {
+						limit = {
+							check_variable = {
 							arta_eq_coef < 0.95
 						}
 						NOT = {
@@ -266,9 +255,10 @@ on_actions = {
 					set_technology = {
 						deficit_art_1 = 1
 						popup = no
-					}					
-				}
-				else_if = {
+					}		
+					set_country_flag = DA1		
+					}
+					else_if = {
 					limit = {
 						OR = {
 							check_variable = {
@@ -282,9 +272,10 @@ on_actions = {
 					set_technology = {
 						deficit_art_1 = 0
 						popup = no
-					}					
-				}
-				if = {
+					}	
+					clr_country_flag = DA1
+					}
+					if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef < 0.8
@@ -293,18 +284,21 @@ on_actions = {
 							deficit_art_2 = 1
 							popup = no
 						}
-				}
-				else_if = {
+						set_country_flag = DA2
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef > 0.8
-						}}
-						set_technology = {
-							deficit_art_2 = 0
-							popup = no
 						}
-				}
-				if = {
+					}
+					set_technology = {
+						deficit_art_2 = 0
+						popup = no
+					}
+					clr_country_flag = DA2
+					}
+					if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef < 0.65
@@ -313,8 +307,9 @@ on_actions = {
 							deficit_art_3 = 1
 							popup = no
 						}
-				}
-				else_if = {
+						set_country_flag = DA3
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef > 0.65
@@ -323,8 +318,9 @@ on_actions = {
 							deficit_art_3 = 0
 							popup = no
 						}
-				}
-				if = {
+						clr_country_flag = DA3
+					}
+					if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef < 0.5
@@ -333,8 +329,9 @@ on_actions = {
 							deficit_art_4 = 1
 							popup = no
 						}
-				}
-				else_if = {
+						set_country_flag = DA4
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef > 0.5
@@ -343,8 +340,9 @@ on_actions = {
 							deficit_art_4 = 0
 							popup = no
 						}
-				}
-				if = {
+						clr_country_flag = DA4
+					}
+					if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef < 0.4
@@ -352,9 +350,10 @@ on_actions = {
 						set_technology = {
 							deficit_art_5 = 1
 							popup = no
-						}		
-				}
-				else_if = {
+						}	
+						set_country_flag = DA5	
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef > 0.4
@@ -363,8 +362,9 @@ on_actions = {
 							deficit_art_5 = 0
 							popup = no
 						}		
-				}
-				if = {
+						clr_country_flag = DA5
+					}
+					if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef < 0.2
@@ -374,8 +374,9 @@ on_actions = {
 						deficit_art_6 = 1
 						popup = no
 					}
-				}
-				else_if = {
+					set_country_flag = DA6
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef > 0.2
@@ -385,8 +386,11 @@ on_actions = {
 						deficit_art_6 = 0
 						popup = no
 					}
+					clr_country_flag = DA6
+					}
 				}
 			########## ТАНКИ
+			if = {limit = {has_variable = tank_eq_coef}
 				if = {
 					limit = {
 						check_variable = {
@@ -401,9 +405,10 @@ on_actions = {
 					set_technology = {
 						deficit_tank_1 = 1
 						popup = no
-					}					
-				}
-				else_if = {
+					}	
+					set_country_flag = DT1				
+					}
+					else_if = {
 					limit = {
 						OR = {
 							check_variable = {
@@ -417,9 +422,10 @@ on_actions = {
 					set_technology = {
 						deficit_tank_1 = 0
 						popup = no
-					}					
-				}
-				if = {
+					}	
+					clr_country_flag = DT1				
+					}
+					if = {
 					limit = {
 							check_variable = {
 							tank_eq_coef < 0.8
@@ -429,8 +435,9 @@ on_actions = {
 						deficit_tank_2 = 1
 						popup = no
 					}
-				}
-				else_if = {
+					set_country_flag = DT2
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							tank_eq_coef > 0.8
@@ -440,8 +447,9 @@ on_actions = {
 						deficit_tank_2 = 0
 						popup = no
 					}
-				}
-				if = {
+					clr_country_flag = DT2
+					}
+					if = {
 					limit = {
 					check_variable = {
 							tank_eq_coef < 0.65
@@ -451,8 +459,9 @@ on_actions = {
 						deficit_tank_3 = 1
 						popup = no
 					}
-				}
-				else_if = {
+					set_country_flag = DT3
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							tank_eq_coef > 0.65
@@ -462,8 +471,9 @@ on_actions = {
 						deficit_tank_3 = 0
 						popup = no
 					}
-				}
-				if = {
+					clr_country_flag = DT3
+					}
+					if = {
 					limit = {
 							check_variable = {
 							tank_eq_coef < 0.5
@@ -473,8 +483,9 @@ on_actions = {
 						deficit_tank_4 = 1
 						popup = no
 					}
-				}
-				else_if = {
+					set_country_flag = DT4
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							tank_eq_coef > 0.5
@@ -484,8 +495,9 @@ on_actions = {
 						deficit_tank_4 = 0
 						popup = no
 					}
-				}
-				if = {
+					clr_country_flag = DT4
+					}
+					if = {
 					limit = {
 						check_variable = {
 							tank_eq_coef < 0.4
@@ -494,19 +506,22 @@ on_actions = {
 					set_technology = {
 						deficit_tank_5 = 1
 						popup = no
-					}		
-				}
-				else_if = {
+					}	
+					set_country_flag = DT5	
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							tank_eq_coef > 0.4
-						}}
+						}
+					}
 						set_technology = {
 							deficit_tank_5 = 0
 							popup = no
-						}		
-				}
-				if = {
+						}	
+						clr_country_flag = DT5	
+					}
+					if = {
 					limit = {
 						check_variable = {
 							tank_eq_coef < 0.2
@@ -516,16 +531,19 @@ on_actions = {
 						deficit_tank_6 = 1
 						popup = no
 					}
-				}
-				else_if = {
+					set_country_flag = DT6
+					}
+					else_if = {
 					limit = {
 						check_variable = {
 							tank_eq_coef > 0.2
 						}
 					}
-				set_technology = {
+					set_technology = {
 					deficit_tank_6 = 0
 						popup = no
+					}
+					clr_country_flag = DT6
 					}
 				}
 			}

@@ -1,3 +1,4 @@
+###############################
 IOSSE_show_super_event = {
 	if = {
 		limit = { check_variable = { global.IOSSE_super_event = 1 } }
