@@ -1,67 +1,106 @@
 ideas = {
 	hidden_ideas = {
 		ammo_art_idea1 = {
+			equipment_bonus = {
+				artillery = {
+					soft_attack = -2
+					defense = -2
+				} 
+			}
         }
 		ammo_art_idea2 = {
 			equipment_bonus = {
-
+				artillery = {
+					soft_attack = -3
+					defense = -3
+				} 
             }
         }
 		ammo_art_idea3 = {
 			equipment_bonus = {
- 
+				artillery = {
+					soft_attack = -4
+					defense = -4
+				} 
             }
         }
 		ammo_art_idea4 = {
 			equipment_bonus = {
- 
+				artillery = {
+					soft_attack = -5
+					defense = -5
+				} 
             }
         }
 		ammo_art_idea5 = {
 			equipment_bonus = {
- 
+				artillery = {
+					soft_attack = -5
+					defense = -5
+				} 
             }
         }
 		ammo_art_idea6 = {
 			equipment_bonus = {
- 
+				artillery = {
+					soft_attack = -5
+					defense = -5
+				} 
             }
         }
 
 
 		ammo_inf_idea1 = {
 			equipment_bonus = {
- 
+				infantry_equipment = {
+					defense = -2
+					soft_attack = -2
+				}
             }
         }
 		ammo_inf_idea2 = {
 			equipment_bonus = {
- 
+				infantry_equipment = {
+					defense = -2
+					soft_attack = -2
+				}
             }
         }
 		ammo_inf_idea3 = {
 			equipment_bonus = {
- 
+				infantry_equipment = {
+					defense = -3
+					soft_attack = -3
+				}
             }
         }
 		ammo_inf_idea4 = {
 			equipment_bonus = {
- 
+				infantry_equipment = {
+					defense = -3
+					soft_attack = -4
+				}
             }
         }
 		ammo_inf_idea5 = {
 			equipment_bonus = {
- 
+				infantry_equipment = {
+					defense = -2
+					soft_attack = -4
+				}
             }
         }
 		ammo_inf_idea6 = {
 			equipment_bonus = {
- 
+				infantry_equipment = {
+					defense = -1
+					soft_attack = -3
+				}
             }
         }
 
 
-		ammo_tank_idea1 = {
+		ammo_tank_idea1 = { # Поскольку танки не сделали мы, потому и похуй, потом уж будет
 			equipment_bonus = {
  
             }

@@ -1,15 +1,4 @@
 on_actions = {
-	on_startup ={
-		effect = {
-			every_country = {
-				add_ideas = {
-					ammo_art_idea1
-					ammo_inf_idea1
-					ammo_tank_idea1
-				}
-			}
-		}
-	}
 	on_daily = {
 		effect = {
 			every_country = {

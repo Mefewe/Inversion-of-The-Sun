@@ -49,32 +49,6 @@ d_auf = {
 		log = "We dont have deficit: [?infantry_eq_coef]"
 	}
 }
-d_auf2 = {
-	if = {
-		limit = {
-			has_idea = ammo_inf_idea1
-		}
-		log = "We have deficit: [?infantry_eq_coef]"
-	}
-	else = {
-		log = "We dont have deficit: [?infantry_eq_coef]"
-	}
-}
-
-d_deletedeficit1 = {
-	remove_ideas = ammo_inf_idea1
-	if = {
-		limit = {
-			NOT = {
-				has_idea = ammo_inf_idea1
-			}
-		}
-		log = "DEFICIT1 IS 0"
-	}
-	else = {
-		log = "DEFICIT1 IS 1"
-	}
-}
 
 d_gays = {
 	log = "1 = [?infantry_ammo_strelkovoje_st] | 2 = [?infantry_ammo_strelkovoje_zp] | 3 = [?infantry_strelkovoje_cel] | 4 = [?infantry_eq_coef]"
