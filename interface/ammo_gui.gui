@@ -50,19 +50,19 @@ guiTypes = {
         iconType = {
 			name = "ammoinf"
 			position = { x = 20 y = 100 }
-			pdx_tooltip = ammoinftooltip
+			#pdx_tooltip = ammoinftooltip
 			alwaystransparent = yes
 		}
         iconType = {
 			name = "ammoart"
 			position = { x = 20 y = 300 }
-			pdx_tooltip = ammoarttooltip
+			#pdx_tooltip = ammoarttooltip
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "ammotank"
 			position = { x = 20 y = 500 }
-			pdx_tooltip = ammotanktooltip
+			#pdx_tooltip = ammotanktooltip
 			alwaystransparent = yes
 		}
 		instantTextBoxType = {
