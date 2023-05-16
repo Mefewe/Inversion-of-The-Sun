@@ -10,7 +10,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = click_close
 			pdx_tooltip ="AMMO_TOOLTIP_A"
-			pdx_tooltip_delayed = "AMMO_TOOLTIP_B"
+			#pdx_tooltip_delayed = "AMMO_TOOLTIP_B"
 			buttonFont = "hoi_18"
 			oversound = ui_menu_over
 		}
@@ -50,27 +50,24 @@ guiTypes = {
         iconType = {
 			name = "ammoinf"
 			position = { x = 20 y = 100 }
-			#spriteType = "GFX_ammo_p1"
-			pdx_tooltip = "ammoinftooltip"
+			pdx_tooltip = ammoinftooltip
 			alwaystransparent = yes
 		}
         iconType = {
 			name = "ammoart"
 			position = { x = 20 y = 300 }
-			#spriteType = "GFX_ammo_t1"
-			pdx_tooltip = "ammoarttooltip"
+			pdx_tooltip = ammoarttooltip
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "ammotank"
 			position = { x = 20 y = 500 }
-			#spriteType = "GFX_ammo_a1"
-			pdx_tooltip = "ammotanktooltip"
+			pdx_tooltip = ammotanktooltip
 			alwaystransparent = yes
 		}
 		instantTextBoxType = {
             name = "ammoinftext"
-            position = { x = 200 y = 100 }
+            position = { x = 190 y = 100 }
             font = "hoi_16mbs"
             text = "AMMOINFTEXTA"
             maxWidth = 470
@@ -80,7 +77,7 @@ guiTypes = {
         }
 		instantTextBoxType = {
             name = "ammoarttext"
-            position = { x = 200 y = 300 }
+            position = { x = 190 y = 300 }
             font = "hoi_16mbs"
             text = "AMMOARTTEXTA"
             maxWidth = 470
@@ -90,7 +87,7 @@ guiTypes = {
         }
 		instantTextBoxType = {
             name = "ammotanktext"
-            position = { x = 200 y = 500 }
+            position = { x = 190 y = 500 }
             font = "hoi_16mbs"
             text = "AMMOTANKTEXTA"
             maxWidth = 470
