@@ -4,7 +4,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				NOT = {
-					has_tech = deficit_art_1
+					has_country_flag = DA1
 				}
 			}
 		}
@@ -12,37 +12,37 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_art_1
+			has_country_flag = DA1
 		}
 		localization_key = "GFX_ammo_t2"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_art_2
+			has_country_flag = DA2
 		}
 		localization_key = "GFX_ammo_t3"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_art_3
+			has_country_flag = DA3
 		}
 		localization_key = "GFX_ammo_t4"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_art_4
+			has_country_flag = DA4
 		}
 		localization_key = "GFX_ammo_t5"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_art_5
+			has_country_flag = DA5
 		}
 		localization_key = "GFX_ammo_t6"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_art_6
+			has_country_flag = DA6
 		}
 		localization_key = "GFX_ammo_t7"
 	}
@@ -52,46 +52,46 @@ defined_text = {
 	text = {
 		trigger = {
 			OR ={
-					NOT = {
-						has_tech = deficit_inf_1
-					}
+				NOT = {
+					has_country_flag = DI1
 				}
-			}		
+			}
+		}		
 		localization_key = "GFX_ammo_p1"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_inf_1
+			has_country_flag = DI1
 		}
 		localization_key = "GFX_ammo_p2"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_inf_2
+			has_country_flag = DI2
 		}
 		localization_key = "GFX_ammo_p3"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_inf_3
+			has_country_flag = DI3
 		}
 		localization_key = "GFX_ammo_p4"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_inf_4
+			has_country_flag = DI4
 		}
 		localization_key = "GFX_ammo_p5"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_inf_5
+			has_country_flag = DI5
 		}
 		localization_key = "GFX_ammo_p6"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_inf_6
+			has_country_flag = DI6
 		}
 		localization_key = "GFX_ammo_p7"
 	}
@@ -102,7 +102,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				NOT = {
-					has_tech = deficit_tank_1
+					has_country_flag = DT1
 				}
 			}
 		}
@@ -110,37 +110,37 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_tank_1
+			has_country_flag = DT1
 		}
 		localization_key = "GFX_ammo_a2"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_tank_2
+			has_country_flag = DT2
 		}
 		localization_key = "GFX_ammo_a3"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_tank_3
+			has_country_flag = DT3
 		}
 		localization_key = "GFX_ammo_a4"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_tank_4
+			has_country_flag = DT4
 		}
 		localization_key = "GFX_ammo_a5"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_tank_5
+			has_country_flag = DT5
 		}
 		localization_key = "GFX_ammo_a6"
 	}
 	text = {
 		trigger = {
-			has_tech = deficit_tank_6
+			has_country_flag = DT6
 		}
 		localization_key = "GFX_ammo_a7"
 	}

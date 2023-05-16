@@ -1,0 +1,95 @@
+ideas = {
+	hidden_ideas = {
+		ammo_art_idea1 = {
+        }
+		ammo_art_idea2 = {
+			equipment_bonus = {
+
+            }
+        }
+		ammo_art_idea3 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_art_idea4 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_art_idea5 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_art_idea6 = {
+			equipment_bonus = {
+ 
+            }
+        }
+
+
+		ammo_inf_idea1 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_inf_idea2 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_inf_idea3 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_inf_idea4 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_inf_idea5 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_inf_idea6 = {
+			equipment_bonus = {
+ 
+            }
+        }
+
+
+		ammo_tank_idea1 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_tank_idea2 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_tank_idea3 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_tank_idea4 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_tank_idea5 = {
+			equipment_bonus = {
+ 
+            }
+        }
+		ammo_tank_idea6 = {
+			equipment_bonus = {
+ 
+            }
+        }
+	}
+}

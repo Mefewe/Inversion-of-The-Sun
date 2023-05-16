@@ -1,5 +1,11 @@
 technologies = {
 	##### INF
+	OSEL = {	
+		research_cost = 1
+		allow = {
+			always = no
+		}
+	}
 	deficit_inf_1 = {	
 		research_cost = 1
 		allow = {

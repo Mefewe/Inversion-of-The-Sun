@@ -1,4 +1,15 @@
 on_actions = {
+	on_startup ={
+		effect = {
+			every_country = {
+				add_ideas = {
+					ammo_art_idea1
+					ammo_inf_idea1
+					ammo_tank_idea1
+				}
+			}
+		}
+	}
 	on_daily = {
 		effect = {
 			every_country = {
@@ -97,39 +108,27 @@ on_actions = {
 				if = {
 					limit = {has_variable = infantry_eq_coef}
 				
-				if = {
-					limit = {
-						check_variable = {
-							infantry_eq_coef < 0.95
+					if = {
+						limit = {
+							check_variable = {
+								infantry_eq_coef < 0.95
+							}
 						}
-					}
-					set_technology = {
-						deficit_inf_1 = 1
-						popup = no
-					}
-					set_country_flag = DI1
-					}
+						set_country_flag = DI1
+						}
 					else_if = {
-					limit = {
+						limit = {
 						check_variable = {
-							infantry_eq_coef > 0.95
-						}		
-					}
-					set_technology = {
-						deficit_inf_1 = 0
-						popup = no
-					}
-					clr_country_flag = DI1
+								infantry_eq_coef > 0.95
+							}		
+						}
+						clr_country_flag = DI1
 					}
 					if = {
 					limit = {
 						check_variable = {
 							infantry_eq_coef < 0.8
 						}
-					}
-					set_technology = {
-						deficit_inf_2 = 1
-						popup = no
 					}
 					set_country_flag = DI2
 					}
@@ -139,10 +138,6 @@ on_actions = {
 							infantry_eq_coef > 0.8
 						}
 					}
-					set_technology = {
-						deficit_inf_2 = 0
-						popup = no
-					}
 					clr_country_flag = DI2
 					}
 					if = {
@@ -151,10 +146,6 @@ on_actions = {
 							infantry_eq_coef < 0.65
 						}
 					}
-					set_technology = {
-						deficit_inf_3 = 1
-						popup = no
-					}	
 					set_country_flag = DI3
 					}
 					else_if = {
@@ -163,10 +154,6 @@ on_actions = {
 							infantry_eq_coef > 0.65
 						}
 					}
-					set_technology = {
-						deficit_inf_3 = 0
-						popup = no
-					}	
 					clr_country_flag = DI3
 					}
 					if = {
@@ -174,10 +161,6 @@ on_actions = {
 						check_variable = {
 							infantry_eq_coef < 0.5
 						}
-					}
-					set_technology = {
-						deficit_inf_4 = 1
-						popup = no
 					}
 					set_country_flag = DI4
 					}
@@ -187,10 +170,6 @@ on_actions = {
 							infantry_eq_coef > 0.5
 						}
 					}
-					set_technology = {
-						deficit_inf_4 = 0
-						popup = no
-					}
 					clr_country_flag = DI4
 					}
 					if = {
@@ -198,10 +177,6 @@ on_actions = {
 						check_variable = {
 							infantry_eq_coef < 0.4
 						}
-					}
-					set_technology = {
-						deficit_inf_5 = 1
-						popup = no
 					}	
 					set_country_flag = DI5
 					}
@@ -210,10 +185,6 @@ on_actions = {
 						check_variable = {
 							infantry_eq_coef > 0.4
 						}}
-						set_technology = {
-							deficit_inf_5 = 0
-							popup = no
-						}	
 						clr_country_flag = DI5
 					}
 					if = {
@@ -221,10 +192,6 @@ on_actions = {
 						check_variable = {
 							infantry_eq_coef < 0.2
 						}}
-						set_technology = {
-							deficit_inf_6 = 1
-							popup = no
-						}	
 						set_country_flag = DI6	
 					}
 					else_if = {
@@ -232,10 +199,6 @@ on_actions = {
 						check_variable = {
 							infantry_eq_coef > 0.2
 						}}
-						set_technology = {
-							deficit_inf_6 = 0
-							popup = no
-						}	
 						clr_country_flag = DI6	
 					}
 			   	 }
@@ -251,11 +214,7 @@ on_actions = {
 								arta_eq_coef = 1
 							}
 						}
-					}
-					set_technology = {
-						deficit_art_1 = 1
-						popup = no
-					}		
+					}	
 					set_country_flag = DA1		
 					}
 					else_if = {
@@ -268,10 +227,6 @@ on_actions = {
 								arta_eq_coef = 1
 							}
 						}
-					}
-					set_technology = {
-						deficit_art_1 = 0
-						popup = no
 					}	
 					clr_country_flag = DA1
 					}
@@ -280,10 +235,6 @@ on_actions = {
 						check_variable = {
 							arta_eq_coef < 0.8
 						}}
-						set_technology = {
-							deficit_art_2 = 1
-							popup = no
-						}
 						set_country_flag = DA2
 					}
 					else_if = {
@@ -292,10 +243,6 @@ on_actions = {
 							arta_eq_coef > 0.8
 						}
 					}
-					set_technology = {
-						deficit_art_2 = 0
-						popup = no
-					}
 					clr_country_flag = DA2
 					}
 					if = {
@@ -303,10 +250,6 @@ on_actions = {
 						check_variable = {
 							arta_eq_coef < 0.65
 						}}
-						set_technology = {
-							deficit_art_3 = 1
-							popup = no
-						}
 						set_country_flag = DA3
 					}
 					else_if = {
@@ -314,10 +257,6 @@ on_actions = {
 						check_variable = {
 							arta_eq_coef > 0.65
 						}}
-						set_technology = {
-							deficit_art_3 = 0
-							popup = no
-						}
 						clr_country_flag = DA3
 					}
 					if = {
@@ -325,10 +264,6 @@ on_actions = {
 						check_variable = {
 							arta_eq_coef < 0.5
 						}}
-						set_technology = {
-							deficit_art_4 = 1
-							popup = no
-						}
 						set_country_flag = DA4
 					}
 					else_if = {
@@ -336,32 +271,20 @@ on_actions = {
 						check_variable = {
 							arta_eq_coef > 0.5
 						}}
-						set_technology = {
-							deficit_art_4 = 0
-							popup = no
-						}
 						clr_country_flag = DA4
 					}
 					if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef < 0.4
-						}}
-						set_technology = {
-							deficit_art_5 = 1
-							popup = no
-						}	
+						}}	
 						set_country_flag = DA5	
 					}
 					else_if = {
 					limit = {
 						check_variable = {
 							arta_eq_coef > 0.4
-						}}
-						set_technology = {
-							deficit_art_5 = 0
-							popup = no
-						}		
+						}}	
 						clr_country_flag = DA5
 					}
 					if = {
@@ -370,10 +293,6 @@ on_actions = {
 							arta_eq_coef < 0.2
 						}
 					}
-					set_technology = {
-						deficit_art_6 = 1
-						popup = no
-					}
 					set_country_flag = DA6
 					}
 					else_if = {
@@ -381,10 +300,6 @@ on_actions = {
 						check_variable = {
 							arta_eq_coef > 0.2
 						}
-					}
-					set_technology = {
-						deficit_art_6 = 0
-						popup = no
 					}
 					clr_country_flag = DA6
 					}
@@ -402,10 +317,6 @@ on_actions = {
 							}
 						}
 					}
-					set_technology = {
-						deficit_tank_1 = 1
-						popup = no
-					}	
 					set_country_flag = DT1				
 					}
 					else_if = {
@@ -418,10 +329,6 @@ on_actions = {
 								tank_eq_coef = 1
 							}
 					 	}
-					}
-					set_technology = {
-						deficit_tank_1 = 0
-						popup = no
 					}	
 					clr_country_flag = DT1				
 					}
@@ -431,10 +338,6 @@ on_actions = {
 							tank_eq_coef < 0.8
 						}
 					}
-					set_technology = {
-						deficit_tank_2 = 1
-						popup = no
-					}
 					set_country_flag = DT2
 					}
 					else_if = {
@@ -442,10 +345,6 @@ on_actions = {
 						check_variable = {
 							tank_eq_coef > 0.8
 						}
-					}
-					set_technology = {
-						deficit_tank_2 = 0
-						popup = no
 					}
 					clr_country_flag = DT2
 					}
@@ -455,10 +354,6 @@ on_actions = {
 							tank_eq_coef < 0.65
 						}
 					}
-					set_technology = {
-						deficit_tank_3 = 1
-						popup = no
-					}
 					set_country_flag = DT3
 					}
 					else_if = {
@@ -466,10 +361,6 @@ on_actions = {
 						check_variable = {
 							tank_eq_coef > 0.65
 						}
-					}
-					set_technology = {
-						deficit_tank_3 = 0
-						popup = no
 					}
 					clr_country_flag = DT3
 					}
@@ -479,10 +370,6 @@ on_actions = {
 							tank_eq_coef < 0.5
 						}
 					}
-					set_technology = {
-						deficit_tank_4 = 1
-						popup = no
-					}
 					set_country_flag = DT4
 					}
 					else_if = {
@@ -490,10 +377,6 @@ on_actions = {
 						check_variable = {
 							tank_eq_coef > 0.5
 						}
-					}
-					set_technology = {
-						deficit_tank_4 = 0
-						popup = no
 					}
 					clr_country_flag = DT4
 					}
@@ -503,10 +386,6 @@ on_actions = {
 							tank_eq_coef < 0.4
 						}
 					}
-					set_technology = {
-						deficit_tank_5 = 1
-						popup = no
-					}	
 					set_country_flag = DT5	
 					}
 					else_if = {
@@ -514,11 +393,7 @@ on_actions = {
 						check_variable = {
 							tank_eq_coef > 0.4
 						}
-					}
-						set_technology = {
-							deficit_tank_5 = 0
-							popup = no
-						}	
+					}	
 						clr_country_flag = DT5	
 					}
 					if = {
@@ -526,10 +401,6 @@ on_actions = {
 						check_variable = {
 							tank_eq_coef < 0.2
 						}
-					}
-					set_technology = {
-						deficit_tank_6 = 1
-						popup = no
 					}
 					set_country_flag = DT6
 					}
@@ -539,10 +410,6 @@ on_actions = {
 							tank_eq_coef > 0.2
 						}
 					}
-					set_technology = {
-					deficit_tank_6 = 0
-						popup = no
-					}
 					clr_country_flag = DT6
 					}
 				}
@@ -550,3 +417,416 @@ on_actions = {
 		}
 	}
 }
+on_actions = {
+	on_daily ={
+		effect= {
+			every_country = {
+				if = {
+					limit = {
+						has_variable = tank_eq_coef
+						has_variable = infantry_eq_coef
+						has_variable = arta_eq_coef
+					}
+					if = {
+						limit = {
+							has_country_flag = DI6
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_inf_idea6}
+							}
+							add_ideas = {ammo_inf_idea6}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT = {has_country_flag = DI6}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_inf_idea6
+							}
+							remove_ideas  = {ammo_inf_idea6}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DI5
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_inf_idea5}
+							}
+							add_ideas = {ammo_inf_idea5}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT = {has_country_flag = DI5}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_inf_idea5
+							}
+							remove_ideas  = {ammo_inf_idea5}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DI4
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_inf_idea4}
+							}
+							add_ideas = {ammo_inf_idea4}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT = {has_country_flag = DI4}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_inf_idea4
+							}
+							remove_ideas  = {ammo_inf_idea4}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DI3
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_inf_idea3}
+							}
+							add_ideas = {ammo_inf_idea3}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT ={has_country_flag = DI3}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_inf_idea3
+							}
+							remove_ideas  = {ammo_inf_idea3}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DI2
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_inf_idea2}
+							}
+							add_ideas = {ammo_inf_idea2}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT = {has_country_flag = DI2}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_inf_idea2
+							}
+							remove_ideas  = {ammo_inf_idea2}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DI1
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_inf_idea1}
+							}
+							add_ideas = {ammo_inf_idea1}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT = {has_country_flag = DI1}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_inf_idea1
+							}
+							remove_ideas  = {ammo_inf_idea1}
+						}
+					}
+						######## АРТА
+					if = {
+						limit = {
+							has_country_flag = DA6
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_art_idea6}
+							}
+							add_ideas = {ammo_art_idea6}
+						}
+					}
+					else_if = {
+						limit = {
+						NOT={	has_country_flag = DA6}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_art_idea6
+							}
+							remove_ideas  = {ammo_art_idea6}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DA5
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_art_idea5}
+							}
+							add_ideas = {ammo_art_idea5}
+						}
+					}
+					else_if = {
+						limit = {
+						NOT={	has_country_flag = DA5}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_art_idea5
+							}
+							remove_ideas  = {ammo_art_idea5}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DA4
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_art_idea4}
+							}
+							add_ideas = {ammo_art_idea4}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DA4}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_art_idea4
+							}
+							remove_ideas  = {ammo_art_idea4}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DA3
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_art_idea3}
+							}
+							add_ideas = {ammo_art_idea3}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DA3}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_art_idea3
+							}
+							remove_ideas  = {ammo_art_idea3}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DA2
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_art_idea2}
+							}
+							add_ideas = {ammo_art_idea2}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DA2}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_art_idea2
+							}
+							remove_ideas  = {ammo_art_idea2}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DA1
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_art_idea1}
+							}
+							add_ideas = {ammo_art_idea1}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DA1}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_art_idea1
+							}
+							remove_ideas  = {ammo_art_idea1}
+						}
+					}
+				########## ТАНКИ
+					if = {
+						limit = {
+								has_country_flag = DT6
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_tank_idea6}
+							}
+							add_ideas = {ammo_tank_idea6}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DT6}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_tank_idea6
+							}
+							remove_ideas  = {ammo_tank_idea6}
+						}
+					}
+					if = {
+						limit = {
+								has_country_flag = DT5
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_tank_idea5}
+							}
+							add_ideas = {ammo_tank_idea5}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DT5}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_tank_idea5
+							}
+							remove_ideas  = {ammo_tank_idea5}
+						}
+					}
+					if = {
+						limit = {
+								has_country_flag = DT4
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_tank_idea4}
+							}
+							add_ideas = {ammo_tank_idea4}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DT4}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_tank_idea4
+							}
+							remove_ideas  = {ammo_tank_idea4}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DT3
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_tank_idea3}
+							}
+							add_ideas = {ammo_tank_idea3}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={has_country_flag = DT3}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_tank_idea3
+							}
+							remove_ideas  = {ammo_tank_idea3}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DT2
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_tank_idea2}
+							}
+							add_ideas = {ammo_tank_idea2}
+						}
+					}
+					else_if = {
+						limit = {
+							NOT={	has_country_flag = DT2}
+						}
+						if = {
+							limit = {
+								has_idea = ammo_tank_idea2
+							}
+							remove_ideas  = {ammo_tank_idea2}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = DT1
+						}
+						if = {
+							limit = {
+								NOT = {has_idea = ammo_tank_idea1}
+							}
+							add_ideas = {ammo_tank_idea1}
+						}
+					}
+						else_if = {
+							limit = {
+								NOT={	has_country_flag = DT1}
+							}
+							if = {
+								limit = {
+									has_idea = ammo_tank_idea1
+								}
+								remove_ideas  = {ammo_tank_idea1}
+							}
+						}
+					}						
+				}
+			}
+		}
+	}
