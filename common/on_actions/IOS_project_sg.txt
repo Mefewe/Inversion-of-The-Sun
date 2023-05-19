@@ -148,7 +148,7 @@ on_actions = {
 					if = {
 					limit = {
 						check_variable = {
-							infantry_eq_coef < 0.5
+							infantry_eq_coef < 0.55
 						}
 					}
 					set_country_flag = DI4
@@ -156,7 +156,7 @@ on_actions = {
 					else_if = {
 					limit = {
 						check_variable = {
-							infantry_eq_coef > 0.5
+							infantry_eq_coef > 0.55
 						}
 					}
 					clr_country_flag = DI4
@@ -251,14 +251,14 @@ on_actions = {
 					if = {
 					limit = {
 						check_variable = {
-							arta_eq_coef < 0.5
+							arta_eq_coef < 0.55
 						}}
 						set_country_flag = DA4
 					}
 					else_if = {
 					limit = {
 						check_variable = {
-							arta_eq_coef > 0.5
+							arta_eq_coef > 0.55
 						}}
 						clr_country_flag = DA4
 					}
@@ -356,7 +356,7 @@ on_actions = {
 					if = {
 					limit = {
 							check_variable = {
-							tank_eq_coef < 0.5
+							tank_eq_coef < 0.55
 						}
 					}
 					set_country_flag = DT4
@@ -364,7 +364,7 @@ on_actions = {
 					else_if = {
 					limit = {
 						check_variable = {
-							tank_eq_coef > 0.5
+							tank_eq_coef > 0.55
 						}
 					}
 					clr_country_flag = DT4
