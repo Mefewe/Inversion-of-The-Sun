@@ -1,0 +1,186 @@
+# System ported from TNO, by Yard1 and Scars
+# System ported from EAW, by MIXORIO
+defined_text = {
+	name = IOS_Get_subideology_loc
+	text = {
+		trigger = {
+			has_government = democratic
+		}
+		localization_key = "[IOS_Get_democratic_subideology]"
+	}
+	text = {
+		trigger = {
+			has_government = communism
+		}
+		localization_key = "[IOS_Get_communism_subideology]"
+	}
+	text = {
+		trigger = {
+			has_government = fascism
+		}
+		localization_key = "[IOS_Get_fascism_subideology]"
+	}
+	text = {
+		trigger = {
+			has_government = neutrality
+		}
+		localization_key = "[IOS_Get_neutrality_subideology]"
+	}
+	text = {
+		trigger = {
+			has_government = progressivism
+		}
+		localization_key = "[IOS_Get_progressivism_subideology]"
+	}
+	text = {
+		trigger = {
+			has_government = paternalism
+		}
+		localization_key = "[IOS_Get_paternalism_subideology]"
+	}
+}
+
+defined_text = {
+	name = IOS_Get_democratic_subideology
+	text = {
+		trigger = {
+			has_country_leader_ideology = neoharmonism
+		}
+		localization_key = neoharmonism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = moderate_social_valterists
+		}
+		localization_key = moderate_social_valterists
+	}
+	text = {
+		localization_key = democratic
+	}
+}
+
+defined_text = {
+	name = IOS_Get_communism_subideology
+	text = {
+		trigger = {
+			has_country_leader_ideology = marxism
+		}
+		localization_key = marxism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = revolutonary_valterism
+		}
+		localization_key = revolutonary_valterism
+	}
+	text = {
+		localization_key = communism
+	}
+}
+
+defined_text = {
+	name = IOS_Get_fascism_subideology
+	text = {
+		trigger = {
+			has_country_leader_ideology = fascism_ideology
+		}
+		localization_key = fascism_ideology
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = sigardism
+		}
+		localization_key = sigardism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = neocrisatocracu
+		}
+		localization_key = neocrisatocracu
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = nationalism
+		}
+		localization_key = nationalism
+	}
+	text = {
+		localization_key = fascism
+	}
+}
+
+defined_text = {
+	name = IOS_Get_neutrality_subideology
+	text = {
+		trigger = {
+			has_country_leader_ideology = harmony
+		}
+		localization_key = harmony
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = silence
+		}
+		localization_key = silence
+	}
+	text = {
+		localization_key = neutrality
+	}
+}
+
+defined_text = {
+	name = IOS_Get_progressivism_subideology
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_valterism
+		}
+		localization_key = social_valterism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = popularity_progressivism_ideology
+		}
+		localization_key = popularity_progressivism_ideology
+	}
+	text = {
+		localization_key = progressivism
+	}
+}
+
+defined_text = {
+	name = IOS_Get_paternalism_subideology
+	text = {
+		trigger = {
+			has_country_leader_ideology = fake_democracy
+		}
+		localization_key = fake_democracy
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = despotism
+		}
+		localization_key = despotism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = provisional_government
+		}
+		localization_key = provisional_government
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = hybrid_goverment
+		}
+		localization_key = hybrid_goverment
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = new_silence
+		}
+		localization_key = new_silence
+	}
+	text = {
+		localization_key = paternalism
+	}
+}
+

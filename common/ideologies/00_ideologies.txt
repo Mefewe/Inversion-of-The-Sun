@@ -170,13 +170,11 @@ ideologies = {
 
 	neutrality = { #"Old" ideologies
 		types = {
-
 			harmony  = {
 			}
 
 			silence  = { #FOR RETARDED KIRINS
 			}
-
 		}
 
 		dynamic_faction_names = {
