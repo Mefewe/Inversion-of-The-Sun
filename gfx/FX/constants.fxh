@@ -85,10 +85,10 @@ static const float 	SNOW_FROST_MIN_EFFECT  		= 0.4f;
 static const float3 ICE_COLOR 					= float3( 0.5f, 0.6f, 0.9f );
 static const float 	ICE_NOISE_TILING  			= 0.1f; //0.068f;
 
-static const float WATER_COLOR_LIGHTNESS = 0.4;
+static const float WATER_COLOR_LIGHTNESS = 0.3;
 static const float WATER_RIPPLE_EFFECT = 0.0025;
 
-static const float COLORMAP_OVERLAY_STRENGTH 	= 0.65f; //0.6f;
+static const float COLORMAP_OVERLAY_STRENGTH 	= 0.55f; //0.7f;
 static const float3 FAKE_CUBEMAP_COLOR 			= float3(0.0f, 0.0f, 0.0f);
 
 // MILD_WINTER_VALUE = ###,						defines.lua   (reload defines)
@@ -148,7 +148,7 @@ static const float  WATER_HEIGHT_RECP_SQUARED = WATER_HEIGHT_RECP * WATER_HEIGHT
 static const float3 FOG_COLOR 					= float3( 0, 0, 0 );
 static const float 	FOG_BEGIN					= 1.0f;
 static const float 	FOG_END 					= 150.0f;
-static const float 	FOG_MAX 					= 0.25f; 
+static const float 	FOG_MAX 					= 0.2f; 
 
 //static const float 	FOG_MAX 					= 1000.7f;
 
