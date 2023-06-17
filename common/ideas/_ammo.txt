@@ -43,8 +43,8 @@ ideas = {
 		ammo_art_idea6 = {
 			equipment_bonus = {
 				artillery = {
-					soft_attack = -5
-					defense = -5
+					soft_attack = -10
+					defense = -7
 				} 
             }
         }
@@ -93,8 +93,8 @@ ideas = {
 		ammo_inf_idea6 = {
 			equipment_bonus = {
 				infantry_equipment = {
-					defense = -1
-					soft_attack = -3
+					defense = -3
+					soft_attack = -8
 				}
             }
         }
