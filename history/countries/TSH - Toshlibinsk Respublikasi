@@ -1,5 +1,5 @@
 capital = 338
-recruit_character = TSH_Care_Imov
+recruit_character = TSH_Careful_Imov
 set_stability = 0.7
 set_war_support = 0.4
 set_research_slots = 2
