@@ -1,0 +1,17 @@
+characters = {
+	TSH_Care_Imov = {
+			name = TSH_Care_Imov
+			portraits = {
+				civilian = {
+					large = GFX_TSH_Care_Imov_L
+				}
+			}
+			country_leader = {
+				desc="TSH_Care_Imov_desc"
+				ideology = neoharmonism
+				traits = {  }
+				expire = "2000.3.1.1"
+				id = -1
+			}
+		}
+	}

@@ -5,6 +5,11 @@ color = rgb { 116 249 209 }
 color_ui = rgb { 116 249 209 }
 }
 
+TSH = {
+color = rgb { 10 100 100 }
+color_ui = rgb { 10 100 100 }
+}
+
 RPK = {
 color = rgb { 185 155 100 }
 color_ui = rgb { 185 155 100 }
