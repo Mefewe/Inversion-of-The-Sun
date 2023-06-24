@@ -1,0 +1,16 @@
+state={
+	id=927
+	name="STATE_927"
+	provinces={
+		271 9164 9165
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+	victory_points = { 9164 15 } # Вершельф
+    }
+	state_category = large_city
+	manpower=872948
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

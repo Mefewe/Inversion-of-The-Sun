@@ -43,7 +43,7 @@ replace_path="common/bop"
 replace_path="common/scripted_guis"
 replace_path="common/abilities"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
-replace_path="gfx/FX"
+replace_path="gfx/world"
 tags={
 	"Map"
 }

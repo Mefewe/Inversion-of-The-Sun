@@ -2114,7 +2114,7 @@
 2113;224;168;171;land;false;plains;1
 2114;216;168;149;land;false;plains;1
 2115;221;116;178;land;false;plains;1
-2116;201;238;206;land;false;plains;1
+2116;201;238;206;land;true;plains;1
 2117;198;146;211;land;false;desert;1
 2118;228;226;214;land;true;plains;1
 2119;225;166;124;land;true;plains;1
@@ -4736,7 +4736,7 @@
 4735;246;158;205;land;true;plains;1
 4736;84;247;202;land;false;plains;1
 4737;137;229;206;land;false;forest;1
-4738;234;57;226;land;false;forest;1
+4738;234;57;226;land;true;forest;1
 4739;230;212;169;land;false;desert;1
 4740;134;154;228;land;false;forest;1
 4741;217;216;97;land;false;plains;1
@@ -9159,3 +9159,12 @@
 9158;123;167;198;land;false;desert;1
 9159;247;73;78;land;false;plains;1
 9160;190;73;195;land;false;plains;1
+9161;234;170;97;land;true;forest;1
+9162;100;170;218;land;true;forest;1
+9163;201;238;113;land;false;forest;1
+9164;200;57;200;land;false;forest;1
+9165;235;120;116;land;false;forest;1
+9166;100;238;120;land;false;forest;1
+9167;100;238;200;land;false;forest;1
+9168;186;120;143;land;false;forest;1
+9169;132;57;226;land;false;forest;1

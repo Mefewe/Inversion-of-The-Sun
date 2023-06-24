@@ -1,0 +1,16 @@
+state={
+	id=926
+	name="STATE_926"
+	provinces={
+		6014 9166 9167
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+	victory_points = { 9167 15 } # Вестдотура
+    }
+	state_category = large_town
+	manpower=798126
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

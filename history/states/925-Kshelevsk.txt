@@ -1,0 +1,16 @@
+state={
+	id=925
+	name="STATE_925"
+	provinces={
+		2116 9162 9163 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+	victory_points = { 9162 15 } # Кшелевск
+    }
+	state_category = large_city
+	manpower=891623
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

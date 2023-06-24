@@ -1,0 +1,15 @@
+state={
+	id=928
+	name="STATE_928"
+	provinces={
+		9168 9169 
+	}
+	history={
+        owner = MRT
+        add_core_of = EQS
+    }
+	state_category = city_district
+	manpower=618279
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

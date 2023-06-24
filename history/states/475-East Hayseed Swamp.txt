@@ -3,7 +3,7 @@ state={
 	name="STATE_475"
         state_category = pastoral
 	provinces={
-		2391 3319 3794 4086 4263 6106 6162 6209 6214 
+		2391 3319 3794 4086 4263 6106 6162 6209 6214 5982
 	}
 	history={
         owner = MRT
