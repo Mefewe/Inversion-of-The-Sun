@@ -6,6 +6,7 @@ state={
 	}
 	history={
         owner = MRT
+		add_core_of = BSH
         add_core_of = EQS
     }
 	state_category = city_district

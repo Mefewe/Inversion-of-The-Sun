@@ -9,6 +9,7 @@ state={
 	history={
         owner = MRT
         add_core_of = EQS
+		add_core_of = BSH
 	victory_points = { 5941 35 } # Бешель
         }
 
