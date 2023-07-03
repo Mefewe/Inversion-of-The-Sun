@@ -67,6 +67,14 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:losing_country = {
+				original_tag = OEF
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_OEF
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
 				original_tag = CHN
 			}
 			event_target:winning_country = {
