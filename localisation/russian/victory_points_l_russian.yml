@@ -216,6 +216,8 @@
  VICTORY_POINTS_4572:0 "Мэйнвилль"
  VICTORY_POINTS_1472:0 "Шахты Кейв"
  VICTORY_POINTS_6904:0 "Серебрянка"
+ ####SEQ
+ VICTORY_POINTS_2496:0 "Секуратто"
  ### SDL
  VICTORY_POINTS_2271: "Атормад"
  VICTORY_POINTS_537: "Двимала"
