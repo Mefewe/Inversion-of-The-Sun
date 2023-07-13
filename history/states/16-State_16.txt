@@ -9,6 +9,7 @@ state={
 		set_demilitarized_zone = yes
         owner = CRY
         add_core_of = CRY
+		add_core_of = VKR
     }
 	manpower=367
 	buildings_max_level_factor=1.000

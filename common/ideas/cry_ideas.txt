@@ -6,5 +6,19 @@ ideas = {
 				stability_factor = -0.4
 			}
 		}
+		cry_army_m0 = {
+			modifier = {
+				attrition = 0.1
+				army_defence_factor = -0.15
+				army_attack_factor = -0.15
+			}
+		}
+		cry_army_m1 = {
+			modifier = {
+				attrition = 0.05
+				army_defence_factor = -0.05
+				army_attack_factor = -0.10
+			}
+		}
 	}
 }

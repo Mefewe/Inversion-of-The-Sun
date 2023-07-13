@@ -1,4 +1,5 @@
 oob = "VKR"
+
 set_global_flag = {
 	flag = cry_vkr_escal_flag
 	value = 1
@@ -63,7 +64,8 @@ add_ideas = {
 		war_economy
 		limited_conscription
 		limited_exports
-	}
+}
+add_ideas = {idejnie_revolucioneri}
 set_politics = {
 	ruling_party = progressivism
 	last_election = "1768.7.8"

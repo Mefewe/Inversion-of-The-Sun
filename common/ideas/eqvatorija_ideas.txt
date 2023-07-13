@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		proigravshije1 = {
+			modifier = {
+				production_speed_buildings_factor = -0.2
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+	}
+}

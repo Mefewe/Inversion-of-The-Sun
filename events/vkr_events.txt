@@ -46,6 +46,40 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = VKR.3
+	title = VKR.3.title
+	desc = VKR.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.3.1
+		VKR = {
+			add_manpower = 5000
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = VKR.4
+	title = VKR.4.title
+	desc = VKR.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.4.1
+		hidden_effect = {	
+			VKR = {
+				load_oob = VKR_dva
+			}
+		}
+		custom_effect_tooltip = VKR.4.tt
+	}
+}
 ##############################################################
 country_event = {
 	id = VKR_gerilua.1 #defeat in majrvik

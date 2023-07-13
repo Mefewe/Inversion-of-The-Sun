@@ -44,6 +44,34 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = VKR_administration
+	icon = Qwerty
+	cost = 8
+	prerequisite = {
+		focus = VKR_parad
+	}
+	x = 8
+	y = 2
+	completion_reward = { 
+		country_event = {id = VKR.3 days = 1}		
+	}
+}
+
+shared_focus = {
+	id = VKR_interbrigade
+	icon = Qwerty
+	cost = 8
+	prerequisite = {
+		focus = VKR_administration
+	}
+	x = 8
+	y = 3
+	completion_reward = { 
+		country_event = {id = VKR.4 days = 1}		
+	}
+}
+
 ####################
 shared_focus = {
 	id = start_battle_of_mejrvik
@@ -72,7 +100,7 @@ shared_focus = {
 				set_country_flag = VKR_battle_of_mejrvik
 				set_power_balance = {
 					id=VKR_MEJRVIK_balance
-					set_value = -0.5
+					set_value = -0.9
 					left_side = pro_VKR
 					right_side = pro_CRY
 				}
@@ -80,7 +108,7 @@ shared_focus = {
 			CRY = {
 				set_power_balance = {
 					id=VKR_MEJRVIK_balance
-					set_value = -0.5 
+					set_value = -0.9
 					left_side = pro_VKR
 					right_side = pro_CRY
 				}

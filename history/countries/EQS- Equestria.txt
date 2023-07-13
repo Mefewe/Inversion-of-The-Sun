@@ -1,4 +1,5 @@
 ﻿capital = 326
+add_ideas = proigravshije1
 recruit_character = EQS_Twilight_Sparkle
 set_stability = 0.4
 set_war_support = 0.2

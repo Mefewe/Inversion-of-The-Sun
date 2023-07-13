@@ -30,6 +30,40 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = CRY.3
+	title = CRY.3.title
+	desc = CRY.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.3.1
+		
+	}
+}
+
+country_event = {
+	id = CRY.4
+	title = CRY.4.title
+	desc = CRY.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.4.1
+		build_railway = {
+			level = 1
+			path = {
+				4105 1225 3557 125 5186
+			}
+		}
+	}
+}
+
+
 ########################################################### ATO
 country_event = {
 	id = CRY_ATO_G.1 #defeat in majrvik

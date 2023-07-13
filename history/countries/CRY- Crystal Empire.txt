@@ -2,10 +2,14 @@
 
 capital = 921
 recruit_character = CRY_Blekins_Ljonen
-add_ideas = {cry_polkovnik_trus}
+add_ideas = {
+	cry_polkovnik_trus
+	proigravshije1
+	cry_army_m0
+}
 set_research_slots = 3
-set_stability = 0.4
-set_war_support = 0
+set_stability = 0.55
+set_war_support = 0.1
 add_command_power = 20
 set_technology = {
 	infantry_weapons = 1

@@ -9,13 +9,14 @@ state={
 			155 5
 		}
         owner = CRY
-        add_core_of = CRY
+		add_core_of = CRY
+		add_core_of = VKR
         buildings = {
             infrastructure = 2
             arms_factory = 1
             }
     }
-        resources {
+        resources = {
         oil = 3
         rubber = 1
         }
