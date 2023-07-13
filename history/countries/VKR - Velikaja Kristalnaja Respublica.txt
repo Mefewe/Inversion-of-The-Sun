@@ -61,8 +61,8 @@ set_cosmetic_tag = VKR_INS
 add_ideas = {
 		#laws
 		war_economy
-		service_by_requirement
-		closed_economy
+		limited_conscription
+		limited_exports
 	}
 set_politics = {
 	ruling_party = progressivism

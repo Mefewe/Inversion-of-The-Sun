@@ -93,7 +93,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ruling_party_info"
-			position = { x = 88 y = 305 }
+			position = { x = 2014 y = 2022 }
 			size = { width = 255 height = 60 }
 			clipping = no
 					

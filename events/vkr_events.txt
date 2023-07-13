@@ -1,5 +1,52 @@
 add_namespace = VKR
 add_namespace = VKR_gerilua
+
+country_event = {
+	id = VKR.1
+	title = VKR.1.title
+	desc = VKR.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.1.1
+		VKR = {
+			add_equipment_to_stockpile = {
+				type = infantry_ammo_equipment_0
+				amount = 2000
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 100
+			}
+		}
+	}
+}
+
+country_event = {
+	id = VKR.2
+	title = VKR.2.title
+	desc = VKR.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.2.1
+		VKR = {
+			add_manpower = 10000
+		}
+		CRY = {
+			add_stability = -0.05
+			send_equipment = {
+				type = infantry_equipment
+				amount = 50
+				target = VKR
+			}
+		}
+	}
+}
+
+##############################################################
 country_event = {
 	id = VKR_gerilua.1 #defeat in majrvik
 	title = VKR_gerilua.1.title

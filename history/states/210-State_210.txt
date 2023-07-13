@@ -5,7 +5,8 @@ state={
 		6267 
 	}
 	history={
-        owner = GRF
+		owner = SDL
+		add_core_of = SDL
         add_core_of = GRF
     }
 	manpower=0

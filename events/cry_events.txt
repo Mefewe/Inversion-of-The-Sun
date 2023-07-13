@@ -1,6 +1,37 @@
 add_namespace = CRY
 add_namespace = CRY_ATO_G
 country_event = {
+	id = CRY.1
+	title = CRY.1.title
+	desc = CRY.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.1.1
+		custom_effect_tooltip = CRY_1_parad_tt
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = CRY.2
+	title = CRY.2.title
+	desc = CRY.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.2.1
+		custom_effect_tooltip = CRY_1_parad_tt
+		add_stability = 0.025
+	}
+}
+
+########################################################### ATO
+country_event = {
 	id = CRY_ATO_G.1 #defeat in majrvik
 	title = CRY_ATO_G.1.title
 	desc = CRY_ATO_G.1.desc
@@ -52,6 +83,9 @@ country_event = {
 					remove_power_balance = {id =VKR_MEJRVIK_balance}
 				}
 				set_country_flag = CRY_victory_in_mejrvik
+			}
+			declare_war_on = {
+				target = VKR
 			}
 		}
 		ai_chance = {

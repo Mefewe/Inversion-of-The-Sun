@@ -9,48 +9,83 @@ focus_tree = {
 			tag = VKR
 		}
 	}
-	
-	focus = {
-		id = start_battle_of_mejrvik
-		icon = GFX_goal_generic_small_arms
-		x = 10
-		y = 1
-		cost = 10
-		available = {
-			has_war = no
+	shared_focus = VKR_sjezd
+}
+
+shared_focus = {
+	id = VKR_sjezd
+	icon = Qwerty
+	cost = 2
+	x = 8
+	y = 0
+	completion_reward = { 
+		add_political_power = 100
+		add_stability = 0.1
+		country_event = {id = VKR.1 days = 2}
+	}
+}
+
+shared_focus = {
+	id = VKR_parad
+	icon = Qwerty
+	cost = 2
+	prerequisite = {
+		focus = VKR_sjezd
+	}
+	available = {
+		CRY = {
+			has_completed_focus = CRY_parad
 		}
-		bypass_if_unavailable = yes
-		ai_will_do = {
-			base = 5
-			modifier = {
-				factor = 0
-				has_war = yes
-			}
+	}
+	x = 8
+	y = 1
+	completion_reward = { 
+		country_event = {id = VKR.2 days = 0}		
+	}
+}
+
+####################
+shared_focus = {
+	id = start_battle_of_mejrvik
+	icon = GFX_goal_generic_small_arms
+	x = 10
+	y = 1
+	cost = 10
+	available = {
+		has_war = no
+	}
+	bypass_if_unavailable = yes
+	ai_will_do = {
+		base = 5
+		modifier = {
+			factor = 0
+			has_war = yes
 		}
-		completion_reward = {
-			custom_effect_tooltip = VKR_battle_of_mejrvik_focus
-			hidden_effect = {
-				917 = {
-					set_demilitarized_zone = yes
-				}
-				VKR={
-					set_country_flag = VKR_battle_of_mejrvik
-					set_power_balance = {
-						id=VKR_MEJRVIK_balance
-						set_value = -0.7 # должно быть 0.1
-						left_side = pro_VKR
-						right_side = pro_CRY
-					}
-				}
-				CRY = {
-					set_power_balance = {
-						id=VKR_MEJRVIK_balance
-						set_value = -0.7 # должно быть 0.1
-						left_side = pro_VKR
-						right_side = pro_CRY
-					}
+	}
+	completion_reward = {
+		custom_effect_tooltip = VKR_battle_of_mejrvik_focus
+		hidden_effect = {
+			917 = {
+				set_demilitarized_zone = yes
+			}
+			VKR={
+				set_country_flag = VKR_battle_of_mejrvik
+				set_power_balance = {
+					id=VKR_MEJRVIK_balance
+					set_value = -0.5
+					left_side = pro_VKR
+					right_side = pro_CRY
 				}
 			}
+			CRY = {
+				set_power_balance = {
+					id=VKR_MEJRVIK_balance
+					set_value = -0.5 
+					left_side = pro_VKR
+					right_side = pro_CRY
+				}
+			}
+			modify_global_flag = {flag = cry_vkr_escal_flag value = 2}
 		}
 	}
 }

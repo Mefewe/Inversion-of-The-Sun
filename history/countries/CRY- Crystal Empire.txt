@@ -2,7 +2,7 @@
 
 capital = 921
 recruit_character = CRY_Blekins_Ljonen
-
+add_ideas = {cry_polkovnik_trus}
 set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0
@@ -20,9 +20,9 @@ set_technology = {
 }
 add_ideas = {
 		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
+		civilian_economy
+		volunteer_only
+		free_trade
 	}
 set_politics = {
 	ruling_party = paternalism

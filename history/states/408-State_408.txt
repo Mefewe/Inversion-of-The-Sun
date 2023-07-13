@@ -5,7 +5,8 @@ state={
 		1708 2352 3200 3426 3857 4875 5753 5766 5818 5819 5832 
 	}
 	history={
-        owner = WNG
+        owner = SDL
+		add_core_of = SDL
         add_core_of = WNG
     }
 	manpower=0

@@ -1,0 +1,14 @@
+focus_tree = {
+	id = CRY_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			original_tag = CRY
+		}
+	}
+	shared_focus = CRY_parad
+	default = no
+	continuous_focus_position = { x = 5750 y = 1000 }
+}
