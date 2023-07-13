@@ -2,7 +2,7 @@ state={
 	id=152
 	name="STATE_152"
 	provinces={
-		1731 5138 
+		1731
 	}
 	history={
 		controller = VKR
