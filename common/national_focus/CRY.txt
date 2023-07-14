@@ -4,11 +4,227 @@ focus_tree = {
 		factor = 0
 
 		modifier = {
-			add = 10
+			add = 12
 			original_tag = CRY
 		}
 	}
 	shared_focus = CRY_parad
 	default = no
+	continuous_focus_position = { x = 3000 y = 3000 }
+}
+focus_tree = {
+	id = CRY_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = CRY
+		}
+	}
+	shared_focus = CRY_svodki_s_severa
+	default = no
 	continuous_focus_position = { x = 5750 y = 1000 }
+}
+
+#ПЕРВАЯ
+shared_focus = {
+	id = CRY_parad
+	icon = GFX_decision_cat_generic_persian_empire
+	cost = 1
+	x = 10
+	y = 0
+	completion_reward = { 
+		CRY = {
+			country_event = {id = CRY.1 days = 0}
+		}
+	}
+}
+shared_focus = {
+	prerequisite = {focus = CRY_parad}	
+	id = CRY_reconstrukcija_politiki
+	x = 8
+	y = 1
+	cost = 2
+	completion_reward = { 
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	prerequisite = {focus = CRY_parad}	
+	id = CRY_airportoss
+	x = 12
+	y = 1
+	cost = 2
+	completion_reward = { 
+		916 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+			}
+		}
+		CRY = {
+			country_event = {id = CRY.2 days = 0}
+		}
+	}
+}
+shared_focus = {
+	prerequisite = {focus = CRY_airportoss}	
+	id = CRY_polkovnik_na_zavode
+	x = 12
+	y = 2
+	cost = 5
+	completion_reward = { 
+		169 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+			}
+		}
+		CRY = {
+			country_event = {id = CRY.3 days = 0}
+		}
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_reconstrukcija_politiki}	
+	id = CRY_formirovanie_novogo_vs
+	x = 8
+	y = 2
+	cost = 5
+	completion_reward = { 
+		add_stability = 0.05
+		add_popularity = {
+			ideology = paternalism
+			popularity = 0.02
+		}
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_formirovanie_novogo_vs}	
+	id = CRY_arm_reform
+	x = 6
+	y = 3
+	cost = 5
+	completion_reward = { 
+		swap_ideas = {
+			remove_idea = cry_army_m0
+			add_idea = cry_army_m1
+		}
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_polkovnik_na_zavode	}
+	id = CRY_polkovnik_na_zhd
+	x = 14
+	y = 3
+	cost = 5
+	completion_reward = { 
+		country_event = {id = CRY.4 days = 2}
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_polkovnik_na_zavode	}
+	id = CRY_zakupka_oruzhija
+	x = 12
+	y = 3
+	cost = 5
+	completion_reward = { 
+		OEF = {
+			country_event = {id = oef_cry.1 days = 1}
+		}
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_formirovanie_novogo_vs	}
+	id = CRY_deneg_net_no_vy_derzhitesj
+	x = 8
+	y = 3
+	cost = 5
+	completion_reward = { 
+		add_political_power = 100
+		add_stability = 0.025
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_parad	}
+	id = CRY_sozdanie_sgb
+	x = 10
+	y = 2
+	cost = 5
+	completion_reward = { 
+		add_political_power = 250
+		add_stability = 0.05
+		add_command_power = 25
+		add_war_support = 0.05
+		country_event = {id = CRY.6 days = 0}
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_arm_reform    }
+    prerequisite = {focus = CRY_deneg_net_no_vy_derzhitesj    }
+    prerequisite = {focus = CRY_zakupka_oruzhija    }
+    prerequisite = {focus = CRY_polkovnik_na_zhd    }
+	prerequisite = {focus = CRY_sozdanie_sgb   }
+
+	id = CRY_uchenia_armia_sem
+	x = 10
+	y = 4
+	cost = 8
+	completion_reward = { 
+		army_experience = 25
+		add_stability = 0.025
+		add_command_power = 25
+		country_event = {id = CRY.7 days = 0}
+	}
+}
+
+shared_focus = {
+	prerequisite = {focus = CRY_uchenia_armia_sem    }
+
+
+	id = CRY_parad_opjatj
+	x = 10
+	y = 5
+	cost = 1
+	completion_reward = { 
+		country_event = {id = CRY.8 days = 2}
+	}
+}
+######################## ВТОРАЯ
+
+shared_focus = {
+	id = CRY_svodki_s_severa
+	x = 10
+	y = 0
+	cost = 1
+	completion_reward = { 
+		country_event = {id = CRY.9 days = 2}
+	}
+}
+
+shared_focus = {
+	id = CRY_prom_kompleks_v_selestide
+	prerequisite = {
+		focus = CRY_svodki_s_severa
+	}
+	x = 10
+	y = 1
+	cost = 6
+	completion_reward = { 
+		231 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+			}
+			add_extra_state_shared_building_slots = 3
+		}
+	}
 }

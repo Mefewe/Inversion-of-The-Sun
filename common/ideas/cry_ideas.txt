@@ -1,5 +1,17 @@
 ideas = {
 	country = {
+		####
+		cry_oef_ammo_debuff = {
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		oef_cry_ammo_buff = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}			
+		}
+		####
 		cry_polkovnik_trus = {
 			modifier = {
 				consumer_goods_factor = 0.2

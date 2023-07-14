@@ -11,7 +11,32 @@ focus_tree = {
 	}
 	shared_focus = VKR_sjezd
 }
-
+focus_tree = {
+	id = vkr_tree_two
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VKR
+		}
+	}
+	shared_focus = VKR_doroga_k_moru
+}
+focus_tree = {
+	id = vkr_tree_three
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VKR
+		}
+	}
+	shared_focus = VKR_velikaja_strojka_valterizma
+}
 shared_focus = {
 	id = VKR_sjezd
 	icon = Qwerty
@@ -72,13 +97,183 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = VKR_potok_dobrovoljcev
+	icon = Qwerty
+	cost = 8
+	prerequisite = {
+		focus = VKR_interbrigade
+	}
+	x = 8
+	y = 4
+	completion_reward = { 
+		country_event = {id = VKR.5 days = 1}		
+	}
+}
+
+shared_focus = {
+	id = VKR_severnij_pohod
+	icon = Qwerty
+	cost = 8
+	prerequisite = {
+		focus = VKR_potok_dobrovoljcev
+	}
+	x = 8
+	y = 5
+	completion_reward = { 
+		country_event = {id = VKR.6 days = 1}		
+	}
+}
 ####################
+shared_focus = {
+	id = VKR_doroga_k_moru
+	icon = Qwerty
+	cost = 5
+	x = 8
+	y = 0
+	completion_reward = { 
+		country_event = {id = VKR.7 days = 1}		
+	}
+}
+
+shared_focus = {
+	id = VKR_port_revolucii
+	icon = Qwerty
+	prerequisite = {
+		focus = VKR_doroga_k_moru
+	}
+	cost = 5
+	x = 8
+	y = 1
+	completion_reward = { 
+		country_event = {id = VKR.8 days = 1}		
+	}
+}
+
+shared_focus = {
+	id = VKR_potok_pomoshi
+	icon = Qwerty
+	prerequisite = {
+		focus = VKR_port_revolucii
+	}
+	cost = 5
+	x = 8
+	y = 2
+	completion_reward = { 
+		country_event = {id = VKR.9 days = 1}	
+		add_offsite_building = {
+			level = 3
+			type = arms_factory
+		}
+		add_manpower = 25000
+	}
+}
+
+shared_focus = {
+	id = VKR_annex_north
+	icon = Qwerty
+	prerequisite = {
+		focus = VKR_potok_pomoshi
+	}
+	cost = 5
+	x = 8
+	y = 3
+	completion_reward = { 
+		country_event = {id = VKR.10 days = 1}	
+		76 = {
+			transfer_state_to = VKR 	
+		}
+		41 = {
+			transfer_state_to = VKR 		
+		}
+		42 = {
+			transfer_state_to = VKR 
+			set_demilitarized_zone = no
+		}
+		16 = {
+			transfer_state_to = VKR 
+			set_demilitarized_zone = no
+		}
+	}
+}
+
+shared_focus = {
+	id = VKR_konferencia
+	icon = Qwerty
+	prerequisite = {
+		focus = VKR_annex_north
+	}
+	cost = 2
+	x = 8
+	y = 4
+	completion_reward = { 
+		country_event = {id = VKR.11 days = 1}	
+	}
+}
+####################
+shared_focus = {
+	id = VKR_velikaja_strojka_valterizma
+	icon = Qwerty
+	cost = 8
+	x = 8
+	y = 0
+	completion_reward = { 
+		103 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}
+		105 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+		88 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+		57 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}	
+		41 = {
+			set_state_name = STATE_41_R
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+		42 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}	
+		16 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+	}
+}
+
+
 shared_focus = {
 	id = start_battle_of_mejrvik
 	icon = GFX_goal_generic_small_arms
-	x = 10
+	x = 8
 	y = 1
 	cost = 10
+	prerequisite = {
+		focus = VKR_velikaja_strojka_valterizma
+	}
 	available = {
 		has_war = no
 	}
@@ -100,7 +295,7 @@ shared_focus = {
 				set_country_flag = VKR_battle_of_mejrvik
 				set_power_balance = {
 					id=VKR_MEJRVIK_balance
-					set_value = -0.9
+					set_value = -0.6
 					left_side = pro_VKR
 					right_side = pro_CRY
 				}
@@ -108,12 +303,32 @@ shared_focus = {
 			CRY = {
 				set_power_balance = {
 					id=VKR_MEJRVIK_balance
-					set_value = -0.9
+					set_value = -0.6
 					left_side = pro_VKR
 					right_side = pro_CRY
 				}
 			}
 			modify_global_flag = {flag = cry_vkr_escal_flag value = 2}
 		}
+	}
+}
+
+shared_focus = {
+	id = VKR_Triumf
+	icon = Qwerty
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = VKR_Triumf_ttt
+			has_country_flag = VKR_victory_in_mejrvik
+		}
+	}
+	prerequisite = {
+		focus = start_battle_of_mejrvik
+	}
+	cost = 1
+	x = 8
+	y = 2
+	completion_reward = { 
+		country_event = {id = VKR.12 days = 1}	
 	}
 }

@@ -1,0 +1,47 @@
+add_namespace = oef
+add_namespace = oef_cry
+
+country_event = {
+	id = oef_cry.1
+	title = oef_cry.1.title
+	desc = oef_cry.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #да
+		name = oef_cry.1.1
+		CRY = {
+			add_stability = 0.05
+			add_timed_idea = {
+				idea=cry_oef_ammo_debuff
+				days=100
+			}
+			country_event = {id = CRY.5 days=4}
+		}
+		OEF = {
+			add_timed_idea = {
+				idea=oef_cry_ammo_buff
+				days=100
+			}
+			send_equipment = {
+				amount = 100
+				target = CRY
+				equipment = infantry_equipment
+				old_prioritised = yes
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = { #нет
+		name = oef_cry.1.2
+		CRY = {
+			add_stability = -0.05
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}

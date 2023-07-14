@@ -63,7 +63,71 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = CRY.5
+	title = CRY.5.title
+	desc = CRY.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
 
+	option = {
+		name = CRY.5.1
+	}
+}
+
+country_event = { #СГБ
+	id = CRY.6
+	title = CRY.6.title
+	desc = CRY.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.6.1
+	}
+}
+
+country_event = { #Армия 1771
+	id = CRY.7
+	title = CRY.7.title
+	desc = CRY.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.7.1
+	}
+}
+
+country_event = { #New Tree
+	id = CRY.8
+	title = CRY.8.title
+	desc = CRY.8.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.8.1
+		load_focus_tree = CRY_focus_tree_two
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+country_event = { 
+	id = CRY.9
+	title = CRY.9.title
+	desc = CRY.9.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.9.1
+	}
+}
 ########################################################### ATO
 country_event = {
 	id = CRY_ATO_G.1 #defeat in majrvik

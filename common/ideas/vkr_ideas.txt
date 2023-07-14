@@ -2,11 +2,19 @@ ideas = {
 	country = {
 		idejnie_revolucioneri = {
 			modifier = {
+				custom_modifier_tooltip = VKR_revolucioneri_tt
 				stability_factor = 0.35
 				war_support_factor = 0.25
 				production_factory_efficiency_gain_factor = 0.1
 				production_cost_max_infantry_ammo_equipment = -0.1
-				surrender_limit = 1
+				surrender_limit = 1		
+			}
+
+			on_add = {
+				country_lock_all_division_template = yes
+			} 
+			on_remove = {
+				country_lock_all_division_template = no
 			}
 		}
 	}

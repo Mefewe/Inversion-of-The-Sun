@@ -1,0 +1,36 @@
+units = {
+	division = {
+		name = "Vtoroj bataljon kommandos \"Severnyj\""
+		location = 2039
+		division_template = "Bataljon revolucionnyh kommandos"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "Tretij bataljon kommandos \"Severnyj\""
+		location = 4402
+		division_template = "Bataljon revolucionnyh kommandos"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "Chetvertyj bataljon kommandos \"Severnyj\""
+		location = 679
+		division_template = "Bataljon revolucionnyh kommandos"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+units = {
+	division = {
+		name = "Pjatyj bataljon kommandos \"Severnyj\""
+		location = 1515
+		division_template = "Bataljon revolucionnyh kommandos"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

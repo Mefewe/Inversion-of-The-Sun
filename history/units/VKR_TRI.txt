@@ -1,0 +1,9 @@
+units = {
+	division = {
+		name = "Vtoraja imeni VALJTERA Interbrigada"
+		location = 9128
+		division_template = "Interbrigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

@@ -80,6 +80,131 @@ country_event = {
 		custom_effect_tooltip = VKR.4.tt
 	}
 }
+
+country_event = {
+	id = VKR.5
+	title = VKR.5.title
+	desc = VKR.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.5.1
+		add_manpower = 15000
+		load_oob = VKR_TRI
+	}
+}
+
+country_event = {
+	id = VKR.6
+	title = VKR.6.title
+	desc = VKR.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.6.1
+		custom_effect_tooltip = VKR.6.tt
+		124 = {
+			transfer_state_to = VKR 	
+		}
+		103 = {
+			transfer_state_to = VKR 	
+		}
+		load_oob = VKR_FOUR
+		load_focus_tree = vkr_tree_two
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+##############################################################
+country_event = {
+	id = VKR.7
+	title = VKR.7.title
+	desc = VKR.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.7.1
+		105 = {
+			transfer_state_to = VKR 	
+		}
+		88 = {
+			transfer_state_to = VKR 	
+		}
+	}
+}
+country_event = {
+	id = VKR.8
+	title = VKR.8.title
+	desc = VKR.8.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.8.1
+		57 = {
+			transfer_state_to = VKR 	
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				province = 679
+			}
+		}
+	}
+}
+country_event = { #Порт революции
+	id = VKR.9
+	title = VKR.9.title
+	desc = VKR.9.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.9.1
+
+	}
+}
+
+country_event = { #Аннексия севера и всего побережья
+	id = VKR.10
+	title = VKR.10.title
+	desc = VKR.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.10.1
+		load_oob = VKR_five
+		modify_global_flag = {flag = cry_vkr_escal_flag value = 2}
+	}
+}
+
+country_event = { #Великая вальтеристкая конференция (там будет решение идти на юг принято, и там ещё строить хуйню всякую стройбатами)
+	id = VKR.11
+	title = VKR.11.title
+	desc = VKR.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.11.1
+		load_focus_tree = vkr_tree_three
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+#############################################################
+country_event = { #Триумф в северо-восточной части КГ
+	id = VKR.12
+	title = VKR.12.title
+	desc = VKR.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.12.1
+	}
+}
 ##############################################################
 country_event = {
 	id = VKR_gerilua.1 #defeat in majrvik
@@ -138,6 +263,15 @@ country_event = {
 				set_state_controller = 917
 				set_state_owner = 917
 				clr_country_flag = start_battle_of_mejrvik
+				922 = {
+					set_demilitarized_zone = yes
+				}
+				804 = {
+					set_demilitarized_zone = yes
+				}
+				916 = {
+					set_demilitarized_zone = yes
+				}
 			}
 		}
 		ai_chance = {
