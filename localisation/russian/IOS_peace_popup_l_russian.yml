@@ -28,7 +28,7 @@
  #Wars that have finished
  IOS_PEACE_POPUP_WAR_CONCLUSION_DEFAULT:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в войне."
  IOS_PEACE_POPUP_WAR_CONCLUSION_VKR_WIN_CRY: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]смог одолеть реакционеров из [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в войне за свободу Кристалии."
- IOS_PEACE_POPUP_WAR_CONCLUSION_CRY_WIN_VKR: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]смога одолеть террористов из [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в триумфальной антитеррористической операции."
+ IOS_PEACE_POPUP_WAR_CONCLUSION_CRY_WIN_VKR: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]смогла одолеть террористов из [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в триумфальной антитеррористической операции."
  #Capitulation (war continuing) events
  
  IOS_PEACE_POPUP_WAR_CONTINUING_DEFAULT:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! в продолжающемся конфликте."
