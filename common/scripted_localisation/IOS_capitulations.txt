@@ -29,6 +29,17 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:losing_country = {
+				original_tag = VKR
+			}
+			event_target:winning_country = {
+				original_tag = CRY
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_WAR_CONCLUSION_CRY_WIN_VKR
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
 				original_tag = CHN
 			}
 			event_target:winning_country = {
@@ -63,6 +74,17 @@ defined_text = {
 			}
 		}
 		localization_key = IOS_PEACE_POPUP_FLAVOR_VKR_WIN_CRY
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = VKR
+			}
+			event_target:winning_country = {
+				original_tag = CRY
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_CRY_WIN_VKR
 	}
 	text = {
 		trigger = {

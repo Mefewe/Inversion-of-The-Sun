@@ -175,6 +175,14 @@ shared_focus = {
 	prerequisite = {
 		focus = VKR_potok_pomoshi
 	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = VKR_ANTT
+			CRY = {
+				has_completed_focus = CRY_svodki_s_severa
+			}
+		}
+	}
 	cost = 5
 	x = 8
 	y = 3
