@@ -22,24 +22,24 @@
  #TNO_PEACE_POPUP_LOSER_NOT_FACTION_LEADER:0 "[losing_country.GetFlag] §Y[losing_country.GetNameDef]§!, as part of §Y[losing_country.GetFactionName]§!,"
 
  #Peace event/war loc
- IOS_PEACE_POPUP_WAR_CONCLUSION:0 "[GetWarConclusionLoc]"
- IOS_PEACE_POPUP_WAR_CONTINUING:0 "[GetWarContinuationLoc]"
+ IOS_PEACE_POPUP_WAR_CONCLUSION: "[GetWarConclusionLoc]"
+ IOS_PEACE_POPUP_WAR_CONTINUING: "[GetWarContinuationLoc]"
 
  #Wars that have finished
- IOS_PEACE_POPUP_WAR_CONCLUSION_DEFAULT:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в войне."
+ IOS_PEACE_POPUP_WAR_CONCLUSION_DEFAULT: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в войне."
  IOS_PEACE_POPUP_WAR_CONCLUSION_VKR_WIN_CRY: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]смог одолеть реакционеров из [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в войне за свободу Кристалии."
- IOS_PEACE_POPUP_WAR_CONCLUSION_CRY_WIN_VKR: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]смогла одолеть террористов из [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в триумфальной антитеррористической операции."
+ IOS_PEACE_POPUP_WAR_CONCLUSION_CRY_WIN_VKR: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]смогла одолеть террористов из [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в ходе триумфальной антитеррористической операции."
  #Capitulation (war continuing) events
  
- IOS_PEACE_POPUP_WAR_CONTINUING_DEFAULT:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! в продолжающемся конфликте."
+ IOS_PEACE_POPUP_WAR_CONTINUING_DEFAULT: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! в продолжающемся конфликте."
 
- IOS_PEACE_POPUP_WAR_CONCLUSION_EQS_WIN_CHN_PATERNALISM:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]уничтожает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в Второй Великой Войне. Чейнджлинги потеряли право на свободную жизнь."
+ IOS_PEACE_POPUP_WAR_CONCLUSION_EQS_WIN_CHN_PATERNALISM: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]уничтожает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в Второй Великой Войне. Чейнджлинги потеряли право на свободную жизнь."
  
  #Flavor loc
  
  IOS_PEACE_POPUP_FLAVOR_DEFAULT: "А у мира час до полночи."
  IOS_PEACE_POPUP_FLAVOR_VKR_WIN_CRY: "Я полковник!"
- IOS_PEACE_POPUP_FLAVOR_CRY_WIN_VKR: "Дайте мне один десантно-парашютный полк, и через 3 часа террористов не будет."
+ IOS_PEACE_POPUP_FLAVOR_CRY_WIN_VKR: "Дайте мне один десантно-парашютный полк, и через 3 часа этих глупых террористов не будет."
  IOS_PEACE_POPUP_FLAVOR_EQS_WIN_CHN_PATERNALISM: "«У монархии в Эквестрии было столько врагов, что все они умерли в давке в Кантерлоте. А когда Эквестрия вернулась в Каракоу и Гоундурас, их души попросили прощения и получили его, ведь Твалайт - Прощающая и Милосердная» (с) Священная Книга Монархии, [?global.year], Кантерлот."
  IOS_PEACE_POPUP_FLAVOR_NEEBU: "Но что случится с отложенной мечтой?"
  IOS_PEACE_POPUP_FLAVOR_OEF: "Сто танков будут слабее тысячи ослов нагружённых конституцией ОЭФ, ибо танки не будут стрелять по выебанным ослам, а засунут свои дула в землю и воскланятся Аллаху (с) СС Гештал Орбайте Воль"
