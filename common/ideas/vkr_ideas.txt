@@ -17,5 +17,16 @@ ideas = {
 				country_lock_all_division_template = no
 			}
 		}
+		idejnie_revolucioneri_ad_vojni = {
+			modifier = {
+				stability_factor = 0.35
+				war_support_factor = 0.35
+				production_factory_efficiency_gain_factor = 0.2
+				production_cost_max_infantry_ammo_equipment = -0.2
+				production_cost_max_infantry_equipment =  -0.25
+				defence = 0.2
+				surrender_limit = 1		
+			}
+		}
 	}
 }

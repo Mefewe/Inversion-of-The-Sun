@@ -237,6 +237,10 @@ country_event = { #НАЧАЛО АТО
 	fire_only_once = yes
 	option = {
 		name = VKR.15.1
+		swap_ideas = {
+			remove_idea = idejnie_revolucioneri
+			add_idea = idejnie_revolucioneri_ad_vojni
+		}
 	}
 }
 country_event = { #Принятие полковником требований
