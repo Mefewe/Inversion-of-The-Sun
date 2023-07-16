@@ -23,6 +23,24 @@ focus_tree = {
 		}
 	}
 	shared_focus = CRY_svodki_s_severa
+	shared_focus = CRY_parad
+	default = no
+	continuous_focus_position = { x = 5750 y = 1000 }
+}
+
+focus_tree = {
+	id = CRY_focus_tree_three
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = CRY
+		}
+	}
+	shared_focus = CRY_parad
+	shared_focus = CRY_svodki_s_severa
+	shared_focus = CRY_Pozor_V_KG
 	default = no
 	continuous_focus_position = { x = 5750 y = 1000 }
 }
@@ -189,7 +207,6 @@ shared_focus = {
 shared_focus = {
 	prerequisite = {focus = CRY_uchenia_armia_sem    }
 
-
 	id = CRY_parad_opjatj
 	x = 10
 	y = 5
@@ -203,7 +220,7 @@ shared_focus = {
 shared_focus = {
 	id = CRY_svodki_s_severa
 	x = 10
-	y = 0
+	y = 7
 	cost = 1
 	completion_reward = { 
 		country_event = {id = CRY.9 days = 2}
@@ -216,7 +233,7 @@ shared_focus = {
 		focus = CRY_svodki_s_severa
 	}
 	x = 10
-	y = 1
+	y = 8
 	cost = 6
 	completion_reward = { 
 		231 = {
@@ -225,6 +242,66 @@ shared_focus = {
 				level = 3
 			}
 			add_extra_state_shared_building_slots = 3
+		}
+	}
+}
+#.... Добавить ещё фокусов
+
+#Ветка СНБК
+shared_focus = {
+	id = CRY_Pozor_V_KG
+	prerequisite = {
+		
+	}
+	mutually_exclusive = {
+		focus = CRY_Demokratija
+	}
+	available = {
+		always = no
+	}
+	x = 16
+	y = 4
+	cost = 2
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = CRY_ATO
+	prerequisite = {
+		focus = CRY_Pozor_V_KG
+	}
+	available = {
+		always = no
+	}
+	mutually_exclusive = {
+		focus = CRY_Demokratija
+	}
+	x = 14
+	y = 5
+	cost = 0
+	completion_reward = { 
+		hidden_effect = {
+			news_event = {id = CRY_NEWS.1 days = 3}
+		}
+	}
+}
+
+shared_focus = {
+	id = CRY_Demokratija
+	prerequisite = {
+		focus = CRY_Pozor_V_KG
+	}
+	mutually_exclusive = {
+		focus = CRY_ATO
+	}
+	x = 18
+	y = 5
+	cost = 0
+	completion_reward = { 
+		hidden_effect = {
+			news_event = {id = CRY_NEWS.2 days = 3}
 		}
 	}
 }

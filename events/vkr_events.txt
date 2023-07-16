@@ -205,6 +205,70 @@ country_event = { #Триумф в северо-восточной части К
 		name = VKR.12.1
 	}
 }
+
+country_event = { #Стрела
+	id = VKR.13
+	title = VKR.13.title
+	desc = VKR.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.13.1
+	}
+}
+country_event = { #Как карточный домик
+	id = VKR.14
+	title = VKR.14.title
+	desc = VKR.14.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.14.1
+	}
+}
+country_event = { #НАЧАЛО АТО
+	id = VKR.15
+	title = VKR.15.title
+	desc = VKR.15.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.15.1
+	}
+}
+country_event = { #Принятие полковником требований
+	id = VKR.16
+	title = VKR.16.title
+	desc = VKR.16.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.16.1
+		custom_effect_tooltip = VKR.16.tt
+		hidden_effect = {				
+			CRY = {
+				change_tag_from = ROOT
+				annex_country = {
+					target = VKR
+				}
+				for_each_scope_loop = {
+					array = global.states
+					if = {
+						limit = {
+							is_core_of = VKR
+						}
+						remove_core_of = VKR
+					}
+				}
+			}
+			news_event = CRY_NEWS.3
+		}
+	}
+}
 ##############################################################
 country_event = {
 	id = VKR_gerilua.1 #defeat in majrvik

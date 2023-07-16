@@ -22,6 +22,7 @@ focus_tree = {
 			tag = VKR
 		}
 	}
+	shared_focus = VKR_sjezd
 	shared_focus = VKR_doroga_k_moru
 }
 focus_tree = {
@@ -35,6 +36,8 @@ focus_tree = {
 			tag = VKR
 		}
 	}
+	shared_focus = VKR_sjezd
+	shared_focus = VKR_doroga_k_moru
 	shared_focus = VKR_velikaja_strojka_valterizma
 }
 shared_focus = {
@@ -129,7 +132,7 @@ shared_focus = {
 	id = VKR_doroga_k_moru
 	icon = Qwerty
 	cost = 5
-	x = 8
+	x = 12
 	y = 0
 	completion_reward = { 
 		country_event = {id = VKR.7 days = 1}		
@@ -143,7 +146,7 @@ shared_focus = {
 		focus = VKR_doroga_k_moru
 	}
 	cost = 5
-	x = 8
+	x = 12
 	y = 1
 	completion_reward = { 
 		country_event = {id = VKR.8 days = 1}		
@@ -157,7 +160,7 @@ shared_focus = {
 		focus = VKR_port_revolucii
 	}
 	cost = 5
-	x = 8
+	x = 12
 	y = 2
 	completion_reward = { 
 		country_event = {id = VKR.9 days = 1}	
@@ -184,7 +187,7 @@ shared_focus = {
 		}
 	}
 	cost = 5
-	x = 8
+	x = 12
 	y = 3
 	completion_reward = { 
 		country_event = {id = VKR.10 days = 1}	
@@ -212,7 +215,7 @@ shared_focus = {
 		focus = VKR_annex_north
 	}
 	cost = 2
-	x = 8
+	x = 12
 	y = 4
 	completion_reward = { 
 		country_event = {id = VKR.11 days = 1}	
@@ -223,7 +226,7 @@ shared_focus = {
 	id = VKR_velikaja_strojka_valterizma
 	icon = Qwerty
 	cost = 8
-	x = 8
+	x = 16
 	y = 0
 	completion_reward = { 
 		103 = {
@@ -276,7 +279,7 @@ shared_focus = {
 shared_focus = {
 	id = start_battle_of_mejrvik
 	icon = GFX_goal_generic_small_arms
-	x = 8
+	x = 16
 	y = 1
 	cost = 10
 	prerequisite = {
@@ -334,9 +337,70 @@ shared_focus = {
 		focus = start_battle_of_mejrvik
 	}
 	cost = 1
-	x = 8
+	x = 16
 	y = 2
 	completion_reward = { 
 		country_event = {id = VKR.12 days = 1}	
+	}
+}
+
+shared_focus = {
+	id = VKR_Operacija_Strela
+	icon = Qwerty
+	prerequisite = {
+		focus = VKR_Triumf
+	}
+	cost = 5
+	x = 16
+	y = 3
+	completion_reward = { 
+		transfer_state = 169
+		transfer_state = 167
+		transfer_state = 122
+		transfer_state = 442
+		modify_global_flag = {flag = cry_vkr_escal_flag value = 3}
+		country_event = VKR.13
+	}
+}
+
+shared_focus = {
+	id = VKR_Kak_Kartochij_Domik
+	icon = Qwerty
+	available = {
+
+	}
+	prerequisite = {
+		focus = VKR_Operacija_Strela
+	}
+	cost = 5
+	x = 16
+	y = 4
+	completion_reward = { 
+		add_political_power = 150
+		country_event = VKR.14
+	}
+}
+
+shared_focus = {
+	id = VKR_Okruzhitj_KG
+	icon = Qwerty
+	available = {
+
+	}
+	prerequisite = {
+		focus = VKR_Kak_Kartochij_Domik
+	}
+	cost = 5
+	x = 16
+	y = 5
+	completion_reward = { 
+		modify_global_flag = {flag = cry_vkr_escal_flag value = 2}
+		transfer_state = 804
+		transfer_state = 792
+		transfer_state = 916
+		transfer_state = 919
+		transfer_state = 922
+		transfer_state = 913
+		transfer_state = 918
 	}
 }

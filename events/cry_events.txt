@@ -1,5 +1,78 @@
 add_namespace = CRY
 add_namespace = CRY_ATO_G
+add_namespace = CRY_NEWS
+news_event = { #ВВОД АТО
+	id = CRY_NEWS.1
+	title = CRY_NEWS.1.title
+	desc = CRY_NEWS.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY_NEWS.1.1	
+		trigger = {
+			NOT = {
+				TAG = CRY
+				TAG = VKR
+			}
+		}
+	}	
+	option = {
+		name = CRY_NEWS.1.2	
+		trigger = {
+			TAG = VKR
+		}
+	}
+	option = {
+		name = CRY_NEWS.1.3
+		trigger = {
+			TAG = CRY
+		}
+	}
+}
+
+news_event = { #ПЕРЕГОВОРЫ
+	id = CRY_NEWS.2
+	title = CRY_NEWS.2.title
+	desc = CRY_NEWS.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY_NEWS.2.1	
+		trigger = {
+			NOT = {
+				TAG = CRY
+				TAG = VKR
+			}
+		}
+	}	
+	option = {
+		name = CRY_NEWS.2.2	
+		trigger = {
+			OR = {
+				TAG = VKR
+				TAG = CRY
+			}
+		}
+	}
+}
+
+news_event = { #Окончание гражданки
+	id = CRY_NEWS.3
+	title = CRY_NEWS.3.title
+	desc = CRY_NEWS.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY_NEWS.3.1	
+	}	
+}
+####################
 country_event = {
 	id = CRY.1
 	title = CRY.1.title
@@ -126,6 +199,36 @@ country_event = {
 
 	option = {
 		name = CRY.9.1
+	}
+}
+
+country_event = {  #СНБК
+	id = CRY.10
+	title = CRY.10.title
+	desc = CRY.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.10.1 #ДЕМОКРАТИЯ!!!
+		VKR = {
+			country_event = VKR.16
+		}
+		complete_national_focus = CRY_Demokratija
+		ai_chance = {
+			base = 10 #3/4
+		}
+	}
+	option = {
+		name = CRY.10.2 #АТО
+		complete_national_focus = CRY_ATO
+		VKR = {
+			country_event = VKR.15
+		}
+		ai_chance = {
+			base = 5 #1/4
+		}
 	}
 }
 ########################################################### ATO
