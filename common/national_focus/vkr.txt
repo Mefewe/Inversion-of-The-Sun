@@ -40,6 +40,22 @@ focus_tree = {
 	shared_focus = VKR_doroga_k_moru
 	shared_focus = VKR_velikaja_strojka_valterizma
 }
+focus_tree = {
+	id = vkr_tree_fourth
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VKR
+		}
+	}
+	shared_focus = VKR_sjezd
+	shared_focus = VKR_doroga_k_moru
+	shared_focus = VKR_velikaja_strojka_valterizma
+	shared_focus = VKR_ATO_nachalo
+}
 shared_focus = {
 	id = VKR_sjezd
 	icon = Qwerty
@@ -402,5 +418,19 @@ shared_focus = {
 		transfer_state = 922
 		transfer_state = 913
 		transfer_state = 918
+	}
+}
+
+shared_focus = { #АТО
+	id = VKR_ATO_nachalo
+	icon = Qwerty
+	available = {
+		always = no
+	}
+	cost = 5
+	x = 20
+	y = 8
+	completion_reward = { 
+
 	}
 }

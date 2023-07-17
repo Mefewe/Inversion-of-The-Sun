@@ -241,6 +241,9 @@ country_event = { #НАЧАЛО АТО
 			remove_idea = idejnie_revolucioneri
 			add_idea = idejnie_revolucioneri_ad_vojni
 		}
+		load_focus_tree = vkr_tree_fourth
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = VKR_ATO_nachalo
 	}
 }
 country_event = { #Принятие полковником требований
@@ -258,6 +261,7 @@ country_event = { #Принятие полковником требований
 				change_tag_from = ROOT
 				annex_country = {
 					target = VKR
+					transfer_troops = yes
 				}
 				for_each_scope_loop = {
 					array = global.states
@@ -268,6 +272,11 @@ country_event = { #Принятие полковником требований
 						remove_core_of = VKR
 					}
 				}
+				set_nationality = {
+					character = VKR_Blue_Grantes
+					target_country = CRY
+				}
+				remove_ideas = cry_polkovnik_trus
 			}
 			news_event = CRY_NEWS.3
 		}

@@ -231,7 +231,64 @@ country_event = {  #СНБК
 		}
 	}
 }
-########################################################### ATO
+
+country_event = {  #Арест беспредельщиков и анонс выборов (речь льонена)
+	id = CRY.11
+	title = CRY.11.title
+	desc = CRY.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.11.1 
+
+	}
+}
+
+country_event = {  #Отмена черезвычайного положения и приход к власти временного правительства
+	id = CRY.12
+	title = CRY.12.title
+	desc = CRY.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.12.1 
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			election_frequency = 1
+			long_name = CRY_provisional_goverment_party_long
+			name = CRY_provisional_goverment_party
+		}
+	}
+}
+
+country_event = {  #ВЫБОРЫ
+	id = CRY.13
+	title = CRY.13.title
+	desc = CRY.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY.13.1 #Льонен
+
+	}
+	option = {
+		name = CRY.13.1 #
+
+	}
+	option = {
+		name = CRY.13.1 
+
+	}
+}
+
+###########################################################
 country_event = {
 	id = CRY_ATO_G.1 #defeat in majrvik
 	title = CRY_ATO_G.1.title

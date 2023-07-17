@@ -56,4 +56,15 @@ on_actions = {
 			}	
 		}
 	}
+	on_new_term_election = {
+		effect = {					
+			if = {
+				limit = {
+					tag = CRY
+					has_country_flag = CRY_ELECTIONS_POLKa
+				}
+				complete_national_focus = CRY_Vibori
+			}
+		}
+	}
 }

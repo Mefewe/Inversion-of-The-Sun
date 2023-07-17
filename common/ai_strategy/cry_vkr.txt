@@ -1,0 +1,52 @@
+pered_ATO_CRY = {
+	allowed = {
+		tag = CRY
+	}
+	enable = {
+		CRY = {
+			has_completed_focus = CRY_svodki_s_severa
+		}
+	}
+	abort = {
+		OR = {
+			CRY = {
+				OR = {
+					has_completed_focus = CRY_Pozor_V_KG
+				}
+			}
+			VKR = {
+				exists = no
+			}
+		}
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = VKR
+		value = 100
+	}
+}
+pered_ATO_VKR = {
+	allowed = {
+		tag = CRY
+	}
+	enable = {
+		CRY = {
+			has_completed_focus = CRY_svodki_s_severa
+		}
+	}
+	abort = {
+		OR = {
+			CRY = {
+				OR = {
+					has_completed_focus = CRY_Pozor_V_KG
+					exists = no
+				}
+			}
+		}
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = CRY
+		value = 100
+	}
+}

@@ -44,7 +44,23 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 5750 y = 1000 }
 }
+focus_tree = {
+	id = CRY_focus_tree_demokratija
+	country = {
+		factor = 0
 
+		modifier = {
+			add = 12
+			original_tag = CRY
+		}
+	}
+	shared_focus = CRY_parad
+	shared_focus = CRY_svodki_s_severa
+	shared_focus = CRY_Pozor_V_KG
+	shared_focus = CRY_Snjatije_CHP
+	default = no
+	continuous_focus_position = { x = 5750 y = 1000 }
+}
 #ПЕРВАЯ
 shared_focus = {
 	id = CRY_parad
@@ -223,6 +239,11 @@ shared_focus = {
 	y = 7
 	cost = 1
 	completion_reward = { 
+		add_ai_strategy = {
+			type = role_ratio
+			id = x
+			value = x
+		}
 		country_event = {id = CRY.9 days = 2}
 	}
 }
@@ -303,5 +324,49 @@ shared_focus = {
 		hidden_effect = {
 			news_event = {id = CRY_NEWS.2 days = 3}
 		}
+	}
+}
+
+shared_focus = {
+	id = CRY_Reshiteljnaja_demokratizacija
+	prerequisite = {
+		focus = CRY_Demokratija
+	}
+	x = 18
+	y = 6
+	cost = 4
+	completion_reward = { 
+		country_event = CRY.11	
+	}
+}
+
+shared_focus = {
+	id = CRY_Snjatije_CHP
+	x = 22
+	y = 0
+	cost = 4
+	completion_reward = { 
+		country_event = CRY.12
+		set_country_flag = CRY_ELECTIONS_POLKa
+	}
+}
+
+shared_focus = {
+	id = CRY_Vibori
+	x = 22
+	prerequisite = {
+		focus = CRY_Snjatije_CHP
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = CRY_vibori_tt
+			always = no
+		}
+	}
+	y = 1
+	cost = 1
+	completion_reward = { 
+		clr_country_flag =  CRY_ELECTIONS_POLKa
+		country_event = CRY.13
 	}
 }
