@@ -276,14 +276,67 @@ country_event = {  #ВЫБОРЫ
 
 	option = {
 		name = CRY.13.1 #Льонен
-
+		CRY_Blekins_Ljonen = {
+			add_country_leader_role = {
+				country_leader = {
+					ideology = neoharmonism
+					desc = "CRY_Blekins_Ljonen_democracy_desc"
+				}
+				promote_leader = yes
+				character = CRY_Blekins_Ljonen
+			}
+		}
+		set_party_name = {
+			ideology = neoharmonism
+			long_name = CRY_ljonen_neoharmony_party_long
+			name = CRY_ljonen_neoharmony_party
+		}
+		ai_chance = {
+			base = 0.5
+		}
 	}
 	option = {
-		name = CRY.13.1 #
-
+		name = CRY.13.2 #Блю Грантес ВКР
+		hidden_effect = {
+			VKR = {
+				annex_country = {
+					target = CRY
+					transfer_troops = yes
+				}
+				change_tag_from = ROOT
+				for_each_scope_loop = {
+					array = global.states
+					if = {
+						limit = {
+							is_core_of = CRY
+						}
+						remove_core_of = CRY
+						add_core_of = VKR
+					}
+				}
+				set_nationality = {
+					character = VKR_Blue_Grantes
+					target_country = VKR
+				}
+				set_nationality = {
+					character = CRY_Blekins_Ljonen
+					target_country = VKR
+				}
+				set_politics = {
+					ruling_party = progressivism										
+				}
+				drop_cosmetic_tag = yes
+				#load_focus_tree = какое-то древо
+				#mark_focus_tree_layout_dirty = yes
+			}
+		}
+		custom_effect_tooltip = CRY.13.2.tt
+		ai_chance = {
+			base = 0.5
+		}
 	}
 	option = {
-		name = CRY.13.1 
+		name = CRY.13.3 # Какой-нибудь еврей
 
 	}
 }

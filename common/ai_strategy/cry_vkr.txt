@@ -27,7 +27,7 @@ pered_ATO_CRY = {
 }
 pered_ATO_VKR = {
 	allowed = {
-		tag = CRY
+		tag = VKR
 	}
 	enable = {
 		CRY = {

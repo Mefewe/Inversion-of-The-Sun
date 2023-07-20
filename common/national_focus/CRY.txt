@@ -239,11 +239,6 @@ shared_focus = {
 	y = 7
 	cost = 1
 	completion_reward = { 
-		add_ai_strategy = {
-			type = role_ratio
-			id = x
-			value = x
-		}
 		country_event = {id = CRY.9 days = 2}
 	}
 }
@@ -306,6 +301,10 @@ shared_focus = {
 		hidden_effect = {
 			news_event = {id = CRY_NEWS.1 days = 3}
 		}
+		declare_war_on = {
+			target = VKR
+			type = take_core_state		
+		}
 	}
 }
 
@@ -360,7 +359,7 @@ shared_focus = {
 	available = {
 		custom_trigger_tooltip = {
 			tooltip = CRY_vibori_tt
-			always = no
+			has_country_flag = CRY_first_elections_succ
 		}
 	}
 	y = 1
@@ -368,5 +367,23 @@ shared_focus = {
 	completion_reward = { 
 		clr_country_flag =  CRY_ELECTIONS_POLKa
 		country_event = CRY.13
+		set_country_flag = CRY_first_elections_succ
+		hidden_effect = {
+			VKR_Blue_Grantes = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = social_valterism
+						desc = "VKR_Blue_Grantes_CRY_desc"
+					}
+					promote_leader = yes
+					character = VKR_Blue_Grantes
+				}
+			}
+			set_party_name = {
+				ideology = social_valterism
+				long_name = CRY_Blue_Grantes_CRY_party_long
+				name = CRY_Blue_Grantes_CRY_party
+			}
+		}
 	}
 }
