@@ -9,7 +9,7 @@ state={
 		add_core_of = VKR
         add_core_of = CRY
     }
-	state_category = large_town
+	state_category = town
 	manpower=10000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

@@ -215,6 +215,41 @@ country_event = { #Стрела
 	fire_only_once = yes
 	option = {
 		name = VKR.13.1
+		start_border_war = { #КРИСТАЛЬЕНСКОЕ
+			change_state_after_war = no
+			attacker = {
+				state = 929
+				num_provinces = 2
+				on_win = VKR_gerilua.3
+				on_lose = VKR_gerilua.4
+				on_cancel = VKR_gerilua.5
+				dig_in_factor = 0
+				terrain_factor = 0
+			}
+			defender = {
+				state = 169
+				num_provinces = 1
+				on_win = CRY_ATO_G.4
+				on_lose = CRY_ATO_G.3
+			}
+		}
+		start_border_war = { #МИНЕРАЛЬСК
+			change_state_after_war = no
+			attacker = {
+				state = 103
+				num_provinces = 1
+				on_win = VKR_gerilua.6
+				on_lose = VKR_gerilua.7
+				dig_in_factor = 0
+				terrain_factor = 0
+			}
+			defender = {
+				state = 122
+				num_provinces = 1
+				on_win = CRY_ATO_G.6
+				on_lose = CRY_ATO_G.5
+			}
+		}
 	}
 }
 country_event = { #Как карточный домик
@@ -244,6 +279,68 @@ country_event = { #НАЧАЛО АТО
 		load_focus_tree = vkr_tree_fourth
 		mark_focus_tree_layout_dirty = yes
 		complete_national_focus = VKR_ATO_nachalo
+	}
+}
+country_event = { #Бои за КГ
+	id = VKR.17
+	title = VKR.17.title
+	desc = VKR.17.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = VKR.17.1
+		start_border_war = { #Металлист
+			change_state_after_war = no
+			attacker = {
+				state = 929
+				num_provinces = 2
+				on_win = VKR_gerilua.8
+				on_lose = VKR_gerilua.9
+				dig_in_factor = 0
+				terrain_factor = 0
+			}
+			defender = {
+				state = 916
+				num_provinces = 1
+				on_win = CRY_ATO_G.8
+				on_lose = CRY_ATO_G.7
+			}
+		}
+		start_border_war = { #Эндвилль
+			change_state_after_war = no
+			attacker = {
+				state = 917
+				num_provinces = 1
+				on_win = VKR_gerilua.12
+				on_lose = VKR_gerilua.13
+				dig_in_factor = 0
+				terrain_factor = 0
+			}
+			defender = {
+				state = 922
+				num_provinces = 1
+				on_win = CRY_ATO_G.12
+				on_lose = CRY_ATO_G.11
+			}
+		}
+		start_border_war = { #ФАРДЕЙЛ
+			change_state_after_war = no
+			attacker = {
+				state = 914
+				num_provinces = 1
+				on_win = VKR_gerilua.10
+				on_lose = VKR_gerilua.11
+				dig_in_factor = 0
+				terrain_factor = 0
+			}
+			defender = {
+				state = 918
+				num_provinces = 1
+				on_win = CRY_ATO_G.10
+				on_lose = CRY_ATO_G.9
+			}
+		}
 	}
 }
 country_event = { #Принятие полковником требований
@@ -354,5 +451,161 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
+	}
+}
+country_event = {
+	id = VKR_gerilua.3 #victory in Kristaljenskoje
+	title = VKR_gerilua.3.title
+	desc = VKR_gerilua.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.3.1
+		transfer_state = 169
+		transfer_state = 930
+	}
+}
+country_event = {
+	id = VKR_gerilua.4 #defeat in Kristaljenskoje
+	title = VKR_gerilua.4.title
+	desc = VKR_gerilua.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.4.1
+		
+	}
+}
+country_event = {
+	id = VKR_gerilua.5 #victory in Kristaljenskoje (big)
+	title = VKR_gerilua.5.title
+	desc = VKR_gerilua.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.5.1
+		add_equipment_to_stockpile = {
+			type = infantry_ammo_equipment
+			amount = 250
+		}
+		transfer_state = 169
+		transfer_state = 930
+	}
+}
+country_event = {
+	id = VKR_gerilua.6 #victory in Mineraljsk
+	title = VKR_gerilua.6.title
+	desc = VKR_gerilua.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.6.1
+		transfer_state = 122
+		transfer_state = 442
+	}
+}
+country_event = {
+	id = VKR_gerilua.7 #defeat in Mineraljsk
+	title = VKR_gerilua.7.title
+	desc = VKR_gerilua.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.7.1
+		
+	}
+}
+
+
+country_event = {
+	id = VKR_gerilua.8 #victory in Metallist
+	title = VKR_gerilua.8.title
+	desc = VKR_gerilua.8.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.8.1
+		transfer_state = 916
+		news_event = CRY_NEWS.4
+	}
+}
+country_event = {
+	id = VKR_gerilua.9 #defeat in Metallist
+	title = VKR_gerilua.9.title
+	desc = VKR_gerilua.9.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.9.1
+		
+	}
+}
+
+country_event = {
+	id = VKR_gerilua.10 #victory in Fardejl
+	title = VKR_gerilua.10.title
+	desc = VKR_gerilua.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.10.1
+		transfer_state = 918
+	}
+}
+country_event = {
+	id = VKR_gerilua.11 #defeat in Fardejl
+	title = VKR_gerilua.11.title
+	desc = VKR_gerilua.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.11.1
+		
+	}
+}
+
+country_event = {
+	id = VKR_gerilua.12 #victory in Endvillj
+	title = VKR_gerilua.12.title
+	desc = VKR_gerilua.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.12.1
+		transfer_state = 922
+		transfer_state = 919
+	}
+}
+country_event = {
+	id = VKR_gerilua.13 #defeat in Endvillj
+	title = VKR_gerilua.13.title
+	desc = VKR_gerilua.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = VKR_gerilua.13.1
+		
 	}
 }

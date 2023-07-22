@@ -72,6 +72,20 @@ news_event = { #Окончание гражданки
 		name = CRY_NEWS.3.1	
 	}	
 }
+
+news_event = { #Окончание боёв за аэропорт (ВКР победили)
+	id = CRY_NEWS.4
+	title = CRY_NEWS.4.title
+	desc = CRY_NEWS.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CRY_NEWS.4.1	
+	}	
+}
+
 ####################
 country_event = {
 	id = CRY.1
@@ -242,7 +256,8 @@ country_event = {  #Арест беспредельщиков и анонс вы
 
 	option = {
 		name = CRY.11.1 
-
+		load_focus_tree = CRY_focus_tree_demokratija
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -394,13 +409,139 @@ country_event = {
 					remove_power_balance = {id =VKR_MEJRVIK_balance}
 				}
 				set_country_flag = CRY_victory_in_mejrvik
-			}
-			declare_war_on = {
-				target = VKR
+				declare_war_on = {
+					target = VKR
+					type = annex_everything
+				}
 			}
 		}
 		ai_chance = {
 			base = 10
 		}
+	}
+}
+
+country_event = {
+	id = CRY_ATO_G.3 #defeat in Kristaljenskoje
+	title = CRY_ATO_G.3.title
+	desc = CRY_ATO_G.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.3.1
+
+	}
+}
+
+country_event = {
+	id = CRY_ATO_G.4 #victory in Kristaljenskoje
+	title = CRY_ATO_G.4.title
+	desc = CRY_ATO_G.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.4.1
+
+	}
+}
+country_event = {
+	id = CRY_ATO_G.5 #defeat in Mineraljsk
+	title = CRY_ATO_G.5.title
+	desc = CRY_ATO_G.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.5.1
+
+	}
+}
+country_event = {
+	id = CRY_ATO_G.6 #victory in Mineraljsk
+	title = CRY_ATO_G.6.title
+	desc = CRY_ATO_G.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.6.1
+
+	}
+}
+
+country_event = {
+	id = CRY_ATO_G.7 #defeat in Metallist
+	title = CRY_ATO_G.7.title
+	desc = CRY_ATO_G.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.7.1
+
+	}
+}
+country_event = {
+	id = CRY_ATO_G.8 #victory in Metallist
+	title = CRY_ATO_G.8.title
+	desc = CRY_ATO_G.8.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.8.1
+
+	}
+}
+
+country_event = {
+	id = CRY_ATO_G.9 #defeat in Fardejl
+	title = CRY_ATO_G.9.title
+	desc = CRY_ATO_G.9.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.9.1
+
+	}
+}
+country_event = {
+	id = CRY_ATO_G.10 #victory in Fardejl
+	title = CRY_ATO_G.10.title
+	desc = CRY_ATO_G.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.10.1
+
+	}
+}
+
+country_event = {
+	id = CRY_ATO_G.11 #defeat in Endvillj
+	title = CRY_ATO_G.11.title
+	desc = CRY_ATO_G.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.11.1
+
+	}
+}
+country_event = {
+	id = CRY_ATO_G.12 #victory in Endvillj
+	title = CRY_ATO_G.12.title
+	desc = CRY_ATO_G.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = CRY_ATO_G.12.1
+
 	}
 }

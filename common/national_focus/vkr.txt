@@ -370,10 +370,17 @@ shared_focus = {
 	x = 16
 	y = 3
 	completion_reward = { 
-		transfer_state = 169
-		transfer_state = 167
-		transfer_state = 122
-		transfer_state = 442
+		hidden_effect = {
+			922 = {
+				set_demilitarized_zone = no
+			}
+			804 = {
+				set_demilitarized_zone = no
+			}
+			916 = {
+				set_demilitarized_zone = no
+			}
+		}
 		modify_global_flag = {flag = cry_vkr_escal_flag value = 3}
 		country_event = VKR.13
 	}
@@ -411,13 +418,14 @@ shared_focus = {
 	y = 5
 	completion_reward = { 
 		modify_global_flag = {flag = cry_vkr_escal_flag value = 2}
-		transfer_state = 804
-		transfer_state = 792
-		transfer_state = 916
-		transfer_state = 919
-		transfer_state = 922
-		transfer_state = 913
-		transfer_state = 918
+	#	transfer_state = 804
+	#	transfer_state = 792
+	#	transfer_state = 916
+	#	transfer_state = 919
+	#	transfer_state = 922
+	#	transfer_state = 913
+	#	transfer_state = 918
+		country_event = VKR.17
 	}
 }
 

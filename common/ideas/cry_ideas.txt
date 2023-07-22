@@ -20,16 +20,16 @@ ideas = {
 		}
 		cry_army_m0 = {
 			modifier = {
-				attrition = 0.1
-				army_defence_factor = -0.15
-				army_attack_factor = -0.15
+				attrition = 0.2
+				army_defence_factor = -0.35
+				army_attack_factor = -0.35
 			}
 		}
 		cry_army_m1 = {
 			modifier = {
-				attrition = 0.05
-				army_defence_factor = -0.05
-				army_attack_factor = -0.10
+				attrition = 0.1
+				army_defence_factor = -0.20
+				army_attack_factor = -0.25
 			}
 		}
 	}

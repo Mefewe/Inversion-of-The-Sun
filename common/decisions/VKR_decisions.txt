@@ -87,6 +87,9 @@ CRY_VKR_Escalation = {
 			original_tag = CRY
 		}
 		visible = {
+			NOT = {
+				has_completed_focus = CRY_Pozor_V_KG
+			}
 			has_war = no
 			VKR = {
 				exists = yes
@@ -112,7 +115,7 @@ CRY_VKR_Escalation = {
 		complete_effect = {
 			add_political_power = -50
 			custom_effect_tooltip = CRY_SJEZD_SBNT
-			hidden_effect = {							
+			hidden_effect = {
 				load_focus_tree = CRY_focus_tree_three
 				mark_focus_tree_layout_dirty = yes
 				complete_national_focus = CRY_Pozor_V_KG
@@ -126,6 +129,11 @@ CRY_VKR_Escalation = {
 			original_tag = VKR
 		}
 		visible = {
+			NOT = {
+				CRY = {
+					has_completed_focus = CRY_Pozor_V_KG
+				}
+			}
 			has_war = no
 			VKR = {
 				exists = yes
@@ -149,6 +157,7 @@ CRY_VKR_Escalation = {
 		}
 		fire_only_once = yes
 		complete_effect = {
+			add_manpower = 15000
 			add_political_power = -50
 			custom_effect_tooltip = VKR_POVISHENNAJA_GOTOVNOSTT
 		}

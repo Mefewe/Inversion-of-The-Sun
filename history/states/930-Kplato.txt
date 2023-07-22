@@ -1,13 +1,13 @@
 state={
-    id=167
-    name="STATE_167"
+    id=930
+    name="STATE_930"
 
-    manpower=43957
+    manpower=1067
 
     state_category = large_town
 
     provinces={
-            2559 9154 
+            2199
     }
 
     history={
