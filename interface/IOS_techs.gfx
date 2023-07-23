@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+        name = GFX_power_armor_medium
+        texturefile = gfx/interface/equipment/generic/PWR.dds
+    } 
+}

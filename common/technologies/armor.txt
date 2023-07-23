@@ -1955,5 +1955,26 @@ technologies = {
 			armor
 		}
 	}
+
+	power_armor = {
+
+		enable_equipments = {
+			power_armor_1
+		}
+		enable_subunits = {
+			power_soldiers
+		}
+	
+		research_cost = 2.5
+		start_year = 1780
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+		}
+	}
 	
 }
