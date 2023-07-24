@@ -1544,16 +1544,16 @@ technologies = {
 	}
 
 	command_and_control1 = {
-
-		army_org_regain = 0.02
-
+		enable_equipments = {
+			candc_equpment_1
+		}
 		path = {
 			leads_to_tech = command_and_control2
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-		start_year = 1770
+		start_year = 1765
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 0 }
@@ -1571,15 +1571,9 @@ technologies = {
 
 	command_and_control2 = {
 
-		experience_gain_army_factor = 0.05
-		experience_gain_navy_factor = 0.05
-		experience_gain_air_factor = 0.05
-		command_power_gain_mult = 0.05
-		army_professionalism_monthly_rate = 0.025
-		army_org_regain = 0.1
-		army_org_factor = 0.05
-		navy_org_factor = 0.05
-
+		enable_equipments = {
+			candc_equpment_2
+		}
 		path = {
 			leads_to_tech = command_and_control3
 			research_cost_coeff = 1
@@ -1603,21 +1597,15 @@ technologies = {
 	}
 
 	command_and_control3 = {
-
-		experience_gain_army_factor = 0.05
-		experience_gain_navy_factor = 0.05
-		experience_gain_air_factor = 0.05
-		command_power_gain_mult = 0.05
-		army_professionalism_monthly_rate = 0.025
-		army_org_regain = 0.1
-		army_org_factor = 0.05
-		navy_org_factor = 0.05
+		enable_equipments = {
+			candc_equpment_3
+		}
 
 		research_cost = 1.5
-		start_year = 1780
+		start_year = 1778
 		folder = {
 			name = support_folder
-			position = { x = 0 y = 20 }
+			position = { x = 0 y = 17 }
 		}
 
 		categories = {

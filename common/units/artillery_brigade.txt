@@ -27,6 +27,7 @@ sub_units = {
 		need = {
 			artillery_ammo_equipment = 108
 			artillery_equipment = 36
+			candc_equipment = 25
 		}
 		
 		max_strength = 0.6
@@ -108,6 +109,7 @@ sub_units = {
 		need = {
 			artillery_ammo_equipment = 108
 			artillery_equipment = 36
+			candc_equipment = 25
 			motorized_equipment = 36
 		}
 		
@@ -180,6 +182,7 @@ sub_units = {
 
 		need = {
 			rocket_artillery_equipment = 36
+			candc_equipment = 25
 		}
 		
 		manpower = 500
@@ -254,6 +257,7 @@ sub_units = {
 		need = {
 			rocket_artillery_equipment = 36
 			motorized_equipment = 36
+			candc_equipment = 25
 		}
 		
 		manpower = 500
@@ -329,6 +333,7 @@ sub_units = {
 		need = {
 			motorized_rocket_equipment = 20
 			motorized_equipment = 15
+			candc_equipment = 25
 		}
 		
 		manpower = 500

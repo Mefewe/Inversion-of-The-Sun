@@ -48,6 +48,7 @@ sub_units = {
 		need = {
 			support_equipment = 20
 			motorized_equipment = 10
+			candc_equipment = 25
 		}
 
 	}

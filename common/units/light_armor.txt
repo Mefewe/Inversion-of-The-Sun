@@ -27,6 +27,7 @@ sub_units = {
 		need = {
 			tank_ammo_equipment = 240
 			light_tank_chassis = 60
+			candc_equipment = 25
 		}
 		manpower = 500
 		max_organisation = 10

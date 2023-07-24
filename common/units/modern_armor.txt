@@ -27,6 +27,7 @@ sub_units = {
 
 		need = {
 			tank_ammo_equipment = 200
+			candc_equipment = 25
 			modern_tank_chassis = 50
 		}
 		manpower = 500

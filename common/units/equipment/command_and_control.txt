@@ -1,0 +1,89 @@
+equipments = {
+	candc_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		priority = 10
+		interface_category = interface_category_land
+		active = no
+		reliability = 0.9
+		max_organisation = 0.35
+		maximum_speed = 4
+		lend_lease_cost = 1
+		build_cost_ic = 1.15
+
+		resources = {
+			steel = 1
+		}
+	}
+	candc_equpment_1 = { #c2i
+		year = 1765
+
+		archetype = candc_equipment
+		active = no
+		#priority = 5
+		visual_level = 0
+
+		#Misc Abilities
+		reliability = 0.9
+		max_organisation = 0.35 #percentage
+		default_morale = 0.05
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.40
+
+		resources = {
+			steel = 1
+		}
+
+	}
+	candc_equpment_2 = { #c3i
+		year = 1775
+
+		archetype = candc_equipment
+		parent = candc_equpment_1
+		#priority = 5
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+		max_organisation = 0.4 #percentage
+		default_morale = 0.1
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.52
+
+		resources = {
+			tungsten = 1
+			steel = 1
+		}
+	}
+	candc_equpment_3 = { #c4i
+		year = 1778
+
+		archetype = candc_equipment
+		parent = candc_equpment_2
+		#priority = 5
+		visual_level = 2
+
+		#Misc Abilities
+		reliability = 0.9
+		max_organisation = 0.5
+		default_morale = 0.15
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.80
+
+		resources = {
+			tungsten = 1
+			steel = 2
+		}
+	}
+}

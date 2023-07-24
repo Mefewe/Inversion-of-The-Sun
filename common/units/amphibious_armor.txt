@@ -27,6 +27,7 @@ sub_units = {
 
 		need = {
 			amphibious_tank_chassis = 50
+			candc_equipment = 25
 		}
 		manpower = 500
 		max_organisation = 10
@@ -94,6 +95,7 @@ sub_units = {
 
 		need = {
 			light_tank_amphibious_chassis = 50
+			candc_equipment = 25
 		}
 		manpower = 500
 		max_organisation = 10
@@ -161,6 +163,7 @@ sub_units = {
 
 		need = {
 			medium_tank_amphibious_chassis = 50
+			candc_equipment = 25
 		}
 		manpower = 500
 		max_organisation = 10
@@ -228,6 +231,7 @@ sub_units = {
 
 		need = {
 			heavy_tank_amphibious_chassis = 50
+			candc_equipment = 25
 		}
 		manpower = 500
 		max_organisation = 10
