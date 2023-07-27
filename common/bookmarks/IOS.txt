@@ -45,7 +45,7 @@ bookmarks = {
 			history = "IOS_S_NAME_DESC"
 		}
 		"VRB"={
-                        minor = yes
+            minor = yes
 			history = "VBT_IOS_S_DESC"
 			ideology = fascism
 			available = { }
@@ -58,7 +58,7 @@ bookmarks = {
 		}
 
 		"KLG"={
-                        minor = yes
+            minor = yes
 			history = "KLG_IOS_S_DESC"
 			ideology = fascism
 			available = { }
@@ -71,7 +71,7 @@ bookmarks = {
 		}
 
 		"MRT"={
-                        minor = yes
+            minor = yes
 			history = "MRT_IOS_S_DESC"
 			ideology = fascism
 			available = { }
@@ -84,7 +84,7 @@ bookmarks = {
 		}
 
 		"DMN"={
-                        minor = yes
+            minor = yes
 			history = "DMN_IOS_S_DESC"
 			ideology = fascism
 			available = { }
@@ -97,7 +97,7 @@ bookmarks = {
 		}
 
 		"FRD"={
-                        minor = yes
+            minor = yes
 			history = "FRD_IOS_S_DESC"
 			ideology = fascism
 			available = { }
@@ -110,9 +110,35 @@ bookmarks = {
 		}
 
 		"CAR"={
-                        minor = yes
+        	minor = yes
 			history = "DMN_IOS_S_DESC"
 			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"CRY"={
+        	minor = yes
+			history = "CRY_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"VKR"={
+        	minor = yes
+			history = "VKR_IOS_S_DESC"
+			ideology = progressivism
 			available = { }
 			ideas = {
 

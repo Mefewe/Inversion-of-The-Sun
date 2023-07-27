@@ -1483,5 +1483,28 @@ equipment_modules = {
 			
 		}
 	}
-	
+
+	####### Модули ОБТ
+	tank_heavy_cannon_4 = {
+		abbreviation = "hc4"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		parent = tank_heavy_cannon_2
+		add_stats = {
+			soft_attack = 35
+			hard_attack = 45
+			ap_attack = 175
+			build_cost_ic = 8.5
+			maximum_speed = -0.4
+			reliability = -0.25
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
+			steel = 3
+		}
+	}
 }
