@@ -40,6 +40,10 @@ conversion_tanks = {
 				amount = 50
 			}
 			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = medium_tank_chassis
+					amount = -50
+				}
 				if = {
 					limit = {
 						NOT = {
