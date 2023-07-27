@@ -14,7 +14,7 @@ technologies = {
 	@1946 = 20
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	medium_tank_gw = { #Leichttraktor
+	medium_tank_gw = { #Т-34, шерман, прочие танки которые использовались как суррогаты ОБТ во времена какой-нибудь кореи
 
 		enable_equipments = {
 			medium_tank_chassis_1
@@ -56,8 +56,7 @@ technologies = {
 		}
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = medium_armor }
+			NOT = {	has_template_containing_unit = modern_armor }
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -86,7 +85,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1918
+		start_year = 1765
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 0 }
@@ -102,23 +101,23 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "1773.1.1"
 			}
 		}
 
 		categories = {
 			armor
-			cat_light_armor
+			cat_medium_armor
 		}
 	}
 
@@ -136,8 +135,7 @@ technologies = {
 
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = medium_armor }
+			NOT = {	has_template_containing_unit = modern_armor }
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -145,20 +143,15 @@ technologies = {
 					limit = {
 						has_tech = motorised_infantry
 					}
-
 					load_oob = "unlock_tanks_mot"
 				}
 				if = {
 					limit = {
 						NOT = { has_tech = motorised_infantry }
 					}
-
 					load_oob = "unlock_tanks"
 				}
-
-				
 			}
-
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
@@ -173,7 +166,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 1765
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 2 }
@@ -189,17 +182,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1773.1.1"
 			}
 		}
 
@@ -224,7 +217,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1774
 
 		folder = {
 			name = nsb_armour_folder
@@ -235,17 +228,17 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1773.1.1"
 			}
 		}
 
@@ -254,108 +247,6 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
-		}
-	}
-
-
-
-	amphibious_tank_chassis = { #SchwimmPanzer II
-
-		enable_equipments = {
-			amphibious_tank_chassis_1
-		}
-
-		enable_subunits = {
-			amphibious_armor
-		}
-
-		path = {
-			leads_to_tech = amphibious_drive
-			research_cost_coeff = 1
-		}
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		research_cost = 2
-		start_year = 1938
-
-		folder = {
-			name = nsb_armour_folder
-			position = { x = -1 y = 5 }
-		}
-
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
-					}
-				}
-				factor = 0
-			}
-		}
-
-		categories = {
-			armor
-			tp_tech
-		}
-	}
-
-	amphibious_drive = { #SchwimmPanzer II
-
-
-		enable_equipment_modules = {
-			amphibious_drive
-		}
-
-		enable_equipments = {
-			light_tank_amphibious_chassis_0
-			medium_tank_amphibious_chassis_0
-			heavy_tank_amphibious_chassis_0
-			light_tank_amphibious_chassis_1
-			medium_tank_amphibious_chassis_1
-			heavy_tank_amphibious_chassis_1
-			light_tank_amphibious_chassis_2
-			medium_tank_amphibious_chassis_2
-			heavy_tank_amphibious_chassis_2
-			light_tank_amphibious_chassis_3
-			medium_tank_amphibious_chassis_3
-			heavy_tank_amphibious_chassis_3
-		}
-
-		research_cost = 2
-		start_year = 1941
-
-		folder = {
-			name = nsb_armour_folder
-			position = { x = -1 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
-					}
-				}
-				factor = 0
-			}
-		}
-
-		categories = {
-			armor
-			tp_tech
 		}
 	}
 
@@ -369,7 +260,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 1778
 
 		folder = {
 			name = nsb_armour_folder
@@ -385,17 +276,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1942.1.1"
+				date > "1779.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1943.1.1"
+				date > "1781.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1944.1.1"
+				date > "1782.1.1"
 			}
 		}
 
@@ -416,16 +307,14 @@ technologies = {
 		enable_subunits = {
 			modern_armor
 		}
-		on_research_complete = {
-			modern_armor = {
-				need = {
-					medium_tank_chassis = -50
-					modern_tank_chassis = 50
-				}
+		modern_armor = {
+			need = {
+				medium_tank_chassis = -50
+				modern_tank_chassis = 50
 			}
 		}
 		research_cost = 2.5
-		start_year = 1945
+		start_year = 1771
 
 		folder = {
 			name = nsb_armour_folder
@@ -437,17 +326,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1946.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "1774.1.1"
 			}
 		}
 
@@ -474,7 +363,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1934
+		start_year = 1767
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1936 }
@@ -494,17 +383,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1774.1.1"
 			}
 		}
 
@@ -529,7 +418,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1770
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1938 }
@@ -549,17 +438,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1774.1.1"
 			}
 		}
 
@@ -582,7 +471,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1941
+		start_year = 1775
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1941 }
@@ -602,17 +491,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1774.1.1"
 			}
 		}
 
@@ -624,7 +513,7 @@ technologies = {
 	armor_tech_4 = {
 
 		research_cost = 1
-		start_year = 1944
+		start_year = 1778
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1944 }
@@ -649,17 +538,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1774.1.1"
 			}
 		}
 
@@ -680,7 +569,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1934
+		start_year = 1767
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1936 }
@@ -700,17 +589,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1771.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1773.1.1"
 			}
 		}
 
@@ -733,7 +622,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1770
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1938 }
@@ -753,17 +642,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1774.1.1"
 			}
 		}
 
@@ -784,7 +673,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1941
+		start_year = 1775
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1941 }
@@ -804,17 +693,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1774.1.1"
 			}
 		}
 
@@ -826,7 +715,7 @@ technologies = {
 	engine_tech_4 = {
 
 		research_cost = 1
-		start_year = 1944
+		start_year = 1779
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1944 }
@@ -849,17 +738,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1772.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1773.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1774.1.1"
 			}
 		}
 

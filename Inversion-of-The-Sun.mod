@@ -45,6 +45,7 @@ replace_path="common/scripted_guis"
 replace_path="common/abilities"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
 replace_path="gfx/world"
+replace_path="common/technologies"
 tags={
 	"Map"
 }

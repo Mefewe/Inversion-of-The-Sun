@@ -12,14 +12,6 @@ armor_generic = {
 	
 	upgrade_prio = {
 		factor = 2.17
-
-		modifier = {
-			factor = 7
-			OR = {
-				has_tech = basic_medium_tank
-				has_tech = basic_medium_tank_chassis
-			}
-		}
 		
 		modifier = {
 			factor = 2
@@ -118,7 +110,6 @@ armor_generic = {
 			motorized
 			engineer
 			mot_recon
-			armored_car_recon
 			light_tank_recon
 			artillery
 			anti_tank
@@ -229,9 +220,8 @@ armor_generic = {
 
 			modifier = {
 				factor = 4
-				OR = {
-					has_tech = basic_medium_tank
-					has_tech = basic_medium_tank_chassis
+				OR = {					
+					has_tech = medium_tank_gw
 				}
 			}
 		}
@@ -304,7 +294,6 @@ armor_generic = {
 			infantry
 			engineer
 			mot_recon
-			armored_car_recon
 			light_tank_recon
 			maintenance_company
 			logistics_company
@@ -377,7 +366,6 @@ armor_generic = {
 			
 			support = {
 				engineer = 1
-				armored_car_recon = 1
 				maintenance_company = 1
 				logistics_company = 1
 			}
@@ -396,7 +384,6 @@ armor_generic = {
 			infantry
 			engineer
 			mot_recon
-			armored_car_recon
 			light_tank_recon
 			maintenance_company
 			logistics_company
