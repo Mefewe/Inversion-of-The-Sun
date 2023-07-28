@@ -42,7 +42,17 @@ conversion_tanks = {
 	icon = generic_economy
 
 	visible = {
-		has_tech = main_battle_tank_chassis
+		OR = {
+			has_country_flag = {
+				flag = TC_num_MTMBT
+				value < 11
+			}
+			NOT = {
+				has_country_flag = {
+					flag = TC_num_MTMBT
+				}	
+			}
+		}
 	}
 }
 
