@@ -1,0 +1,39 @@
+entity = {
+	###Name - entity name, structed: unitname_entity
+	name = "power_armor_entity"
+	####paradox mesh - inside a .gfx file (powerarmor_meshes.gfx)
+	pdxmesh = "powerarmor_t51_mesh"
+	scale = 0.45
+	####Animations and triggers
+
+	###state to be in when nothing else is triggered
+	default_state = "idle"
+	####state to use when attacking an enemy
+	###second attack state (shooting gun)
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.0  animation_speed = 1.0  looping = no chance = 3  propagate_state = { rifle1 = "idle" } }
+	state = { name = "attack"			animation = "shoot" animation_blend_time = 0.2  animation_speed = 1.0 looping = no chance = 1 propagate_state = { rifle1 = "attack" } }
+	###defensive state
+	state = { name = "defend"			animation = "shoot" animation_blend_time = 0.0  animation_speed = 1.0 }
+	####supporting another attacking unit
+	state = { name = "support_attack"	animation = "shoot" animation_blend_time = 0.0  animation_speed = 1.0 }
+	###movement on map with no enemies
+	state = { name = "move"				animation = "move" 	animation_blend_time = 0.0 animation_speed = 1.0 propagate_state = { rifle1 = "idle" } }
+	###retreat "limp"
+	state = { name = "retreat"		animation="retreat" }
+	#### death state (despawns after this)
+	state = { name = "death"	animation="retreat"	}
+
+	state = { name = "idle" animation="idle1" chance = 6 propagate_state = { rifle1 = "idle" } }
+	state = { name = "idle" animation ="idle2" chance = 2 next_state="idle" propagate_state = { rifle1 = "idle" } }
+	### training state, normally many of these
+	state = { name = "training" animation="idle1" chance = 6 propagate_state = { rifle1 = "idle" } }
+	state = { name = "training" animation ="idle2" chance = 2 next_state="idle" propagate_state = { rifle1 = "idle" } }
+
+	####These attachments are called inside the state = {} to change the bone the weapon is attached to. ex: back, hands
+	#attach = { 	name = "rifle1"	Right_Hand_Node = "minigun_pa_entity" }
+	#attach = { 	name = "rifle1"	hand_r = "minigun_pa_entity" }
+	#attach = { 	name = "rifle2"	hand_l = "laser_rifle_entity" }
+	#attach = { 	name = "rifle2"	hand_l = "minigun_pa_entity" }
+	#attach = { 	name = "rifle3"	Root = "laser_rifle_entity" }
+
+}

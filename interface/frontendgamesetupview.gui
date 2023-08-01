@@ -123,87 +123,16 @@ guiTypes = {
 		}
 	}
 
-	### country entry
-	containerWindowType = {
-		name = "country_entry"
-
-		buttonType = {
-			name = "country_leader"
-			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 17 y = 22 }
-			scale=0.75
-			clicksound = click_checkbox
-		}
-
-		iconType = {
-			name = "country_flag"
-			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 34 y = 188 }
+    ### Country entry
+	containerWindowType {
+	name = "country_entry_medium1"
+	    iconType = {
+			name ="test"
+			quadTextureSprite = "GFX_IOS_country_selection1"
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "country"
-			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
-		}
-
-		instantTextBoxType = {
-			name = "country_name"
-			position = { x = 8 y = 247 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 131
-			maxHeight = 20
-			fixedsize = yes
-			format = center
-			Orientation = "UPPER_LEFT"
-		}
+	    }
 	}
-
-	### country entry
-	containerWindowType = {
-		name = "country_entry_medium"
-
-
-		iconType = {
-			name = "country_flag"
-			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 26 y = 22 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "country"
-			quadTextureSprite = "GFX_country_selection_minor_entry"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
-		}
-	}
-
-	### country entry
-	containerWindowType = {
-		name = "country_entry_mini"
-
-		iconType = {
-			name = "country_flag"
-			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 9 y = 8 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "country"
-			quadTextureSprite = "GFX_mini_country_selector"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
-		}
-	}
-
 
 	### LOAD GAME
 	containerWindowType = {
@@ -606,17 +535,17 @@ guiTypes = {
 		clipping = no
 		moveable = yes
 
-		instantTextBoxType = {
-			name = "title"
-			position = { x = 435 y = 12 }
-			textureFile = ""
-			font = "hoi_24header"
-			borderSize = {x = 0 y = 0}
-			text = "FE_SELECT_COUNTRY"
-			maxWidth = 340
-			maxHeight = 30
-			format = centre
-		}
+		#instantTextBoxType = {
+		#	name = "title"
+		#	position = { x = 435 y = 12 }
+		#	textureFile = ""
+		#	font = "hoi_24header"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "FE_SELECT_COUNTRY"
+		#	maxWidth = 340
+		#	maxHeight = 30
+		#	format = centre
+		#}
 
 		background = {
 			name = "single_player_country_bg"

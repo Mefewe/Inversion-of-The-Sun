@@ -761,6 +761,7 @@ technologies = {
 		}
 		enable_subunits = {
 			power_soldiers
+                        power_soldiers_support
 		}
 	
 		research_cost = 2.5
