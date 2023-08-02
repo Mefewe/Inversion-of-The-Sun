@@ -1565,10 +1565,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = bronetransporter_infantry
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = motorised_infantry_2t
 			research_cost_coeff = 1
 		}
@@ -1658,7 +1654,16 @@ technologies = {
 			leads_to_tech = mechanised_infantry2
 			research_cost_coeff = 1
 		}
-
+		path = {
+			leads_to_tech = bronetransporter_infantry
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			set_technology = {
+				bronetransporter_infantry = 1
+				popup = no
+			}
+		}
 		sub_technologies = {
 			boevaja_mashina_desantut
 		}
@@ -1767,22 +1772,6 @@ technologies = {
 
 		enable_equipments = {
 			bronetransporter_1
-		}
-
-		motorized = {
-			hardness = 1.0
-		}
-		mot_artillery_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_tank_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_air_brigade = {
-			hardness = 1.0
-		}
-		mot_rocket_artillery_brigade = {
-			hardness = 1.0
 		}
 
 		path = {
