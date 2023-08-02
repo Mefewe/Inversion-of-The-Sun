@@ -171,6 +171,169 @@ technologies = {
 		}
 	}
 	
+	infantry_anti_tank_1 = {
+
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		enable_equipments = {
+			anti_tank_equipment_hand_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_anti_tank_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1768
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1768 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	infantry_anti_tank_2 = {
+		
+		path = {
+			leads_to_tech = infantry_anti_air_1
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			anti_tank_equipment_hand_2
+		}
+		research_cost = 1.5
+		start_year = 1771
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1771 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	infantry_anti_air_1 = {	
+		path = {
+			leads_to_tech = infantry_anti_tank_3
+			research_cost_coeff = 1
+		}
+		motorized = {
+			need = {
+				anti_air_equipment_hand = 8
+			}
+		}
+		infantry = {
+			need = {
+				anti_air_equipment_hand = 8
+			}
+		}
+		paratrooper = {
+			need = {
+				anti_air_equipment_hand = 8
+			}
+		}
+		guard = {
+			need = {
+				anti_air_equipment_hand = 8
+			}
+		}
+		marine = {
+			need = {
+				anti_air_equipment_hand = 8
+			}
+		}
+		anti_air_brigade = {
+			need = {
+				anti_air_equipment_hand = 8
+			}
+		}
+		anti_air = {
+			need = {
+				anti_air_equipment_hand = 8
+			}
+		}
+		enable_equipments = {
+			anti_air_equipment_hand_2
+		}
+		research_cost = 1.5
+		start_year = 1775
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1775 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
+	infantry_anti_tank_3 = {
+		path = {
+			leads_to_tech = infantry_anti_air_2
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			anti_tank_equipment_hand_3
+		}
+		research_cost = 1.5
+		start_year = 1777
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1777 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	infantry_anti_air_2 = {
+		enable_equipments = {
+			anti_air_equipment_hand_2
+		}
+		research_cost = 1.5
+		start_year = 1779
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1779 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+
 	infantry_at = {
 
 		category_all_infantry = {

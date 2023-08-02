@@ -1112,12 +1112,6 @@ marines_generic = {
 
 paratrooper_generic = {
 
-	blocked_for = {
-		OEF
-		CHN
-		EQS
-	}
-
 	roles = {
 		paratrooper
 	}

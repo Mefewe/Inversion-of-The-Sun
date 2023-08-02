@@ -89,3 +89,4 @@ units = {
 		start_equipment_factor = 0.0
                 start_manpower_factor = 1.0
 	}
+}
