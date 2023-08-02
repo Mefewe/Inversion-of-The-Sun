@@ -1,5 +1,4 @@
 equipments = {
-
 	bronetransporter = {
 		year = 1763
 

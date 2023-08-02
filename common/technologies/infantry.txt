@@ -1496,6 +1496,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		sub_technologies = {
+			boevaja_mashina_desantut
+		}
+
 		research_cost = 2
 		start_year = 1770
 		folder = {
@@ -1530,6 +1534,34 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1774 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	boevaja_mashina_desantut = {
+		enable_equipments = {
+			boevaja_mashina_desantu_1
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1770
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1770 }
 		}
 		
 		categories = {

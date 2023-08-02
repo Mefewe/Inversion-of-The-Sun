@@ -258,7 +258,6 @@ leader_traits = {
 		unit_trigger = {
 			OR = {
 				division_has_majority_template = infantry
-				division_has_majority_template = bicycle_battalion
 				division_has_majority_template = marine
 				division_has_majority_template = mountaineers
 				division_has_majority_template = paratrooper
@@ -290,7 +289,6 @@ leader_traits = {
 			type = cavalry
 			type = camelry
 			type = motorized
-			type = mechanized
 		}
 		
 		unit_trigger = {
@@ -298,7 +296,6 @@ leader_traits = {
 				division_has_majority_template = cavalry
 				division_has_majority_template = camelry
 				division_has_majority_template = motorized
-				division_has_majority_template = mechanized
 			}
 		}
 		

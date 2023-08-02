@@ -191,7 +191,6 @@ armor_generic = {
 			heavy_armor
 			
 			motorized
-			mechanized
 
 			#Cheaper but slower might be worth considering
 			infantry
@@ -287,7 +286,7 @@ armor_generic = {
 			modern_armor
 			medium_armor
 			motorized
-			mechanized
+			
 			infantry
 			engineer
 			mot_recon
@@ -307,11 +306,6 @@ armor_generic = {
 	
 		upgrade_prio = {
 			factor = 2
-
-			modifier = {
-				factor = 4
-				has_tech = armored_car1
-			}
 		}
 		
 		target_width = 20.0
@@ -377,7 +371,6 @@ armor_generic = {
 			modern_armor
 			medium_armor
 			motorized
-			mechanized
 			infantry
 			engineer
 			mot_recon
@@ -459,7 +452,6 @@ armor_generic = {
 			
 			regiments = {
 				modern_armor = 6
-				mechanized = 3
 			}
 		}
 		
@@ -467,7 +459,6 @@ armor_generic = {
 		allowed_types = {
 			modern_armor
 			motorized
-			mechanized
 			engineer
 			recon
 			maintenance_company
