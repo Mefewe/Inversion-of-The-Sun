@@ -1,18 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_IOS_country_selection"
-		texturefile = "gfx/interface/custom/bookmarks/ios_country_selection.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_IOS_country_selection1"
-		texturefile = "gfx/interface/custom/bookmarks/country_selection_entry.dds"
-		noOfFrames = 2
-	}
-
-
-
-	spriteType = {
 		name = "GFX_country_selection_minor_entry"
 		texturefile = "gfx/interface/country_selection_minor_entry.dds"
 		noOfFrames = 2

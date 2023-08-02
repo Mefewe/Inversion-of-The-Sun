@@ -1,13 +1,12 @@
 equipments = {
 
-	motorized_equipment = {
+	bronetransporter = {
 		year = 1763
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment		
 		is_buildable = no
 		type = {
-			#infantry #Removing inf type 
 			motorized
 		}
 		group_by = archetype
@@ -34,18 +33,22 @@ equipments = {
 		supply_truck = yes
 	}
 
-	motorized_equipment_1 = {
-		year = 1763
+	bronetransporter_1 = {
+		year = 1770
 
-		archetype = motorized_equipment
+		archetype = bronetransporter
 		priority = 30			
 	}
-	motorized_equipment_2 = {
-		year = 1774
+	bronetransporter_2 = {
+		year = 1773
 
-		archetype = motorized_equipment
-		priority = 30	
-		maximum_speed = 2
-		fuel_consumption = 0.4
+		archetype = bronetransporter
+		priority = 30			
+	}
+	bronetransporter_3 = {
+		year = 1780
+
+		archetype = bronetransporter
+		priority = 30			
 	}
 }
