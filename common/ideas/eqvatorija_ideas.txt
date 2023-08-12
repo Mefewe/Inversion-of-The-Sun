@@ -8,5 +8,29 @@ ideas = {
 				war_support_factor = -0.1
 			}
 		}
+		razrushennije_communikaciji = {
+			modifier = {
+				production_speed_buildings_factor = -0.3
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_cost = 0.1
+			}
+		}
+		tleushaja_garmonija = {
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.15
+			}
+		}
+		somniteljnoje_sobranije = {
+			modifier = {
+				political_power_cost = 0.15
+			}
+		}
+		provincialjnoge_bezumije = {
+			modifier = {
+				political_power_cost = 0.15
+			}
+		}
 	}
 }

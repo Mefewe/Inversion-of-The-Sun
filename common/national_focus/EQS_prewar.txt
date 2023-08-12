@@ -1,0 +1,764 @@
+#!localisation:localisation\russian\country_EQS_l_russian.yml
+focus_tree = {
+	id = EQS_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = EQS
+		}
+	}
+	shared_focus = EQS_epoha_twajlajt
+	default = no
+	continuous_focus_position = { x = 3000 y = 3000 }
+}
+
+focus_tree = {
+	id = EQS_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = EQS
+		}
+	}
+	shared_focus = EQS_infrastrukturnij_projekt
+	shared_focus = EQS_stroiteljno_promyshlennij_projekt
+	shared_focus = EQS_vseponijskoje_sobranije
+	shared_focus = EQS_trudovaja_povinnostj
+	shared_focus = EQS_obligaciji_i_privilegii
+	default = no
+	continuous_focus_position = { x = 3000 y = 3000 }
+}
+
+shared_focus = {
+	id = EQS_epoha_twajlajt
+	cost = 2
+	x = 10
+	y = 0
+	completion_reward = { 
+		country_event = EQS.1
+	}
+}
+shared_focus = {
+	id = EQS_komitet_rekonstrukciji
+	prerequisite = {
+		focus = EQS_epoha_twajlajt
+	}
+	cost = 2
+	x = 10
+	y = 1
+	completion_reward = { 
+		country_event = EQS.2
+	}
+}
+
+shared_focus = {
+	id = EQS_zadobritj_sobranije
+	prerequisite = {
+		focus = EQS_komitet_rekonstrukciji
+	}
+	cost = 2
+	x = 9
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_prizvatj_elementi_garmoniji
+	prerequisite = {
+		focus = EQS_komitet_rekonstrukciji
+	}
+	cost = 2
+	x = 11
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_obeshanija_dlja_biznesa
+	prerequisite = {
+		focus = EQS_prizvatj_elementi_garmoniji
+	}
+	prerequisite = {
+		focus = EQS_zadobritj_sobranije
+	}
+	cost = 2
+	x = 7
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_datj_rabochim_rabotu
+	prerequisite = {
+		focus = EQS_prizvatj_elementi_garmoniji
+	}
+	prerequisite = {
+		focus = EQS_zadobritj_sobranije
+	}
+	cost = 2
+	x = 10
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_vzjatj_vse_chto_estj
+	prerequisite = {
+		focus = EQS_prizvatj_elementi_garmoniji
+	}
+	prerequisite = {
+		focus = EQS_zadobritj_sobranije
+	}
+	cost = 2
+	x = 13
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_tvajlajt_znajet_chto_delatj
+	prerequisite = {
+		focus = EQS_obeshanija_dlja_biznesa
+	}
+	prerequisite = {
+		focus = EQS_datj_rabochim_rabotu
+	}
+	prerequisite = {
+		focus = EQS_vzjatj_vse_chto_estj
+	}
+	cost = 2
+	x = 10
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_rabota_nachalas
+	prerequisite = {
+		focus = EQS_tvajlajt_znajet_chto_delatj
+	}
+
+	cost = 1
+	x = 10
+	y = 5
+	completion_reward = { 
+		load_focus_tree = EQS_focus_tree_two
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+############################
+shared_focus = {
+	id = EQS_infrastrukturnij_projekt
+
+	cost = 2
+	x = 12
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_zhilishnaja_zastrojka
+	prerequisite = {
+		focus = EQS_infrastrukturnij_projekt
+	}
+	cost = 2
+	x = 10
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_raboty_po_raschistke
+	prerequisite = {
+		focus = EQS_infrastrukturnij_projekt
+	}
+	cost = 2
+	x = 12
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_ljgoty_dlja_rabochih
+	prerequisite = {
+		focus = EQS_infrastrukturnij_projekt
+	}
+	cost = 2
+	x = 14
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = { 
+	id = EQS_tehnika_iz_oef
+	prerequisite = {
+		focus = EQS_zhilishnaja_zastrojka
+	}
+	prerequisite = {
+		focus = EQS_raboty_po_raschistke
+	}
+	prerequisite = {
+		focus = EQS_ljgoty_dlja_rabochih
+	}
+	cost = 2
+	x = 9
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_telefonnije_linii
+	prerequisite = {
+		focus = EQS_zhilishnaja_zastrojka
+	}
+	prerequisite = {
+		focus = EQS_raboty_po_raschistke
+	}
+	prerequisite = {
+		focus = EQS_ljgoty_dlja_rabochih
+	}
+	cost = 2
+	x = 12
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_mestnaja_infrastruktura
+	prerequisite = {
+		focus = EQS_zhilishnaja_zastrojka
+	}
+	prerequisite = {
+		focus = EQS_raboty_po_raschistke
+	}
+	prerequisite = {
+		focus = EQS_ljgoty_dlja_rabochih
+	}
+	cost = 2
+	x = 15
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_mejnhetten_kanterlot
+	prerequisite = {
+		focus = EQS_tehnika_iz_oef
+	}
+	prerequisite = {
+		focus = EQS_mestnaja_infrastruktura
+	}
+	prerequisite = {
+		focus = EQS_telefonnije_linii
+	}
+	cost = 2
+	x = 10
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_s_sf_v
+	prerequisite = {
+		focus = EQS_tehnika_iz_oef
+	}
+	prerequisite = {
+		focus = EQS_mestnaja_infrastruktura
+	}
+	prerequisite = {
+		focus = EQS_telefonnije_linii
+	}
+	cost = 2
+	x = 14
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_kanterlotskij_trakt
+	prerequisite = {
+		focus = EQS_mejnhetten_kanterlot
+	}
+	prerequisite = {
+		focus = EQS_s_sf_v
+	}
+
+	cost = 2
+	x = 12
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_stroiteljno_promyshlennij_projekt
+
+	cost = 2
+	x = 4
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = EQS_inostrannije_specialisti
+	prerequisite = {
+		focus = EQS_stroiteljno_promyshlennij_projekt
+	}
+	cost = 2
+	x = 2
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_materialjnaja_podderzhka_obrazovanija
+	prerequisite = {
+		focus = EQS_stroiteljno_promyshlennij_projekt
+	}
+	cost = 2
+	x = 4
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_import_stankov_iz_oef
+	prerequisite = {
+		focus = EQS_materialjnaja_podderzhka_obrazovanija
+	}
+	prerequisite = {
+		focus = EQS_inostrannije_specialisti
+	}
+	cost = 2
+	x = 0
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_pooshjrat_predprinimatelej
+	prerequisite = {
+		focus = EQS_materialjnaja_podderzhka_obrazovanija
+	}
+	prerequisite = {
+		focus = EQS_inostrannije_specialisti
+	}
+	cost = 2
+	x = 2
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_uchereditj_strojbaty
+	prerequisite = {
+		focus = EQS_materialjnaja_podderzhka_obrazovanija
+	}
+	prerequisite = {
+		focus = EQS_inostrannije_specialisti
+	}
+	cost = 2
+	x = 4
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_legalizovatj_i_pooshratj_sobirateljstvo
+	prerequisite = {
+		focus = EQS_materialjnaja_podderzhka_obrazovanija
+	}
+	prerequisite = {
+		focus = EQS_inostrannije_specialisti
+	}
+	cost = 2
+	x = 6
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_zavod_fillimejr
+	prerequisite = {
+		focus = EQS_legalizovatj_i_pooshratj_sobirateljstvo
+	}
+	prerequisite = {
+		focus = EQS_uchereditj_strojbaty
+	}
+	cost = 2
+	x = 6
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_sozdatj_kanterprom
+	prerequisite = {
+		focus = EQS_legalizovatj_i_pooshratj_sobirateljstvo
+	}
+	prerequisite = {
+		focus = EQS_uchereditj_strojbaty
+	}
+	cost = 2
+	x = 4
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_vseponijskoje_sobranije
+
+	cost = 2
+	x = 20
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_princess_chto_slishit_narod
+	prerequisite = {
+		focus = EQS_vseponijskoje_sobranije
+	}
+	mutually_exclusive = {
+		focus = EQS_lubopitnij_ishod
+	}
+	cost = 2
+	x = 20
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_lubopitnij_ishod
+	prerequisite = {
+		focus = EQS_vseponijskoje_sobranije
+	}
+	mutually_exclusive = {
+		focus = EQS_princess_chto_slishit_narod
+	}
+	cost = 2
+	x = 22
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_poobeshatj_to_chto_oni_hotjat
+	prerequisite = {
+		focus = EQS_princess_chto_slishit_narod
+	}
+	cost = 2
+	x = 18
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_kontrolj_nad_departamentami
+	prerequisite = {
+		focus = EQS_princess_chto_slishit_narod
+	}
+	cost = 2
+	x = 20
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_odnim_prjanik
+	prerequisite = {
+		focus = EQS_lubopitnij_ishod
+	}
+	cost = 2
+	x = 22
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_drugim_knut
+	prerequisite = {
+		focus = EQS_lubopitnij_ishod
+	}
+	cost = 2
+	x = 24
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_chto_to_grjadet_v_budushem
+	prerequisite = {
+		focus = EQS_poobeshatj_to_chto_oni_hotjat
+	}
+	prerequisite = {
+		focus = EQS_kontrolj_nad_departamentami
+	}
+	cost = 2
+	x = 18
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_opasnost_parlamentarizma
+	prerequisite = {
+		focus = EQS_odnim_prjanik
+	}
+	prerequisite = {
+		focus = EQS_drugim_knut
+	}
+	cost = 2
+	x = 20
+	y = 5
+	completion_reward = { 
+	}
+}
+##
+
+shared_focus = {
+	id = EQS_borba_s_bezzakonijem
+	prerequisite = {
+		focus = EQS_raboty_po_raschistke
+	}
+	prerequisite = {
+		focus = EQS_tehnika_iz_oef
+		focus = EQS_mestnaja_infrastruktura
+	}
+	cost = 2
+	x = 12
+	y = 6
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_policejskaja_gvardija
+	prerequisite = {
+		focus = EQS_borba_s_bezzakonijem
+	}
+	cost = 2
+	x = 16
+	y = 7
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_osoboje_agenstvo_pri_princesse
+	prerequisite = {
+		focus = EQS_borba_s_bezzakonijem
+	}
+
+	cost = 2
+	x = 8
+	y = 7
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_povisitj_finansirovanije
+	prerequisite = {
+		focus = EQS_osoboje_agenstvo_pri_princesse
+	}
+
+	cost = 2
+	x = 6
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_otdelenia_vezde
+	prerequisite = {
+		focus = EQS_osoboje_agenstvo_pri_princesse
+	}
+
+	cost = 2
+	x = 8
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_sozdatj_SCP
+	prerequisite = {
+		focus = EQS_policejskaja_gvardija
+	}
+
+	cost = 2
+	x = 16
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_teorija_magicheskogo_doznanija
+	prerequisite = {
+		focus = EQS_policejskaja_gvardija
+	}
+
+	cost = 2
+	x = 18
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_druzhba_magija_porjadok
+	prerequisite = {
+		focus = EQS_teorija_magicheskogo_doznanija
+	}
+	prerequisite = {
+		focus = EQS_sozdatj_SCP
+	}
+	prerequisite = {
+		focus = EQS_otdelenia_vezde
+	}
+	prerequisite = {
+		focus = EQS_povisitj_finansirovanije
+	}
+	cost = 2
+	x = 12
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_borjba_s_opg
+	prerequisite = {
+		focus = EQS_povisitj_finansirovanije
+	}
+	prerequisite = {
+		focus = EQS_otdelenia_vezde
+	}
+
+	cost = 2
+	x = 8
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_zachistka_vorov_u_vlasti
+	prerequisite = {
+		focus = EQS_sozdatj_SCP
+	}
+	prerequisite = {
+		focus = EQS_teorija_magicheskogo_doznanija
+	}
+
+	cost = 2
+	x = 16
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_operacija_koldstrot
+	prerequisite = {
+		focus = EQS_zachistka_vorov_u_vlasti
+	}
+	prerequisite = {
+		focus = EQS_borjba_s_opg
+	}
+	prerequisite = {
+		focus = EQS_druzhba_magija_porjadok
+	}
+	cost = 2
+	x = 12
+	y = 10
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_trudovaja_povinnostj #40
+
+	cost = 2
+	x = 10
+	y = 11
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_obligaciji_i_privilegii #41
+
+	cost = 2
+	x = 14
+	y = 11
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = EQS_okologodovoj_otchet #42
+	prerequisite = {
+		focus = EQS_obligaciji_i_privilegii
+	}
+	prerequisite = {
+		focus = EQS_trudovaja_povinnostj
+	}
+	prerequisite = {
+		focus = EQS_sozdatj_kanterprom
+	}
+	prerequisite = {
+		focus = EQS_zavod_fillimejr
+	}
+	prerequisite = {
+		focus = EQS_operacija_koldstrot
+	}
+	prerequisite = {
+		focus = EQS_chto_to_grjadet_v_budushem
+		focus = EQS_opasnost_parlamentarizma
+	}
+	cost = 2
+	x = 12
+	y = 13
+	completion_reward = { 
+	}
+}
