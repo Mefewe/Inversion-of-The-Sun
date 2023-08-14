@@ -1,13 +1,13 @@
 characters = {
 TAI_Neosilencism = {
-		name = TAI_Neosilencism
+		name = TAI_Shafrut_Osh_Parlavu
 		portraits = {
 			civilian = {
-				large = GFX_TAI_Neosilencism_L
+				large = GFX_TAI_Shafrut_Osh_Parlavu_L
 			}
 		}
 		country_leader = {
-		    desc="CRY_Blekins_Ljonen_desc"
+		    desc="TAI_Shafrut_Osh_Parlavu_desc"
 			ideology = new_silence
 			traits = {  }
 			expire = "2000.3.1.1"

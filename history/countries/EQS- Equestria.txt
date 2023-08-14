@@ -2,6 +2,8 @@
 add_ideas = {
 	proigravshije1
 	razrushennije_communikaciji
+	tleushaja_garmonija
+	provincialjnoge_bezumije
 }
 recruit_character = EQS_Twilight_Sparkle
 set_stability = 0.4
@@ -31,8 +33,8 @@ set_popularities = {
 	communism = 17
 	neutrality = 10
 	fascism = 11
-        progressivism = 19
-        paternalism = 25
+    progressivism = 19
+    spaternalism = 25
 }
 
 create_country_leader = {

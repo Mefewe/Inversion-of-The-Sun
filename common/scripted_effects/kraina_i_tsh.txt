@@ -1,4 +1,5 @@
 independence_of_KRE = {
+	news_event = EQS_news.1
 	750 = {
 		add_core_of = KRE
 		transfer_state_to = KRE
@@ -44,6 +45,21 @@ independence_of_KRE = {
 		transfer_state_to = KRE
 	}
 }
+
+inpedence_of_toshlibinsk = {
+	news_event = EQS_news.2
+	338 = {
+		add_core_of = TSH
+		transfer_state_to = TSH
+	}
+	TSH = {
+		create_faction = SOUZ_NEZAVISIMIH_GOSUDARSTV
+	}
+	KRE = {
+		country_event = KRE.1
+	}
+}
+
 independence_of_ZNC = {
 	416 = {
 		add_core_of = ZNC

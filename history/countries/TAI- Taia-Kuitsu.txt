@@ -1,5 +1,5 @@
 ﻿capital = 754
-recruit_character = TAI_Neosilencism
+recruit_character = TAI_Shafrut_Osh_Parlavu
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {

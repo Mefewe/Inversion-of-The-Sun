@@ -1,19 +1,39 @@
 add_namespace = KRE
+add_namespace = KRE_WAR
 
-####### START WAR
+
 country_event = {
-	id =  KRE.1 #separate ZNC 
+	id =  KRE.1 #Вход KRE в союз с Тошлибинск Республикаси
 	title =  KRE.1.title
 	desc =  KRE.1.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 
-	option = {
+	option = { #da
 		name =  KRE.1.1	
-		independence_of_ZNC = yes
+		TSH = {
+			add_to_faction = KRE
+		}
 		ai_chance = {
 			base = 10
 		}
+	}
+	option = { #net
+		name =  KRE.1.2
+	}
+}
+####### START WAR
+country_event = {
+	id =  KRE_WAR.1 #separate ZNC 
+	title =  KRE_WAR.1.title
+	desc =  KRE_WAR.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name =  KRE_WAR.1.1	
+		independence_of_ZNC = yes
 	}
 }

@@ -1,7 +1,8 @@
 add_namespace = EQS
 add_namespace = EQS_Kraina
+add_namespace = EQS_news
 
-country_event = {
+country_event = { #Эпоха Твайлайт
 	id = EQS.1
 	title = EQS.1.title
 	desc = EQS.1.desc
@@ -14,7 +15,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Комитет Реконструкции
 	id = EQS.2
 	title = EQS.2.title
 	desc = EQS.2.desc
@@ -22,11 +23,138 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = EQS.2.2
+		name = EQS.2.1
 		add_stability = 0.05
 	}
 }
 
+country_event = { #Задобрить Собрание
+	id = EQS.3
+	title = EQS.3.title
+	desc = EQS.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.3.1
+	}
+}
+
+country_event = { #Призвать элементы гармонии
+	id = EQS.4
+	title = EQS.4.title
+	desc = EQS.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.4.1
+	}
+}
+
+country_event = { #Обещания для бизнеса
+	id = EQS.5
+	title = EQS.5.title
+	desc = EQS.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.5.1
+	}
+}
+
+country_event = { #Дать рабочим работу
+	id = EQS.6
+	title = EQS.6.title
+	desc = EQS.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.6.1
+	}
+}
+
+country_event = { #Твайлайт знает что делать
+	id = EQS.7
+	title = EQS.7.title
+	desc = EQS.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.7.1
+	}
+}
+
+country_event = { #Работа началась
+	id = EQS.8
+	title = EQS.8.title
+	desc = EQS.8.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.8.1
+		load_focus_tree = EQS_focus_tree_two
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+###
+country_event = { #Инфраструктурный проект
+	id = EQS.9
+	title = EQS.9.title
+	desc = EQS.9.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #сильное финансирование
+		name = EQS.9.1
+	}
+	option = { #среднее
+		name = EQS.9.2
+	}
+	option = { #слабое
+		name = EQS.9.3
+	}
+}
+
+country_event = { #Жилищная застройка
+	id = EQS.10
+	title = EQS.10.title
+	desc = EQS.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.10.1
+	}
+}
+
+country_event = { #Работы по расчистке
+	id = EQS.11
+	title = EQS.11.title
+	desc = EQS.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.11.1
+	}
+}
+
+country_event = { #Льготы для рабочих
+	id = EQS.12
+	title = EQS.12.title
+	desc = EQS.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.12.1
+	}
+}
 
 ####### KRAINA
 country_event = {
@@ -40,5 +168,46 @@ country_event = {
 	option = {
 		name = EQS_Kraina.1.1
 		independence_of_KRE = yes
+	}
+}
+
+country_event = {
+	id = EQS_Kraina.2 #separate TSH
+	title = EQS_Kraina.2.title
+	desc = EQS_Kraina.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = EQS_Kraina.2.1
+		inpedence_of_toshlibinsk = yes
+	}
+}
+######################### 
+#Независимость Краини
+news_event = {
+	id = EQS_news.1
+	title = EQS_news.1.title
+	desc = EQS_news.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = EQS_news.1.1
+	}
+}
+#Независимость Тошлибинска
+news_event = {
+	id = EQS_news.2
+	title = EQS_news.2.title
+	desc = EQS_news.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = EQS_news.2.1
 	}
 }
