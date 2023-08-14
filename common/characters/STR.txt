@@ -1,14 +1,14 @@
-#STR_Whitesiden
+#STR_Erisayr
 characters = {
-	STR_Whitesiden = {
-			name = STR_Whitesiden
+	STR_Erisayr = {
+			name = STR_Erisayr
 			portraits = {
 				civilian = {
-					large = GFX_STR_Whitesiden_L
+					large = GFX_STR_Erisayr_L
 				}
 			}
 			country_leader = {
-				desc="STR_Whitesiden_desc"
+				desc="STR_Erisayr_desc"
 				ideology = pairlament_democracy
 				traits = {  }
 				expire = "2000.3.1.1"

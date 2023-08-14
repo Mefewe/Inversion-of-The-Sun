@@ -1,5 +1,8 @@
 ﻿capital = 755
-recruit_character = STR_Whitesiden
+add_ideas = {
+          str_regent_whitesiden
+}
+recruit_character = STR_Erisayr
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {

@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+                str_regent_whitesiden = {
+                         modifier = {
+                                    stability_factor = 0.1
+                                    political_power_gain = 0.10
+                         }
+                }
+        }
+}
