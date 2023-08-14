@@ -1,5 +1,5 @@
 ﻿capital = 755
-recruit_character = STR_StormKing
+recruit_character = STR_Whitesiden
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {
@@ -23,12 +23,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 23
+	democratic = 15
 	communism = 8
 	neutrality = 20
-	fascism = 4
+	fascism = 22
         progressivism = 10
-        paternalism = 35
+        paternalism = 25
 }
 
 create_country_leader = {

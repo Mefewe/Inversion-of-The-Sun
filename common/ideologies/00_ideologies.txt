@@ -231,6 +231,10 @@ ideologies = {
 
 		}
 
+		pairlament_democracy = {
+
+		}
+
 		new_silence = { #for non-honor retarded kirins
 
 		}

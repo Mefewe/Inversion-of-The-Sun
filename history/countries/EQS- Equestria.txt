@@ -34,7 +34,7 @@ set_popularities = {
 	neutrality = 10
 	fascism = 11
     progressivism = 19
-    spaternalism = 25
+    paternalism = 25
 }
 
 create_country_leader = {

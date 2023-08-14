@@ -1,15 +1,15 @@
-#STR_StormKing
+#STR_Whitesiden
 characters = {
-	STR_StormKing = {
-			name = STR_StormKing
+	STR_Whitesiden = {
+			name = STR_Whitesiden
 			portraits = {
 				civilian = {
-					large = GFX_STR_StormKing_L
+					large = GFX_STR_Whitesiden_L
 				}
 			}
 			country_leader = {
-				desc="STR_StormKing_desc"
-				ideology = despotism
+				desc="STR_Whitesiden_desc"
+				ideology = pairlament_democracy
 				traits = {  }
 				expire = "2000.3.1.1"
 				id = -1
