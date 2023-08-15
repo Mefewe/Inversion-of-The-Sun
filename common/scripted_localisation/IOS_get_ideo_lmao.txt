@@ -180,6 +180,12 @@ defined_text = {
 		localization_key = new_silence
 	}
 	text = {
+		trigger = {
+			has_country_leader_ideology = pairlament_democracy
+		}
+		localization_key = pairlament_democracy
+	}
+	text = {
 		localization_key = paternalism
 	}
 }

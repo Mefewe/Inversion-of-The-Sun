@@ -1,5 +1,5 @@
 characters = {
-TAI_Neosilencism = {
+	TAI_Shafrut_Osh_Parlavu = {
 		name = TAI_Shafrut_Osh_Parlavu
 		portraits = {
 			civilian = {

@@ -19,4 +19,8 @@ spriteTypes = {
         name = GFX_MRT_Kreisleiter_Phazeylis_L
         texturefile = gfx/leaders/MRT/portrait_Kreisleiter_Phazeylis.dds
     }
+    spriteType = {
+        name = GFX_TAI_Shafrut_Osh_Parlavu_L
+        texturefile = gfx/leaders/TAI/portrait_Shafrut_Osh_Parlavu.dds
+    }
 }
