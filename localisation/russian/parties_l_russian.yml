@@ -74,6 +74,13 @@ CRY_progressivism_party:0 "Гвардейские реформисты"
 CRY_fascism_party:0 "ПФ"
 CRY_neutrality_party:0 "Династия Аморе"
 
+EQS_paternalism_party:0 "?"
+EQS_communism_party:0 "?"
+EQS_democratic_party:0 "?"
+EQS_progressivism_party:0 "?"
+EQS_fascism_party:0 "?"
+EQS_neutrality_party:0 "Режим Твайлайт"
+
 STR_paternalism_party:0 "Дирасай-Дэйроку"
 STR_communism_party:0 "?"
 STR_democratic_party:0 "?"
