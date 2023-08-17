@@ -58,13 +58,13 @@ color_ui = rgb { 77 86 68 }
 }
 
 DMN = {
-color = rgb { 59 104 20 }
-color_ui = rgb { 59 104 20 }
+color = rgb { 81 113 105 }
+color_ui = rgb { 81 113 105 }
 }
 
 VRB = {
-color = rgb { 59 104 20 }
-color_ui = rgb { 59 104 20 }
+color = rgb { 56 83 48 }
+color_ui = rgb { 56 83 48 }
 }
 
 FRD = {
@@ -78,8 +78,8 @@ color_ui = rgb { 67 92 75 }
 }
 
 CAR = {
-color = rgb { 59 104 20 }
-color_ui = rgb { 59 104 20 }
+color = rgb { 92 107 68 }
+color_ui = rgb { 92 107 68 }
 }
 
 STR = {
@@ -103,18 +103,18 @@ color_ui = rgb { 201 70 58 }
 }
 
 OZB = {
-color = rgb { 59 104 20 }
-color_ui = rgb { 59 104 20 }
+color = rgb { 85 101 63 }
+color_ui = rgb { 85 101 63 }
 }
 
 FRZ = {
-color = rgb { 59 104 20 }
-color_ui = rgb { 59 104 20 }
+color = rgb { 76 103 81 }
+color_ui = rgb { 76 103 81 }
 }
 
 TYR = {
-color = rgb { 59 104 20 }
-color_ui = rgb { 59 104 20 }
+color = rgb { 68 98 89 }
+color_ui = rgb { 68 98 89 }
 }
 
 SDL = {
