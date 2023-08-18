@@ -3,8 +3,8 @@
 capital = 921
 recruit_character = CRY_Blekins_Ljonen
 add_ideas = {
+        proigravshije1
 	cry_polkovnik_trus
-	proigravshije1
 	cry_army_m0
 }
 set_research_slots = 3

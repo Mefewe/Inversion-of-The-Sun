@@ -1,0 +1,17 @@
+state={
+    id=944
+    name="STATE_944"
+
+    manpower=0
+
+    state_category = wasteland
+
+    provinces={
+            9184
+    }
+
+    history={
+        owner = STR
+        add_core_of = STR
+        }
+}

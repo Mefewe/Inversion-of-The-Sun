@@ -1,0 +1,18 @@
+state={
+    id=933
+    name="STATE_933"
+    impassable = yes
+
+    manpower=0
+
+    state_category = wasteland
+
+    provinces={
+            9172
+    }
+
+    history={
+        owner = YAK
+        add_core_of = YAK
+        }
+}

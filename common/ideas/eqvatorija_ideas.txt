@@ -1,14 +1,17 @@
 ideas = {
 	country = {
 		proigravshije1 = {
+                        picture = ENG_the_war_to_end_all_wars
 			modifier = {
 				production_speed_buildings_factor = -0.2
 				production_factory_max_efficiency_factor = -0.25
 				stability_factor = -0.1
 				war_support_factor = -0.1
+                                
 			}
 		}
 		razrushennije_communikaciji = {
+                        picture = usa_great_depression
 			modifier = {
 				production_speed_buildings_factor = -0.3
 				stability_factor = -0.1
@@ -17,17 +20,20 @@ ideas = {
 			}
 		}
 		tleushaja_garmonija = {
+                        picture = anti_soviet_pact
 			modifier = {
 				stability_factor = -0.1
 				political_power_cost = 0.15
 			}
 		}
 		somniteljnoje_sobranije = {
+                        picture = generic_neutrality_drift_bonus
 			modifier = {
 				political_power_cost = 0.15
 			}
 		}
 		provincialjnoge_bezumije = {
+                        picture = chi_incompetent_officers
 			modifier = {
 				political_power_cost = 0.15
 			}

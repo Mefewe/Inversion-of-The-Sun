@@ -2,23 +2,27 @@ ideas = {
 	country = {
 		####
 		cry_oef_ammo_debuff = {
+                        picture = FRA_factory_strikes
 			modifier = {
 				consumer_goods_factor = 0.05
 			}
 		}
 		oef_cry_ammo_buff = {
+                        picture = FRA_factory_strikes
 			modifier = {
 				consumer_goods_factor = -0.05
 			}			
 		}
 		####
 		cry_polkovnik_trus = {
+                        picture = chi_wargaming_division
 			modifier = {
 				consumer_goods_factor = 0.2
 				stability_factor = -0.4
 			}
 		}
 		cry_army_m0 = {
+                        picture = generic_army_problems
 			modifier = {
 				attrition = 0.2
 				army_defence_factor = -0.35
@@ -26,6 +30,7 @@ ideas = {
 			}
 		}
 		cry_army_m1 = {
+                        picture = HUN_secret_rearmament
 			modifier = {
 				attrition = 0.1
 				army_defence_factor = -0.20

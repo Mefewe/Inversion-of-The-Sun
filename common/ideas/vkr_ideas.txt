@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		idejnie_revolucioneri = {
+                        picture = SPR_masters_of_our_own_fate
 			modifier = {
 				custom_modifier_tooltip = VKR_revolucioneri_tt
 				stability_factor = 0.35
@@ -18,6 +19,7 @@ ideas = {
 			}
 		}
 		idejnie_revolucioneri_ad_vojni = {
+                        picture = SPR_masters_of_our_own_fate
 			modifier = {
 				stability_factor = 0.35
 				war_support_factor = 0.35

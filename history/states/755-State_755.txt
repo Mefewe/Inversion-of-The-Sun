@@ -2,7 +2,7 @@ state={
 	id=755
 	name="STATE_755"
 	provinces={
-		1481 2362 4540 
+		1481 9187 9182
 	}
 	history={
         owner = STR
