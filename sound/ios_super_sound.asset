@@ -3,3 +3,8 @@ sound = {
 	file = "soundz/Krainskavojna.wav"
 	always_load = no
 }
+sound = {
+	name = "super_event_nachalo_ATO_sound"
+	file = "soundz/ATO.wav"
+	always_load = no
+}

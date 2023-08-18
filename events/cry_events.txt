@@ -17,17 +17,24 @@ news_event = { #ВВОД АТО
 				TAG = VKR
 			}
 		}
-	}	
+		hidden_effect = {
+			country_event  = IOSSEE.2
+		}	}	
 	option = {
 		name = CRY_NEWS.1.2	
 		trigger = {
 			TAG = VKR
 		}
-	}
+		hidden_effect = {
+			country_event  = IOSSEE.2
+		}	}
 	option = {
 		name = CRY_NEWS.1.3
 		trigger = {
 			TAG = CRY
+		}
+		hidden_effect = {
+			country_event  = IOSSEE.2
 		}
 	}
 }

@@ -2,6 +2,7 @@ category = {
  	name = "IOS_SuperCustom_Effects"
 	soundeffects = {
 		super_event_zebri_poni_war_se
+		super_event_nachalo_ATO
 	}
  	compressor = {
 		enabled = yes

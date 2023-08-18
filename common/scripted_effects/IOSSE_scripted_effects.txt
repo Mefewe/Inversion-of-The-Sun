@@ -4,4 +4,8 @@ IOSSE_show_super_event = {
 		limit = { check_variable = { global.IOSSE_super_event = 1 } }
 		sound_effect = "super_event_zebri_poni_war_se"
 	}
+	if = {
+		limit = { check_variable = { global.IOSSE_super_event = 2 } }
+		sound_effect = "super_event_nachalo_ATO"
+	}
 }
