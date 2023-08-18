@@ -10,3 +10,13 @@ country_event = {
 		IOSSE_show_super_event = yes
 	}
 }
+country_event = {
+	id = IOSSEE.2
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		set_variable = { global.IOSSE_super_event = 2 }
+		IOSSE_show_super_event = yes
+	}
+}
