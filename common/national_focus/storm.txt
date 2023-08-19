@@ -1,0 +1,500 @@
+focus_tree = {
+	id = STR_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = STR
+		}
+	}
+	shared_focus = STR_rabota_uajtsajdena
+	shared_focus = STR_pogrom_v_stolice
+	shared_focus = STR_razvitie_idej_dejry
+
+	default = no
+	continuous_focus_position = { x = 3000 y = 3000 }
+}
+shared_focus = {
+	id = STR_rabota_uajtsajdena
+	mutually_exclusive = {
+		focus = STR_pogrom_v_stolice
+	}
+	icon = GFX_decision_cat_generic_persian_empire
+	cost = 2
+	x = 12
+	y = 0
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_pogrom_v_stolice
+	icon = GFX_decision_cat_generic_persian_empire
+	cost = 2
+	available = {
+		always = no
+	}
+	mutually_exclusive = {
+		focus = STR_rabota_uajtsajdena
+		focus = STR_razvitie_idej_dejry
+	}
+	x = 16
+	y = 0
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_razvitie_idej_dejry
+	icon = GFX_decision_cat_generic_persian_empire
+	mutually_exclusive = {
+		focus = STR_pogrom_v_stolice
+	}
+	cost = 2
+	x = 20
+	y = 0
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_flaua_blossom
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_rabota_uajtsajdena
+	}
+	cost = 2
+	x = 10
+	y = 1
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_irasara_kieba
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_rabota_uajtsajdena
+	}
+	cost = 2
+	x = 14
+	y = 1
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_razgovor_s_dejroj
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_razvitie_idej_dejry
+	}
+	cost = 2
+	x = 18
+	y = 1
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_oblichitj_konkurentov
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_razvitie_idej_dejry
+	}
+	cost = 2
+	x = 22
+	y = 1
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_zanjatj_boljshenstvo
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_oblichitj_konkurentov
+	}
+	prerequisite = {
+		focus = STR_razgovor_s_dejroj
+	}
+	prerequisite = {
+		focus = STR_irasara_kieba
+	}
+	prerequisite = {
+		focus = STR_flaua_blossom
+	}
+	cost = 2
+	x = 16
+	y = 2
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_svjazatj_ih_zakonom
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_zanjatj_boljshenstvo
+	}
+	cost = 2
+	x = 12
+	y = 3
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_prodvigatj_liniju_partiji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_zanjatj_boljshenstvo
+	}
+	cost = 2
+	x = 16
+	y = 3
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_prodvigatj_liniju_partiji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_zanjatj_boljshenstvo
+	}
+	cost = 2
+	x = 16
+	y = 3
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_nepraviljnije_jeti
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_zanjatj_boljshenstvo
+	}
+	cost = 2
+	x = 20
+	y = 3
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_memorandum_iso
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_prodvigatj_liniju_partiji
+	}
+	prerequisite = {
+		focus = STR_nepraviljnije_jeti
+	}
+	cost = 2
+	x = 16
+	y = 4
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_zakon_o_konsolidaciji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_prodvigatj_liniju_partiji
+	}
+	prerequisite = {
+		focus = STR_nepraviljnije_jeti
+	}
+	cost = 2
+	x = 20
+	y = 4
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_pravovoj_legalizm
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_prodvigatj_liniju_partiji
+	}
+	prerequisite = {
+		focus = STR_nepraviljnije_jeti
+	}
+	cost = 2
+	x = 12
+	y = 4
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_okovi_razbity
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_memorandum_iso
+	}
+	prerequisite = {
+		focus = STR_zakon_o_konsolidaciji
+	}
+	prerequisite = {
+		focus = STR_pravovoj_legalizm
+	}
+	cost = 2
+	x = 16
+	y = 5
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_jatorisaro
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_okovi_razbity
+	}
+
+	cost = 2
+	x = 12
+	y = 6
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_jatomirabo
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_okovi_razbity
+	}
+
+	cost = 2
+	x = 20
+	y = 6
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_novij_shtorm
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_jatomirabo
+	}
+
+	cost = 2
+	x = 20
+	y = 7
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_uvelichenije_tonnazha
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_jatomirabo
+	}
+
+	cost = 2
+	x = 22
+	y = 7
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_novij_zakon_o_prizive
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_jatorisaro
+	}
+
+	cost = 2
+	x = 10
+	y = 7
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_burja_s_nebes
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_jatorisaro
+	}
+	mutually_exclusive = {
+		focus = STR_novij_shtorm
+	}
+	cost = 2
+	x = 12
+	y = 7
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_poisk_prototipov
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_novij_zakon_o_prizive
+	}
+
+	cost = 2
+	x = 9
+	y = 8
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_osnashenije_soldat
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_novij_zakon_o_prizive
+	}
+
+	cost = 2
+	x = 11
+	y = 8
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_istrebitelj_ikvel
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus =  STR_burja_s_nebes
+	}
+
+	cost = 2
+	x = 13
+	y = 8
+	completion_reward = { 
+
+	}
+}
+
+
+shared_focus = {
+	id = STR_istrebitelj_duo
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus =  STR_novij_shtorm
+	}
+
+	cost = 2
+	x = 19
+	y = 8
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_razrabotka_novogo_avianosca
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus =  STR_uvelichenije_tonnazha
+	}
+
+	cost = 2
+	x = 21
+	y = 8
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_podlodka_kviki
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus =  STR_uvelichenije_tonnazha
+	}
+
+	cost = 2
+	x = 23
+	y = 8
+	completion_reward = { 
+
+	}
+}
+
+
+shared_focus = {
+	id = STR_sila_s_kotoroj_stoit_schitatsa
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus =  STR_poisk_prototipov
+	}
+	prerequisite = {
+		focus =  STR_osnashenije_soldat
+	}
+	cost = 2
+	x = 11
+	y = 9
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_strana_morej_groza_flotilij
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus =  STR_razrabotka_novogo_avianosca
+	}
+	prerequisite = {
+		focus =  STR_podlodka_kviki
+	}
+	cost = 2
+	x = 21
+	y = 9
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_denonsacija_demarkacionnojo_pakta
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus =  STR_sila_s_kotoroj_stoit_schitatsa
+	}
+	prerequisite = {
+		focus =  STR_strana_morej_groza_flotilij
+	}
+	cost = 2
+	x = 16
+	y = 10
+	completion_reward = { 
+
+	}
+}
