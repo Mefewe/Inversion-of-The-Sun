@@ -11,7 +11,7 @@ focus_tree = {
 	shared_focus = STR_rabota_uajtsajdena
 	shared_focus = STR_pogrom_v_stolice
 	shared_focus = STR_razvitie_idej_dejry
-
+	shared_focus = STR_budzhet_na_1771
 	default = no
 	continuous_focus_position = { x = 3000 y = 3000 }
 }
@@ -21,8 +21,8 @@ shared_focus = {
 		focus = STR_pogrom_v_stolice
 	}
 	icon = GFX_decision_cat_generic_persian_empire
-	cost = 2
-	x = 12
+	cost = 5
+	x = 22
 	y = 0
 	completion_reward = { 
 
@@ -32,7 +32,7 @@ shared_focus = {
 shared_focus = {
 	id = STR_pogrom_v_stolice
 	icon = GFX_decision_cat_generic_persian_empire
-	cost = 2
+	cost = 5
 	available = {
 		always = no
 	}
@@ -40,7 +40,7 @@ shared_focus = {
 		focus = STR_rabota_uajtsajdena
 		focus = STR_razvitie_idej_dejry
 	}
-	x = 16
+	x = 26
 	y = 0
 	completion_reward = { 
 
@@ -53,8 +53,8 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = STR_pogrom_v_stolice
 	}
-	cost = 2
-	x = 20
+	cost = 5
+	x = 30
 	y = 0
 	completion_reward = { 
 
@@ -67,8 +67,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_rabota_uajtsajdena
 	}
-	cost = 2
-	x = 10
+	cost = 5
+	x = 20
 	y = 1
 	completion_reward = { 
 
@@ -80,8 +80,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_rabota_uajtsajdena
 	}
-	cost = 2
-	x = 14
+	cost = 5
+	x = 24
 	y = 1
 	completion_reward = { 
 
@@ -94,8 +94,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_razvitie_idej_dejry
 	}
-	cost = 2
-	x = 18
+	cost = 5
+	x = 28
 	y = 1
 	completion_reward = { 
 
@@ -107,8 +107,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_razvitie_idej_dejry
 	}
-	cost = 2
-	x = 22
+	cost = 5
+	x = 32
 	y = 1
 	completion_reward = { 
 
@@ -130,8 +130,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_flaua_blossom
 	}
-	cost = 2
-	x = 16
+	cost = 5
+	x = 26
 	y = 2
 	completion_reward = { 
 
@@ -144,8 +144,11 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_zanjatj_boljshenstvo
 	}
-	cost = 2
-	x = 12
+	mutually_exclusive = {
+		focus = STR_pereocenka_rynochnoj_garmoniji
+	}
+	cost = 5
+	x = 22
 	y = 3
 	completion_reward = { 
 
@@ -158,8 +161,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_zanjatj_boljshenstvo
 	}
-	cost = 2
-	x = 16
+	cost = 5
+	x = 26
 	y = 3
 	completion_reward = { 
 
@@ -172,8 +175,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_zanjatj_boljshenstvo
 	}
-	cost = 2
-	x = 16
+	cost = 5
+	x = 26
 	y = 3
 	completion_reward = { 
 
@@ -186,8 +189,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_zanjatj_boljshenstvo
 	}
-	cost = 2
-	x = 20
+	cost = 5
+	x = 30
 	y = 3
 	completion_reward = { 
 
@@ -203,8 +206,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_nepraviljnije_jeti
 	}
-	cost = 2
-	x = 16
+	cost = 5
+	x = 26
 	y = 4
 	completion_reward = { 
 
@@ -220,8 +223,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_nepraviljnije_jeti
 	}
-	cost = 2
-	x = 20
+	cost = 5
+	x = 30
 	y = 4
 	completion_reward = { 
 
@@ -237,8 +240,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_nepraviljnije_jeti
 	}
-	cost = 2
-	x = 12
+	cost = 5
+	x = 22
 	y = 4
 	completion_reward = { 
 
@@ -257,8 +260,8 @@ shared_focus = {
 	prerequisite = {
 		focus = STR_pravovoj_legalizm
 	}
-	cost = 2
-	x = 16
+	cost = 5
+	x = 26
 	y = 5
 	completion_reward = { 
 
@@ -272,8 +275,8 @@ shared_focus = {
 		focus = STR_okovi_razbity
 	}
 
-	cost = 2
-	x = 12
+	cost = 5
+	x = 22
 	y = 6
 	completion_reward = { 
 
@@ -287,8 +290,8 @@ shared_focus = {
 		focus = STR_okovi_razbity
 	}
 
-	cost = 2
-	x = 20
+	cost = 5
+	x = 30
 	y = 6
 	completion_reward = { 
 
@@ -302,8 +305,8 @@ shared_focus = {
 		focus = STR_jatomirabo
 	}
 
-	cost = 2
-	x = 20
+	cost = 5
+	x = 30
 	y = 7
 	completion_reward = { 
 
@@ -317,8 +320,8 @@ shared_focus = {
 		focus = STR_jatomirabo
 	}
 
-	cost = 2
-	x = 22
+	cost = 5
+	x = 32
 	y = 7
 	completion_reward = { 
 
@@ -332,8 +335,8 @@ shared_focus = {
 		focus = STR_jatorisaro
 	}
 
-	cost = 2
-	x = 10
+	cost = 5
+	x = 20
 	y = 7
 	completion_reward = { 
 
@@ -349,8 +352,8 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = STR_novij_shtorm
 	}
-	cost = 2
-	x = 12
+	cost = 5
+	x = 22
 	y = 7
 	completion_reward = { 
 
@@ -364,8 +367,8 @@ shared_focus = {
 		focus = STR_novij_zakon_o_prizive
 	}
 
-	cost = 2
-	x = 9
+	cost = 5
+	x = 19
 	y = 8
 	completion_reward = { 
 
@@ -379,8 +382,8 @@ shared_focus = {
 		focus = STR_novij_zakon_o_prizive
 	}
 
-	cost = 2
-	x = 11
+	cost = 5
+	x = 21
 	y = 8
 	completion_reward = { 
 
@@ -393,8 +396,8 @@ shared_focus = {
 		focus =  STR_burja_s_nebes
 	}
 
-	cost = 2
-	x = 13
+	cost = 5
+	x = 23
 	y = 8
 	completion_reward = { 
 
@@ -409,8 +412,8 @@ shared_focus = {
 		focus =  STR_novij_shtorm
 	}
 
-	cost = 2
-	x = 19
+	cost = 5
+	x = 29
 	y = 8
 	completion_reward = { 
 
@@ -424,8 +427,8 @@ shared_focus = {
 		focus =  STR_uvelichenije_tonnazha
 	}
 
-	cost = 2
-	x = 21
+	cost = 5
+	x = 31
 	y = 8
 	completion_reward = { 
 
@@ -439,8 +442,8 @@ shared_focus = {
 		focus =  STR_uvelichenije_tonnazha
 	}
 
-	cost = 2
-	x = 23
+	cost = 5
+	x = 33
 	y = 8
 	completion_reward = { 
 
@@ -457,8 +460,8 @@ shared_focus = {
 	prerequisite = {
 		focus =  STR_osnashenije_soldat
 	}
-	cost = 2
-	x = 11
+	cost = 5
+	x = 21
 	y = 9
 	completion_reward = { 
 
@@ -474,8 +477,8 @@ shared_focus = {
 	prerequisite = {
 		focus =  STR_podlodka_kviki
 	}
-	cost = 2
-	x = 21
+	cost = 5
+	x = 31
 	y = 9
 	completion_reward = { 
 
@@ -491,9 +494,825 @@ shared_focus = {
 	prerequisite = {
 		focus =  STR_strana_morej_groza_flotilij
 	}
-	cost = 2
-	x = 16
+	cost = 5
+	x = 26
 	y = 10
+	completion_reward = { 
+
+	}
+}
+##
+shared_focus = {
+	id = STR_budzhet_na_1771
+	icon = GFX_decision_cat_generic_persian_empire
+	cost = 5
+	x = 14
+	y = 0
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_prodolzhitj_denezhnije_vlivanija
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_budzhet_na_1771
+	}
+	cost = 5
+	x = 12
+	y = 1
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_budusheje_v_forme_proizvodstva
+	icon = GFX_decision_cat_generic_persian_empire
+	cost = 5
+	prerequisite = {
+		focus = STR_budzhet_na_1771
+	}
+	x = 14
+	y = 1
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_ponizitj_procentnije_stavki
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_budzhet_na_1771
+	}
+	cost = 5
+	x = 16
+	y = 1
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_investiciji_v_kicura
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_ponizitj_procentnije_stavki
+	}
+	prerequisite = {
+		focus = STR_budusheje_v_forme_proizvodstva
+	}
+	prerequisite = {
+		focus = STR_prodolzhitj_denezhnije_vlivanija
+	}
+	cost = 5
+	x = 13
+	y = 2
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_priblezhennije_biznesjeti
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_ponizitj_procentnije_stavki
+	}
+	prerequisite = {
+		focus = STR_budusheje_v_forme_proizvodstva
+	}
+	prerequisite = {
+		focus = STR_prodolzhitj_denezhnije_vlivanija
+	}
+	cost = 5
+	x = 15
+	y = 2
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_projekty_neftjanyh_baz
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_priblezhennije_biznesjeti
+	}
+	prerequisite = {
+		focus = STR_investiciji_v_kicura
+	}
+
+	cost = 5
+	x = 12
+	y = 3
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_pereocenka_rynochnoj_garmoniji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_priblezhennije_biznesjeti
+	}
+	prerequisite = {
+		focus = STR_investiciji_v_kicura
+	}
+	mutually_exclusive = {
+		focus = STR_svjazatj_ih_zakonom
+	}
+	cost = 5
+	x = 16
+	y = 3
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_neftekompleks_v_risado
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_projekty_neftjanyh_baz
+	}
+
+	cost = 5
+	x = 11
+	y = 4
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_subsidiji_na_effectivnostj
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_projekty_neftjanyh_baz
+	}
+	prerequisite = {
+		focus = STR_pereocenka_rynochnoj_garmoniji
+	}
+	mutually_exclusive = {
+		focus = STR_konglomerat_ajrjuko
+	}
+	cost = 5
+	x = 14
+	y = 4
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_konglomerat_ajrjuko
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_projekty_neftjanyh_baz
+	}
+	prerequisite = {
+		focus = STR_pereocenka_rynochnoj_garmoniji
+	}
+	mutually_exclusive = {
+		focus = STR_subsidiji_na_effectivnostj
+	}
+	mutually_exclusive = {
+		focus = STR_pereocenka_rynochnoj_garmoniji
+	}
+	cost = 5
+	x = 17
+	y = 4
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_rasshiritj_shahty_v_klifsari
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_neftekompleks_v_risado
+	}
+	prerequisite = {
+		focus = STR_subsidiji_na_effectivnostj
+		focus = STR_konglomerat_ajrjuko
+	}
+	cost = 5
+	x = 11
+	y = 5
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_novije_metody
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_neftekompleks_v_risado
+	}
+	prerequisite = {
+		focus = STR_subsidiji_na_effectivnostj
+		focus = STR_konglomerat_ajrjuko
+	}
+
+	cost = 5
+	x = 14
+	y = 5
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_prompark_v_stolice
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_neftekompleks_v_risado
+	}
+	prerequisite = {
+		focus = STR_subsidiji_na_effectivnostj
+		focus = STR_konglomerat_ajrjuko
+	}
+
+	cost = 5
+	x = 17
+	y = 5
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_kolegija_korporacij
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_rasshiritj_shahty_v_klifsari
+	}
+	prerequisite = {
+		focus = STR_novije_metody
+	}
+	prerequisite = {
+		focus = STR_prompark_v_stolice
+	}
+	cost = 5
+	x = 14
+	y = 6
+	completion_reward = { 
+
+	}
+}
+
+
+shared_focus = {
+	id = STR_strategija_ekonomicheskoj_sfery
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_kolegija_korporacij
+	}
+	prerequisite = {
+		focus = STR_denonsacija_demarkacionnojo_pakta
+	}
+	mutually_exclusive = {
+		focus = STR_udobnij_placdarm
+	}
+	cost = 5
+	x = 4
+	y = 11
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_departament_vneshnih_svjazej
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_strategija_ekonomicheskoj_sfery
+	}
+
+	cost = 5
+	x = 4
+	y = 12
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_sdelka_s_chejndzhlijej
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_departament_vneshnih_svjazej
+	}
+
+	cost = 5
+	x = 2
+	y = 13
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_partnerstvo_s_oef
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_departament_vneshnih_svjazej
+	}
+
+	cost = 5
+	x = 6
+	y = 13
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_svjazi_s_ekvestriej
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_sdelka_s_chejndzhlijej
+	}
+	prerequisite = {
+		focus = STR_partnerstvo_s_oef
+	}
+
+	cost = 5
+	x = 1
+	y = 14
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_rastushee_vlijanije_v_kiriji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_sdelka_s_chejndzhlijej
+	}
+	prerequisite = {
+		focus = STR_partnerstvo_s_oef
+	}
+
+	cost = 5
+	x = 4
+	y = 14
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_potoki_oruzhija_v_transzebriku
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_sdelka_s_chejndzhlijej
+	}
+	prerequisite = {
+		focus = STR_partnerstvo_s_oef
+	}
+	cost = 5
+	x = 7
+	y = 14
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_gegemon_vtorogo_plana
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_svjazi_s_ekvestriej
+	}
+	prerequisite = {
+		focus = STR_potoki_oruzhija_v_transzebriku
+	}
+	prerequisite = {
+		focus = STR_rastushee_vlijanije_v_kiriji
+	}
+	cost = 5
+	x = 4
+	y = 15
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_vesti_dela_v_abissiniji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_gegemon_vtorogo_plana
+	}
+
+	cost = 5
+	x = 4
+	y = 16
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_udobnij_placdarm
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_kolegija_korporacij
+	}
+	prerequisite = {
+		focus = STR_denonsacija_demarkacionnojo_pakta
+	}
+	mutually_exclusive = {
+		focus = STR_strategija_ekonomicheskoj_sfery
+	}
+	cost = 5
+	x = 14
+	y = 11
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_povysitj_vyraboku
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_udobnij_placdarm
+	}
+
+	cost = 5
+	x = 12
+	y = 12
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_kontrolj_tandrajskogo_proliva
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_udobnij_placdarm
+	}
+
+	cost = 5
+	x = 16
+	y = 12
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_incident_v_kiraspe
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_kontrolj_tandrajskogo_proliva
+	}
+	prerequisite = {
+		focus = STR_povysitj_vyraboku
+	}
+	cost = 5
+	x = 14
+	y = 13
+	completion_reward = { 
+
+	}
+}
+
+
+shared_focus = {
+	id = STR_kolonist_osvoboditelj
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_incident_v_kiraspe
+	}
+
+	cost = 5
+	x = 11
+	y = 14
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_operacija_ajspik
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_incident_v_kiraspe
+	}
+	cost = 5
+	x = 13
+	y = 14
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_skoro_vsjo_konchitsja
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_incident_v_kiraspe
+	}
+	cost = 5
+	x = 15
+	y = 14
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_vtoroj_zakon_o_prizyve
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_incident_v_kiraspe
+	}
+	cost = 5
+	x = 17
+	y = 14
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_usovershenstvovatj_kontrrazvedku
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_kolonist_osvoboditelj
+	}
+	prerequisite = {
+		focus = STR_operacija_ajspik
+	}
+	prerequisite = {
+		focus = STR_skoro_vsjo_konchitsja
+	}
+	cost = 5
+	x = 14
+	y = 15
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_kopyto_pomoshi
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_kolonist_osvoboditelj
+	}
+	prerequisite = {
+		focus = STR_operacija_ajspik
+	}
+	prerequisite = {
+		focus = STR_skoro_vsjo_konchitsja
+	}
+	cost = 5
+	x = 12
+	y = 15
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_obrezatj_postavki
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_kopyto_pomoshi
+	}
+	prerequisite = {
+		focus = STR_usovershenstvovatj_kontrrazvedku
+	}
+	cost = 5
+	x = 13
+	y = 16
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_nacija_borjby
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_vtoroj_zakon_o_prizyve
+	}
+
+	cost = 5
+	x = 16
+	y = 15
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_ekstrennaja_konversija
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_vtoroj_zakon_o_prizyve
+	}
+
+	cost = 5
+	x = 18
+	y = 15
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_osvoboditeljnaja_vojna
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_ekstrennaja_konversija
+	}
+	prerequisite = {
+		focus = STR_nacija_borjby
+	}
+	cost = 5
+	x = 17
+	y = 16
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_goppogrifij_barjer
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_denonsacija_demarkacionnojo_pakta
+	}
+
+	cost = 5
+	x = 26
+	y = 11
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_borjba_za_oblachnyj_okean
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_goppogrifij_barjer
+	}
+
+	cost = 5
+	x = 24
+	y = 12
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_to_chto_oni_zasluzhili
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_goppogrifij_barjer
+	}
+
+	cost = 5
+	x = 26
+	y = 12
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_luchshije_v_nebe
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_goppogrifij_barjer
+	}
+
+	cost = 5
+	x = 28
+	y = 12
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_ssozhzhenije_aris
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_borjba_za_oblachnyj_okean
+	}
+	prerequisite = {
+		focus = STR_to_chto_oni_zasluzhili
+	}
+	prerequisite = {
+		focus = STR_luchshije_v_nebe
+	}
+	cost = 5
+	x = 26
+	y = 13
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_na_puti_k_sikvestriji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_ssozhzhenije_aris
+	}
+
+	cost = 5
+	x = 30
+	y = 14
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_ekspluatacija_gippogrifiji
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_na_puti_k_sikvestriji
+	}
+
+	cost = 5
+	x = 28
+	y = 15
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_neboljshaja_ekspropriacija
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_na_puti_k_sikvestriji
+	}
+
+	cost = 5
+	x = 32
+	y = 15
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_analiz_vojny
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_ssozhzhenije_aris
+	}
+
+	cost = 5
+	x = 36
+	y = 14
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_opyt_na_vode
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_analiz_vojny
+	}
+
+	cost = 5
+	x = 34
+	y = 15
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
+	id = STR_i_v_vozduhe
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_analiz_vojny
+	}
+
+	cost = 5
+	x = 38
+	y = 15
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_my_san_ajroku
+	icon = GFX_decision_cat_generic_persian_empire
+	prerequisite = {
+		focus = STR_ssozhzhenije_aris
+	}
+	prerequisite = {
+		focus = STR_vesti_dela_v_abissiniji
+		focus = STR_obrezatj_postavki
+	}
+	cost = 5
+	x = 26
+	y = 18
 	completion_reward = { 
 
 	}
