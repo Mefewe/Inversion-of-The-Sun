@@ -41,6 +41,20 @@ bookmarks = {
 			}
 		}
 
+		"STR"={
+			history = "STR_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+                        str_regent_whitesiden
+			}
+			focuses = {
+                        STR_my_san_ajroku
+                        STR_goppogrifij_barjer
+                        STR_istrebitelj_duo
+			}
+		}
+
 		"---"={
 			history = "IOS_S_NAME_DESC"
 		}
@@ -147,6 +161,7 @@ bookmarks = {
 
 			}
 		}
+
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

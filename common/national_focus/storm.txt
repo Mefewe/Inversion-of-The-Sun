@@ -13,16 +13,16 @@ focus_tree = {
 	shared_focus = STR_razvitie_idej_dejry
 	shared_focus = STR_budzhet_na_1771
 	default = no
-	continuous_focus_position = { x = 3000 y = 3000 }
+	continuous_focus_position = { x = 2800 y = 2200 }
 }
 shared_focus = {
 	id = STR_rabota_uajtsajdena
 	mutually_exclusive = {
 		focus = STR_pogrom_v_stolice
 	}
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_home_defense
 	cost = 5
-	x = 22
+	x = 23
 	y = 0
 	completion_reward = { 
 
@@ -31,7 +31,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_pogrom_v_stolice
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_major_war
 	cost = 5
 	available = {
 		always = no
@@ -49,12 +49,12 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_razvitie_idej_dejry
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_army_doctrines
 	mutually_exclusive = {
 		focus = STR_pogrom_v_stolice
 	}
 	cost = 5
-	x = 30
+	x = 29
 	y = 0
 	completion_reward = { 
 
@@ -63,12 +63,12 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_flaua_blossom
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_tfv_strengthen_commonwealth_ties
 	prerequisite = {
 		focus = STR_rabota_uajtsajdena
 	}
 	cost = 5
-	x = 20
+	x = 22
 	y = 1
 	completion_reward = { 
 
@@ -76,7 +76,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_irasara_kieba
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_ger_return_of_the_kaiser
 	prerequisite = {
 		focus = STR_rabota_uajtsajdena
 	}
@@ -90,7 +90,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_razgovor_s_dejroj
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_molotov_ribbentrop_pact
 	prerequisite = {
 		focus = STR_razvitie_idej_dejry
 	}
@@ -103,12 +103,12 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_oblichitj_konkurentov
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_propaganda
 	prerequisite = {
 		focus = STR_razvitie_idej_dejry
 	}
 	cost = 5
-	x = 32
+	x = 30
 	y = 1
 	completion_reward = { 
 
@@ -117,7 +117,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_zanjatj_boljshenstvo
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_anschluss
 	prerequisite = {
 		focus = STR_oblichitj_konkurentov
 	}
@@ -140,7 +140,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_svjazatj_ih_zakonom
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_rom_parties_end
 	prerequisite = {
 		focus = STR_zanjatj_boljshenstvo
 	}
@@ -148,7 +148,7 @@ shared_focus = {
 		focus = STR_pereocenka_rynochnoj_garmoniji
 	}
 	cost = 5
-	x = 22
+	x = 23
 	y = 3
 	completion_reward = { 
 
@@ -157,21 +157,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_prodvigatj_liniju_partiji
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus = STR_zanjatj_boljshenstvo
-	}
-	cost = 5
-	x = 26
-	y = 3
-	completion_reward = { 
-
-	}
-}
-
-shared_focus = {
-	id = STR_prodvigatj_liniju_partiji
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_treaty
 	prerequisite = {
 		focus = STR_zanjatj_boljshenstvo
 	}
@@ -185,12 +171,12 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_nepraviljnije_jeti
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_military_deal
 	prerequisite = {
 		focus = STR_zanjatj_boljshenstvo
 	}
 	cost = 5
-	x = 30
+	x = 29
 	y = 3
 	completion_reward = { 
 
@@ -199,7 +185,24 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_memorandum_iso
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_hol_the_foundations_of_defense
+	prerequisite = {
+		focus = STR_prodvigatj_liniju_partiji
+	}
+	prerequisite = {
+		focus = STR_nepraviljnije_jeti
+	}
+	cost = 5
+	x = 23
+	y = 4
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_zakon_o_konsolidaciji
+	icon = GFX_focus_TUR_ratify_the_six_arrows
 	prerequisite = {
 		focus = STR_prodvigatj_liniju_partiji
 	}
@@ -215,25 +218,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = STR_zakon_o_konsolidaciji
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus = STR_prodvigatj_liniju_partiji
-	}
-	prerequisite = {
-		focus = STR_nepraviljnije_jeti
-	}
-	cost = 5
-	x = 30
-	y = 4
-	completion_reward = { 
-
-	}
-}
-
-shared_focus = {
 	id = STR_pravovoj_legalizm
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_conspiracy
 	prerequisite = {
 		focus = STR_prodvigatj_liniju_partiji
 	}
@@ -241,7 +227,7 @@ shared_focus = {
 		focus = STR_nepraviljnije_jeti
 	}
 	cost = 5
-	x = 22
+	x = 29
 	y = 4
 	completion_reward = { 
 
@@ -250,7 +236,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_okovi_razbity
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_monarchy_1
 	prerequisite = {
 		focus = STR_memorandum_iso
 	}
@@ -270,13 +256,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_jatorisaro
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_small_arms
 	prerequisite = {
 		focus = STR_okovi_razbity
 	}
 
 	cost = 5
-	x = 22
+	x = 24
 	y = 6
 	completion_reward = { 
 
@@ -285,13 +271,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_jatomirabo
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_navy_carrier
 	prerequisite = {
 		focus = STR_okovi_razbity
 	}
 
 	cost = 5
-	x = 30
+	x = 28
 	y = 6
 	completion_reward = { 
 
@@ -300,7 +286,22 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_novij_shtorm
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_CAS
+	prerequisite = {
+		focus = STR_jatomirabo
+	}
+
+	cost = 5
+	x = 28
+	y = 7
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_uvelichenije_tonnazha
+	icon = GFX_goal_generic_navy_battleship
 	prerequisite = {
 		focus = STR_jatomirabo
 	}
@@ -314,44 +315,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = STR_uvelichenije_tonnazha
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus = STR_jatomirabo
-	}
-
-	cost = 5
-	x = 32
-	y = 7
-	completion_reward = { 
-
-	}
-}
-
-shared_focus = {
 	id = STR_novij_zakon_o_prizive
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_POL_beck_ribbentrop
 	prerequisite = {
 		focus = STR_jatorisaro
 	}
 
-	cost = 5
-	x = 20
-	y = 7
-	completion_reward = { 
-
-	}
-}
-
-shared_focus = {
-	id = STR_burja_s_nebes
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus = STR_jatorisaro
-	}
-	mutually_exclusive = {
-		focus = STR_novij_shtorm
-	}
 	cost = 5
 	x = 22
 	y = 7
@@ -361,23 +330,25 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = STR_poisk_prototipov
-	icon = GFX_decision_cat_generic_persian_empire
+	id = STR_burja_s_nebes
+	icon = GFX_goal_generic_air_fighter
 	prerequisite = {
-		focus = STR_novij_zakon_o_prizive
+		focus = STR_jatorisaro
 	}
-
+	mutually_exclusive = {
+		focus = STR_novij_shtorm
+	}
 	cost = 5
-	x = 19
-	y = 8
+	x = 24
+	y = 7
 	completion_reward = { 
 
 	}
 }
 
 shared_focus = {
-	id = STR_osnashenije_soldat
-	icon = GFX_decision_cat_generic_persian_empire
+	id = STR_poisk_prototipov
+	icon = GFX_focus_generic_tank_production
 	prerequisite = {
 		focus = STR_novij_zakon_o_prizive
 	}
@@ -389,11 +360,12 @@ shared_focus = {
 
 	}
 }
+
 shared_focus = {
-	id = STR_istrebitelj_ikvel
-	icon = GFX_decision_cat_generic_persian_empire
+	id = STR_osnashenije_soldat
+	icon = GFX_focus_generic_combined_arms
 	prerequisite = {
-		focus =  STR_burja_s_nebes
+		focus = STR_novij_zakon_o_prizive
 	}
 
 	cost = 5
@@ -403,13 +375,42 @@ shared_focus = {
 
 	}
 }
+shared_focus = {
+	id = STR_istrebitelj_ikvel
+	icon = GFX_focus_generic_aircraft_production
+	prerequisite = {
+		focus =  STR_burja_s_nebes
+	}
+
+	cost = 5
+	x = 25
+	y = 8
+	completion_reward = { 
+
+	}
+}
 
 
 shared_focus = {
 	id = STR_istrebitelj_duo
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_jap_zero
 	prerequisite = {
 		focus =  STR_novij_shtorm
+	}
+
+	cost = 5
+	x = 27
+	y = 8
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_razrabotka_novogo_avianosca
+	icon = GFX_goal_generic_navy_carrier
+	prerequisite = {
+		focus =  STR_uvelichenije_tonnazha
 	}
 
 	cost = 5
@@ -421,29 +422,14 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = STR_razrabotka_novogo_avianosca
-	icon = GFX_decision_cat_generic_persian_empire
+	id = STR_podlodka_kviki
+	icon = GFX_goal_generic_navy_submarine
 	prerequisite = {
 		focus =  STR_uvelichenije_tonnazha
 	}
 
 	cost = 5
 	x = 31
-	y = 8
-	completion_reward = { 
-
-	}
-}
-
-shared_focus = {
-	id = STR_podlodka_kviki
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus =  STR_uvelichenije_tonnazha
-	}
-
-	cost = 5
-	x = 33
 	y = 8
 	completion_reward = { 
 
@@ -453,7 +439,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_sila_s_kotoroj_stoit_schitatsa
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_SWI_helvetic_junta
 	prerequisite = {
 		focus =  STR_poisk_prototipov
 	}
@@ -461,7 +447,7 @@ shared_focus = {
 		focus =  STR_osnashenije_soldat
 	}
 	cost = 5
-	x = 21
+	x = 23
 	y = 9
 	completion_reward = { 
 
@@ -470,7 +456,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_strana_morej_groza_flotilij
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_midget_submarines
 	prerequisite = {
 		focus =  STR_razrabotka_novogo_avianosca
 	}
@@ -478,7 +464,7 @@ shared_focus = {
 		focus =  STR_podlodka_kviki
 	}
 	cost = 5
-	x = 31
+	x = 29
 	y = 9
 	completion_reward = { 
 
@@ -487,7 +473,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_denonsacija_demarkacionnojo_pakta
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_renounce_the_treaty_of_trianon
 	prerequisite = {
 		focus =  STR_sila_s_kotoroj_stoit_schitatsa
 	}
@@ -504,9 +490,9 @@ shared_focus = {
 ##
 shared_focus = {
 	id = STR_budzhet_na_1771
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_hol_the_foundations_of_defense
 	cost = 5
-	x = 14
+	x = 17
 	y = 0
 	completion_reward = { 
 
@@ -515,12 +501,12 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_prodolzhitj_denezhnije_vlivanija
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_mex_privatisation
 	prerequisite = {
 		focus = STR_budzhet_na_1771
 	}
 	cost = 5
-	x = 12
+	x = 15
 	y = 1
 	completion_reward = { 
 
@@ -529,12 +515,12 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_budusheje_v_forme_proizvodstva
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_production2
 	cost = 5
 	prerequisite = {
 		focus = STR_budzhet_na_1771
 	}
-	x = 14
+	x = 17
 	y = 1
 	completion_reward = { 
 
@@ -543,12 +529,12 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_ponizitj_procentnije_stavki
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_intelligence_exchange
 	prerequisite = {
 		focus = STR_budzhet_na_1771
 	}
 	cost = 5
-	x = 16
+	x = 19
 	y = 1
 	completion_reward = { 
 
@@ -557,7 +543,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_investiciji_v_kicura
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_spa_the_spanish_miracle
 	prerequisite = {
 		focus = STR_ponizitj_procentnije_stavki
 	}
@@ -568,7 +554,7 @@ shared_focus = {
 		focus = STR_prodolzhitj_denezhnije_vlivanija
 	}
 	cost = 5
-	x = 13
+	x = 16
 	y = 2
 	completion_reward = { 
 
@@ -577,7 +563,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_priblezhennije_biznesjeti
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_tripartite_pact
 	prerequisite = {
 		focus = STR_ponizitj_procentnije_stavki
 	}
@@ -588,7 +574,7 @@ shared_focus = {
 		focus = STR_prodolzhitj_denezhnije_vlivanija
 	}
 	cost = 5
-	x = 15
+	x = 18
 	y = 2
 	completion_reward = { 
 
@@ -597,7 +583,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_projekty_neftjanyh_baz
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_construct_mil_factory
 	prerequisite = {
 		focus = STR_priblezhennije_biznesjeti
 	}
@@ -606,7 +592,7 @@ shared_focus = {
 	}
 
 	cost = 5
-	x = 12
+	x = 15
 	y = 3
 	completion_reward = { 
 
@@ -615,7 +601,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_pereocenka_rynochnoj_garmoniji
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_trade
 	prerequisite = {
 		focus = STR_priblezhennije_biznesjeti
 	}
@@ -626,7 +612,7 @@ shared_focus = {
 		focus = STR_svjazatj_ih_zakonom
 	}
 	cost = 5
-	x = 16
+	x = 19
 	y = 3
 	completion_reward = { 
 
@@ -635,13 +621,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_neftekompleks_v_risado
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_construct_mil_factory
 	prerequisite = {
 		focus = STR_projekty_neftjanyh_baz
 	}
 
 	cost = 5
-	x = 11
+	x = 14
 	y = 4
 	completion_reward = { 
 
@@ -649,7 +635,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_subsidiji_na_effectivnostj
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_mex_privatisation
 	prerequisite = {
 		focus = STR_projekty_neftjanyh_baz
 	}
@@ -660,7 +646,7 @@ shared_focus = {
 		focus = STR_konglomerat_ajrjuko
 	}
 	cost = 5
-	x = 14
+	x = 17
 	y = 4
 	completion_reward = { 
 
@@ -668,12 +654,12 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_konglomerat_ajrjuko
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_industry_2
 	prerequisite = {
 		focus = STR_projekty_neftjanyh_baz
 	}
 	prerequisite = {
-		focus = STR_pereocenka_rynochnoj_garmoniji
+		focus = STR_svjazatj_ih_zakonom
 	}
 	mutually_exclusive = {
 		focus = STR_subsidiji_na_effectivnostj
@@ -682,7 +668,7 @@ shared_focus = {
 		focus = STR_pereocenka_rynochnoj_garmoniji
 	}
 	cost = 5
-	x = 17
+	x = 20
 	y = 4
 	completion_reward = { 
 
@@ -690,7 +676,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_rasshiritj_shahty_v_klifsari
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_construction2
 	prerequisite = {
 		focus = STR_neftekompleks_v_risado
 	}
@@ -698,24 +684,6 @@ shared_focus = {
 		focus = STR_subsidiji_na_effectivnostj
 		focus = STR_konglomerat_ajrjuko
 	}
-	cost = 5
-	x = 11
-	y = 5
-	completion_reward = { 
-
-	}
-}
-shared_focus = {
-	id = STR_novije_metody
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus = STR_neftekompleks_v_risado
-	}
-	prerequisite = {
-		focus = STR_subsidiji_na_effectivnostj
-		focus = STR_konglomerat_ajrjuko
-	}
-
 	cost = 5
 	x = 14
 	y = 5
@@ -724,14 +692,13 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = STR_prompark_v_stolice
-	icon = GFX_decision_cat_generic_persian_empire
+	id = STR_novije_metody
+	icon = GFX_goal_generic_scientific_exchange
 	prerequisite = {
 		focus = STR_neftekompleks_v_risado
 	}
 	prerequisite = {
 		focus = STR_subsidiji_na_effectivnostj
-		focus = STR_konglomerat_ajrjuko
 	}
 
 	cost = 5
@@ -742,19 +709,34 @@ shared_focus = {
 	}
 }
 shared_focus = {
+	id = STR_prompark_v_stolice
+	icon = GFX_goal_generic_construct_civ_factory
+	prerequisite = {
+		focus = STR_neftekompleks_v_risado
+	}
+	prerequisite = {
+		focus = STR_konglomerat_ajrjuko
+	}
+
+	cost = 5
+	x = 20
+	y = 5
+	completion_reward = { 
+
+	}
+}
+shared_focus = {
 	id = STR_kolegija_korporacij
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_ETH_re-convene_the_parliament
 	prerequisite = {
 		focus = STR_rasshiritj_shahty_v_klifsari
 	}
-	prerequisite = {
-		focus = STR_novije_metody
-	}
-	prerequisite = {
-		focus = STR_prompark_v_stolice
-	}
+        available = {
+                OR = {has_completed_focus = STR_prompark_v_stolice
+                has_completed_focus = STR_novije_metody}
+        }
 	cost = 5
-	x = 14
+	x = 17
 	y = 6
 	completion_reward = { 
 
@@ -764,7 +746,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_strategija_ekonomicheskoj_sfery
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_jap_strike_south
 	prerequisite = {
 		focus = STR_kolegija_korporacij
 	}
@@ -775,7 +757,7 @@ shared_focus = {
 		focus = STR_udobnij_placdarm
 	}
 	cost = 5
-	x = 4
+	x = 10
 	y = 11
 	completion_reward = { 
 
@@ -783,13 +765,13 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_departament_vneshnih_svjazej
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_eng_global_defense
 	prerequisite = {
 		focus = STR_strategija_ekonomicheskoj_sfery
 	}
 
 	cost = 5
-	x = 4
+	x = 10
 	y = 12
 	completion_reward = { 
 
@@ -798,13 +780,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_sdelka_s_chejndzhlijej
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_forceful_treaty
 	prerequisite = {
 		focus = STR_departament_vneshnih_svjazej
 	}
 
 	cost = 5
-	x = 2
+	x = 9
 	y = 13
 	completion_reward = { 
 
@@ -813,13 +795,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_partnerstvo_s_oef
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_major_alliance
 	prerequisite = {
 		focus = STR_departament_vneshnih_svjazej
 	}
 
 	cost = 5
-	x = 6
+	x = 11
 	y = 13
 	completion_reward = { 
 
@@ -828,7 +810,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_svjazi_s_ekvestriej
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_positive_trade_relations
 	prerequisite = {
 		focus = STR_sdelka_s_chejndzhlijej
 	}
@@ -837,7 +819,7 @@ shared_focus = {
 	}
 
 	cost = 5
-	x = 1
+	x = 8
 	y = 14
 	completion_reward = { 
 
@@ -846,7 +828,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_rastushee_vlijanije_v_kiriji
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_man_claim_the_mandate_of_heaven
 	prerequisite = {
 		focus = STR_sdelka_s_chejndzhlijej
 	}
@@ -854,8 +836,8 @@ shared_focus = {
 		focus = STR_partnerstvo_s_oef
 	}
 
-	cost = 5
-	x = 4
+	cost = 8
+	x = 10
 	y = 14
 	completion_reward = { 
 
@@ -863,7 +845,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_potoki_oruzhija_v_transzebriku
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_armored_air_support
 	prerequisite = {
 		focus = STR_sdelka_s_chejndzhlijej
 	}
@@ -871,7 +853,7 @@ shared_focus = {
 		focus = STR_partnerstvo_s_oef
 	}
 	cost = 5
-	x = 7
+	x = 12
 	y = 14
 	completion_reward = { 
 
@@ -880,7 +862,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_gegemon_vtorogo_plana
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_POL_support_global_falangism
 	prerequisite = {
 		focus = STR_svjazi_s_ekvestriej
 	}
@@ -891,7 +873,7 @@ shared_focus = {
 		focus = STR_rastushee_vlijanije_v_kiriji
 	}
 	cost = 5
-	x = 4
+	x = 10
 	y = 15
 	completion_reward = { 
 
@@ -899,13 +881,13 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_vesti_dela_v_abissiniji
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_usa_reestablish_the_gold_standard
 	prerequisite = {
 		focus = STR_gegemon_vtorogo_plana
 	}
 
 	cost = 5
-	x = 4
+	x = 10
 	y = 16
 	completion_reward = { 
 
@@ -913,7 +895,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_udobnij_placdarm
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_hol_gateway_to_europe
 	prerequisite = {
 		focus = STR_kolegija_korporacij
 	}
@@ -924,7 +906,7 @@ shared_focus = {
 		focus = STR_strategija_ekonomicheskoj_sfery
 	}
 	cost = 5
-	x = 14
+	x = 17
 	y = 11
 	completion_reward = { 
 
@@ -933,13 +915,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_povysitj_vyraboku
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_SOV_merge_plants
 	prerequisite = {
 		focus = STR_udobnij_placdarm
 	}
 
 	cost = 5
-	x = 12
+	x = 15
 	y = 12
 	completion_reward = { 
 
@@ -948,13 +930,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_kontrolj_tandrajskogo_proliva
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_refit_civilian_ships
 	prerequisite = {
 		focus = STR_udobnij_placdarm
 	}
 
 	cost = 5
-	x = 16
+	x = 19
 	y = 12
 	completion_reward = { 
 
@@ -962,7 +944,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_incident_v_kiraspe
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_jap_cast_the_die
 	prerequisite = {
 		focus = STR_kontrolj_tandrajskogo_proliva
 	}
@@ -970,7 +952,7 @@ shared_focus = {
 		focus = STR_povysitj_vyraboku
 	}
 	cost = 5
-	x = 14
+	x = 17
 	y = 13
 	completion_reward = { 
 
@@ -980,13 +962,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_kolonist_osvoboditelj
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_fascist_troops
 	prerequisite = {
 		focus = STR_incident_v_kiraspe
 	}
 
 	cost = 5
-	x = 11
+	x = 14
 	y = 14
 	completion_reward = { 
 
@@ -994,12 +976,12 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_operacija_ajspik
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_POL_reassert_silesian_claims
 	prerequisite = {
 		focus = STR_incident_v_kiraspe
 	}
 	cost = 5
-	x = 13
+	x = 16
 	y = 14
 	completion_reward = { 
 
@@ -1007,12 +989,12 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_skoro_vsjo_konchitsja
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
 	prerequisite = {
 		focus = STR_incident_v_kiraspe
 	}
 	cost = 5
-	x = 15
+	x = 18
 	y = 14
 	completion_reward = { 
 
@@ -1020,12 +1002,12 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_vtoroj_zakon_o_prizyve
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_SOV_mobilization_plan
 	prerequisite = {
 		focus = STR_incident_v_kiraspe
 	}
 	cost = 5
-	x = 17
+	x = 20
 	y = 14
 	completion_reward = { 
 
@@ -1034,7 +1016,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_usovershenstvovatj_kontrrazvedku
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_secret_service_agency
 	prerequisite = {
 		focus = STR_kolonist_osvoboditelj
 	}
@@ -1045,7 +1027,7 @@ shared_focus = {
 		focus = STR_skoro_vsjo_konchitsja
 	}
 	cost = 5
-	x = 14
+	x = 17
 	y = 15
 	completion_reward = { 
 
@@ -1053,7 +1035,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_kopyto_pomoshi
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_ETH_freedom_at_gunpoint
 	prerequisite = {
 		focus = STR_kolonist_osvoboditelj
 	}
@@ -1064,7 +1046,7 @@ shared_focus = {
 		focus = STR_skoro_vsjo_konchitsja
 	}
 	cost = 5
-	x = 12
+	x = 15
 	y = 15
 	completion_reward = { 
 
@@ -1072,7 +1054,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_obrezatj_postavki
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_black_sea_focus
 	prerequisite = {
 		focus = STR_kopyto_pomoshi
 	}
@@ -1080,7 +1062,7 @@ shared_focus = {
 		focus = STR_usovershenstvovatj_kontrrazvedku
 	}
 	cost = 5
-	x = 13
+	x = 16
 	y = 16
 	completion_reward = { 
 
@@ -1089,13 +1071,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_nacija_borjby
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_strike_at_democracy1
 	prerequisite = {
 		focus = STR_vtoroj_zakon_o_prizyve
 	}
 
 	cost = 5
-	x = 16
+	x = 19
 	y = 15
 	completion_reward = { 
 
@@ -1103,13 +1085,13 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_ekstrennaja_konversija
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_army_tanks
 	prerequisite = {
 		focus = STR_vtoroj_zakon_o_prizyve
 	}
 
 	cost = 5
-	x = 18
+	x = 21
 	y = 15
 	completion_reward = { 
 
@@ -1118,7 +1100,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_osvoboditeljnaja_vojna
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_japanese_imperial_glory
 	prerequisite = {
 		focus = STR_ekstrennaja_konversija
 	}
@@ -1126,7 +1108,7 @@ shared_focus = {
 		focus = STR_nacija_borjby
 	}
 	cost = 5
-	x = 17
+	x = 20
 	y = 16
 	completion_reward = { 
 
@@ -1135,7 +1117,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_goppogrifij_barjer
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_territory_or_war
 	prerequisite = {
 		focus = STR_denonsacija_demarkacionnojo_pakta
 	}
@@ -1150,7 +1132,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_borjba_za_oblachnyj_okean
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_amphibious_assault
 	prerequisite = {
 		focus = STR_goppogrifij_barjer
 	}
@@ -1164,7 +1146,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_to_chto_oni_zasluzhili
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_secret_weapon
 	prerequisite = {
 		focus = STR_goppogrifij_barjer
 	}
@@ -1178,7 +1160,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = STR_luchshije_v_nebe
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_goal_generic_air_bomber
 	prerequisite = {
 		focus = STR_goppogrifij_barjer
 	}
@@ -1193,7 +1175,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_ssozhzhenije_aris
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_rom_abdicate
 	prerequisite = {
 		focus = STR_borjba_za_oblachnyj_okean
 	}
@@ -1213,13 +1195,13 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_na_puti_k_sikvestriji
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_generic_annex_country
 	prerequisite = {
 		focus = STR_ssozhzhenije_aris
 	}
 
 	cost = 5
-	x = 30
+	x = 29
 	y = 14
 	completion_reward = { 
 
@@ -1228,7 +1210,7 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_ekspluatacija_gippogrifiji
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_ETH_invest_in_the_east
 	prerequisite = {
 		focus = STR_na_puti_k_sikvestriji
 	}
@@ -1243,9 +1225,39 @@ shared_focus = {
 
 shared_focus = {
 	id = STR_neboljshaja_ekspropriacija
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_SWI_issue_war_bonds
 	prerequisite = {
 		focus = STR_na_puti_k_sikvestriji
+	}
+
+	cost = 5
+	x = 30
+	y = 15
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_analiz_vojny
+	icon = GFX_goal_generic_position_armies
+	prerequisite = {
+		focus = STR_ssozhzhenije_aris
+	}
+
+	cost = 5
+	x = 33
+	y = 14
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = STR_opyt_na_vode
+	icon = GFX_goal_generic_build_navy
+	prerequisite = {
+		focus = STR_analiz_vojny
 	}
 
 	cost = 5
@@ -1255,25 +1267,9 @@ shared_focus = {
 
 	}
 }
-
 shared_focus = {
-	id = STR_analiz_vojny
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus = STR_ssozhzhenije_aris
-	}
-
-	cost = 5
-	x = 36
-	y = 14
-	completion_reward = { 
-
-	}
-}
-
-shared_focus = {
-	id = STR_opyt_na_vode
-	icon = GFX_decision_cat_generic_persian_empire
+	id = STR_i_v_vozduhe
+	icon = GFX_goal_generic_build_airforce
 	prerequisite = {
 		focus = STR_analiz_vojny
 	}
@@ -1285,24 +1281,10 @@ shared_focus = {
 
 	}
 }
-shared_focus = {
-	id = STR_i_v_vozduhe
-	icon = GFX_decision_cat_generic_persian_empire
-	prerequisite = {
-		focus = STR_analiz_vojny
-	}
-
-	cost = 5
-	x = 38
-	y = 15
-	completion_reward = { 
-
-	}
-}
 
 shared_focus = {
 	id = STR_my_san_ajroku
-	icon = GFX_decision_cat_generic_persian_empire
+	icon = GFX_focus_ETH_the_lion_and_the_sun
 	prerequisite = {
 		focus = STR_ssozhzhenije_aris
 	}
@@ -1312,7 +1294,7 @@ shared_focus = {
 	}
 	cost = 5
 	x = 26
-	y = 18
+	y = 17
 	completion_reward = { 
 
 	}
