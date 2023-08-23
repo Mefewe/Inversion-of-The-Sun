@@ -8,3 +8,8 @@ sound = {
 	file = "soundz/ATO.wav"
 	always_load = no
 }
+sound = {
+	name = "super_event_EQS_CHN_A_sound"
+	file = "soundz/equestria_chn_a.wav"
+	always_load = no
+}

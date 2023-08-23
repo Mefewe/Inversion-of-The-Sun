@@ -8,4 +8,8 @@ IOSSE_show_super_event = {
 		limit = { check_variable = { global.IOSSE_super_event = 2 } }
 		sound_effect = "super_event_nachalo_ATO"
 	}
+	if = {
+		limit = { check_variable = { global.IOSSE_super_event = 3 } }
+		sound_effect = "super_event_EQS_CHN_A"
+	}
 }
