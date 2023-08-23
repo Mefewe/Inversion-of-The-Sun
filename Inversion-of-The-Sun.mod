@@ -48,6 +48,7 @@ replace_path="common/technologies"
 tags={
 	"Map"
 }
+picture="thumbnail.png"
 name="Inversion of The Sun"
 supported_version="1.12.*"
 path="mod/Inversion-of-The-Sun/"
