@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_focus_icon_TAI_novyj_god_icon_focus
+        texturefile = gfx/interface/goals/TAI_novyj_god_icon_focus.dds
+    }
+}

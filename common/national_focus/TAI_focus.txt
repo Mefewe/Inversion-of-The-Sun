@@ -1,0 +1,26 @@
+focus_tree = {
+	id = TAI_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TAI
+		}
+	}
+	shared_focus = TAI_novyj_god
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+shared_focus = {
+	id = TAI_novyj_god
+
+	icon = GFX_focus_icon_TAI_novyj_god_icon_focus
+	cost = 1
+	x = 12
+	y = 0
+	completion_reward = { 
+
+	}
+}

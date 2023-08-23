@@ -1,5 +1,10 @@
 #reload countrycolors
 
+STI = {
+color = rgb { 68 43 43 }
+color_ui = rgb { 68 43 43 }
+}
+
 EQS = {
 color = rgb { 116 249 209 }
 color_ui = rgb { 116 249 209 }

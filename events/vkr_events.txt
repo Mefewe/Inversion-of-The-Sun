@@ -222,7 +222,7 @@ country_event = { #Стрела
 				num_provinces = 2
 				on_win = VKR_gerilua.3
 				on_lose = VKR_gerilua.4
-				on_cancel = VKR_gerilua.5
+				on_cancel = VKR_gerilua.5				
 				dig_in_factor = 0
 				terrain_factor = 0
 			}

@@ -269,9 +269,6 @@ shared_focus = {
 	prerequisite = {
 		
 	}
-	mutually_exclusive = {
-		focus = CRY_Demokratija
-	}
 	available = {
 		always = no
 	}
@@ -310,6 +307,9 @@ shared_focus = {
 
 shared_focus = {
 	id = CRY_Demokratija
+	available = {
+		always = no
+	}
 	prerequisite = {
 		focus = CRY_Pozor_V_KG
 	}
