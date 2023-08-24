@@ -5,10 +5,21 @@ state={
 		711 1373 3081 3780 4118 7217 7280 7302 7351 
 	}
 	history={
+		victory_points = {
+			3081 5
+		}
+		add_building_construction = {
+			type = infrastructure
+			level = 3
+		}
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+		}
         owner = TAI
         add_core_of = TAI
     }
-	manpower=0
+	manpower=567809
 	buildings_max_level_factor=1.000
 	state_category = large_town
 }

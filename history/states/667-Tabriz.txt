@@ -20,7 +20,7 @@ state={
         owner = TAI
         add_core_of = TAI
     }
-	manpower=54059
+	manpower=240590
 	buildings_max_level_factor=1.000
 	state_category = large_town
 }

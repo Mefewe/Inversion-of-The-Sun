@@ -5,10 +5,14 @@ state={
 		407 1287 1601 1820 3524 3789 4621 4735 4852 6729 6782 6841 6885 6917 
 	}
 	history={
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+		}
         owner = TAI
         add_core_of = TAI
     }
-	manpower=0
+	manpower=98609
 	buildings_max_level_factor=1.000
 	state_category = rural
 }

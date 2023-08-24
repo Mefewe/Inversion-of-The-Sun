@@ -5,10 +5,17 @@ state={
 		2604 2869 6982 7001 7035 7069 
 	}
 	history={
+		victory_points = {
+			2869 5
+		}
+		add_building_construction = {
+			type = infrastructure
+			level = 3
+		}
         owner = TAI
         add_core_of = TAI
     }
-	manpower=0
+	manpower=194005
 	buildings_max_level_factor=1.000
 	state_category = town
 }

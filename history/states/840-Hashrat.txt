@@ -5,10 +5,14 @@ state={
 		1499 2946 4200 7615 7627 
 	}
 	history={
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+		}
         owner = TAI
         add_core_of = TAI
     }
-	manpower=0
+	manpower=140596
 	buildings_max_level_factor=1.000
 	state_category = town
 }

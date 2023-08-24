@@ -2,7 +2,7 @@ state={
     id=950
     name="STATE_950"
 
-    manpower=0
+    manpower=754320
 
     state_category = large_city
 
@@ -11,6 +11,18 @@ state={
     }
 
     history={
+        add_building_construction = {
+            type = infrastructure
+            level = 4
+        }
+        add_building_construction = {
+            type = industrial_complex
+            level = 4
+        }
+        add_building_construction = {
+            type = arms_factory
+            level = 1
+        }
 		victory_points = {
 			7407 50
 		}
@@ -20,4 +32,5 @@ state={
         owner = TAI
         add_core_of = TAI
     }
+    local_supplies = 20
 }

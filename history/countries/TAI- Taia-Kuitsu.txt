@@ -12,6 +12,8 @@ set_technology = {
 }
 add_ideas = {
 		#laws
+		ustarevshaja_strana
+		netu_armiji
 		war_economy
 		service_by_requirement
 		closed_economy

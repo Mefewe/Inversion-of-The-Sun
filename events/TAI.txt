@@ -26,7 +26,51 @@ country_event = {
 
 	option = {
 		name = TAI.2.1
+		swap_ideas = {
+			remove_idea = netu_armiji
+			add_idea = shahskaja_gvardija1
+		}
+		add_ideas = ustarevsheje_vooruzhenije
 		#создать шаблон и первую дивизию тайа куицу
+		custom_effect_tooltip = TAI_gvardija_1_tt
+		hidden_effect = {				
+			division_template = {
+				name = "Shahska garda"
+				is_locked = yes
+				regiments = {
+					guard = {
+						x = 0
+						y = 0
+					}
+					guard = {
+						x = 0
+						y = 1
+					}
+					guard = {
+						x = 0
+						y = 2
+					}
+					guard = {
+						x = 0
+						y = 3
+					}
+				}
+				support = {
+					artillery = {
+						x = 0
+						y = 0
+					} 
+				}
+			}
+			950 = { 
+				create_unit = {
+					division = "name = \"Brigadai 1-umi gvardijagii shahej \" division_template = \"Shahska garda\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 1
+				}
+			}
+		}
 	}
 }
 country_event = { #ивент о жизни простого кирина в новогоднюю ночь
