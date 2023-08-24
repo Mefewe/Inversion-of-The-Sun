@@ -1,0 +1,23 @@
+state={
+    id=950
+    name="STATE_950"
+
+    manpower=0
+
+    state_category = large_city
+
+    provinces={
+            2027 7407
+    }
+
+    history={
+		victory_points = {
+			7407 50
+		}
+		victory_points = {
+			2027 25
+		}
+        owner = TAI
+        add_core_of = TAI
+    }
+}

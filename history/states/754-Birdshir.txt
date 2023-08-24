@@ -1,0 +1,14 @@
+state={
+	id=754
+	name="STATE_754"
+	provinces={
+		3069 4061 4367 4908 7162 7223 
+	}
+	history={
+        owner = TAI
+        add_core_of = TAI
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = town
+}

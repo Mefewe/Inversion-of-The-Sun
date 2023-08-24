@@ -21,6 +21,19 @@ shared_focus = {
 	x = 12
 	y = 0
 	completion_reward = { 
-
+		country_event = TAI.1
+	}
+}
+shared_focus = {
+	id = TAI_sobranie_opolchenija
+	prerequisite = {
+		focus = TAI_novyj_god
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+	x = 12
+	y = 1
+	completion_reward = { 
+		country_event = TAI.2
 	}
 }

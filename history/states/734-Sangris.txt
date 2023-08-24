@@ -1,0 +1,15 @@
+state={
+	id=734
+	name="STATE_734"
+    impassable = yes
+	provinces={
+		1119 1580 1785 2247 4126 4680 7087 7130 7157 7175 
+	}
+	history={
+        owner = TAI
+        add_core_of = TAI
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

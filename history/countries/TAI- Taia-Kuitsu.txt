@@ -1,4 +1,4 @@
-﻿capital = 789
+﻿capital = 950
 recruit_character = TAI_Shafrut_Osh_Parlavu
 set_stability = 0.4
 set_war_support = 0.2
@@ -29,37 +29,4 @@ set_popularities = {
 	fascism = 25
     progressivism = 0
     paternalism = 50
-}
-
-create_country_leader = {
-	name = "Franklin"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = moderate_social_valterists
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Earl"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "portrait_USA_earl_browder.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Haile"
-	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-
-	}
 }

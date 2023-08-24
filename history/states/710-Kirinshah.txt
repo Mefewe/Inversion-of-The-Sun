@@ -1,0 +1,14 @@
+state={
+	id=710
+	name="STATE_710"
+	provinces={
+		2437 3127 4243 4903 7061 7102 7133 7138 7147 7171 7182 
+	}
+	history={
+        owner = TAI
+        add_core_of = TAI
+    }
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = town
+}
