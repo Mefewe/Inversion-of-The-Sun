@@ -6,5 +6,53 @@ ideas = {
                                     political_power_gain = 0.10
                          }
                 }
+				
+
+                str_defeat = {
+                         modifier = {
+                                    stability_factor = 0.1
+                                    political_power_gain = 0.10
+                         }
+                }
+        
+
+                str_metazoa_agreement = {
+                         modifier = {
+                                    stability_factor = 0.1
+                                    political_power_gain = 0.10
+                         }
+                }
+        
+
+                str_monarchy_crisis = {
+                         modifier = {
+                                    stability_factor = 0.1
+                                    political_power_gain = 0.10
+                         }
+                }
+        
+
+                str_young_industry = {
+                         modifier = {
+                                    stability_factor = 0.1
+                                    political_power_gain = 0.10
+                         }
+                }
+        
+
+                str_yato_miraro = {
+                         modifier = {
+                                    stability_factor = 0.1
+                                    political_power_gain = 0.10
+                         }
+                }
+        
+
+                str_yato_riseyra = {
+                         modifier = {
+                                    stability_factor = 0.1
+                                    political_power_gain = 0.10
+                         }
+                }
         }
 }
