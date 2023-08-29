@@ -1,6 +1,12 @@
-﻿capital = 755
+﻿capital = 944
 add_ideas = {
           str_regent_whitesiden
+          str_defeat
+          str_metazoa_agreement
+          str_monarchy_crisis
+          str_young_industry
+          str_yato_miraro
+          str_yato_riseyra
 }
 recruit_character = STR_Erisayr
 set_stability = 0.4

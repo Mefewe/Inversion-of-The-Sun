@@ -47,11 +47,23 @@ bookmarks = {
 			available = { }
 			ideas = {
                         str_regent_whitesiden
+                        str_defeat
+                        str_metazoa_agreement
 			}
 			focuses = {
                         STR_my_san_ajroku
                         STR_goppogrifij_barjer
                         STR_istrebitelj_duo
+			}
+		}
+
+		"SDL"={
+			history = "SDL_CONF_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 

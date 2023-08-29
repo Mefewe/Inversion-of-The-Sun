@@ -1,6 +1,7 @@
 ideas = {
 	country = {
                 str_regent_whitesiden = {
+                         picture = HUN_charles_v
                          modifier = {
                                     stability_factor = 0.1
                                     political_power_gain = 0.10
@@ -9,6 +10,7 @@ ideas = {
 				
 
                 str_defeat = {
+                         picture = SPR_disbanded_army
                          modifier = {
                                     stability_factor = 0.1
                                     political_power_gain = 0.10
@@ -17,6 +19,7 @@ ideas = {
         
 
                 str_metazoa_agreement = {
+                         picture = hol_the_foundations_of_defense
                          modifier = {
                                     stability_factor = 0.1
                                     political_power_gain = 0.10
@@ -25,6 +28,7 @@ ideas = {
         
 
                 str_monarchy_crisis = {
+                         picture = generic_king_handled
                          modifier = {
                                     stability_factor = 0.1
                                     political_power_gain = 0.10
@@ -33,6 +37,7 @@ ideas = {
         
 
                 str_young_industry = {
+                         picture = generic_armor
                          modifier = {
                                     stability_factor = 0.1
                                     political_power_gain = 0.10
@@ -41,6 +46,7 @@ ideas = {
         
 
                 str_yato_miraro = {
+                         picture = generic_morale_bonus
                          modifier = {
                                     stability_factor = 0.1
                                     political_power_gain = 0.10
@@ -49,6 +55,7 @@ ideas = {
         
 
                 str_yato_riseyra = {
+                         picture = generic_reserve_divisions
                          modifier = {
                                     stability_factor = 0.1
                                     political_power_gain = 0.10

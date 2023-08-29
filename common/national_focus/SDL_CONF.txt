@@ -1,0 +1,15 @@
+focus_tree = {
+	id = SDL_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = SDL
+		}
+	}
+	shared_focus = SDL_convent
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}

@@ -1,0 +1,17 @@
+characters = {
+SDL_CONF_Sylva_Sandstre = {
+		name = SDL_CONF_Sylva_Sandstre
+		portraits = {
+			civilian = {
+				large = GFX_SDL_CONF_Sylva_Sandstre_L
+			}
+		}
+		country_leader = {
+                desc="SDL_CONF_Sylva_Sandstre_desc"
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}
