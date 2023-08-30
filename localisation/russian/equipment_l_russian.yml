@@ -20,6 +20,21 @@
  tank_ammo_equipment:0 "Танковые боеприпасы"
  tank_ammo_equipment_0:0 "Танковые боеприпасы"
 
+ anti_tank_equipment_hand:0 "Ручное ПТО"
+ anti_tank_equipment_hand_1:0 "Ручное ПТО I"
+ anti_tank_equipment_hand_2:0 "Ручное ПТО II"
+ anti_tank_equipment_hand_3:0 "Ручное ПТО III"
+
+ anti_air_equipment_hand_2:0 "Ручное ПВО II"
+
+ motorized_equipment_2:0 "Усовершенствованный транспорт"
+
+ bronetransporter:0 "Бронетранспортёр"
+ bronetransporter_1:0 "БТР I"
+ bronetransporter_2:0 "БТР II"
+ bronetransporter_3:0 "БТР III"
+
+ candc_equipment:0 "Оборудование управления войсками"
 
  submarine:0 "Подводная лодка"
  submarine_desc:0 "Незаметность и мощные торпеды помогают подлодкам уничтожать вражеские конвои."
@@ -383,7 +398,7 @@
  modern_tank_aa_equipment_1_desc:0 "Современное зенитное вооружение, будь то ракеты или скорострельные пушки, представляет смертельную опасность для авиации."
 
  mechanized_equipment:0 "БМП"
- mechanized_equipment_short:0 "Бронетранспортёры"
+ mechanized_equipment_short:0 "Боевая машина пехоты"
  mechanized_equipment_desc:0 "Механизированная пехота оснащена бронетранспортерами или боевыми машинами. От моторизированной она отличается тем, что ее техника обеспечивает определенную защиту от вражеского огня, в то время как моторизированные подразделения обычно снабжаются небронированными машинами — джипами и грузовиками."
  mechanized_equipment_1:0 "БМП I"
  mechanized_equipment_1_short:0 "БМП I"
