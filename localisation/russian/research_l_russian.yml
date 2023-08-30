@@ -810,8 +810,6 @@
  strategic_destruction_tree:0 "Доктрина стратегического разрушения"
  armor:0 "Технология бронетехники"
  cat_light_armor:0 "Модели легких танков"
- cat_medium_armor:0 "Модели средних танков"
- cat_heavy_armor:0 "Модели тяжелых танков"
  cat_anti_tank:0 "ПТО"
  cat_anti_air:0 "ПВО"
  
