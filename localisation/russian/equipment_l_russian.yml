@@ -382,8 +382,10 @@
  modern_tank_aa_equipment_1_short:0 "Соврем. ЗСУ"
  modern_tank_aa_equipment_1_desc:0 "Современное зенитное вооружение, будь то ракеты или скорострельные пушки, представляет смертельную опасность для авиации."
 
- mechanized_equipment:0 "БМП"
- mechanized_equipment_short:0 "Бронетранспортёры"
+ mechanized_equipment:0 "Боевая машина пехоты"
+ mechanized_equipment_short:0 "БМП"
+ bronetransporter: "Бронетранспортёр"
+ bronetransporter_short: "БТР"
  mechanized_equipment_desc:0 "Механизированная пехота оснащена бронетранспортерами или боевыми машинами. От моторизированной она отличается тем, что ее техника обеспечивает определенную защиту от вражеского огня, в то время как моторизированные подразделения обычно снабжаются небронированными машинами — джипами и грузовиками."
  mechanized_equipment_1:0 "БМП I"
  mechanized_equipment_1_short:0 "БМП I"
