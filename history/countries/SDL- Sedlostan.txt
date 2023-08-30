@@ -12,6 +12,44 @@ send_embargo = VRB
 send_embargo = FRD
 send_embargo = KLG
 send_embargo = DMN
+
+add_equipment_to_stockpile = {
+         type = medium_tank_chassis_1
+         amount = 3487
+}
+add_equipment_to_stockpile = {
+         type = bronetransporter_1
+         amount = 4101
+}
+add_equipment_to_stockpile = {
+         type = infantry_ammo_equipment_0
+         amount = 1972
+}
+add_equipment_to_stockpile = {
+         type = tank_ammo_equipment_0
+         amount = 109
+}
+add_equipment_to_stockpile = {
+         type = anti_tank_equipment_hand_1
+         amount = 59613
+}
+add_equipment_to_stockpile = {
+         type = candc_equpment_1
+         amount = 31740
+}
+add_equipment_to_stockpile = {
+         type = infantry_equipment_0
+         amount = 20719
+}
+add_equipment_to_stockpile = {
+         type = mechanised_equipment_0
+         amount = 3761
+}
+add_equipment_to_stockpile = {
+         type = support_equipment_1
+         amount = 11761
+}
+
 set_technology = {
 	infantry_weapons = 1
         tech_support = 1
@@ -22,11 +60,13 @@ set_technology = {
 	basic_train = 1
 	motorised_infantry = 1
         advanced_medium_tank = 1
+        mechanised_infantry = 1
+        bronetransporter_infantry = 1
 }
 add_ideas = {
 		#laws
 		low_economic_mobilisation
-		limited_conscription
+		extensive_conscription
 		free_trade
 	}
 set_politics = {

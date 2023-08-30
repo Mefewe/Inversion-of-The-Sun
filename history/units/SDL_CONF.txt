@@ -1,4 +1,4 @@
-### TEMPLATES
+###################### TEMPLATES
 division_template = {
         name = "Infantry Division"
         regiments = {
@@ -19,7 +19,7 @@ division_template = {
         }
 }
 division_template = {
-        name = "Militia Division"
+        name = "Militia Brigade"
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
@@ -37,10 +37,10 @@ division_template = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		modern_armor = { x = 1 y = 2 }
-		modern_armor = { x = 1 y = 3 }
+                modern_armor = { x = 1 y = 0 }
+                modern_armor = { x = 1 y = 1 }
+                modern_armor = { x = 1 y = 2 }
+                modern_armor = { x = 1 y = 3 }
         }
         support = {
                 engineer = { x = 0 y = 0 }
@@ -63,6 +63,34 @@ division_template = {
         }
 }
 division_template = {
+        name = "Saddle Arabian Guards"
+        regiments = {
+		guard = { x = 0 y = 0 }
+		guard = { x = 0 y = 1 }
+		guard = { x = 1 y = 0 }
+		guard = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 }
+        }
+}
+division_template = {
+        name = "Griffin Brigade"
+        regiments = {
+		guard = { x = 0 y = 0 }
+		guard = { x = 0 y = 1 }
+		guard = { x = 1 y = 0 }
+		guard = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 }
+        }
+}
+division_template = {
         name = "Mountaineer Brigade"
         regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -75,13 +103,648 @@ division_template = {
         }
 }
 
-### UNITS
+###################### UNITS
+
+###################### INFANTRY DIVISION 
 units = {
         division = {
-                name = "Thing"
-		location = 2271
+                name = "1. Infantry Division"
+		location = 6181
 		division_template = "Infantry Division"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "2. Infantry Division"
+		location = 1502
+		division_template = "Infantry Division"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "3. Infantry Division"
+		location = 2198
+		division_template = "Infantry Division"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "4. Infantry Division"
+		location = 6763
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "5. Infantry Division"
+		location = 6946
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "6. Infantry Division"
+		location = 538
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "7. Infantry Division"
+		location = 6710
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "8. Infantry Division"
+		location = 6794
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "9. Infantry Division"
+		location = 6451
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "10. Infantry Division"
+		location = 6181
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "11. Infantry Division"
+		location = 2198
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "12. Infantry Division"
+		location = 1551
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "13. Infantry Division"
+		location = 6946
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+
+
+        division = {
+                name = "14. Infantry Division"
+		location = 5997
+		division_template = "Infantry Division"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "15. Infantry Division"
+		location = 6287
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "16. Infantry Division"
+		location = 6409
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "17. Infantry Division"
+		location = 869
+		division_template = "Infantry Division"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+###################### MILITIA DIVISION
+        division = {
+                name = "1. Militia Brigade"
+		location = 2271
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "2. Militia Brigade"
+		location = 6550
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "3. Militia Brigade"
+		location = 945
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "4. Militia Brigade"
+		location = 6181
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "5. Militia Brigade"
+		location = 6109
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "6. Militia Brigade"
+		location = 4390
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "7. Militia Brigade"
+		location = 6846
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "8. Militia Brigade"
+		location = 4577
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "9. Militia Brigade"
+		location = 6946
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "10. Militia Brigade"
+		location = 7042
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "11. Militia Brigade"
+		location = 6879
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "12. Militia Brigade"
+		location = 6794
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "13. Militia Brigade"
+		location = 1551
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "14. Militia Brigade"
+		location = 2198
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "15. Militia Brigade"
+		location = 1502
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "16. Militia Brigade"
+		location = 979
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "17. Militia Brigade"
+		location = 6418
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "18. Militia Brigade"
+		location = 2563
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "19. Militia Brigade"
+		location = 3812
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+###################### TANK BRIGADE
+        division = {
+                name = "1. Tank Brigade"
+		location = 6181
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "2. Tank Brigade"
+		location = 1537
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "3. Tank Brigade"
+		location = 1502
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "4. Tank Brigade"
+		location = 6451
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "5. Tank Brigade"
+		location = 2198
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "6. Tank Brigade"
+		location = 1753
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "7. Tank Brigade"
+		location = 6710
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.55
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "8. Tank Brigade"
+		location = 6794
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.60
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "9. Tank Brigade"
+		location = 6879
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "10. Tank Brigade"
+		location = 6946
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "11. Tank Brigade"
+		location = 538
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "12. Tank Brigade"
+		location = 1502
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "13. Tank Brigade"
+		location = 3594
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "14. Tank Brigade"
+		location = 6287
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "15. Tank Brigade"
+		location = 537
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "16. Tank Brigade"
+		location = 6631
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "17. Tank Brigade"
+		location = 2427
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+###################### MOTORIZED BRIGADE
+        division = {
+                name = "1. Motorized Brigade"
+		location = 538
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "2. Motorized Brigade"
+		location = 6879
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "3. Motorized Brigade"
+		location = 2629
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "4. Motorized Brigade"
+		location = 6710
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "5. Motorized Brigade"
+		location = 1537
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "6. Motorized Brigade"
+		location = 6181
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "7. Motorized Brigade"
+		location = 1502
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "8. Motorized Brigade"
+		location = 3594
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "9. Motorized Brigade"
+		location = 2471
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "10. Motorized Brigade"
+		location = 6287
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "11. Motorized Brigade"
+		location = 1502
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "12. Motorized Brigade"
+		location = 6631
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+###################### SADDLE ATABIAN GUARDS
+        division = {
+                name = "1. Saddle Arabian Guards"
+		location = 2271
+		division_template = "Saddle Arabian Guards"
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "2. Saddle Arabian Guards"
+		location = 537
+		division_template = "Saddle Arabian Guards"
+		start_experience_factor = 0.80
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "3. Saddle Arabian Guards"
+		location = 7047
+		division_template = "Saddle Arabian Guards"
+		start_experience_factor = 0.80
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+###################### GRIFFIN BRIGADE
+        division = {
+                name = "1. Griffin Brigade"
+		location = 4390
+		division_template = "Griffin Brigade"
+		start_experience_factor = 0.90
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "2. Griffin Brigade"
+		location = 6888
+		division_template = "Griffin Brigade"
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "3. Griffin Brigade"
+		location = 6426
+		division_template = "Griffin Brigade"
+		start_experience_factor = 0.80
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "4. Griffin Brigade"
+		location = 7042
+		division_template = "Griffin Brigade"
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+###################### MOUNTAINEER BRIGADE
+        division = {
+                name = "1. Mountaineer Brigade"
+		location = 3693
+		division_template = "Mountaineer Brigade"
+		start_experience_factor = 0.60
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "2. Mountaineer Brigade"
+		location = 2198
+		division_template = "Mountaineer Brigade"
+		start_experience_factor = 0.60
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "3. Mountaineer Brigade"
+		location = 6406
+		division_template = "Mountaineer Brigade"
+		start_experience_factor = 0.55
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "4. Mountaineer Brigade"
+		location = 2629
+		division_template = "Mountaineer Brigade"
+		start_experience_factor = 0.55
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "5. Mountaineer Brigade"
+		location = 979
+		division_template = "Mountaineer Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "6. Mountaineer Brigade"
+		location = 404
+		division_template = "Mountaineer Brigade"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.0
+		start_equipment_factor = 1.0
+	}
+        division = {
+                name = "7. Mountaineer Brigade"
+		location = 6039
+		division_template = "Mountaineer Brigade"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
 		start_equipment_factor = 1.0
 	}
 }
