@@ -1,5 +1,21 @@
 oob = "VKR"
-
+set_technology = {
+	infantry_weapons = 1
+    tech_support = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+	motorised_infantry = 1
+    advanced_medium_tank = 1
+	infantry_anti_tank_1 = 1
+	command_and_control1 = 1
+	bronetransporter_infantry = 1
+	medium_tank_gw = 1
+    mechanised_infantry = 1
+    bronetransporter_infantry = 1
+}
 set_global_flag = {
 	flag = cry_vkr_escal_flag
 	value = 1
@@ -10,17 +26,7 @@ set_research_slots = 2
 set_stability = 0.3
 set_war_support = 0.4
 add_command_power = 25
-set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
-	basic_train = 1
-        tech_support = 1
-	motorised_infantry = 1
-        advanced_medium_tank = 1
-}
+
 add_equipment_to_stockpile = {
         type = infantry_equipment_1
         amount = 4948
@@ -46,7 +52,7 @@ add_equipment_to_stockpile = {
 
 }
 add_equipment_to_stockpile = {
-        type = medium_tank_equipment_3
+        type = medium_tank_chassis_1
         amount = 205
 
 }
