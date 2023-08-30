@@ -107,6 +107,28 @@ defined_text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_EQS_WIN_CHN_PATERNALISM
 	}
 	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = TAI
+			}
+			event_target:winning_country = {
+				original_tag = STI
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_STI_WIN_TAI
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = STI
+			}
+			event_target:winning_country = {
+				original_tag = TAI
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_TAI_WIN_STI
+	}
+	text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_DEFAULT
 	}
 }
