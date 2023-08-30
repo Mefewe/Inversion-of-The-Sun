@@ -9,7 +9,14 @@ state={
         owner = SDL
         add_core_of = SDL
     }
+
+        resources = {
+        aluminium = 2
+        tungsten = 1
+        oil = 5
+        }
+
 	state_category = city
-	manpower=0
+	manpower=759192
 	buildings_max_level_factor=1.000
 }

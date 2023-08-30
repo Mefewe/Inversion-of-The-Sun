@@ -8,7 +8,13 @@ state={
         owner = SDL
         add_core_of = SDL
     }
+
+        resources = {
+        steel = 1
+        tungsten = 1
+        }
+
 	state_category = pastoral
-	manpower=0
+	manpower=1401
 	buildings_max_level_factor=1.000
 }

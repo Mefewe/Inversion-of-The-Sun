@@ -1,21 +1,33 @@
-﻿capital = 492
-recruit_character = SDL_Monarch
-set_stability = 0.4
-set_war_support = 0.2
+﻿oob = "SDL_CONF"
+
+capital = 492
+recruit_character = SDL_CONF_Sylva_Sandstre
+set_stability = 0.3
+set_war_support = 0.6
 set_cosmetic_tag = SDL_CONF
+send_embargo = CHN
+send_embargo = MRT
+send_embargo = CAR
+send_embargo = VRB
+send_embargo = FRD
+send_embargo = KLG
+send_embargo = DMN
 set_technology = {
 	infantry_weapons = 1
+        tech_support = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	basic_train = 1
+	motorised_infantry = 1
+        advanced_medium_tank = 1
 }
 add_ideas = {
 		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
+		low_economic_mobilisation
+		limited_conscription
+		free_trade
 	}
 set_politics = {
 	ruling_party = paternalism

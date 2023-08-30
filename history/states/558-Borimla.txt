@@ -8,7 +8,12 @@ state={
         owner = SDL
         add_core_of = SDL
     }
+
+        resources = {
+        aluminium = 1
+        }
+
 	state_category = rural
-	manpower=0
+	manpower=96283
 	buildings_max_level_factor=1.000
 }
