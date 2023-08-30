@@ -1,4 +1,38 @@
 conversion_tanks = {
+	add_modern_armor_to_army = {
+
+		icon = generic_civil_support
+		visible = {
+			has_tech = main_battle_tank_chassis
+		}
+		available = {
+			has_tech = main_battle_tank_chassis
+		}
+		fire_only_once = no
+		
+		cost = 25
+
+		days_remove = 7
+		complete_effect = {
+			hidden_effect = {
+				set_technology = {
+					mbt_in_batallions = 1
+					popup = no
+				}	
+			}
+			custom_effect_tooltip = add_modern_armor_to_army_tt
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_equipment = {
+					modern_tank_chassis > 100
+				}
+				factor = 5
+			}
+		}
+	}
 	converse_mt_to_mbt = {
 
 		icon = generic_civil_support

@@ -5,3 +5,5 @@
  converse_tanks_tt: "Мы произвели не более 10 конверсий танков"
  conversion_tanks: "Конверсия танков"
  converse_mt_to_mbt: "Конверсировать средние танки в ОБТ"
+ add_modern_armor_to_army: "Заменить средние танки на ОБТ"
+ add_modern_armor_to_army_tt: "Мы заменим наши старые средние танки на соверменные ОБТ!"

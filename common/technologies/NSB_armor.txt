@@ -118,7 +118,6 @@ technologies = {
 
 		categories = {
 			armor
-			cat_medium_armor
 		}
 	}
 
@@ -303,12 +302,6 @@ technologies = {
 		enable_subunits = {
 			modern_armor
 		}
-		modern_armor = {
-			need = {
-				medium_tank_chassis = -50
-				modern_tank_chassis = 50
-			}
-		}
 		research_cost = 2.5
 		start_year = 1771
 
@@ -338,7 +331,6 @@ technologies = {
 
 		categories = {
 			armor
-			cat_medium_armor
 		}
 	}
 
@@ -771,6 +763,14 @@ technologies = {
 		
 		categories = {
 			armor
+		}
+	}
+	mbt_in_batallions = {
+		modern_armor = {
+			need = {
+				medium_tank_chassis = -50
+				modern_tank_chassis = 50
+			}
 		}
 	}
 }
