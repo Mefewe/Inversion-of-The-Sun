@@ -13,3 +13,14 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+
+shared_focus = {
+	id = SDL_convent
+
+	icon = GFX_focus_icon_TAI_novyj_god_icon_focus
+	cost = 1
+	x = 12
+	y = 0
+	completion_reward = { 
+	}
+}

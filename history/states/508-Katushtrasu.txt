@@ -8,10 +8,18 @@ state={
 		victory_points = {945 15}
 		victory_points = {1502 10}
 		victory_points = {6040 5}
+		victory_points = {6181 20}
         owner = SDL
         add_core_of = SDL
     }
+
+        resources = {
+        aluminium = 1
+        tungsten = 1
+        oil = 3
+        }
+
 	state_category = city
-	manpower=0
+	manpower=602771
 	buildings_max_level_factor=1.000
 }
