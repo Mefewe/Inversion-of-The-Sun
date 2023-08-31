@@ -1,13 +1,13 @@
 characters = {
-	FRZ_Kreisleiter = {
-		name = FRZ_Kreisleiter
+	FRZ_Virta_Bgurabi = {
+		name = FRZ_Virta_Bgurabi
 		portraits = {
 			civilian = {
-				large = GFX_FRZ_Kreisleiter_L
+				large = GFX_FRZ_Virta_Bgurabi_L
 			}
 		}
 		country_leader = {
-            desc="FRZ_Kreisleiter_desc"
+            desc="FRZ_Virta_Bgurabi_desc"
 			ideology = fascism_ideology
 			traits = {  }
 			expire = "2000.3.1.1"

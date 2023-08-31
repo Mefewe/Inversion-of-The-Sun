@@ -1,0 +1,17 @@
+state={
+	id=629
+	name="STATE_629"
+	provinces={
+		1410 1488 2184 2478 2639 2767 2905 4088 4405 6772 6785 6798 6817 6818 6821 6862 6891 6913 6951 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+        buildings = {
+                infrastructure = 3
+        }
+    }
+        state_category = rural
+	manpower=578192
+	buildings_max_level_factor=1.000
+}

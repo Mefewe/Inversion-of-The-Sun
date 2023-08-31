@@ -1,0 +1,17 @@
+state={
+	id=578
+	name="STATE_578"
+	provinces={
+		1739 1888 3105 3692 4454 6528 6558 6559 6596 6597 6634 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = rural
+	manpower=309718
+	buildings_max_level_factor=1.000
+}

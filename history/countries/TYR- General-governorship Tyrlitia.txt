@@ -1,5 +1,5 @@
-﻿capital = 612
-recruit_character = TYR_Kreisleiter
+﻿capital = 678
+recruit_character = TYR_Mgabe_Zurasi
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {

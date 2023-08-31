@@ -1,0 +1,17 @@
+state={
+	id=746
+	name="STATE_746"
+	provinces={
+		476 667 861 1074 1325 1459 1762 2336 2492 3062 3380 3543 3962 4321 4691 4719 7116 7155 7208 7228 7238 7259 7269 7288 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = town
+	manpower=597629
+	buildings_max_level_factor=1.000
+}

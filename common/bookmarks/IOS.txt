@@ -148,6 +148,45 @@ bookmarks = {
 			}
 		}
 
+		"OZB"={
+        	minor = yes
+			history = "OZB_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"TYR"={
+        	minor = yes
+			history = "TYR_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"FRZ"={
+        	minor = yes
+			history = "FRZ_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
 		"CRY"={
         	minor = yes
 			history = "CRY_IOS_S_DESC"

@@ -31,4 +31,8 @@ spriteTypes = {
         name = GFX_SDL_CONF_Sylva_Sandstre_L
         texturefile = gfx/leaders/SDL_CONF/portrait_Sylva.dds
     }
+	spriteType = {
+        name = GFX_TYR_Mgabe_Zurasi_L
+        texturefile = gfx/leaders/TYR/portrait_Mgabe.dds
+    }
 }

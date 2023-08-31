@@ -1,13 +1,13 @@
 characters = {
-TYR_Kriesleiter = {
-		name = TYR_Kreisleiter
+TYR_Mgabe_Zurasi = {
+		name = TYR_Mgabe_Zurasi
 		portraits = {
 			civilian = {
-				large = GFX_TYR_Kriesleiter_L
+				large = GFX_TYR_Mgabe_Zurasi_L
 			}
 		}
 		country_leader = {
-                        desc="TYR_Kriesleiter_desc"
+                        desc="TYR_Mgabe_Zurasi_desc"
 			ideology = fascism_ideology
 			traits = {  }
 			expire = "2000.3.1.1"

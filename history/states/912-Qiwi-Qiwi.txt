@@ -1,0 +1,14 @@
+state={
+	id=912
+	name="STATE_912"
+	provinces={
+		396 674 798 2413 7835 7859 7877 7879 7901 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+    }
+        state_category = pastoral
+	manpower=20817
+	buildings_max_level_factor=1.000
+}

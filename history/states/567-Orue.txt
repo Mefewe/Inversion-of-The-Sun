@@ -1,0 +1,17 @@
+state={
+	id=567
+	name="STATE_567"
+	provinces={
+		2738 3504 3829 6452 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+        buildings = {
+                infrastructure = 1
+        }
+    }
+        state_category = pastoral
+	manpower=108283
+	buildings_max_level_factor=1.000
+}

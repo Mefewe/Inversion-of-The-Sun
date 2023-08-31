@@ -1,0 +1,26 @@
+focus_tree = {
+	id = FRZ_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = FRZ
+		}
+	}
+	shared_focus = FRZ_focus1
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+shared_focus = {
+	id = FRZ_focus1
+
+	icon = GFX_focus_icon_TAI_novyj_god_icon_focus
+	cost = 1
+	x = 12
+	y = 0
+	completion_reward = { 
+	}
+}

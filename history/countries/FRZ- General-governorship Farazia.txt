@@ -1,5 +1,5 @@
 ﻿capital = 781
-recruit_character = FRZ_Kreisleiter
+recruit_character = FRZ_Virta_Bgurabi
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {

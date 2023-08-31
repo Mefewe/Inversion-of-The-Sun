@@ -1,0 +1,17 @@
+state={
+	id=823
+	name="STATE_823"
+	provinces={
+		394 484 539 1207 1453 1962 2213 3084 3827 3920 3935 4090 4093 4515 7619 7650 7686 7709 7739 
+	}
+	history={
+        owner = FRZ
+        add_core_of = FRZ
+        buildings = {
+                infrastructure = 1
+        }
+    }
+        state_category = rural
+	manpower=581928
+	buildings_max_level_factor=1.000
+}

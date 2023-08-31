@@ -1,0 +1,14 @@
+state={
+	id=562
+	name="STATE_562"
+	provinces={
+		3314 4077 6453 6461 6495 
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+    }
+        state_category = pastoral
+	manpower=22649
+	buildings_max_level_factor=1.000
+}

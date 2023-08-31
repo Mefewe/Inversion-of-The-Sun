@@ -1,0 +1,17 @@
+state={
+	id=756
+	name="STATE_756"
+	provinces={
+		568 2056 2510 3418 3906 4709 4831 7209 7252 7345 7410 7192
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = rural
+	manpower=691078
+	buildings_max_level_factor=1.000
+}
