@@ -23,4 +23,12 @@ spriteTypes = {
         name = GFX_TAI_Shafrut_Osh_Parlavu_L
         texturefile = gfx/leaders/TAI/portrait_Shafrut_Osh_Parlavu.dds
     }
+	spriteType = {
+        name = GFX_OZB_Kreisleiter_Dreadful_Durays_L
+        texturefile = gfx/leaders/OZB/portrait_Durays.dds
+    }
+	spriteType = {
+        name = GFX_SDL_CONF_Sylva_Sandstre_L
+        texturefile = gfx/leaders/SDL_CONF/portrait_Sylva.dds
+    }
 }

@@ -28,6 +28,9 @@ send_embargo = VRB
 send_embargo = FRD
 send_embargo = KLG
 send_embargo = DMN
+send_embargo = TYR
+send_embargo = FRZ
+send_embargo = OZB
 
 add_equipment_to_stockpile = {
          type = medium_tank_chassis_1

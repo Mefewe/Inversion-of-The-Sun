@@ -1,0 +1,18 @@
+state={
+	id=212
+	name="STATE_212"
+	provinces={
+		44 2294 3736 3913 6326 6330 6365 6376 6377 6414 6449 6457 6489 6532 
+	}
+	history={
+	owner = SDL
+	add_core_of = SDL
+        add_core_of = GRF
+        buildings = {
+                infrastructure = 3
+        }
+    }
+        state_category = town
+	manpower=491287
+	buildings_max_level_factor=1.000
+}

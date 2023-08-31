@@ -7,6 +7,9 @@ state={
 	history={
         owner = SDL
         add_core_of = SDL
+        buildings = {
+                infrastructure = 3
+        }
     }
 
         resources = {

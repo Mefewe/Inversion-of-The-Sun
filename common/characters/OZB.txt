@@ -1,13 +1,13 @@
 characters = {
-OZB_Kriesleiter = {
-		name = OZB_Kreisleiter
+OZB_Kreisleiter_Dreadful_Durays = {
+		name = OZB_Kreisleiter_Dreadful_Durays
 		portraits = {
 			civilian = {
-				large = GFX_OZB_Kriesleiter_L
+				large = GFX_OZB_Kreisleiter_Dreadful_Durays_L
 			}
 		}
 		country_leader = {
-                        desc="OZB_Kriesleiter_desc"
+                        desc="OZB_Kreisleiter_Dreadful_Durays_desc"
 			ideology = fascism_ideology
 			traits = {  }
 			expire = "2000.3.1.1"

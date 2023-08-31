@@ -1,0 +1,18 @@
+state={
+	id=647
+	name="STATE_647"
+	provinces={
+		545 1594 1639 1641 2608 2746 3373 3494 4634 4779 6747 6796 6846 6883 6888 6925 6977 
+	}
+	history={
+	owner = SDL
+	add_core_of = SDL
+        add_core_of = FEA
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = rural
+	manpower=712635
+	buildings_max_level_factor=1.000
+}

@@ -10,6 +10,9 @@ state={
 		}
         owner = SDL
         add_core_of = SDL
+        buildings = {
+                infrastructure = 2
+        }
     }
 
         resources = {

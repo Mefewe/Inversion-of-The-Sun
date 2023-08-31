@@ -1,0 +1,26 @@
+state={
+	id=408
+	name="STATE_408"
+	provinces={
+		1708 2352 3200 3426 3857 4875 5753 5766 5818 5819 5832 
+	}
+	history={
+        owner = SDL
+	add_core_of = SDL
+        add_core_of = WNG
+        buildings = {
+                infrastructure = 4
+        }
+    }
+
+        resources = {
+        steel = 12
+        tungsten = 8
+        oil = 2
+        chromium = 7
+        }
+
+	manpower=716041
+        state_category = town
+	buildings_max_level_factor=1.000
+}

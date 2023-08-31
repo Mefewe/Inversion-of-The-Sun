@@ -9,6 +9,9 @@ state={
 		victory_points = {979 20}
         owner = SDL
         add_core_of = SDL
+        buildings = {
+                infrastructure = 2
+        }
     }
 
         resources = {

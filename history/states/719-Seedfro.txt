@@ -1,0 +1,18 @@
+state={
+	id=719
+	name="STATE_719"
+	provinces={
+		1755 7020 
+	}
+	history={
+	owner = SDL
+	add_core_of = SDL
+        add_core_of = BCK
+        buildings = {
+                infrastructure = 3
+        }
+    }
+        state_category = city
+	manpower=810800
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=706
+	name="STATE_706"
+	provinces={
+		629 1170 2662 3896 3986 4759 4772 7047 7104 
+	}
+	history={
+	owner = SDL
+	add_core_of = SDL
+        add_core_of = LBR
+        buildings = {
+                infrastructure = 5
+        }
+    }
+        state_category = town
+	manpower=501987
+	buildings_max_level_factor=1.000
+}

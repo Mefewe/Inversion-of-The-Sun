@@ -5,10 +5,14 @@ state={
 		6267 
 	}
 	history={
-		owner = SDL
-		add_core_of = SDL
+	owner = SDL
+	add_core_of = SDL
         add_core_of = GRF
+        buildings = {
+                infrastructure = 6
+        }
     }
-	manpower=0
+        state_category = large_city
+	manpower=1132764
 	buildings_max_level_factor=1.000
 }

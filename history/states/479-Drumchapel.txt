@@ -1,0 +1,18 @@
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		967 3051 3702 6148 
+	}
+	history={
+	owner = SDL
+	add_core_of = SDL
+        add_core_of = GRF
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = town
+	manpower=408127
+	buildings_max_level_factor=1.000
+}

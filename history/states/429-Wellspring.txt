@@ -1,0 +1,27 @@
+state={
+	id=429
+	name="STATE_429"
+	provinces={
+		869 1956 2863 3369 3545 5837 5878 5879 5889 5924 5930 5936 
+	}
+	history={
+        owner = SDL
+	add_core_of = SDL
+        add_core_of = WNG
+        buildings = {
+                infrastructure = 2
+        }
+    }
+
+        resources = {
+        steel = 10
+        aluminium = 8
+        tungsten = 7
+        oil = 3
+        rubber = 6
+        }
+
+	manpower=907519
+        state_category = city
+	buildings_max_level_factor=1.000
+}
