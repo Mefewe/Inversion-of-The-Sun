@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
 		name = "IOS_S_NAME"
-		desc = "IOS_S_NAME"
+		desc = "IOS_S_NAME_desc"
 		date = 1770.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "OEF"

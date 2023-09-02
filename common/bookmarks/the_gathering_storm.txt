@@ -1,0 +1,222 @@
+bookmarks = {
+	bookmark = {
+		name = "IOS_S_NAME"
+		desc = "IOS_S_NAME"
+		date = 1770.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "OEF"
+		default = yes
+		"CHN"={
+			history = "CHN_IOS_S_DESC"
+			ideology = fascism
+			available = {  }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"OEF"={
+			history = "OEF_IOS_S_DESC"
+			ideology = democratic
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"EQS"={
+			history = "EQS_IOS_S_DESC"
+			ideology = neutrality
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"STR"={
+			history = "STR_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+                        str_regent_whitesiden
+                        str_defeat
+                        str_metazoa_agreement
+			}
+			focuses = {
+                        STR_my_san_ajroku
+                        STR_goppogrifij_barjer
+                        STR_istrebitelj_duo
+			}
+		}
+
+		"SDL"={
+			history = "SDL_CONF_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "IOS_S_NAME_DESC"
+		}
+		"VRB"={
+            minor = yes
+			history = "VBT_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"KLG"={
+            minor = yes
+			history = "KLG_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"MRT"={
+            minor = yes
+			history = "MRT_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"DMN"={
+            minor = yes
+			history = "DMN_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"FRD"={
+            minor = yes
+			history = "FRD_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"CAR"={
+        	minor = yes
+			history = "DMN_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"OZB"={
+        	minor = yes
+			history = "OZB_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"TYR"={
+        	minor = yes
+			history = "TYR_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"FRZ"={
+        	minor = yes
+			history = "FRZ_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"CRY"={
+        	minor = yes
+			history = "CRY_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"VKR"={
+        	minor = yes
+			history = "VKR_IOS_S_DESC"
+			ideology = progressivism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
