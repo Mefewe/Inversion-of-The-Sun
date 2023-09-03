@@ -4,11 +4,18 @@ state={
 	provinces={
 		954 1405 1521 1626 2465 7000 
 	}
+	resources = {
+		aluminium = 5
+	}
 	history={
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+		}
         owner = TAI
         add_core_of = TAI
     }
-	manpower=0
+	manpower=183928
 	buildings_max_level_factor=1.000
 	state_category = town
 }

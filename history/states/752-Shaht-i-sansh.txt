@@ -4,6 +4,11 @@ state={
 	provinces={
 		2910 3033 3048 3293 4084 7174 7176 
 	}
+	resources = {
+		oil = 30
+		steel = 12
+		rubber = 4
+	}
 	history={
 		add_building_construction = {
 			type = infrastructure

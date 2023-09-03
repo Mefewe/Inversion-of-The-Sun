@@ -4,6 +4,12 @@ state={
 	provinces={
 		354 1719 2049 4198 4701 7308 7322 7341 7369 7406 7426 7454 7475 9108
 	}
+	resources = {
+		oil = 25
+		aluminium = 10
+		steel = 15
+		tungsten = 5
+	}
 	history={
 		add_building_construction = {
 			type = infrastructure
