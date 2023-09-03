@@ -9,7 +9,12 @@ state={
     provinces={
             2027 7407
     }
-
+    resources = {
+        steel = 32
+        aluminium = 10
+        tungsten =  12
+        chromium = 5       
+    }
     history={
         add_building_construction = {
             type = infrastructure
@@ -28,7 +33,7 @@ state={
 		}
 		victory_points = {
 			2027 25
-		}
+		}      
         owner = TAI
         add_core_of = TAI
     }
