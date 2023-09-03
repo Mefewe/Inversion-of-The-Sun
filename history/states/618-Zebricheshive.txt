@@ -5,6 +5,7 @@ state={
 		1283 1578 1967 3239 
 	}
 	history={
+	victory_points = {1283 30}
         owner = OZB
         add_core_of = OZB
         buildings = {

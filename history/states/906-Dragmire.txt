@@ -5,6 +5,7 @@ state={
 		675 2010 2675 3336 7761 7779 
 	}
 	history={
+	victory_points = {7779 30}
         owner = DRG
         add_core_of = DRG
         buildings = {
