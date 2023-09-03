@@ -1,0 +1,14 @@
+state={
+	id=371
+	name="STATE_371"
+	provinces={
+		300 662 1810 2062 3349 4101 7897 7917 7943 
+	}
+	history={
+        owner = DRG
+        add_core_of = DRG
+    }
+        state_category = pastoral
+	manpower=59187
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=901
+	name="STATE_901"
+	provinces={
+		867 1727 2329 2758 4011 4158 4497 7723 7742 7751 7808 
+	}
+	history={
+        owner = DRG
+        add_core_of = DRG
+        buildings = {
+                infrastructure = 2
+        }
+    } 
+        state_category = rural
+	manpower=300182
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=821
+	name="STATE_821"
+	provinces={
+		31 815 1439 1529 1567 1602 2784 4532 4770 4895 7480 7498 7512 7542 7549 7562 7577 7581 7601 7621 7626 7649 7658 7698 
+	}
+	history={
+        owner = DRG
+        add_core_of = DRG
+        buildings = {
+                infrastructure = 1
+        }
+    }
+        state_category = rural
+	manpower=203182
+	buildings_max_level_factor=1.000
+}

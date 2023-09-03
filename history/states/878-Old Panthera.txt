@@ -1,0 +1,17 @@
+state={
+	id=878
+	name="STATE_878"
+	provinces={
+		69 1670 2816 3416 4806 8058 8064 8069 8079 8087 
+	}
+	history={
+        owner = UNC
+        add_core_of = UNC
+        buildings = {
+                infrastructure = 1
+        }
+    }
+        state_category = rural
+	manpower=930
+	buildings_max_level_factor=1.000
+}

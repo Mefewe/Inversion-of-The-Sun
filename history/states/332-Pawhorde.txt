@@ -1,0 +1,17 @@
+state={
+	id=332
+	name="STATE_332"
+	provinces={
+		62 1574 2321 2520 8108 8110 8125 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = town
+	manpower=691827
+	buildings_max_level_factor=1.000
+}

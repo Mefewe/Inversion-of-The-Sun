@@ -1,0 +1,17 @@
+state={
+	id=892
+	name="STATE_892"
+	provinces={
+		2734 2839 2986 3441 3960 8050 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+        buildings = {
+                infrastructure = 4
+        }
+    }
+        state_category = rural
+	manpower=201762
+	buildings_max_level_factor=1.000
+}

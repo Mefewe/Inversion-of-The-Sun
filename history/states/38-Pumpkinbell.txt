@@ -1,0 +1,14 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		1416 1740 8135 
+	}
+	history={
+        owner = UNC
+        add_core_of = UNC
+    }
+        state_category = rural
+	manpower=3208
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=565
+	name="STATE_565"
+	provinces={
+		35 2084 3091 3888 3894 7957 7978 8001 8026 8036 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = rural
+	manpower=272893
+	buildings_max_level_factor=1.000
+}

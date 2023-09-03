@@ -1,0 +1,17 @@
+state={
+	id=858
+	name="STATE_858"
+	provinces={
+		247 1821 
+	}
+	history={
+        owner = DRG
+        add_core_of = DRG
+        buildings = {
+                infrastructure = 1
+        }
+    }
+        state_category = rural
+	manpower=238811
+	buildings_max_level_factor=1.000
+}

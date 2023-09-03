@@ -1,0 +1,14 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+	 1589 3068 
+	}
+	history={
+        owner = UNC
+        add_core_of = UNC
+    }
+        state_category = pastoral
+	manpower=1039
+	buildings_max_level_factor=1.000
+}

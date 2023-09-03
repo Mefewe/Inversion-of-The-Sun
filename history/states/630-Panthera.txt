@@ -1,0 +1,17 @@
+state={
+	id=630
+	name="STATE_630"
+	provinces={
+		53 480 604 1096 3125 4733 7930 7950 7986 
+	}
+	history={
+        owner = OZB
+        add_core_of = OZB
+        buildings = {
+                infrastructure = 3
+        }
+    }
+        state_category = large_city
+	manpower=1608172
+	buildings_max_level_factor=1.000
+}
