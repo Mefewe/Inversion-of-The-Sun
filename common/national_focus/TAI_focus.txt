@@ -25,15 +25,86 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = TAI_sobranie_opolchenija
+	id = TAI_proveritj_dvor
 	prerequisite = {
 		focus = TAI_novyj_god
 	}
 	icon = GFX_focus_generic_home_defense
-	cost = 5
-	x = 12
+	cost = 3
+	x = 10
 	y = 1
 	completion_reward = { 
+		country_event = TAI.6
+	}
+}
+shared_focus = {
+	id = TAI_privezti_novyje_generatory
+	prerequisite = {
+		focus = TAI_novyj_god
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 2
+	x = 14
+	y = 1
+	completion_reward = { 
+		country_event = TAI.4
+	}
+}
+shared_focus = {
+	id = TAI_sobranie_opolchenija
+	prerequisite = {
+		focus = TAI_privezti_novyje_generatory
+	}
+	prerequisite = {
+		focus = TAI_proveritj_dvor
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+	x = 12
+	y = 2
+	completion_reward = { 
 		country_event = TAI.2
+	}
+}
+
+shared_focus = {
+	id = TAI_v_putj
+	prerequisite = {
+		focus = TAI_sobranie_opolchenija
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 2
+	x = 12
+	y = 3
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = {
+	id = TAI_uzhnaja_granica
+	prerequisite = {
+		focus = TAI_v_putj
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 2
+	x = 8
+	y = 4
+	completion_reward = { 
+		country_event = TAI.5
+	}
+}
+
+shared_focus = { #Табриз
+	id = TAI_severnyj_port 
+	prerequisite = {
+		focus = TAI_v_putj
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 2
+	x = 10
+	y = 4
+	completion_reward = { 
+		country_event = TAI.7
 	}
 }

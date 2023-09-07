@@ -87,3 +87,75 @@ country_event = { #ивент о жизни простого кирина в н�
 		add_political_power = 100
 	}
 }
+
+country_event = { #Генераторы прибыли!
+	id = TAI.4
+	picture = GFX_0
+	title = TAI.4.title
+	desc = TAI.4.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.4.1
+		add_stability = 0.02
+		add_political_power = 100
+	}
+}
+
+country_event = { #Южный военный округ
+	id = TAI.5
+	picture = GFX_0
+	title = TAI.5.title
+	desc = TAI.5.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.5.1
+		add_victory_points = {
+			province = 2946
+			value = 1
+		}
+		840 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 2946
+			}
+		}
+		custom_effect_tooltip = tai5effecttt
+		hidden_effect = {
+			load_oob = TAI_1
+		}
+	}
+}
+
+country_event = { #Чистка у шахского двора
+	id = TAI.6
+	picture = GFX_0
+	title = TAI.6.title
+	desc = TAI.6.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.6.1
+		add_stability =  0.05
+		add_political_power = 200
+	}
+}
+
+country_event = { #про поездку в Табриз
+	id = TAI.7
+	picture = GFX_0
+	title = TAI.7.title
+	desc = TAI.7.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.7.1
+
+	}
+}
