@@ -35,4 +35,12 @@ spriteTypes = {
         name = GFX_TYR_Mgabe_Zurasi_L
         texturefile = gfx/leaders/TYR/portrait_Mgabe.dds
     }
+	spriteType = {
+        name = GFX_FRZ_Virta_Bgurabi_L
+        texturefile = gfx/leaders/FRZ/portrait_Virta.dds
+    }
+	spriteType = {
+        name = GFX_DRG_Ember_L
+        texturefile = gfx/leaders/DRG/portrait_Ember.dds
+    }
 }
