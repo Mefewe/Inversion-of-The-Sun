@@ -1,0 +1,84 @@
+OZB = {
+    navy = {
+        male = {
+            "GFX_portrait_unknown"
+        }
+        female = {
+            "GFX_portrait_unknown"
+        }
+    }
+
+    army = {
+        male = {
+            "GFX_OZB_Army_1"
+            "GFX_OZB_Army_3"
+            "GFX_OZB_Army_4"
+            "GFX_OZB_Army_5"
+        }
+        female = {
+            "GFX_OZB_Army_2"
+            "GFX_OZB_Army_6"
+            "GFX_OZB_Army_7"
+        }
+    }
+
+    operative = {
+        male = {
+            "GFX_portrait_unknown"
+        }
+        female = {
+            "GFX_portrait_unknown"
+        }
+    }
+
+    political = {
+        fascism = {
+            male = {
+                "GFX_portrait_unknown"
+            }
+            female = {
+                "GFX_portrait_unknown"
+            }
+        }
+        democratic = {
+            male = {
+                "GFX_portrait_unknown"
+            }
+            female = {
+                "GFX_portrait_unknown"
+            }
+        }
+        communism = {
+            male = {
+                "GFX_portrait_unknown"
+            }
+            female = {
+                "GFX_portrait_unknown"
+            }
+        }
+        neutrality = {
+            male = {
+                "GFX_portrait_unknown"
+            }
+            female = {
+                "GFX_portrait_unknown"
+            }
+        }
+        paternalism = {
+            male = {
+                "GFX_portrait_unknown"
+            }
+            female = {
+                "GFX_portrait_unknown"
+            }
+        }
+        progressivism = {
+            male = {
+                "GFX_portrait_unknown"
+            }
+            female = {
+                "GFX_portrait_unknown"
+            }
+        }
+    }
+}

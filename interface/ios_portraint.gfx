@@ -1,4 +1,45 @@
 spriteTypes = {
+
+    ### OZB Pool ###
+	
+	spriteType = {
+        name = GFX_OZB_Army_1
+        texturefile = gfx/leaders/OZB/OZB_Pool/OZB_Army_1.dds
+    }	
+	spriteType = {
+        name = GFX_OZB_Army_2
+        texturefile = gfx/leaders/OZB/OZB_Pool/OZB_Army_2.dds
+    }	
+	spriteType = {
+        name = GFX_OZB_Army_3
+        texturefile = gfx/leaders/OZB/OZB_Pool/OZB_Army_3.dds
+    }	
+	spriteType = {
+        name = GFX_OZB_Army_4
+        texturefile = gfx/leaders/OZB/OZB_Pool/OZB_Army_4.dds
+    }	
+	spriteType = {
+        name = GFX_OZB_Army_5
+        texturefile = gfx/leaders/OZB/OZB_Pool/OZB_Army_5.dds
+    }	
+	spriteType = {
+        name = GFX_OZB_Army_6
+        texturefile = gfx/leaders/OZB/OZB_Pool/OZB_Army_6.dds
+    }	
+	spriteType = {
+        name = GFX_OZB_Army_7
+        texturefile = gfx/leaders/OZB/OZB_Pool/OZB_Army_7.dds
+    }	
+
+    ### Zerbican zebras culture ###
+	
+	spriteType = {
+        name = "GFX_idea_zebra_1_zebrica_zebra_2d"
+        texturefile = gfx/leaders/leader_unknown.dds
+    }
+
+
+
     spriteType = {
         name = GFX_EQS_Twilight_Sparkle_L
         texturefile = gfx/leaders/EQS/twilight.dds
