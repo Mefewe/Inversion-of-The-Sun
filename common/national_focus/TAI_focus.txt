@@ -108,3 +108,17 @@ shared_focus = { #Табриз
 		country_event = TAI.7
 	}
 }
+
+shared_focus = { #Хуф Шхабад
+	id = TAI_Huf_Shhabad
+	prerequisite = {
+		focus = TAI_v_putj
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 2
+	x = 14
+	y = 4
+	completion_reward = { 
+		country_event = TAI.8
+	}
+}

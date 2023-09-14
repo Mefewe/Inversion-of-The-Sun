@@ -156,6 +156,30 @@ country_event = { #про поездку в Табриз
 
 	option = {
 		name = TAI.7.1
+		
+	}
+}
 
+country_event = { #про поездку на запад
+	id = TAI.8
+	picture = GFX_0
+	title = TAI.8.title
+	desc = TAI.8.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.8.1
+		add_political_power = 50
+		ai_chance = {
+			base = 0
+		}
+	}
+	option = {
+		name = TAI.8.2
+		add_stability = 0.05
+		ai_chance = {
+			base = 1
+		}
 	}
 }
