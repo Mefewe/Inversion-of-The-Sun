@@ -9,6 +9,10 @@ ideologies = {
 			}
 
 			moderate_social_valterists = {
+
+			}
+			extrimistki_modernizm = {
+				can_be_randomly_selected = no
 			}
 		}
 

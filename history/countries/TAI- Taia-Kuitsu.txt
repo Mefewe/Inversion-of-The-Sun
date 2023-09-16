@@ -14,8 +14,8 @@ add_ideas = {
 		#laws
 		ustarevshaja_strana
 		netu_armiji
-		war_economy
-		service_by_requirement
+		civilian_economy
+		volunteer_only
 		closed_economy
 	}
 set_politics = {

@@ -13,6 +13,22 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+focus_tree = {
+	id = TAI_focus_tree_two_a
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TAI
+		}
+	}
+	shared_focus = TAI_novyj_god
+	shared_focus = TAI_CHP
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
 shared_focus = {
 	id = TAI_novyj_god
 
@@ -120,5 +136,59 @@ shared_focus = { #Хуф Шхабад
 	y = 4
 	completion_reward = { 
 		country_event = TAI.8
+	}
+}
+
+shared_focus = { #Шахт-и-Санш
+	id = TAI_Shaht_i_Sansh
+	prerequisite = {
+		focus = TAI_v_putj
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 2
+	x = 16
+	y = 4
+	completion_reward = { 
+		country_event = TAI.9
+	}
+}
+
+shared_focus = { #Отчет
+	id = TAI_Otchet_po_sostojaniju
+	prerequisite = {
+		focus = TAI_Shaht_i_Sansh
+	}
+	prerequisite = {
+		focus = TAI_Huf_Shhabad
+	}
+	prerequisite = {
+		focus = TAI_severnyj_port
+	}
+	prerequisite = {
+		focus = TAI_uzhnaja_granica
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+	x = 12
+	y = 5
+	completion_reward = { 
+		country_event = TAI.10
+	}
+}
+
+###### Ветка Шохиншоства Тайа-Куйицу (злий шах!!)
+
+shared_focus = { #ЧП
+	id = TAI_CHP
+
+	icon = GFX_focus_generic_home_defense
+	cost = 1
+	available = {
+		always = no
+	}
+	x = 12
+	y = 7
+	completion_reward = { 
+		#country_event = TAI.11
 	}
 }

@@ -10,7 +10,7 @@ state={
 	}
 	history={
 		victory_points = {
-			3081 5
+			3081 10
 		}
 		add_building_construction = {
 			type = infrastructure

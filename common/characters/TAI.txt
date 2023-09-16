@@ -14,4 +14,11 @@ characters = {
 			id = -1
 		}
 	}
+	TAI_Meljbarr_Vallens = {
+		name = TAI_Meljbarr_Vallens		
+		portraits = {
+
+		}
+		
+	}
 }

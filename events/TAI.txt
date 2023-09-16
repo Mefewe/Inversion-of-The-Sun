@@ -113,10 +113,7 @@ country_event = { #Южный военный округ
 
 	option = {
 		name = TAI.5.1
-		add_victory_points = {
-			province = 2946
-			value = 1
-		}
+		add_victory_points = {province = 2946 value = 1}
 		840 = {
 			add_building_construction = {
 				type = bunker
@@ -181,5 +178,50 @@ country_event = { #про поездку на запад
 		ai_chance = {
 			base = 1
 		}
+	}
+}
+
+country_event = { #Шахт-и-Санш
+	id = TAI.9
+	picture = GFX_0
+	title = TAI.9.title
+	desc = TAI.9.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.9.1
+		add_victory_points = {province = 7176 value = 5}
+		752 = {
+			add_manpower = 10000
+		}
+	}
+}
+
+country_event = { #Отчет
+	id = TAI.10
+	picture = GFX_0
+	title = TAI.10.title
+	desc = TAI.10.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.10.1
+		hidden_effect = {
+			add_stability = 0.05
+			load_focus_tree = TAI_focus_tree_two_a
+			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = TAI_CHP
+			set_country_flag = TAI_hardline
+		}
+		custom_effect_tooltip = TAI.10.1.tt
+	}
+	option = {
+		name = TAI.10.2
+		hidden_effect = {
+			add_stability = 0.1
+		}
+		custom_effect_tooltip = TAI.10.2.tt
 	}
 }
