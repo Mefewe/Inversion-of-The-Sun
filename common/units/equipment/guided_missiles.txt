@@ -3,14 +3,10 @@ equipments = {
 	guided_missile_equipment = {
 		year = 1936
 
-		can_be_produced = {
-			NOT = {
-				has_idea = BUL_army_restrictions
-			}
-		}
-
 		allow_mission_type = {
 			strategic_bomber
+			attack_logistics	
+			port_strike	
 		}
 
 		is_archetype = yes
@@ -53,7 +49,6 @@ equipments = {
 		maximum_speed = 640
 		air_agility = 10
 		air_bombing = 300
-		
 		# build_cost_ic = 36
 	}
 
