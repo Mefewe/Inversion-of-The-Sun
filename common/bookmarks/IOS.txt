@@ -109,6 +109,49 @@ bookmarks = {
 			}
 		}
 
+		"UNC" = { minor = yes history = "" }
+
+		"VKR"={
+        	minor = yes
+			history = "VKR_IOS_S_DESC"
+			ideology = progressivism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+
+		"CRY"={
+        	minor = yes
+			history = "CRY_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+
 		"DMN"={
             minor = yes
 			history = "DMN_IOS_S_DESC"
@@ -147,6 +190,23 @@ bookmarks = {
 
 			}
 		}
+
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
 
 		"OZB"={
         	minor = yes
@@ -187,32 +247,20 @@ bookmarks = {
 			}
 		}
 
-		"CRY"={
-        	minor = yes
-			history = "CRY_IOS_S_DESC"
-			ideology = paternalism
-			available = { }
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-
-		"VKR"={
-        	minor = yes
-			history = "VKR_IOS_S_DESC"
-			ideology = progressivism
-			available = { }
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
+		"UNC" = { minor = yes history = "" }
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

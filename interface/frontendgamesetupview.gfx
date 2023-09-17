@@ -9,6 +9,24 @@ spriteTypes = {
 		name = "GFX_minor_portrait_overlay"
 		texturefile = "gfx/interface/minor_portrait_overlay.dds"
 	}
+	### bookmark thingo
+	spriteType = {
+		name = "GFX_country_overcoat1"
+		texturefile = "gfx/interface/country_overcoat1.dds"
+	}
+	spriteType = {
+		name = "GFX_country_overcoat2"
+		texturefile = "gfx/interface/country_overcoat2.dds"
+	}
+	spriteType = {
+		name = "GFX_country_overcoat3"
+		texturefile = "gfx/interface/country_overcoat3.dds"
+	}
+	spriteType = {
+		name = "GFX_country_overcoat4"
+		texturefile = "gfx/interface/country_overcoat4.dds"
+	}
+	###
 
 	spriteType = {
 		name = "GFX_enabled_achievement_icons"
