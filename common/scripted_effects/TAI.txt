@@ -1,0 +1,52 @@
+TAI_modernization_breakdown = {
+	699 = {
+		transfer_state_to = UNC
+	}
+	716 = {
+		transfer_state_to = UNC
+	}
+	717 = {
+		transfer_state_to = UNC
+	}
+	735 = {
+		transfer_state_to = UNC
+	}
+	815 = {
+		transfer_state_to = UNC
+	}
+	754 = {
+		transfer_state_to = UNC
+	}
+	684 = {
+		transfer_state_to = UNC
+	}
+	710 = {
+		transfer_state_to = UNC
+	}
+}
+TAI_won_UNC = {
+	699 = {
+		transfer_state_to = TAI
+	}
+	716 = {
+		transfer_state_to = TAI
+	}
+	717 = {
+		transfer_state_to = TAI
+	}
+	735 = {
+		transfer_state_to = TAI
+	}
+	815 = {
+		transfer_state_to = TAI
+	}
+	754 = {
+		transfer_state_to = TAI
+	}
+	684 = {
+		transfer_state_to = TAI
+	}
+	710 = {
+		transfer_state_to = TAI
+	}
+}

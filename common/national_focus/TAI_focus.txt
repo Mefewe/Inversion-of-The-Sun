@@ -189,6 +189,36 @@ shared_focus = { #ЧП
 	x = 12
 	y = 7
 	completion_reward = { 
-		#country_event = TAI.11
+		country_event = TAI.11
+	}
+}
+
+shared_focus = { #Дорога на Табриз
+	id = TAI_Doroga_na_Tabriz
+	prerequisite = {
+		focus = TAI_CHP
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 2
+
+	x = 12
+	y = 7
+	completion_reward = { 
+		country_event = TAI.12
+	}
+}
+
+shared_focus = { #
+	id = TAI_OEFI
+	prerequisite = {
+		focus = TAI_Doroga_na_Tabriz
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+
+	x = 10
+	y = 8
+	completion_reward = { 
+		country_event = TAI.15
 	}
 }

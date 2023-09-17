@@ -1,0 +1,15 @@
+TAI_reclamation = {
+	icon = generic_crisis
+	priority = 20
+	allowed = {
+		original_tag = TAI
+	}
+	visible = {
+		TAI = {
+			exists = yes
+			has_global_flag = TAI_UNC_WAR
+			has_completed_focus = TAI_Doroga_na_Tabriz
+		}
+		has_war = no
+	}
+}

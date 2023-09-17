@@ -157,3 +157,33 @@ on_actions = {
 		}
 	}
 }
+
+
+##########
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = TAI_UNC_WAR
+					TAI = {
+						has_war = yes
+						controls_state = 699
+						controls_state = 716
+						controls_state = 717
+						controls_state = 735
+						controls_state = 815
+						controls_state = 754
+						controls_state = 684
+						controls_state = 710
+					}
+				}
+				UNC = {
+					white_peace = TAI
+				}
+				TAI_won_UNC = yes
+				clr_global_flag = TAI_UNC_WAR
+			}
+		}
+	}
+}

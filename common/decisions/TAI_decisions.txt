@@ -1,0 +1,73 @@
+TAI_reclamation = {
+	TAI_take_Kirinshah = {
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 80
+		modifier = {
+			civilian_factory_use = 2
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 710
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			country_event = TAI.13
+			710 = {
+				transfer_state_to = TAI
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+				set_state_category = large_town
+			}
+			add_stability = 0.05
+		}
+	}
+	TAI_take_HSH = {
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = yes
+		cost = 100
+		available = {
+			controls_state = 710
+		}
+		days_remove = 80
+		modifier = {
+			civilian_factory_use = 3
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 684
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		complete_effect = {
+			country_event = TAI.14
+			684 = {
+				transfer_state_to = TAI
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+				set_state_category = city
+			}
+			add_stability = 0.05
+		}
+	}
+}

@@ -194,6 +194,7 @@ country_event = { #Шахт-и-Санш
 		add_victory_points = {province = 7176 value = 5}
 		752 = {
 			add_manpower = 10000
+			set_state_category = city
 		}
 	}
 }
@@ -214,14 +215,182 @@ country_event = { #Отчет
 			mark_focus_tree_layout_dirty = yes
 			complete_national_focus = TAI_CHP
 			set_country_flag = TAI_hardline
+			TAI_Shafrut_Osh_Parlavu = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = extrimistki_modernizm
+						desc = "TAI_Shafrut_Osh_Parlavu_desc_2"
+					} 
+					promote_leader = yes
+					character = TAI_Shafrut_Osh_Parlavu
+				}
+			}
+			TAI_Meljbarr_Vallens = {
+				add_advisor_role = {
+					advisor = { 
+						desc = "TAI_Meljbarr_Vallens_desc"
+						can_be_fired = no
+						idea_token = TAI_Meljbarr_Vallens_idea
+						slot = political_advisor
+					}
+				}
+			}
+		}
+		set_politics = {
+			ruling_party = democratic
+		}
+		activate_advisor = TAI_Meljbarr_Vallens_idea
+		add_popularity = {
+			ideology = democratic
+			popularity = 15
 		}
 		custom_effect_tooltip = TAI.10.1.tt
 	}
-	option = {
+	option = { #не готово
 		name = TAI.10.2
 		hidden_effect = {
-			add_stability = 0.1
+			add_stability = 0.15
+			#load_focus_tree = TAI_focus_tree_two_a
+			#mark_focus_tree_layout_dirty = yes
+			#complete_national_focus = TAI_CHP
+			TAI_Shafrut_Osh_Parlavu = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = neoharmonism
+						desc = "TAI_Shafrut_Osh_Parlavu_desc_3"
+					} 
+					promote_leader = yes
+					character = TAI_Shafrut_Osh_Parlavu
+				}
+			}
+			TAI_Meljbarr_Vallens = {
+				add_advisor_role = {
+					advisor = { 
+						desc = "TAI_Meljbarr_Vallens_desc"
+						can_be_fired = no
+						idea_token = TAI_Meljbarr_Vallens_idea
+						slot = political_advisor
+					}
+				}
+			}
+		}
+		set_politics = {
+			ruling_party = democratic
+		}
+		activate_advisor = TAI_Meljbarr_Vallens_idea
+		add_popularity = {
+			ideology = democratic
+			popularity = 20
 		}
 		custom_effect_tooltip = TAI.10.2.tt
+	}
+}
+country_event = { #ЧП
+	id = TAI.11
+	picture = GFX_0
+	title = TAI.11.title
+	desc = TAI.11.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.11.1
+		hidden_effect = {
+			TAI_modernization_breakdown = yes
+			set_global_flag = TAI_UNC_WAR
+		}
+		remove_ideas = ustarevshaja_strana
+		custom_effect_tooltip = TAI.11.1.tt
+	}
+}
+
+country_event = { #Дорога на Табриз
+	id = TAI.12
+	picture = GFX_0
+	title = TAI.12.title
+	desc = TAI.12.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.12.1
+		hidden_effect = {
+
+		}
+		custom_effect_tooltip = TAI.12.1.tt
+	}
+}
+
+country_event = { #Возвращаение КиринШаха
+	id = TAI.13
+	picture = GFX_0
+	title = TAI.13.title
+	desc = TAI.13.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.13.1
+
+	}
+}
+
+country_event = { #Возвращаение Хуф-шхабада
+	id = TAI.14
+	picture = GFX_0
+	title = TAI.14.title
+	desc = TAI.14.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.14.1
+
+	}
+}
+
+country_event = { #Консулы выходят в пони
+	id = TAI.15
+	picture = GFX_0
+	title = TAI.15.title
+	desc = TAI.15.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.15.1
+		hidden_effect = {
+			country_event = {id = TAI.16 days = 7}
+		}
+	}
+}
+country_event = { #Консулы выходят в пони 2 
+	id = TAI.16
+	picture = GFX_0
+	title = TAI.16.title
+	desc = TAI.16.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.16.1
+		hidden_effect = {
+			country_event = {id = TAI.17 days = 15}
+		}
+	}
+}
+country_event = { #Консулы выходят в пони 3
+	id = TAI.17
+	picture = GFX_0
+	title = TAI.17.title
+	desc = TAI.17.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.17.1
+		hidden_effect = {
+			
+		}
 	}
 }
