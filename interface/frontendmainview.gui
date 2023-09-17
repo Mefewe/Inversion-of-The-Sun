@@ -173,7 +173,7 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=-600 y =100}
+		position = { x=-500 y =100}
 		size = { width = 640 height = 609 }
 		Orientation = CENTER
 		Origo = center		
@@ -409,7 +409,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "homepage_button"
-			position = { x=-245 y=155 }
+			position = { x=-145 y=155 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
@@ -453,11 +453,11 @@ guiTypes = {
 		#}
 		ButtonType = {
 			name = "discord_button"
-			position = { x=-245 y=200 }
+			position = { x=-145 y=200 }
 			quadTextureSprite ="discord"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_DISCORD"
-			web_link = "https://discord.gg/hoi4"
+			web_link = "https://discord.gg/HSChrS38tC"
 			scale = 0.9
 		}
 
