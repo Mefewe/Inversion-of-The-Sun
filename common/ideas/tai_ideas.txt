@@ -9,6 +9,15 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.25
 			}
 		}
+		netu_elektifikaciji = {
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				consumer_goods_factor = 0.15
+				war_support_factor = -0.15
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = -0.15
+			}
+		}
 		netu_armiji = {
 			modifier = {
 				custom_modifier_tooltip = TAI_netu_armiji_tt

@@ -23,6 +23,11 @@ TAI_modernization_breakdown = {
 	710 = {
 		transfer_state_to = UNC
 	}
+	700 = {transfer_state_to = UNC}
+	734 = {transfer_state_to = UNC}
+	729 = {transfer_state_to = UNC}
+	793 = {transfer_state_to = UNC}
+
 }
 TAI_won_UNC = {
 	699 = {
@@ -49,4 +54,9 @@ TAI_won_UNC = {
 	710 = {
 		transfer_state_to = TAI
 	}
+	700 = {transfer_state_to = TAI}
+	734 = {transfer_state_to = TAI}
+	729 = {transfer_state_to = TAI}
+	793 = {transfer_state_to = TAI}
+
 }

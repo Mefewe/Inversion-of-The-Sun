@@ -299,7 +299,10 @@ country_event = { #ЧП
 			TAI_modernization_breakdown = yes
 			set_global_flag = TAI_UNC_WAR
 		}
-		remove_ideas = ustarevshaja_strana
+		swap_ideas = {
+			remove_idea = ustarevshaja_strana
+			add_idea = netu_elektifikaciji
+		}
 		custom_effect_tooltip = TAI.11.1.tt
 	}
 }
@@ -390,7 +393,45 @@ country_event = { #Консулы выходят в пони 3
 	option = {
 		name = TAI.17.1
 		hidden_effect = {
-			
+			set_country_flag = TAI_expedition_succ
 		}
+	}
+}
+
+country_event = { #Новая бригада
+	id = TAI.18
+	picture = GFX_0
+	title = TAI.18.title
+	desc = TAI.18.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.18.1
+		hidden_effect = {
+			667 = { 
+				create_unit = {
+					division = "name = \"Brigadai 2-umi gvardijagii shahej TABRIZI \" division_template = \"Shahska garda\" start_experience_factor = 0.6 start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 1
+					prioritize_location = 6858
+				}
+			}
+		}
+		custom_effect_tooltip = TAI.18.1.tt
+	}
+}
+country_event = { #Шахские ЖД
+	id = TAI.19
+	picture = GFX_0
+	title = TAI.19.title
+	desc = TAI.19.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.19.1
+
 	}
 }

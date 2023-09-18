@@ -208,7 +208,7 @@ shared_focus = { #Дорога на Табриз
 	}
 }
 
-shared_focus = { #
+shared_focus = { #Путешествие посла в ОЭФ
 	id = TAI_OEFI
 	prerequisite = {
 		focus = TAI_Doroga_na_Tabriz
@@ -220,5 +220,56 @@ shared_focus = { #
 	y = 8
 	completion_reward = { 
 		country_event = TAI.15
+	}
+}
+
+shared_focus = { #
+	id = TAI_Novaja_Brigada
+	prerequisite = {
+		focus = TAI_Doroga_na_Tabriz
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+
+	x = 14
+	y = 8
+	completion_reward = { 
+		country_event = TAI.18
+	}
+}
+
+shared_focus = { #
+	id = TAI_Nachatj_postrojky_shahskoj_zhd
+	prerequisite = {
+		focus = TAI_OEFI
+	}
+	prerequisite = {
+		focus = TAI_Novaja_Brigada
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TAI_Nachatj_postrojky_shahskoj_zhd.t.tt
+			has_country_flag = TAI_expedition_succ
+		}
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+
+	x = 11
+	y = 9
+	completion_reward = { 
+		build_railway = {
+			path = { 7407 2027 7406 7351 3081 }	
+			level = 1
+		}
+		set_technology = {
+			basic_train = 1
+		}
+		add_equipment_to_stockpile = {
+			type = train_equipment
+			amount = 5
+			producer = OEF
+		}
+		country_event = TAI.19
 	}
 }
