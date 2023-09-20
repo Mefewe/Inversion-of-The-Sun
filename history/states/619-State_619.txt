@@ -5,8 +5,11 @@ state={
 		915 1007 1527 1780 2638 2855 3478 4527 6666 6689 6745 6773 6792 6835 
 	}
 	history={
-		owner = ANF
-		add_core_of = ANF
+	victory_points = { 6773 50 } # Пекирин
+	victory_points = { 6689 15 } # Чайдинь
+	victory_points = { 915 15 } # Босфорест
+	owner = ANF
+	add_core_of = ANF
         add_core_of = GEN
     }
 	manpower=0

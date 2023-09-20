@@ -5,6 +5,7 @@ state={
 		886 1002 1554 1592 2417 2631 3056 4860 7398 7403 7420 7458 7471 7513 
 	}
 	history={
+	victory_points = {7403 20} # Да Донг
         owner = GEN
         add_core_of = GEN
     }

@@ -7,6 +7,8 @@ state={
 	history={
         owner = KNG
         add_core_of = KNG
+        victory_points = {7617 20} # И-Дуонг
+        victory_points = {7586 15} # Плейкулан
     }
 	manpower=0
 	buildings_max_level_factor=1.000

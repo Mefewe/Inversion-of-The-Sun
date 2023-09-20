@@ -5,6 +5,7 @@ state={
 		128 588 1032 1357 7189 7202 
 	}
 	history={
+	victory_points = { 128 20 } # Фюзчжоу
         owner = HUO
         add_core_of = HUO
     }

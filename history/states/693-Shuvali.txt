@@ -5,6 +5,7 @@ state={
 		2889 3834 3858 4489 7965 7966 7968 8228 8233 
 	}
 	history={
+		victory_points = { 2889 5 } # Дао Со
 		owner = KNG
 		add_core_of = KNG
 	}

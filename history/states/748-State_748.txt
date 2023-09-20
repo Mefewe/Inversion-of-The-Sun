@@ -5,6 +5,7 @@ state={
 		251 963 1852 1915 2259 2466 3498 4004 4010 4189 4399 4665 7198 7293 7319 7340 7354 
 	}
 	history={
+	victory_points = {4010 20} # Вагонг
         owner = GEN
         add_core_of = GEN
 		set_demilitarized_zone = yes

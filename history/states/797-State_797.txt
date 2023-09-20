@@ -5,6 +5,8 @@ state={
 		1166 1215 1317 1463 2204 3099 4460 4693 4794 7392 7419 
 	}
 	history={
+	victory_points = {1463 20} # Го До
+	victory_points = {7392 15} # Рюнг Тай
         owner = GEN
         add_core_of = GEN
     }

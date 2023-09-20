@@ -5,6 +5,7 @@ state={
 		2771 6733 6779 6819 
 	}
 	history={
+	victory_points = { 6819 15 } # Йеци-Чжоу
         owner = HUO
         add_core_of = HUO
     }

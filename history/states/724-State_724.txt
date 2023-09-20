@@ -5,6 +5,7 @@ state={
 		22 971 1045 3227 3242 3351 3892 4212 7017 7221 7232 
 	}
 	history={
+	victory_points = { 22 15 } # Цьянхоань
         owner = HUO
         add_core_of = HUO
     }

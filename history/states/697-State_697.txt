@@ -5,6 +5,7 @@ state={
 		2059 3042 3162 3280 4273 4883 6980 7028 7068 7127 7142 7161 
 	}
 	history={
+	victory_points = { 7068 20 } # Вухуфан
         owner = HUO
         add_core_of = HUO
     }

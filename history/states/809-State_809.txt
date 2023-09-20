@@ -5,6 +5,8 @@ state={
 		320 860 1703 1787 2621 3990 4253 4428 4547 7453 7485 7544 7587 
 	}
 	history={
+	victory_points = {4547 15} # Винэй
+	victory_points = {3990 20} # Хай Бом
         owner = GEN
         add_core_of = GEN
     }

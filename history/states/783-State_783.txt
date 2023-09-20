@@ -5,6 +5,7 @@ state={
 		4009 4366 4655 7301 7335 7357 7387 7404 7411 
 	}
 	history={
+	victory_points = {4655 20} # Тхуф Хоа
         owner = GEN
         add_core_of = GEN
     }

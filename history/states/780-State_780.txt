@@ -5,6 +5,7 @@ state={
 		481 532 2439 3053 3612 4716 7314 7355 7393 
 	}
 	history={
+	victory_points = {7314 15} # Дат Рюнг
         owner = GEN
         add_core_of = GEN
     }

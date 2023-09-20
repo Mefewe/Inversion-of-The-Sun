@@ -5,6 +5,8 @@ state={
 		203 1870 2438 2807 2821 3300 3774 4909 7693 7706 7722 7770 
 	}
 	history={
+	victory_points = {3300 15}
+	victory_points = {203 15}
         owner = KNG
         add_core_of = KNG
     }

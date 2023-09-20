@@ -5,6 +5,7 @@ state={
 		443 1377 1928 2588 3202 3625 3788 7253 7278 7300 7377 
 	}
 	history={
+	victory_points = {2588 15} # Ви Фим Бак
         owner = GEN
         add_core_of = GEN
     }
