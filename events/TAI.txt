@@ -452,6 +452,7 @@ country_event = { #Кантерберринская конференция в К
 			load_focus_tree = TAI_focus_tree_three_a
 			mark_focus_tree_layout_dirty = yes
 		}
+		add_ideas = free_trade_TAI
 	}
 }
 
