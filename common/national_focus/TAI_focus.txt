@@ -9,7 +9,7 @@ focus_tree = {
 		}
 	}
 	shared_focus = TAI_novyj_god
-
+	
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
@@ -26,6 +26,22 @@ focus_tree = {
 	shared_focus = TAI_novyj_god
 	shared_focus = TAI_CHP
 
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+focus_tree = {
+	id = TAI_focus_tree_three_a
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TAI
+		}
+	}
+	shared_focus = TAI_novyj_god
+	shared_focus = TAI_CHP
+	shared_focus = TAI_Vernutj_zemlu
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
@@ -271,5 +287,67 @@ shared_focus = { #
 			producer = OEF
 		}
 		country_event = TAI.19
+	}
+}
+
+shared_focus = { #
+	id = TAI_Obuchenije_gvardii
+	prerequisite = {
+		focus = TAI_OEFI
+	}
+	prerequisite = {
+		focus = TAI_Novaja_Brigada
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+
+	x = 13
+	y = 9
+	completion_reward = { 
+		swap_ideas = {
+			remove_idea = shahskaja_gvardija1
+			add_idea = shahskaja_gvardija2
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_Kanterberrinskaja_konfenencija
+	prerequisite = {
+		focus = TAI_Nachatj_postrojky_shahskoj_zhd
+	}
+	prerequisite = {
+		focus = TAI_Obuchenije_gvardii
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 10
+
+	x = 12
+	y = 10
+	select_effect = {
+		hidden_effect = {
+			country_event = {id = TAI.21 days = 25}
+		}
+	}
+	completion_reward = { 
+		country_event = TAI.20
+	}
+}
+
+shared_focus = { #
+	id = TAI_Vernutj_zemlu
+
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+	available = {
+		TAI = {
+			controls_state = 710
+			controls_state = 684
+		}
+	}
+	x = 12
+	y = 12
+	completion_reward = { 
+		country_event = TAI.22
 	}
 }

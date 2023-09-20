@@ -183,6 +183,9 @@ on_actions = {
 				}
 				TAI_won_UNC = yes
 				clr_global_flag = TAI_UNC_WAR
+				TAI = {
+					set_country_flag = TAI_UNC_WAR_SUCC
+				}
 			}
 		}
 	}

@@ -1,5 +1,5 @@
 add_namespace = TAI
-
+add_namespace = TAI_NEWS
 country_event = {
 	id = TAI.1
 	picture = GFX_0
@@ -432,6 +432,117 @@ country_event = { #Шахские ЖД
 
 	option = {
 		name = TAI.19.1
+
+	}
+}
+
+country_event = { #Кантерберринская конференция в Кантерберри 2
+	id = TAI.20
+	picture = GFX_0
+	title = TAI.20.title
+	desc = TAI.20.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.20.1
+		custom_effect_tooltip = TAI.20.1.tt
+		news_event = TAI_NEWS.1
+		hidden_effect = {
+			load_focus_tree = TAI_focus_tree_three_a
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+
+country_event = { #Кантерберринская конференция 1
+	id = TAI.21
+	picture = GFX_0
+	title = TAI.21.title
+	desc = TAI.21.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.21.1
+
+	}
+}
+
+country_event = { #Возвращение земли
+	id = TAI.22
+	picture = GFX_0
+	title = TAI.22.title
+	desc = TAI.22.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI.22.1
+		custom_effect_tooltip = TAI.22.1.tt
+		hidden_effect = {
+			declare_war_on = { target = UNC}
+			add_ai_strategy = {
+				id = UNC
+				type = invade				
+				value = 200
+			}
+			754 = { 
+				create_unit = {
+					division = "name = \"Avvalin otrjadi sarharddj \"Birdshir\"\" division_template = \"Otrjadi sarharddj\" start_experience_factor = 0.35 start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 1
+					prioritize_location = 4367
+				}
+			}
+			667 = {
+				create_unit = {
+					division = "name = \"Avvalin otrjadi sarharddj \"Tabriz battalioni\"\" division_template = \"Otrjadi sarharddj\" start_experience_factor = 0.35 start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 1
+					prioritize_location = 6540
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Земля вернулась
+	id = TAI.23
+	picture = GFX_0
+	title = TAI.23.title
+	desc = TAI.23.desc
+	fire_only_once = yes
+	trigger = {
+		TAI = {
+			has_country_flag = TAI_UNC_WAR_SUCC
+		}
+	}
+	option = {
+		name = TAI.23.1
+		hidden_effect = {
+			add_ai_strategy = {
+				id = industrial_complex
+				target = 950
+				type = build_building				
+				value = 250
+			}
+		}
+	}
+}
+
+news_event = {
+	id = TAI_NEWS.1
+	picture = GFX_0
+	title = TAI_NEWS.1.title
+	desc =  TAI_NEWS.1.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI_NEWS.1
 
 	}
 }
