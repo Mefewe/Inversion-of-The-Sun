@@ -3,16 +3,19 @@ state={
 	id=298
 	name="STATE_298"
 	history={
-		victory_points = {7840 10}
-		victory_points = {7945 5}
-		victory_points = {2423 5}
+		victory_points = {7840 10} # Тейлпей
+		victory_points = {7945 5} # Каосунг
+		victory_points = {2423 5} # Киринай
 		owner = KNG
 		add_core_of = KNG
+        buildings = {
+                infrastructure = 3
+        }
 	}
 	provinces={
 		34 678 999 1238 2299 2423 2945 3029 4016 4123 7774 7840 7853 7869 7875 7899 7909 7921 7927 7945 7958 8227 
 	}
-	manpower=0
+	manpower=1292711
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = large_city

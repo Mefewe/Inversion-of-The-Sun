@@ -8,7 +8,11 @@ state={
 	victory_points = {2588 15} # Ви Фим Бак
         owner = GEN
         add_core_of = GEN
+        buildings = {
+                infrastructure = 3
+        }
     }
-	manpower=0
+        state_category = town
+	manpower=547819
 	buildings_max_level_factor=1.000
 }

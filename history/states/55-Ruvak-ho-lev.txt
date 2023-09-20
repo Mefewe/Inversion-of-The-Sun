@@ -5,12 +5,15 @@ state={
 		168 208 1680 2129 4610 8006 8235
 	}
 	history={
-	victory_points = {8006 15}
-        victory_points = {2129 20}
+	victory_points = {8006 15} # Бо Дзя
+        victory_points = {2129 20} # Лунг Ха
         owner = KNG
         add_core_of = KNG
+        buildings = {
+                infrastructure = 6
+        }
     }
-	manpower=0
+	manpower=912731
 	buildings_max_level_factor=1.000
 	state_category = city
 }

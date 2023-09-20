@@ -5,11 +5,14 @@ state={
 		122 330 2630 3026 3233 3495 7780 7829 7852 
 	}
 	history={
-	victory_points = {330 20}
+	victory_points = {330 20} # Мэйнбёрн
         owner = KNG
         add_core_of = KNG
+        buildings = {
+                infrastructure = 5
+        }
     }
-	manpower=0
+	manpower=837121
 	buildings_max_level_factor=1.000
 	state_category = town
 }

@@ -10,6 +10,6 @@ state={
         add_core_of = KNG
     }
 	state_category = pastoral
-	manpower=0
+	manpower=4961
 	buildings_max_level_factor=1.000
 }

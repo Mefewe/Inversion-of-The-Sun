@@ -8,7 +8,11 @@ state={
 	victory_points = {2009 15} # Нди-Дуонг
         owner = GEN
         add_core_of = GEN
+        buildings = {
+                infrastructure = 3
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=591721
 	buildings_max_level_factor=1.000
 }

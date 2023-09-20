@@ -9,8 +9,11 @@ state={
         add_core_of = KNG
         victory_points = {7617 20} # И-Дуонг
         victory_points = {7586 15} # Плейкулан
+        buildings = {
+                infrastructure = 3
+        }
     }
-	manpower=0
+	manpower=551128
 	buildings_max_level_factor=1.000
 	state_category = town
 }

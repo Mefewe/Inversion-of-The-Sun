@@ -8,7 +8,11 @@ state={
         owner = ANF
 		add_core_of = ANF
         add_core_of = GEN
+        buildings = {
+                infrastructure = 1
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=181271
 	buildings_max_level_factor=1.000
 }

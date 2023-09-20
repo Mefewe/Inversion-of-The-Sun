@@ -8,7 +8,11 @@ state={
 	victory_points = { 4416 20 } # Шаньлю
         owner = HUO
         add_core_of = HUO
+        buildings = {
+                infrastructure = 2
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=560172
 	buildings_max_level_factor=1.000
 }

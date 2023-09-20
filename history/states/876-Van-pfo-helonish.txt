@@ -9,8 +9,11 @@ state={
         add_core_of = KNG
         victory_points = {7733 10} # Ки Лан Вакай
         victory_points = {276 10} # Бу Зам
+        buildings = {
+                infrastructure = 4
+        }
     }
-	manpower=0
+	manpower=1071726
 	buildings_max_level_factor=1.000
 	state_category = town
 }

@@ -8,7 +8,11 @@ state={
 	victory_points = { 6819 15 } # Йеци-Чжоу
         owner = HUO
         add_core_of = HUO
+        buildings = {
+                infrastructure = 3
+        }
     }
-	manpower=0
+        state_category = town
+	manpower=876152
 	buildings_max_level_factor=1.000
 }

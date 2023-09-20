@@ -8,8 +8,12 @@ state={
 	victory_points = {4162 10} # Данейнг
 	victory_points = {2605 10} # Рюнг До
         owner = GEN
-        add_core_of = GEN
+        add_core_of = KNG
+        buildings = {
+                infrastructure = 4
+        }
     }
-	manpower=0
+        state_category = town
+	manpower=691672
 	buildings_max_level_factor=1.000
 }

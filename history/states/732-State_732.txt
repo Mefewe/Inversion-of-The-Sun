@@ -9,7 +9,11 @@ state={
         owner = GEN
         add_core_of = GEN
 		set_demilitarized_zone = yes
+        buildings = {
+                infrastructure = 2
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=458127
 	buildings_max_level_factor=1.000
 }

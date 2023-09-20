@@ -8,7 +8,11 @@ state={
 	victory_points = {7376 50} # Хэйной
         owner = GEN
         add_core_of = GEN
+        buildings = {
+                infrastructure = 5
+        }
     }
-	manpower=0
+        state_category = large_city
+	manpower=1492011
 	buildings_max_level_factor=1.000
 }

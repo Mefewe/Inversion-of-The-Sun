@@ -7,9 +7,12 @@ state={
 	history={
         owner = KNG
         add_core_of = KNG
-        victory_points = {2430 20}
+        victory_points = {2430 20} # Тран Ко
+        buildings = {
+                infrastructure = 4
+        }
     }
-	manpower=0
+	manpower=581810
 	buildings_max_level_factor=1.000
 	state_category = town
 }

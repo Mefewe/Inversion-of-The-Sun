@@ -5,11 +5,14 @@ state={
 		2224 2543 2824 3192 4174 4325 7860 7866 7878 7887 7894 
 	}
 	history={
-	victory_points = {7887 20}
+	victory_points = {7887 20} # Ки Лан Зун
         owner = KNG
         add_core_of = KNG
+        buildings = {
+                infrastructure = 4
+        }
     }
-	manpower=0
+	manpower=578121
 	buildings_max_level_factor=1.000
 	state_category = town
 }

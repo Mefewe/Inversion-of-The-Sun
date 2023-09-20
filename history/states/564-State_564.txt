@@ -8,7 +8,11 @@ state={
 	victory_points = { 567 25 } # Хорнбин
         owner = HUO
         add_core_of = HUO
+        buildings = {
+                infrastructure = 4
+        }
     }
-	manpower=0
+        state_category = town
+	manpower=789126
 	buildings_max_level_factor=1.000
 }

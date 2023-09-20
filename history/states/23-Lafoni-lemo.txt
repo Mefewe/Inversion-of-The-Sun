@@ -5,12 +5,15 @@ state={
 		1541 1982 2403 2554 3707 4281 4743 7861 7885 7912 
 	}
 	history={
-	victory_points = {2554 15}
-	victory_points = {1982 20}
+	victory_points = {2554 15} # Там Килан
+	victory_points = {1982 20} # Бом Нанг
         owner = KNG
         add_core_of = KNG
+        buildings = {
+                infrastructure = 6
+        }
     }
-	manpower=0
+	manpower=898172
 	buildings_max_level_factor=1.000
 	state_category = town
 }

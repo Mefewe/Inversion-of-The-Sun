@@ -5,13 +5,14 @@ state={
 		913 1671 1174 2153 2444 2749 3967 4239 4590 7677 7712 7732 7748 7762 7767 8219 
 	}
 	history={
-		victory_points = {
-			7767 5
-		}
+	victory_points = { 7767 5 } # Ланела-Олу
         owner = KNG
         add_core_of = KNG
+        buildings = {
+                infrastructure = 2
+        }
     }
 	state_category = large_town
-	manpower=0
+	manpower=381727
 	buildings_max_level_factor=1.000
 }

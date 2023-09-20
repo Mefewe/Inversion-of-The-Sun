@@ -1,4 +1,4 @@
-﻿capital = 795
+﻿capital = 392
 recruit_character = KNG_Kirin
 set_stability = 0.4
 set_war_support = 0.2

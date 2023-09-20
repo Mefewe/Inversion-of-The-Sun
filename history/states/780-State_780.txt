@@ -8,7 +8,11 @@ state={
 	victory_points = {7314 15} # Дат Рюнг
         owner = GEN
         add_core_of = GEN
+        buildings = {
+                infrastructure = 2
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=418982
 	buildings_max_level_factor=1.000
 }

@@ -8,7 +8,11 @@ state={
 	victory_points = {4655 20} # Тхуф Хоа
         owner = GEN
         add_core_of = GEN
+        buildings = {
+                infrastructure = 3
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=349911
 	buildings_max_level_factor=1.000
 }

@@ -9,7 +9,11 @@ state={
 	victory_points = {3990 20} # Хай Бом
         owner = GEN
         add_core_of = GEN
+        buildings = {
+                infrastructure = 4
+        }
     }
-	manpower=0
+        state_category = town
+	manpower=767099
 	buildings_max_level_factor=1.000
 }

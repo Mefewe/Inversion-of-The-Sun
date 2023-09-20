@@ -5,11 +5,14 @@ state={
 		435 619 2428 2677 3135 3147 3427 3820 4183 4215 4395 4893 7635 7656 7664 7694 7703 7740 
 	}
 	history={
-	victory_points = {4215 20}
+	victory_points = {4215 20} # Монг Гуок
         owner = KNG
         add_core_of = KNG
+        buildings = {
+                infrastructure = 4
+        }
     }
 	state_category = town
-	manpower=0
+	manpower=597172
 	buildings_max_level_factor=1.000
 }

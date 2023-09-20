@@ -8,7 +8,11 @@ state={
 	victory_points = { 4549 20 } # Гэйнчжоу
         owner = HUO
         add_core_of = HUO
+        buildings = {
+                infrastructure = 2
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=509711
 	buildings_max_level_factor=1.000
 }

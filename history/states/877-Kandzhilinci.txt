@@ -7,11 +7,14 @@ state={
 	history={
         owner = KNG
         add_core_of = KNG
-        victory_points = {7827 25}
-        victory_points = {2292 15}
-        victory_points = {7721 35}
+        victory_points = {7827 25} # Макольтау
+        victory_points = {2292 15} # Тай Танг Да
+        victory_points = {7721 35} # Трот Конг
+        buildings = {
+                infrastructure = 7
+        }
     }
-	manpower=0
+	manpower=2587816
 	buildings_max_level_factor=1.000
 	state_category = town
 }

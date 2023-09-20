@@ -7,9 +7,12 @@ state={
 	history={
         owner = KNG
         add_core_of = KNG
-	victory_points = {7976 20}
+	victory_points = {7976 20} # Бом Тау
+        buildings = {
+                infrastructure = 6
+        }
     }
-	manpower=0
+	manpower=629191
 	buildings_max_level_factor=1.000
 	state_category = town
 }

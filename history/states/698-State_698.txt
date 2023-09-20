@@ -7,7 +7,11 @@ state={
 	history={
         owner = HUO
         add_core_of = HUO
+        buildings = {
+                infrastructure = 2
+        }
     }
-	manpower=0
+        state_category = rural
+	manpower=331727
 	buildings_max_level_factor=1.000
 }

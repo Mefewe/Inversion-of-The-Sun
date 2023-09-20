@@ -6,10 +6,13 @@ state={
 		66 1565
 	}
 	history={
-		owner = KNG
-		add_core_of = KNG
+	owner = KNG
+	add_core_of = KNG
+        buildings = {
+                infrastructure = 4
+        }
 	}
-	manpower=0
+	manpower=421192
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = town
