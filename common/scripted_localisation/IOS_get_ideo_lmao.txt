@@ -55,6 +55,12 @@ defined_text = {
 		localization_key = moderate_social_valterists
 	}
 	text = {
+		trigger = {
+			has_country_leader_ideology = extrimistki_modernizm
+		}
+		localization_key = extrimistki_modernizm
+	}
+	text = {
 		localization_key = democratic
 	}
 }

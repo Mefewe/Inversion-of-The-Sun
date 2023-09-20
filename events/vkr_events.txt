@@ -356,10 +356,6 @@ country_event = { #Принятие полковником требований
 		hidden_effect = {				
 			CRY = {
 				change_tag_from = ROOT
-				annex_country = {
-					target = VKR
-					transfer_troops = yes
-				}
 				for_each_scope_loop = {
 					array = global.states
 					if = {
@@ -376,6 +372,12 @@ country_event = { #Принятие полковником требований
 				remove_ideas = cry_polkovnik_trus
 			}
 			news_event = CRY_NEWS.3
+			CRY = {
+				annex_country = {
+					target = VKR
+					transfer_troops = yes					
+				}
+			}
 		}
 	}
 }

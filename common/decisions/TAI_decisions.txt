@@ -16,7 +16,7 @@ TAI_reclamation = {
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
 		}
-		complete_effect = {
+		remove_effect = {
 			country_event = TAI.13
 			710 = {
 				transfer_state_to = TAI
@@ -53,7 +53,7 @@ TAI_reclamation = {
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
 		}
-		complete_effect = {
+		remove_effect = {			
 			country_event = TAI.14
 			684 = {
 				transfer_state_to = TAI

@@ -369,6 +369,7 @@ shared_focus = {
 		country_event = CRY.13
 		set_country_flag = CRY_first_elections_succ
 		hidden_effect = {
+			VKR_Blue_Grantes = {set_nationality = CRY}
 			VKR_Blue_Grantes = {
 				add_country_leader_role = {
 					country_leader = {
