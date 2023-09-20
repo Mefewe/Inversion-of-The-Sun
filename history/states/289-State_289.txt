@@ -5,6 +5,7 @@ state={
 		2035 2155 2577 3114 4760 7044 7092 7210 
 	}
 	history={
+	victory_points = { 3114 15 } # Корнтон
         owner = HUO
         add_core_of = HUO
     }

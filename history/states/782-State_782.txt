@@ -5,6 +5,7 @@ state={
 		164 2960 3333 4329 4490 7287 7306 7356 7376 7397 
 	}
 	history={
+	victory_points = {7376 50} # Хэйной
         owner = GEN
         add_core_of = GEN
     }

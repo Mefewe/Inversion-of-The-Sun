@@ -3,8 +3,9 @@ state={
 	id=298
 	name="STATE_298"
 	history={
-		victory_points = {7945 10}
-		victory_points = {7853 20}
+		victory_points = {7840 10}
+		victory_points = {7945 5}
+		victory_points = {2423 5}
 		owner = KNG
 		add_core_of = KNG
 	}

@@ -5,6 +5,7 @@ state={
 		211 802 1273 1408 1552 2009 4293 4916 7474 7509 
 	}
 	history={
+	victory_points = {2009 15} # Нди-Дуонг
         owner = GEN
         add_core_of = GEN
     }

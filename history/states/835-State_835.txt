@@ -5,6 +5,8 @@ state={
 		738 1155 1779 2277 2617 2791 3273 4260 7551 7590 7597 7607 7640 7660 7663 7675 
 	}
 	history={
+	victory_points = {738 10} # Ла Кам
+	victory_points = {3273 10} # То Хан
         owner = GEN
         add_core_of = GEN
     }
