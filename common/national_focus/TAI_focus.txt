@@ -397,10 +397,12 @@ shared_focus = { #
 		add_equipment_to_stockpile = {
 			type = motorized_equipment_1
 			amount = 500
+			producer = OEF
 		}
 		add_equipment_to_stockpile = {
 			type = train_equipment
 			amount = 15
+			producer = OEF
 		}
 	}
 }
@@ -663,7 +665,66 @@ shared_focus = { #
 	y = 16
 	completion_reward = { 
 		country_event = TAI.34
-
+		if = {
+			limit = {
+				NOT = {has_tech = medium_tank_gw}
+			}
+			set_technology = {
+				medium_tank_gw = 1
+			}
+			set_technology = {
+				main_battle_tank_chassis = 1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {has_tech= main_battle_tank_chassis}
+			 }
+			 set_technology = {
+				main_battle_tank_chassis = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = {has_tech = mechanised_infantry}
+			}
+			set_technology = {
+				mechanised_infantry = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = {has_tech = bronetransporter_infantry}
+			}
+			set_technology = {
+				bronetransporter_infantry = 1
+				popup = no
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = tank_ammo_equipment_0
+			amount = 2000
+		}
+		add_equipment_to_stockpile = {
+			type = modern_tank_chassis_1
+			amount = 100
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_1
+			amount = 150
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = bronetransporter_1
+			amount = 250
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_ammo_equipment_0
+			amount = 10000
+		}
+		hidden_effect = {load_oob = TAI_2}
 	}
 }
 
