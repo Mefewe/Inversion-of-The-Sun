@@ -528,6 +528,232 @@ country_event = { #Земля вернулась
 	}
 }
 
+country_event = { #
+	id = TAI.24
+	picture = GFX_0
+	title = TAI.24.title
+	desc = TAI.24.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.24.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.25
+	picture = GFX_0
+	title = TAI.25.title
+	desc = TAI.25.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.25.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.26
+	picture = GFX_0
+	title = TAI.26.title
+	desc = TAI.26.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.26.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.27
+	picture = GFX_0
+	title = TAI.27.title
+	desc = TAI.27.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.27.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.28
+	picture = GFX_0
+	title = TAI.28.title
+	desc = TAI.28.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.28.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.29
+	picture = GFX_0
+	title = TAI.29.title
+	desc = TAI.29.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.29.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.30
+	picture = GFX_0
+	title = TAI.30.title
+	desc = TAI.30.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.30.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.31
+	picture = GFX_0
+	title = TAI.31.title
+	desc = TAI.31.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.31.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.32
+	picture = GFX_0
+	title = TAI.32.title
+	desc = TAI.32.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.32.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.33
+	picture = GFX_0
+	title = TAI.33.title
+	desc = TAI.33.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.33.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.34
+	picture = GFX_0
+	title = TAI.34.title
+	desc = TAI.34.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.34.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.35
+	picture = GFX_0
+	title = TAI.35.title
+	desc = TAI.35.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.35.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.36
+	picture = GFX_0
+	title = TAI.36.title
+	desc = TAI.36.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.36.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.37
+	picture = GFX_0
+	title = TAI.37.title
+	desc = TAI.37.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.37.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+country_event = { #
+	id = TAI.23
+	picture = GFX_0
+	title = TAI.23.title
+	desc = TAI.23.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.23.1
+		hidden_effect = {
+
+		}
+	}
+}
+
+
 news_event = {
 	id = TAI_NEWS.1
 	picture = GFX_0
@@ -538,6 +764,20 @@ news_event = {
 
 	option = {
 		name = TAI_NEWS.1
+
+	}
+}
+
+news_event = {
+	id = TAI_NEWS.2 #открытие аэропорта
+	picture = GFX_0
+	title = TAI_NEWS.2.title
+	desc =  TAI_NEWS.2.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = TAI_NEWS.2
 
 	}
 }

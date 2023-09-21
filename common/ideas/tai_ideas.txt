@@ -66,5 +66,14 @@ ideas = {
 				country_lock_all_division_template = no
 			}
 		}
+		shahskaja_gvardija3 = {
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.15
+				experience_loss_factor = -0.10
+				dig_in_speed_factor	 = 0.20
+				army_org_factor = 0.10
+			}
+		}
 	}
 }

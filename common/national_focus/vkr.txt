@@ -315,6 +315,16 @@ shared_focus = {
 	completion_reward = {
 		custom_effect_tooltip = VKR_battle_of_mejrvik_focus
 		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_ammo_equipment_0
+					amount = 50000
+				}
+				add_political_power = 500
+			}
 			917 = {
 				set_demilitarized_zone = yes
 			}

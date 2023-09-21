@@ -340,14 +340,415 @@ shared_focus = { #
 	icon = GFX_focus_generic_home_defense
 	cost = 5
 	available = {
-		TAI = {
-			controls_state = 710
-			controls_state = 684
-		}
+		controls_state = 710
+		controls_state = 684
 	}
 	x = 12
 	y = 12
 	completion_reward = { 
 		country_event = TAI.22
+	}
+}
+
+shared_focus = { #
+	id = TAI_Tegerejn_infrastructuru
+
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+	prerequisite = {
+		focus = TAI_Vernutj_zemlu
+	}
+	x = 6
+	y = 13
+	completion_reward = { 
+		country_event = TAI.24
+		950 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2			
+			}
+			set_state_category = metropolis
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_take_avtomobili
+
+	icon = GFX_focus_generic_home_defense
+	cost = 6
+	prerequisite = {
+		focus = TAI_Vernutj_zemlu
+	}
+	x = 8
+	y = 13
+	completion_reward = { 
+		country_event = TAI.25
+		if = {
+			limit = {
+				NOT = {
+					has_tech = motorised_infantry
+				}
+			}
+			set_technology = {
+				motorised_infantry = 1
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 500
+		}
+		add_equipment_to_stockpile = {
+			type = train_equipment
+			amount = 15
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_edinaja_zhd_magistralj
+
+	icon = GFX_focus_generic_home_defense
+	cost = 12
+	prerequisite = {
+		focus = TAI_Vernutj_zemlu
+	}
+	x = 10
+	y = 13
+	completion_reward = { 
+		country_event = TAI.26
+		build_railway = {
+			path = { 
+				3081 711 4118 3048 3293 7176 7147 7138 7133 7102 7061 3127 7022 6972 2546 3733 6858 6900 6540 2465 1405 7035 2869
+			}
+			level = 1			
+		}
+		build_railway = {
+			path = { 
+				3081 7302 1373 7217 4367
+			}
+			level = 1			
+		}
+		752 = {
+			add_building_construction = {
+				type = supply_node
+				level = 1
+				province = 7176
+			}
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_Ostrova_focusz
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_Vernutj_zemlu
+	}
+	x = 12
+	y = 13
+	completion_reward = { 
+		country_event = TAI.27
+		615 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2			
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				province = 6820
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		659 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2			
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				province = 6917
+			}
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_qevrarskoje_razvitije
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_Vernutj_zemlu
+	}
+	x = 14
+	y = 13
+	completion_reward = { 
+		country_event = TAI.28
+		716 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				province = 7001
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_savahskoje_poberezje
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_Vernutj_zemlu
+	}
+	x = 16
+	y = 13
+	completion_reward = { 
+		country_event = TAI.29
+		735 = {
+			add_victory_points = {
+				province = 2633
+				value = 5
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_tegerejnshina
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_Vernutj_zemlu
+	}
+	x = 18
+	y = 13
+	completion_reward = { 
+		country_event = TAI.30
+		789 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 4
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 3
+			}
+			add_building_construction = {
+				type = fuel_silo
+				level = 3
+			}
+			set_state_category = city
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_zajavitj_o_triumfe
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_Tegerejn_infrastructuru
+	}
+	prerequisite = {
+		focus = TAI_take_avtomobili
+	}
+	prerequisite = {
+		focus = TAI_edinaja_zhd_magistralj
+	}
+	prerequisite = {
+		focus = TAI_Ostrova_focusz
+	}
+	prerequisite = {
+		focus = TAI_qevrarskoje_razvitije
+	}
+	prerequisite = {
+		focus = TAI_savahskoje_poberezje
+	}
+	prerequisite = {
+		focus = TAI_tegerejnshina
+	}
+	x = 12
+	y = 14
+	completion_reward = { 
+		country_event = TAI.31
+		add_research_slot = 1
+	}
+}
+
+shared_focus = { #
+	id = TAI_mezhdunarodnij_aeroport_tegerejna
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_Tegerejn_infrastructuru
+	}
+
+	x = 12
+	y = 15
+	completion_reward = { 
+		country_event = TAI.33
+		950 = {
+			add_building_construction = {
+				type = air_base
+				level = 5
+			}
+		}
+	}
+}
+
+
+shared_focus = { #
+	id = TAI_aerovojska_gvardii
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_mezhdunarodnij_aeroport_tegerejna
+	}
+
+	x = 8
+	y = 16
+	completion_reward = { 
+		add_tech_bonus = {
+			category = air_equipment
+			ahead_reduction = 0.75
+		}
+	}
+}
+
+
+shared_focus = { #
+	id = TAI_tankovaja_gvardija
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_mezhdunarodnij_aeroport_tegerejna
+	}
+
+	x = 10
+	y = 16
+	completion_reward = { 
+		country_event = TAI.34
+
+	}
+}
+
+
+shared_focus = { #
+	id = TAI_standartizirovannoe_vooruzhenije
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_mezhdunarodnij_aeroport_tegerejna
+	}
+
+	x = 14
+	y = 16
+	completion_reward = { 
+		country_event = TAI.35
+		remove_ideas = ustarevsheje_vooruzhenije
+	}
+}
+
+
+shared_focus = { #
+	id = TAI_shahskij_VPK
+
+	icon = GFX_focus_generic_home_defense
+	cost = 10
+	prerequisite = {
+		focus = TAI_mezhdunarodnij_aeroport_tegerejna
+	}
+
+	x = 16
+	y = 16
+	completion_reward = { 
+		country_event = TAI.36
+		752 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+			}
+		}
+		667 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+			}
+			add_building_construction = {
+				type = air_base
+				level = 2
+			}
+		}
+		840 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+			}
+		}
+	}
+}
+
+shared_focus = { #
+	id = TAI_rashiritj_armiju
+
+	icon = GFX_focus_generic_home_defense
+	cost = 7
+	prerequisite = {
+		focus = TAI_shahskij_VPK
+	}
+	prerequisite = {
+		focus = TAI_standartizirovannoe_vooruzhenije
+	}
+	prerequisite = {
+		focus = TAI_tankovaja_gvardija
+	}
+	prerequisite = {
+		focus = TAI_aerovojska_gvardii
+	}
+	x = 12
+	y = 17
+	completion_reward = { 
+		country_event = TAI.37
+		custom_effect_tooltip = TAI_rashiritj_armiju.e.tt
+		swap_ideas = {
+			remove_idea = shahskaja_gvardija2
+			add_idea = shahskaja_gvardija3
+		}
 	}
 }
