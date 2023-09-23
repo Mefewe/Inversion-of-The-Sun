@@ -45,6 +45,24 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+focus_tree = {
+	id = TAI_focus_tree_fourth_a #подготовка к войне
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TAI
+		}
+	}
+	shared_focus = TAI_novyj_god
+	shared_focus = TAI_CHP
+	shared_focus = TAI_Vernutj_zemlu
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+
 shared_focus = {
 	id = TAI_novyj_god
 
@@ -606,6 +624,9 @@ shared_focus = { #
 	completion_reward = { 
 		country_event = TAI.31
 		add_research_slot = 1
+		hidden_effect = {
+			#отложенний ивент
+		}
 	}
 }
 
@@ -645,6 +666,7 @@ shared_focus = { #
 	y = 16
 	completion_reward = { 
 		add_tech_bonus = {
+			name = TAI_aerovojska_gvardii
 			category = air_equipment
 			ahead_reduction = 0.75
 		}
@@ -810,6 +832,23 @@ shared_focus = { #
 		swap_ideas = {
 			remove_idea = shahskaja_gvardija2
 			add_idea = shahskaja_gvardija3
+		}
+	}
+}
+####Хардлайновое восстание
+
+shared_focus = { #
+	id = TAI_surovaja_realjnostj
+
+	icon = GFX_focus_generic_home_defense
+	cost = 5
+
+	x = 12
+	y = 19
+	completion_reward = { 
+		add_stability = -0.05
+		hidden_effect = {
+			
 		}
 	}
 }

@@ -24,17 +24,17 @@ ideas = {
 		cry_army_m0 = {
                         picture = generic_army_problems
 			modifier = {
-				attrition = 0.2
-				army_defence_factor = -0.35
-				army_attack_factor = -0.35
+				attrition = 0.3
+				army_defence_factor = -0.45
+				army_attack_factor = -0.45
 			}
 		}
 		cry_army_m1 = {
                         picture = HUN_secret_rearmament
 			modifier = {
-				attrition = 0.1
-				army_defence_factor = -0.20
-				army_attack_factor = -0.25
+				attrition = 0.15
+				army_defence_factor = -0.325
+				army_attack_factor = -0.35
 			}
 		}
 	}
