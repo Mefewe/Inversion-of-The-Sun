@@ -1,0 +1,17 @@
+state={
+	id=952
+	name="STATE_952"
+	provinces={
+		3765 4633 6182 6230
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+        buildings = {
+                infrastructure = 2
+        }
+    }
+        state_category = rural
+	manpower=457097
+	buildings_max_level_factor=1.000
+}

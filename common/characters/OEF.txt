@@ -1,0 +1,17 @@
+characters = {
+OEF_Paper_Shelf = {
+		name = OEF_Paper_Shelf
+		portraits = {
+			civilian = {
+				large = GFX_OEF_Paper_Shelf_L
+			}
+		}
+		country_leader = {
+            desc="OEF_Paper_Shelf_desc"
+			ideology = neoharmonism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	}

@@ -14,12 +14,251 @@ focus_tree = {
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
 
+focus_tree = {
+	id = SDL_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = SDL
+		}
+	}
+	shared_focus = SDL_personal_commissions
+	shared_focus = SDL_promote_initiative
+	shared_focus = SDL_loyal_ministers
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+
+### FIRST TREE - PRESIDENT COLLECT INFO
+
 shared_focus = {
 	id = SDL_convent
-
-	icon = GFX_focus_icon_TAI_novyj_god_icon_focus
 	cost = 1
-	x = 12
+	x = 20
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_two_economies
+	prerequisite = {
+		focus = SDL_convent
+	}
+	cost = 1
+	x = 19
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_confederation_status
+	prerequisite = {
+		focus = SDL_convent
+	}
+	cost = 1
+	x = 21
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_armada_problem
+	prerequisite = {
+		focus = SDL_two_economies
+	}
+	prerequisite = {
+		focus = SDL_confederation_status
+	}
+	cost = 1
+	x = 18
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_ally_meeting
+	prerequisite = {
+		focus = SDL_two_economies
+	}
+	prerequisite = {
+		focus = SDL_confederation_status
+	}
+	cost = 1
+	x = 22
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_Sandstri_dossier
+	prerequisite = {
+		focus = SDL_armada_problem
+	}
+	prerequisite = {
+		focus = SDL_ally_meeting
+	}
+	cost = 1
+	x = 20
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_strategy_change
+	prerequisite = {
+		focus = SDL_Sandstri_dossier
+	}
+	cost = 1
+	x = 20
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_two_dynasties
+	prerequisite = {
+		focus = SDL_strategy_change
+	}
+	cost = 1
+	x = 19
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_Saddle_Arabia_calls
+	prerequisite = {
+		focus = SDL_two_dynasties
+	}
+	cost = 1
+	x = 17
+	y = 6
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_Griffonia_tour
+	prerequisite = {
+		focus = SDL_two_dynasties
+	}
+	cost = 1
+	x = 19
+	y = 6
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_radicals
+	prerequisite = {
+		focus = SDL_strategy_change
+	}
+	cost = 1
+	x = 21
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_Korineigh_meeting
+	prerequisite = {
+		focus = SDL_radicals
+	}
+	cost = 1
+	x = 21
+	y = 6
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_progressive_society
+	prerequisite = {
+		focus = SDL_radicals
+	}
+	cost = 1
+	x = 23
+	y = 6
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_sand_club
+	prerequisite = {
+		focus = SDL_Saddle_Arabia_calls
+	}
+	prerequisite = {
+		focus = SDL_Griffonia_tour
+	}
+	prerequisite = {
+		focus = SDL_Korineigh_meeting
+	}
+	prerequisite = {
+		focus = SDL_progressive_society
+	}
+	cost = 1
+	x = 20
+	y = 7
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_president_ideas
+	prerequisite = {
+		focus = SDL_sand_club
+	}
+	cost = 1
+	x = 20
+	y = 8
+	completion_reward = { 
+        load_focus_tree = SDL_focus_tree_two
+	}
+}
+
+
+### SECOND TREE - PRESIDENT AND FACTIONS
+
+shared_focus = {
+	id = SDL_personal_commissions
+
+	cost = 1
+	x = 18
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_promote_initiative
+
+	cost = 1
+	x = 20
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_loyal_ministers
+
+	cost = 1
+	x = 22
 	y = 0
 	completion_reward = { 
 	}

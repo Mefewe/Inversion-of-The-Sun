@@ -2,3 +2,11 @@ VKR_INS = {
 color = rgb { 220 10 10 }
 color_ui = rgb { 220 10 10 }
 }
+BKS_CONF = {
+color = rgb { 183 173 126 }
+color_ui = rgb { 183 173 126 }
+}
+SDL_CONF = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}

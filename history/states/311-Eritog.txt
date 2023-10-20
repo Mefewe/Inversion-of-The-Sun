@@ -10,8 +10,16 @@ state={
         add_core_of = BCK
         buildings = {
                 infrastructure = 6
+                industrial_complex = 1
+                arms_factory = 2
         }
     }
+
+        resources = {
+        steel = 12
+        aluminium = 20
+        }
+
         state_category = large_city
 	manpower=502675
 	buildings_max_level_factor=1.000

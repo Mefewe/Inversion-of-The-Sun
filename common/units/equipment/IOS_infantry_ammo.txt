@@ -6,6 +6,9 @@ equipments = {
 		year = 1770
 	
 		is_archetype = yes
+                can_be_produced = {
+                always = no
+                }
 		picture = archetype_infantry_ammo_equipment		
 		is_buildable = no
 		type = infantry

@@ -10,14 +10,17 @@ state={
         add_core_of = WNG
         buildings = {
                 infrastructure = 4
+                industrial_complex = 1
+                arms_factory = 2
         }
     }
 
         resources = {
-        steel = 12
-        tungsten = 8
-        oil = 2
-        chromium = 7
+        steel = 31
+        aluminium = 25
+        tungsten = 19
+        oil = 26
+        rubber = 18
         }
 
 	manpower=716041

@@ -1,0 +1,43 @@
+on_actions = {
+	on_weekly = {
+		effect = {
+            every_country = {
+				 set_variable = { ammo_eqp = 2000 }
+                 set_variable = { total_ammo_complexes = 0 }
+
+                 for_each_scope_loop = {
+                    array = global.states
+                    if = {
+                        limit = {
+                            is_core_of = PREV
+                        }
+                        add_to_variable = {
+                            var = total_ammo_complexes
+                            value = non_damaged_building_level@ammo_complex
+                        }
+                    }
+                }
+								 
+				  if = {
+					 limit = {
+                           has_variable = total_ammo_complexes
+                           has_variable = ammo_eqp
+                       }
+					 if = {
+					    limit = {
+						      check_variable = {
+						                     total_ammo_complexes > 0
+					            }
+					      }
+				     multiply_variable = { var = ammo_eqp value = total_ammo_complexes }
+					 add_equipment_to_stockpile = {
+                                                type = infantry_equipment_0
+                                                amount = ammo_eqp
+                                                producer = SDL
+                       }
+				    }
+                 }
+	          }
+		  }
+	  }
+  }

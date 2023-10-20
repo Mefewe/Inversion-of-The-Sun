@@ -70,6 +70,13 @@ add_equipment_to_stockpile = {
 }
 
 add_ideas = {
+                sdl_conf_struggling_harmony
+                sdl_conf_last_survivors
+                sdl_conf_just_business
+                sdl_conf_internal_chaos
+                sdl_conf_broken_armade
+                sdl_conf_lost_borean_idol
+                sdl_conf_involuntarily_allies
 		#laws
 		low_economic_mobilisation
 		extensive_conscription

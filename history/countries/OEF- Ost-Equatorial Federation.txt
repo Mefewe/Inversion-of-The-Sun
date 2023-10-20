@@ -1,5 +1,5 @@
 ﻿capital = 320
-recruit_character = OEF_President
+recruit_character = OEF_Paper_Shelf
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {
@@ -31,16 +31,6 @@ set_popularities = {
         paternalism = 9
 }
 
-create_country_leader = {
-	name = "Franklin"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = moderate_social_valterists
-	traits = {
-		
-	}
-}
 
 create_country_leader = {
 	name = "Earl"

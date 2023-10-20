@@ -10,8 +10,16 @@ state={
         add_core_of = FEA
         buildings = {
                 infrastructure = 4
+                industrial_complex = 1
+                arms_factory = 1
         }
     }
+
+        resources = {
+        steel = 10
+        aluminium = 8
+        }
+
         state_category = town
 	manpower=900179
 	buildings_max_level_factor=1.000

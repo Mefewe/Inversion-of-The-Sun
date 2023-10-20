@@ -10,8 +10,16 @@ state={
         add_core_of = WNG
         buildings = {
                 infrastructure = 3
+                industrial_complex = 1
         }
     }
+
+        resources = {
+        steel = 17
+        aluminium = 5
+        tungsten = 6
+        }
+
         state_category = rural
 	manpower=912137
 	buildings_max_level_factor=1.000

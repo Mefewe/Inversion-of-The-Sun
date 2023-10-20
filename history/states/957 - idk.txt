@@ -1,0 +1,17 @@
+state={
+	id=957
+	name="STATE_957"
+	provinces={
+		253 329 700 3924 4062 4296 4791 7264 7401 7430
+	}
+	history={
+        owner = TYR
+        add_core_of = TYR
+        buildings = {
+                infrastructure = 3
+        }
+    }
+        state_category = town
+	manpower=855142
+	buildings_max_level_factor=1.000
+}

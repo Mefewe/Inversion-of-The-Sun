@@ -84,4 +84,8 @@ spriteTypes = {
         name = GFX_DRG_Ember_L
         texturefile = gfx/leaders/DRG/portrait_Ember.dds
     }
+	spriteType = {
+        name = GFX_OEF_Paper_Shelf_L
+        texturefile = gfx/leaders/OEF/portrait_Paper_Shelf.dds
+    }
 }

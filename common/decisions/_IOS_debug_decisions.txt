@@ -1,0 +1,570 @@
+debug_zebrica_decisions = {
+	regive_states_to_tyrlitia = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+                                TYR = {
+			        annex_country = {
+                                    target = BKS
+                                    transfer_troops = no
+                                }
+			        annex_country = {
+                                    target = MZB
+                                    transfer_troops = no
+                                }
+			        annex_country = {
+                                    target = CHR
+                                    transfer_troops = no
+                                }
+			        annex_country = {
+                                    target = SNW
+                                    transfer_troops = no
+                                }
+			        annex_country = {
+                                    target = AGD
+                                    transfer_troops = no
+                                }
+	 	}
+        }
+}
+regive_states_to_farazia = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			908 = {
+                            set_state_controller_to = FRZ
+                        }
+			886 = {
+                            set_state_controller_to = FRZ
+                        }
+		}
+	}
+regive_states_to_zebrica = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {                        
+                                OZB = {
+			        annex_country = {
+                                    target = AGA
+                                    transfer_troops = no
+                                }
+			        annex_country = {
+                                    target = AGB
+                                    transfer_troops = no
+                                }
+			        annex_country = {
+                                    target = AGC
+                                    transfer_troops = no
+                                }
+                        }
+		}
+	}
+	liberate_zebrica = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+                        ### Sandwater
+			951 = {
+                            set_state_controller_to = SNW
+                        }
+			502 = {
+                            set_state_controller_to = SNW
+                        }
+			503 = {
+                            set_state_controller_to = SNW
+                        }
+                        ### Bucksana
+                        BKS = {
+			drop_cosmetic_tag = yes
+                        }
+			959 = {
+                            set_state_controller_to = BKS
+                        }
+			756 = {
+                            set_state_controller_to = BKS
+                        }
+			712 = {
+                            set_state_controller_to = BKS
+                        }
+			652 = {
+                            set_state_controller_to = BKS
+                        }
+                        ### Moozambique
+			665 = {
+                            set_state_controller_to = MZB
+                        }
+			758 = {
+                            set_state_controller_to = MZB
+                        }
+			957 = {
+                            set_state_controller_to = MZB
+                        }
+			958 = {
+                            set_state_controller_to = MZB
+                        }
+			802 = {
+                            set_state_controller_to = MZB
+                        }
+                        ### Cheeruta
+			779 = {
+                            set_state_controller_to = CHR
+                        }
+		}
+        }
+	make_moobucksan_armies = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+                        BKS = {
+			set_cosmetic_tag = BKS_CONF
+                        }
+			665 = {
+                            set_state_controller_to = BKS
+                        }
+			758 = {
+                            set_state_controller_to = BKS
+                        }
+			957 = {
+                            set_state_controller_to = BKS
+                        }
+			958 = {
+                            set_state_controller_to = BKS
+                        }
+			802 = {
+                            set_state_controller_to = BKS
+                        }
+			779 = {
+                            set_state_controller_to = BKS
+                        }
+		}
+	}
+	liberate_abyssinian_armies = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+                        ### Armies Group "A"
+			541 = {
+                            set_state_controller_to = AGA
+                        }
+			548 = {
+                            set_state_controller_to = AGA
+                        }
+			572 = {
+                            set_state_controller_to = AGA
+                        }
+			656 = {
+                            set_state_controller_to = AGA
+                        }
+			25 = {
+                            set_state_controller_to = AGA
+                        }
+                        ### Armies Group "B"
+			886 = {
+                            set_state_controller_to = AGB
+                        }
+			908 = {
+                            set_state_controller_to = AGB
+                        }
+			871 = {
+                            set_state_controller_to = AGB
+                        }
+			890 = {
+                            set_state_controller_to = AGB
+                        }
+			898 = {
+                            set_state_controller_to = AGB
+                        }
+			3 = {
+                            set_state_controller_to = AGB
+                        }
+			879 = {
+                            set_state_controller_to = AGB
+                        }
+			910 = {
+                            set_state_controller_to = AGB
+                        }
+                        ### Armies Group "C"
+			297 = {
+                            set_state_controller_to = AGC
+                        }
+			216 = {
+                            set_state_controller_to = AGC
+                        }
+			398 = {
+                            set_state_controller_to = AGC
+                        }
+			337 = {
+                            set_state_controller_to = AGC
+                        }
+			762 = {
+                            set_state_controller_to = AGC
+                        }
+			477 = {
+                            set_state_controller_to = AGC
+                        }
+			904 = {
+                            set_state_controller_to = AGC
+                        }
+			633 = {
+                            set_state_controller_to = AGC
+                        }
+			346 = {
+                            set_state_controller_to = AGC
+                        }
+                        ### Armies Group "D"
+			528 = {
+                            set_state_controller_to = AGD
+                        }
+			954 = {
+                            set_state_controller_to = AGD
+                        }
+			955 = {
+                            set_state_controller_to = AGD
+                        }
+			585 = {
+                            set_state_controller_to = AGD
+                        }
+			529 = {
+                            set_state_controller_to = AGD
+                        }
+			542 = {
+                            set_state_controller_to = AGD
+                        }
+		}
+	}
+	liberate_revolt_army = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+                        ### Zerbica Garrsion Revolt
+			618 = {
+                            set_state_controller_to = ZGR
+                        }
+			439 = {
+                            set_state_controller_to = ZGR
+                        }
+			892 = {
+                            set_state_controller_to = ZGR
+                        }
+			418 = {
+                            set_state_controller_to = ZGR
+                        }
+			589 = {
+                            set_state_controller_to = ZGR
+                        }
+			559 = {
+                            set_state_controller_to = ZGR
+                        }
+			430 = {
+                            set_state_controller_to = ZGR
+                        }
+		}
+	}
+}
+
+debug_decisions = {
+	add_efficiency_growth_debug = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_ideas = add_production_efficiency
+		}
+	}
+		
+	remove_efficiency_growth_debug = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_idea = add_production_efficiency
+				}
+				remove_ideas = add_production_efficiency
+			}
+			if = {
+				limit = {
+					has_idea = decrease_production_efficiency
+				}
+				remove_ideas = decrease_production_efficiency
+			}	
+		}
+	}
+		
+	decrease_efficiency_growth_debug = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_ideas = decrease_production_efficiency
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	create_recruitable_operative_not_to_spy_master_debug = {
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			create_operative_leader = {
+				bypass_recruitment = no
+				available_to_spy_master = no
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	create_recruitable_operative_debug = {
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			create_operative_leader = {
+				bypass_recruitment = no
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+
+	
+
+	
+
+	add_random_nationality = {
+		available = {
+			num_of_operatives > 0
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_country = {
+				limit = {
+					NOT = { tag = FROM }
+				}
+				FROM = {
+					random_operative = {
+						add_nationality = PREV.PREV
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+	}
+
+	slot_machine = { # we pegi 18 now
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		days_remove = 777
+
+		modifier = {
+			operative_slot = 99
+		}
+	}
+
+	decryption_tech_1 = {
+		days_remove = 100
+		modifier = {
+			decryption = 1
+		}
+	}
+
+	decryption_tech_2 = {
+		days_remove = 100
+		modifier = {
+			decryption = 1
+		}
+	}
+
+	decryption_tech_3 = {
+		days_remove = 100
+		modifier = {
+			decryption = 1
+		}
+	}
+
+	encryption_tech_1 = {
+		days_remove = 100
+		modifier = {
+			encryption = 1
+		}
+	}
+
+	encryption_tech_2 = {
+		days_remove = 100
+		modifier = {
+			encryption = 1
+		}
+	}
+
+	encryption_tech_3 = {
+		days_remove = 100
+		modifier = {
+			encryption = 1
+		}
+	}
+
+}

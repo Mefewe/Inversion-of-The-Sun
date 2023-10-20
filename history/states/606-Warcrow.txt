@@ -10,8 +10,16 @@ state={
         add_core_of = FEA
         buildings = {
                 infrastructure = 2
+                industrial_complex = 1
         }
     }
+
+        resources = {
+        steel = 16
+        aluminium = 10
+        tungsten = 5
+        }
+
         state_category = rural
 	manpower=890716
 	buildings_max_level_factor=1.000

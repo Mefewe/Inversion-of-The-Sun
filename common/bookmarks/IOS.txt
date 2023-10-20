@@ -62,6 +62,9 @@ bookmarks = {
 			ideology = paternalism
 			available = { }
 			ideas = {
+                        sdl_conf_involuntarily_allies
+                        sdl_conf_last_survivors
+                        sdl_conf_just_business
 			}
 			focuses = {
 			}

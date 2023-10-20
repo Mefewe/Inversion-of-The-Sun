@@ -184,10 +184,55 @@ color_ui = rgb { 195 195 195 }
 }
 
 ANF = {
-	color = rgb { 220 20 60 }
-	color_ui = rgb { 220 20 60 }
+color = rgb { 220 20 60 }
+color_ui = rgb { 220 20 60 }
 }
-	
+
+BKS = {
+color = rgb { 160 114 106 }
+color_ui = rgb { 160 114 106 }
+}
+
+MZB = {
+color = rgb { 162 152 121 }
+color_ui = rgb { 162 152 121 }
+}
+
+CHR = {
+color = rgb { 220 20 60 }
+color_ui = rgb { 220 20 60 }
+}
+
+SNW = {
+color = rgb { 224 154 71 }
+color_ui = rgb { 224 154 71 }
+}
+
+AGA = {
+color = rgb { 67 149 73 }
+color_ui = rgb { 67 149 73 }
+}
+
+AGB = {
+color = rgb { 88 153 123 }
+color_ui = rgb { 88 153 123 }
+}
+
+AGC = {
+color = rgb { 101 129 143 }
+color_ui = rgb { 101 129 143 }
+}
+
+AGD = {
+color = rgb { 209 211 97 }
+color_ui = rgb { 209 211 97 }
+}
+
+ZGR = {
+color = rgb { 129 148 81 }
+color_ui = rgb { 129 148 81 }
+}
+
 
 
 

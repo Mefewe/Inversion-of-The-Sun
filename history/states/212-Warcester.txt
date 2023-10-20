@@ -10,8 +10,17 @@ state={
         add_core_of = GRF
         buildings = {
                 infrastructure = 3
+                industrial_complex = 1
+                arms_factory = 2
         }
     }
+
+        resources = {
+        steel = 20
+        aluminium = 18
+        oil = 13
+        }
+
         state_category = town
 	manpower=491287
 	buildings_max_level_factor=1.000

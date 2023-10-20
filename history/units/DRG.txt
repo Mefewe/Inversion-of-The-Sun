@@ -1,0 +1,106 @@
+division_template = {
+        name = "Reformed Infantry Division"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 1 y = 2 }
+                infantry = { x = 2 y = 0 }
+                infantry = { x = 2 y = 1 }
+                infantry = { x = 2 y = 2 }
+        }
+}
+division_template = {
+        name = "Dragon Group"
+        regiments = {
+                oldinf = { x = 0 y = 0 }
+                oldinf = { x = 0 y = 1 }
+                oldinf = { x = 0 y = 2 }
+                oldinf = { x = 0 y = 3 }
+        }
+}
+
+units = {
+        division = {
+                name = "1. Her Majestry's Division"
+		location = 7779
+		division_template = "Reformed Infantry Division"
+		start_experience_factor = 0.90
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Honorary Warriors Group «Pride»"
+		location = 3336
+		division_template = "Dragon Group"
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Honorary Warriors Group «Claws»"
+		location = 2010
+		division_template = "Dragon Group"
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Honorary Warriors Group «Winghorns»"
+		location = 675
+		division_template = "Dragon Group"
+		start_experience_factor = 0.80
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Dragon Warriors"
+		location = 1776
+		division_template = "Dragon Group"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Dragon Warriors"
+		location = 7789
+		division_template = "Dragon Group"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Dragon Warriors"
+		location = 1602
+		division_template = "Dragon Group"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Dragon Warriors"
+		location = 7730
+		division_template = "Dragon Group"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Dragon Warriors"
+		location = 4497
+		division_template = "Dragon Group"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Newest Reformed Infantry Division"
+		location = 7858
+		division_template = "Reformed Infantry Division"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

@@ -1,3 +1,9 @@
+debug_zebrica_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}
 debug_decisions = {
 	icon = generic_research
 	visible = {
