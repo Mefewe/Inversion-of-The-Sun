@@ -1,5 +1,5 @@
-﻿capital = 754
-recruit_character = STI_Leader
+﻿capital = 716
+recruit_character = STI_Tachik_Navelle
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {
@@ -17,7 +17,7 @@ add_ideas = {
 		closed_economy
 	}
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -25,8 +25,8 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	communism = 0
-	neutrality = 0
-	fascism = 100
+	neutrality = 30
+	fascism = 30
     progressivism = 0
-    paternalism = 0
+    paternalism = 40
 }

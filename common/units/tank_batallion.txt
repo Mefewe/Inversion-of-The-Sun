@@ -26,6 +26,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
+			infantry_ammo_equipment = 200
 			tank_ammo_equipment = 200
 			candc_equipment = 25
 			medium_tank_chassis = 50

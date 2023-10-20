@@ -1,0 +1,17 @@
+characters = {
+	STI_Tachik_Navelle = {
+		name = STI_Tachik_Navelle
+		portraits = {
+			civilian = {
+				large = GFX_STI_Tachik_Navelle_L
+			}
+		}
+		country_leader = {
+		    desc="STI_Tachik_Navelle_desc"
+			ideology = new_silence
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}
