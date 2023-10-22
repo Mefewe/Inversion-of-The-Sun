@@ -5,12 +5,19 @@ state={
 		2509 3358 3897 4452 6223 6340 6344 6382 6407 
 	}
 	history={
+	victory_points = {2509 10} #
+	victory_points = {3358 5} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
                 infrastructure = 2
         }
     }
+
+        resources = {
+        oil = 4
+        }
+
         state_category = rural
 	manpower=721940
 	buildings_max_level_factor=1.000

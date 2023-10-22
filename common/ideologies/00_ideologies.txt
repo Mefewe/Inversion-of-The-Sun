@@ -3,16 +3,8 @@ ideologies = {
 	democratic = { #Neo-harmonism
 
 		types = {
-
 			neoharmonism = {
 				
-			}
-
-			moderate_social_valterists = {
-
-			}
-			extrimistki_modernizm = {
-				can_be_randomly_selected = no
 			}
 		}
 
@@ -66,13 +58,10 @@ ideologies = {
 	}
 
 
-	communism = { #Valterism
+	communism = { #Polycratic
 
 		types = {
-			marxism = { #Valterism
-				
-			}
-			revolutonary_valterism = { #AZIV SYSTEM OMGGG
+			pairlament_democracy = {
 
 			}
 		}
@@ -230,16 +219,7 @@ ideologies = {
 		provisional_government = {
 
 		}
-
 		hybrid_goverment = {
-
-		}
-
-		pairlament_democracy = {
-
-		}
-
-		new_silence = { #for non-honor retarded kirins
 
 		}
 	}
@@ -284,14 +264,29 @@ ideologies = {
 
 
 	progressivism = { #Social-Valterism
-		types ={
-		social_valterism = {
-
-		}
-		popularity_progressivism_ideology = {
+		types = {
+			popularity_progressivism_ideology = {
 			
+			}
+			marxism = { #Valterism
+				
+			}
+			revolutonary_valterism = { #AZIV SYSTEM OMGGG
+
+			}
+			social_valterism = {
+
+			}
+			moderate_social_valterists = {
+
+			}
+			new_silence = { #for non-honor retarded kirins
+
+			}
+			extrimistki_modernizm = {
+				can_be_randomly_selected = no
+			}
 		}
-	}
 
 	dynamic_faction_names = {
 		"FACTION_NAME_NONALIGNED_1"

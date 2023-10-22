@@ -5,16 +5,17 @@ state={
 		302 800 2303 6450 6537 
 	}
 	history={
+		victory_points = {800 5} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = DHT
         buildings = {
-                infrastructure = 3
+                infrastructure = 2
         }
     }
 
         resources = {
-        steel = 1
-        oil = 3
+        oil = 7
         }
 
 	state_category = town

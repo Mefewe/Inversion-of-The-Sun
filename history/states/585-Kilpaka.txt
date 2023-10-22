@@ -5,13 +5,25 @@ state={
 		375 1811 2307 2881 3157 3814 3851 6598 6642 6675 6695 
 	}
 	history={
+	victory_points = {6642 25} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
-                infrastructure = 1
+                infrastructure = 3
+		industrial_complex = 1
+		arms_factory = 4
+		6642 = { bunker = 4 }
         }
     }
-        state_category = pastoral
+
+        resources = {
+        steel = 17
+        aluminium = 10
+        tungsten = 4
+	rubber = 12
+        }
+
+        state_category = city
 	manpower=209730
 	buildings_max_level_factor=1.000
 }

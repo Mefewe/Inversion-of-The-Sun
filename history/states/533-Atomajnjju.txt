@@ -5,18 +5,23 @@ state={
 		1451 2223 2732 4043 4204 4221 4545 4849 6485 6585 6625 6631 6652 6673 
 	}
 	history={
-		victory_points = {6631 5}
+		victory_points = {6631 5} # Атомайнью
+		victory_points = {2223 15} #
+		victory_points = {6485 15} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = ISU
         buildings = {
                 infrastructure = 3
+		industrial_complex = 3
+		arms_complex = 1
+		ammo_complex = 1
         }
     }
 
         resources = {
-        steel = 1
-        aluminium = 1
-        oil = 2
+        steel = 7
+        aluminium = 10
         }
 
 	state_category = large_town

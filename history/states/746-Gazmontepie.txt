@@ -5,12 +5,22 @@ state={
 		476 667 861 1074 1325 1459 1762 2336 2492 3062 3380 3543 3962 4321 4691 4719 7116 7155 7208 7228 7238 7259 7269 7288 
 	}
 	history={
+	victory_points = {4691 15} #
+	victory_points = {1325 5} #
+	victory_points = {3543 5} #
+	victory_points = {2336 10} #
+	victory_points = {7116 5} #
         owner = FRZ
-        add_core_of = FRZ
+        add_core_of = ABS
         buildings = {
-                infrastructure = 2
+                infrastructure = 1
         }
     }
+
+        resources = {
+	rubber = 34
+        }
+
         state_category = town
 	manpower=597629
 	buildings_max_level_factor=1.000

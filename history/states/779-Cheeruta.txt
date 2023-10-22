@@ -5,12 +5,24 @@ state={
 		7547
 	}
 	history={
+	victory_points = {7547 30} # Чирута
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
                 infrastructure = 4
+                industrial_complex = 2
+                arms_factory = 1
+		ammo_complex = 1
+		dockyard = 1
+		7547 = { naval_base = 1 }
         }
     }
+
+        resources = {
+        steel = 47
+        aluminium = 38
+        }
+
         state_category = city
 	manpower=1254910
 	buildings_max_level_factor=1.000

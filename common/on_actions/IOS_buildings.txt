@@ -1,12 +1,12 @@
 on_actions = {
-    on_daily = {
+    on_weekly = {
         effect = {
             every_country = {
                 set_variable = { ammo_eqp = 0 }
                 set_variable = { total_ammo_complexes = 0 }
                 every_owned_state = {
                     limit = { ammo_complex > 0 }
-                    add_to_variable = { PREV.total_ammo_complexes = building_level@ammo_complex }
+                    add_to_variable = { PREV.total_ammo_complexes = non_damaged_building_level@ammo_complex }
                 }
                 if = {
                     limit = {
@@ -22,7 +22,7 @@ on_actions = {
                         add_to_variable = {ammo_eqp = 50}
                         multiply_variable = {ammo_eqp  = total_ammo_complexes }
                         add_equipment_to_stockpile = {
-                            type = infantry_equipment_0
+                            type = infantry_ammo_equipment_0
                             amount = ammo_eqp
                             producer = SDL
                         }

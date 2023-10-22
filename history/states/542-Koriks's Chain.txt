@@ -6,8 +6,16 @@ state={
 	}
 	history={
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
     }
+
+        resources = {
+        steel = 32
+        aluminium = 12
+        tungsten = 19
+	chromium = 8
+        }
+
         state_category = pastoral
 	manpower=4088
 	buildings_max_level_factor=1.000

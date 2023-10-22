@@ -5,17 +5,19 @@ state={
 		2615 4227 6039 
 	}
 	history={
-        owner = SDL
-        add_core_of = SDL
-        buildings = {
-                infrastructure = 2
-        }
-    }
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = HRS
+        	buildings = {
+                	infrastructure = 2
+        	}
+    	}
 
         resources = {
-        steel = 3
-        aluminium = 3
-        tungsten = 1
+        steel = 24
+        aluminium = 29
+        tungsten = 17
+	chromium = 14
         }
 
 	state_category = town

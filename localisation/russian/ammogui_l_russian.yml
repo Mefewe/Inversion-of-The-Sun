@@ -2,6 +2,8 @@
  AMMOINFTEXTA: "Укомплектованность нашей армии\nстрелковыми боеприпасами равна [?infantry_eq_coef|%]"
  AMMOARTTEXTA: "Укомплектованность нашей армии\nартиллерийскими боеприпасами равна [?arta_eq_coef|%]"
  AMMOTANKTEXTA: "Укомплектованность нашей армии\nтанковыми боеприпасами равна [?tank_eq_coef|%]"
+ AMMO_FACTORY_NUM: "[?total_ammo_complexes]"
+ AMMO_PROD: "[?ammo_eqp] ед./нед."
  #ammoarttooltip: "АЛЛОВ"
  AMMO_TOOLTIP_A: "Посмотреть информацию о оснащённости наших войск боеприпасами."
  AMMOTITLEGUI: "Боеприпасы"

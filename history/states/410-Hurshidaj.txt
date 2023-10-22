@@ -5,16 +5,29 @@ state={
 		40 1185 1423 1713 1857 1933 2490 2937 4193 4609 4758 5735 5762 5763 5791 5796 5801 5860 5861 5901 5933 5971 9218 9219 9220 9222 9223 9224 9225 9226 9227 9228 9229 9230 9231 9232 9233 9234 9235 9236 9237 9238 9239 9240 9242 9243 9244 9245 9246 9247 9368
 	}
 	history={
-		victory_points = {4758 15}
+		victory_points = {4758 15} # Хуршидай
+		victory_points = {5763 15} #
+		victory_points = {9227 5} #
+		victory_points = {5971 5} #
+		victory_points = {9222 10} #
+		victory_points = {9218 10} #
+		victory_points = {5762 10} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = HRS
         buildings = {
                 infrastructure = 3
+		dockyard = 3
+		4758 = { naval_base = 1 }
+		5763 = { naval_base = 1 }
         }
     }
 
         resources = {
-        steel = 3
+        steel = 8
+	aluminium = 9
+	chromium = 2
+	tungsten = 4
         }
 
 	state_category = city

@@ -5,11 +5,13 @@ state={
 		44 2294 3736 3913 6326 6330 6365 6376 6377 6414 6449 6457 6489 6532 
 	}
 	history={
+	victory_points = {6365 10} #
+	victory_points = {6326 10} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = GRF
         buildings = {
-                infrastructure = 3
+                infrastructure = 4
                 industrial_complex = 1
                 arms_factory = 2
         }
@@ -19,6 +21,7 @@ state={
         steel = 20
         aluminium = 18
         oil = 13
+	chromium = 8
         }
 
         state_category = town

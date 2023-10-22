@@ -7,14 +7,17 @@ state={
 	history={
         owner = SDL
         add_core_of = SDL
+		add_core_of = ISU
         buildings = {
                 infrastructure = 1
         }
     }
 
         resources = {
-        steel = 1
-        tungsten = 1
+        steel = 18
+	aluminium = 21
+	chromium = 7
+        tungsten = 11
         }
 
 	state_category = pastoral

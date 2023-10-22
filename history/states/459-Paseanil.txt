@@ -5,22 +5,23 @@ state={
 		3421 5970 5997 6049 6088 
 	}
 	history={
-		victory_points = {5997 15}
+		victory_points = {5997 15} # Аллектамад
         owner = SDL
         add_core_of = SDL
+		add_core_of = HRS
         buildings = {
                 infrastructure = 4
         }
     }
 
         resources = {
-        steel = 1
-        aluminium = 3
-        tungsten = 1
-        oil = 2
+        steel = 7
+	aluminium = 5
+        tungsten = 4
+	chromium = 2
         }
 
 	state_category = city
-	manpower=208726
+	manpower=258726
 	buildings_max_level_factor=1.000
 }

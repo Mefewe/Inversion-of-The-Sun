@@ -5,22 +5,27 @@ state={
 		1728 1855 2548 2790 3046 3410 4335 6609 6664 6706 6707 6726 6740 6748 
 	}
 	history={
+	victory_points = {3046 15} #
+	victory_points = {6706 10} #
+	victory_points = {6609 5} #
+	victory_points = {6664 5} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = FEA
         buildings = {
-                infrastructure = 2
-                industrial_complex = 1
+                infrastructure = 3
+                industrial_complex = 3
         }
     }
 
         resources = {
-        steel = 16
-        aluminium = 10
-        tungsten = 5
+        steel = 21
+        aluminium = 12
+        tungsten = 8
+	chromium = 4
         }
 
-        state_category = rural
+        state_category = town
 	manpower=890716
 	buildings_max_level_factor=1.000
 }

@@ -5,13 +5,30 @@ state={
 		185 464 1604 1654 1841 2052 2335 2474 3214 3919 4483 4678 7349 7373 7374 7385 7437 7456 7491 7500 7534 7568 7573 
 	}
 	history={
-	victory_points = {7500 25}
+	victory_points = {7500 25} # Сан-Юри
+	victory_points = {7573 15} #
+	victory_points = {7491 15} #
+	victory_points = {7349 10} #
+	victory_points = {2052 10} #
         owner = FRZ
-        add_core_of = FRZ
+        add_core_of = ABS
         buildings = {
                 infrastructure = 3
+                industrial_complex = 2
+                arms_factory = 1
+		ammo_complex = 1
+		air_base = 1
+		4483 = { naval_base = 1 }
+		dockyard = 1
         }
     }
+
+        resources = {
+        steel = 4
+        aluminium = 6
+	rubber = 37
+        }
+
         state_category = city
 	manpower=1198409
 	buildings_max_level_factor=1.000

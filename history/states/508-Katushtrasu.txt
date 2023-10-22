@@ -2,24 +2,26 @@ state={
 	id=508
 	name="STATE_508"
 	provinces={
-		945 1150 1502 1537 1775 2195 3743 3885 4471 6040 6109 6130 6181 6211 6277 6307 6311 6332 6406 6451 
+		945 1502 1537 1775 2195 3743 3885 6181 6211 6277 6307 6311 6332 6406 6451 
 	}
 	history={
-		victory_points = {945 15}
-		victory_points = {1502 10}
-		victory_points = {6040 5}
-		victory_points = {6181 20}
+		victory_points = {945 15} # Катуштрасу
+		victory_points = {1502 10} # Фарналех
+		victory_points = {6181 20} # Касабронко
         owner = SDL
         add_core_of = SDL
+		add_core_of = KTH
         buildings = {
                 infrastructure = 3
+                industrial_complex = 1
+                arms_factory = 2
         }
     }
 
         resources = {
-        aluminium = 1
-        tungsten = 1
-        oil = 3
+	steel = 5
+        aluminium = 9
+        oil = 12
         }
 
 	state_category = city

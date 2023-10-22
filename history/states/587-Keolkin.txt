@@ -5,6 +5,8 @@ state={
 		1415 1551 1753 2198 2763 3490 4083 4291 6511 6587 6611 6710 
 	}
 	history={
+	victory_points = {4291 15} #
+	victory_points = {2198 15} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = LBR
@@ -12,6 +14,14 @@ state={
                 infrastructure = 1
         }
     }
+
+        resources = {
+        steel = 7
+        aluminium = 5
+	rubber = 14
+	oil = 5
+        }
+
         state_category = rural
 	manpower=284954
 	buildings_max_level_factor=1.000

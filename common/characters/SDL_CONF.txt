@@ -1,5 +1,5 @@
 characters = {
-SDL_CONF_Sylva_Sandstre = {
+	SDL_CONF_Sylva_Sandstre = {
 		name = SDL_CONF_Sylva_Sandstre
 		portraits = {
 			civilian = {
@@ -12,6 +12,42 @@ SDL_CONF_Sylva_Sandstre = {
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1
+		}
+	}
+	SDL_CONF_test={
+		name=SDL_CONF_test
+		portraits={
+			army={
+				large=GFX_portrait_AUS_karl_eglseer
+				small=GFX_portrait_AUS_karl_eglseer_small
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_test2={
+		name=SDL_CONF_test2
+		portraits={
+			army={
+				large=GFX_portrait_AUS_karl_eglseer
+				small=GFX_portrait_AUS_karl_eglseer_small
+			}
+		}
+		field_marshal={
+			traits={ trickster trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 }

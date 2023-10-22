@@ -5,12 +5,19 @@ state={
 		196 3221 7790 
 	}
 	history={
+	victory_points = {196 5} #
         owner = FRZ
-        add_core_of = FRZ
+        add_core_of = ABS
         buildings = {
                 infrastructure = 1
         }
     }
+
+        resources = {
+        steel = 8
+        tungsten = 5
+        }
+
         state_category = rural
 	manpower=129049
 	buildings_max_level_factor=1.000

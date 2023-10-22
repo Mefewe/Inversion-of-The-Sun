@@ -5,7 +5,7 @@ state={
 		2471 4390 6072 6161 
 	}
 	history={
-	victory_points = {4390 30}
+	victory_points = {4390 30} # Гриффонстоун
 	owner = SDL
 	add_core_of = SDL
         add_core_of = GRF
@@ -14,12 +14,14 @@ state={
                 arms_factory = 2
                 industrial_complex = 3
                 air_base = 3
+		ammo_complex = 1
         }
     }
 
         resources = {
         steel = 47
         aluminium = 28
+	chromium = 7
         }
 
         state_category = metropolis

@@ -5,13 +5,25 @@ state={
 		824 1723 2494 2629 3693 3795 4314 4318 6668 6693 6718 6749 6754 6763 6778 6794 6816 6837 6879 
 	}
 	history={
+	victory_points = {6754 20} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = LBR
         buildings = {
                 infrastructure = 2
+                industrial_complex = 2
         }
     }
+
+        resources = {
+        steel = 17
+        aluminium = 14
+        tungsten = 9
+	rubber = 37
+	chromium = 6
+	oil = 10
+        }
+
         state_category = town
 	manpower=692784
 	buildings_max_level_factor=1.000

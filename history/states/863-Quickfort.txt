@@ -5,9 +5,14 @@ state={
 		2619 8073 
 	}
 	history={
+	victory_points = {8073 15} #
         owner = DRG
         add_core_of = DRG
+        buildings = {
+                infrastructure = 1
+		8073 = { bunker = 6 }
+        }
     }
-	manpower=0
+	manpower=67019
 	buildings_max_level_factor=1.000
 }

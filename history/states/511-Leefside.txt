@@ -5,6 +5,7 @@ state={
 		3313 3731 6216 6241 6259 6274 
 	}
 	history={
+	victory_points = {3731 15} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = GRF

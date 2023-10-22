@@ -5,12 +5,14 @@ state={
 		967 3051 3702 6148 
 	}
 	history={
+	victory_points = {3051 5} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = GRF
         buildings = {
-                infrastructure = 2
+                infrastructure = 4
                 industrial_complex = 2
+		ammo_complex = 1
         }
     }
 
@@ -18,6 +20,7 @@ state={
         aluminium = 10
         tungsten = 35
         oil = 4
+	chromium = 6
         }
 
         state_category = town

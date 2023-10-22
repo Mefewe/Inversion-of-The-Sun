@@ -18,6 +18,8 @@ set_technology = {
 }
 capital = 492
 recruit_character = SDL_CONF_Sylva_Sandstre
+recruit_character = SDL_CONF_test
+recruit_character = SDL_CONF_test2
 set_stability = 0.3
 set_war_support = 0.6
 set_cosmetic_tag = SDL_CONF

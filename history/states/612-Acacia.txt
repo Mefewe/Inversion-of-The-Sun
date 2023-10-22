@@ -5,12 +5,20 @@ state={
 		2323 2879 3065 3222 3469 3895 6720 6755 6758 6825 6907 
 	}
 	history={
+	victory_points = {3222 10} #
+	victory_points = {6758 5} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
                 infrastructure = 2
+		industrial_complex = 1
         }
     }
+
+        resources = {
+	rubber = 10
+        }
+
         state_category = town
 	manpower=400187
 	buildings_max_level_factor=1.000

@@ -2,15 +2,24 @@ state={
 	id=468
 	name="STATE_468"
 	provinces={
-		2148 2293 3527 3715 4301 5991 6020 6021 6068 6087 6126 6133 
+		2148 3527 3715 4301 5991 6020 6021 6068 6126
 	}
 	history={
+	victory_points = {4301 10} #
+	victory_points = {3715 5} #
+	victory_points = {6020 5} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
                 infrastructure = 1
         }
     }
+
+        resources = {
+        aluminium = 4
+        oil = 3
+        }
+
         state_category = rural
 	manpower=312849
 	buildings_max_level_factor=1.000

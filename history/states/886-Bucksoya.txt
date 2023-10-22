@@ -5,13 +5,27 @@ state={
 		7682 
 	}
 	history={
+	victory_points = {7682 25} # Баксоя
         owner = FRZ
-        add_core_of = FRZ
+        add_core_of = ABS
         buildings = {
-                infrastructure = 2
+                infrastructure = 3
+		industrial_complex = 2
+		arms_complex = 1
+		ammo_complex = 1
+		dockyard = 1
+		7682 = { naval_base = 1 }
         }
     }
-        state_category = rural
+
+        resources = {
+        steel = 8
+        aluminium = 4
+        tungsten = 15
+	chromium = 17
+        }
+
+        state_category = city
 	manpower=382305
 	buildings_max_level_factor=1.000
 }

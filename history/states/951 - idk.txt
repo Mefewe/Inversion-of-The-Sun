@@ -5,12 +5,20 @@ state={
 		6371 2812 4828 3432 4073 6459 4089 4379
 	}
 	history={
+	victory_points = {6371 10} #
+	victory_points = {4379 5} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
-                infrastructure = 2
+                infrastructure = 1
         }
     }
+
+        resources = {
+        steel = 6
+        oil = 5
+        }
+
         state_category = pastoral
 	manpower=480971
 	buildings_max_level_factor=1.000

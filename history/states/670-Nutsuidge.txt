@@ -5,12 +5,14 @@ state={
 		3603 3740 4041 4418 4624 6823 6847 6866 6889 6927 6936 6962 7015 7067 
 	}
 	history={
+	victory_points = {6889 10} #
+	victory_points = {3740 10} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = FEA
         buildings = {
-                infrastructure = 5
-                industrial_complex = 4
+                infrastructure = 3
+                industrial_complex = 2
                 arms_factory = 1
         }
     }

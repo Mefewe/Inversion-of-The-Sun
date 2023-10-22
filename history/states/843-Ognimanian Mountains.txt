@@ -11,6 +11,14 @@ state={
                 infrastructure = 2
         }
     }
+
+        resources = {
+        steel = 6
+        aluminium = 4
+        tungsten = 2
+	chromium = 3
+        }
+
         state_category = rural
 	manpower=169282
 	buildings_max_level_factor=1.000

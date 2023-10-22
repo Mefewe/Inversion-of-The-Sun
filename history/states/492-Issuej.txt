@@ -5,20 +5,33 @@ state={
 		1194 1468 2395 2433 3594 3969 6149 6197 6228 6287 6378 6410 
 	}
 	history={
-		victory_points = {6287 35}
-		victory_points = {3594 20}
+		victory_points = {6287 35} # Йармалесуми
+		victory_points = {3594 20} # Телавелеш
+		victory_points = {6410 10} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = ISU
         buildings = {
                 infrastructure = 5
+		air_base = 2
+		industrial_complex = 2
+		arms_factory = 2
+		ammo_complex = 1
+		dockyard = 2
+		3594 = { 
+		naval_base = 1
+		bunker = 2
+		coastal_bunker = 3
+		}
+		6287 = { bunker = 4 }
         }
     }
 
         resources = {
-        steel = 1
-        aluminium = 1
-        tungsten = 2
-        oil = 3
+        steel = 20
+        aluminium = 17
+        tungsten = 10
+	chromium = 4
         }
 
 	state_category = large_city

@@ -83,6 +83,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_power_soldiers_support_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_power_soldiers_support_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_guard_icon_medium"						                textureFile = "gfx/interface/counters/divisions_large/unit_guard_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_oldinf_icon_medium"						            textureFile = "gfx/interface/counters/divisions_large/unit_oldinf_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_abada_icon_medium"						            textureFile = "gfx/interface/counters/divisions_large/unit_abada_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_kelpie_icon_medium"						            textureFile = "gfx/interface/counters/divisions_large/unit_kelpie_icon.dds" noOfFrames = 2 }
 
 	
 	####################################################
@@ -160,6 +162,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_power_soldiers_support_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_power_soldiers_support_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_guard_icon_medium_white"					                textureFile = "gfx/interface/counters/divisions_small/onmap_unit_guard_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_oldinf_icon_medium_white"					                textureFile = "gfx/interface/counters/divisions_small/onmap_unit_oldinf_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_abada_icon_medium_white"					                textureFile = "gfx/interface/counters/divisions_small/onmap_unit_abada_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_kelpie_icon_medium_white"					                textureFile = "gfx/interface/counters/divisions_small/onmap_unit_kelpie_icon.dds" noOfFrames = 2}
 
 	###########################################
 	### Large images for DIVISION TEMPLATES ###

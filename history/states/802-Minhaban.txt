@@ -5,10 +5,11 @@ state={
 		3140 3240 3987 7457 
 	}
 	history={
+	victory_points = {3140 5} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
-                infrastructure = 3
+                infrastructure = 1
         }
     }
         state_category = town

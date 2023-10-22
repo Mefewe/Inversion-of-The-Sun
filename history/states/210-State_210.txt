@@ -5,13 +5,21 @@ state={
 		6267 
 	}
 	history={
+	victory_points = {6267 35}
 	owner = SDL
 	add_core_of = SDL
         add_core_of = GRF
         buildings = {
-                infrastructure = 6
-                industrial_complex = 5
+                infrastructure = 7
+                industrial_complex = 3
                 arms_factory = 1
+		dockyard = 3
+
+		6267 = { 
+		naval_base = 1
+		bunker = 3
+		coastal_bunker = 2
+		}
         }
     }
 

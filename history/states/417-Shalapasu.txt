@@ -5,18 +5,20 @@ state={
 		1024 2262 2330 2958 3286 3732 4025 4493 4510 5760 5771 5812 5893 5925 
 	}
 	history={
-		victory_points = {4510 5}
-		victory_points = {2262 5}
-        owner = SDL
-        add_core_of = SDL
-        buildings = {
-                infrastructure = 3
-        }
+		victory_points = {4510 5} # Маркорик
+		victory_points = {2262 5} # Троттингем
+		victory_points = {5771 5} #
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = ARD
+        	buildings = {
+                	infrastructure = 3
+			industrial_complex = 1
+        	}
         }
 
         resources = {
-        steel = 2
-        oil = 1
+        oil = 17
         }
 
 	state_category = town

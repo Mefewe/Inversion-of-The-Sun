@@ -21,7 +21,7 @@ guiTypes = {
 		name = "ammo_gui_e"
 		position = { x = 0 y = 0}	
 		
-		size = { width = 500 height = 720 }
+		size = { width = 520 height = 800 }
 		
 		fade_time = 300
 		fade_type = linear
@@ -30,11 +30,6 @@ guiTypes = {
 		click_to_front = yes
         
 		orientation = CENTER_UP
-        
-		background = {
-			name = "Background"		
-			quadTextureSprite = "GFX_tiled_window2_1b_border"
-		}
 
         instantTextboxType = {
 			name = "title"
@@ -95,9 +90,57 @@ guiTypes = {
             Orientation = "UPPER_LEFT"	
             alwaystransparent = yes
         }
+		
+		iconType = {
+			name = "ammo_factories_bg"
+			quadTextureSprite ="GFX_generic_text_bg_108"
+			position = { x = 50 y = 640 }
+		}
+		
+		iconType = {
+			name = "prod_of_ammo_bg"
+			quadTextureSprite ="GFX_generic_text_bg_108"
+			position = { x = 50 y = 700 }
+		}
+		
+		instantTextBoxType = {
+            name = "num_of_factories"
+            position = { x = 105 y = 645 }
+            font = "hoi_16mbs"
+            text = "AMMO_FACTORY_NUM"
+            maxWidth = 470
+            maxHeight = 200
+            Orientation = "UPPER_LEFT"	
+            alwaystransparent = yes
+        }
+		
+		instantTextBoxType = {
+            name = "prod_of_factories"
+            position = { x = 85 y = 705 }
+            font = "hoi_16mbs"
+            text = "AMMO_PROD"
+            maxWidth = 470
+            maxHeight = 200
+            Orientation = "UPPER_LEFT"	
+            alwaystransparent = yes
+        }
+		
+		iconType = {
+			name = "estimated_civil_industry_icon1"
+			quadTextureSprite ="GFX_endgame_civ_industry_button"
+			position = { x = 30 y = 690 }
+	    }
+		
+		
+		iconType = {
+			name = "estimated_civil_industry_icon2"
+			quadTextureSprite ="GFX_endgame_civ_industry_button"
+			position = { x = 30 y = 630 }
+	    }
+		
 		buttonType = {
 			name = "button_close"
-			position = { x = 200 y = 675 }
+			position = { x = 200 y = 740 }
 			spriteType = "GFX_sort_button_100x29_2"
 			frame = 2
 			buttonFont = "hoi_16mbs"
@@ -117,6 +160,11 @@ guiTypes = {
             Orientation = "UPPER_LEFT"	
             alwaystransparent = yes
         }
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
     }
 }
 

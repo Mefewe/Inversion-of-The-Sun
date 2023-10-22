@@ -7,6 +7,7 @@ state={
 	history={
         owner = OZB
         add_core_of = OZB
+	add_core_of = DRG
         buildings = {
                 infrastructure = 3
         }

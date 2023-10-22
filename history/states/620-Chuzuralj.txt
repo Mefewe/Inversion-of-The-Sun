@@ -5,18 +5,21 @@ state={
 		846 2284 2637 2690 3007 3941 6658 6762 6777 
 	}
 	history={
-		victory_points = {6777 15}
+		victory_points = {6777 15} # Чузура-Аль
+		victory_points = {3941 10} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = ISU
         buildings = {
                 infrastructure = 2
+		industrial_complex = 1
+		arms_factory = 1
         }
     }
 
         resources = {
-        steel = 2
-        aluminium = 1
-        oil = 4
+        steel = 10
+        aluminium = 7
         }
 
 	state_category = large_town

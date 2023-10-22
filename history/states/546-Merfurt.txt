@@ -6,21 +6,26 @@ state={
 		705 974 2194 2563 3023 3318 3467 3633 4900 6426 6475 6480 6522 6549 6564 6567 6569 6633 6659 
 	}
 	history={
-		victory_points = {2563 5}
-		victory_points = {6426 20}
+		victory_points = {2563 5} # Мерфурт
+		victory_points = {6426 20} # Тимбакту
+		victory_points = {6659 10} # 
         buildings = {
                 infrastructure = 4
+                arms_factory = 1
+		air_base = 1
                 6426 = {
                 bunker = 3
                 }
         }
         owner = SDL
         add_core_of = SDL
+		add_core_of = DHT
         }
 
         resources = {
+	steel = 4
         tungsten = 2
-        oil = 3
+        oil = 20
         }
 
 	manpower=509127

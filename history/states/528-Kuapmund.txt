@@ -5,10 +5,16 @@ state={
 		1255 1353 1476 3704 3992 4208 4714 6295 6333 6356 6412 6435 6455 6462
 	}
 	history={
+	victory_points = {6295 20} #
+	victory_points = {6412 15} #
+	victory_points = {6356 5} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
         buildings = {
                 infrastructure = 1
+		dockyard = 1
+		6295 = { naval_base = 1 }
+		6412 = { naval_base = 1 }
         }
     }
         state_category = rural

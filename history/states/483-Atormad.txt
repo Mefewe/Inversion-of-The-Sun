@@ -5,21 +5,26 @@ state={
 		603 1099 1320 2271 2376 3298 3758 3901 4091 4382 6108 6129 6179 6194 6218 6222 6263 6276 6293 6336 6381 
 	}
 	history={
-		victory_points = {
-			2271 50
-		}
-        owner = SDL
-        add_core_of = SDL
-        buildings = {
+		victory_points = { 2271 50 } # Атормад
+		victory_points = {3758 15} #
+		victory_points = {1320 10} #
+		victory_points = {6336 5} #
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = ARD
+        	buildings = {
                 infrastructure = 4
-        }
-    }
+		air_base = 1
+		industrial_complex = 3 
+		arms_factory = 2
+		ammo_complex = 1
+        	}
+    	}
 
         resources = {
-        steel = 4
-        aluminium = 2
-        tungsten = 1
-        oil = 2
+        steel = 10
+        aluminium = 12
+        oil = 9
         }
 
 	state_category = metropolis 

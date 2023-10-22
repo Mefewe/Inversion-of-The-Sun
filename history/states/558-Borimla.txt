@@ -7,13 +7,14 @@ state={
 	history={
         owner = SDL
         add_core_of = SDL
+		add_core_of = DHT
         buildings = {
-                infrastructure = 3
+                infrastructure = 1
         }
     }
 
         resources = {
-        aluminium = 1
+        oil = 8
         }
 
 	state_category = rural

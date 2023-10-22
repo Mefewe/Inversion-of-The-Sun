@@ -5,20 +5,22 @@ state={
 		979 2583 4038 6626 6632 
 	}
 	history={
-		victory_points = {4038 5}
-		victory_points = {979 20}
+		victory_points = {4038 5} # Нуфана
+		victory_points = {979 20} # Кристианополь
         owner = SDL
         add_core_of = SDL
+		add_core_of = ISU
         buildings = {
                 infrastructure = 2
         }
     }
 
         resources = {
-        steel = 2
-        aluminium = 1
-        tungsten = 3
-        oil = 1
+        steel = 10
+        aluminium = 5
+        tungsten = 9
+	chromium = 17
+        oil = 7
         }
 
 	state_category = town

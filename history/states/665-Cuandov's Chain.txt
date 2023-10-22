@@ -5,9 +5,21 @@ state={
 		365 692 984 2515 3224 3308 4505 4673 7197 7239 7260 7359 7390 7424 7470 7492 
 	}
 	history={
+	victory_points = {7239 20} #
+	victory_points = {3308 10} #
+	victory_points = {7359 10} #
+	victory_points = {4504 15} #
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
     }
+
+        resources = {
+        steel = 4
+        aluminium = 12
+        tungsten = 7
+	chromium = 5
+        }
+
         state_category = pastoral
 	manpower=620841
 	buildings_max_level_factor=1.000

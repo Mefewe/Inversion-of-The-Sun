@@ -5,13 +5,22 @@ state={
 		4541 4921 6709 6742 6802 
 	}
 	history={
+	victory_points = {4921 10} # Вистон
 	owner = SDL
 	add_core_of = SDL
         add_core_of = LBR
         buildings = {
                 infrastructure = 2
+                industrial_complex = 1
         }
     }
+
+        resources = {
+        steel = 20
+        aluminium = 15
+        tungsten = 13
+        }
+
         state_category = rural
 	manpower=871720
 	buildings_max_level_factor=1.000

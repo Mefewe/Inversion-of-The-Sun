@@ -1,0 +1,29 @@
+state={
+	id=960
+	name="STATE_960"
+	provinces={
+		4471 6040
+	}
+	history={
+		victory_points = {6040 20}
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = KTH
+		add_core_of = ABS
+        	buildings = {
+                	infrastructure = 3
+			industrial_complex = 1
+			6040 = { naval_base = 1 }
+        	}
+    	}
+
+        resources = {
+	steel = 7
+        aluminium = 4
+        tungsten = 1
+        }
+
+	state_category = city
+	manpower=602771
+	buildings_max_level_factor=1.000
+}

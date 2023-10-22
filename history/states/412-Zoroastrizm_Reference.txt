@@ -5,17 +5,24 @@ state={
 		602 1172 2525 2549 2664 2801 2993 3586 3812 4528 4584 4643 5745 5797 5805 5827 5862 5885 5907 5916 5947 5973 6028 6089 9281 9282 9283 9284 9285 9286 9287 9288 9289 9290 9291 9292 9293 9294 9295 9296 9297 9298 9299 9300 9301 9302 9304 9305 9306 9307 9308 9309 9310 9311 9312 9313 9314 9315 9316 9317 9318 9319 9320 9321 9322 214
 	}
 	history={
-		victory_points = {3812 10}
-        owner = SDL
-        add_core_of = SDL
-        buildings = {
-                infrastructure = 2
-        }
-    }
+		victory_points = {3812 10} # Ариджану
+		victory_points = {6089 10} #
+		victory_points = {4584 10} #
+		victory_points = {2993 20} #
+		victory_points = {5745 10} #
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = AHR
+        	buildings = {
+                	infrastructure = 2
+			dockyard = 1
+			2993 = { naval_base = 1 }
+        	}
+    	}
 
         resources = {
+	steel = 1
         aluminium = 2
-        tungsten = 1
         }
 
 	state_category = city

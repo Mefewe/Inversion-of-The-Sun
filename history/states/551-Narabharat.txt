@@ -5,15 +5,19 @@ state={
 		331 6466 6501 6548 
 	}
 	history={
+		victory_points = {6501 5} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = ISU
         buildings = {
                 infrastructure = 1
         }
     }
 
         resources = {
-        steel = 1
+        steel = 6
+	chromium = 1
+	tungsten = 2
         }
 
 	state_category = town

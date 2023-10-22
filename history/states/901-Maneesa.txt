@@ -5,10 +5,11 @@ state={
 		867 1727 2329 2758 4011 4158 4497 7723 7742 7751 7808 
 	}
 	history={
+	victory_points = {4497 5} #
         owner = DRG
         add_core_of = DRG
         buildings = {
-                infrastructure = 2
+                infrastructure = 1
         }
     } 
         state_category = rural

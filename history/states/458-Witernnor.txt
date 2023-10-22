@@ -5,6 +5,9 @@ state={
 		439 495 3016 3350 3961 4117 4131 4821 5983 6073 6107 
 	}
 	history={
+	victory_points = {4177 20} #
+	victory_points = {3016 15} #
+	victory_points = {5983 10} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = WNG
@@ -15,9 +18,12 @@ state={
     }
 
         resources = {
-        steel = 17
+        steel = 10
         aluminium = 5
-        tungsten = 6
+        tungsten = 5
+	rubber = 11
+	oil = 17
+	chromium = 4
         }
 
         state_category = rural

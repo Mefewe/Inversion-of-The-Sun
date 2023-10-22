@@ -5,19 +5,20 @@ state={
 		4 537 784 1237 1430 1869 2117 2890 3529 3796 3964 4401 4419 4845 5972 6009 6033 6074 6076 6098 6114 6116 6142 6169 6205 
 	}
 	history={
-		victory_points = {
-			537 10
-		}
-        owner = SDL
-        add_core_of = SDL
-        buildings = {
-                infrastructure = 3
-        }
-    }
+		victory_points = { 537 10 } # Двимала
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = DVM
+        	buildings = {
+                	infrastructure = 2
+			industrial_complex = 1
+        	}
+    	}
 
         resources = {
         steel = 1
         aluminium = 1
+	oil = 5
         }
 
 	state_category = city

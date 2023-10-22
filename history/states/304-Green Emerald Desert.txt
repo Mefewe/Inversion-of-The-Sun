@@ -8,6 +8,11 @@ state={
         owner = DRG
         add_core_of = DRG
     }
+
+        resources = {
+        tungsten = 5
+        }
+
         state_category = pastoral
 	manpower=130182
 	buildings_max_level_factor=1.000

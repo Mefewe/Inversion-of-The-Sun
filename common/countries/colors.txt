@@ -233,6 +233,93 @@ color = rgb { 129 148 81 }
 color_ui = rgb { 129 148 81 }
 }
 
+AHR = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+ARD = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+DHT = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+DVM = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+MTR = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+ISU = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+KTH = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+HRS = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+
+
+
+ZBR = {
+color = rgb { 127 163 0 }
+color_ui = rgb { 127 163 0 }
+}
+
+MRD = {
+color = rgb { 149 193 170 }
+color_ui = rgb { 149 193 170 }
+}
+
+SRP = {
+color = rgb { 79 105 95 }
+color_ui = rgb { 79 105 95 }
+}
+
+ZRT = {
+color = rgb { 121 181 79 }
+color_ui = rgb { 121 181 79 }
+}
+
+BUK = {
+color = rgb { 183 164 48 }
+color_ui = rgb { 183 164 48 }
+}
+
+KST = {
+color = rgb { 162 176 201 }
+color_ui = rgb { 162 176 201 }
+}
+
+ALP = {
+color = rgb { 224 161 117 }
+color_ui = rgb { 224 161 117 }
+}
+
+OLM = {
+color = rgb { 209 150 193 }
+color_ui = rgb { 209 150 193 }
+}
+
+ABS = {
+color = rgb { 79 129 69 }
+color_ui = rgb { 79 129 69 }
+}
 
 
 

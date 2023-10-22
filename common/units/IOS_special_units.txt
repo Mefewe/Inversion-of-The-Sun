@@ -1,0 +1,134 @@
+sub_units = {
+
+	abada = {
+		abbreviation = "ABD"
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+
+		#Misc Abilities
+		training_time = 90
+		suppression = 1.5
+		weight = 0.5
+		
+		supply_consumption = 0.06
+	
+		need = {
+			anti_air_equipment_hand = 8
+			infantry_ammo_equipment = 500
+			infantry_equipment = 100
+		}
+		
+		plains = {
+			movement = 0.7
+		}
+		desert = {
+			movement = 0.7
+		}
+		forest = {
+			movement = 0.4
+		}
+		mountain = 	{
+		    movement = -0.3
+		}
+		jungle = {
+			movement = -0.2
+		}
+		marsh = {
+			movement = 0.1
+		}
+		urban = {
+			movement = 0.6
+		}
+		river = { 
+			movement = -0.2
+		}
+	}
+	kelpie = {
+		abbreviation = "KLP"
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+
+		#Misc Abilities
+		training_time = 90
+		suppression = 1.5
+		weight = 0.5
+		
+		supply_consumption = 0.06
+	
+		need = {
+			anti_air_equipment_hand = 8
+			infantry_ammo_equipment = 500
+			infantry_equipment = 100
+		}
+		
+		forest = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.1
+		}
+		marsh = {
+			defence = 0.1
+		}
+		urban = {
+			defence = 0.1
+		}
+		river = { 
+			atack = 0.1
+			defence = 0.3
+			movement = 0.5
+		}
+	}
+}

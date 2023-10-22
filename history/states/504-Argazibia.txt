@@ -5,10 +5,12 @@ state={
 		487 724 1440 2481 2917 3244 4808 6219 6299 6342 6390 6411 6427 6481 
 	}
 	history={
+		victory_points = {1440 5} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = KTH
         buildings = {
-                infrastructure = 2
+                infrastructure = 1
         }
     }
 

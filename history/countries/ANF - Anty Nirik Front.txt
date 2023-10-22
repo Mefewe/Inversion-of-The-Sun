@@ -17,17 +17,17 @@ add_ideas = {
 		closed_economy
 	}
 set_politics = {
-	ruling_party = communism
+	ruling_party = progressivism
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	communism = 100
+	communism = 0
 	neutrality = 0
 	fascism = 0
-        progressivism = 0
+        progressivism = 100
         paternalism = 0
 }
 

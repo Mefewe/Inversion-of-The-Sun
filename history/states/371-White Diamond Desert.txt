@@ -5,9 +5,15 @@ state={
 		300 662 1810 2062 3349 4101 7897 7917 7943 
 	}
 	history={
+	victory_points = {7897 10} #
         owner = DRG
         add_core_of = DRG
     }
+
+        resources = {
+	chromium = 3
+        }
+
         state_category = pastoral
 	manpower=59187
 	buildings_max_level_factor=1.000

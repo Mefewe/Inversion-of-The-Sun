@@ -9,9 +9,20 @@ state={
 	add_core_of = SDL
         add_core_of = LBR
         buildings = {
-                infrastructure = 2
+                infrastructure = 1
+                industrial_complex = 1
         }
     }
+
+        resources = {
+        steel = 9
+        aluminium = 7
+        tungsten = 6
+        chromium = 5
+	rubber = 2
+	oil = 2
+        }
+
         state_category = rural
 	manpower=301827
 	buildings_max_level_factor=1.000

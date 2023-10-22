@@ -5,9 +5,18 @@ state={
 		3314 4077 6453 6461 6495 
 	}
 	history={
+	victory_points = {4077 5}
         owner = TYR
-        add_core_of = TYR
+        add_core_of = ABS
     }
+
+        resources = {
+        steel = 20
+        aluminium = 12
+        tungsten = 14
+	chromium = 9
+        }
+
         state_category = pastoral
 	manpower=22649
 	buildings_max_level_factor=1.000

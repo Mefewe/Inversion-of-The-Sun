@@ -5,18 +5,23 @@ state={
 		52 1334 1536 1583 2164 2672 3027 3303 3767 3807 4707 5742 5757 5759 5770 5789 5802 5867 5884 5905 5906 5915 9221 9241 9249 9250 9251 9252 9253 9254 9255 9256 9257 9258 9259 9260 9261 9262 9263 9264 9265 9266 9267 9268 9269 9270 9271 9272 9273 9274 9275 9276 9277 9278 9279 9280 9248
 	}
 	history={
-		victory_points = {5757 20}
-        owner = SDL
-        add_core_of = SDL
-        buildings = {
-                infrastructure = 2
-        }
-    }
+		victory_points = {5757 20} # Спекан
+		victory_points = {9262 5} #
+		victory_points = {411 5} #
+		victory_points = {9256 10} #
+		victory_points = {9254 10} #
+		victory_points = {9249 10} #
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = MTR
+        	buildings = {
+                	infrastructure = 1
+        	}
+    	}
 
         resources = {
         aluminium = 1
         tungsten = 2
-        oil = 1
         }
 
 	state_category = large_city

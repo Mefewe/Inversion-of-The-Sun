@@ -15,29 +15,47 @@ debug_zebrica_decisions = {
 		cost = 0
 
 		complete_effect = {
-                                TYR = {
-			        annex_country = {
-                                    target = BKS
-                                    transfer_troops = no
-                                }
-			        annex_country = {
-                                    target = MZB
-                                    transfer_troops = no
-                                }
-			        annex_country = {
-                                    target = CHR
-                                    transfer_troops = no
-                                }
-			        annex_country = {
-                                    target = SNW
-                                    transfer_troops = no
-                                }
-			        annex_country = {
-                                    target = AGD
-                                    transfer_troops = no
-                                }
-	 	}
-        }
+			502 = { set_state_controller_to = TYR }
+			951 = { set_state_controller_to = TYR }
+			503 = { set_state_controller_to = TYR }
+			505 = { set_state_controller_to = TYR }
+			952 = { set_state_controller_to = TYR }
+			468 = { set_state_controller_to = TYR }
+			496 = { set_state_controller_to = TYR }
+			953 = { set_state_controller_to = TYR }
+			601 = { set_state_controller_to = TYR }
+			550 = { set_state_controller_to = TYR }
+			956 = { set_state_controller_to = TYR }
+			571 = { set_state_controller_to = TYR }
+			567 = { set_state_controller_to = TYR }
+			578 = { set_state_controller_to = TYR }
+			562 = { set_state_controller_to = TYR }
+			547 = { set_state_controller_to = TYR }
+			529 = { set_state_controller_to = TYR }
+			542 = { set_state_controller_to = TYR }
+			528 = { set_state_controller_to = TYR }
+			954 = { set_state_controller_to = TYR }
+			955 = { set_state_controller_to = TYR }
+			585 = { set_state_controller_to = TYR }
+			612 = { set_state_controller_to = TYR }
+			678 = { set_state_controller_to = TYR }
+			711 = { set_state_controller_to = TYR }
+			635 = { set_state_controller_to = TYR }
+			654 = { set_state_controller_to = TYR }
+			702 = { set_state_controller_to = TYR }
+			608 = { set_state_controller_to = TYR }
+			665 = { set_state_controller_to = TYR }
+			758 = { set_state_controller_to = TYR }
+			957 = { set_state_controller_to = TYR }
+			779 = { set_state_controller_to = TYR }
+			958 = { set_state_controller_to = TYR }
+			802 = { set_state_controller_to = TYR }
+			756 = { set_state_controller_to = TYR }
+			959 = { set_state_controller_to = TYR }
+			712 = { set_state_controller_to = TYR }
+			652 = { set_state_controller_to = TYR }
+			961 = { set_state_controller_to = TYR }
+		}
 }
 regive_states_to_farazia = {
 		icon = generic_research
@@ -55,15 +73,29 @@ regive_states_to_farazia = {
 		cost = 0
 
 		complete_effect = {
-			908 = {
-                            set_state_controller_to = FRZ
-                        }
-			886 = {
-                            set_state_controller_to = FRZ
-                        }
+			629 = { set_state_controller_to = FRZ }
+			696 = { set_state_controller_to = FRZ }
+			745 = { set_state_controller_to = FRZ }
+			733 = { set_state_controller_to = FRZ }
+			781 = { set_state_controller_to = FRZ }
+			813 = { set_state_controller_to = FRZ }
+			855 = { set_state_controller_to = FRZ }
+			690 = { set_state_controller_to = FRZ }
+			746 = { set_state_controller_to = FRZ }
+			777 = { set_state_controller_to = FRZ }
+			787 = { set_state_controller_to = FRZ }
+			823 = { set_state_controller_to = FRZ }
+			884 = { set_state_controller_to = FRZ }
+			75 = { set_state_controller_to = FRZ }
+			912 = { set_state_controller_to = FRZ }
+			908 = { set_state_controller_to = FRZ }
+			886 = { set_state_controller_to = FRZ }
+			833 = { set_state_controller_to = FRZ }
+			887 = { set_state_controller_to = FRZ }
+			856 = { set_state_controller_to = FRZ }
 		}
 	}
-regive_states_to_zebrica = {
+regive_states_to_sudern_zebrica = {
 		icon = generic_research
 
 		available = {
@@ -79,20 +111,45 @@ regive_states_to_zebrica = {
 		cost = 0
 
 		complete_effect = {                        
-                                OZB = {
-			        annex_country = {
-                                    target = AGA
-                                    transfer_troops = no
-                                }
-			        annex_country = {
-                                    target = AGB
-                                    transfer_troops = no
-                                }
-			        annex_country = {
-                                    target = AGC
-                                    transfer_troops = no
-                                }
-                        }
+			618 = { set_state_controller_to = OZB }
+			439 = { set_state_controller_to = OZB }
+			892 = { set_state_controller_to = OZB }
+			418 = { set_state_controller_to = OZB }
+			589 = { set_state_controller_to = OZB }
+			559 = { set_state_controller_to = OZB }
+			430 = { set_state_controller_to = OZB }
+			541 = { set_state_controller_to = OZB }
+			548 = { set_state_controller_to = OZB }
+			572 = { set_state_controller_to = OZB }
+			656 = { set_state_controller_to = OZB }
+			25 = { set_state_controller_to = OZB }
+			871 = { set_state_controller_to = OZB }
+			890 = { set_state_controller_to = OZB }
+			898 = { set_state_controller_to = OZB }
+			3 = { set_state_controller_to = OZB }
+			879 = { set_state_controller_to = OZB }
+			910 = { set_state_controller_to = OZB }
+			297 = { set_state_controller_to = OZB }
+			216 = { set_state_controller_to = OZB }
+			398 = { set_state_controller_to = OZB }
+			337 = { set_state_controller_to = OZB }
+			762 = { set_state_controller_to = OZB }
+			477 = { set_state_controller_to = OZB }
+			904 = { set_state_controller_to = OZB }
+			633 = { set_state_controller_to = OZB }
+			346 = { set_state_controller_to = OZB }
+			565 = { set_state_controller_to = OZB }
+			445 = { set_state_controller_to = OZB }
+			332 = { set_state_controller_to = OZB }
+			703 = { set_state_controller_to = OZB }
+			617 = { set_state_controller_to = OZB }
+			630 = { set_state_controller_to = OZB }
+			54 = { set_state_controller_to = OZB }
+			290 = { set_state_controller_to = OZB }
+			631 = { set_state_controller_to = OZB }
+			841 = { set_state_controller_to = OZB }
+			818 = { set_state_controller_to = OZB }
+			838 = { set_state_controller_to = OZB }
 		}
 	}
 	liberate_zebrica = {
@@ -125,9 +182,6 @@ regive_states_to_zebrica = {
                         BKS = {
 			drop_cosmetic_tag = yes
                         }
-			959 = {
-                            set_state_controller_to = BKS
-                        }
 			756 = {
                             set_state_controller_to = BKS
                         }
@@ -138,9 +192,6 @@ regive_states_to_zebrica = {
                             set_state_controller_to = BKS
                         }
                         ### Moozambique
-			665 = {
-                            set_state_controller_to = MZB
-                        }
 			758 = {
                             set_state_controller_to = MZB
                         }
@@ -157,8 +208,32 @@ regive_states_to_zebrica = {
 			779 = {
                             set_state_controller_to = CHR
                         }
+			### Alpacia
+			665 = { set_state_controller_to = ALP }
+			959 = { set_state_controller_to = ALP }
+			### Olamia
+			608 = { set_state_controller_to = OLM }
+			### Zebrabwe
+			696 = { set_state_controller_to = ZBR }
+			629 = { set_state_controller_to = ZBR }
+			### Maredia
+			745 = { set_state_controller_to = MRD }
+			733 = { set_state_controller_to = MRD }
+			### Stripasi
+			690 = { set_state_controller_to = SRP }
+			### Zebrat
+			823 = { set_state_controller_to = ZRT }
+			856 = { set_state_controller_to = ZRT }
+			884 = { set_state_controller_to = ZRT }
+			887 = { set_state_controller_to = ZRT }
+			75 = { set_state_controller_to = ZRT }
+			912 = { set_state_controller_to = ZRT }
+			### Bucksoy
+			886 = { set_state_controller_to = BUK }
+			### Kasteldacia
+			855 = { set_state_controller_to = KST }
 		}
-        }
+	}
 	make_moobucksan_armies = {
 		icon = generic_research
 
@@ -196,6 +271,7 @@ regive_states_to_zebrica = {
 			779 = {
                             set_state_controller_to = BKS
                         }
+			959 = { set_state_controller_to = BKS }
 		}
 	}
 	liberate_abyssinian_armies = {
@@ -342,6 +418,128 @@ regive_states_to_zebrica = {
 			430 = {
                             set_state_controller_to = ZGR
                         }
+		}
+	}
+	liberate_abyssinian_empire = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			### Tyrlitia
+			502 = { set_state_controller_to = ABS }
+			951 = { set_state_controller_to = ABS }
+			503 = { set_state_controller_to = ABS }
+			505 = { set_state_controller_to = ABS }
+			952 = { set_state_controller_to = ABS }
+			468 = { set_state_controller_to = ABS }
+			496 = { set_state_controller_to = ABS }
+			953 = { set_state_controller_to = ABS }
+			601 = { set_state_controller_to = ABS }
+			550 = { set_state_controller_to = ABS }
+			956 = { set_state_controller_to = ABS }
+			571 = { set_state_controller_to = ABS }
+			567 = { set_state_controller_to = ABS }
+			578 = { set_state_controller_to = ABS }
+			562 = { set_state_controller_to = ABS }
+			547 = { set_state_controller_to = ABS }
+			529 = { set_state_controller_to = ABS }
+			542 = { set_state_controller_to = ABS }
+			528 = { set_state_controller_to = ABS }
+			954 = { set_state_controller_to = ABS }
+			955 = { set_state_controller_to = ABS }
+			585 = { set_state_controller_to = ABS }
+			612 = { set_state_controller_to = ABS }
+			678 = { set_state_controller_to = ABS }
+			711 = { set_state_controller_to = ABS }
+			635 = { set_state_controller_to = ABS }
+			654 = { set_state_controller_to = ABS }
+			702 = { set_state_controller_to = ABS }
+			608 = { set_state_controller_to = ABS }
+			665 = { set_state_controller_to = ABS }
+			758 = { set_state_controller_to = ABS }
+			957 = { set_state_controller_to = ABS }
+			779 = { set_state_controller_to = ABS }
+			958 = { set_state_controller_to = ABS }
+			802 = { set_state_controller_to = ABS }
+			756 = { set_state_controller_to = ABS }
+			959 = { set_state_controller_to = ABS }
+			712 = { set_state_controller_to = ABS }
+			652 = { set_state_controller_to = ABS }
+			961 = { set_state_controller_to = ABS }
+			
+			### Farazia
+			629 = { set_state_controller_to = ABS }
+			696 = { set_state_controller_to = ABS }
+			745 = { set_state_controller_to = ABS }
+			733 = { set_state_controller_to = ABS }
+			781 = { set_state_controller_to = ABS }
+			813 = { set_state_controller_to = ABS }
+			855 = { set_state_controller_to = ABS }
+			690 = { set_state_controller_to = ABS }
+			746 = { set_state_controller_to = ABS }
+			777 = { set_state_controller_to = ABS }
+			787 = { set_state_controller_to = ABS }
+			823 = { set_state_controller_to = ABS }
+			884 = { set_state_controller_to = ABS }
+			75 = { set_state_controller_to = ABS }
+			912 = { set_state_controller_to = ABS }
+			908 = { set_state_controller_to = ABS }
+			886 = { set_state_controller_to = ABS }
+			833 = { set_state_controller_to = ABS }
+			887 = { set_state_controller_to = ABS }
+			856 = { set_state_controller_to = ABS }
+			
+			### Sudern-Zebrika
+			618 = { set_state_controller_to = ABS }
+			439 = { set_state_controller_to = ABS }
+			892 = { set_state_controller_to = ABS }
+			418 = { set_state_controller_to = ABS }
+			589 = { set_state_controller_to = ABS }
+			559 = { set_state_controller_to = ABS }
+			430 = { set_state_controller_to = ABS }
+			541 = { set_state_controller_to = ABS }
+			548 = { set_state_controller_to = ABS }
+			572 = { set_state_controller_to = ABS }
+			656 = { set_state_controller_to = ABS }
+			25 = { set_state_controller_to = ABS }
+			871 = { set_state_controller_to = ABS }
+			890 = { set_state_controller_to = ABS }
+			898 = { set_state_controller_to = ABS }
+			3 = { set_state_controller_to = ABS }
+			879 = { set_state_controller_to = ABS }
+			910 = { set_state_controller_to = ABS }
+			297 = { set_state_controller_to = ABS }
+			216 = { set_state_controller_to = ABS }
+			398 = { set_state_controller_to = ABS }
+			337 = { set_state_controller_to = ABS }
+			762 = { set_state_controller_to = ABS }
+			477 = { set_state_controller_to = ABS }
+			904 = { set_state_controller_to = ABS }
+			633 = { set_state_controller_to = ABS }
+			346 = { set_state_controller_to = ABS }
+			565 = { set_state_controller_to = ABS }
+			445 = { set_state_controller_to = ABS }
+			332 = { set_state_controller_to = ABS }
+			703 = { set_state_controller_to = ABS }
+			617 = { set_state_controller_to = ABS }
+			630 = { set_state_controller_to = ABS }
+			54 = { set_state_controller_to = ABS }
+			290 = { set_state_controller_to = ABS }
+			631 = { set_state_controller_to = ABS }
+			841 = { set_state_controller_to = ABS }
+			818 = { set_state_controller_to = ABS }
+			838 = { set_state_controller_to = ABS }
 		}
 	}
 }

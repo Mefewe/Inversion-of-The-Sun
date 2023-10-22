@@ -5,13 +5,28 @@ state={
 		853 1082 1241 1311 1834 2401 2459 3118 3567 3669 4024 4398 4552 6937 6979 7032 7043 7056 7059 7063 7082 
 	}
 	history={
+	victory_points = {853 20} #
+	victory_points = {7063 15} #
+	victory_points = {2459 10} #
+	victory_points = {4024 5} #
+	victory_points = {7082 5} #
         owner = FRZ
-        add_core_of = FRZ
+        add_core_of = ABS
         buildings = {
-                infrastructure = 3
+                infrastructure = 1
+                industrial_complex = 1
+                arms_factory = 1
+		853 = { naval_base = 1 }
         }
     }
-        state_category = town
+
+        resources = {
+        steel = 7
+        aluminium = 5
+	rubber = 26
+        }
+
+        state_category = large_town
 	manpower=899716
 	buildings_max_level_factor=1.000
 }

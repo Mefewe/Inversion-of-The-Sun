@@ -5,19 +5,19 @@ state={
 		610 1844 1871 1935 2511 3000 3295 6164 6193 6260 6275 6305 6348 6353 
 	}
 	history={
-		victory_points = {
-			6575 10
-		} 
+		victory_points = { 3295 10 } # Спариса
         owner = SDL
         add_core_of = SDL
+		add_core_of = DHT
         buildings = {
-                infrastructure = 3
+                infrastructure = 1
         }
     }
 
         resources = {
+	steel = 2
         tungsten = 1
-        oil = 1
+        oil = 7
         }
 
 	state_category = large_town

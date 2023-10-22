@@ -5,13 +5,20 @@ state={
 		545 1594 1639 1641 2608 2746 3373 3494 4634 4779 6747 6796 6846 6883 6888 6925 6977 
 	}
 	history={
+	victory_points = {6846 30} #
+	victory_points = {6796 15} #
+	victory_points = {6883 20} #
+	victory_points = {6977 10} #
 	owner = SDL
 	add_core_of = SDL
         add_core_of = FEA
         buildings = {
-                infrastructure = 2
+                infrastructure = 4
                 industrial_complex = 1
                 arms_factory = 1
+		ammo_complex = 1
+		dockyard = 3
+		6846 = { naval_base = 1 }
         }
     }
 
@@ -19,9 +26,10 @@ state={
         steel = 17
         aluminium = 30
         tungsten = 20
+	chromium = 2
         }
 
-        state_category = rural
+        state_category = large_city
 	manpower=712635
 	buildings_max_level_factor=1.000
 }

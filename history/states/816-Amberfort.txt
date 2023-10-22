@@ -5,12 +5,22 @@ state={
 		8070 
 	}
 	history={
+	victory_points = {8070 20} #
         owner = DRG
         add_core_of = DRG
         buildings = {
-                infrastructure = 5
+                infrastructure = 3
+		8070 = { bunker = 4 }
         }
     }
+
+        resources = {
+        steel = 5
+        aluminium = 4
+        tungsten = 3
+	chromium = 2
+        }
+
         state_category = town
 	manpower=91782
 	buildings_max_level_factor=1.000

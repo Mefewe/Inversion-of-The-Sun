@@ -5,19 +5,22 @@ state={
 		388 438 845 1858 2080 2427 2670 2892 3243 3570 4867 4931 6586 6610 6619 6674 6708 6728 
 	}
 	history={
-		victory_points = {2427 5}
+		victory_points = {2427 5} # Фазайти
+		victory_points = {2892 5} # 
         owner = SDL
         add_core_of = SDL
+		add_core_of = DHT
         buildings = {
                 infrastructure = 2
         }
     }
 
         resources = {
-        steel = 1
-        aluminium = 1
-        tungsten = 1
-        oil = 4
+        steel = 11
+        aluminium = 10
+        tungsten = 8
+	chromium = 6
+        oil = 15
         }
 
 	state_category = town

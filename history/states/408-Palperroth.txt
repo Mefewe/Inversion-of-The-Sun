@@ -5,6 +5,8 @@ state={
 		1708 2352 3200 3426 3857 4875 5753 5766 5818 5819 5832 
 	}
 	history={
+	victory_points = {5766 25} #
+	victory_points = {3857 15} #
         owner = SDL
 	add_core_of = SDL
         add_core_of = WNG
@@ -12,18 +14,26 @@ state={
                 infrastructure = 4
                 industrial_complex = 1
                 arms_factory = 2
+		dockyard = 2
+
+		5766 = { 
+		naval_base = 1
+		bunker = 2
+		coastal_bunker = 1
+		}
         }
     }
 
         resources = {
-        steel = 31
-        aluminium = 25
-        tungsten = 19
-        oil = 26
-        rubber = 18
+        steel = 20
+        aluminium = 15
+        tungsten = 6
+        oil = 36
+        rubber = 21
+	chromium = 10
         }
 
 	manpower=716041
-        state_category = town
+        state_category = city
 	buildings_max_level_factor=1.000
 }

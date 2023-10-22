@@ -5,12 +5,20 @@ state={
 		1374 4030 4436 7769 7789 7802 7817 7834 8218 
 	}
 	history={
+	victory_points = {7802 25} #
         owner = DRG
         add_core_of = DRG
         buildings = {
-                infrastructure = 2
+                infrastructure = 3
+		7802 = { naval_base = 1 }
         }
     }
+
+        resources = {
+        steel = 14
+        aluminium = 12
+        }
+
         state_category = rural
 	manpower=193717
 	buildings_max_level_factor=1.000

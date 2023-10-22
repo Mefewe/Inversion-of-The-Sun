@@ -5,13 +5,21 @@ state={
 		675 2010 2675 3336 7761 7779 
 	}
 	history={
-	victory_points = {7779 30}
+	victory_points = {7779 30} # Вулкан Драгмайр
         owner = DRG
         add_core_of = DRG
         buildings = {
-                infrastructure = 5
+                infrastructure = 3
         }
     }
+
+        resources = {
+        steel = 12
+        aluminium = 9
+        tungsten = 7
+	chromium = 8
+        }
+
         state_category = large_city
 	manpower=23127361
 	buildings_max_level_factor=1.000

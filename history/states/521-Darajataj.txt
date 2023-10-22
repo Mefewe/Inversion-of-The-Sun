@@ -5,15 +5,17 @@ state={
 		544 1246 1658 2136 2526 3865 6288 6331 6355 6467 6469 6502 
 	}
 	history={
+		victory_points = {2136 5} #
         owner = SDL
         add_core_of = SDL
+		add_core_of = DHT
         buildings = {
                 infrastructure = 2
         }
     }
 
         resources = {
-        oil = 2
+        oil = 34
         }
 
 	state_category = rural

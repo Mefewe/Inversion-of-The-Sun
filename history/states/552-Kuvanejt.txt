@@ -5,18 +5,24 @@ state={
 		592 2696 6458 6482 6497 6523 6550 
 	}
 	history={
-		victory_points = {6550 20}
-        owner = SDL
-        add_core_of = SDL
-        buildings = {
-                infrastructure = 5
-        }
-    }
+		victory_points = {6550 20} # Куванейт
+		victory_points = {2696 10} #
+        	owner = SDL
+        	add_core_of = SDL
+		add_core_of = KTH
+        	buildings = {
+                	infrastructure = 5
+			air_base = 1
+                	industrial_complex = 2
+                	arms_factory = 1
+			ammo_complex = 1
+        	}
+    	}
 
         resources = {
         aluminium = 2
         tungsten = 1
-        oil = 5
+        oil = 35
         }
 
 	state_category = city
