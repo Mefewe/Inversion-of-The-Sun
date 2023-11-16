@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		ZebricanRevolution = {
+			picture = SPR_masters_of_our_own_fate
+			modifier = {
+				custom_modifier_tooltip = ZebricanRevolution_tt
+				war_support_factor = 1
+				surrender_limit = 10.85
+				army_attack_factor = 10.5
+				army_defence_factor = 0.25
+			}
+		}
+	}
+}

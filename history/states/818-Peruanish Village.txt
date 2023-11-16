@@ -5,12 +5,19 @@ state={
 		806 3124 3754 8068 8101 8130
 	}
 	history={
+	victory_points = {3124 10} #
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 4
+                arms_factory = 1
         }
     }
+
+        resources = {
+        oil = 7
+        }
+
         state_category = town
 	manpower=371672
 	buildings_max_level_factor=1.000

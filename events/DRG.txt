@@ -1,0 +1,253 @@
+add_namespace = DRG_test
+
+add_namespace = DRG_base
+add_namespace = DRG_hidden
+add_namespace = DRG_confederates
+
+### Meeting with confederates ###
+
+country_event = {
+	id = DRG_confederates.1
+	title = DRG_confederates.1.title
+	desc = DRG_confederates.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_confederates.1.a
+		add_political_power = -15
+		set_global_flag = DRG_NegotiationsAccepted
+		SDL = {
+			country_event = {
+   			id = SDL_dragons.6
+    			days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = DRG_confederates.2
+	title = DRG_confederates.2.title
+	desc = DRG_confederates.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_confederates.2.a
+		add_political_power = -50
+		hidden_effect = {
+			SDL = {
+				country_event = {
+   				id = SDL_dragons.4
+    				days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = DRG_confederates.2.b
+		add_political_power = 50
+		clr_global_flag = SDL_LittlePromiseOfScrath
+		clr_global_flag = SDL_MidPromiseOfScrath
+		clr_global_flag = SDL_LargePromiseOfScrath
+		hidden_effect = {
+			SDL = {
+				country_event = {
+   				id = SDL_dragons.3
+    				days = 1
+				}
+			}
+		}
+	}
+}
+
+### Other ###
+
+country_event = {
+	id = DRG_base.1
+	title = DRG_base.1.title
+	desc = DRG_base.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_base.1.a
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 47
+				num_provinces = 3
+				dig_in_factor = 0
+				on_win = DRG_base.2
+				on_lose = DRG_base.4
+				on_cancel = DRG_base.6
+			}
+			defender = {
+				state = 565
+				num_provinces = 3
+			}
+		}
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 636
+				num_provinces = 1
+				dig_in_factor = 0
+				on_win = DRG_base.3
+				on_lose = DRG_base.5
+				on_cancel = DRG_base.7
+			}
+			defender = {
+				state = 445
+				num_provinces = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = DRG_base.2			# DRAGONS WIN UPPER SCRATH
+	title = DRG_base.2.title
+	desc = DRG_base.2.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.2.a
+		set_global_flag = DRG_WinsUpperScrath
+		DRG = {
+			set_state_owner = 565
+		}
+	}
+}
+
+country_event = {
+	id = DRG_base.3			# DRAGONS WIN BOTTOM SCRATH
+	title = DRG_base.3.title
+	desc = DRG_base.3.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.3.a
+		set_global_flag = DRG_WinsBottomScrath
+		DRG = {
+			set_state_owner = 445
+		}
+	}
+}
+
+country_event = {
+	id = DRG_base.4			# DRAGONS LOSE UPPER SCRATH
+	title = DRG_base.4.title
+	desc = DRG_base.4.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.4.a
+	}
+}
+
+country_event = {
+	id = DRG_base.5			# DRAGONS LOSE BOTTOM SCRATH
+	title = DRG_base.5.title
+	desc = DRG_base.5.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.5.a
+	}
+}
+
+country_event = {
+	id = DRG_base.6			# DRAGONS WITHDRAW FROM UPPER SCRATH
+	title = DRG_base.6.title
+	desc = DRG_base.6.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.6.a
+	}
+}
+
+country_event = {
+	id = DRG_base.7			# DRAGONS WITHDRAW FROM BOTTOM SCRATH
+	title = DRG_base.7.title
+	desc = DRG_base.7.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.7.a
+	}
+}
+
+
+country_event = {
+	id = DRG_test.1
+	title = DRG_test.1.title
+	desc = DRG_test.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_test.1.a
+		finalize_border_war = {
+    			attacker_win = yes
+   			attacker = 47
+   			defender = 565
+		}
+	}
+}
+country_event = {
+	id = DRG_test.2
+	title = DRG_test.2.title
+	desc = DRG_test.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_test.1.a
+		finalize_border_war = {
+    			attacker_win = no
+   			attacker = 47
+   			defender = 565
+		}
+	}
+}
+country_event = {
+	id = DRG_test.3
+	title = DRG_test.3.title
+	desc = DRG_test.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_test.1.a
+		finalize_border_war = {
+    			attacker_win = yes
+   			attacker = 636
+   			defender = 445
+		}
+	}
+}
+country_event = {
+	id = DRG_test.4
+	title = DRG_test.4.title
+	desc = DRG_test.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_test.4.a
+		finalize_border_war = {
+    			attacker_win = no
+   			attacker = 636
+   			defender = 445
+		}
+	}
+}

@@ -6,11 +6,21 @@ state={
 	}
 	history={
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 1
+                industrial_complex = 1
         }
     }
+
+        resources = {
+        steel = 10
+        aluminium = 5
+        tungsten = 15
+        oil = 3
+	chromium = 7
+        }
+
         state_category = rural
 	manpower=126912
 	buildings_max_level_factor=1.000

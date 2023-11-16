@@ -1,3 +1,7 @@
+add_ideas = {
+	ZebricanRevolution
+}
+
 capital = 712
 recruit_character = BKS_Leader
 set_stability = 0.7

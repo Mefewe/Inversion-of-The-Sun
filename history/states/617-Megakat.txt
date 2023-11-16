@@ -5,12 +5,30 @@ state={
 		525 758 3631 7985 
 	}
 	history={
+	victory_points = {758 70} # Мегакэт
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 6
+                industrial_complex = 4
+                arms_factory = 3
+		ammo_complex = 1
+		dockyard = 2
+		758 = {
+			naval_base = 1
+			bunker = 5
+			coastal_bunker = 3
+		}
+		air_base = 10
         }
     }
+
+        resources = {
+        steel = 43
+        aluminium = 48
+        oil = 20
+        }
+
         state_category = megalopolis
 	manpower=2304874
 	buildings_max_level_factor=1.000

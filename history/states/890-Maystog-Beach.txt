@@ -5,12 +5,23 @@ state={
 		1360 2952 3329 3626 4059 7676 7690 
 	}
 	history={
+	victory_points = {1360 10} #
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 3
+                industrial_complex = 1
         }
     }
+
+        resources = {
+        steel = 17
+        aluminium = 15
+        tungsten = 10
+        oil = 6
+	chromium = 3
+        }
+
         state_category = rural
 	manpower=323891
 	buildings_max_level_factor=1.000

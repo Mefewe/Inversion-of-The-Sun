@@ -1,0 +1,17 @@
+characters = {
+AGB_Leader = {
+		name = AGB_Leader
+		portraits = {
+			civilian = {
+				large = GFX_AGB_Leader_L
+			}
+		}
+		country_leader = {
+		    desc="AGB_Leader_desc"
+			ideology = provisional_government
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

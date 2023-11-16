@@ -5,13 +5,25 @@ state={
 		962 2542 3502 7956 
 	}
 	history={
+	victory_points = {962 20} # Друнгар
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 3
+                industrial_complex = 2
         }
     }
-        state_category = rural
+
+        resources = {
+        steel = 24
+        aluminium = 20
+        tungsten = 16
+        oil = 6
+	chromium = 8
+	rubber = 4
+        }
+
+        state_category = town
 	manpower=478281
 	buildings_max_level_factor=1.000
 }

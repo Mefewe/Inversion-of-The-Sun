@@ -1,0 +1,79 @@
+add_namespace = FRZ_hidden
+
+add_namespace = FRZ
+
+country_event = {
+	id = FRZ.1
+	title = FRZ.1.title
+	desc = FRZ.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = FRZ.1.a
+		add_political_power = -75
+		hidden_effect = {
+			ZRT = {
+				#
+				add_state_core = 823
+				add_state_core = 856
+				add_state_core = 884
+				add_state_core = 887
+				add_state_core = 75
+				add_state_core = 912
+
+				set_state_owner = 823
+				set_state_owner = 856
+				set_state_owner = 884
+				set_state_owner = 887
+				set_state_owner = 75
+				set_state_owner = 912
+				#
+
+				#
+				load_oob = "ZRT"
+
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Infantry Div."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Mechanized Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Tank Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Pundamilia Jeshi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Pundamilia Walinzi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abada Kikosi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Kelpie Kikosi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Pundamilia Polisi"
+				}
+				#
+
+				#
+				declare_war_on = {
+    					target = OZB
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = TYR
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = FRZ
+   					type = annex_everything
+				}
+				#
+			}
+		}
+	}
+}

@@ -5,12 +5,20 @@ state={
 		808 1595 2282 7999 8032 
 	}
 	history={
+	victory_points = {2282 15} #
+	victory_points = {1595 15} #
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 3
         }
     }
+
+        resources = {
+        aluminium = 6
+	rubber = 5
+        }
+
         state_category = rural
 	manpower=208172
 	buildings_max_level_factor=1.000

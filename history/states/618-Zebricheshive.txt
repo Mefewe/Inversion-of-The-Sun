@@ -5,13 +5,29 @@ state={
 		1283 1578 1967 3239 
 	}
 	history={
-	victory_points = {1283 30}
+	victory_points = {1283 30} # (Зебришесхайв)
+	victory_points = {3239 15} #
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 7
+                industrial_complex = 2
+                arms_factory = 2
+		ammo_complex = 1
+		air_base = 5
+		1283 = { bunker = 4 }
         }
     }
+
+        resources = {
+        steel = 24
+        aluminium = 18
+        tungsten = 7
+        oil = 3
+	chromium = 2
+	rubber = 4
+        }
+
         state_category = large_city
 	manpower=2071882
 	buildings_max_level_factor=1.000

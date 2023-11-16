@@ -1,0 +1,289 @@
+###################### TEMPLATES
+division_template = {
+	is_locked = yes
+        name = "Leg. Swarm Infantry Div."
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+        }
+}
+division_template = {
+	is_locked = yes
+        name = "Leg. Swarm Mechanized Br."
+        regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+        }
+}
+division_template = {
+	priority = 2
+	is_locked = yes
+        name = "Leg. Swarm Tank Br."
+        regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+                modern_armor = { x = 1 y = 0 }
+                modern_armor = { x = 1 y = 1 }
+                modern_armor = { x = 1 y = 2 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+        }
+}
+division_template = {
+	priority = 0
+        name = "Pundamilia Jeshi"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+        support = {
+		military_police = { x = 0 y = 0 }
+        }
+}
+division_template = {
+	priority = 2
+        name = "Pundamilia Walinzi"
+        regiments = {
+		guard = { x = 0 y = 0 }
+		guard = { x = 0 y = 1 }
+		guard = { x = 0 y = 2 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+                mot_recon = { x = 0 y = 1 }
+		military_police = { x = 0 y = 2 } 
+	}
+}
+division_template = {
+	priority = 0
+        name = "Abada Kikosi"
+        regiments = {
+		abada = { x = 0 y = 0 }
+		abada = { x = 0 y = 1 }
+		abada = { x = 0 y = 2 }
+		abada = { x = 1 y = 0 }
+		abada = { x = 1 y = 1 }
+        }
+}
+division_template = {
+	priority = 0
+        name = "Kelpie Kikosi"
+        regiments = {
+		kelpie = { x = 0 y = 0 }
+		kelpie = { x = 0 y = 1 }
+		kelpie = { x = 0 y = 2 }
+		kelpie = { x = 1 y = 0 }
+		kelpie = { x = 1 y = 1 }
+        }
+}
+division_template = {
+	priority = 0
+        name = "Pundamilia Polisi"
+        regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+        }
+        support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+###################### UNITS
+
+###################### INFANTRY DIVISION 
+units = {
+        division = {
+                name = "1. Colonial Swarm Division"
+		location = 853
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Colonial Swarm Division"
+		location = 140
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Colonial Swarm Division"
+		location = 1286
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Colonial Swarm Division"
+		location = 448
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###################### MECHANIZED BRIGADE
+        division = {
+                name = "1. Leg. Swarm Mechanized Br."
+		location = 3711
+		division_template = "Leg. Swarm Mechanized Br."
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Leg. Swarm Mechanized Br."
+		location = 6821
+		division_template = "Leg. Swarm Mechanized Br."
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###################### TANK BRIGADE 
+        division = {
+                name = "1. Leg. Swarm Tank Br."
+		location = 448
+		division_template = "Leg. Swarm Tank Br."
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Leg. Swarm Tank Br."
+		location = 7682
+		division_template = "Leg. Swarm Tank Br."
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###################### FARAZIA LOCAL DIVISION 
+        division = {
+                name = "1. Pundamilia Jeshi"
+		location = 7500
+		division_template = "Pundamilia Jeshi"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Pundamilia Jeshi"
+		location = 7491
+		division_template = "Pundamilia Jeshi"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Pundamilia Jeshi"
+		location = 4483
+		division_template = "Pundamilia Jeshi"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Pundamilia Jeshi"
+		location = 2459
+		division_template = "Pundamilia Jeshi"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Pundamilia Jeshi"
+		location = 853
+		division_template = "Pundamilia Jeshi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Pundamilia Jeshi"
+		location = 3431
+		division_template = "Pundamilia Jeshi"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###################### FARAZIA GUARDS
+        division = {
+                name = "1. Pundamilia Walinzi"
+		location = 7500
+		division_template = "Pundamilia Walinzi"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Pundamilia Walinzi"
+		location = 7573
+		division_template = "Pundamilia Walinzi"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Pundamilia Walinzi"
+		location = 2052
+		division_template = "Pundamilia Walinzi"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###################### SPECIAL BRIGADE
+        division = {
+                name = "1. Abada Kikosi"
+		location = 7063
+		division_template = "Abada Kikosi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Abada Kikosi"
+		location = 7063
+		division_template = "Abada Kikosi"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "1. Kelpie Kikosi"
+		location = 853
+		division_template = "Kelpie Kikosi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

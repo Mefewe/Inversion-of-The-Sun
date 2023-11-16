@@ -1,0 +1,256 @@
+division_template = {
+        name = "Abyssinian Light Brigade"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+        }
+}
+division_template = {
+        name = "Abyssinian Brigade"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 2 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 2 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+        }
+}
+division_template = {
+        name = "Abyssinian Elite Mountaineers"
+        regiments = {
+                mountaineers = { x = 0 y = 0 }
+                mountaineers = { x = 1 y = 0 }
+                mountaineers = { x = 2 y = 0 }
+                mountaineers = { x = 0 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+        }
+}
+
+units = {
+### Normal templates
+        division = {
+                name = "1. Abyssinian Light Brigade"
+		location = 490
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Abyssinian Light Brigade"
+		location = 7841
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Abyssinian Light Brigade"
+		location = 1330
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Abyssinian Light Brigade"
+		location = 2189
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Abyssinian Light Brigade"
+		location = 4697
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Abyssinian Light Brigade"
+		location = 7846
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Abyssinian Light Brigade"
+		location = 509
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Abyssinian Light Brigade"
+		location = 3117
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Abyssinian Light Brigade"
+		location = 779
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Abyssinian Light Brigade"
+		location = 1835
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Abyssinian Light Brigade"
+		location = 2894
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Abyssinian Light Brigade"
+		location = 1974
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Abyssinian Light Brigade"
+		location = 1115
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Abyssinian Light Brigade"
+		location = 1660
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Abyssinian Light Brigade"
+		location = 1360
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Abyssinian Light Brigade"
+		location = 3626
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Abyssinian Light Brigade"
+		location = 4059
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Abyssinian Light Brigade"
+		location = 7792
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Abyssinian Light Brigade"
+		location = 2713
+		division_template = "Abyssinian Light Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Heavy ones
+        division = {
+                name = "1. Abyssinian Brigade"
+		location = 490
+		division_template = "Abyssinian Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Abyssinian Brigade"
+		location = 779
+		division_template = "Abyssinian Brigade"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Abyssinian Brigade"
+		location = 1660
+		division_template = "Abyssinian Brigade"
+		start_experience_factor = 0.55
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Abyssinian Brigade"
+		location = 7746
+		division_template = "Abyssinian Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Special
+        division = {
+                name = "1. Abyssinian Elite Mountaineers"
+		location = 1531
+		division_template = "Abyssinian Elite Mountaineers"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Abyssinian Elite Mountaineers"
+		location = 2361
+		division_template = "Abyssinian Elite Mountaineers"
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Abyssinian Elite Mountaineers"
+		location = 2612
+		division_template = "Abyssinian Elite Mountaineers"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+}

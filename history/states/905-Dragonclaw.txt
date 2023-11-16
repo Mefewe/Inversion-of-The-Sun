@@ -2,15 +2,14 @@ state={
 	id=905
 	name="STATE_905"
 	provinces={
-		1374 4030 4436 7769 7789 7802 7817 7834 8218 
+		1374 4030 4436 7769 7789 7802 7817 7834 8218 9372 9371
 	}
 	history={
-	victory_points = {7802 25} #
+	victory_points = {7802 25} # Драгонклау
         owner = DRG
         add_core_of = DRG
         buildings = {
                 infrastructure = 3
-		7802 = { naval_base = 1 }
         }
     }
 

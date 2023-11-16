@@ -3,16 +3,27 @@ state={
 	name="STATE_477"
 
 	history={
+	victory_points = {479 15} # Пиксибобтаун
 		owner = OZB
-		add_core_of = OZB
+		add_core_of = ABS
                 buildings = {
                 infrastructure = 4
+                industrial_complex = 2
+                arms_factory = 1
+		ammo_complex = 1
                 }
 	}
 
 	provinces={
 		479 8023 8028 
 	}
+
+        resources = {
+        steel = 12
+        aluminium = 10
+        tungsten = 8
+        }
+
         state_category = town
 	manpower=112837
 	buildings_max_level_factor=1.000

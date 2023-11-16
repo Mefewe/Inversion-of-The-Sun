@@ -1,0 +1,385 @@
+add_namespace = OZB_hidden
+
+add_namespace = OZB
+
+country_event = {
+	id = OZB.1
+	title = OZB.1.title
+	desc = OZB.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = OZB.1.a
+		add_political_power = -75
+ 		CHN = {
+			end_puppet = OZB
+			end_puppet = TYR
+			end_puppet = FRZ
+		}
+
+		leave_faction = yes
+		TYR = { leave_faction = yes }
+		FRZ = { leave_faction = yes }
+
+		create_faction = ZebrichenDerChangelingen
+		OZB = { add_to_faction = TYR }
+		OZB = { add_to_faction = FRZ }
+
+		hidden_effect = {
+		add_ideas = OZB_TranzebricanCatastrophe
+		TYR = { add_ideas = OZB_TranzebricanCatastrophe }
+		FRZ = { add_ideas = OZB_TranzebricanCatastrophe }
+			AGA = {
+				#
+				add_state_core = 541
+				add_state_core = 548
+				add_state_core = 572
+				add_state_core = 656
+				add_state_core = 25
+
+				set_state_owner = 541
+				set_state_owner = 548
+				set_state_owner = 572
+				set_state_owner = 656
+				set_state_owner = 25
+				#
+
+				#
+				load_oob = "AGA"
+
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Infantry Div."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Mechanized Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Tank Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Colonial Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Gendarmerie"
+				}
+				#
+
+				#
+				add_equipment_to_stockpile = {
+         				type = infantry_equipment_1
+       					amount = 6752
+				}
+				add_equipment_to_stockpile = {
+         				type = infantry_ammo_equipment_1
+       					amount = 28317
+				}
+				add_equipment_to_stockpile = {
+         				type = candc_equpment_1
+       					amount = 5716
+				}
+				add_equipment_to_stockpile = {
+         				type = support_equipment_1
+       					amount = 1873
+				}
+				add_equipment_to_stockpile = {
+         				type = artillery_equipment_1
+       					amount = 105
+				}
+				add_equipment_to_stockpile = {
+         				type = artillery_ammo_equipment_0
+       					amount = 490
+				}
+				add_equipment_to_stockpile = {
+         				type = anti_tank_equipment_hand_1
+       					amount = 8905
+				}
+				#
+
+				#
+				declare_war_on = {
+    					target = OZB
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = TYR
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = FRZ
+   					type = annex_everything
+				}
+				#
+
+				#
+				create_faction = AbyssinianArmies
+				AGA = {
+				add_to_faction = AGB
+				add_to_faction = AGC
+				}
+				#
+			add_ideas = ABS_GreatRevolt
+			}
+			AGB = {
+				#
+				add_state_core = 886
+				add_state_core = 908
+				add_state_core = 871
+				add_state_core = 890
+				add_state_core = 898
+				add_state_core = 3
+				add_state_core = 879
+				add_state_core = 910
+
+				set_state_owner = 886
+				set_state_owner = 908
+				set_state_owner = 871
+				set_state_owner = 890
+				set_state_owner = 898
+				set_state_owner = 3
+				set_state_owner = 879
+				set_state_owner = 910
+				#
+
+				#
+				load_oob = "AGB"
+
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Infantry Div."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Mechanized Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Tank Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Colonial Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Gendarmerie"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Pundamilia Jeshi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Pundamilia Walinzi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abada Kikosi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Kelpie Kikosi"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Pundamilia Polisi"
+				}
+				#
+
+				#
+				add_equipment_to_stockpile = {
+         				type = infantry_equipment_1
+       					amount = 3985
+				}
+				add_equipment_to_stockpile = {
+         				type = infantry_ammo_equipment_1
+       					amount = 39317
+				}
+				add_equipment_to_stockpile = {
+         				type = candc_equpment_1
+       					amount = 10921
+				}
+				add_equipment_to_stockpile = {
+         				type = support_equipment_1
+       					amount = 836
+				}
+				add_equipment_to_stockpile = {
+         				type = artillery_equipment_1
+       					amount = 56
+				}
+				add_equipment_to_stockpile = {
+         				type = artillery_ammo_equipment_0
+       					amount = 273
+				}
+				add_equipment_to_stockpile = {
+         				type = anti_tank_equipment_hand_1
+       					amount = 7813
+				}
+				#
+
+				#
+				declare_war_on = {
+    					target = OZB
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = TYR
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = FRZ
+   					type = annex_everything
+				}
+				#
+			add_ideas = ABS_GreatRevolt
+			}
+			AGC = {
+				#
+				add_state_core = 297
+				add_state_core = 216
+				add_state_core = 398
+				add_state_core = 337
+				add_state_core = 762
+				add_state_core = 477
+				add_state_core = 904
+				add_state_core = 633
+				add_state_core = 346
+
+				set_state_owner = 297
+				set_state_owner = 216
+				set_state_owner = 398
+				set_state_owner = 337
+				set_state_owner = 762
+				set_state_owner = 477
+				set_state_owner = 904
+				set_state_owner =  633
+				set_state_owner =  346
+				#
+
+				#
+				load_oob = "AGC"
+
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Infantry Div."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Mechanized Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Tank Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Colonial Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Gendarmerie"
+				}
+				#
+
+				#
+				add_equipment_to_stockpile = {
+         				type = infantry_equipment_1
+       					amount = 1471
+				}
+				add_equipment_to_stockpile = {
+         				type = infantry_ammo_equipment_1
+       					amount = 4191
+				}
+				add_equipment_to_stockpile = {
+         				type = candc_equpment_1
+       					amount = 1391
+				}
+				add_equipment_to_stockpile = {
+         				type = support_equipment_1
+       					amount = 458
+				}
+				add_equipment_to_stockpile = {
+         				type = artillery_equipment_1
+       					amount = 34
+				}
+				add_equipment_to_stockpile = {
+         				type = artillery_ammo_equipment_0
+       					amount = 187
+				}
+				add_equipment_to_stockpile = {
+         				type = anti_tank_equipment_hand_1
+       					amount = 2876
+				}
+				#
+
+				#
+				declare_war_on = {
+    					target = OZB
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = TYR
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = FRZ
+   					type = annex_everything
+				}
+				#
+			add_ideas = ABS_GreatRevolt
+			}
+		}
+	}
+}
+
+country_event = {
+	id = OZB.2
+	title = OZB.2.title
+	desc = OZB.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = OZB.2.a
+		add_political_power = -75
+		hidden_effect = {
+			ZGR = {
+				#
+				add_state_core = 618
+				add_state_core = 439
+				add_state_core = 892
+				add_state_core = 418
+				add_state_core = 589
+				add_state_core = 559
+
+				set_state_owner = 618
+				set_state_owner = 439
+				set_state_owner = 892
+				set_state_owner = 418
+				set_state_owner = 589
+				set_state_owner = 559
+				#
+
+				#
+				load_oob = "ZRT"
+
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Infantry Div."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Mechanized Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Tank Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Colonial Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abyssinian Gendarmerie"
+				}
+				#
+
+				#
+				declare_war_on = {
+    					target = OZB
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = TYR
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = FRZ
+   					type = annex_everything
+				}
+				#
+			}
+		}
+	}
+}

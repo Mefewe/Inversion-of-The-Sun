@@ -1,0 +1,130 @@
+add_namespace = TYR_hidden
+
+add_namespace = TYR
+
+country_event = {
+	id = TYR.1
+	title = TYR.1.title
+	desc = TYR.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.1.a
+		add_political_power = -75
+		hidden_effect = {
+			AGD = {
+				#
+				add_state_core = 528
+				add_state_core = 954
+				add_state_core = 955
+				add_state_core = 585
+				add_state_core = 529
+				add_state_core = 542
+
+				set_state_owner = 528
+				set_state_owner = 954
+				set_state_owner = 955
+				set_state_owner = 585
+				set_state_owner = 529
+				set_state_owner = 542
+				#
+
+				#
+				load_oob = "AGD"
+
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Infantry Div."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Mechanized Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Tank Br."
+				}
+				#
+
+
+				#
+				declare_war_on = {
+    					target = OZB
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = TYR
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = FRZ
+   					type = annex_everything
+				}
+				#
+				AGA = {
+				add_to_faction = AGD
+				}
+				add_ideas = ABS_GreatRevolt
+			}
+			BKS = {
+				#
+				add_state_core = 758
+				add_state_core = 957
+				add_state_core = 958
+				add_state_core = 802
+				add_state_core = 779
+				add_state_core = 665
+				add_state_core = 959
+				add_state_core = 756
+				add_state_core = 712
+				add_state_core = 652
+
+				set_state_owner = 758
+				set_state_owner = 957
+				set_state_owner = 958
+				set_state_owner = 802
+				set_state_owner = 779
+				set_state_owner = 665
+				set_state_owner = 959
+				set_state_owner = 756
+				set_state_owner = 712
+				set_state_owner = 652
+				#
+
+				#
+				load_oob = "BKS"
+
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Infantry Div."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Mechanized Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Leg. Swarm Tank Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abada Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Colonial Gendarmerie"
+				}
+				#
+
+				#
+				declare_war_on = {
+    					target = OZB
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = TYR
+   					type = annex_everything
+				}
+				declare_war_on = {
+    					target = FRZ
+   					type = annex_everything
+				}
+				#
+				set_cosmetic_tag = BKS_CONF
+			}
+		}
+	}
+}

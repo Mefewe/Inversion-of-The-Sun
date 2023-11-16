@@ -1,3 +1,7 @@
+add_ideas = {
+	ZebricanRevolution
+}
+
 capital = 75
 recruit_character = ZRT_Leader
 set_stability = 0.7

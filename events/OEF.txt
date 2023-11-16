@@ -1,0 +1,67 @@
+add_namespace = OEF
+add_namespace = OEF_confederates
+
+### Meeting with confederates ###
+
+country_event = {
+	id = OEF_confederates.1
+	title = OEF_confederates.1.title
+	desc = OEF_confederates.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = OEF_confederates.1.a
+		add_political_power = -15
+		set_global_flag = OEF_CanHelpSDL
+		SDL = {
+			country_event = {
+   			id = SDL_ostequ.3
+    			days = 1
+			}
+		}
+	}
+	option = {
+		name = OEF_confederates.1.b
+		add_political_power = 15
+		SDL = {
+			country_event = {
+   			id = SDL_ostequ.6
+    			days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = OEF_confederates.2
+	title = OEF_confederates.2.title
+	desc = OEF_confederates.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = OEF_confederates.2.a
+		add_political_power = -50
+		hidden_effect = {
+			SDL = {
+				country_event = {
+   				id = SDL_ostequ.5
+    				days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = OEF_confederates.2.b
+		add_political_power = 50
+		hidden_effect = {
+			SDL = {
+				country_event = {
+   				id = SDL_ostequ.4
+    				days = 1
+				}
+			}
+		}
+	}
+}

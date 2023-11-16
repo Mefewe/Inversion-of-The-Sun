@@ -28,10 +28,42 @@ focus_tree = {
 	shared_focus = SDL_promote_initiative
 	shared_focus = SDL_loyal_ministers
 
+	shared_focus = SDL_cultural_reforms
+	shared_focus = SDL_army_progressivism
+	shared_focus = SDL_economical_effort
+
+	shared_focus = SDL_convent_interrputs
+	shared_focus = SDL_popular_reformation
+
+	shared_focus = SDL_production_plan_arguing
+
+
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
 
+focus_tree = {
+	id = SDL_focus_tree_three
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = SDL
+		}
+	}
+	shared_focus = SDL_information_about_swarm
+	shared_focus = SDL_treaties_with_partners
+	shared_focus = SDL_propaganda_effort
+
+	shared_focus = SDL_call_the_rear
+	shared_focus = SDL_call_the_armies
+	shared_focus = SDL_deadly_gamble
+	shared_focus = SDL_call_the_cats
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
 
 ### FIRST TREE - PRESIDENT COLLECT INFO
 
@@ -261,5 +293,863 @@ shared_focus = {
 	x = 22
 	y = 0
 	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_cultural_reforms
+	available = {
+		has_completed_focus = SDL_personal_commissions
+		has_completed_focus = SDL_promote_initiative
+		has_completed_focus = SDL_loyal_ministers
+	}
+
+	cost = 1
+	x = 16
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_new_identity
+	prerequisite = {
+		focus = SDL_cultural_reforms
+	}
+	cost = 1
+	x = 15
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_household_harmonic_ideas
+	prerequisite = {
+		focus = SDL_new_identity
+	}
+	cost = 1
+	x = 15
+	y = 3
+	completion_reward = { 
+	}
+}
+
+
+shared_focus = {
+	id = SDL_supranational_laws
+	prerequisite = {
+		focus = SDL_cultural_reforms
+	}
+	cost = 1
+	x = 17
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_archaism_of_old_regime
+	prerequisite = {
+		focus = SDL_supranational_laws
+	}
+	cost = 1
+	x = 17
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_festival_in_jarmalesumi
+	prerequisite = {
+		focus = SDL_household_harmonic_ideas
+	}
+	prerequisite = {
+		focus = SDL_archaism_of_old_regime
+	}
+	cost = 1
+	x = 16
+	y = 4
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_army_progressivism
+	available = {
+		has_completed_focus = SDL_personal_commissions
+		has_completed_focus = SDL_promote_initiative
+		has_completed_focus = SDL_loyal_ministers
+	}
+
+	cost = 1
+	x = 20
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_military_renovation
+	prerequisite = {
+		focus = SDL_army_progressivism
+	}
+	cost = 1
+	x = 19
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_president_brigades
+	prerequisite = {
+		focus = SDL_army_progressivism
+	}
+	cost = 1
+	x = 21
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_to_the_fact
+	prerequisite = {
+		focus = SDL_military_renovation
+	}
+	prerequisite = {
+		focus = SDL_president_brigades
+	}
+	cost = 1
+	x = 20
+	y = 3
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_economical_effort
+	available = {
+		has_completed_focus = SDL_personal_commissions
+		has_completed_focus = SDL_promote_initiative
+		has_completed_focus = SDL_loyal_ministers
+	}
+
+	cost = 1
+	x = 24
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_fair_partnership
+	prerequisite = {
+		focus = SDL_economical_effort
+	}
+	cost = 1
+	x = 23
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_corporate_fund
+	prerequisite = {
+		focus = SDL_fair_partnership
+	}
+	cost = 1
+	x = 23
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_no_cheating
+	prerequisite = {
+		focus = SDL_economical_effort
+	}
+	cost = 1
+	x = 25
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_deal_of_century
+	prerequisite = {
+		focus = SDL_no_cheating
+	}
+	cost = 1
+	x = 25
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_summit_of_hooves_and_claws
+	prerequisite = {
+		focus = SDL_corporate_fund
+	}
+	prerequisite = {
+		focus = SDL_deal_of_century
+	}
+	cost = 1
+	x = 24
+	y = 4
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+shared_focus = {
+	id = SDL_convent_interrputs
+	available = {
+		always = no
+	}
+	cost = 1
+	x = 20
+	y = 4
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_popular_reformation
+	cost = 1
+	x = 20
+	y = 5
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_course_for_rearmament
+	prerequisite = {
+		focus = SDL_popular_reformation
+	}
+	cost = 1
+	x = 26
+	y = 6
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_officer_scholarships
+	prerequisite = {
+		focus = SDL_course_for_rearmament
+	}
+	cost = 1
+	x = 23
+	y = 7
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_modern_offcier_corps
+	prerequisite = {
+		focus = SDL_course_for_rearmament
+	}
+	cost = 1
+	x = 26
+	y = 7
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_military_transzebrican_order
+	prerequisite = {
+		focus = SDL_course_for_rearmament
+	}
+	cost = 1
+	x = 29
+	y = 7
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_maneuver_war
+	prerequisite = {
+		focus = SDL_modern_offcier_corps
+	}
+	mutually_exclusive = {
+		focus = SDL_static_war
+	}
+	mutually_exclusive = {
+		focus = SDL_war_planning
+	}
+	mutually_exclusive = {
+		focus = SDL_artillery_and_infantry
+	}
+	cost = 1
+	x = 22
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_war_planning
+	prerequisite = {
+		focus = SDL_modern_offcier_corps
+	}
+	mutually_exclusive = {
+		focus = SDL_static_war
+	}
+	mutually_exclusive = {
+		focus = SDL_maneuver_war
+	}
+	mutually_exclusive = {
+		focus = SDL_artillery_and_infantry
+	}
+	cost = 1
+	x = 23
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_static_war
+	prerequisite = {
+		focus = SDL_modern_offcier_corps
+	}
+	mutually_exclusive = {
+		focus = SDL_war_planning
+	}
+	mutually_exclusive = {
+		focus = SDL_maneuver_war
+	}
+	mutually_exclusive = {
+		focus = SDL_artillery_and_infantry
+	}
+	cost = 1
+	x = 24
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_artillery_and_infantry
+	prerequisite = {
+		focus = SDL_modern_offcier_corps
+	}
+	mutually_exclusive = {
+		focus = SDL_war_planning
+	}
+	mutually_exclusive = {
+		focus = SDL_maneuver_war
+	}
+	mutually_exclusive = {
+		focus = SDL_static_war
+	}
+	cost = 1
+	x = 25
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_iron_birds
+	prerequisite = {
+		focus = SDL_modern_offcier_corps
+	}
+	cost = 1
+	x = 28
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_call_to_oef_president
+	prerequisite = {
+		focus = SDL_iron_birds
+	}
+	mutually_exclusive = {
+		focus = SDL_engineer_competition
+	}
+	cost = 1
+	x = 27
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_engineer_competition
+	prerequisite = {
+		focus = SDL_iron_birds
+	}
+	mutually_exclusive = {
+		focus = SDL_call_to_oef_president
+	}
+	cost = 1
+	x = 29
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_coastal_defense
+	prerequisite = {
+		focus = SDL_modern_offcier_corps
+	}
+	cost = 1
+	x = 32
+	y = 8
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_in_water_depths
+	prerequisite = {
+		focus = SDL_coastal_defense
+	}
+	mutually_exclusive = {
+		focus = SDL_water_machin
+	}
+	cost = 1
+	x = 31
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_water_machin
+	prerequisite = {
+		focus = SDL_coastal_defense
+	}
+	mutually_exclusive = {
+		focus = SDL_in_water_depths
+	}
+	cost = 1
+	x = 33
+	y = 9
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_production_plan_arguing
+	available = {
+	has_completed_focus = SDL_iron_birds
+	has_completed_focus = SDL_coastal_defense
+	}
+	cost = 1
+	x = 30
+	y = 8
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_transzebrican_modernization
+	prerequisite = {
+		focus = SDL_popular_reformation
+	}
+	cost = 1
+	x = 14
+	y = 6
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_transzebrican_economics
+	prerequisite = {
+		focus = SDL_popular_reformation
+	}
+	cost = 1
+	x = 20
+	y = 6
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_third_focus_tree
+	prerequisite = {
+		focus = SDL_transzebrican_modernization
+	}
+	cost = 1
+	x = 20
+	y = 10
+	completion_reward = { 
+        load_focus_tree = SDL_focus_tree_three
+	}
+}
+
+### THIRD TREE - PREPARATIONS AND BEGINNING OF RALLY
+
+shared_focus = {
+	id = SDL_information_about_swarm
+	cost = 1
+	x = 18
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_supply_sabotage
+	prerequisite = {
+		focus = SDL_information_about_swarm
+	}
+	cost = 1
+	x = 17
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_movement_coordination
+	prerequisite = {
+		focus = SDL_information_about_swarm
+	}
+	cost = 1
+	x = 19
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_throw_bait
+	prerequisite = {
+		focus = SDL_supply_sabotage
+	}
+	prerequisite = {
+		focus = SDL_movement_coordination
+	}
+	cost = 1
+	x = 18
+	y = 2
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_treaties_with_partners
+	cost = 1
+	x = 14
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_canterberrian_pact
+	prerequisite = {
+		focus = SDL_treaties_with_partners
+	}
+	cost = 1
+	x = 13
+	y = 2
+	completion_reward = { 
+		country_event = {
+   			id = SDL_ostequ.1
+    			days = 2
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_ask_for_military_subsidies
+	prerequisite = {
+		focus = SDL_canterberrian_pact
+	}
+	available = {
+		has_global_flag = OEF_CanHelpSDL
+	}
+	cost = 1
+	x = 14
+	y = 3
+	completion_reward = { 
+		country_event = {
+   			id = SDL_ostequ.2
+    			days = 2
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_visit_dragonclaw
+	prerequisite = {
+		focus = SDL_treaties_with_partners
+	}
+	cost = 1
+	x = 15
+	y = 2
+	completion_reward = { 
+		country_event = {
+   			id = SDL_dragons.1
+    			days = 2
+    			hours = 10
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_promise_them_scrath_region
+	prerequisite = {
+		focus = SDL_visit_dragonclaw
+	}
+	available = {
+		has_global_flag = DRG_NegotiationsAccepted
+	}
+	cost = 1
+	x = 16
+	y = 3
+	completion_reward = { 
+		country_event = {
+   			id = SDL_dragons.2
+    			days = 2
+		}
+	}
+}
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_propaganda_effort
+	cost = 1
+	x = 22
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_work_with_nation_thoughts
+	prerequisite = {
+		focus = SDL_propaganda_effort
+	}
+	cost = 1
+	x = 21
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_we_all_belong_to_tricolour
+	prerequisite = {
+		focus = SDL_work_with_nation_thoughts
+	}
+	cost = 1
+	x = 20
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_major_training
+	prerequisite = {
+		focus = SDL_propaganda_effort
+	}
+	cost = 1
+	x = 23
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = SDL_strengthening_of_positions
+	prerequisite = {
+		focus = SDL_major_training
+	}
+	cost = 1
+	x = 22
+	y = 3
+	completion_reward = { 
+	}
+}
+
+
+
+
+
+shared_focus = {
+	id = SDL_call_the_rear
+	available = {
+	has_completed_focus = SDL_throw_bait
+	has_completed_focus = SDL_canterberrian_pact
+	has_completed_focus = SDL_visit_dragonclaw
+	has_completed_focus = SDL_we_all_belong_to_tricolour
+	has_completed_focus = SDL_strengthening_of_positions
+	}
+	cost = 1
+	x = 15
+	y = 4
+	completion_reward = { 
+		country_event = {
+   			id = SDL_base.1
+    			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_call_the_armies
+	available = {
+	has_completed_focus = SDL_throw_bait
+	has_completed_focus = SDL_canterberrian_pact
+	has_completed_focus = SDL_visit_dragonclaw
+	has_completed_focus = SDL_we_all_belong_to_tricolour
+	has_completed_focus = SDL_strengthening_of_positions
+	}
+	cost = 1
+	x = 17
+	y = 4
+	completion_reward = { 
+		country_event = {
+   			id = SDL_base.2
+    			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_deadly_gamble
+	available = {
+	has_completed_focus = SDL_throw_bait
+	has_completed_focus = SDL_canterberrian_pact
+	has_completed_focus = SDL_visit_dragonclaw
+	has_completed_focus = SDL_we_all_belong_to_tricolour
+	has_completed_focus = SDL_strengthening_of_positions
+	}
+	cost = 1
+	x = 19
+	y = 4
+	completion_reward = { 
+		country_event = {
+   			id = SDL_base.3
+    			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_call_the_cats
+	available = {
+	has_completed_focus = SDL_throw_bait
+	has_completed_focus = SDL_canterberrian_pact
+	has_completed_focus = SDL_visit_dragonclaw
+	has_completed_focus = SDL_we_all_belong_to_tricolour
+	has_completed_focus = SDL_strengthening_of_positions
+	}
+	cost = 1
+	x = 21
+	y = 4
+	completion_reward = { 
+		country_event = {
+   			id = SDL_base.4
+    			days = 1
+		}
+	}
+}
+
+
+
+
+
+
+shared_focus = {
+	id = SDL_rally_starts
+	prerequisite = {
+		focus = SDL_call_the_rear
+	}
+	prerequisite = {
+		focus = SDL_call_the_armies
+	}
+	prerequisite = {
+		focus = SDL_deadly_gamble
+	}
+	prerequisite = {
+		focus = SDL_call_the_cats
+	}
+	cost = 1
+	x = 18
+	y = 5
+	completion_reward = { 
+		country_event = {
+   			id = SDL_base.5
+    			days = 1
+		}
 	}
 }

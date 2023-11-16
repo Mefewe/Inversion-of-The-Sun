@@ -9322,7 +9322,6 @@
 9320;151;168;140;land;false;desert;1
 9321;130;160;152;land;false;desert;1
 9322;43;162;168;land;false;desert;1
-
 9323;150;124;63;land;false;desert;1
 9324;153;85;181;land;false;desert;1
 9325;68;44;160;land;false;desert;1
@@ -9367,3 +9366,17 @@
 9364;229;188;210;land;false;desert;1
 9365;183;123;97;land;false;desert;1
 9366;95;107;175;land;false;desert;1
+9367;175;127;93;land;true;plains;1
+9368;186;79;26;land;true;plains;1
+9369;188;187;101;land;false;forest;1
+9370;188;70;101;land;true;plains;1
+9371;188;187;205;land;false;plains;1
+9372;143;83;181;land;true;plains;1
+9373;173;136;72;land;true;plains;1
+9374;204;161;184;land;true;plains;1
+9375;71;158;113;land;true;plains;1
+9376;167;158;163;land;true;plains;1
+9377;101;158;28;land;true;plains;1
+9378;71;158;158;land;true;plains;1
+9379;206;188;107;land;false;desert;1
+9380;141;181;88;land;false;desert;1

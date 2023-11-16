@@ -7,8 +7,16 @@ state={
 	}
 	history={
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
     }
+
+        resources = {
+        steel = 8
+        aluminium = 9
+        tungsten = 5
+	chromium = 7
+        }
+
         state_category = wasteland
 	manpower=51929
 	buildings_max_level_factor=1.000

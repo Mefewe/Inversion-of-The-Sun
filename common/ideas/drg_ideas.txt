@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		DRG_DragonsFactor = {
+			picture = SPR_masters_of_our_own_fate
+			modifier = {
+				custom_modifier_tooltip = DRG_DragonsFactor_tt
+				army_attack_factor = 1
+				army_defence_factor = 0.5
+				surrender_limit = 0.5
+			}
+		}
+	}
+}

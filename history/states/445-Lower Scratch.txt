@@ -5,13 +5,28 @@ state={
 		591 654 2046 2174 2760 2848 3973 8082 8095 
 	}
 	history={
+	victory_points = {2760 20} #
+	victory_points = {654 15} #
+	victory_points = {591 10} #
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
 	add_core_of = DRG
         buildings = {
                 infrastructure = 3
+                industrial_complex = 1
+                arms_factory = 1
+		ammo_complex = 1
+		air_base = 1
         }
     }
+
+        resources = {
+        aluminium = 12
+	tungsten = 4
+        oil = 6
+	chromium = 8
+        }
+
         state_category = town
 	manpower=401821
 	buildings_max_level_factor=1.000

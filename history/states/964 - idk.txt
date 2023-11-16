@@ -1,0 +1,29 @@
+state={
+	id=964
+	name="STATE_964"
+	provinces={
+		9375 9376 9377 9378
+	}
+	history={
+	victory_points = {9378 20} # 
+        owner = EQS
+        add_core_of = EQS
+        buildings = {
+                infrastructure = 4
+		industry_complex = 1
+		army_factory = 2
+		ammo_complex = 1
+		9378 = { naval_base = 1 }
+        }
+    }
+
+        resources = {
+        steel = 8
+        aluminium = 6
+	oil = 22
+        }
+
+        state_category = large_town
+	manpower=370129
+	buildings_max_level_factor=1.000
+}

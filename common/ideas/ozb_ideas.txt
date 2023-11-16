@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		OZB_TranzebricanCatastrophe = {
+			picture = SPR_masters_of_our_own_fate
+			modifier = {
+				custom_modifier_tooltip = OZB_TranzebricanCatastrophe_tt
+			}
+		}
+	}
+}

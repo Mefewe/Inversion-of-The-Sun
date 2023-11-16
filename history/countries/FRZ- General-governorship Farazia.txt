@@ -1,15 +1,55 @@
-﻿capital = 781
+﻿oob = "FRZ"
+
+capital = 781
 recruit_character = FRZ_Virta_Bgurabi
 set_stability = 0.4
 set_war_support = 0.2
+
+################## TECHS
 set_technology = {
+	### INFANTRY
 	infantry_weapons = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	night_vision = 1
+	tech_special_forces = 1
+	motorised_infantry = 1
+	bronetransporter_infantry = 1
+	mechanised_infantry = 1
+	infantry_anti_tank_1 = 1
+	infantry_anti_tank_2 = 1
+	infantry_anti_air_1 = 1
+
+	### SUPPORT
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	military_infrastructure1 = 1
+	basic_train = 1
+	command_and_control1 = 1
+
+	### ARTILLERY
 	gw_artillery = 1
 	interwar_antiair = 1
-	mass_assault = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+
+	### DOCTRINE
+	mobile_warfare = 1
+	delay = 1
+	elastic_defence = 1
 	fleet_in_being = 1
-	basic_train = 1
+
+	### TANKS
+	advanced_medium_tank = 1
+	medium_tank_gw = 1
 }
+
 add_ideas = {
 		#laws
 		war_economy

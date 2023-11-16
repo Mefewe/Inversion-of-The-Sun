@@ -1,0 +1,353 @@
+add_namespace = SDL_base
+add_namespace = SDL_ostequ
+add_namespace = SDL_dragons
+
+### Negotitaions with OEF
+
+country_event = { 
+	id = SDL_ostequ.1
+	title = SDL_ostequ.1.title
+	desc = SDL_ostequ.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_ostequ.1.a
+		hidden_effect = {
+			OEF = {
+				country_event = {
+   				id = OEF_confederates.1
+    				days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = SDL_ostequ.2
+	title = SDL_ostequ.2.title
+	desc = SDL_ostequ.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_ostequ.2.a # We need weapons
+		hidden_effect = {
+			OEF = {
+				country_event = {
+   				id = OEF_confederates.2
+    				days = 2
+				}
+			}
+		}
+	}
+	option = {
+		name = SDL_ostequ.2.b # We need weapons and marine support
+		hidden_effect = {
+			OEF = {
+				country_event = {
+   				id = OEF_confederates.2
+    				days = 2
+				}
+			}
+		}
+	}
+	option = {
+		name = SDL_ostequ.2.c # We need land forces to fight with enemy
+		hidden_effect = {
+			OEF = {
+				country_event = {
+   				id = OEF_confederates.2
+    				days = 2
+				}
+			}
+		}
+	}
+}
+
+# OEF CAN HELP
+country_event = {
+	id = SDL_ostequ.3
+	title = SDL_ostequ.3.title
+	desc = SDL_ostequ.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_ostequ.3.a
+	}
+}
+
+# OEF DON'T WANT TO HELP
+country_event = {
+	id = SDL_ostequ.6
+	title = SDL_ostequ.6.title
+	desc = SDL_ostequ.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_ostequ.6.a
+	}
+}
+
+# OEF CAN'T GIVE SUBSIDIES
+country_event = {
+	id = SDL_ostequ.4
+	title = SDL_ostequ.4.title
+	desc = SDL_ostequ.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_ostequ.4.a
+	}
+}
+
+# OEF CANT GIVE SUBSIDIES
+country_event = {
+	id = SDL_ostequ.5
+	title = SDL_ostequ.5.title
+	desc = SDL_ostequ.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_ostequ.5.a
+	}
+}
+
+### Meeting with dragons ###
+
+country_event = { 
+	id = SDL_dragons.1
+	title = SDL_dragons.1.title
+	desc = SDL_dragons.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_dragons.1.a
+		hidden_effect = {
+			DRG = {
+				country_event = {
+   				id = DRG_confederates.1
+    				days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = SDL_dragons.2
+	title = SDL_dragons.2.title
+	desc = SDL_dragons.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_dragons.2.a
+		add_political_power = -50
+		set_global_flag = SDL_MidPromiseOfScrath
+		hidden_effect = {
+			DRG = {
+				country_event = {
+   				id = DRG_confederates.2
+    				days = 2
+				}
+			}
+		}
+	}
+	option = {
+		name = SDL_dragons.2.b
+		add_political_power = -50
+		set_global_flag = SDL_LittlePromiseOfScrath
+		hidden_effect = {
+			DRG = {
+				country_event = {
+   				id = DRG_confederates.2
+    				days = 2
+				}
+			}
+		}
+	}
+	option = {
+		name = SDL_dragons.2.c
+		add_political_power = -50
+		set_global_flag = SDL_LargePromiseOfScrath
+		hidden_effect = {
+			DRG = {
+				country_event = {
+   				id = DRG_confederates.2
+    				days = 2
+				}
+			}
+		}
+	}
+}
+
+# DRAGONS DON'T READY FOR NEGOTIATIONS
+country_event = {
+	id = SDL_dragons.5
+	title = SDL_dragons.5.title
+	desc = SDL_dragons.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_dragons.5.a
+	}
+}
+
+# DRAGONS READY FOR NEGOTIATIONS
+country_event = {
+	id = SDL_dragons.6
+	title = SDL_dragons.6.title
+	desc = SDL_dragons.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_dragons.6.a
+	}
+}
+
+# DRAGONS DECLINE
+country_event = {
+	id = SDL_dragons.3
+	title = SDL_dragons.3.title
+	desc = SDL_dragons.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_dragons.3.a
+	}
+}
+
+# DRAGONS ACCEPT
+country_event = {
+	id = SDL_dragons.4
+	title = SDL_dragons.4.title
+	desc = SDL_dragons.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_dragons.4.a
+	}
+}
+
+### Other ###
+
+country_event = {
+	id = SDL_base.1
+	title = SDL_base.1.title
+	desc = SDL_base.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.1.a
+	}
+}
+country_event = {
+	id = SDL_base.2
+	title = SDL_base.2.title
+	desc = SDL_base.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.2.a
+	}
+}
+country_event = {
+	id = SDL_base.3
+	title = SDL_base.3.title
+	desc = SDL_base.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.3.a
+	}
+}
+country_event = {
+	id = SDL_base.4
+	title = SDL_base.4.title
+	desc = SDL_base.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.4.a
+	}
+}
+
+### TRANZEBRICAN RALLY STARTS
+country_event = {
+	id = SDL_base.5
+	title = SDL_base.5.title
+	desc = SDL_base.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.5.a
+		set_global_flag = TranzebricanRallyStarted
+		SDL = {
+			declare_war_on = {
+    				target = OZB
+   				type = annex_everything
+				}
+			declare_war_on = {
+    				target = TYR
+   				type = annex_everything
+				}
+			declare_war_on = {
+    				target = FRZ
+   				type = annex_everything
+				}
+		}
+		hidden_effect = {
+			OZB = {
+				country_event = {
+					id = OZB.1
+					days = 14
+					random_hours = 17
+				}
+			}
+			OZB = {
+				country_event = {
+					id = OZB.2
+					days = 36
+					random_hours = 10
+				}
+			}
+			DRG = {
+				country_event = {
+					id = DRG_base.1
+					days = 10
+					random_hours = 6
+				}
+			}
+			TYR = {
+				country_event = {
+					id = TYR.1
+					days = 26
+					random_hours = 4
+				}
+			}
+			FRZ = {
+				country_event = {
+					id = FRZ.1
+					days = 19
+					random_hours = 8
+				}
+			}
+		}
+	}
+}

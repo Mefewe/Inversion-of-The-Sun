@@ -6,8 +6,17 @@ state={
 	}
 	history={
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
     }
+
+        resources = {
+        steel = 10
+        aluminium = 9
+        tungsten = 7
+        oil = 4
+	chromium = 8
+        }
+
         state_category = pastoral
 	manpower=70167
 	buildings_max_level_factor=1.000

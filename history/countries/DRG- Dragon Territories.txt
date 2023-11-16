@@ -1,5 +1,8 @@
 ﻿oob = "DRG"
 
+add_ideas = {
+ DRG_DragonsFactor
+}
 capital = 906
 recruit_character = DRG_Ember
 set_stability = 0.4

@@ -5,12 +5,22 @@ state={
 		2082 3122 7826 
 	}
 	history={
+	victory_points = {7826 20} # Таббитаун
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
         buildings = {
                 infrastructure = 3
+                industrial_complex = 2
         }
     }
+
+        resources = {
+        steel = 7
+        aluminium = 4
+        tungsten = 2
+        oil = 3
+        }
+
         state_category = town
 	manpower=401827
 	buildings_max_level_factor=1.000

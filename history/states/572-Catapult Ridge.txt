@@ -5,9 +5,18 @@ state={
 		219 1236 2177 3808 3976 
 	}
 	history={
+	victory_points = {3808 10} #
         owner = OZB
-        add_core_of = OZB
+        add_core_of = ABS
     }
+
+        resources = {
+        steel = 41
+        aluminium = 30
+        tungsten = 27
+	chromium = 20
+        }
+
         state_category = pastoral
 	manpower=100926
 	buildings_max_level_factor=1.000

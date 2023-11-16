@@ -1,0 +1,17 @@
+characters = {
+AGA_Leader = {
+		name = AGA_Leader
+		portraits = {
+			civilian = {
+				large = GFX_AGA_Leader_L
+			}
+		}
+		country_leader = {
+		    desc="AGA_Leader_desc"
+			ideology = provisional_government
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

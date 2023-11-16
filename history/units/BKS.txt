@@ -1,0 +1,183 @@
+division_template = {
+        name = "Resistance Forces Brigade"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+        }
+}
+division_template = {
+        name = "Alpaka Mountaineers"
+        regiments = {
+                mountaineers = { x = 0 y = 0 }
+                mountaineers = { x = 0 y = 1 }
+                mountaineers = { x = 1 y = 0 }
+                mountaineers = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+        }
+}
+division_template = {
+        name = "Mobile Recon Regiment"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+        }
+        support = {
+		recon = { x = 0 y = 1 }
+        }
+}
+
+units = {
+### Normal templates
+	division = {
+		name = "1. Resistance Forces Brigade"
+		location = 7547
+		division_template = "Resistance Forces Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. Resistance Forces Brigade"
+		location = 477
+		division_template = "Resistance Forces Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. Resistance Forces Brigade"
+		location = 982
+		division_template = "Resistance Forces Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "4. Resistance Forces Brigade"
+		location = 7160
+		division_template = "Resistance Forces Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "5. Resistance Forces Brigade"
+		location = 2505
+		division_template = "Resistance Forces Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Recon templates
+	division = {
+		name = "1. Mobile Recon Regiment"
+		location = 4296
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. Mobile Recon Regiment"
+		location = 2971
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. Mobile Recon Regiment"
+		location = 4791
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "4. Mobile Recon Regiment"
+		location = 7264
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "5. Mobile Recon Regiment"
+		location = 3140
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "6. Mobile Recon Regiment"
+		location = 7345
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "7. Mobile Recon Regiment"
+		location = 7209
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "8. Mobile Recon Regiment"
+		location = 7105
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "9. Mobile Recon Regiment"
+		location = 6803
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "10. Mobile Recon Regiment"
+		location = 6701
+		division_template = "Mobile Recon Regiment"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Mountaineers templates
+	division = {
+		name = "1. Alpaka Mountaineers"
+		location = 7239
+		division_template = "Alpaka Mountaineers"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. Alpaka Mountaineers"
+		location = 3275
+		division_template = "Alpaka Mountaineers"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. Alpaka Mountaineers"
+		location = 371
+		division_template = "Alpaka Mountaineers"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+}
