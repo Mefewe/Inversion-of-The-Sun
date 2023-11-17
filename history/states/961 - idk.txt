@@ -6,19 +6,18 @@ state={
 	}
 	history={
 		victory_points = {6109 10}
-        	owner = TYR
-        	add_core_of = SDL
+        owner = TYR
+        add_core_of = SDL
 		add_core_of = KTH
 		add_core_of = ABS
-        	buildings = {
-                	infrastructure = 2
-        	}
-    	}
-
-        resources = {
-	steel = 5
-        aluminium = 3
+        buildings = {
+            infrastructure = 2
         }
+    }
+    resources = {
+		steel = 5
+        aluminium = 3
+    }
 
 	state_category = rural
 	manpower=373169

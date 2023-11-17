@@ -52,7 +52,6 @@ MTR	= "countries/Mitribad.txt"
 KTH	= "countries/Katushtrasu.txt"
 HRS	= "countries/Hurshidai.txt"
 ISU	= "countries/Isuei.txt"
-
 ZBR	= "countries/Zebrabwe.txt"
 MRD	= "countries/Maredia.txt"
 SRP	= "countries/Stripasi.txt"

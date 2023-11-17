@@ -363,7 +363,6 @@ on_actions = {
 				log = "[GetDateText]: FARAZIA IS DEFEATED"
 				set_global_flag = antityr_war_won
 				FRZ = { leave_faction = yes }
-
 				AGA = {
 					white_peace = ROOT
 				}
@@ -440,13 +439,14 @@ on_actions = {
 					}
 				}
 			}
-		if = { #для войн которые будут продолжаца
-			limit = {
-				always = no
+			if = { #для войн которые будут продолжаца
+				limit = {
+					always = no
+				}
+				set_global_flag = war_continuing
 			}
-			set_global_flag = war_continuing
+			clr_global_flag = skip_default_capitulation	
 		}
-		clr_global_flag = skip_default_capitulation	
 	}
 }
 
