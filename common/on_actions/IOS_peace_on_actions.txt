@@ -90,6 +90,55 @@ on_actions = {
 					set_global_flag = skip_default_capitulation
 				}
 				if = {
+					limit = {
+						ROOT = { original_tag = BKS }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = ZRT }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = ZGR }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = AGA }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = AGB }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = AGC }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = AGD }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
+					limit = {
+						FROM = { original_tag = SDL }
+						ROOT = { original_tag = TYR }	
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = {
 					limit = {		
 						FROM = { original_tag = EQS }
 						ROOT = { original_tag = CHN }	
@@ -163,11 +212,6 @@ on_actions = {
 			if = {
 				limit = { 
 					ROOT = { original_tag = OZB } 
-					ROOT = {
-						has_war_with = AGA
-						has_war_with = AGB
-						has_war_with = AGC
-					}
 				}
 				
 				log = "[GetDateText]: SUDERN-ZEBRIKA IS DEFEATED"
@@ -187,9 +231,9 @@ on_actions = {
 				}
 				if = {
 					limit = {
-						NOT = {
-							DRG = {
-								controls_state = 565
+						565 = {
+							NOT = {
+								is_owned_by = DRG
 							}
 						}
 					}
@@ -199,9 +243,9 @@ on_actions = {
 				}
 				if = {
 					limit = {
-						NOT = {
-							DRG = {
-								controls_state = 445
+						445 = {
+							NOT = {
+								is_owned_by = DRG
 							}
 						}
 					}
@@ -230,9 +274,6 @@ on_actions = {
 				if = {
 					limit = {
 						country_exists = ZGR
-						ZGR = {
-							has_war_with = ROOT
-						}
 					}
 					ZGR = {
 						white_peace = ROOT
@@ -241,16 +282,34 @@ on_actions = {
 			}
 			if = {
 				limit = { 
-					ROOT = { original_tag = TYR }
-					ROOT = {
-							has_war_with = AGA
-							has_war_with = AGB
-							has_war_with = AGC
-							has_war_with = AGD
+					FROM = { original_tag = SDL } 
+					ROOT = { original_tag = TYR } 
+				}
+
+				ROOT = { leave_faction = yes }
+
+				if = {
+					limit = { 
+						NOT = {
+							has_global_flag = AGA_Formed
+							has_global_flag = AGB_Formed
+							has_global_flag = AGC_Formed
+							has_global_flag = AGD_Formed
+						}
+					}
+					SDL = {
+						annex_country = {
+							target = TYR
+							transfer_troops = no
+						}
 					}
 				}
+			}
+			if = {
+				limit = { ROOT = { original_tag = TYR } }
 				log = "[GetDateText]: TYRLITIA IS DEFEATED"
 				set_global_flag = antityr_war_won
+				
 				ROOT = { leave_faction = yes }
 
 				AGA = {
@@ -262,32 +321,30 @@ on_actions = {
 				AGC = {
 					white_peace = ROOT
 				}
-				AGD = {
-					white_peace = ROOT
-					transfer_state = 562
-					transfer_state = 547
-					transfer_state = 567
-					transfer_state = 578
-					transfer_state = 956
-					transfer_state = 571
-					transfer_state = 550
-					transfer_state = 601
-					transfer_state = 608
-					transfer_state = 954
-					transfer_state = 702
-					transfer_state = 711
-					transfer_state = 635
-					transfer_state = 678
-					transfer_state = 612
-					transfer_state = 654
+				if = {
+					limit = { has_global_flag = AGD_Formed }
+					AGD = {
+						white_peace = ROOT
+						transfer_state = 562
+						transfer_state = 547
+						transfer_state = 567
+						transfer_state = 578
+						transfer_state = 956
+						transfer_state = 571
+						transfer_state = 550
+						transfer_state = 601
+						transfer_state = 608
+						transfer_state = 702
+						transfer_state = 711
+						transfer_state = 635
+						transfer_state = 678
+						transfer_state = 612
+						transfer_state = 654
+						transfer_state = 954
+					}
 				}
 				if = {
-					limit = {
-						country_exists = BKS
-						BKS = {
-							has_war_with = ROOT
-						}
-					}
+					limit = { country_exists = BKS }
 					BKS = {
 						white_peace = TYR
 						transfer_state = 959
@@ -302,7 +359,11 @@ on_actions = {
 						transfer_state = 758
 					}
 				}
-				else = {
+				else  = {
+					limit = { 
+						NOT = { country_exists = BKS }
+						has_global_flag = AGD_Formed
+					}
 					AGD = {
 						transfer_state = 959
 						transfer_state = 652
@@ -314,14 +375,18 @@ on_actions = {
 						transfer_state = 779
 						transfer_state = 957
 						transfer_state = 758
+						transfer_state = 955
+						transfer_state = 954
+						transfer_state = 585
+						transfer_state = 529
+						transfer_state = 542
+						transfer_state = 528
 					}
 				}
 				if = {
-					limit = {
-						country_exists = SDL
-						SDL = {
-							has_war_with = ROOT
-						}
+					limit = { 
+						country_exists = SDL 
+						has_global_flag = tyr_at_rally
 					}
 					SDL = {
 						white_peace = TYR
@@ -336,7 +401,10 @@ on_actions = {
 						transfer_state = 953
 					}
 				}
-				else = {
+				else  = {
+					limit = { 
+						NOT = { has_global_flag = tyr_at_rally }
+					}
 					AGD = {
 						transfer_state = 961
 						transfer_state = 502
@@ -353,12 +421,6 @@ on_actions = {
 			if = {
 				limit = { 
 					ROOT = { original_tag = FRZ } 
-					ROOT = {
-						has_war_with = AGA
-						has_war_with = AGB
-						has_war_with = AGC
-						has_war_with = AGD
-					}
 				}
 				log = "[GetDateText]: FARAZIA IS DEFEATED"
 				set_global_flag = antityr_war_won
@@ -385,9 +447,6 @@ on_actions = {
 				if = {
 					limit = {
 						country_exists = ZRT
-						ZRT = {
-							has_war_with = ROOT
-						}
 					}
 					ZRT = {
 						white_peace = ROOT
@@ -399,7 +458,10 @@ on_actions = {
 						transfer_state = 856
 					}
 				}
-				else = {
+				else  = {
+					limit = {
+						NOT = { country_exists = ZRT }
+					}
 					AGB = {
 						transfer_state = 912
 						transfer_state = 887
@@ -412,9 +474,6 @@ on_actions = {
 				if = {
 					limit = {
 						country_exists = SDL
-						SDL = {
-							has_war_with = ROOT
-						}
 					}
 					SDL = {
 						white_peace = ROOT
@@ -437,6 +496,212 @@ on_actions = {
 						transfer_state = 696
 						transfer_state = 629
 					}
+				}
+			}
+			if = {
+				limit = { 
+					ROOT = { original_tag = BKS } 
+				}
+				log = "[GetDateText]: BUCKSWANA & MOOZAMBIQUE FAILED"
+				set_global_flag = bks_failed_revolution
+				ROOT = { leave_faction = yes }
+
+				TYR = {
+					white_peace = ROOT
+					annex_country = {
+						target = BKS
+						transfer_troops = no
+					}
+				}
+				OZB = {
+					white_peace = ROOT
+				}
+				FRZ = {
+					white_peace = ROOT
+				}
+				BKS = {
+					remove_state_core = 959
+					remove_state_core = 652
+					remove_state_core = 712
+					remove_state_core = 756
+					remove_state_core = 665
+					remove_state_core = 802			
+					remove_state_core = 958
+					remove_state_core = 779
+					remove_state_core = 957
+					remove_state_core = 758
+				}
+			}
+			if = {
+				limit = { 
+					ROOT = { original_tag = ZRT } 
+				}
+				log = "[GetDateText]: ZEBRAT FAILED"
+				set_global_flag = zrt_failed_revolution
+				ROOT = { leave_faction = yes }
+
+				FRZ = {
+					white_peace = ROOT
+					annex_country = {
+						target = ZRT
+						transfer_troops = no
+					}
+				}
+				OZB = {
+					white_peace = ROOT
+				}
+				TYR = {
+					white_peace = ROOT
+				}
+				ZRT = {
+					remove_state_core = 912
+					remove_state_core = 887
+					remove_state_core = 75
+					remove_state_core = 823
+					remove_state_core = 884
+					remove_state_core = 856
+				}
+			}
+			if = {
+				limit = { 
+					ROOT = { original_tag = ZGR } 
+				}
+				log = "[GetDateText]: GARRISON REVOLT FAILED"
+				set_global_flag = zgr_failed_coup
+				ROOT = { leave_faction = yes }
+
+				FRZ = {
+					white_peace = ROOT
+				}
+				OZB = {
+					white_peace = ROOT
+				}
+				TYR = {
+					white_peace = ROOT
+				}
+			}
+			if = {
+				limit = { 
+					ROOT = { original_tag = AGA } 
+				}
+				log = "[GetDateText]: ARMY <A> FAILED"
+				set_global_flag = aga_failed_revolt
+				ROOT = { leave_faction = yes }
+
+				FRZ = {
+					white_peace = ROOT
+				}
+				OZB = {
+					white_peace = ROOT
+					annex_country = {
+						target = AGA
+						transfer_troops = no
+					}
+				}
+				TYR = {
+					white_peace = ROOT
+				}
+				AGC = {
+					remove_state_core = 541
+					remove_state_core = 548
+					remove_state_core = 572
+					remove_state_core = 656
+					remove_state_core = 25
+				}
+			}
+			if = {
+				limit = { 
+					ROOT = { original_tag = AGB } 
+				}
+				log = "[GetDateText]: ARMY <B> FAILED"
+				set_global_flag = agb_failed_revolt
+				ROOT = { leave_faction = yes }
+
+				FRZ = {
+					white_peace = ROOT
+				}
+				OZB = {
+					white_peace = ROOT
+					annex_country = {
+						target = AGB
+						transfer_troops = no
+					}
+				}
+				TYR = {
+					white_peace = ROOT
+				}
+				AGB = {
+					remove_state_claim = 886
+					remove_state_claim = 908
+					remove_state_claim = 871
+					remove_state_claim = 890
+					remove_state_claim = 898
+					remove_state_claim = 3			
+					remove_state_claim = 879
+					remove_state_claim = 910
+				}
+			}
+			if = {
+				limit = { 
+					ROOT = { original_tag = AGC } 
+				}
+				log = "[GetDateText]: ARMY <C> FAILED"
+				set_global_flag = agc_failed_revolt
+				ROOT = { leave_faction = yes }
+
+				FRZ = {
+					white_peace = ROOT
+				}
+				OZB = {
+					white_peace = ROOT
+					annex_country = {
+						target = AGC
+						transfer_troops = no
+					}
+				}
+				TYR = {
+					white_peace = ROOT
+				}
+				AGC = {
+					remove_state_claim = 297
+					remove_state_claim = 216
+					remove_state_claim = 398
+					remove_state_claim = 337
+					remove_state_claim = 762
+					remove_state_claim = 477			
+					remove_state_claim = 904
+					remove_state_claim = 633
+					remove_state_claim = 346
+				}
+			}
+			if = {
+				limit = { 
+					ROOT = { original_tag = AGD } 
+				}
+				log = "[GetDateText]: ARMY <D> FAILED"
+				set_global_flag = agd_failed_revolt
+				ROOT = { leave_faction = yes }
+
+				FRZ = {
+					white_peace = ROOT
+				}
+				OZB = {
+					white_peace = ROOT
+				}
+				TYR = {
+					white_peace = ROOT
+					annex_country = {
+						target = AGD
+						transfer_troops = no
+					}
+				}
+				AGD = {
+					remove_state_core = 528
+					remove_state_core = 954
+					remove_state_core = 955
+					remove_state_core = 585
+					remove_state_core = 529
+					remove_state_core = 542
 				}
 			}
 			if = { #для войн которые будут продолжаца

@@ -5,8 +5,8 @@ ideas = {
 			modifier = {
 				custom_modifier_tooltip = ZebricanRevolution_tt
 				war_support_factor = 1
-				surrender_limit = 10.85
-				army_attack_factor = 10.5
+				surrender_limit = 0.25
+				army_attack_factor = 0.35
 				army_defence_factor = 0.25
 			}
 		}

@@ -29,6 +29,73 @@ ideas = {
 				production_factory_efficiency_gain_factor = -100
 			}
 		}
-	}
+		BuffAttack = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
 
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 1000000
+			}
+		}
+		BuffDefence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_defence_factor = 1000000
+			}
+		}
+		BuffSpeed = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_speed_factor = 1000000
+			}
+		}
+		BuffOrg = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_morale_factor = 1000000
+			}
+		}
+		BuffAll = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 100
+				army_defence_factor = 100
+				army_speed_factor = 100
+				army_morale_factor = 100
+			}
+		}
+	}
 }

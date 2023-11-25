@@ -15,7 +15,7 @@ armor_generic = {
 		
 		modifier = {
 			factor = 2
-			has_tech = main_battle_tank_chassis		
+			has_tech = post_war_modern_tank
 		}
 	}
 	
@@ -40,7 +40,7 @@ armor_generic = {
 		}
 		
 		can_upgrade_in_field = {
-			has_equipment = { light_tank_chassis < 500 } 
+			has_equipment = { med_tank_eq < 500 } 
 		}
 		
 		target_width = 18.0

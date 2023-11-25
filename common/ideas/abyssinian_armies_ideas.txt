@@ -5,8 +5,8 @@ ideas = {
 			modifier = {
 				custom_modifier_tooltip = ABS_GreatRevolt_tt
 				war_support_factor = 1
-				surrender_limit = 0.85
-				army_attack_factor = 1111.35
+				surrender_limit = 0.15
+				army_attack_factor = 0.35
 				army_defence_factor = 0.25
 			}
 		}

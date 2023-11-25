@@ -1,0 +1,1161 @@
+technologies = {
+
+
+	@1758 = 0
+	@1763 = 2
+	@1770 = 4
+	@1772 = 6
+	@1774 = 7
+	@1776 = 8
+	@1780 = 9
+	@1783 = 10
+
+	### Medium tanks
+	gw_med_tank = {
+		enable_equipments = {
+			gw_med_tank_eq_1
+		}
+		
+		path = {
+			leads_to_tech = med_tank_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = post_war_modern_tank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1763
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	med_tank_1 = {
+
+		enable_equipments = {
+			med_tank_eq_1
+		}
+		
+		path = {
+			leads_to_tech = med_tank_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1770
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 0 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	med_tank_2 = {
+		enable_equipments = {
+			med_tank_eq_2
+		}
+
+		path = {
+			leads_to_tech = med_tank_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1774
+		folder = {
+			name = armour_folder
+			position = { x = 9 y = 0 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	med_tank_3 = {
+		enable_equipments = {
+			med_tank_eq_3
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1780
+		folder = {
+			name = armour_folder
+			position = { x = 15 y = 0 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+# Main battle tanks
+	post_war_modern_tank = {
+
+		enable_equipments = {
+			post_war_modern_tank_eq_1
+		}
+		path = {
+			leads_to_tech = modern_tank_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1770
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = -4 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	modern_tank_1 = {
+
+		enable_equipments = {
+			modern_tank_1_eq
+		}
+		path = {
+			leads_to_tech = modern_tank_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1774
+		folder = {
+			name = armour_folder
+			position = { x = 9 y = -4 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	modern_tank_2 = {
+
+		enable_equipments = {
+			modern_tank_2_eq
+		}
+		path = {
+			leads_to_tech = modern_tank_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1780
+		folder = {
+			name = armour_folder
+			position = { x = 15 y = -4 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	modern_tank_3 = {
+
+		enable_equipments = {
+			modern_tank_3_eq
+		}
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1783
+		folder = {
+			name = armour_folder
+			position = { x = 18 y = -4 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+# Mass modern tanks
+	mass_modern_tank_1 = {
+
+		enable_equipments = {
+			mass_modern_tank_1_eq
+		}
+
+		path = {
+			leads_to_tech = mass_modern_tank_2
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			post_war_modern_tank = 1
+			armour_reduce_cost_1 = 1
+		}
+		
+		research_cost = 2
+		start_year = 1772
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	mass_modern_tank_2 = {
+
+		enable_equipments = {
+			mass_modern_tank_2_eq
+		}
+
+		path = {
+			leads_to_tech = mass_modern_tank_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1776
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 0 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	mass_modern_tank_3 = {
+
+		enable_equipments = {
+			mass_modern_tank_3_eq
+		}
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1783
+		folder = {
+			name = armour_folder
+			position = { x = 12 y = 0 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+# Magic modern tanks
+	magic_energy_tank_1 = {
+
+		enable_equipments = {
+			magic_energy_tank_1_eq
+		}
+
+		path = {
+			leads_to_tech = magic_energy_tank_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1772
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 5 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	magic_energy_tank_2 = {
+
+		enable_equipments = {
+			magic_energy_tank_2_eq
+		}
+
+		path = {
+			leads_to_tech = magic_energy_tank_3
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			enchanted_tank_ammo = 1
+			large_magic_crystalls = 1
+		}
+		
+		research_cost = 2
+		start_year = 1776
+		folder = {
+			name = armour_folder
+			position = { x = 12 y = 5 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	magic_energy_tank_3 = {
+
+		enable_equipments = {
+			magic_energy_tank_3_eq
+		}
+
+		path = {
+			leads_to_tech = crystal_reenchanter
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			improved_reenchanter = 1
+			modernized_crystalls = 1
+		}
+		
+		research_cost = 2
+		start_year = 1783
+		folder = {
+			name = armour_folder
+			position = { x = 18 y = 5 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+# Upgrades and other
+	engine_1 = {
+		path = {
+			leads_to_tech = gw_med_tank
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = enchanted_armor
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1758
+		folder = {
+			name = armour_folder
+			position = { x = -3 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	armour_improved_construction = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			gw_med_tank = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1772
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = -1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	armour_reduce_cost_1 = {
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			gw_med_tank = 1
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1772
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	electronic_integration = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			armour_improved_construction = 1
+			armour_reduce_cost_1 = 1
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1772
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	modernized_construction = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			electronic_integration = 1
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1783
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	modernized_alloys = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			electronic_integration = 1
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1783
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	enchanted_armor = {
+
+		path = {
+			leads_to_tech = magic_energy_tank_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1770
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 5 }
+		}
+		
+		ai_will_do = {
+			base = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1770.1.1"
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	large_magic_crystalls = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			magic_energy_tank_1 = 1
+		}
+
+		path = {
+			leads_to_tech = modernized_crystalls
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1774
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	enchanted_tank_ammo = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			magic_energy_tank_1 = 1
+		}
+
+		path = {
+			leads_to_tech = improved_reenchanter
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1774
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	modernized_crystalls = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			magic_energy_tank_2 = 1
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1780
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	improved_reenchanter = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		dependencies = {
+			magic_energy_tank_2 = 1
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1780
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	crystal_reenchanter = {
+
+		research_speed_factor = 0.04
+		force_use_small_tech_layout = yes
+		category_light_infantry = {
+			soft_attack = 0.05
+		}		
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1783
+		folder = {
+			name = armour_folder
+			position = { x = 18 y = 7 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 15
+			}
+			modifier = {
+				factor = 2
+				date > "1772.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1773.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1774.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+
+	mbt_in_batallions = {
+		modern_armor = {
+			need = {
+				medium_tank_chassis = -50
+				modern_tank_chassis = 50
+			}
+		}
+	}
+}

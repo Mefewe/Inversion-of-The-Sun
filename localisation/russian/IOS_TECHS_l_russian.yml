@@ -1,0 +1,33 @@
+﻿l_russian:
+
+ gw_med_tank: "Средний танк Великой войны"
+ med_tank_1: "Средний танк 1-го поколения"
+ med_tank_2: "Средний танк 2-го поколения"
+ med_tank_3: "Средний танк 3-го поколения"
+
+ post_war_modern_tank: "Послевоенный ОБТ"
+ modern_tank_1: "Улучшенный ОБТ"
+ modern_tank_2: "Продвинутый ОБТ"
+ modern_tank_3: "Сверхпродвинутый ОБТ"
+
+ mass_modern_tank_1: "Массовый ОБТ 1-го поколения"
+ mass_modern_tank_2: "Массовый ОБТ 2-го поколения"
+ mass_modern_tank_3: "Массовый ОБТ 3-го поколения"
+
+ magic_energy_tank_1: "Ранний ЭМТ"
+ magic_energy_tank_2: "Совмещённый ЭМТ"
+ magic_energy_tank_3: "Комбинированный ЭМТ"
+
+
+ engine_1: "Двигатель"
+ armour_improved_construction: "Улучшенная конструкция"
+ armour_reduce_cost_1: "Удешевление производства"
+ electronic_integration: "Интеграция электроники"
+ modernized_construction: "Продвинутая конструкция"
+ modernized_alloys: "Продвинутые сплавы"
+ enchanted_armor: "Зачаровання броня"
+ large_magic_crystalls: "Крупные ККЭ"
+ enchanted_tank_ammo: "Зачарованные танковые снаряды"
+ modernized_crystalls: "Многогранные ККЭ"
+ improved_reenchanter: "Удобный перезаклинатель"
+ crystal_reenchanter: "Перезкалинание кристаллов"

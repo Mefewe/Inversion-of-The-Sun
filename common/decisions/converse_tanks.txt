@@ -3,10 +3,10 @@ conversion_tanks = {
 
 		icon = generic_civil_support
 		visible = {
-			has_tech = main_battle_tank_chassis
+			has_tech = post_war_modern_tank
 		}
 		available = {
-			has_tech = main_battle_tank_chassis
+			has_tech = post_war_modern_tank
 		}
 		fire_only_once = no
 		
@@ -27,7 +27,7 @@ conversion_tanks = {
 			factor = 1
 			modifier = {
 				has_equipment = {
-					modern_tank_chassis > 100
+					modern_tank_eq > 100
 				}
 				factor = 5
 			}
@@ -52,7 +52,7 @@ conversion_tanks = {
 		}
 		available = {
 			has_equipment = {
-				medium_tank_chassis > 49
+				med_tank_eq > 49
 			}
 			custom_trigger_tooltip = {
 				tooltip = converse_tanks_tt
@@ -80,12 +80,12 @@ conversion_tanks = {
 		}
 		complete_effect = {
 			add_equipment_to_stockpile = {
-				type = modern_tank_chassis
+				type = modern_tank_eq
 				amount = 50
 			}
 			hidden_effect = {
 				add_equipment_to_stockpile = {
-					type = medium_tank_chassis
+					type = med_tank_eq
 					amount = -50
 				}
 				if = {

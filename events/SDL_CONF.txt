@@ -298,6 +298,15 @@ country_event = {
 	option = {
 		name = SDL_base.5.a
 		set_global_flag = TranzebricanRallyStarted
+		set_global_flag = tyr_at_rally
+ 		CHN = {
+			end_puppet = OZB
+			end_puppet = TYR
+			end_puppet = FRZ
+		}
+		OZB = { leave_faction = yes }
+		TYR = { leave_faction = yes }
+		FRZ = { leave_faction = yes }
 		SDL = {
 			declare_war_on = {
     				target = OZB

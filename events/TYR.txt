@@ -12,6 +12,7 @@ country_event = {
 	option = {
 		name = TYR.1.a
 		add_political_power = -75
+		set_global_flag = AGD_Formed
 		hidden_effect = {
 			AGD = {
 				#
@@ -41,6 +42,18 @@ country_event = {
 				}
 				delete_unit_template_and_units = {
    					division_template = "Leg. Swarm Tank Br."
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Colonial Militia"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Abada Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Kelpie Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Colonial Gendarmerie"
 				}
 				#
 
@@ -102,7 +115,13 @@ country_event = {
    					division_template = "Leg. Swarm Tank Br."
 				}
 				delete_unit_template_and_units = {
+   					division_template = "Colonial Militia"
+				}
+				delete_unit_template_and_units = {
    					division_template = "Abada Brigade"
+				}
+				delete_unit_template_and_units = {
+   					division_template = "Kelpie Brigade"
 				}
 				delete_unit_template_and_units = {
    					division_template = "Colonial Gendarmerie"

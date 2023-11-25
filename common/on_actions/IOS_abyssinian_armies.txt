@@ -1,0 +1,27 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = { 
+					AGA = { has_capitulated = yes }
+				}
+				clr_global_flag = AGA_Formed
+			}			if = {
+				limit = { 
+					AGB = { has_capitulated = yes }
+				}
+				clr_global_flag = AGB_Formed
+			}			if = {
+				limit = { 
+					AGC = { has_capitulated = yes }
+				}
+				clr_global_flag = AGC_Formed
+			}			if = {
+				limit = { 
+					AGD = { has_capitulated = yes }
+				}
+				clr_global_flag = AGD_Formed
+			}
+		}
+	}
+}
