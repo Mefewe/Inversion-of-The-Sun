@@ -1,0 +1,443 @@
+focus_tree = {
+	id = DRG_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = DRG
+		}
+	}
+	shared_focus = DRG_lost_nation
+
+	default = no
+	continuous_focus_position = { x = 2200 y = 800 }
+}
+
+focus_tree = {
+	id = DRG_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = DRG
+		}
+	}
+	shared_focus = DRG_offensive_line
+	shared_focus = DRG_defensive_line
+
+	shared_focus = DRG_military_rudiment
+	shared_focus = DRG_kick_the_old_ministers
+
+	shared_focus = DRG_example_for_everyone
+	shared_focus = DRG_pull_together_the_enemies
+
+	default = no
+	continuous_focus_position = { x = 2400 y = 750 }
+}
+
+### FIRST FOCUS TREE
+
+shared_focus = {
+	id = DRG_lost_nation
+	cost = 1
+	x = 20
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_meeting_with_ponies
+	prerequisite = {
+		focus = DRG_lost_nation
+	}
+	cost = 1
+	x = 17
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_visit_clans
+	prerequisite = {
+		focus = DRG_lost_nation
+	}
+	cost = 1
+	x = 23
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_embers_ideas
+	prerequisite = {
+		focus = DRG_lost_nation
+	}
+	cost = 1
+	x = 19
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_send_troops_to_castles
+	prerequisite = {
+		focus = DRG_lost_nation
+	}
+	cost = 1
+	x = 21
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_all_seems_normal
+	prerequisite = {
+		focus = DRG_lost_nation
+	}
+	cost = 1
+	x = 20
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_smart_dragons
+	prerequisite = {
+		focus = DRG_meeting_with_ponies
+	}
+	prerequisite = {
+		focus = DRG_embers_ideas
+	}
+	cost = 1
+	x = 17
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_call_the_strongest
+	prerequisite = {
+		focus = DRG_visit_clans
+	}
+	prerequisite = {
+		focus = DRG_send_troops_to_castles
+	}
+	cost = 1
+	x = 23
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = DRG_dragon_lands_centralization_problem
+	prerequisite = {
+		focus = DRG_all_seems_normal
+	}
+	prerequisite = {
+		focus = DRG_smart_dragons
+	}
+	prerequisite = {
+		focus = DRG_call_the_strongest
+	}
+	cost = 1
+	x = 20
+	y = 5
+	completion_reward = {
+        	load_focus_tree = DRG_focus_tree_two
+	}
+}
+
+### SECOND FOCUS TREE
+
+shared_focus = {
+	id = DRG_offensive_line
+	cost = 1
+	x = 15
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_administratization
+	prerequisite = {
+		focus = DRG_offensive_line
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DRG_special_diplomatic_missions
+		}
+	}
+	cost = 1
+	x = 16
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_kick_the_old_ministers
+	available = {
+		NOT = {
+			has_completed_focus = DRG_pull_together_the_enemies
+		}
+		OR = {
+			has_completed_focus = DRG_attack_the_conservatives
+			has_completed_focus = DRG_administratization
+			has_completed_focus = DRG_special_diplomatic_missions
+			has_completed_focus = DRG_guide_the_elites
+		}
+	}
+	cost = 1
+	x = 13
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_attack_the_conservatives
+	prerequisite = {
+		focus = DRG_offensive_line
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DRG_guide_the_elites
+		}
+	}
+	cost = 1
+	x = 14
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_military_rudiment
+	available = {
+		NOT = {
+			has_completed_focus = DRG_example_for_everyone
+		}
+		OR = {
+			has_completed_focus = DRG_attack_the_conservatives
+			has_completed_focus = DRG_administratization
+			has_completed_focus = DRG_special_diplomatic_missions
+			has_completed_focus = DRG_guide_the_elites
+		}
+	}
+	cost = 1
+	x = 15
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_under_one_flag
+	prerequisite = {
+		focus = DRG_example_for_everyone
+		focus = DRG_pull_together_the_enemies
+		focus = DRG_kick_the_old_ministers
+		focus = DRG_military_rudiment
+	}
+	mutually_exclusive = {
+		focus = DRG_viceroyalty_banners
+	}
+	cost = 1
+	x = 16
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_defensive_line
+	cost = 1
+	x = 19
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_special_diplomatic_missions
+	prerequisite = {
+		focus = DRG_defensive_line
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DRG_administratization
+		}
+	}
+	cost = 1
+	x = 18
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_example_for_everyone
+	available = {
+		NOT = {
+			has_completed_focus = DRG_military_rudiment
+		}
+		OR = {
+			has_completed_focus = DRG_attack_the_conservatives
+			has_completed_focus = DRG_administratization
+			has_completed_focus = DRG_special_diplomatic_missions
+			has_completed_focus = DRG_guide_the_elites
+		}
+	}
+	cost = 1
+	x = 19
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_guide_the_elites
+	prerequisite = {
+		focus = DRG_defensive_line
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DRG_attack_the_conservatives
+		}
+	}
+	cost = 1
+	x = 20
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_pull_together_the_enemies
+	available = {
+		NOT = {
+			has_completed_focus = DRG_kick_the_old_ministers
+		}
+		OR = {
+			has_completed_focus = DRG_attack_the_conservatives
+			has_completed_focus = DRG_administratization
+			has_completed_focus = DRG_special_diplomatic_missions
+			has_completed_focus = DRG_guide_the_elites
+		}
+	}
+	cost = 1
+	x = 21
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_viceroyalty_banners
+	prerequisite = {
+		focus = DRG_example_for_everyone
+		focus = DRG_pull_together_the_enemies
+		focus = DRG_kick_the_old_ministers
+		focus = DRG_military_rudiment
+	}
+	mutually_exclusive = {
+		focus = DRG_under_one_flag
+	}
+	cost = 1
+	x = 18
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_opinion_of_dragon_order
+	prerequisite = {
+		focus = DRG_under_one_flag
+		focus = DRG_viceroyalty_banners
+	}
+	cost = 1
+	x = 15
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_proclaim_dragon_state
+	prerequisite = {
+		focus = DRG_under_one_flag
+		focus = DRG_viceroyalty_banners
+	}
+	cost = 1
+	x = 17
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_demarcation_of_border
+	prerequisite = {
+		focus = DRG_under_one_flag
+		focus = DRG_viceroyalty_banners
+	}
+	cost = 1
+	x = 19
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_protect_the_throne
+	prerequisite = {
+		focus = DRG_opinion_of_dragon_order
+	}
+	prerequisite = {
+		focus = DRG_proclaim_dragon_state
+	}
+	prerequisite = {
+		focus = DRG_demarcation_of_border
+	}
+	mutually_exclusive = {
+		focus = DRG_ember_knows_what_right
+	}
+	cost = 1
+	x = 16
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_ember_knows_what_right
+	prerequisite = {
+		focus = DRG_opinion_of_dragon_order
+	}
+	prerequisite = {
+		focus = DRG_proclaim_dragon_state
+	}
+	prerequisite = {
+		focus = DRG_demarcation_of_border
+	}
+	mutually_exclusive = {
+		focus = DRG_protect_the_throne
+	}
+	cost = 1
+	x = 18
+	y = 7
+	completion_reward = {
+	}
+}
