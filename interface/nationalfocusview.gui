@@ -426,7 +426,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "symbol"
-			position = { x = 40 y = -18 }
+			position = { x = 40 y = -8 }
 			quadTextureSprite = "GFX_goal_unknown"
 		}
 		
@@ -488,7 +488,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "symbol"
-			position = { x = 5 y = -44 }
+			position = { x = 5 y = -54 }
 			quadTextureSprite = "GFX_goal_unknown"
 			centerposition = yes
 			Orientation = CENTER

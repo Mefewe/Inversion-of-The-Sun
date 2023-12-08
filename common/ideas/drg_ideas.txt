@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		DRG_DragonsFactor = {
-			picture = SPR_masters_of_our_own_fate
+			picture = DRG_DragonsFactor_icon
 			modifier = {
 				custom_modifier_tooltip = DRG_DragonsFactor_tt
 				army_attack_factor = 1
