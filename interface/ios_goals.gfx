@@ -2,5 +2,41 @@ spriteTypes = {
     spriteType = {
         name = GFX_focus_icon_TAI_novyj_god_icon_focus
         texturefile = gfx/interface/goals/TAI_novyj_god_icon_focus.dds
+    }    
+	spriteType = {
+        name = GFX_focus_icon_DRG_dragon_lands_centralization_problem_icon_focus
+        texturefile = gfx/interface/goals/DRG_dragon_lands_centralization_problem_icon_focus.dds
+    }
+	spriteType = {
+        name = GFX_focus_icon_DRG_lost_nation_icon_focus
+        texturefile = gfx/interface/goals/DRG_lost_nation_icon_focus.dds
+    }
+	spriteType = {
+        name = GFX_focus_icon_DRG_visit_clans_icon_focus
+        texturefile = gfx/interface/goals/DRG_visit_clans_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_DRG_meeting_with_ponies_icon_focus
+        texturefile = gfx/interface/goals/DRG_meeting_with_ponies_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_DRG_smart_dragons_icon_focus
+        texturefile = gfx/interface/goals/DRG_smart_dragons_icon_focus.dds
+    }
+	spriteType = {
+        name = GFX_focus_icon_DRG_embers_ideas_icon_focus
+        texturefile = gfx/interface/goals/DRG_embers_ideas_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_DRG_all_seems_normal_icon_focus
+        texturefile = gfx/interface/goals/DRG_all_seems_normal_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_DRG_call_the_strongest_icon_focus
+        texturefile = gfx/interface/goals/DRG_call_the_strongest_icon_focus.dds
+    }
+	spriteType = {
+        name = GFX_focus_icon_DRG_send_troops_to_castles_icon_focus
+        texturefile = gfx/interface/goals/DRG_send_troops_to_castles_icon_focus.dds
     }
 }
