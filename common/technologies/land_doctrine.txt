@@ -184,10 +184,6 @@ technologies = {
 			maximum_speed = 0.1
 			default_morale = 0.2
 		}
-		mechanized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
 		amphibious_mechanized = {
 			maximum_speed = 0.1
 			default_morale = 0.2
@@ -228,11 +224,6 @@ technologies = {
 			modifier = {
 				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
-			}
-
-			modifier = {
-				tag = GER
-				factor = 2
 			}
 		}
 		
@@ -302,9 +293,6 @@ technologies = {
 			max_organisation = 15
 			
 		}
-		mechanized = {
-			max_organisation = 15
-		}
 		amphibious_mechanized = {
 			max_organisation = 15
 		}
@@ -315,13 +303,6 @@ technologies = {
 
 		category_tanks = {
 			max_organisation = 3
-		}
-		
-		armored_car_recon = {
-			battalion_mult = {
-				category = category_all_armor
-				breakthrough = 0.10
-			}
 		}
 
 		enable_tactic = tactic_blitz
@@ -507,9 +488,6 @@ technologies = {
 		enable_tactic = tactic_breakthrough
 		
 		motorized = {
-			max_organisation = 5
-		}
-		mechanized = {
 			max_organisation = 5
 		}
 		amphibious_mechanized = {
@@ -824,10 +802,6 @@ technologies = {
 			modifier = {
 				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.5
-			}
-			modifier = {
-				tag = GER
-				factor = 3
 			}
 		}
 		
@@ -1999,9 +1973,6 @@ technologies = {
 		armored_car = {
 			max_organisation = 5
 		}
-		mechanized = {
-			max_organisation = 5
-		}
 		amphibious_mechanized = {
 			max_organisation = 5
 		}
@@ -2832,24 +2803,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				tag = SOV
-				factor = 2
-			}
 
-			modifier = {
-				factor = 0.4
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
 			modifier = {
 				not = { ai_air_doctrine_tier_1_trigger = yes }
 				factor = 0.5
@@ -3098,10 +3052,6 @@ technologies = {
 			default_morale = 0.1
 		}	
 
-		mechanized = {
-			max_organisation = 10
-			default_morale = 0.1
-		}
 		motorized = {
 			max_organisation = 10
 			default_morale = 0.1
@@ -3111,13 +3061,6 @@ technologies = {
 			default_morale = 0.1
 		}	
 		
-		armored_car_recon = {
-			battalion_mult = {
-				category = category_light_infantry
-				max_organisation = 1
-				add = yes
-			}
-		}
 		
 		path = {
 			leads_to_tech = continuous_offensive
@@ -3267,19 +3210,6 @@ technologies = {
 			modifier = {
 				not = { ai_air_doctrine_tier_2_trigger = yes }
 				factor = 0.75
-			}
-			modifier = {
-				factor = 0.6
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
 			}
 
 		}
