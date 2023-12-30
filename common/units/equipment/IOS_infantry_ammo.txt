@@ -7,7 +7,7 @@ equipments = {
 	
 		is_archetype = yes
                 can_be_produced = {
-                always = no
+                	always = no
                 }
 		picture = archetype_infantry_ammo_equipment		
 		is_buildable = no

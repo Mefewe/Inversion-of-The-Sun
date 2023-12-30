@@ -286,6 +286,214 @@ country_event = {
 		name = SDL_base.4.a
 	}
 }
+country_event = {
+	id = SDL_base.6
+	title = SDL_base.6.title
+	desc = SDL_base.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.6.a
+		add_political_power = 25
+		add_ideas = plus_stability_modify_1
+	}
+}
+country_event = {
+	id = SDL_base.7
+	title = SDL_base.7.title
+	desc = SDL_base.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.7.a
+		add_political_power = -45
+	}
+}
+country_event = {
+	id = SDL_base.8
+	title = SDL_base.8.title
+	desc = SDL_base.8.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.8.a
+		add_political_power = -45
+	}
+}
+country_event = {
+	id = SDL_base.9
+	title = SDL_base.9.title
+	desc = SDL_base.9.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.9.a
+		add_political_power = -60
+	}
+}
+country_event = {
+	id = SDL_base.10
+	title = SDL_base.10.title
+	desc = SDL_base.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.10.a
+		add_political_power = -65
+	}
+}
+country_event = {
+	id = SDL_base.11
+	title = SDL_base.11.title
+	desc = SDL_base.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.11.a
+		add_political_power = -100
+		hidden_effect = {
+			load_focus_tree = SDL_focus_tree_one_and_half
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+country_event = {
+	id = SDL_base.12
+	title = SDL_base.12.title
+	desc = SDL_base.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.12.a
+		set_power_balance = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance
+		}
+	}
+}
+country_event = {
+	id = SDL_base.13
+	title = SDL_base.13.title
+	desc = SDL_base.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.13.a
+	}
+}
+country_event = {
+	id = SDL_base.14
+	title = SDL_base.14.title
+	desc = SDL_base.14.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.14.a
+		add_timed_idea = {
+			idea = sdl_conf_pp_modify_1
+			days = 30
+		}
+	}
+}
+country_event = {
+	id = SDL_base.15
+	title = SDL_base.15.title
+	desc = SDL_base.15.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.15.a
+		add_timed_idea = {
+			idea = sdl_conf_pp_modify_2
+			days = 30
+		}
+	}
+}
+country_event = {
+	id = SDL_base.16
+	title = SDL_base.16.title
+	desc = SDL_base.16.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.16.a
+	}
+}
+country_event = {
+	id = SDL_base.17
+	title = SDL_base.17.title
+	desc = SDL_base.17.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.17.a
+	}
+}
+country_event = {
+	id = SDL_base.18
+	title = SDL_base.18.title
+	desc = SDL_base.18.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.18.a
+	}
+}
+country_event = {
+	id = SDL_base.19
+	title = SDL_base.19.title
+	desc = SDL_base.19.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.19.a
+	}
+}
+country_event = {
+	id = SDL_base.20
+	title = SDL_base.20.title
+	desc = SDL_base.20.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = SDL_base.20.a
+		hidden_effect = {
+			load_focus_tree = SDL_focus_tree_two
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+country_event = {
+	id = SDL_base.21
+	title = SDL_base.21.title
+	desc = SDL_base.21.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.21.a
+		hidden_effect = {
+			load_focus_tree = SDL_focus_tree_two_and_half
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
 
 ### TRANZEBRICAN RALLY STARTS
 country_event = {

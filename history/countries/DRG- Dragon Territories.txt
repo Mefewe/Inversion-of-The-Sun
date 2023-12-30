@@ -2,6 +2,7 @@
 
 add_ideas = {
  DRG_DragonsFactor
+ sdl_conf_struggling_harmony
 }
 capital = 906
 recruit_character = DRG_Ember

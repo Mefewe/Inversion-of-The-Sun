@@ -739,7 +739,7 @@ country_event = { #
 }
 
 country_event = { #
-	id = TAI.23
+	id = TAI.99
 	picture = GFX_0
 	title = TAI.23.title
 	desc = TAI.23.desc

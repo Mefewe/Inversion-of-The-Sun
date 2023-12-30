@@ -1,0 +1,7 @@
+sdl_conf_internal_chaos_dyn = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+
+	stability_factor = SDL_CONF_stabilityfactor # -0.35
+	political_power_factor = SDL_CONF_ppgain # -0.3
+}

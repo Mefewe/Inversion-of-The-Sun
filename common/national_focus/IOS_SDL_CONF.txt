@@ -15,7 +15,50 @@ focus_tree = {
 }
 
 focus_tree = {
+	id = SDL_focus_tree_one_and_half
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = SDL
+		}
+	}
+	shared_focus = SDL_convent
+
+	shared_focus = SDL_strategy_change
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+focus_tree = {
 	id = SDL_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = SDL
+		}
+	}
+	shared_focus = SDL_personal_commissions
+	shared_focus = SDL_promote_initiative
+	shared_focus = SDL_loyal_ministers
+
+	shared_focus = SDL_cultural_reforms
+	shared_focus = SDL_army_progressivism
+	shared_focus = SDL_economical_effort
+
+	shared_focus = SDL_convent_interrputs
+
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+focus_tree = {
+	id = SDL_focus_tree_two_and_half
 	country = {
 		factor = 0
 
@@ -69,10 +112,14 @@ focus_tree = {
 
 shared_focus = {
 	id = SDL_convent
-	cost = 1
+	cost = 0.5
 	x = 20
 	y = 0
-	completion_reward = { 
+	completion_reward = {
+		country_event = {
+   			id = SDL_base.6
+    			days = 1
+		}
 	}
 }
 
@@ -81,10 +128,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_convent
 	}
-	cost = 1
+	cost = 4
 	x = 19
 	y = 1
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.7
+    			days = 1
+		}
 	}
 }
 
@@ -93,10 +144,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_convent
 	}
-	cost = 1
+	cost = 4
 	x = 21
 	y = 1
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.8
+    			days = 1
+		}
 	}
 }
 
@@ -108,10 +163,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_confederation_status
 	}
-	cost = 1
+	cost = 4
 	x = 18
 	y = 2
-	completion_reward = { 
+	completion_reward = {
+		country_event = {
+   			id = SDL_base.9
+    			days = 1
+		} 
 	}
 }
 
@@ -123,10 +182,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_confederation_status
 	}
-	cost = 1
+	cost = 4
 	x = 22
 	y = 2
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.10
+    			days = 1
+		}
 	}
 }
 
@@ -138,22 +201,29 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_ally_meeting
 	}
-	cost = 1
+	cost = 5
 	x = 20
 	y = 3
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.11
+    			days = 1
+		}
 	}
 }
 
 shared_focus = {
 	id = SDL_strategy_change
-	prerequisite = {
-		focus = SDL_Sandstri_dossier
-	}
-	cost = 1
+
+	cost = 1.5
 	x = 20
 	y = 4
-	completion_reward = { 
+	completion_reward = {
+		country_event = {
+   			id = SDL_base.12
+    			days = 1
+		}
+		custom_effect_tooltip = SDL_CONF_StrategyChange_tt
 	}
 }
 
@@ -162,10 +232,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_strategy_change
 	}
-	cost = 1
+	cost = 0.5
 	x = 19
 	y = 5
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.13
+    			days = 1
+		}
 	}
 }
 
@@ -174,10 +248,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_two_dynasties
 	}
-	cost = 1
+	cost = 2.5
 	x = 17
 	y = 6
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.14
+    			days = 1
+		}
 	}
 }
 
@@ -186,10 +264,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_two_dynasties
 	}
-	cost = 1
+	cost = 2.5
 	x = 19
 	y = 6
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.15
+    			days = 1
+		}
 	}
 }
 
@@ -198,10 +280,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_strategy_change
 	}
-	cost = 1
+	cost = 0.5
 	x = 21
 	y = 5
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.16
+    			days = 1
+		}
 	}
 }
 
@@ -210,10 +296,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_radicals
 	}
-	cost = 1
+	cost = 2.5
 	x = 21
 	y = 6
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.17
+    			days = 1
+		}
 	}
 }
 
@@ -222,10 +312,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_radicals
 	}
-	cost = 1
+	cost = 2.5
 	x = 23
 	y = 6
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.18
+    			days = 1
+		}
 	}
 }
 
@@ -247,6 +341,11 @@ shared_focus = {
 	x = 20
 	y = 7
 	completion_reward = { 
+		
+		country_event = {
+   			id = SDL_base.19
+    			days = 1
+		}
 	}
 }
 
@@ -259,7 +358,10 @@ shared_focus = {
 	x = 20
 	y = 8
 	completion_reward = { 
-        load_focus_tree = SDL_focus_tree_two
+		country_event = {
+   			id = SDL_base.20
+    			days = 1
+		}
 	}
 }
 
@@ -839,7 +941,7 @@ shared_focus = {
 	x = 20
 	y = 10
 	completion_reward = { 
-        load_focus_tree = SDL_focus_tree_three
+		load_focus_tree = SDL_focus_tree_three
 	}
 }
 

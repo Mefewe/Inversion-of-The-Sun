@@ -1,0 +1,245 @@
+focus_tree = {
+	id = TYR_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TYR
+		}
+	}
+	shared_focus = TYR_GovernorSpeech
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+shared_focus = {
+	id = TYR_GovernorSpeech
+	cost = 1
+	x = 12
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_LastOperation
+	prerequisite = {
+		focus = TYR_GovernorSpeech
+	}
+	cost = 1
+	x = 11
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_RegionStabilized
+	prerequisite = {
+		focus = TYR_GovernorSpeech
+	}
+	cost = 1
+	x = 13
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_TheNewReign
+	prerequisite = {
+		focus = TYR_LastOperation
+	}
+	prerequisite = {
+		focus = TYR_RegionStabilized
+	}
+	cost = 1
+	x = 12
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_AbadaRaids
+	prerequisite = {
+		focus = TYR_TheNewReign
+	}
+	cost = 1
+	x = 9
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_AbadaRepressions
+	prerequisite = {
+		focus = TYR_AbadaRaids
+	}
+	mutually_exclusive = {
+		focus = TYR_SoftAbadaPolicy
+	}
+	cost = 1
+	x = 9
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_SoftAbadaPolicy
+	prerequisite = {
+		focus = TYR_AbadaRaids
+	}
+	mutually_exclusive = {
+		focus = TYR_AbadaRepressions
+	}
+	cost = 1
+	x = 7
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_ZebraRaids
+	prerequisite = {
+		focus = TYR_TheNewReign
+	}
+	cost = 1
+	x = 12
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_UnitedZebraPolicy
+	prerequisite = {
+		focus = TYR_ZebraRaids
+	}
+	mutually_exclusive = {
+		focus = TYR_ZebraMinoritiesPolicy
+	}
+	cost = 1
+	x = 11
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_ZebraMinoritiesPolicy
+	prerequisite = {
+		focus = TYR_ZebraRaids
+	}
+	mutually_exclusive = {
+		focus = TYR_UnitedZebraPolicy
+	}
+	cost = 1
+	x = 13
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_KelpieRaids
+	prerequisite = {
+		focus = TYR_TheNewReign
+	}
+	cost = 1
+	x = 15
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_KelpieRepressions
+	prerequisite = {
+		focus = TYR_KelpieRaids
+	}
+	mutually_exclusive = {
+		focus = TYR_SoftKelpiePolicy
+	}
+	cost = 1
+	x = 15
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_SoftKelpiePolicy
+	prerequisite = {
+		focus = TYR_KelpieRaids
+	}
+	mutually_exclusive = {
+		focus = TYR_KelpieRepressions
+	}
+	cost = 1
+	x = 17
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_AbadaDistrictZone
+	prerequisite = {
+		focus = TYR_SoftAbadaPolicy
+		focus = TYR_AbadaRepressions
+	}
+	cost = 1
+	x = 8
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_ZebraNationalityProblem
+	prerequisite = {
+		focus = TYR_UnitedZebraPolicy
+		focus = TYR_ZebraMinoritiesPolicy
+	}
+	cost = 1
+	x = 12
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_KelpieDistrictZone
+	prerequisite = {
+		focus = TYR_SoftKelpiePolicy
+		focus = TYR_KelpieRepressions
+	}
+	cost = 1
+	x = 16
+	y = 5
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_MgabeDossier
+	prerequisite = {
+		focus = TYR_AbadaDistrictZone
+	}
+	prerequisite = {
+		focus = TYR_ZebraNationalityProblem
+	}
+	prerequisite = {
+		focus = TYR_KelpieDistrictZone
+	}
+	cost = 1
+	x = 12
+	y = 6
+	completion_reward = { 
+	}
+}

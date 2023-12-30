@@ -1,0 +1,224 @@
+focus_tree = {
+	id = FRZ_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = FRZ
+		}
+	}
+	shared_focus = FRZ_NewZebria
+	shared_focus = FRZ_RoyalFoundation
+
+	default = no
+	continuous_focus_position = { x = 2300 y = 700 }
+}
+
+shared_focus = {
+	id = FRZ_NewZebria
+	cost = 1
+	x = 13
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_TruthOnRadio
+	prerequisite = {
+		focus = FRZ_NewZebria
+	}
+	cost = 1
+	x = 13
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_NewNationPolicy
+	prerequisite = {
+		focus = FRZ_NewZebria
+	}
+	cost = 1
+	x = 12
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_LookIntoWorldPolitics
+	prerequisite = {
+		focus = FRZ_NewZebria
+	}
+	cost = 1
+	x = 14
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_DemonstrationsForKing
+	prerequisite = {
+		focus = FRZ_NewNationPolicy
+	}
+	cost = 1
+	x = 11
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_PatrioticEducationForMasses
+	prerequisite = {
+		focus = FRZ_TruthOnRadio
+	}
+	cost = 1
+	x = 13
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_PopulistMovesAgainstChangelings
+	prerequisite = {
+		focus = FRZ_LookIntoWorldPolitics
+	}
+	cost = 1
+	x = 15
+	y = 3
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_ZebraMuseum
+	prerequisite = {
+		focus = FRZ_DemonstrationsForKing
+	}
+	prerequisite = {
+		focus = FRZ_PatrioticEducationForMasses
+	}
+	prerequisite = {
+		focus = FRZ_PopulistMovesAgainstChangelings
+	}
+	cost = 1
+	x = 13
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_RoyalFoundation
+	cost = 1
+	x = 18
+	y = 0
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_SeekForAristocracySupport
+	prerequisite = {
+		focus = FRZ_RoyalFoundation
+	}
+	cost = 1
+	x = 16
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_ColtswagenForKing
+	prerequisite = {
+		focus = FRZ_RoyalFoundation
+	}
+	cost = 1
+	x = 18
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_AwardTheMilitary
+	prerequisite = {
+		focus = FRZ_RoyalFoundation
+	}
+	cost = 1
+	x = 20
+	y = 1
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_SacredSquareProject
+	prerequisite = {
+		focus = FRZ_SeekForAristocracySupport
+	}
+	prerequisite = {
+		focus = FRZ_ColtswagenForKing
+	}
+	prerequisite = {
+		focus = FRZ_AwardTheMilitary
+	}
+	cost = 1
+	x = 18
+	y = 2
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_AskChangelingsForMoney
+	prerequisite = {
+		focus = FRZ_SacredSquareProject
+	}
+	mutually_exclusive = {
+		focus = FRZ_UseFoundationReserve
+	}
+	cost = 1
+	x = 17
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_UseFoundationReserve
+	prerequisite = {
+		focus = FRZ_SacredSquareProject
+	}
+	mutually_exclusive = {
+		focus = FRZ_AskChangelingsForMoney
+	}
+	cost = 1
+	x = 19
+	y = 4
+	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = FRZ_RoyalTour
+	prerequisite = {
+		focus = FRZ_ZebraMuseum
+	}
+	prerequisite = {
+		focus = FRZ_AskChangelingsForMoney
+		focus = FRZ_UseFoundationReserve
+	}
+	cost = 1
+	x = 15
+	y = 5
+	completion_reward = { 
+	}
+}

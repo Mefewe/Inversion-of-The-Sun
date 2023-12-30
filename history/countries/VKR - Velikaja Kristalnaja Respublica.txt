@@ -52,7 +52,7 @@ add_equipment_to_stockpile = {
 
 }
 add_equipment_to_stockpile = {
-        type = medium_tank_chassis_1
+        type = gw_med_tank_eq_1
         amount = 205
 
 }

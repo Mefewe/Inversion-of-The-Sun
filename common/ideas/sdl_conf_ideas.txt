@@ -1,18 +1,103 @@
 ideas = {
 	country = {
+		###########
+		## BASIC ##
+		###########
                 sdl_conf_struggling_harmony = {
+			modifier = {
+				drift_defence_factor = 0.5
+				democratic_acceptance = 50
+				production_speed_bunker_factor = 0.3
+			}
                 }
                 sdl_conf_last_survivors = {
+			modifier = {
+				political_power_factor = 0.5
+				army_org_factor = 0.3
+				army_morale_factor = 0.2
+				war_support_factor = 0.25
+			}
                 }
                 sdl_conf_just_business = {
+			modifier = {
+				custom_modifier_tooltip = SDL_CONF_OefRelations_1_tt
+				consumer_goods_factor = -0.35
+			}
                 }
-                sdl_conf_internal_chaos = {
+                sdl_conf_internal_chaos1 = {
+			# effect = {
+			# 	SDL = {
+			# 		add_dynamic_modifier = { modifier = sdl_conf_internal_chaos_dyn }
+			#	}
+			# }
+			modifier = {
+				conscription_factor = -0.25
+				stability_factor = -0.35
+				political_power_factor = -0.3
+				# custom_modifier_tooltip = SDL_CONF_internal_chaos_tt
+			}
                 }
                 sdl_conf_broken_armade = {
+			modifier = {
+				command_power_gain = -0.25
+				army_attack_factor = -0.35
+				army_defence_factor = -0.20
+				army_speed_factor = -0.5
+				experience_gain_army_factor = -0.5
+				experience_gain_navy_factor = -0.5
+				experience_gain_air_factor = -0.5
+				planning_speed = -0.45
+			}
                 }
                 sdl_conf_lost_borean_idol = {
+			modifier = {
+				stability_factor = -0.3
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.2
+			}
                 }
                 sdl_conf_involuntarily_allies = {
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.1
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+			}
+		}
+		################
+		## SWAP IDEAS ##
+		################
+                sdl_conf_internal_chaos2 = {
+			modifier = {
+				stability_factor = -0.3
+				political_power_factor = -0.3
+				conscription_factor = -0.25
+			}
                 }
         }
+}
+
+		##################
+		## HIDDEN IDEAS ##
+		##################
+
+ideas = {
+	hidden_ideas = {
+		sdl_conf_pp_modify_1 = {
+			modifier = {
+				political_power_factor = 0.03
+			}
+		}
+		sdl_conf_pp_modify_2 = {
+			modifier = {
+				political_power_factor = 0.03
+			}
+		}
+		sdl_conf_stability_modify_1 = {
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+	}
 }

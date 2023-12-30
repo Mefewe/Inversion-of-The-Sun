@@ -1,3 +1,42 @@
 ﻿l_russian:
+ ###############
+ ### LEADERS ###
+ ###############
  FRZ_Virta_Bgurabi: "Вирта Бгураби"
  FRZ_Virta_Bgurabi_desc: "§YДата рождения§!: Март 1753 года, в Акирике..\n\n§YХарактеристика§!: Официально утверждается, что Вирта - потомок легендарного Абраксаса - правителя Фараси. Основания для этого есть, по крайней мере, из-за его косвенной причастности к дому Абраксасов. Всяко его отец носил имя этой фигуры и был королём Фараси, хоть и в составе Абиссинии.\n\nКак бы то ни было, Вирта, несмотря на нарушение традиции королей Фараси именоваться Абраксасом, является видным популистом. Он стремится к приобретению авторитета среди населения, создавая имидж борца за культурную идентичность зебр унаследованную от их бывшего королевства. Сам губернатор не брезгует при этом пользоваться силой для закрепления своей «популярности».\n\nИ хотя новоиспечённый «король», как утверждается в прессе, стремится к утверждению зебр на мировой арене, это затрудняется покровительством чейнджлингов. Не надо также забывать и о том, что Вирта так и не представил никаких планов, ограничиваясь в большей мере демагогией. Может быть и такое, что внешний суровый мир попросту сметёт губернатора с поля большой политической игры."
+ 
+ ######################
+ ### NATIONAL_FOCUS ###
+ ######################
+ FRZ_NewZebria: "Новая Зебрия"
+ FRZ_NewZebria_desc: ""
+ FRZ_TruthOnRadio: "Правдивое радио"
+ FRZ_TruthOnRadio_desc: ""
+ FRZ_NewNationPolicy: "Заявить о «Перековке нации»"
+ FRZ_NewNationPolicy_desc: ""
+ FRZ_LookIntoWorldPolitics: "Мировой театр политики"
+ FRZ_LookIntoWorldPolitics_desc: ""
+ FRZ_DemonstrationsForKing: "«В поддержку короля»"
+ FRZ_DemonstrationsForKing_desc: ""
+ FRZ_PatrioticEducationForMasses: "Правильное народное просвещение"
+ FRZ_PatrioticEducationForMasses_desc: ""
+ FRZ_PopulistMovesAgainstChangelings: "Поставить жуков на их место!"
+ FRZ_PopulistMovesAgainstChangelings_desc: ""
+ FRZ_ZebraMuseum: "Музей великого гения зебр"
+ FRZ_ZebraMuseum_desc: ""
+ FRZ_RoyalFoundation: "Монарший фонд особых поручений на благо зебр"
+ FRZ_RoyalFoundation_desc: ""
+ FRZ_SeekForAristocracySupport: "Заручиться верной знатью"
+ FRZ_SeekForAristocracySupport_desc: ""
+ FRZ_ColtswagenForKing: "Кольтсваген для короля"
+ FRZ_ColtswagenForKing_desc: ""
+ FRZ_AwardTheMilitary: "Припомнить заслуги гвардии"
+ FRZ_AwardTheMilitary_desc: ""
+ FRZ_SacredSquareProject: "Заложить Священную площадь"
+ FRZ_SacredSquareProject_desc: ""
+ FRZ_AskChangelingsForMoney: "Запросить имперской поддержки"
+ FRZ_AskChangelingsForMoney_desc: ""
+ FRZ_UseFoundationReserve: "Может воспользуемся фондом..?"
+ FRZ_UseFoundationReserve_desc: ""
+ FRZ_RoyalTour: "Тур величайшего из правителей"
+ FRZ_RoyalTour_desc: ""

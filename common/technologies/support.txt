@@ -17,6 +17,9 @@ technologies = {
 
 		enable_equipments = {
 			support_equipment_1
+			candc_equpment_1
+			candc_equpment_2
+			candc_equpment_3
 		}
 		
 		

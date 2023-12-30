@@ -1,4 +1,6 @@
 ﻿oob = "SDL_CONF"
+
+capital = 492
 set_technology = {
 	infantry_weapons = 1
     tech_support = 1
@@ -12,30 +14,13 @@ set_technology = {
 	infantry_anti_tank_1 = 1
 	command_and_control1 = 1
 	bronetransporter_infantry = 1
-	medium_tank_gw = 1
+	gwtank_chassis = 1
     mechanised_infantry = 1
     bronetransporter_infantry = 1
 }
-capital = 492
-recruit_character = SDL_CONF_Sylva_Sandstre
-recruit_character = SDL_CONF_test
-recruit_character = SDL_CONF_test2
-set_stability = 0.3
-set_war_support = 0.6
-set_cosmetic_tag = SDL_CONF
-send_embargo = CHN
-send_embargo = MRT
-send_embargo = CAR
-send_embargo = VRB
-send_embargo = FRD
-send_embargo = KLG
-send_embargo = DMN
-send_embargo = TYR
-send_embargo = FRZ
-send_embargo = OZB
 
 add_equipment_to_stockpile = {
-         type = medium_tank_chassis_1
+         type = med_tank_eq_1
          amount = 3487
 }
 add_equipment_to_stockpile = {
@@ -71,11 +56,31 @@ add_equipment_to_stockpile = {
          amount = 11761
 }
 
+recruit_character = SDL_CONF_Sylva_Sandstre
+recruit_character = SDL_CONF_test
+recruit_character = SDL_CONF_test2
+set_stability = 1
+set_war_support = 0.6
+set_cosmetic_tag = SDL_CONF
+send_embargo = CHN
+send_embargo = MRT
+send_embargo = CAR
+send_embargo = VRB
+send_embargo = FRD
+send_embargo = KLG
+send_embargo = DMN
+send_embargo = TYR
+send_embargo = FRZ
+send_embargo = OZB
+
+# set_variable = { SDL_CONF_stabilityfactor = -0.35 }
+# set_variable = { SDL_CONF_ppgain = -0.3 }
+
 add_ideas = {
                 sdl_conf_struggling_harmony
                 sdl_conf_last_survivors
                 sdl_conf_just_business
-                sdl_conf_internal_chaos
+                sdl_conf_internal_chaos1
                 sdl_conf_broken_armade
                 sdl_conf_lost_borean_idol
                 sdl_conf_involuntarily_allies
@@ -83,7 +88,7 @@ add_ideas = {
 		low_economic_mobilisation
 		extensive_conscription
 		free_trade
-	}
+}
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1768.7.8"

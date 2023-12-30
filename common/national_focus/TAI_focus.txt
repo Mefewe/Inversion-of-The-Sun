@@ -728,7 +728,7 @@ shared_focus = { #
 			amount = 2000
 		}
 		add_equipment_to_stockpile = {
-			type = modern_tank_chassis_1
+			type = post_war_modern_tank_eq_1
 			amount = 100
 			producer = OEF
 		}

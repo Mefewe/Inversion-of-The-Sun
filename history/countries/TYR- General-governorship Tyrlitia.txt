@@ -102,7 +102,7 @@ add_equipment_to_stockpile = {
 
 #### TANK
 add_equipment_to_stockpile = {
-         type = medium_tank_chassis_1
+         type = med_tank_eq_1
          amount = 1029
 }
 add_equipment_to_stockpile = {

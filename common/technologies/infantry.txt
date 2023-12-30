@@ -17,6 +17,11 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_0
+			anti_tank_equipment_hand_1
+			anti_tank_equipment_hand_2
+			anti_tank_equipment_hand_3
+			anti_air_equipment_hand_1
+			anti_air_equipment_hand_2
 		}
 
 		enable_equipment_modules = {

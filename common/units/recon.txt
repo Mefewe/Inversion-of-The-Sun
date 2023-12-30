@@ -224,7 +224,7 @@ sub_units = {
 		}
 
 		need = {
-			light_tank_chassis = 24
+			modern_tank_eq = 24
 			candc_equipment = 25
 		}
 

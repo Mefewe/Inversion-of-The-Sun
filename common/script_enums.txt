@@ -184,9 +184,6 @@ script_enum_equipment_bonus_type = {
 	infantry_equipment
 	artillery_equipment
 	anti_tank_equipment
-	amphibious_mechanized_equipment
-	amphibious_mechanized_equipment_1
-	amphibious_mechanized_equipment_2
 	anti_air_equipment
 	anti_air_equipment_1
 	anti_air_equipment_2
@@ -194,11 +191,6 @@ script_enum_equipment_bonus_type = {
 	anti_tank_equipment_1
 	anti_tank_equipment_2
 	anti_tank_equipment_3
-	armored_car_equipment
-	gw_armored_car_equipment
-	armored_car_equipment_1
-	armored_car_equipment_2
-	armored_car_at_equipment
 	artillery_equipment_1
 	artillery_equipment_2
 	artillery_equipment_3
@@ -223,7 +215,6 @@ script_enum_equipment_bonus_type = {
 	mechanized_equipment_2
 	mechanized_equipment_3
 	motorized_equipment
-	motorized_equipment_0
 	motorized_equipment_1
 	small_plane_airframe
 	cv_small_plane_airframe
@@ -318,29 +309,6 @@ script_enum_equipment_bonus_type = {
 	submarine_4
 	support_equipment
 	support_equipment_1
-	light_tank_chassis
-	light_tank_chassis_0
-	light_tank_chassis_1
-	light_tank_chassis_2
-	light_tank_chassis_3
-	medium_tank_chassis
-	medium_tank_chassis_0
-	medium_tank_chassis_1
-	medium_tank_chassis_2
-	medium_tank_chassis_3
-	heavy_tank_chassis
-	heavy_tank_chassis_0
-	heavy_tank_chassis_1
-	heavy_tank_chassis_2
-	heavy_tank_chassis_3
-	modern_tank_chassis
-	modern_armor
-	light_armor
-	modern_tank_chassis_1
-	super_heavy_tank_chassis
-	super_heavy_tank_chassis_1
-	amphibious_tank_chassis
-	amphibious_tank_chassis_1
 	train_equipment
 	train_equipment_1
 	train_equipment_2
@@ -444,63 +412,48 @@ script_enum_equipment_bonus_type = {
 	strat_bomber_equipment_2
 	strat_bomber_equipment_3
 	jet_strat_bomber_equipment_1
-	light_tank_aa_chassis
-	light_tank_artillery_chassis
-	light_tank_destroyer_chassis
-	light_tank_amphibious_chassis
-	light_tank_flame_chassis
-	medium_tank_aa_chassis
-	medium_tank_artillery_chassis
-	medium_tank_destroyer_chassis
-	medium_tank_amphibious_chassis
-	medium_tank_flame_chassis
-	modern_tank_aa_chassis
-	modern_tank_artillery_chassis
-	modern_tank_destroyer_chassis
-	light_tank_aa_chassis_0
-	light_tank_aa_chassis_1
-	light_tank_aa_chassis_2
-	light_tank_aa_chassis_3
-	light_tank_artillery_chassis_0
-	light_tank_artillery_chassis_1
-	light_tank_artillery_chassis_2
-	light_tank_artillery_chassis_3
-	light_tank_destroyer_chassis_0
-	light_tank_destroyer_chassis_1
-	light_tank_destroyer_chassis_2
-	light_tank_destroyer_chassis_3
-	light_tank_amphibious_chassis_0
-	light_tank_amphibious_chassis_1
-	light_tank_amphibious_chassis_2
-	light_tank_amphibious_chassis_3
-	light_tank_flame_chassis_0
-	light_tank_flame_chassis_1
-	light_tank_flame_chassis_2
-	light_tank_flame_chassis_3
-	medium_tank_aa_chassis_0
-	medium_tank_aa_chassis_1
-	medium_tank_aa_chassis_2
-	medium_tank_aa_chassis_3
-	medium_tank_artillery_chassis_0
-	medium_tank_artillery_chassis_1
-	medium_tank_artillery_chassis_2
-	medium_tank_artillery_chassis_3
-	medium_tank_destroyer_chassis_0
-	medium_tank_destroyer_chassis_1
-	medium_tank_destroyer_chassis_2
-	medium_tank_destroyer_chassis_3
-	medium_tank_amphibious_chassis_0
-	medium_tank_amphibious_chassis_1
-	medium_tank_amphibious_chassis_2
-	medium_tank_amphibious_chassis_3
-	medium_tank_flame_chassis_0
-	medium_tank_flame_chassis_1
-	medium_tank_flame_chassis_2
-	medium_tank_flame_chassis_3
-	super_heavy_tank_aa_chassis_1
-	super_heavy_tank_artillery_chassis_1
-	super_heavy_tank_destroyer_chassis_1
-	modern_tank_aa_chassis_1
-	modern_tank_artillery_chassis_1
-	modern_tank_destroyer_chassis_1
+	
+	# IOS EQUIPMENT TYPES
+	boevaja_mashina_desantu
+	boevaja_mashina_desantu_1
+	bronetransporter
+	bronetransporter_1
+	bronetransporter_2
+	bronetransporter_3
+	med_tank_eq
+	gw_med_tank_eq_1
+	med_tank_eq_1
+	med_tank_eq_2
+	med_tank_eq_3
+	modern_tank_eq
+	post_war_modern_tank_eq_1
+	modern_tank_1_eq
+	modern_tank_2_eq
+	modern_tank_3_eq
+	artillery_ammo_equipment
+	artillery_ammo_equipment_0
+	artillery_ammo_equipment_1
+	artillery_ammo_equipment_2
+	artillery_ammo_equipment_3
+	artillery_ammo_equipment_4
+	infantry_ammo_equipment
+	infantry_ammo_equipment_0
+	infantry_ammo_equipment_1
+	infantry_ammo_equipment_2
+	infantry_ammo_equipment_3
+	power_armor
+	power_armor_1
+	tank_ammo_equipment
+	tank_ammo_equipment_0
+	anti_air_equipment_hand
+	anti_air_equipment_hand_1
+	anti_air_equipment_hand_2
+	anti_tank_equipment_hand_1
+	anti_tank_equipment_hand_2
+	anti_tank_equipment_hand_3
+	candc_equipment
+	candc_equpment_1
+	candc_equpment_2
+	candc_equpment_3
+	motorized_equipment_2
 }
