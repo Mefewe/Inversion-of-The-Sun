@@ -738,21 +738,122 @@ country_event = { #
 	}
 }
 
-country_event = { #
-	id = TAI.99
+country_event = { #Хардовая гражданка против исламистов. Ивент про комиссии и прочую хрень.
+	id = TAI.199
 	picture = GFX_0
-	title = TAI.23.title
-	desc = TAI.23.desc
+	title = TAI.199.title
+	desc = TAI.199.desc
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = TAI.23.1
+		name = TAI.199.1
+		add_stability = 0.01
+	}
+}
+country_event = { #Хардовая гражданка против исламистов. Ивент первый.
+	id = TAI.200
+	picture = GFX_0
+	title = TAI.200.title
+	desc = TAI.200.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.200.1
+		country_event = {days = 10 id = TAI.201}
+	}
+}
+country_event = { #Хардовая гражданка против исламистов. Баррикады. !وسم پیزدا
+	id = TAI.201
+	picture = GFX_0
+	title = TAI.201.title
+	desc = TAI.201.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.201.1
 		hidden_effect = {
-
+			TAI_sheng_taja_0 = yes
+		}
+		activate_decision = TAI_START_WAR_1
+	}
+}
+country_event = { #Хардовая гражданка против исламистов. Обстановка накаляется.
+	id = TAI.202
+	picture = GFX_0
+	title = TAI.202.title
+	desc = TAI.202.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.202.1
+		country_event = TAI.203
+	}
+}
+country_event = { #Хардовая гражданка против исламистов. Бунт Пяти Кланов и начало войны.
+	id = TAI.203
+	picture = GFX_0
+	title = TAI.203.title
+	desc = TAI.203.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.202.1
+		hidden_effect = {
+			TAI_sheng_taja_1 = yes
 		}
 	}
 }
-
+country_event = { #Mi va Vatan
+	id = TAI.204
+	picture = GFX_0
+	title = TAI.204.title
+	desc = TAI.204.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.204.1
+	}
+}
+country_event = { #Поднять бригады
+	id = TAI.205
+	picture = GFX_0
+	title = TAI.204.title
+	desc = TAI.204.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.204.1
+	}
+}
+country_event = { #Мобсила
+	id = TAI.206
+	picture = GFX_0
+	title = TAI.206.title
+	desc = TAI.206.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #Защита родины от террористов — долг каждого
+		name = TAI.206.1
+		ai_chance = {
+			factor = 0.35
+		}
+		load_oob = "TAI_A"
+	}
+	option = { #Защищать родину должны бригады, а не кучи батальонов тро
+		name = TAI.206.2
+		ai_chance = {
+			factor = 0.35
+		}
+		load_oob = "TAI_B"
+	}
+	option = { #Компромиссный вариант
+		name = TAI.206.3
+		ai_chance = {
+			factor = 0.30
+		}
+		load_oob = "TAI_C"
+	}
+}
 
 news_event = {
 	id = TAI_NEWS.1

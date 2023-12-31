@@ -46,7 +46,7 @@ focus_tree = {
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
 focus_tree = {
-	id = TAI_focus_tree_fourth_a #подготовка к войне
+	id = TAI_focus_tree_fourth_a #гражданка и подготовка к ней (хард вариант)
 	country = {
 		factor = 0
 
@@ -58,6 +58,7 @@ focus_tree = {
 	shared_focus = TAI_novyj_god
 	shared_focus = TAI_CHP
 	shared_focus = TAI_Vernutj_zemlu
+	shared_focus = TAI_surovaja_realjnostj
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
@@ -689,38 +690,22 @@ shared_focus = { #
 		country_event = TAI.34
 		if = {
 			limit = {
-				NOT = {has_tech = medium_tank_gw}
+				NOT = {has_tech = main_battle_tank}
 			}
 			set_technology = {
-				medium_tank_gw = 1
+				main_battle_tank = 1
 			}
 			set_technology = {
 				main_battle_tank_chassis = 1
 			}
 		}
-		else_if = {
-			limit = {
-				NOT = {has_tech= main_battle_tank_chassis}
-			 }
-			 set_technology = {
-				main_battle_tank_chassis = 1
-			}
-		}
+		
 		if = {
 			limit = {
 				NOT = {has_tech = mechanised_infantry}
 			}
 			set_technology = {
 				mechanised_infantry = 1
-			}
-		}
-		if = {
-			limit = {
-				NOT = {has_tech = bronetransporter_infantry}
-			}
-			set_technology = {
-				bronetransporter_infantry = 1
-				popup = no
 			}
 		}
 		add_equipment_to_stockpile = {
@@ -845,10 +830,54 @@ shared_focus = { #
 
 	x = 12
 	y = 19
-	completion_reward = { 
-		add_stability = -0.05
-		hidden_effect = {
-			
+	completion_reward = {
+		country_event = TAI.199
+		hidden_effect = {	
+			add_stability = -0.1
+			country_event = {id = TAI.200 days = 7}
 		}
+	}
+}
+shared_focus = { #
+	id = TAI_mi_va_vatan
+	prerequisite = {
+		focus = TAI_surovaja_realjnostj
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 1
+
+	x = 12
+	y = 20
+	completion_reward = {
+		country_event = TAI.204	
+		add_stability = 0.05
+	}
+}
+shared_focus = { #
+	id = TAI_podnjatj_brigadi
+	prerequisite = {
+		focus = TAI_mi_va_vatan
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 1
+
+	x = 12
+	y = 21
+	completion_reward = {
+		add_timed_idea = {idea = strazhi_progressa days = 100} #нацдух СТРАЖИ ПРОГРЕССА
+	}
+}
+shared_focus = { #
+	id = TAI_mobsila
+	prerequisite = {
+		focus = TAI_podnjatj_brigadi
+	}
+	icon = GFX_focus_generic_home_defense
+	cost = 1
+
+	x = 12
+	y = 22
+	completion_reward = {
+		add_timed_idea = {idea = strazhi_progressa days = 100} #нацдух СТРАЖИ ПРОГРЕССА
 	}
 }

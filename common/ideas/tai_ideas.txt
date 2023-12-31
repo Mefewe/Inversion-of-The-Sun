@@ -75,5 +75,11 @@ ideas = {
 				army_org_factor = 0.10
 			}
 		}
+		strazhi_progressa = {
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.20
+			}
+		}
 	}
 }
