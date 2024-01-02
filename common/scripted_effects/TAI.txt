@@ -123,5 +123,6 @@ TAI_sheng_taja_1 = {
 			target = TAI
 			type = annex_everything
 		}
+		load_oob = "STI_1"
 	}
 }

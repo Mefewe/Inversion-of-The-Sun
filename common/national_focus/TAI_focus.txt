@@ -878,6 +878,6 @@ shared_focus = { #
 	x = 12
 	y = 22
 	completion_reward = {
-		add_timed_idea = {idea = strazhi_progressa days = 100} #нацдух СТРАЖИ ПРОГРЕССА
+		country_event = TAI.206
 	}
 }

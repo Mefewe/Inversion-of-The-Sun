@@ -1,4 +1,4 @@
-﻿capital = 716
+﻿capital = 684
 recruit_character = STI_Tachik_Navelle
 set_stability = 0.4
 set_war_support = 0.2
@@ -6,6 +6,7 @@ set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	ETH_improved_irregular_infantry_tech = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	basic_train = 1

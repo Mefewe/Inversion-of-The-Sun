@@ -115,6 +115,30 @@ units = {
 		division_template = "Otrjadi TRO"
 	}
 	division = {
+		location = 7407
+		name = "Tehrejn TRO"
+		start_experience_factor = 0.2
+		division_template = "Otrjadi TRO"
+	}
+	division = {
+		location = 7407
+		name = "Tehrejn TRO"
+		start_experience_factor = 0.2
+		division_template = "Otrjadi TRO"
+	}
+	division = {
+		location = 2869
+		name = "Tabriz TRO"
+		start_experience_factor = 0.2
+		division_template = "Otrjadi TRO"
+	}
+	division = {
+		location = 2869
+		name = "Tabriz TRO"
+		start_experience_factor = 0.2
+		division_template = "Otrjadi TRO"
+	}
+	division = {
 		location = 2869
 		name = "Tabriz TRO"
 		start_experience_factor = 0.2
