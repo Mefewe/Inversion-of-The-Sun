@@ -57,6 +57,39 @@ focus_tree = {
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
 
+### CONVENT TREE ###
+
+focus_tree = {
+	id = SDL_focus_tree_but_convent
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = SDL
+		}
+	}
+	shared_focus = SDL_personal_commissions
+	shared_focus = SDL_promote_initiative
+	shared_focus = SDL_loyal_ministers
+
+	shared_focus = SDL_cultural_reforms
+	shared_focus = SDL_army_progressivism
+	shared_focus = SDL_economical_effort
+
+	shared_focus = SDL_convent_interrputs
+
+	shared_focus = SDL_failed_once_more
+	shared_focus = SDL_fragmentation_of_convent
+	shared_focus = SDL_society_is_angry
+	shared_focus = SDL_economy_is_felling_bad
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+###		###
+
 focus_tree = {
 	id = SDL_focus_tree_two_and_half
 	country = {
@@ -112,6 +145,7 @@ focus_tree = {
 
 shared_focus = {
 	id = SDL_convent
+	icon = GFX_focus_icon_SDL_convent_icon_focus
 	cost = 0.5
 	x = 20
 	y = 0
@@ -125,6 +159,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_two_economies
+	icon = GFX_focus_icon_SDL_two_economies_icon_focus
 	prerequisite = {
 		focus = SDL_convent
 	}
@@ -141,6 +176,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_confederation_status
+	icon = GFX_focus_icon_SDL_confederation_status_icon_focus
 	prerequisite = {
 		focus = SDL_convent
 	}
@@ -157,6 +193,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_armada_problem
+	icon = GFX_focus_icon_SDL_armada_problem_icon_focus
 	prerequisite = {
 		focus = SDL_two_economies
 	}
@@ -176,6 +213,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_ally_meeting
+	icon = GFX_focus_icon_SDL_ally_meeting_icon_focus
 	prerequisite = {
 		focus = SDL_two_economies
 	}
@@ -195,6 +233,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_Sandstri_dossier
+	icon = GFX_focus_icon_SDL_Sandstri_dossier_icon_focus
 	prerequisite = {
 		focus = SDL_armada_problem
 	}
@@ -351,6 +390,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_president_ideas
+	icon = GFX_focus_icon_SDL_president_ideas_icon_focus
 	prerequisite = {
 		focus = SDL_sand_club
 	}
@@ -371,30 +411,86 @@ shared_focus = {
 shared_focus = {
 	id = SDL_personal_commissions
 
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
+
 	cost = 1
 	x = 18
 	y = 0
 	completion_reward = { 
+		add_political_power = 50
+		add_ideas = sdl_conf_pp_modify_7
 	}
 }
 
 shared_focus = {
 	id = SDL_promote_initiative
 
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
+
 	cost = 1
 	x = 20
 	y = 0
 	completion_reward = { 
+		add_political_power = 50
+		create_corps_commander = {
+			name = "Test1"
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Test2"
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Test3"
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
 	}
 }
 
 shared_focus = {
 	id = SDL_loyal_ministers
 
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
+
 	cost = 1
 	x = 22
 	y = 0
 	completion_reward = { 
+		#+советники
+		add_political_power = 50
 	}
 }
 
@@ -409,12 +505,20 @@ shared_focus = {
 		has_completed_focus = SDL_personal_commissions
 		has_completed_focus = SDL_promote_initiative
 		has_completed_focus = SDL_loyal_ministers
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
 	}
 
 	cost = 1
 	x = 16
 	y = 1
 	completion_reward = { 
+		#+решения для проведения акций
+		add_stability = 0.1
 	}
 }
 
@@ -423,10 +527,21 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_cultural_reforms
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 15
 	y = 2
 	completion_reward = { 
+		add_stability = 0.05
+		add_ideas = sdl_conf_tranzebrican_identity
+		add_political_power = -75
 	}
 }
 
@@ -435,10 +550,24 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_new_identity
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 15
 	y = 3
 	completion_reward = { 
+		add_stability = 0.1
+		war_support = -0.15
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.075
+		}
 	}
 }
 
@@ -448,10 +577,22 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_cultural_reforms
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 17
 	y = 2
 	completion_reward = { 
+		add_stability = -0.15
+		add_ideas = sdl_conf_multi_5
+		add_political_power = 75
+		add_command_power = 20
 	}
 }
 
@@ -460,10 +601,25 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_supranational_laws
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 17
 	y = 3
 	completion_reward = { 
+		add_stability = -0.075
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.045
+		}
+		add_political_power = 75
+		add_ideas = sdl_conf_fight_against_old_regime
 	}
 }
 
@@ -475,10 +631,29 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_archaism_of_old_regime
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 16
 	y = 4
 	completion_reward = { 
+		# -решения для проведения акций
+		add_political_power = 100
+		add_stability = 0.15
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.06
+		}
+		add_timed_idea = {
+			idea = sdl_conf_multi_6
+			days = 60
+		}
 	}
 }
 
@@ -494,12 +669,22 @@ shared_focus = {
 		has_completed_focus = SDL_personal_commissions
 		has_completed_focus = SDL_promote_initiative
 		has_completed_focus = SDL_loyal_ministers
+
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
 	}
 
 	cost = 1
 	x = 20
 	y = 1
 	completion_reward = { 
+		# +решения на армию
+		army_experience = 25
+		add_political_power = -50
 	}
 }
 
@@ -508,10 +693,20 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_army_progressivism
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 19
 	y = 2
 	completion_reward = { 
+		add_political_power = -65
+		add_ideas = sdl_conf_multi_7
 	}
 }
 
@@ -520,10 +715,21 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_army_progressivism
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 21
 	y = 2
 	completion_reward = { 
+		# +дивки
+		add_stability = 0.065
+		add_political_power = 45
 	}
 }
 
@@ -535,10 +741,21 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_president_brigades
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 20
 	y = 3
 	completion_reward = { 
+		# -решения на армию
+		add_political_power = 65
+		army_experience = 50
 	}
 }
 
@@ -553,6 +770,13 @@ shared_focus = {
 		has_completed_focus = SDL_personal_commissions
 		has_completed_focus = SDL_promote_initiative
 		has_completed_focus = SDL_loyal_ministers
+
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
 	}
 
 	cost = 1
@@ -567,6 +791,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_economical_effort
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 23
 	y = 2
@@ -578,6 +810,14 @@ shared_focus = {
 	id = SDL_corporate_fund
 	prerequisite = {
 		focus = SDL_fair_partnership
+	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
 	}
 	cost = 1
 	x = 23
@@ -591,6 +831,14 @@ shared_focus = {
 	prerequisite = {
 		focus = SDL_economical_effort
 	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
+	}
 	cost = 1
 	x = 25
 	y = 2
@@ -602,6 +850,14 @@ shared_focus = {
 	id = SDL_deal_of_century
 	prerequisite = {
 		focus = SDL_no_cheating
+	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
 	}
 	cost = 1
 	x = 25
@@ -617,6 +873,14 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = SDL_deal_of_century
+	}
+	available = {
+		SDL = {
+			has_country_leader = {
+				character = SDL_CONF_Sylva_Sandstre
+				ruling_only = yes
+			}
+		}
 	}
 	cost = 1
 	x = 24
@@ -638,8 +902,173 @@ shared_focus = {
 	x = 20
 	y = 4
 	completion_reward = { 
+		country_event = {
+   			id = SDL_base.22
+    			days = 1
+		}
 	}
 }
+
+### SILVA FAILED ###
+
+shared_focus = {
+	id = SDL_failed_once_more
+	available = {
+		always = no
+	}
+
+	cost = 1
+	x = 19
+	y = 5
+	completion_reward = { 
+		add_stability = -0.75
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.1
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_fragmentation_of_convent
+	available = {
+		always = no
+	}
+
+	cost = 1
+	x = 21
+	y = 5
+	completion_reward = { 
+		add_ideas = sdl_conf_convent_fragmentation
+	}
+}
+
+shared_focus = {
+	id = SDL_important_convent_meeting
+	prerequisite = {
+		focus = SDL_failed_once_more
+	}
+	prerequisite = {
+		focus = SDL_fragmentation_of_convent
+	}
+	available = {
+		has_completed_focus = SDL_anti_silva_propaganda
+		has_completed_focus = SDL_we_control_situation
+	}
+
+	cost = 1
+	x = 20
+	y = 7
+	completion_reward = { 
+		country_event = {
+   			id = SDL_base.27
+    			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_society_is_angry
+	available = {
+		always = no
+	}
+
+	cost = 1
+	x = 17
+	y = 5
+	completion_reward = { 
+		add_ideas = sdl_conf_angry_society
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.25
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_anti_silva_propaganda
+	prerequisite = {
+		focus = SDL_society_is_angry
+	}
+
+	cost = 1
+	x = 18
+	y = 6
+	completion_reward = { 
+		add_timed_idea = {
+			idea = sdl_conf_anti_silva_propaganda
+			days = 180
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_economy_is_felling_bad
+	available = {
+		always = no
+	}
+
+	cost = 1
+	x = 23
+	y = 5
+	completion_reward = { 
+		swap_ideas = {
+			remove_idea = sdl_conf_just_business
+			add_idea = sdl_conf_damaged_business
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_we_control_situation
+	prerequisite = {
+		focus = SDL_economy_is_felling_bad
+	}
+
+	cost = 1
+	x = 22
+	y = 6
+	completion_reward = { 
+		add_timed_idea = {
+			idea = sdl_conf_investors_pls_come_back
+			days = 180
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = SDL_we_made_it_i_guess
+	prerequisite = {
+		focus = SDL_important_convent_meeting
+	}
+	prerequisite = {
+		focus = SDL_anti_silva_propaganda
+	}
+	prerequisite = {
+		focus = SDL_we_control_situation
+	}
+
+	available = {
+		always = no
+	}
+
+	cost = 1
+	x = 20
+	y = 8
+	completion_reward = { 
+		custom_effect_tooltip = ConventFakeFocusTooltip_tt
+	}
+}
+
+###		###
 
 
 

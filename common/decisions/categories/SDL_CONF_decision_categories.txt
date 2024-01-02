@@ -1,0 +1,15 @@
+SDL_CONF_ConventConflict = {
+	icon = generic_crisis
+	priority = 20
+	allowed = {
+		original_tag = SDL
+	}
+	visible = {
+		SDL = {
+			exists = yes
+			has_power_balance = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance
+			}
+		}
+	}
+}

@@ -1,0 +1,163 @@
+SDL_CONF_ConventConflict = {
+	SDL_CONF_SilvaPopularityAdd = {
+		available = {
+			tag = SDL
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.95
+			}
+		}
+	}
+	SDL_CONF_ConventPopularityAdd = {
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = -0.95
+			}
+		}
+	}
+	SDL_CONF_LegalActivityStabilize = {
+		available = {
+			tag = SDL
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 30
+		days_remove = 80
+
+		complete_effect = {
+			add_timed_idea = { 
+				idea = sdl_conf_stability_modify_2
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.05
+			}
+		}
+	}
+	SDL_CONF_LegalActivityProdAdd = {
+		available = {
+			tag = SDL
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 45
+		days_remove = 80
+
+		complete_effect = {
+			add_timed_idea = { 
+				idea = sdl_conf_multi_3
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.05
+			}
+		}
+	}
+	SDL_CONF_LegalActivityConstructionAdd = {
+		available = {
+			tag = SDL
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 45
+		days_remove = 80
+
+		complete_effect = {
+			add_timed_idea = { 
+				idea = sdl_conf_cinstruction_1
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.05
+			}
+		}
+	}
+	SDL_CONF_LegalActivity1 = {
+		available = {
+			tag = SDL
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 60
+
+		complete_effect = {
+		}
+	}
+	SDL_CONF_IllegalMinorActivity = {
+		available = {
+			tag = SDL
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 85
+		days_remove = 60
+
+		complete_effect = {
+		}
+	}
+	SDL_CONF_IllegalActivity_1 = {
+		available = {
+			tag = SDL
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+		cost = 85
+		days_remove = 60
+
+		complete_effect = {
+		}
+	}
+}

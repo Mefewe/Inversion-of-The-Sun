@@ -299,4 +299,214 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
+	spriteType = {
+        name = GFX_focus_icon_SDL_ally_meeting_icon_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_ally_meeting_icon_focus.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_ally_meeting_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_ally_meeting_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_armada_problem_icon_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_armada_problem_icon_focus.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_armada_problem_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_armada_problem_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_confederation_status_icon_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_confederation_status_icon_focus.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_confederation_status_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_confederation_status_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_convent_icon_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_convent_icon_focus.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_convent_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_convent_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_president_ideas_icon_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_president_ideas_icon_focus.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_president_ideas_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_president_ideas_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_Sandstri_dossier_icon_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_Sandstri_dossier_icon_focus.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_Sandstri_dossier_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_Sandstri_dossier_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_two_economies_icon_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_two_economies_icon_focus.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_two_economies_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_two_economies_icon_focus.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
 }

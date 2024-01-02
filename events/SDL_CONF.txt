@@ -296,7 +296,7 @@ country_event = {
 	option = {
 		name = SDL_base.6.a
 		add_political_power = 25
-		add_ideas = plus_stability_modify_1
+		add_ideas = sdl_conf_stability_modify_1
 	}
 }
 country_event = {
@@ -386,6 +386,10 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = SDL_base.13.a
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = -0.05
+		}
 	}
 }
 country_event = {
@@ -401,6 +405,23 @@ country_event = {
 			idea = sdl_conf_pp_modify_1
 			days = 30
 		}
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = 0.1
+		}
+		add_ideas = sdl_conf_pp_modify_4
+	}
+	option = {
+		name = SDL_base.14.b
+		add_timed_idea = {
+			idea = sdl_conf_pp_modify_1
+			days = 30
+		}
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = -0.15
+		}
+		add_ideas = sdl_conf_pp_modify_5
 	}
 }
 country_event = {
@@ -416,6 +437,21 @@ country_event = {
 			idea = sdl_conf_pp_modify_2
 			days = 30
 		}
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = 0.1
+		}
+	}
+	option = {
+		name = SDL_base.15.b
+		add_timed_idea = {
+			idea = sdl_conf_pp_modify_2
+			days = 30
+		}
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = -0.1
+		}
 	}
 }
 country_event = {
@@ -427,6 +463,21 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = SDL_base.16.a
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = 0.2
+		}
+		add_ideas = sdl_conf_multi_1
+		political_power_factor = -0.4
+		stability_factor = -0.1
+	}
+	option = {
+		name = SDL_base.16.b
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = -0.2
+		}
+		add_ideas = sdl_conf_pp_modify_3
 	}
 }
 country_event = {
@@ -438,6 +489,18 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = SDL_base.17.a
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = 0.2
+		}
+	}
+	option = {
+		name = SDL_base.17.b
+		add_ideas = sdl_conf_pp_modify_6
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = 0.4
+		}
 	}
 }
 country_event = {
@@ -449,6 +512,10 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = SDL_base.18.a
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = 0.1
+		}
 	}
 }
 country_event = {
@@ -460,6 +527,10 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = SDL_base.19.a
+		add_power_balance_value = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance 
+			value = 0.3
+		}
 	}
 }
 country_event = {
@@ -471,6 +542,7 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = SDL_base.20.a
+		add_ideas = sdl_conf_multi_2
 		hidden_effect = {
 			load_focus_tree = SDL_focus_tree_two
 			mark_focus_tree_layout_dirty = yes
@@ -488,9 +560,149 @@ country_event = {
 
 	option = {
 		name = SDL_base.21.a
+		remove_power_balance = { id = SDL_CONF_CONVENT_VS_SILVA_balance }
 		hidden_effect = {
 			load_focus_tree = SDL_focus_tree_two_and_half
 			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+country_event = {
+	id = SDL_base.22
+	title = SDL_base.22.title
+	desc = SDL_base.22.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.22.a
+		tag = SDL
+		remove_power_balance = { id = SDL_CONF_CONVENT_VS_SILVA_balance }
+		retire_country_leader = yes
+
+		recruit_character = SDL_CONF_Confederative_Convent
+		promote_character = { 
+			character = SDL_CONF_Confederative_Convent
+			ideology = harmony
+		}
+
+
+
+		set_politics = {
+			ruling_party = neutrality
+		}
+
+		hidden_effect = {
+			load_focus_tree = SDL_focus_tree_but_convent
+			mark_focus_tree_layout_dirty = yes
+			country_event = {
+   				id = SDL_base.23
+    				days = 1
+			}
+		}
+	}
+}
+
+### SILVA COLLAPSES :(
+
+country_event = {	# PRESIDENT RETIRES
+	id = SDL_base.23
+	title = SDL_base.23.title
+	desc = SDL_base.23.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.23.a
+		tag = SDL
+		complete_national_focus = SDL_failed_once_more
+		hidden_effect = {
+			country_event = {
+   				id = SDL_base.24
+    				days = 7
+			}
+		}
+	}
+}
+country_event = {
+	id = SDL_base.24	# PEOPLE ARE NOT HAPPY
+	title = SDL_base.24.title
+	desc = SDL_base.24.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.24.a
+		tag = SDL
+		complete_national_focus = SDL_society_is_angry
+		hidden_effect = {
+			country_event = {
+   				id = SDL_base.25
+    				days = 7
+			}
+		}
+	}
+}
+country_event = {
+	id = SDL_base.25	# ECONOMY FUCKED UP
+	title = SDL_base.25.title
+	desc = SDL_base.25.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.25.a
+		tag = SDL
+		complete_national_focus = SDL_economy_is_felling_bad
+		hidden_effect = {
+			country_event = {
+   				id = SDL_base.26
+    				days = 10
+			}
+		}
+	}
+}
+country_event = {
+	id = SDL_base.26	# CONVENT TEARING HIMSELF APART
+	title = SDL_base.26.title
+	desc = SDL_base.26.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.26.a
+		tag = SDL
+		complete_national_focus = SDL_fragmentation_of_convent
+	}
+}
+country_event = {
+	id = SDL_base.27
+	title = SDL_base.27.title
+	desc = SDL_base.27.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.27.a
+		tag = SDL
+		add_political_power = 65
+		add_stability = 0.15
+		add_ideas = sdl_conf_multi_4
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.1
 		}
 	}
 }

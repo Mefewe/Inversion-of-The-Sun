@@ -56,10 +56,24 @@ add_equipment_to_stockpile = {
          amount = 11761
 }
 
+################################
+### COUNTRY AND ARMY LEADERS ###
+################################
 recruit_character = SDL_CONF_Sylva_Sandstre
-recruit_character = SDL_CONF_test
-recruit_character = SDL_CONF_test2
-set_stability = 1
+recruit_character = SDL_CONF_Fieldmarshal1
+recruit_character = SDL_CONF_Fieldmarshal2
+recruit_character = SDL_CONF_LeaderAttacker1
+recruit_character = SDL_CONF_LeaderAttacker2
+recruit_character = SDL_CONF_LeaderAttacker3
+recruit_character = SDL_CONF_LeaderDefender1
+recruit_character = SDL_CONF_LeaderDefender2
+recruit_character = SDL_CONF_LeaderLogistic1
+recruit_character = SDL_CONF_LeaderLogistic2
+recruit_character = SDL_CONF_LeaderPlanning1
+recruit_character = SDL_CONF_LeaderPlanning2
+recruit_character = SDL_CONF_LeaderPlanning3
+
+set_stability = 0.87
 set_war_support = 0.6
 set_cosmetic_tag = SDL_CONF
 send_embargo = CHN
@@ -80,7 +94,7 @@ add_ideas = {
                 sdl_conf_struggling_harmony
                 sdl_conf_last_survivors
                 sdl_conf_just_business
-                sdl_conf_internal_chaos1
+                sdl_conf_internal_chaos
                 sdl_conf_broken_armade
                 sdl_conf_lost_borean_idol
                 sdl_conf_involuntarily_allies
@@ -90,7 +104,7 @@ add_ideas = {
 		free_trade
 }
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = neutrality
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -98,10 +112,10 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	communism = 5
-	neutrality = 35
+	neutrality = 57
 	fascism = 3
         progressivism = 0
-        paternalism = 57
+        paternalism = 35
 }
 
 create_country_leader = {

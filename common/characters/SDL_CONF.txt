@@ -8,43 +8,178 @@ characters = {
 		}
 		country_leader = {
                 desc="SDL_CONF_Sylva_Sandstre_desc"
-			ideology = despotism
+			ideology = harmony
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1
 		}
 	}
-	SDL_CONF_test={
-		name=SDL_CONF_test
-		portraits={
-			army={
-				large=GFX_portrait_AUS_karl_eglseer
-				small=GFX_portrait_AUS_karl_eglseer_small
+	SDL_CONF_Confederative_Convent = {
+		name = SDL_CONF_Confederative_Convent
+		portraits = {
+			civilian = {
+				large = GFX_SDL_CONF_Confederative_Convent_L
 			}
 		}
-		corps_commander={
-			traits={ trickster trait_mountaineer }
+		country_leader = {
+                desc="SDL_CONF_Confederative_Convent_desc"
+			ideology = harmony
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	SDL_CONF_Fieldmarshal1={
+		name=SDL_CONF_test1
+
+		field_marshal={
+			traits={ old_guard war_hero harsh_leader offensive_doctrine thorough_planner infantry_officer expert_delegator }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_Fieldmarshal2={
+		name=SDL_CONF_test2
+
+		field_marshal={
+			traits={ trickster infantry_officer defensive_doctrine unyielding_defender organisational_leader inspirational_leader }
 			skill=3
-			attack_skill=2
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderAttacker1={
+		name=SDL_CONF_test3
+
+		corps_commander={
+			traits={ infantry_officer aggressive_assaulter inspirational_leader media_personality urban_assault_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderAttacker2={
+		name=SDL_CONF_test4
+
+		corps_commander={
+			traits={ trait_reckless combined_arms_expert politically_connected scavenger }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderAttacker3={
+		name=SDL_CONF_test5
+
+		corps_commander={
+			traits={ engineer_officer trickster trait_mountaineer infantry_expert }
+			skill=3
+			attack_skill=1
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=-1
 		}
 	}
-	SDL_CONF_test2={
-		name=SDL_CONF_test2
-		portraits={
-			army={
-				large=GFX_portrait_AUS_karl_eglseer
-				small=GFX_portrait_AUS_karl_eglseer_small
-			}
+	SDL_CONF_LeaderDefender1={
+		name=SDL_CONF_test6
+
+		corps_commander={
+			traits={ fast_planner defensive_doctrine scavenger camouflage_expert }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
 		}
-		field_marshal={
-			traits={ trickster trait_mountaineer }
+	}
+	SDL_CONF_LeaderDefender2={
+		name=SDL_CONF_test7
+
+		corps_commander={
+			traits={ expert_improviser defensive_doctrine organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderLogistic1={
+		name=SDL_CONF_test8
+
+		corps_commander={
+			traits={ panzer_expert panzer_leader fortress_buster }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderLogistic2={
+		name=SDL_CONF_test9
+
+		corps_commander={
+			traits={ skirmisher combined_arms_expert skilled_staffer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderPlanning1={
+		name=SDL_CONF_test10
+
+		corps_commander={
+			traits={ brilliant_strategist organizer adaptable ambusher camouflage_expert}
 			skill=3
 			attack_skill=2
-			defense_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderPlanning2={
+		name=SDL_CONF_test11
+
+		corps_commander={
+			traits={ expert_improviser guerilla_fighter inflexible_strategist career_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SDL_CONF_LeaderPlanning3={
+		name=SDL_CONF_test12
+
+		corps_commander={
+			traits={ trait_cautious trait_reckless harsh_leader engineer_officer fast_planner }
+			skill=2
+			attack_skill=2
+			defense_skill=1
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=-1
