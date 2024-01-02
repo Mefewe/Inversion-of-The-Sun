@@ -39,4 +39,32 @@ spriteTypes = {
         name = GFX_focus_icon_DRG_send_troops_to_castles_icon_focus
         texturefile = gfx/interface/goals/DRG_send_troops_to_castles_icon_focus.dds
     }
+	spriteType = {
+        name = GFX_focus_icon_SDL_ally_meeting_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_ally_meeting_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_armada_problem_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_armada_problem_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_confederation_status_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_confederation_status_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_convent_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_convent_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_president_ideas_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_president_ideas_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_Sandstri_dossier_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_Sandstri_dossier_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_two_economies_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_two_economies_icon_focus.dds
+    }
 }

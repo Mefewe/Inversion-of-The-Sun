@@ -22,9 +22,21 @@ ideas = {
 			modifier = {
 				custom_modifier_tooltip = SDL_CONF_OefRelations_1_tt
 				consumer_goods_factor = -0.35
+				research_speed_factor = 0.5
 			}
                 }
-                sdl_conf_internal_chaos1 = {
+                sdl_conf_damaged_business = {
+			modifier = {
+				custom_modifier_tooltip = SDL_CONF_OefRelations_2_tt
+				stability_factor = -0.075
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.075
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				fuel_gain_factor = -0.085
+			}
+                }
+                sdl_conf_internal_chaos = {
 			# effect = {
 			# 	SDL = {
 			# 		add_dynamic_modifier = { modifier = sdl_conf_internal_chaos_dyn }
@@ -39,7 +51,7 @@ ideas = {
                 }
                 sdl_conf_broken_armade = {
 			modifier = {
-				command_power_gain = -0.25
+				command_power_gain_mult = -0.25
 				army_attack_factor = -0.35
 				army_defence_factor = -0.20
 				army_speed_factor = -0.5
@@ -65,6 +77,53 @@ ideas = {
 				army_defence_factor = -0.05
 			}
 		}
+		sdl_conf_convent_fragmentation = {
+			modifier = {
+				political_power_factor = -0.35
+				command_power_gain_mult = -0.2
+				stability_factor = -0.15
+				political_advisor_cost_factor = 0.75
+			}
+		}
+		sdl_conf_angry_society = {
+			modifier = {
+				stability_factor = -0.30
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.15
+				war_support_factor = -0.45
+			}
+		}
+		sdl_conf_investors_pls_come_back = {
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.025
+				production_factory_efficiency_gain_factor = 0.025
+				production_factory_max_efficiency_factor = 0.025
+			}
+		}
+                sdl_conf_anti_silva_propaganda = {
+			modifier = {
+				stability_factor = -0.035
+				production_factory_efficiency_gain_factor = 0.085
+				production_factory_max_efficiency_factor = 0.065
+				production_speed_buildings_factor = 0.075
+			}
+		}
+                sdl_conf_tranzebrican_identity = {
+			modifier = {
+				stability_factor = 0.05
+				war_support = 0.03
+				conscription_factor = 0.03
+			}
+		}
+		sdl_conf_fight_against_old_regime = {
+			modifier = {
+				army_attack_factor = 0.075
+				army_defence_factor = 0.075
+			}
+		}
 		################
 		## SWAP IDEAS ##
 		################
@@ -72,7 +131,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.3
 				political_power_factor = -0.3
-				conscription_factor = -0.25
+				conscription = -0.25
 			}
                 }
         }
@@ -94,9 +153,98 @@ ideas = {
 				political_power_factor = 0.03
 			}
 		}
+		sdl_conf_pp_modify_3 = {
+			modifier = {
+				political_power_factor = 0.2
+			}
+		}
+		sdl_conf_pp_modify_4 = {
+			modifier = {
+				political_power_factor = 0.2
+			}
+		}
+		sdl_conf_pp_modify_5 = {
+			modifier = {
+				political_power_factor = -0.25
+			}
+		}
+		sdl_conf_pp_modify_6 = {
+			modifier = {
+				political_power_factor = -0.65
+			}
+		}
+		sdl_conf_pp_modify_7 = {
+			modifier = {
+				political_power_factor = 0.35
+			}
+		}
+
+		###
+
 		sdl_conf_stability_modify_1 = {
 			modifier = {
 				stability_factor = 0.05
+			}
+		}
+		sdl_conf_stability_modify_2 = {
+			modifier = {
+				stability_factor = 0.4
+			}
+		}
+
+		###
+
+		sdl_conf_multi_1 = {
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.4
+			}
+		}
+		sdl_conf_multi_2 = {
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.5
+			}
+		}
+		sdl_conf_multi_3 = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.5
+				production_factory_max_efficiency_factor = 0.5
+				line_change_production_efficiency_factor = 0.5
+			}
+		}
+		sdl_conf_multi_4 = {
+			modifier = {
+				political_power_factor = 0.2
+				command_power_gain_mult = 0.15
+			}
+		}
+		sdl_conf_multi_5 = {
+			modifier = {
+				political_power_factor = 0.3
+				command_power_gain_mult = 0.3
+				conscription = 0.05
+				consumer_goods_factor = -0.15
+			}
+		}
+		sdl_conf_multi_6 = {
+			modifier = {
+				consumer_goods_factor = 0.45
+				stability_factor = 0.35
+			}
+		}
+		sdl_conf_multi_7 = {
+			modifier = {
+				command_power_gain_mult = 0.25
+				experience_gain_army_factor = 0.45
+			}
+		}
+
+		###
+
+		sdl_conf_cinstruction_1 = {
+			modifier = {
+				production_speed_buildings_factor = 0.5
 			}
 		}
 	}
