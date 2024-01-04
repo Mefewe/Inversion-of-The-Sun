@@ -70,9 +70,14 @@ TAI_reclamation = {
 			add_stability = 0.05
 		}
 	}
-	TAI_START_WAR_1= {
+}
+TAI_civil_war_1 = {
+	TAI_START_WAR_1 = {
+		activation = {
+			always = no
+		}
 		available = {
-			TAG = TAI
+			always = no
 		}
 		cancel_trigger = {
 			always = no
@@ -80,7 +85,7 @@ TAI_reclamation = {
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = no
 		days_mission_timeout = 75
-		selectable_mission = yes
+		selectable_mission = no
 		timeout_effect = {
 			country_event = TAI.202
 		}

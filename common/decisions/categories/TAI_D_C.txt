@@ -13,3 +13,15 @@ TAI_reclamation = {
 		has_war = no
 	}
 }
+TAI_civil_war_1 = {
+	icon = generic_crisis
+	priority = 25
+	allowed = {
+		original_tag = TAI
+	}
+	visible = {
+		TAI = {
+			has_country_flag = TAI_CW_START_1
+		}
+	}
+}

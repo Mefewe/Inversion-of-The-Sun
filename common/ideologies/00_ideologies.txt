@@ -6,6 +6,9 @@ ideologies = {
 			neoharmonism = {
 				
 			}
+			extrimistki_modernizm = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -213,6 +216,9 @@ ideologies = {
 		fake_democracy = {
 
 		}
+		new_silence = { #for non-honor retarded kirins
+
+		}
 		despotism  = {
 
 		}
@@ -279,12 +285,6 @@ ideologies = {
 			}
 			moderate_social_valterists = {
 
-			}
-			new_silence = { #for non-honor retarded kirins
-
-			}
-			extrimistki_modernizm = {
-				can_be_randomly_selected = no
 			}
 		}
 

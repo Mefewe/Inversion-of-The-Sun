@@ -51,4 +51,10 @@ units = {
 		start_experience_factor = 0.8
 		division_template = "Shahinshahi BRIGADE"
 	}
+	division = {
+		location = 2869
+		name = "Tabriz BRIGADA ARMII SHAHSKOJ SSO"
+		start_experience_factor = 1
+		division_template = "Shahinshahi BRIGADE"
+	}
 }

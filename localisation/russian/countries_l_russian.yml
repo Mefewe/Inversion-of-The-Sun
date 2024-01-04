@@ -489,8 +489,8 @@
  
  TAI_fascism:0 "Республика Тайа-Куицу"
  TAI_fascism_DEF:0 "Великая республика Тайа-Куицу"
- TAI_democratic:0 "A"
- TAI_democratic_DEF:0 "A"
+ TAI_democratic:0 "Шаханшахия Тайа-Куицу"
+ TAI_democratic_DEF:0 "Шаханшахское государство Тайа-Куицу"
  TAI_neutrality:1 "Тайа-Куицу"
  TAI_neutrality_DEF:1 "Тайа-Куицу"
  TAI_communism:0 "A"
@@ -502,6 +502,9 @@
  TAI_paternalism:1 "Шаханшахия Тайа-Куицу"
  TAI_paternalism_DEF:1 "Шаханшахское государство Тайа-Куицу"
  TAI_paternalism_ADJ:1 "Тайа-Куицианск"
+ TAI_progressivism:1 "Шаханшахия Тайа-Куицу"
+ TAI_progressivism_DEF:1 "Шаханшахское государство Тайа-Куицу"
+ TAI_progressivism_ADJ:1 "Тайа-Куицианск"
  
  AZV: "Азив"
  AZV_DEF: "Азив"

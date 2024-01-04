@@ -733,8 +733,22 @@ country_event = { #
 	option = {
 		name = TAI.37.1
 		hidden_effect = {
-
+			country_event = {days = 12 id = TAI.198}
 		}
+	}
+}
+
+country_event = { #Хардовая гражданка против исламистов. Предыстория
+	id = TAI.198
+	picture = GFX_0
+	title = TAI.198.title
+	desc = TAI.198.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = TAI.198.1
+		load_focus_tree = TAI_focus_tree_fourth_a
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -773,6 +787,7 @@ country_event = { #Хардовая гражданка против ислами
 		name = TAI.201.1
 		hidden_effect = {
 			TAI_sheng_taja_0 = yes
+			set_country_flag = TAI_CW_START_1
 		}
 		activate_decision = TAI_START_WAR_1
 	}
@@ -800,6 +815,7 @@ country_event = { #Хардовая гражданка против ислами
 		name = TAI.202.1
 		hidden_effect = {
 			TAI_sheng_taja_1 = yes
+			clr_country_flag = TAI_CW_START_1
 		}
 	}
 }

@@ -818,6 +818,9 @@ shared_focus = { #
 			remove_idea = shahskaja_gvardija2
 			add_idea = shahskaja_gvardija3
 		}
+		hidden_effect = {
+			
+		}
 	}
 }
 ####Хардлайновое восстание
