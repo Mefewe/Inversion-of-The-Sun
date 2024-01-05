@@ -1,7 +1,6 @@
 on_actions = {
     on_weekly = {
         effect = {
-            every_country = {
                 set_variable = { ammo_eqp = 0 }
                 set_variable = { total_ammo_complexes = 0 }
                 every_owned_state = {
@@ -24,11 +23,10 @@ on_actions = {
                         add_equipment_to_stockpile = {
                             type = infantry_ammo_equipment_0
                             amount = ammo_eqp
-                            producer = SDL
+                            producer = THIS
                         }
                     }
-                }
-            }
+                }          
         }
     }
 }

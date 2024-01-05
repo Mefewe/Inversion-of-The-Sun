@@ -242,7 +242,7 @@ country_event = { #Отчет
 		activate_advisor = TAI_Meljbarr_Vallens_idea
 		add_popularity = {
 			ideology = democratic
-			popularity = 15
+			popularity = 0.15
 		}
 		custom_effect_tooltip = TAI.10.1.tt
 	}
@@ -280,7 +280,7 @@ country_event = { #Отчет
 		activate_advisor = TAI_Meljbarr_Vallens_idea
 		add_popularity = {
 			ideology = democratic
-			popularity = 20
+			popularity = 0.20
 		}
 		custom_effect_tooltip = TAI.10.2.tt
 	}
