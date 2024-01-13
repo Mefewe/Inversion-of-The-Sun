@@ -1,0 +1,56 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            SDL = {
+                set_variable = { riskStaticFactor = 0 }
+		set_variable = { bugFix = 0 }
+            }
+        }
+    }
+    on_weekly_SDL = {
+        effect = {
+            if = {
+                limit = {
+                    has_global_flag = SDL_FactionStruggleBegins
+                }
+		set_variable = { bugFix = stability }
+                set_variable = { coeffRisk = 0}
+                add_to_variable = { coeffRisk = riskStaticFactor }
+		if = {
+			limit = {
+				check_variable = {
+					bugFix > 0
+				}
+			}
+                	divide_variable = { coeffRisk = bugFix }
+		else = {
+			add_to_variable = { bugFix = 0.05 }
+                	divide_variable = { coeffRisk = bugFix }
+             		if = {
+                		limit = {
+                        		check_variable = {
+                            			coeffRisk > 99.999
+                        		}
+                    		}
+                    		country_event = {
+                        		id = SDL_base.28
+                        		days = 2
+				}
+                	}
+		}
+             	if = {
+                	limit = {
+                        	check_variable = {
+                            		coeffRisk > 99.999
+                        	}
+                    	}
+                    	country_event = {
+                        	id = SDL_base.28
+                        	days = 2
+			}
+                    }
+                }
+            }
+        }
+    }
+}

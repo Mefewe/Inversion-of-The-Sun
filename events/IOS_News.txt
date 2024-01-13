@@ -1,0 +1,15 @@
+add_namespace = News
+
+news_event = {
+	id = News.1
+	title = News.1.title
+	desc = News.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+
+	option = {
+		name = News.1.a
+	}
+}

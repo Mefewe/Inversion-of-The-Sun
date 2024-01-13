@@ -1,0 +1,54 @@
+add_namespace = News_CityFall
+
+news_event = {
+	id = News_CityFall.1
+	title = News_CityFall.1.title
+	desc = News_CityFall.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+
+	option = {
+		name = News_CityFall.1.a
+	}
+}
+news_event = {
+	id = News_CityFall.2
+	title = News_CityFall.2.title
+	desc = News_CityFall.2.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+
+	option = {
+		name = News_CityFall.2.a
+	}
+}
+news_event = {
+	id = News_CityFall.3
+	title = News_CityFall.3.title
+	desc = News_CityFall.3.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+
+	option = {
+		name = News_CityFall.3.a
+	}
+}
+news_event = {
+	id = News_CityFall.4
+	title = News_CityFall.4.title
+	desc = News_CityFall.4.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+
+	option = {
+		name = News_CityFall.4.a
+	}
+}

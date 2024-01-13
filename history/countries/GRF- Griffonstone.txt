@@ -17,14 +17,6 @@ add_ideas = {
 		closed_economy
 	}
 
-create_faction = GriffonEmpire
-
-GRF = { 
-add_to_faction = LBR
-add_to_faction = BCK
-add_to_faction = FEA
-add_to_faction = WNG }
-
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1768.7.8"

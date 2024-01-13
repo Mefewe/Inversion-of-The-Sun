@@ -375,6 +375,7 @@ country_event = {
 		set_power_balance = {
 			id = SDL_CONF_CONVENT_VS_SILVA_balance
 		}
+		set_global_flag = SDL_FactionStruggleBegins
 	}
 }
 country_event = {
@@ -703,6 +704,374 @@ country_event = {
 		add_popularity = {
 			ideology = neutrality
 			popularity = 0.1
+		}
+		hidden_effect = {
+			country_event = {
+   				id = SDL_base.29
+    				days = 5
+			}
+		}
+	}
+}
+country_event = {
+	id = SDL_base.28	# SCANDAL !!!
+	title = SDL_base.28.title
+	desc = SDL_base.28.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.28.a
+		tag = SDL
+		add_political_power = -150
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.25
+		}
+		complete_national_focus = SDL_convent_interrputs
+	}
+}
+country_event = {
+	id = SDL_base.29
+	title = SDL_base.29.title
+	desc = SDL_base.29.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.29.a
+		custom_effect_tooltip = ConfederationCollapseEvent_SDL_tt
+		hidden_effect = {
+			drop_cosmetic_tag
+			retire_country_leader = yes
+			recruit_character = SDL_Monarch
+			promote_character = { 
+				character = SDL_Monarch
+				ideology = despotism
+			}
+			set_politics = {
+				ruling_party = paternalism
+			}
+			GRF = {
+				transfer_state = 408
+				transfer_state = 429
+				transfer_state = 458
+				transfer_state = 456
+				transfer_state = 486
+				transfer_state = 479
+				transfer_state = 511
+				transfer_state = 512
+				transfer_state = 545
+				transfer_state = 210
+				transfer_state = 212
+				transfer_state = 647
+				transfer_state = 556
+				transfer_state = 606
+				transfer_state = 695
+				transfer_state = 670
+				transfer_state = 648
+				transfer_state = 679
+				transfer_state = 719
+				transfer_state = 311
+				transfer_state = 673
+				transfer_state = 706
+				transfer_state = 687
+				transfer_state = 657
+				transfer_state = 661
+				transfer_state = 621
+				transfer_state = 622
+				transfer_state = 677
+				transfer_state = 613
+				transfer_state = 587
+
+				add_state_core = 408
+				add_state_core = 429
+				add_state_core = 458
+				add_state_core = 456
+				add_state_core = 486
+				add_state_core = 479
+				add_state_core = 511
+				add_state_core = 512
+				add_state_core = 545
+				add_state_core = 210
+				add_state_core = 212
+				add_state_core = 647
+				add_state_core = 556
+				add_state_core = 606
+				add_state_core = 695
+				add_state_core = 670
+				add_state_core = 648
+				add_state_core = 679
+				add_state_core = 719
+				add_state_core = 311
+				add_state_core = 673
+				add_state_core = 706
+				add_state_core = 687
+				add_state_core = 657
+				add_state_core = 661
+				add_state_core = 621
+				add_state_core = 622
+				add_state_core = 677
+				add_state_core = 613
+				add_state_core = 587
+				set_cosmetic_tag = GRF_UNI
+				add_ideas = {
+					tleushaja_garmonija
+				}
+
+				send_embargo = CHN
+				send_embargo = MRT
+				send_embargo = CAR
+				send_embargo = VRB
+				send_embargo = FRD
+				send_embargo = KLG
+				send_embargo = DMN
+				send_embargo = TYR
+				send_embargo = FRZ
+				send_embargo = OZB
+
+				load_focus_tree = GRF_UNI_tree
+				mark_focus_tree_layout_dirty = yes
+			}
+			SDL = {
+				set_capital = {
+					state = 483
+					remember_old_capital = no
+				}
+				remove_ideas = {
+					sdl_conf_last_survivors
+					sdl_conf_just_business
+					sdl_conf_damaged_business
+					sdl_conf_internal_chaos
+					sdl_conf_broken_armade
+					sdl_conf_lost_borean_idol
+					sdl_conf_involuntarily_allies
+					sdl_conf_convent_fragmentation
+					sdl_conf_angry_society
+					sdl_conf_investors_pls_come_back
+					sdl_conf_anti_silva_propaganda
+					sdl_conf_tranzebrican_identity
+					sdl_conf_fight_against_old_regime
+				}
+				remove_state_core = 408
+				remove_state_core = 429
+				remove_state_core = 458
+				remove_state_core = 456
+				remove_state_core = 486
+				remove_state_core = 479
+				remove_state_core = 511
+				remove_state_core = 512
+				remove_state_core = 545
+				remove_state_core = 210
+				remove_state_core = 212
+				remove_state_core = 647
+				remove_state_core = 556
+				remove_state_core = 606
+				remove_state_core = 695
+				remove_state_core = 670
+				remove_state_core = 648
+				remove_state_core = 679
+				remove_state_core = 719
+				remove_state_core = 311
+				remove_state_core = 673
+				remove_state_core = 706
+				remove_state_core = 687
+				remove_state_core = 657
+				remove_state_core = 661
+				remove_state_core = 621
+				remove_state_core = 622
+				remove_state_core = 677
+				remove_state_core = 613
+				remove_state_core = 587
+
+				transfer_units_fraction = {
+					target = GRF
+					size = 0.6
+					stockpile_ratio = 0.65
+					army_ratio = 0.6
+					navy_ratio = 0.7
+					air_ratio = 0.8
+				}
+
+				add_ideas = {
+					tleushaja_garmonija
+				}
+
+				load_focus_tree = SDL_tree
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+	option = {
+		name = SDL_base.29.b
+		custom_effect_tooltip = ConfederationCollapseEvent_GRF_tt
+		hidden_effect = {
+			drop_cosmetic_tag
+			retire_country_leader = yes
+			recruit_character = GRF_Griffon
+			promote_character = { 
+				character = GRF_Griffon
+				ideology = despotism
+			}
+			set_politics = {
+				ruling_party = paternalism
+			}
+			GRF = {
+				transfer_state = 408
+				transfer_state = 429
+				transfer_state = 458
+				transfer_state = 456
+				transfer_state = 486
+				transfer_state = 479
+				transfer_state = 511
+				transfer_state = 512
+				transfer_state = 545
+				transfer_state = 210
+				transfer_state = 212
+				transfer_state = 647
+				transfer_state = 556
+				transfer_state = 606
+				transfer_state = 695
+				transfer_state = 670
+				transfer_state = 648
+				transfer_state = 679
+				transfer_state = 719
+				transfer_state = 311
+				transfer_state = 673
+				transfer_state = 706
+				transfer_state = 687
+				transfer_state = 657
+				transfer_state = 661
+				transfer_state = 621
+				transfer_state = 622
+				transfer_state = 677
+				transfer_state = 613
+				transfer_state = 587
+
+				add_state_core = 408
+				add_state_core = 429
+				add_state_core = 458
+				add_state_core = 456
+				add_state_core = 486
+				add_state_core = 479
+				add_state_core = 511
+				add_state_core = 512
+				add_state_core = 545
+				add_state_core = 210
+				add_state_core = 212
+				add_state_core = 647
+				add_state_core = 556
+				add_state_core = 606
+				add_state_core = 695
+				add_state_core = 670
+				add_state_core = 648
+				add_state_core = 679
+				add_state_core = 719
+				add_state_core = 311
+				add_state_core = 673
+				add_state_core = 706
+				add_state_core = 687
+				add_state_core = 657
+				add_state_core = 661
+				add_state_core = 621
+				add_state_core = 622
+				add_state_core = 677
+				add_state_core = 613
+				add_state_core = 587
+				set_capital = {
+					state = 486
+					remember_old_capital = no
+				}
+				add_ideas = {
+					tleushaja_garmonija
+				}
+				set_cosmetic_tag = GRF_UNI
+
+				send_embargo = CHN
+				send_embargo = MRT
+				send_embargo = CAR
+				send_embargo = VRB
+				send_embargo = FRD
+				send_embargo = KLG
+				send_embargo = DMN
+				send_embargo = TYR
+				send_embargo = FRZ
+				send_embargo = OZB
+
+				load_focus_tree = GRF_UNI_tree
+				mark_focus_tree_layout_dirty = yes
+			}
+			GRF = { change_tag_from = SDL }
+			SDL = {
+				set_capital = {
+					state = 483
+					remember_old_capital = no
+				}
+				remove_ideas = {
+					sdl_conf_last_survivors
+					sdl_conf_just_business
+					sdl_conf_damaged_business
+					sdl_conf_internal_chaos
+					sdl_conf_broken_armade
+					sdl_conf_lost_borean_idol
+					sdl_conf_involuntarily_allies
+					sdl_conf_convent_fragmentation
+					sdl_conf_angry_society
+					sdl_conf_investors_pls_come_back
+					sdl_conf_anti_silva_propaganda
+					sdl_conf_tranzebrican_identity
+					sdl_conf_fight_against_old_regime
+				}
+				remove_state_core = 408
+				remove_state_core = 429
+				remove_state_core = 458
+				remove_state_core = 456
+				remove_state_core = 486
+				remove_state_core = 479
+				remove_state_core = 511
+				remove_state_core = 512
+				remove_state_core = 545
+				remove_state_core = 210
+				remove_state_core = 212
+				remove_state_core = 647
+				remove_state_core = 556
+				remove_state_core = 606
+				remove_state_core = 695
+				remove_state_core = 670
+				remove_state_core = 648
+				remove_state_core = 679
+				remove_state_core = 719
+				remove_state_core = 311
+				remove_state_core = 673
+				remove_state_core = 706
+				remove_state_core = 687
+				remove_state_core = 657
+				remove_state_core = 661
+				remove_state_core = 621
+				remove_state_core = 622
+				remove_state_core = 677
+				remove_state_core = 613
+				remove_state_core = 587
+
+				transfer_units_fraction = {
+					target = GRF
+					size = 0.6
+					stockpile_ratio = 0.65
+					army_ratio = 0.6
+					navy_ratio = 0.7
+					air_ratio = 0.8
+				}
+				add_ideas = {
+					tleushaja_garmonija
+				}
+
+				load_focus_tree = SDL_tree
+				mark_focus_tree_layout_dirty = yes
+			}
 		}
 	}
 }

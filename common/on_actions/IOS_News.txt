@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					tag = SDL
+					has_war_with = FRZ
+				}
+				country_event = News.1
+			}
+		}
+	}
+}

@@ -36,6 +36,10 @@
  sdl_conf_investors_pls_come_back_desc: ""
  sdl_conf_anti_silva_propaganda: "Волна дескредитации в СМИ"
  sdl_conf_anti_silva_propaganda_desc: ""
+ sdl_conf_tranzebrican_identity: "Проект нового гражданина"
+ sdl_conf_tranzebrican_identity_desc: ""
+ sdl_conf_fight_against_old_regime: "Мы против!"
+ sdl_conf_fight_against_old_regime_desc: ""
 
  # SDL_CONF_internal_chaos_tt: "Прирост политической власти: [?SDL_CONF_ppgain|R%]\nСтабильность: [?SDL_CONF_stabilityfactor|R%]"
 
@@ -44,14 +48,25 @@
  sdl_conf_pp_modify_3: "Маневрирует между фракциями"
  sdl_conf_pp_modify_4: "Может принять чужую точку зрения"
  sdl_conf_pp_modify_5: "Принципиальный борец"
- sdl_conf_pp_modify_6: ""
+ sdl_conf_pp_modify_6: "Крайняя нелояльность"
+ sdl_conf_pp_modify_7: "Личные комиссии Сандстри"
  sdl_conf_stability_modify_1: "Президент Сандстри"
- sdl_conf_stability_modify_2: ""
+ sdl_conf_stability_modify_2: "Пресс-релиз"
  sdl_conf_multi_1: "Поддерживает радикалов в правительстве"
  sdl_conf_multi_2: "Расширенные полномочия"
- sdl_conf_multi_3: ""
+ sdl_conf_multi_3: "Трудовые соревнования"
  sdl_conf_multi_4: "Большой съезд Конвента"
- sdl_conf_cinstruction_1: ""
+ sdl_conf_multi_5: "Наднациональные законы"
+ sdl_conf_multi_6: "Фестиваль единения"
+ sdl_conf_multi_7: "Новая система военного продвижения"
+ sdl_conf_construction_1: "Льготы строителям за наш счёт"
+ sdl_conf_consumer_goods_1: "Затраты на партийную акцию"
+
+ sdl_conf_minor_illegal_activity: "Мелкие репрессии"
+ sdl_conf_illegal_activity_1: "Серьёзный резонанс"
+ sdl_conf_illegal_activity_2: "Недоброжелательность к некоторым идеям"
+ sdl_conf_illegal_activity_3: "Избавление от бестолковых"
+ sdl_conf_illegal_activity_4: "За гранью"
 
  ######################
  ### NATIONAL_FOCUS ###
@@ -231,6 +246,27 @@
  SDL_rally_starts: "§OПесок вздымается, леса горят..."
  SDL_rally_starts_desc: ""
  
+ #################
+ ### DECISIONS ###
+ #################
+ SDL_CONF_RiskCheck: "Коэффициент риска: [?coeffRisk|R]§W"
+ SDL_CONF_RiskCheck2: "Статический модификатор: [?riskStaticFactor|O]§W"
+ SDL_CONF_RiskCheck3: "Стабильность: [?bugFix|B]§W"
+ SDL_CONF_RiskTest: "Добавить §R5§W единиц риска"
+ SDL_CONF_SilvaPopularityAdd: "Добавить популярность Сильве"
+ SDL_CONF_ConventPopularityAdd: "Добавить поддержку Конвенту"
+ SDL_CONF_LegalActivityStabilize: "§YПрезидентский пресс-релиз§W"
+ SDL_CONF_LegalActivityProdAdd: "§YПартийное производственное соревнование§W"
+ SDL_CONF_LegalActivityConstructionAdd: "§YЛьготы строителям§W"
+ SDL_CONF_LegalActivity1: "§YМанифестация участников Конфедеративного Радикалитета§W"
+ SDL_CONF_LegalActivity2: "§YСобственные СМИ§W"
+ SDL_CONF_LegalActivity3: "§YОрганизация партийного фонда§W"
+ SDL_CONF_IllegalMinorActivity: "§gЗапугивание несогласных§W"
+ SDL_CONF_IllegalActivity_1: "§gАрест видного оппозиционера§W"
+ SDL_CONF_IllegalActivity_2: "§gРазгром кружков индепендентов§W"
+ SDL_CONF_IllegalActivity_3: "§gЛиквидировать Фарзу Даста§W"
+ SDL_CONF_IllegalActivity_4: "§gСпециальная тайная директива§W"
+
  ##############
  ### EVENTS ###
  ##############
@@ -281,3 +317,17 @@
  SDL_CONF_SILVA_2: "Множество сторонников"
  SDL_CONF_SILVA_3: "Все на стороне президента"
  ConventFakeFocusTooltip_tt: "§9Наши усилия по сохранению Конфедерации, сдуя по всему, увенчались успехом! Ну, конечно, этот проект стал иметь всё меньше сторонников, настроения в Конвенте и обществе упаднеческие, но всё же ведь хорошо, да?§W"
+ RiskInfo_tt: "§RРиск§W политического скандала и последующего за ним кризиса повысится, если президент будет использовать незаконные и диктаторские методы борьбы за власть. В настоящих условиях жизнь Конфедерации висит на волоске. Остерегайтесь провоцировать Конвент, когда мало стабильности, если не хотите уйти с поста раньше срока..."
+ MinorLegalAction1_tt: "§5Описание§W"
+ MinorLegalAction2_tt: "§5Описание§W"
+ MinorLegalAction3_tt: "§5Описание§W"
+ LegalAction1_tt: "§5Из бюджета партии будет выделены средства на проведение акций поддержки президента в крупных городах.§W"
+
+ LegalActivity1_ACTIVE: "§WМанифестация прошлла"
+ LegalActivity2_ACTIVE: "§WРабота над СМИ окончена"
+ IllegalActivity1_ACTIVE: "§WПосле ареста ситуация утряслась"
+ IllegalActivity2_ACTIVE: "§WСобрания инакомыслящих закрыты"
+ IllegalActivity3_ACTIVE: "§WФарза Даст устранён"
+
+ ConfederationCollapseEvent_SDL_tt: "§LСоюз не прошёл проверку на прочность. Внутренние разногласия и не позабытые обиды выбили колосса материка. Грифоны и лошади досрочно разорвали Пакт Восхода, а вмести и с ним - конфедеративный союз.\n\nБолее противовеса чейнджлингской имперской машине в Зебрике не осталось.\n\n§YИ пускай так, загребущие грифоньи лапы теперь точно не доберутся до наших природных богатств и не осквернят седлостанский народ!§W"
+ ConfederationCollapseEvent_GRF_tt: "§LСоюз не прошёл проверку на прочность. Внутренние разногласия и не позабытые обиды выбили колосса материка. Грифоны и лошади досрочно разорвали Пакт Восхода, а вмести и с ним - конфедеративный союз.\n\nБолее противовеса чейнджлингской имперской машине в Зебрике не осталось\n\n§OЭта авантюра внушала надежду, теперь же придётся туго: один на один с жуками. Может припомним им наши с ними давно забытые дружеские отношения и договоримся? Одно в этой ситуции радует - грифоны отделались от тупоголвых лошадей.§W"

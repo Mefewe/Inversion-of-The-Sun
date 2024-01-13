@@ -15,7 +15,6 @@ SDL_CONF_CONVENT_VS_SILVA_balance = {
 	side = {
 		id = Convent
 		icon = GFX_idea_generic_agrarian_society
-		custom_effect_tooltip = ConventBopTooltip_tt
 		range = {
 			id = SDL_CONF_CONVENT_1
 			min = -0.35
@@ -69,7 +68,6 @@ SDL_CONF_CONVENT_VS_SILVA_balance = {
 	side = {
 		id = Silva
 		icon = GFX_idea_generic_degauss_ship_hulls
-
 		range = {
 			id = SDL_CONF_SILVA_1
 			min = 0.1

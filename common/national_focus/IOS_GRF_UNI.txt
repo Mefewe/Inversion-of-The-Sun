@@ -1,0 +1,11 @@
+focus_tree = {
+	id = GRF_UNI_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UNI
+			}
+		}	
+	default = no
+}

@@ -22,6 +22,8 @@ technologies = {
 			anti_tank_equipment_hand_3
 			anti_air_equipment_hand_1
 			anti_air_equipment_hand_2
+			candc_equpment_1
+			support_equipment_1
 		}
 
 		enable_equipment_modules = {

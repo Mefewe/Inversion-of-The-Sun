@@ -4,6 +4,11 @@ ideas = {
 		## BASIC ##
 		###########
                 sdl_conf_struggling_harmony = {
+			cancel = {
+				NOT = {
+					has_country_leader_ideology = harmony
+				}
+			}
 			modifier = {
 				drift_defence_factor = 0.5
 				democratic_acceptance = 50
@@ -186,11 +191,6 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-		sdl_conf_stability_modify_2 = {
-			modifier = {
-				stability_factor = 0.4
-			}
-		}
 
 		###
 
@@ -204,13 +204,6 @@ ideas = {
 			modifier = {
 				stability_factor = 0.15
 				political_power_factor = 0.5
-			}
-		}
-		sdl_conf_multi_3 = {
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.5
-				production_factory_max_efficiency_factor = 0.5
-				line_change_production_efficiency_factor = 0.5
 			}
 		}
 		sdl_conf_multi_4 = {
@@ -240,11 +233,59 @@ ideas = {
 			}
 		}
 
-		###
 
-		sdl_conf_cinstruction_1 = {
+		### BOP IDEAS
+
+		# Legal activities
+
+		sdl_conf_consumer_goods_1 = {
+			modifier = {
+				consumer_goods_expected_value = 0.5
+				consumer_goods_factor = 0.25
+			}
+		}
+		sdl_conf_stability_modify_2 = {
+			modifier = {
+				stability_factor = 0.4
+			}
+		}
+		sdl_conf_multi_3 = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.5
+				production_factory_max_efficiency_factor = 0.5
+				line_change_production_efficiency_factor = 0.5
+			}
+		}
+		sdl_conf_construction_1 = {
 			modifier = {
 				production_speed_buildings_factor = 0.5
+			}
+		}
+
+		# Illegal activities
+		sdl_conf_minor_illegal_activity = {
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+		sdl_conf_illegal_activity_1 = {
+			modifier = {
+				stability_factor = -0.35
+			}
+		}
+		sdl_conf_illegal_activity_2 = {
+			modifier = {
+				stability_factor = -0.5
+			}
+		}
+		sdl_conf_illegal_activity_3 = {
+			modifier = {
+				stability_factor = -0.65
+			}
+		}
+		sdl_conf_illegal_activity_4 = {
+			modifier = {
+				stability_factor = -0.7
 			}
 		}
 	}

@@ -1,4 +1,71 @@
 SDL_CONF_ConventConflict = {
+	SDL_CONF_RiskCheck = {
+		available = {
+			always = no
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			custom_effect_tooltip = RiskInfo_tt
+		}
+	}
+	SDL_CONF_RiskCheck2 = {
+		available = {
+			always = no
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+	SDL_CONF_RiskCheck3 = {
+		available = {
+			always = no
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+	SDL_CONF_RiskTest = {
+		available = {
+			tag = SDL
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = {
+				var = riskStaticFactor
+				value = 5
+			}
+		}
+	}
 	SDL_CONF_SilvaPopularityAdd = {
 		available = {
 			tag = SDL
@@ -54,13 +121,14 @@ SDL_CONF_ConventConflict = {
 		days_remove = 80
 
 		complete_effect = {
+			custom_effect_tooltip = MinorLegalAction1_tt
 			add_timed_idea = { 
 				idea = sdl_conf_stability_modify_2
 				days = 60
 			}
 			add_power_balance_value = {
 				id = SDL_CONF_CONVENT_VS_SILVA_balance 
-				value = 0.05
+				value = 0.10
 			}
 		}
 	}
@@ -78,13 +146,14 @@ SDL_CONF_ConventConflict = {
 		days_remove = 80
 
 		complete_effect = {
+			custom_effect_tooltip = MinorLegalAction1_tt
 			add_timed_idea = { 
 				idea = sdl_conf_multi_3
 				days = 60
 			}
 			add_power_balance_value = {
 				id = SDL_CONF_CONVENT_VS_SILVA_balance 
-				value = 0.05
+				value = 0.10
 			}
 		}
 	}
@@ -102,13 +171,14 @@ SDL_CONF_ConventConflict = {
 		days_remove = 80
 
 		complete_effect = {
+			custom_effect_tooltip = MinorLegalAction1_tt
 			add_timed_idea = { 
-				idea = sdl_conf_cinstruction_1
+				idea = sdl_conf_construction_1
 				days = 60
 			}
 			add_power_balance_value = {
 				id = SDL_CONF_CONVENT_VS_SILVA_balance 
-				value = 0.05
+				value = 0.10
 			}
 		}
 	}
@@ -126,6 +196,82 @@ SDL_CONF_ConventConflict = {
 		days_remove = 60
 
 		complete_effect = {
+			custom_effect_tooltip = LegalAction1_tt
+			add_timed_idea = {
+				idea = sdl_conf_consumer_goods_1
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.15
+			}
+			set_global_flag = LegalActivity1_COMPLETE
+			set_global_flag = {
+				flag = LegalActivity1_ACTIVE
+				days = 60
+				value = 1
+			}
+		}
+	}
+	SDL_CONF_LegalActivity2 = {
+		available = {
+			tag = SDL
+			NOT = {
+				has_global_flag = LegalActivity1_ACTIVE
+			}
+		}
+
+		visible = {
+			has_global_flag = LegalActivity1_COMPLETE
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 60
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = sdl_conf_consumer_goods_1
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.15
+			}
+			set_global_flag = LegalActivity2_COMPLETE
+			set_global_flag = {
+				flag = LegalActivity2_ACTIVE
+				days = 60
+				value = 1
+			}
+		}
+	}
+	SDL_CONF_LegalActivity3 = {
+		available = {
+			tag = SDL
+			NOT = {
+				has_global_flag = LegalActivity2_ACTIVE
+			}
+		}
+
+		visible = {
+			has_global_flag = LegalActivity2_COMPLETE
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 60
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = sdl_conf_consumer_goods_1
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.15
+			}
+			set_global_flag = LegalActivity3_COMPLETE
 		}
 	}
 	SDL_CONF_IllegalMinorActivity = {
@@ -142,6 +288,18 @@ SDL_CONF_ConventConflict = {
 		days_remove = 60
 
 		complete_effect = {
+			add_to_variable = {
+				var = riskStaticFactor
+				value = 2
+			}
+			add_timed_idea = {
+				idea = sdl_conf_minor_illegal_activity
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.2
+			}
 		}
 	}
 	SDL_CONF_IllegalActivity_1 = {
@@ -154,10 +312,134 @@ SDL_CONF_ConventConflict = {
 		}
 
 		fire_only_once = yes
-		cost = 85
+		cost = 75
 		days_remove = 60
 
 		complete_effect = {
+			add_to_variable = {
+				var = riskStaticFactor
+				value = 5
+			}
+			add_timed_idea = {
+				idea = sdl_conf_illegal_activity_1
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.30
+			}
+			set_global_flag = IllegalActivity1_COMPLETE
+			set_global_flag = {
+				flag = IllegalActivity1_ACTIVE
+				days = 60
+				value = 1
+			}
+		}
+	}
+	SDL_CONF_IllegalActivity_2 = {
+		available = {
+			tag = SDL
+			NOT = {
+				has_global_flag = IllegalActivity1_ACTIVE
+			}
+		}
+
+		visible = {
+			has_global_flag = IllegalActivity1_COMPLETE
+		}
+
+		fire_only_once = yes
+		cost = 90
+		days_remove = 60
+
+		complete_effect = {
+			add_to_variable = {
+				var = riskStaticFactor
+				value = 8
+			}
+			add_timed_idea = {
+				idea = sdl_conf_illegal_activity_2
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.40
+			}
+			set_global_flag = IllegalActivity2_COMPLETE
+			set_global_flag = {
+				flag = IllegalActivity2_ACTIVE
+				days = 60
+				value = 1
+			}
+		}
+	}
+	SDL_CONF_IllegalActivity_3 = {
+		available = {
+			tag = SDL
+			NOT = {
+				has_global_flag = IllegalActivity2_ACTIVE
+			}
+		}
+
+		visible = {
+			has_global_flag = IllegalActivity2_COMPLETE
+		}
+
+		fire_only_once = yes
+		cost = 90
+		days_remove = 60
+
+		complete_effect = {
+			add_to_variable = {
+				var = riskStaticFactor
+				value = 14
+			}
+			add_timed_idea = {
+				idea = sdl_conf_illegal_activity_3
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.50
+			}
+			set_global_flag = IllegalActivity3_COMPLETE
+			set_global_flag = {
+				flag = IllegalActivity3_ACTIVE
+				days = 60
+				value = 1
+			}
+		}
+	}
+	SDL_CONF_IllegalActivity_4 = {
+		available = {
+			tag = SDL
+			NOT = {
+				has_global_flag = IllegalActivity3_ACTIVE
+			}
+		}
+
+		visible = {
+			has_global_flag = IllegalActivity3_COMPLETE
+		}
+
+		fire_only_once = yes
+		cost = 90
+		days_remove = 60
+
+		complete_effect = {
+			add_to_variable = {
+				var = riskStaticFactor
+				value = 18
+			}
+			add_timed_idea = {
+				idea = sdl_conf_illegal_activity_4
+				days = 60
+			}
+			add_power_balance_value = {
+				id = SDL_CONF_CONVENT_VS_SILVA_balance 
+				value = 0.50
+			}
+			set_global_flag = IllegalActivity4_ACTIVE
 		}
 	}
 }

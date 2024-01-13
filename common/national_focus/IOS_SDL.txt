@@ -1,0 +1,11 @@
+focus_tree = {
+	id = SDL_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SDL
+			}
+		}	
+	default = no
+}

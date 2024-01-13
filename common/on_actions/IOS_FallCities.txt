@@ -1,0 +1,52 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			FROM = {
+				save_event_target_as = former_controller
+			}
+			FROM.FROM = {
+				save_event_target_as = newly_controlled_state
+			}
+			if  = {
+				limit = {
+					tag = SDL
+					has_war_with = FRZ
+					NOT = {
+						696 = { is_owned_by = SDL }
+					}
+				}
+				country_event = News_CityFall.1
+			}
+			else  = {
+				limit = {
+					tag = SDL
+					has_war_with = FRZ
+					NOT = {
+						745 = { is_owned_by = SDL }
+					}
+				}
+				country_event = News_CityFall.2
+			}
+			else_if  = {
+				limit = {
+					tag = SDL
+					has_war_with = FRZ
+					NOT = {
+						781 = { is_owned_by = SDL }
+					}
+				}
+				country_event = News_CityFall.3
+			}
+			else_if  = {
+				limit = {
+					tag = SDL
+					has_war_with = FRZ
+					NOT = {
+						855 = { is_owned_by = SDL }
+					}
+				}
+				country_event = News_CityFall.4
+			}
+		}
+	}
+}
