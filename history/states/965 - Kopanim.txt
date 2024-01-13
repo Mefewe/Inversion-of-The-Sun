@@ -1,0 +1,24 @@
+state={
+	id=965
+	name="STATE_965"
+	provinces={
+		7291
+	}
+	history={
+	victory_points = {7291 5} # 
+        owner = AOZ
+        add_core_of = AOZ
+        buildings = {
+            infrastructure = 3
+		    arms_factory = 1
+        }
+    }
+
+    resources = {
+        steel = 8
+    }
+
+    state_category = town
+	manpower=12851
+	buildings_max_level_factor=1.000
+}

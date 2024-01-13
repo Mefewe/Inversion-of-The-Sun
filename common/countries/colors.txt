@@ -275,6 +275,11 @@ color_ui = rgb { 183 164 48 }
 
 
 
+AOZ = {
+color = rgb { 140 60 90 }
+color_ui = rgb { 140 60 90 }
+}
+
 
 ZBR = {
 color = rgb { 127 163 0 }

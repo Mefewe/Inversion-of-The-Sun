@@ -9,11 +9,11 @@ state={
         owner = EQS
         add_core_of = EQS
         buildings = {
-                infrastructure = 4
-		industry_complex = 1
-		army_factory = 2
-		ammo_complex = 1
-		9378 = { naval_base = 1 }
+        	infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			ammo_complex = 1
+			9378 = { naval_base = 1 }
         }
     }
 

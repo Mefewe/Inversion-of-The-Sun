@@ -1,6 +1,7 @@
 add_namespace = TYR_hidden
 
 add_namespace = TYR
+add_namespace = TYR_news
 
 country_event = {
 	id = TYR.1
@@ -145,5 +146,112 @@ country_event = {
 				set_cosmetic_tag = BKS_CONF
 			}
 		}
+	}
+}
+###############################################################################################
+country_event = {
+	id = TYR.100 # Первый ивент для смены 1 древа фокусов на 2
+	title = TYR.100.title
+	desc = TYR.100.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.100.a
+		hidden_effect = {
+			country_event = {days = 10 id = TYR.101}
+		}
+	}
+}
+
+country_event = {
+	id = TYR.101 # Смена древа фокусов
+	title = TYR.101.title
+	desc = TYR.101.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		add_stability = -0.05
+		send_equipment = {
+			type = infantry_equipment
+			amount = 2500
+			target = AOZ
+		}
+		send_equipment = {
+			type = infantry_ammo_equipment
+			amount = 5000
+			target = AOZ
+		}
+		send_equipment = {
+			type = anti_tank_equipment
+			amount = 500
+			target = AOZ
+		}
+		name = TYR.101.a
+		load_focus_tree = TYR_focus_tree_two
+		mark_focus_tree_layout_dirty = yes
+		news_event = TYR_news.1
+	}
+}
+country_event = {
+	id = TYR.102 # Уничтожение боевиков
+	title = TYR.102.title
+	desc = TYR.102.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.102.a
+	}
+}
+country_event = {
+	id = TYR.103 # Работа ВВС
+	title = TYR.103.title
+	desc = TYR.103.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.103.a
+	}
+}
+
+
+country_event = {
+	id = TYR.200 # Провал АТО
+	title = TYR.200.title
+	desc = TYR.200.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.200.a
+		load_focus_tree = TYR_focus_tree_two_proval
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+country_event = {
+	id = TYR.201 # Осознание трагедии
+	title = TYR.201.title
+	desc = TYR.201.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.201.a
+	}
+}
+###########################################
+news_event = {
+	id = TYR_news.1
+	title = TYR_news.1.title
+	desc = TYR_news.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR_news.1.a
+
 	}
 }

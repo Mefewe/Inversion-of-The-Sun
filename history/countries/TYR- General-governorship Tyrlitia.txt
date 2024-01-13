@@ -15,11 +15,10 @@ set_technology = {
 	night_vision = 1
 	tech_special_forces = 1
 	motorised_infantry = 1
-	bronetransporter_infantry = 1
 	mechanised_infantry = 1
-	infantry_anti_tank_1 = 1
-	infantry_anti_tank_2 = 1
-	infantry_anti_air_1 = 1
+	#infantry_anti_tank_1 = 1
+	#infantry_anti_tank_2 = 1
+	#infantry_anti_air_1 = 1
 
 	### SUPPORT
 	tech_support = 1
@@ -29,9 +28,9 @@ set_technology = {
 	tech_maintenance_company = 1
 	tech_field_hospital = 1
 	tech_logistics_company = 1
-	military_infrastructure1 = 1
+	#military_infrastructure1 = 1
 	basic_train = 1
-	command_and_control1 = 1
+	#command_and_control1 = 1
 
 	### ARTILLERY
 	gw_artillery = 1
@@ -47,7 +46,7 @@ set_technology = {
 
 	### TANKS
 	advanced_medium_tank = 1
-	medium_tank_gw = 1
+	#medium_tank_gw = 1
 }
 
 ################## STOCKPILES
@@ -112,9 +111,9 @@ add_equipment_to_stockpile = {
 
 add_ideas = {
 		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
+		civilian_economy
+		volunteer_only
+		export_focus
 	}
 set_politics = {
 	ruling_party = fascism

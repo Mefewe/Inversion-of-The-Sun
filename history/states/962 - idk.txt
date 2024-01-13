@@ -10,8 +10,8 @@ state={
         add_core_of = EQS
         buildings = {
                 infrastructure = 5
-		industry_complex = 3
-		army_factory = 1
+		industrial_complex = 3
+		arms_factory = 1
 		ammo_complex = 1
 		9367 = { naval_base = 1 }
         }

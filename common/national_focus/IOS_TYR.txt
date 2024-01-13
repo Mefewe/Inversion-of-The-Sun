@@ -12,6 +12,38 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+focus_tree = {
+	id = TYR_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TYR
+		}
+	}
+	shared_focus = TYR_GovernorSpeech
+	shared_focus = TYR_Zebrijskaja_problema
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+focus_tree = {
+	id = TYR_focus_tree_two_proval
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TYR
+		}
+	}
+	shared_focus = TYR_GovernorSpeech
+	shared_focus = TYR_Zebrijskaja_problema
+	shared_focus = TYR_nam_pizda
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
 
 shared_focus = {
 	id = TYR_GovernorSpeech
@@ -241,5 +273,147 @@ shared_focus = {
 	x = 12
 	y = 6
 	completion_reward = { 
+	}
+}
+
+shared_focus = {
+	id = TYR_Zebrijskaja_problema
+	cost = 2
+	x = 18
+	y = 8
+	completion_reward = { 
+		country_event = TYR.102
+	}
+}
+shared_focus = {
+	id = TYR_prjamo_v_fortochku
+	prerequisite = {
+		focus = TYR_Zebrijskaja_problema
+	}
+	cost = 2
+	x = 18
+	y = 10
+	completion_reward = { 
+		country_event = TYR.103
+	}
+}
+shared_focus = {
+	id = TYR_stabilizirovat_obstanovku
+	prerequisite = {
+		focus = TYR_prjamo_v_fortochku
+	}
+	cost = 2
+	x = 18
+	y = 12
+	completion_reward = { 
+		
+	}
+}
+shared_focus = {
+	id = TYR_generaljnyj_plan_kto
+	prerequisite = {
+		focus = TYR_stabilizirovat_obstanovku
+	}
+	cost = 2
+	x = 18
+	y = 14
+	completion_reward = { 
+		
+	}
+}
+
+shared_focus = {
+	id = TYR_iznichtozhit_va_szhech
+	prerequisite = {
+		focus = TYR_generaljnyj_plan_kto
+	}
+	mutually_exclusive = {
+		focus = TYR_projavit_viderzhku
+	}
+	cost = 2
+	x = 22
+	y = 15
+	completion_reward = { 
+		
+	}
+}
+
+shared_focus = {
+	id = TYR_projavit_viderzhku
+	prerequisite = {
+		focus = TYR_generaljnyj_plan_kto
+	}
+	mutually_exclusive = {
+		focus = TYR_iznichtozhit_va_szhech
+	}
+	cost = 2
+	x = 14
+	y = 15
+	completion_reward = { 
+		
+	}
+}
+######### TYR_iznichtozhit_va_szhech path
+shared_focus = {
+	id = TYR_sobratj_udarnyj_kulak
+	prerequisite = {
+		focus = TYR_iznichtozhit_va_szhech
+	}
+
+	cost = 2
+	x = 22
+	y = 16
+	completion_reward = { 
+		
+	}
+}
+shared_focus = {
+	id = TYR_rabota_artillerii
+	prerequisite = {
+		focus = TYR_sobratj_udarnyj_kulak
+	}
+
+	cost = 2
+	x = 22
+	y = 17
+	completion_reward = { 
+		
+	}
+}
+shared_focus = {
+	id = TYR_s_kabrirovania
+	prerequisite = {
+		focus = TYR_rabota_artillerii
+	}
+
+	cost = 2
+	x = 22
+	y = 18
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { 
+	id = TYR_v_ataku_voini_dobra #Нужен погранконфликт, причем все должно быть так забалансено, что армия Тирлитии обоссытся от фортов ополченцев, а также проебет кучу танков. Если выиграет, то будет уже другая ветка, но я пока сделаю уж пожалуй только если проебет
+	prerequisite = {
+		focus = TYR_s_kabrirovania
+	}
+
+	cost = 2
+	x = 22
+	y = 18
+	completion_reward = { 
+
+	}
+}
+######### TYR_iznichtozhit_va_szhech path. Тирлития проебала
+shared_focus = { 
+	id = TYR_nam_pizda
+
+	cost = 2
+	x = 18
+	y = 20
+	completion_reward = { 
+		country_event = TYR.201
 	}
 }
