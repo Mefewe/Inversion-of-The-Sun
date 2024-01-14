@@ -156,6 +156,811 @@ country_event = { #Льготы для рабочих
 	}
 }
 
+####### CIVIL WAR BERGINS HERE
+
+country_event = {
+	id = EQS.13 # Appleloosa revolts
+	title = EQS.13.title
+	desc = EQS.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.13.1
+		507 = { set_demilitarized_zone = yes }
+		539 = { set_demilitarized_zone = yes }
+		491 = { set_demilitarized_zone = yes }
+		480 = { set_demilitarized_zone = yes }
+		531 = { set_demilitarized_zone = yes }
+		hidden_effect = {
+			country_event = {
+				id = EQS.17
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.17 # Dodge-City revolts
+	title = EQS.17.title
+	desc = EQS.17.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.17.1
+		517 = { set_demilitarized_zone = yes }
+		485 = { set_demilitarized_zone = yes }
+		466 = { set_demilitarized_zone = yes }
+		524 = { set_demilitarized_zone = yes }
+		hidden_effect = {
+			country_event = {
+				id = EQS.18
+				days = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.18 # South in chaos
+	title = EQS.18.title
+	desc = EQS.18.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.18.1
+		hidden_effect = {
+			UNC = {
+				transfer_state = 395
+				transfer_state = 404
+				transfer_state = 432
+				transfer_state = 443
+				transfer_state = 423
+				transfer_state = 540
+				transfer_state = 543
+				transfer_state = 583
+				transfer_state = 530
+				transfer_state = 515
+				transfer_state = 520
+				transfer_state = 560
+				transfer_state = 495
+				transfer_state = 490
+				transfer_state = 476
+				transfer_state = 407
+				transfer_state = 431
+				transfer_state = 448
+				transfer_state = 537
+			}
+			country_event = {
+				id = EQS.19
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.19 # Foaledo revolts
+	title = EQS.19.title
+	desc = EQS.19.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.19.1
+		313 = { set_demilitarized_zone = yes }
+		318 = { set_demilitarized_zone = yes }
+		359 = { set_demilitarized_zone = yes }
+		hidden_effect = {
+			country_event = {
+				id = EQS.20
+				days = 9
+			}
+			country_event = {
+				id = EQS.24
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.24 # Cozy's brigade march
+	title = EQS.24.title
+	desc = EQS.24.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.24.1
+		NEG = {
+			transfer_state = 233
+			transfer_state = 254
+			set_cosmetic_tag = NEG_PROTO
+			add_ideas = {
+				proigravshije1
+				razrushennije_communikaciji
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = EQS.25
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.25 # Cozy has taken Cloudsdale and Whinnyapolis
+	title = EQS.25.title
+	desc = EQS.25.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.25.1
+		NEG = {
+			transfer_state = 291
+			transfer_state = 259
+			transfer_state = 295
+		}
+		hidden_effect = {
+			NEG = {
+				declare_war_on {
+					target = EQS
+					type = take_core_state
+				}
+			}
+			country_event = {
+				id = EQS.25
+				days = 9
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = EQS.20 # Baltimare and Fillydelphia revolts
+	title = EQS.20.title
+	desc = EQS.20.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.20.1
+		354 = { set_demilitarized_zone = yes }
+		741 = { set_demilitarized_zone = yes }
+		357 = { set_demilitarized_zone = yes }
+		396 = { set_demilitarized_zone = yes }
+		335 = { set_demilitarized_zone = yes }
+		356 = { set_demilitarized_zone = yes }
+		336 = { set_demilitarized_zone = yes }
+		312 = { set_demilitarized_zone = yes }
+		285 = { set_demilitarized_zone = yes }
+		315 = { set_demilitarized_zone = yes }
+		296 = { set_demilitarized_zone = yes }
+		271 = { set_demilitarized_zone = yes }
+		246 = { set_demilitarized_zone = yes }
+		282 = { set_demilitarized_zone = yes }
+		314 = { set_demilitarized_zone = yes }
+		379 = { set_demilitarized_zone = yes }
+		hidden_effect = {
+			country_event = {
+				id = EQS.21
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.21 # Manehattan revolts
+	title = EQS.21.title
+	desc = EQS.21.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.21.1
+		220 = { set_demilitarized_zone = yes }
+		194 = { set_demilitarized_zone = yes }
+		359 = { set_demilitarized_zone = yes }
+		185 = { set_demilitarized_zone = yes }
+		175 = { set_demilitarized_zone = yes }
+		hidden_effect = {
+			country_event = {
+				id = EQS.22
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.22 # Flatridge revolts
+	title = EQS.22.title
+	desc = EQS.22.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.22.1
+		74 = { set_demilitarized_zone = yes }
+		117 = { set_demilitarized_zone = yes }
+		147 = { set_demilitarized_zone = yes }
+		108 = { set_demilitarized_zone = yes }
+		hidden_effect = {
+			country_event = {
+				id = EQS.23
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = EQS.23 # East and north in chaos
+	title = EQS.23.title
+	desc = EQS.23.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.23.1
+		UNC = {
+			transfer_state = 329
+			transfer_state = 383
+			transfer_state = 369
+			transfer_state = 405
+			transfer_state = 397
+			transfer_state = 413
+			transfer_state = 272
+			transfer_state = 244
+			transfer_state = 189
+			transfer_state = 154
+			transfer_state = 121
+			transfer_state = 211
+			transfer_state = 248
+			transfer_state = 303
+		}
+		hidden_effect = {
+			country_event = {
+				id = EQS.14
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Creatures Front
+	id = EQS.14
+	title = EQS.14.title
+	desc = EQS.14.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.14.1
+		hidden_effect = {
+			UCF = {
+				transfer_state = 74
+				transfer_state = 147
+				transfer_state = 117
+				transfer_state = 108
+				transfer_state = 220
+				transfer_state = 194
+				transfer_state = 359
+				transfer_state = 185
+				transfer_state = 175
+				transfer_state = 507
+				transfer_state = 539
+				transfer_state = 491
+				transfer_state = 480
+				transfer_state = 531
+				transfer_state = 354
+				transfer_state = 741
+				transfer_state = 357
+				transfer_state = 396
+				transfer_state = 335
+				transfer_state = 356
+				transfer_state = 336
+				transfer_state = 312
+				transfer_state = 285
+				transfer_state = 315
+				transfer_state = 296
+				transfer_state = 271
+				transfer_state = 246
+				transfer_state = 282
+				transfer_state = 314
+				transfer_state = 379
+				transfer_state = 313
+				transfer_state = 318
+				transfer_state = 359
+				transfer_state = 517
+				transfer_state = 485
+				transfer_state = 466
+				transfer_state = 524
+
+				354 = { set_demilitarized_zone = no }
+				741 = { set_demilitarized_zone = no }
+				357 = { set_demilitarized_zone = no }
+				396 = { set_demilitarized_zone = no }
+				335 = { set_demilitarized_zone = no }
+				356 = { set_demilitarized_zone = no }
+				336 = { set_demilitarized_zone = no }
+				312 = { set_demilitarized_zone = no }
+				285 = { set_demilitarized_zone = no }
+				315 = { set_demilitarized_zone = no }
+				296 = { set_demilitarized_zone = no }
+				271 = { set_demilitarized_zone = no }
+				246 = { set_demilitarized_zone = no }
+				282 = { set_demilitarized_zone = no }
+				314 = { set_demilitarized_zone = no }
+				379 = { set_demilitarized_zone = no }
+				74 = { set_demilitarized_zone = no }
+				117 = { set_demilitarized_zone = no }
+				147 = { set_demilitarized_zone = no }
+				108 = { set_demilitarized_zone = no }
+				220 = { set_demilitarized_zone = no }
+				194 = { set_demilitarized_zone = no }
+				359 = { set_demilitarized_zone = no }
+				185 = { set_demilitarized_zone = no }
+				175 = { set_demilitarized_zone = no }
+				313 = { set_demilitarized_zone = no }
+				318 = { set_demilitarized_zone = no }
+				359 = { set_demilitarized_zone = no }
+				517 = { set_demilitarized_zone = no }
+				485 = { set_demilitarized_zone = no }
+				466 = { set_demilitarized_zone = no }
+				524 = { set_demilitarized_zone = no }
+				507 = { set_demilitarized_zone = no }
+				539 = { set_demilitarized_zone = no }
+				491 = { set_demilitarized_zone = no }
+				480 = { set_demilitarized_zone = no }
+				531 = { set_demilitarized_zone = no }
+
+				add_state_core = 395
+				add_state_core = 404
+				add_state_core = 432
+				add_state_core = 443
+				add_state_core = 423
+				add_state_core = 540
+				add_state_core = 543
+				add_state_core = 583
+				add_state_core = 530
+				add_state_core = 515
+				add_state_core = 520
+				add_state_core = 560
+				add_state_core = 495
+				add_state_core = 490
+				add_state_core = 539
+				add_state_core = 491
+				add_state_core = 480
+				add_state_core = 476
+				add_state_core = 466
+				add_state_core = 448
+				add_state_core = 407
+				add_state_core = 431
+				add_state_core = 397
+				add_state_core = 383
+				add_state_core = 329
+				add_state_core = 318
+				add_state_core = 313
+				add_state_core = 272
+				add_state_core = 359
+				add_state_core = 537
+				add_state_core = 531
+				add_state_core = 524
+				add_state_core = 517
+				add_state_core = 485
+				add_state_core = 507
+				add_state_core = 369
+				add_state_core = 413
+				add_state_core = 405
+				add_state_core = 379
+				add_state_core = 356
+				add_state_core = 335
+				add_state_core = 354
+				add_state_core = 741
+				add_state_core = 357
+				add_state_core = 396
+				add_state_core = 282
+				add_state_core = 314
+				add_state_core = 336
+				add_state_core = 312
+				add_state_core = 315
+				add_state_core = 285
+				add_state_core = 296
+				add_state_core = 271
+				add_state_core = 244
+				add_state_core = 246
+				add_state_core = 220
+				add_state_core = 185
+				add_state_core = 189
+				add_state_core = 194
+				add_state_core = 303
+				add_state_core = 248
+				add_state_core = 211
+				add_state_core = 175
+				add_state_core = 147
+				add_state_core = 154
+				add_state_core = 117
+				add_state_core = 108
+				add_state_core = 121
+				add_state_core = 117
+				add_state_core = 74
+				add_state_core = 563
+				add_state_core = 513
+				add_state_core = 499
+				add_state_core = 471
+				add_state_core = 414
+				add_state_core = 446
+				add_state_core = 390
+				add_state_core = 322
+				add_state_core = 355
+				add_state_core = 299
+				add_state_core = 266
+				add_state_core = 201
+				add_state_core = 750
+				add_state_core = 419
+				add_state_core = 386
+				add_state_core = 350
+				add_state_core = 319
+				add_state_core = 196
+				add_state_core = 924
+				add_state_core = 240
+				add_state_core = 264
+				add_state_core = 276
+				add_state_core = 300
+				add_state_core = 277
+				add_state_core = 293
+				add_state_core = 325
+				add_state_core = 347
+				add_state_core = 351
+				add_state_core = 370
+				add_state_core = 399
+				add_state_core = 438
+				add_state_core = 443
+				add_state_core = 441
+				add_state_core = 420
+				add_state_core = 481
+				add_state_core = 482
+				add_state_core = 470
+				add_state_core = 474
+				add_state_core = 509
+				add_state_core = 506
+				add_state_core = 510
+				add_state_core = 522
+				add_state_core = 516
+				add_state_core = 561
+				add_state_core = 532
+				add_state_core = 433
+				add_state_core = 597
+				add_state_core = 588
+				add_state_core = 570
+				add_state_core = 525
+				add_state_core = 575
+				add_state_core = 538
+				add_state_core = 624
+				add_state_core = 609
+				add_state_core = 233
+				add_state_core = 279
+				add_state_core = 295
+				add_state_core = 254
+				add_state_core = 291
+				add_state_core = 339
+				add_state_core = 338
+				add_state_core = 328
+				add_state_core = 226
+				add_state_core = 384
+				add_state_core = 409
+				add_state_core = 447
+				add_state_core = 444
+				add_state_core = 451
+				add_state_core = 424
+				add_state_core = 403
+				add_state_core = 376
+				add_state_core = 301
+				add_state_core = 309
+				add_state_core = 306
+				add_state_core = 278
+				add_state_core = 259
+				add_state_core = 275
+				add_state_core = 283
+				add_state_core = 402
+				add_state_core = 400
+				add_state_core = 387
+				add_state_core = 391
+				add_state_core = 326
+				add_state_core = 360
+				add_state_core = 334
+				add_state_core = 428
+				add_state_core = 378
+				add_state_core = 343
+				add_state_core = 389
+				add_state_core = 375
+				add_state_core = 394
+				add_state_core = 430
+				add_state_core = 381
+				add_state_core = 416
+
+				add_ideas = {
+					proigravshije1
+					razrushennije_communikaciji
+				}
+
+				set_capital = {
+					state = 220
+					remember_old_capital = no
+				}
+
+				declare_war_on = {
+					target = EQS
+					type = take_core_state
+				}
+
+				declare_war_on = {
+					target = NEG
+					type = take_core_state
+				}
+			}
+			country_event = {
+				id = EQS.15
+				days = 9
+			}
+		}
+	}
+}
+
+country_event = { # Democratic Alliance
+	id = EQS.15
+	title = EQS.15.title
+	desc = EQS.15.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = EQS.15.1
+		hidden_effect = {
+			DEA = {
+				transfer_state = 563
+				transfer_state = 513
+				transfer_state = 499
+				transfer_state = 471
+				transfer_state = 414
+				transfer_state = 446
+				transfer_state = 390
+				transfer_state = 322
+				transfer_state = 355
+				transfer_state = 299
+				transfer_state = 266
+				transfer_state = 201
+				transfer_state = 750
+				transfer_state = 419
+				transfer_state = 386
+				transfer_state = 350
+				transfer_state = 319
+				transfer_state = 196
+				transfer_state = 924
+				transfer_state = 240
+				transfer_state = 264
+				transfer_state = 276
+				transfer_state = 300
+				transfer_state = 277
+				transfer_state = 293
+				transfer_state = 325
+				transfer_state = 347
+				transfer_state = 351
+				transfer_state = 370
+				transfer_state = 399
+				transfer_state = 438
+				transfer_state = 441
+				transfer_state = 420
+				transfer_state = 481
+				transfer_state = 482
+				transfer_state = 470
+				transfer_state = 474
+				transfer_state = 509
+				transfer_state = 506
+				transfer_state = 510
+				transfer_state = 522
+				transfer_state = 516
+				transfer_state = 561
+				transfer_state = 532
+				transfer_state = 433
+				transfer_state = 597
+				transfer_state = 588
+				transfer_state = 570
+				transfer_state = 525
+				transfer_state = 575
+				transfer_state = 538
+				transfer_state = 624
+				transfer_state = 609
+
+				add_state_core = 395
+				add_state_core = 404
+				add_state_core = 432
+				add_state_core = 443
+				add_state_core = 423
+				add_state_core = 540
+				add_state_core = 543
+				add_state_core = 583
+				add_state_core = 530
+				add_state_core = 515
+				add_state_core = 520
+				add_state_core = 560
+				add_state_core = 495
+				add_state_core = 490
+				add_state_core = 539
+				add_state_core = 491
+				add_state_core = 480
+				add_state_core = 476
+				add_state_core = 466
+				add_state_core = 448
+				add_state_core = 407
+				add_state_core = 431
+				add_state_core = 397
+				add_state_core = 383
+				add_state_core = 329
+				add_state_core = 318
+				add_state_core = 313
+				add_state_core = 272
+				add_state_core = 359
+				add_state_core = 537
+				add_state_core = 531
+				add_state_core = 524
+				add_state_core = 517
+				add_state_core = 485
+				add_state_core = 507
+				add_state_core = 369
+				add_state_core = 413
+				add_state_core = 405
+				add_state_core = 379
+				add_state_core = 356
+				add_state_core = 335
+				add_state_core = 354
+				add_state_core = 741
+				add_state_core = 357
+				add_state_core = 396
+				add_state_core = 282
+				add_state_core = 314
+				add_state_core = 336
+				add_state_core = 312
+				add_state_core = 315
+				add_state_core = 285
+				add_state_core = 296
+				add_state_core = 271
+				add_state_core = 244
+				add_state_core = 246
+				add_state_core = 220
+				add_state_core = 185
+				add_state_core = 189
+				add_state_core = 194
+				add_state_core = 303
+				add_state_core = 248
+				add_state_core = 211
+				add_state_core = 175
+				add_state_core = 147
+				add_state_core = 154
+				add_state_core = 117
+				add_state_core = 108
+				add_state_core = 121
+				add_state_core = 117
+				add_state_core = 74
+				add_state_core = 563
+				add_state_core = 513
+				add_state_core = 499
+				add_state_core = 471
+				add_state_core = 414
+				add_state_core = 446
+				add_state_core = 390
+				add_state_core = 322
+				add_state_core = 355
+				add_state_core = 299
+				add_state_core = 266
+				add_state_core = 201
+				add_state_core = 750
+				add_state_core = 419
+				add_state_core = 386
+				add_state_core = 350
+				add_state_core = 319
+				add_state_core = 196
+				add_state_core = 924
+				add_state_core = 240
+				add_state_core = 264
+				add_state_core = 276
+				add_state_core = 300
+				add_state_core = 277
+				add_state_core = 293
+				add_state_core = 325
+				add_state_core = 347
+				add_state_core = 351
+				add_state_core = 370
+				add_state_core = 399
+				add_state_core = 438
+				add_state_core = 443
+				add_state_core = 441
+				add_state_core = 420
+				add_state_core = 481
+				add_state_core = 482
+				add_state_core = 470
+				add_state_core = 474
+				add_state_core = 509
+				add_state_core = 506
+				add_state_core = 510
+				add_state_core = 522
+				add_state_core = 516
+				add_state_core = 561
+				add_state_core = 532
+				add_state_core = 433
+				add_state_core = 597
+				add_state_core = 588
+				add_state_core = 570
+				add_state_core = 525
+				add_state_core = 575
+				add_state_core = 538
+				add_state_core = 624
+				add_state_core = 609
+				add_state_core = 233
+				add_state_core = 279
+				add_state_core = 295
+				add_state_core = 254
+				add_state_core = 291
+				add_state_core = 339
+				add_state_core = 338
+				add_state_core = 328
+				add_state_core = 226
+				add_state_core = 384
+				add_state_core = 409
+				add_state_core = 447
+				add_state_core = 444
+				add_state_core = 451
+				add_state_core = 424
+				add_state_core = 403
+				add_state_core = 376
+				add_state_core = 301
+				add_state_core = 309
+				add_state_core = 306
+				add_state_core = 278
+				add_state_core = 259
+				add_state_core = 275
+				add_state_core = 283
+				add_state_core = 402
+				add_state_core = 400
+				add_state_core = 387
+				add_state_core = 391
+				add_state_core = 326
+				add_state_core = 360
+				add_state_core = 334
+				add_state_core = 428
+				add_state_core = 378
+				add_state_core = 343
+				add_state_core = 389
+				add_state_core = 375
+				add_state_core = 394
+				add_state_core = 430
+				add_state_core = 381
+				add_state_core = 416
+
+				add_ideas = {
+					proigravshije1
+					razrushennije_communikaciji
+				}
+
+				set_capital = {
+					state = 924
+					remember_old_capital = no
+				}
+			}
+		}
+	}
+}
+
 ####### KRAINA
 country_event = {
 	id = EQS_Kraina.1 #separate KRE

@@ -1,0 +1,17 @@
+characters = {
+	UCF_Interim_Chairmanship_of_The_Cities = {
+		name = UCF_Interim_Chairmanship_of_The_Cities
+			portraits = {
+				civilian = {
+					large = GFX_leader_unknown_L
+				}
+			}
+			country_leader = {
+				desc="UCF_Interim_Chairmanship_of_The_Cities_desc"
+				ideology = neoharmonism
+				traits = {  }
+				expire = "2000.3.1.1"
+				id = -1
+			}
+		}
+	}

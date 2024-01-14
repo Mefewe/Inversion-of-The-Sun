@@ -768,5 +768,8 @@ shared_focus = {
 	x = 12
 	y = 13
 	completion_reward = { 
+		hidden_effect = {
+			country_event = EQS.13
+		}
 	}
 }

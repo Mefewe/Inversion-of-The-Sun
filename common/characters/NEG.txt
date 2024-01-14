@@ -1,0 +1,17 @@
+characters = {
+	NEG_Cozy_Glow = {
+		name = NEG_Cozy_Glow
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown_L
+			}
+		}
+		country_leader = {
+			ideology = hybrid_goverment
+			desc="NEG_Cozy_Glow_desc"
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

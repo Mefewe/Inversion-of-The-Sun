@@ -45,12 +45,10 @@ color = rgb { 182 70 255 }
 color_ui = rgb { 182 70 255 }
 }
 
-
 VKR = {
 color = rgb { 241 29 19 }
 color_ui = rgb { 241 29 19 }
 }
-
 
 YAK = {
 color = rgb { 0 61 255 }
@@ -273,13 +271,10 @@ color = rgb { 183 164 48 }
 color_ui = rgb { 183 164 48 }
 }
 
-
-
 AOZ = {
 color = rgb { 140 60 90 }
 color_ui = rgb { 140 60 90 }
 }
-
 
 ZBR = {
 color = rgb { 127 163 0 }
@@ -325,6 +320,24 @@ ABS = {
 color = rgb { 79 129 69 }
 color_ui = rgb { 79 129 69 }
 }
+
+NEG = {
+color = rgb { 78 154 157 }
+color_ui = rgb { 78 154 157 }
+}
+
+DEA = {
+color = rgb { 129 101 142 }
+color_ui = rgb { 129 101 142 }
+}
+
+UCF = {
+color = rgb { 161 150 118 }
+color_ui = rgb { 161 150 118 }
+}
+
+
+
 
 
 
