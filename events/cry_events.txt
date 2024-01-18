@@ -7,7 +7,6 @@ news_event = { #ВВОД АТО
 	desc = CRY_NEWS.1.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
-	fire_only_once = yes
 
 	option = {
 		name = CRY_NEWS.1.1	
@@ -45,7 +44,6 @@ news_event = { #ПЕРЕГОВОРЫ
 	desc = CRY_NEWS.2.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
-	fire_only_once = yes
 
 	option = {
 		name = CRY_NEWS.2.1	
@@ -73,7 +71,6 @@ news_event = { #Окончание гражданки
 	desc = CRY_NEWS.3.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
-	fire_only_once = yes
 
 	option = {
 		name = CRY_NEWS.3.1	
@@ -86,7 +83,6 @@ news_event = { #Окончание боёв за аэропорт (ВКР поб
 	desc = CRY_NEWS.4.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
-	fire_only_once = yes
 
 	option = {
 		name = CRY_NEWS.4.1	
