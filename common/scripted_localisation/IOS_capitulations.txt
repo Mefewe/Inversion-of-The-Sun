@@ -129,6 +129,72 @@ defined_text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_TAI_WIN_STI
 	}
 	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = NEG
+			}
+			event_target:winning_country = {
+				original_tag = EQS
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_EQS_WIN_NEG
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = UCF
+			}
+			event_target:winning_country = {
+				original_tag = EQS
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_EQS_WIN_UCF
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = EQS
+			}
+			event_target:winning_country = {
+				original_tag = NEG
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_NEG_WIN_EQS
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = UCF
+			}
+			event_target:winning_country = {
+				original_tag = NEG
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_NEG_WIN_UCF
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = EQS
+			}
+			event_target:winning_country = {
+				original_tag = UCF
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_UCF_WIN_EQS
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = NEG
+			}
+			event_target:winning_country = {
+				original_tag = UCF
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_UCF_WIN_NEG
+	}
+	text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_DEFAULT
 	}
 }

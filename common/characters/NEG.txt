@@ -3,7 +3,7 @@ characters = {
 		name = NEG_Cozy_Glow
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown_L
+				large = GFX_NEG_Cozy_Glow_L
 			}
 		}
 		country_leader = {

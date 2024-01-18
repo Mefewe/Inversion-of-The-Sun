@@ -1,4 +1,6 @@
-﻿capital = 326
+﻿oob = "EQS"
+
+capital = 326
 add_ideas = {
 	proigravshije1
 	razrushennije_communikaciji

@@ -1,0 +1,3004 @@
+division_template = {
+	priority = 1
+        name = "Equestrian Arms Division"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	priority = 1
+        name = "Equestrian Arms Brigade"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		artillery = { x = 1 y = 1 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	priority = 0
+        name = "Ponies Militia Forces"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	priority = 1
+        name = "Equestrian Arms Mechanized Brigade"
+        regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	priority = 1
+        name = "Equestrian Arms Tank Brigade"
+        regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	priority = 1
+        name = "Equestrian Arms Artillery Brigade"
+        regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	priority = 2
+        name = "Royal Guards Brigade"
+        regiments = {
+		guard = { x = 0 y = 0 }
+		guard = { x = 0 y = 1 }
+		guard = { x = 0 y = 2 }
+		guard = { x = 1 y = 0 }
+		guard = { x = 1 y = 1 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	priority = 2
+        name = "Special Mountaineers Brigade"
+        regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	priority = 2
+        name = "Special Pegasi Brigade"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+
+###########
+## UNITS ##
+###########
+
+################################
+### Equestrian Arms Division ###
+################################
+units = {
+        division = {
+                name = "1. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6297
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 5913
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3145
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 4326
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 5927
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 444
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 4755
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 5684
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 4836
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 61
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 2386
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 704
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 4284
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 2356
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 1217
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 2386
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 1478
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 18
+		}
+		location = 5218
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 5844
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "20. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 5768
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "21. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 99
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "22. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 3149
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "24. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 4566
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "25. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 4414
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "26. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+		}
+		location = 1356
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "27. Ponies Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 2834
+		division_template = "Equestrian Arms Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+###############################
+### Equestrian Arms Brigade ###
+###############################
+        division = {
+                name = "1. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4588
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 5944
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 1733
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 2341
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 5929
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 313
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 5849
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 5849
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 4906
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 6007
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 6051
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 6134
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 4479
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 6309
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 6364
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 3872
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 4449
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 18
+		}
+		location = 4431
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 6593
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "20. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 5684
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "21. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 5684
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "22. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 6233
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "23. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 3209
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "24. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 24
+		}
+		location = 2366
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "25. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 2366
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "26. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+		}
+		location = 72
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "27. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 99
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "28. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 28
+		}
+		location = 6416
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "29. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 29
+		}
+		location = 3370
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "30. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 30
+		}
+		location = 4659
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "31. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 31
+		}
+		location = 3370
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "32. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 32
+		}
+		location = 2305
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "33. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 33
+		}
+		location = 6379
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "34. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 34
+		}
+		location = 4231
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "35. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 35
+		}
+		location = 4525
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "36. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 36
+		}
+		location = 3422
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "37. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 37
+		}
+		location = 2332
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "38. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 38
+		}
+		location = 5223
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "39. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 39
+		}
+		location = 5257
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "40. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 40
+		}
+		location = 3425
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "41. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 41
+		}
+		location = 5847
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "42. Ponies Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 42
+		}
+		location = 4414
+		division_template = "Equestrian Arms Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+#############################
+### Ponies Militia Forces ###
+#############################
+        division = {
+                name = "1. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5866
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3555
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 2066
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 5405
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 345
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 2325
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 5518
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 1094
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 3172
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 4466
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 4466
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 4588
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 919
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 6309
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 919
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 6364
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 6134
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 18
+		}
+		location = 2074
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 2074
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "20. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 2931
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "21. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 400
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "22. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 4020
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "23. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 4020
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "24. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 24
+		}
+		location = 5329
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "25. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 5293
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "26. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+		}
+		location = 5410
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "27. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 1490
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "28. Ponies Militia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 28
+		}
+		location = 5888
+		division_template = "Ponies Militia Forces"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+##########################################
+### Equestrian Arms Mechanized Brigade ###
+##########################################
+        division = {
+                name = "1. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 18
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "20. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "21. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "22. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "23. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "24. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 24
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "25. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "26. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "27. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "28. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 28
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "29. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 29
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "30. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 30
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "31. Equestrian Mechanized Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 31
+		}
+		location = 3860
+		division_template = "Equestrian Arms Mechanized Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+####################################
+### Equestrian Arms Tank Brigade ###
+####################################
+        division = {
+                name = "1. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 18
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "20. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "21. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "22. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "23. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "24. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 24
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "25. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "26. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "27. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "28. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 28
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "29. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 29
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "30. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 30
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "31. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 31
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "32. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 32
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "33. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 33
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "34. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 34
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "35. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 35
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "36. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 36
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "37. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 37
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "38. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 38
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "39. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 39
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "41. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 41
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "42. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 42
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "43. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 43
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "44. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 44
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "45. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 45
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "46. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 46
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "47. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 47
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "48. Equestrian Armour Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 48
+		}
+		location = 3860
+		division_template = "Equestrian Arms Tank Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+#########################################
+### Equestrian Arms Artillery Brigade ###
+#########################################
+        division = {
+                name = "1. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6309
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6201
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Equestrian Arms Artillery Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 3729
+		division_template = "Equestrian Arms Artillery Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+############################
+### Royal Guards Brigade ###
+############################
+        division = {
+                name = "1. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3729
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3729
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3729
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 2332
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 5626
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 5684
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 5366
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 5259
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 2074
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 1425
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 5103
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 1993
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 1428
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 6171
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 3948
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 3110
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Royal Guards Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 3110
+		division_template = "Royal Guards Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+####################################
+### Special Mountaineers Brigade ###
+####################################
+        division = {
+                name = "1. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 18
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Pony Mountaineers Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 4906
+		division_template = "Special Mountaineers Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+##############################
+### Special Pegasi Brigade ###
+##############################
+        division = {
+                name = "1. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6201
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 497
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 497
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 1692
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 1692
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 5913
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 6297
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 2712
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 5259
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Pegasi Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 1233
+		division_template = "Special Pegasi Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

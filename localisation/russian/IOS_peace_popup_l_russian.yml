@@ -33,7 +33,7 @@
  
  IOS_PEACE_POPUP_WAR_CONTINUING_DEFAULT: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! побеждает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! в продолжающемся конфликте."
 
- IOS_PEACE_POPUP_WAR_CONCLUSION_EQS_WIN_CHN_PATERNALISM: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]уничтожает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]в Второй Великой Войне. Чейнджлинги потеряли право на свободную жизнь."
+ IOS_PEACE_POPUP_WAR_CONCLUSION_EQS_WIN_CHN_PATERNALISM: "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§![GetWinnerAlliesWithHas]уничтожает [losing_country.GetFlag] §Y[losing_country.GetNameDef]§![GetLoserAllies]во Второй Великой Войне. Чейнджлинги потеряли право на свободную жизнь."
  
  #Flavor loc
  
@@ -44,3 +44,9 @@
  IOS_PEACE_POPUP_FLAVOR_OEF: "Сто танков будут слабее тысячи ослов нагружённых конституцией ОЭФ, ибо танки не будут стрелять по выебанным ослам, а засунут свои дула в землю и воскланятся Аллаху (с) СС Гештал Орбайте Воль"
  IOS_PEACE_POPUP_FLAVOR_STI_WIN_TAI: "Шах пал!"
  IOS_PEACE_POPUP_FLAVOR_TAI_WIN_STI: "О кирин, я Шах, что открыл вам дороги к знанию и благополучию; не вини меня из-за убитого сына твоего."
+ IOS_PEACE_POPUP_FLAVOR_EQS_WIN_NEG: "Ещё одна пешка завоевателей, что обречена на провал."
+ IOS_PEACE_POPUP_FLAVOR_EQS_WIN_UCF: "Скоро они забудут все свои клятвы."
+ IOS_PEACE_POPUP_FLAVOR_NEG_WIN_EQS: "Время покажет: достоен ли негодяй новой роли."
+ IOS_PEACE_POPUP_FLAVOR_NEG_WIN_UCF: "Их постигнет забвение. Я об этом позабочусь."
+ IOS_PEACE_POPUP_FLAVOR_UCF_WIN_EQS: "Агония старого режима закончилась."
+ IOS_PEACE_POPUP_FLAVOR_UCF_WIN_NEG: "Её не спасла магия. Но спасёт ли их отказ от неё?"
