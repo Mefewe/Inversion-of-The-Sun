@@ -32,7 +32,6 @@ on_actions = {
 				}
 				set_global_flag = winning_country_multiple
 			}
-			add_to_variable = { global.peace_popup_dirty = 1 }
 
 			if = {
 				limit = {
@@ -45,7 +44,32 @@ on_actions = {
 				}
 				news_event = CapitulationNewsGeneric.1
 			}
+			else_if = {
+				limit = {
+					ROOT = { original_tag = SDL }
+				}
+				news_event = CapNews.1
+			}
+			else_if = {
+				limit = {
+					ROOT = { original_tag = EQS }
+				}
+				news_event = CapNews.2
+			}
+			else_if = {
+				limit = {
+					ROOT = { original_tag = NEG }
+				}
+				news_event = CapNews.3
+			}
+			else_if = {
+				limit = {
+					ROOT = { original_tag = UCF }
+				}
+				news_event = CapNews.4
+			}
 
+			add_to_variable = { global.peace_popup_dirty = 1 }
 			#Annexation block
 			#This if block will only fire if FROM (capitulator) and ROOT (country being capitulated)
 			#That is to say, if one side has completely lost (nobody left to fight on)
