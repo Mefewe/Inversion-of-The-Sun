@@ -276,6 +276,14 @@ country_event = {
 				razrushennije_communikaciji
 			}
 		}
+		transfer_units_fraction = {
+			target = NEG
+			size = 0.1
+			stockpile_ratio = 0.1
+			army_ratio = 0.1
+			navy_ratio = 0.1
+			air_ratio = 0.1
+		}
 		hidden_effect = {
 			country_event = {
 				id = EQS.25
@@ -711,6 +719,14 @@ country_event = { # Creatures Front
 					target = NEG
 					type = civil_war
 				}
+			}
+			transfer_units_fraction = {
+				target = UCF
+				size = 0.4
+				stockpile_ratio = 0.3
+				army_ratio = 0.4
+				navy_ratio = 0.3
+				air_ratio = 0.2
 			}
 			country_event = {
 				id = EQS.26

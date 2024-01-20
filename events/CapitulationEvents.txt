@@ -1,3 +1,70 @@
 ﻿###########################
 # Capitulation Events
 ###########################
+add_namespace = CapitulationNewsGeneric
+add_namespace = CapNews
+
+news_event = {
+	id = CapitulationNewsGeneric.1
+	title = CapitulationNewsGeneric.1.title
+	desc = CapitulationNewsGeneric.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapitulationNewsGeneric.1.a
+	}
+}
+
+news_event = {
+	id = CapNews.1		# SDL
+	title = CapNews.1.title
+	desc = CapNews.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapNews.1.a
+	}
+}
+
+news_event = {
+	id = CapNews.2		# EQS
+	title = CapNews.2.title
+	desc = CapNews.2.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapNews.2.a
+	}
+}
+
+news_event = {
+	id = CapNews.3		# NEG
+	title = CapNews.3.title
+	desc = CapNews.3.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapNews.3.a
+	}
+}
+
+news_event = {
+	id = CapNews.4		# UCF
+	title = CapNews.4.title
+	desc = CapNews.4.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapNews.4.a
+	}
+}

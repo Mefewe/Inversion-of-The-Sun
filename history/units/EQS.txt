@@ -1735,7 +1735,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 3860
+		location = 6593
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1747,7 +1747,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 3860
+		location = 61
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1759,7 +1759,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 4
 		}
-		location = 3860
+		location = 4067
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1771,7 +1771,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 5
 		}
-		location = 3860
+		location = 6380
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1783,7 +1783,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 6
 		}
-		location = 3860
+		location = 6649
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1795,7 +1795,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 7
 		}
-		location = 3860
+		location = 3739
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1807,7 +1807,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 8
 		}
-		location = 3860
+		location = 1302
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1819,7 +1819,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 9
 		}
-		location = 3860
+		location = 1302
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1831,7 +1831,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 10
 		}
-		location = 3860
+		location = 232
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1843,7 +1843,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 11
 		}
-		location = 3860
+		location = 232
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1855,7 +1855,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 12
 		}
-		location = 3860
+		location = 4502
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1867,7 +1867,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 13
 		}
-		location = 3860
+		location = 4502
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1879,7 +1879,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 14
 		}
-		location = 3860
+		location = 577
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1891,7 +1891,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 15
 		}
-		location = 3860
+		location = 577
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1903,7 +1903,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 16
 		}
-		location = 3860
+		location = 6070
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1915,7 +1915,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 17
 		}
-		location = 3860
+		location = 4326
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1927,7 +1927,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 18
 		}
-		location = 3860
+		location = 6364
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1939,7 +1939,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 3860
+		location = 6309
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1951,7 +1951,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 20
 		}
-		location = 3860
+		location = 919
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1963,7 +1963,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 21
 		}
-		location = 3860
+		location = 6134
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1975,7 +1975,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 22
 		}
-		location = 3860
+		location = 5678
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1987,7 +1987,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 23
 		}
-		location = 3860
+		location = 3665
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -1999,7 +1999,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 24
 		}
-		location = 3860
+		location = 3917
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2011,7 +2011,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 25
 		}
-		location = 3860
+		location = 1093
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2023,7 +2023,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 26
 		}
-		location = 3860
+		location = 5298
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2035,7 +2035,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 27
 		}
-		location = 3860
+		location = 5475
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2047,7 +2047,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 28
 		}
-		location = 3860
+		location = 2273
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2059,7 +2059,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 29
 		}
-		location = 3860
+		location = 3564
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2071,7 +2071,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 30
 		}
-		location = 3860
+		location = 1438
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2083,7 +2083,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 31
 		}
-		location = 3860
+		location = 101
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2095,7 +2095,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 32
 		}
-		location = 3860
+		location = 3395
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2107,7 +2107,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 33
 		}
-		location = 3860
+		location = 5664
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2119,7 +2119,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 34
 		}
-		location = 3860
+		location = 3003
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2131,7 +2131,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 35
 		}
-		location = 3860
+		location = 5530
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2143,7 +2143,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 36
 		}
-		location = 3860
+		location = 5348
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2155,7 +2155,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 37
 		}
-		location = 3860
+		location = 5275
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2167,7 +2167,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 38
 		}
-		location = 3860
+		location = 5898
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2179,7 +2179,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 39
 		}
-		location = 3860
+		location = 4602
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2191,7 +2191,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 41
 		}
-		location = 3860
+		location = 5678
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2203,7 +2203,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 42
 		}
-		location = 3860
+		location = 4789
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2215,7 +2215,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 43
 		}
-		location = 3860
+		location = 2931
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2227,7 +2227,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 44
 		}
-		location = 3860
+		location = 848
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2239,7 +2239,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 45
 		}
-		location = 3860
+		location = 5352
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2251,7 +2251,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 46
 		}
-		location = 3860
+		location = 4684
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2263,7 +2263,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 47
 		}
-		location = 3860
+		location = 5494
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2275,7 +2275,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 48
 		}
-		location = 3860
+		location = 5494
 		division_template = "Equestrian Arms Tank Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2314,7 +2314,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 3729
+		location = 4588
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2326,7 +2326,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 4
 		}
-		location = 3729
+		location = 1733
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2338,7 +2338,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 5
 		}
-		location = 3729
+		location = 4431
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2350,7 +2350,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 6
 		}
-		location = 3729
+		location = 4449
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2362,7 +2362,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 7
 		}
-		location = 3729
+		location = 6649
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2374,7 +2374,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 8
 		}
-		location = 3729
+		location = 4836
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2386,7 +2386,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 9
 		}
-		location = 3729
+		location = 6478
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2398,7 +2398,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 10
 		}
-		location = 3729
+		location = 6269
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2410,7 +2410,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 11
 		}
-		location = 3729
+		location = 6225
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2422,7 +2422,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 12
 		}
-		location = 3729
+		location = 2673
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -2434,7 +2434,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 13
 		}
-		location = 3729
+		location = 3110
 		division_template = "Equestrian Arms Artillery Brigade"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
