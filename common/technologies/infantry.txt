@@ -108,14 +108,7 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
 		motorized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
 		
@@ -202,14 +195,7 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
-		
 		motorized = {
-			soft_attack = 0.05
-		}
-		amphibious_mechanized = {
 			soft_attack = 0.05
 		}
 		
@@ -370,18 +356,12 @@ technologies = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
-		}
-		cavalry = {
-			soft_attack = 0.1
-		}		
+		}	
 
 
 		motorized = {
 			soft_attack = 0.1
-		}
-		amphibious_mechanized = {
-			soft_attack = 0.1
-		}		
+		}	
 
 		research_cost = 1.5
 		start_year = 1779
@@ -1113,11 +1093,7 @@ technologies = {
 		infantry = {
 			defense = 0.05
 			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
+		}	
 		mountaineers = {
 			defense = 0.03
 			breakthrough = 0.03
@@ -1131,10 +1107,6 @@ technologies = {
 			breakthrough = 0.03
 		}
 		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1183,10 +1155,6 @@ technologies = {
 		infantry = {
 			defense = 0.05
 			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
 		}		
 		mountaineers = {
 			defense = 0.03
@@ -1201,10 +1169,6 @@ technologies = {
 			breakthrough = 0.03
 		}
 		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1258,11 +1222,7 @@ technologies = {
 		infantry = {
 			defense = 0.05
 			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
+		}	
 		mountaineers = {
 			defense = 0.03
 			breakthrough = 0.03
@@ -1276,10 +1236,6 @@ technologies = {
 			breakthrough = 0.03
 		}
 		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1334,11 +1290,7 @@ technologies = {
 		infantry = {
 			defense = 0.05
 			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
+		}	
 		mountaineers = {
 			defense = 0.03
 			breakthrough = 0.03
@@ -1352,10 +1304,6 @@ technologies = {
 			breakthrough = 0.03
 		}
 		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		amphibious_mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1689,33 +1637,18 @@ technologies = {
 		}		
 	}
 
-	######### FROM SOVIET FOCUS ########## (And Finnish)
-	penal_infantry = {
+	######### ZNA ZSO
+	ptrk_va_truba_tech = {
 		
 		allow = {
 			always = no
 		}
 
 		research_cost = 1
-		start_year = 1769
-
-		enable_subunits = {
-			penal_battalion
-		}
-	}
-
-	######### FROM ITALIAN FOCUS ##########
-	blackshirt_assault_battalion_tech = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1769
-
-		enable_subunits = {
-			blackshirt_assault_battalion
+		start_year = 1762
+		category_all_infantry = {
+			hard_attack = 1
+			ap_attack = 2.5
 		}
 	}
 

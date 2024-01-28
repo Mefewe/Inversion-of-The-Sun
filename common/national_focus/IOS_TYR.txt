@@ -417,3 +417,31 @@ shared_focus = {
 		country_event = TYR.201
 	}
 }
+shared_focus = { 
+	id = TYR_juzhnyj_rubezh
+
+	prerequisite = {
+		focus = TYR_nam_pizda
+	}
+
+	cost = 2
+	x = 18
+	y = 22
+	completion_reward = { 
+		country_event = TYR.202
+	}
+}
+shared_focus = { 
+	id = TYR_mgabe_na_parade
+
+	prerequisite = {
+		focus = TYR_juzhnyj_rubezh
+	}
+
+	cost = 2
+	x = 18
+	y = 24
+	completion_reward = { 
+		country_event = TYR.203
+	}
+}

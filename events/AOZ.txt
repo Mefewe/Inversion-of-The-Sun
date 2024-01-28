@@ -1,0 +1,125 @@
+add_namespace = AOZ
+
+country_event = {
+	id = AOZ.1 #Железный
+	title = AOZ.1.title
+	desc = AOZ.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.1.a
+		add_ideas = zhelenyje
+	}
+}
+
+country_event = {
+	id = AOZ.2 #Что-то
+	title = AOZ.2.title
+	desc = AOZ.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.2.a
+	}
+}
+
+country_event = {
+	id = AOZ.3 #Ивент про каких-то таджиков в поле
+	title = AOZ.3.title
+	desc = AOZ.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.3.a
+	}
+}
+country_event = {
+	id = AOZ.4 #БА ПЕШ
+	title = AOZ.4.title
+	desc = AOZ.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.4.a
+	}
+}
+country_event = {
+	id = AOZ.5 #ЗАХОДИМ и начало ЦЕПОЧКИ ивентов
+	title = AOZ.5.title
+	desc = AOZ.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.5.a
+		add_ideas = ebem_mazhorov
+	}
+}
+country_event = {
+	id = AOZ.6 #Захват склада
+	title = AOZ.6.title
+	desc = AOZ.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.6.a
+		TYR = {
+			send_equipment = {
+				type = infantry_equipment
+				amount = 2500
+				target = AOZ
+			}
+			send_equipment = {
+				type = infantry_ammo_equipment
+				amount = 5000
+				target = AOZ
+			}
+			send_equipment = {
+				type = anti_tank_equipment
+				amount = 500
+				target = AOZ
+			}
+		}
+		add_ideas = ebem_mazhorov
+	}
+}
+country_event = {
+	id = AOZ.7 #Городской бой
+	title = AOZ.7.title
+	desc = AOZ.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.7.a
+
+	}
+}
+country_event = {
+	id = AOZ.8 #Арта и самолеты усилились
+	title = AOZ.8.title
+	desc = AOZ.8.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.8.a
+		add_ideas = ebem_mazhorov
+	}
+}
+country_event = {
+	id = AOZ.9 #Стих про подвал
+	title = AOZ.9.title
+	desc = AOZ.9.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.9.a
+	}
+}

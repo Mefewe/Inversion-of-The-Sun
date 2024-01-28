@@ -173,25 +173,11 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		add_stability = -0.05
-		send_equipment = {
-			type = infantry_equipment
-			amount = 2500
-			target = AOZ
-		}
-		send_equipment = {
-			type = infantry_ammo_equipment
-			amount = 5000
-			target = AOZ
-		}
-		send_equipment = {
-			type = anti_tank_equipment
-			amount = 500
-			target = AOZ
-		}
 		name = TYR.101.a
 		load_focus_tree = TYR_focus_tree_two
 		mark_focus_tree_layout_dirty = yes
 		news_event = TYR_news.1
+		custom_effect_tooltip = TYR.101.tt
 	}
 }
 country_event = {
@@ -217,7 +203,7 @@ country_event = {
 	}
 }
 
-
+######################################
 country_event = {
 	id = TYR.200 # Провал АТО
 	title = TYR.200.title
@@ -240,6 +226,30 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = TYR.201.a
+		add_stability = -0.05
+	}
+}
+country_event = {
+	id = TYR.202 # Подготовка обороны
+	title = TYR.202.title
+	desc = TYR.202.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.202.a
+	}
+}
+country_event = {
+	id = TYR.203 # Мгабе на параде
+	title = TYR.203.title
+	desc = TYR.203.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.203.a
+		add_war_support = 0.025
 	}
 }
 ###########################################

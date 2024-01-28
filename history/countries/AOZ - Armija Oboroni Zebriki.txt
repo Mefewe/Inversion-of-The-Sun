@@ -39,12 +39,14 @@ set_technology = {
 	superior_firepower = 1
 	sup_delay = 1
 	mobile_defence = 1
+	##### HEIL SPEZ
+	ptrk_va_truba_tech = 1
 }
 add_ideas = {
 	#laws
 	war_economy
 	service_by_requirement
-	closed_economy
+	limited_exports
 }
 set_politics = {
 	ruling_party = paternalism

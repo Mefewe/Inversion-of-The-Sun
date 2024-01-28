@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+		truba_va_ptrk = {
+			picture = generic_army_problems
+			modifier = {
+				army_defence_factor = 0.25
+				breakthrough_factor = 0.25
+				army_attack_factor = 0.15
+				acclimatization_hot_climate_gain_factor = 0.5
+				custom_modifier_tooltip = truba_va_ptrk.tt
+			}
+		}	
+		bessmertnyje = {
+			picture = generic_army_problems
+			modifier = {
+				attrition = -0.2
+				recon_factor = 0.5
+				planning_speed = 0.2
+				land_night_attack = 0.3
+				stability_factor = 0.35
+				war_support_factor = 0.30
+			}
+		}	
+		zhelenyje = {
+			picture = generic_army_problems
+			modifier = {
+				attrition = -0.2
+				dig_in_speed_factor = 1
+				combat_width_factor = -0.2
+				cas_damage_reduction = 0.2
+				army_morale = 15
+			}
+		}	
+		ebem_mazhorov = {
+			picture = generic_army_problems
+			modifier = {
+				coordination_bonus = 0.8
+			}
+		}		
+	}
+}

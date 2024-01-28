@@ -1,0 +1,86 @@
+focus_tree = {
+	id = AOZ_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = AOZ
+		}
+	}
+	shared_focus = AOZ_zheleznyj
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+shared_focus = {
+	id = AOZ_zheleznyj
+	cost = 3
+	x = 12
+	y = 0
+	completion_reward = { 
+		country_event = AOZ.1
+	}
+}
+shared_focus = {
+	id = AOZ_ce_vatan
+	prerequisite = {
+		focus = AOZ_zheleznyj
+	}
+	cost = 3
+	x = 12
+	y = 2
+	completion_reward = { 
+		country_event = AOZ.2
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_0
+			amount = 1500
+		}
+	}
+}
+shared_focus = {
+	id = AOZ_v_pustine
+	prerequisite = {
+		focus = AOZ_ce_vatan
+	}
+	cost = 3
+	x = 12
+	y = 2
+	completion_reward = { 
+		country_event = AOZ.3
+	}
+}
+shared_focus = {
+	id = AOZ_ba_pesh
+	prerequisite = {
+		focus = AOZ_v_pustine
+	}
+	cost = 1
+	x = 12
+	y = 2
+	completion_reward = { 
+		country_event = AOZ.4
+	}
+}
+shared_focus = { #Конец первого древа по сути
+	id = AOZ_sudnyj_chas 
+	prerequisite = {
+		focus = AOZ_ba_pesh
+	}
+	available = {
+		hidden_trigger = {
+			TYR = {
+				has_completed_focus = TYR_MgabeDossier
+			}
+		}
+	}
+	cost = 1
+	x = 12
+	y = 2
+	completion_reward = { 
+		country_event = AOZ.5
+		TYR = {
+			country_event = TYR.100
+		}
+	}
+}
