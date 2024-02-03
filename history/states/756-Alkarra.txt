@@ -5,6 +5,7 @@ state={
 		568 2510 3418 3906 4709 4831 7252 7345 7410
 	}
 	history={
+		set_demilitarized_zone = yes
 	victory_points = {7345 10} #
         owner = TYR
         add_core_of = ABS

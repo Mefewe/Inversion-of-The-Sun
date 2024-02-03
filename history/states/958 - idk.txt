@@ -10,6 +10,7 @@ state={
         buildings = {
                 infrastructure = 1
         }
+		set_demilitarized_zone = yes
     }
         state_category = pastoral
 	manpower=469102

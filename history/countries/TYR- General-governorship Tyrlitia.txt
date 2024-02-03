@@ -113,6 +113,7 @@ add_ideas = {
 		#laws
 		civilian_economy
 		volunteer_only
+		tyr_army_issues
 		export_focus
 	}
 set_politics = {

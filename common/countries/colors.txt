@@ -336,7 +336,10 @@ color = rgb { 161 150 118 }
 color_ui = rgb { 161 150 118 }
 }
 
-
+KAF = {
+	color = rgb { 52 53 54 }
+	color_ui = rgb { 52 53 54 }
+}
 
 
 

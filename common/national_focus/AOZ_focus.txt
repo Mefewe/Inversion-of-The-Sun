@@ -12,12 +12,27 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+focus_tree = {
+	id = AOZ_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = AOZ
+		}
+	}
+	shared_focus = AOZ_zheleznyj
+	shared_focus = AOZ_totalna_oborona
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
 
 shared_focus = {
 	id = AOZ_zheleznyj
 	cost = 3
 	x = 12
-	y = 0
+	y = 1
 	completion_reward = { 
 		country_event = AOZ.1
 	}
@@ -45,7 +60,7 @@ shared_focus = {
 	}
 	cost = 3
 	x = 12
-	y = 2
+	y = 3
 	completion_reward = { 
 		country_event = AOZ.3
 	}
@@ -57,7 +72,7 @@ shared_focus = {
 	}
 	cost = 1
 	x = 12
-	y = 2
+	y = 4
 	completion_reward = { 
 		country_event = AOZ.4
 	}
@@ -76,11 +91,23 @@ shared_focus = { #Конец первого древа по сути
 	}
 	cost = 1
 	x = 12
-	y = 2
+	y = 5
 	completion_reward = { 
 		country_event = AOZ.5
 		TYR = {
 			country_event = TYR.100
 		}
+	}
+}
+
+shared_focus = { #
+	id = AOZ_totalna_oborona
+
+	cost = 1
+	x = 16
+	y = 7
+	completion_reward = { 
+		country_event = AOZ.11
+
 	}
 }

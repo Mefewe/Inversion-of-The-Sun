@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		tyr_army_issues = {
+			picture = generic_army_problems
+			modifier = {
+				attrition = 0.5
+				army_defence_factor = -0.35
+				army_attack_factor = -0.35
+			}
+		}
+	}
+}

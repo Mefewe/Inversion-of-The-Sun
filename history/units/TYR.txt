@@ -124,7 +124,7 @@ units = {
 	}
         division = {
                 name = "3. Colonial Swarm Division"
-		location = 477
+		location = 3942
 		division_template = "Leg. Swarm Infantry Div."
 		start_experience_factor = 0.65
 		start_equipment_factor = 0.0
@@ -157,7 +157,7 @@ units = {
 	}
         division = {
                 name = "2. Colonial Swarm Mechanized Briagde"
-		location = 477
+		location = 3942
 		division_template = "Leg. Swarm Mechanized Br."
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.0

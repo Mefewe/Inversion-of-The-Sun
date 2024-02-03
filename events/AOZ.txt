@@ -120,6 +120,47 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
+		hidden_effect = {
+			country_event = {days = 2 id = AOZ.10}
+		}
 		name = AOZ.9.a
+	}
+}
+country_event = {
+	id = AOZ.10 #Новое древо фокусов
+	title = AOZ.10.title
+	desc = AOZ.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		load_focus_tree = AOZ_focus_tree_two
+		mark_focus_tree_layout_dirty = yes
+		name = AOZ.10.a
+	}
+}
+country_event = {
+	id = AOZ.11 #Во всеоружии
+	title = AOZ.11.title
+	desc = AOZ.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		965 = {
+			add_building_construction = {
+				type = bunker
+				level = 6
+				province = 7291
+			}
+		}
+		966 = {
+			add_building_construction = {
+				type = bunker
+				level = 6
+				province = 7146
+			}
+		}
+		name = AOZ.11.a
 	}
 }

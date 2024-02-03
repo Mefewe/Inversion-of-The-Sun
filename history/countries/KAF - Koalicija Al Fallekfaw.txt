@@ -1,9 +1,9 @@
-capital = 965
-recruit_character = AOZ_Leader
+capital = 779
+recruit_character = KAF_Leader
 set_stability = 0
 set_war_support = 1
 set_research_slots = 1
-load_oob = AOZ
+
 ################## TECHS
 set_technology = {
 	### INFANTRY
@@ -49,7 +49,7 @@ add_ideas = {
 	limited_exports
 }
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = fascism
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,7 +58,8 @@ set_popularities = {
 	democratic = 0
 	communism = 0
 	neutrality = 0
-	fascism = 0
+	fascism = 100
 	progressivism = 0
-	paternalism = 100
+	paternalism = 0
 }
+ 

@@ -1,0 +1,41 @@
+division_template = {
+	name = "Nacional bridada le Opolchannja"
+	regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Birinchi brigada"
+		location = 7291
+		division_template = "Nacional bridada le Opolchannja"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+division = {
+		name = "Ikkinchi brigada"
+		location = 7291
+		division_template = "Nacional bridada le Opolchannja"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+division = {
+		name = "Uchinchi brigada"
+		location = 7146
+		division_template = "Nacional bridada le Opolchannja"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+}

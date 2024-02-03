@@ -333,6 +333,9 @@ shared_focus = {
 	cost = 2
 	x = 22
 	y = 15
+	ai_will_do = {
+		factor = 100
+	}
 	completion_reward = { 
 		
 	}
@@ -394,7 +397,7 @@ shared_focus = {
 	}
 }
 shared_focus = { 
-	id = TYR_v_ataku_voini_dobra #Нужен погранконфликт, причем все должно быть так забалансено, что армия Тирлитии обоссытся от фортов ополченцев, а также проебет кучу танков. Если выиграет, то будет уже другая ветка, но я пока сделаю уж пожалуй только если проебет
+	id = TYR_v_ataku_voini_dobra #VOINA GOIDA
 	prerequisite = {
 		focus = TYR_s_kabrirovania
 	}
@@ -403,7 +406,19 @@ shared_focus = {
 	x = 22
 	y = 18
 	completion_reward = { 
-
+		758 = {
+			set_demilitarized_zone = no
+		}
+		959 = {
+			set_demilitarized_zone = no
+		}
+		declare_war_on = {
+			target = AOZ
+			type = annex_everything
+		}
+		hidden_effect = {
+			set_country_flag = TYR_AOZ_FW
+		}
 	}
 }
 ######### TYR_iznichtozhit_va_szhech path. Тирлития проебала
