@@ -66,5 +66,13 @@ spriteTypes = {
 	spriteType = {
         name = GFX_focus_icon_SDL_two_economies_icon_focus
         texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_two_economies_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_Saddle_Arabia_calls_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_Saddle_Arabia_calls_icon_focus.dds
+    }	
+	spriteType = {
+        name = GFX_focus_icon_SDL_Griffonia_tour_icon_focus
+        texturefile = gfx/interface/goals/SDL_CONF_icons/Silva_focuses/SDL_Griffonia_tour_icon_focus.dds
     }
 }

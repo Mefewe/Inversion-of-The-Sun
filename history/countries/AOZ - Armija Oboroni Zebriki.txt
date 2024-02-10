@@ -1,5 +1,5 @@
 capital = 965
-recruit_character = AOZ_Leader
+recruit_character = AOZ_MovementCommanders
 set_stability = 0
 set_war_support = 1
 set_research_slots = 1

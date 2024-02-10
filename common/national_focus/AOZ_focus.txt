@@ -9,8 +9,10 @@ focus_tree = {
 		}
 	}
 	shared_focus = AOZ_zheleznyj
+	shared_focus = AOZ_diplomatic_mission
+	shared_focus = AOZ_ba_pesh
 	default = no
-	continuous_focus_position = { x = 2800 y = 2200 }
+	continuous_focus_position = { x = 2000 y = 1000 }
 }
 focus_tree = {
 	id = AOZ_focus_tree_two
@@ -30,6 +32,7 @@ focus_tree = {
 
 shared_focus = {
 	id = AOZ_zheleznyj
+	icon = GFX_focus_ETH_develop_the_horn_of_africa
 	cost = 3
 	x = 12
 	y = 1
@@ -38,7 +41,188 @@ shared_focus = {
 	}
 }
 shared_focus = {
+	id = AOZ_neighbours
+	icon = GFX_focus_generic_infiltration
+	prerequisite = {
+		focus = AOZ_zheleznyj
+	}
+	cost = 3
+	x = 14
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_squadron
+	icon = GFX_focus_generic_commonwealth_build_infantry
+	prerequisite = {
+		focus = AOZ_zheleznyj
+	}
+	cost = 3
+	x = 16
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_Zarka_decree
+	icon = GFX_focus_NORDIC_com_capstone_materiel
+	mutually_exclusive = {
+		focus = AOZ_newcomers_for_officers
+	}
+	prerequisite = {
+		focus = AOZ_neighbours
+	}
+	prerequisite = {
+		focus = AOZ_squadron
+	}
+	cost = 3
+	x = 14
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_newcomers_for_officers
+	icon = GFX_focus_NORDIC_com_selector_army
+	mutually_exclusive = {
+		focus = AOZ_Zarka_decree
+	}
+	prerequisite = {
+		focus = AOZ_neighbours
+	}
+	prerequisite = {
+		focus = AOZ_squadron
+	}
+	cost = 4
+	x = 16
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_wealth_zebras
+	icon = GFX_focus_usa_reestablish_the_gold_standard
+	prerequisite = {
+		focus = AOZ_zheleznyj
+	}
+	cost = 4
+	x = 8
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_south_bandits
+	icon = GFX_focus_ITA_banda_carita
+	prerequisite = {
+		focus = AOZ_zheleznyj
+	}
+	cost = 4
+	x = 10
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_zebrican_taxes
+	icon = GFX_focus_generic_treaty
+	mutually_exclusive = {
+		focus = AOZ_racketeering
+	}
+	prerequisite = {
+		focus = AOZ_wealth_zebras
+	}
+	prerequisite = {
+		focus = AOZ_south_bandits
+	}
+	cost = 4
+	x = 8
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_racketeering
+	icon = GFX_goal_generic_military_deal
+	mutually_exclusive = {
+		focus = AOZ_zebrican_taxes
+	}
+	prerequisite = {
+		focus = AOZ_wealth_zebras
+	}
+	prerequisite = {
+		focus = AOZ_south_bandits
+	}
+	cost = 4
+	x = 10
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_diplomatic_mission
+	icon = GFX_focus_SWI_promote_henne
+	available = {
+		has_completed_focus = AOZ_zheleznyj
+	}
+	cost = 4
+	x = 12
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_friends_in_confederation
+	icon = GFX_focus_generic_league_of_nations
+	prerequisite = {
+		focus = AOZ_diplomatic_mission
+	}
+	cost = 4
+	x = 11
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_meeting_with_oef_and_conf
+	icon = GFX_focus_SOV_baltic_security
+	prerequisite = {
+		focus = AOZ_friends_in_confederation
+	}
+	cost = 4
+	x = 10
+	y = 6
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_to_arrange_purchases
+	icon = GFX_focus_SWI_issue_war_bonds
+	prerequisite = {
+		focus = AOZ_diplomatic_mission
+	}
+	cost = 4
+	x = 13
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_zebrican_weapon_zone
+	icon = GFX_focus_generic_reorient_production
+	prerequisite = {
+		focus = AOZ_to_arrange_purchases
+	}
+	cost = 4
+	x = 14
+	y = 6
+	completion_reward = { 
+	}
+}
+shared_focus = {
 	id = AOZ_ce_vatan
+	icon = GFX_focus_NORDIC_com_form_alliance
 	prerequisite = {
 		focus = AOZ_zheleznyj
 	}
@@ -55,6 +239,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = AOZ_v_pustine
+	icon = GFX_focus_generic_truck
 	prerequisite = {
 		focus = AOZ_ce_vatan
 	}
@@ -67,18 +252,33 @@ shared_focus = {
 }
 shared_focus = {
 	id = AOZ_ba_pesh
-	prerequisite = {
-		focus = AOZ_v_pustine
+	available = {
+		has_completed_focus = AOZ_meeting_with_oef_and_conf
+		has_completed_focus = AOZ_zebrican_weapon_zone
 	}
+	available = {
+		OR = {
+			has_completed_focus = AOZ_Zarka_decree
+			has_completed_focus = AOZ_newcomers_for_officers
+		}
+	}
+	available = {
+		OR = {
+			has_completed_focus = AOZ_zebrican_taxes
+			has_completed_focus = AOZ_racketeering
+		}
+	}
+	icon = GFX_focus_FIN_keepers_of_the_baltic_countries
 	cost = 1
 	x = 12
-	y = 4
+	y = 6
 	completion_reward = { 
 		country_event = AOZ.4
 	}
 }
 shared_focus = { #Конец первого древа по сути
 	id = AOZ_sudnyj_chas 
+	icon = GFX_focus_SWE_neither_death_nor_dishonor
 	prerequisite = {
 		focus = AOZ_ba_pesh
 	}
@@ -91,7 +291,7 @@ shared_focus = { #Конец первого древа по сути
 	}
 	cost = 1
 	x = 12
-	y = 5
+	y = 7
 	completion_reward = { 
 		country_event = AOZ.5
 		TYR = {
@@ -105,7 +305,7 @@ shared_focus = { #
 
 	cost = 1
 	x = 16
-	y = 7
+	y = 9
 	completion_reward = { 
 		country_event = AOZ.11
 

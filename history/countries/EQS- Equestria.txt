@@ -25,7 +25,7 @@ add_ideas = {
 		closed_economy
 	}
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = neutrality
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,10 +33,10 @@ set_politics = {
 set_popularities = {
 	democratic = 18
 	communism = 17
-	neutrality = 10
+	neutrality = 30
 	fascism = 11
-    progressivism = 19
-    paternalism = 25
+	progressivism = 14
+	paternalism = 10
 }
 
 create_country_leader = {
