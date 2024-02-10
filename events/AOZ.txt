@@ -86,6 +86,7 @@ country_event = {
 			}
 		}
 		add_ideas = ebem_mazhorov
+		country_event = {days = 2 id = AOZ.7}
 	}
 }
 country_event = {
