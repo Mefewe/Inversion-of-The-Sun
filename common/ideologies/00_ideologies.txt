@@ -228,6 +228,9 @@ ideologies = {
 		hybrid_goverment = {
 
 		}
+		military_government = {
+
+		}
 	}
 
 	dynamic_faction_names = {
