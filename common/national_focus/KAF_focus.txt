@@ -1,0 +1,58 @@
+focus_tree = {
+	id = FAW_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = KAF
+		}
+	}
+	shared_focus = KAF_kinuli
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+shared_focus = {
+	id = KAF_kinuli
+	cost = 2
+	x = 12
+	y = 1
+	completion_reward = {
+		country_event = KAF.1
+		779 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7547
+			}
+		}
+	}
+}
+
+shared_focus = {
+	prerequisite = {
+		focus = KAF_kinuli
+	}
+	id = KAF_vserabocheje_sobranije
+	cost = 2
+	x = 12
+	y = 2
+	completion_reward = {
+		country_event = KAF.2
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	prerequisite = {
+		focus = KAF_vserabocheje_sobranije
+	}
+	id = KAF_mobilizacija
+	cost = 2
+	x = 12
+	y = 3
+	completion_reward = {
+		country_event = KAF.3
+	}
+}

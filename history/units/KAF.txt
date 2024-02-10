@@ -1,0 +1,26 @@
+division_template = {
+	is_locked = yes
+        name = "Brigada de Selfdefencia"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+        }
+        support = {
+			engineer = { x = 0 y = 0 }
+			mot_recon = { x = 0 y = 1 }
+			artillery = { x = 0 y = 2 }
+        }
+}
+units = {
+	division = {
+		name = "1 brigade"
+		location = 7547
+		division_template = "Brigada de Selfdefencia"
+		start_experience_factor = 0.35
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+}
