@@ -129,6 +129,17 @@ ideas = {
 				army_defence_factor = 0.075
 			}
 		}
+		sdl_conf_corporate_fund = {
+			modifier = {
+				political_power_factor = 0.25
+				research_speed_factor = 0.5
+				consumer_goods_factor = -0.35
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.25
+				line_change_production_efficiency_factor = 0.15
+			}
+		}
 		################
 		## SWAP IDEAS ##
 		################
@@ -148,6 +159,34 @@ ideas = {
 
 ideas = {
 	hidden_ideas = {
+		sdl_conf_economical_effort = {
+			modifier = {
+				consumer_goods_factor = -0.25
+				local_resources_factor = -0.1
+			}
+		}
+		sdl_conf_fair_partnership = {
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		sdl_conf_resource_deal_with_oef = {
+			modifier = {
+				consumer_goods_factor = -0.5
+				local_resources_factor = -0.2
+			}
+		}
+		sdl_conf_summit_of_hooves_and_claws = {
+			modifier = {
+				stability_factor = 0.35
+				political_power_factor = 0.03
+				production_factory_start_efficiency_factor = 0.15
+				consumer_goods_factor = -0.3
+			}
+		}
+
+
+
 		sdl_conf_pp_modify_1 = {
 			modifier = {
 				political_power_factor = 0.03

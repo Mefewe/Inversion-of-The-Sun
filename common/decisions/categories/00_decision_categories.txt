@@ -1,3 +1,15 @@
+debug_GUI_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}
+SDL_CONF_debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}
 debug_zebrica_decisions = {
 	icon = generic_research
 	visible = {

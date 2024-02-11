@@ -1,14 +1,16 @@
-on_action = {
+on_actions = {
 	on_daily_TYR = {
-		if = {
-			limit = {
-				has_country_flag = TYR_AOZ_FW
-				has_war_with = AOZ
-				casualties > 4250
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = TYR_AOZ_FW
+					has_war_with = AOZ
+					casualties > 4250
+				}
+				white_peace = AOZ
+				country_event = TYR.200
+				clr_country_flag = TYR_AOZ_FW
 			}
-			white_peace = AOZ
-			country_event = TYR.200
-			clr_country_flag = TYR_AOZ_FW
 		}
 	}
 }

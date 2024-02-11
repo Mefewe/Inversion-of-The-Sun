@@ -14,4 +14,8 @@ opinion_modifiers = {
 		months = 18
 		decay = 1
 	}
+
+	oef_partner = {
+		value = 50
+	}
 }

@@ -519,8 +519,8 @@ shared_focus = {
 	x = 16
 	y = 1
 	completion_reward = { 
-		#+решения для проведения акций
 		add_stability = 0.1
+		custom_effect_tooltip = SDL_CONF_CivilianDecs_tt
 	}
 }
 
@@ -645,7 +645,6 @@ shared_focus = {
 	x = 16
 	y = 4
 	completion_reward = { 
-		# -решения для проведения акций
 		add_political_power = 100
 		add_stability = 0.15
 		add_popularity = {
@@ -656,6 +655,7 @@ shared_focus = {
 			idea = sdl_conf_multi_6
 			days = 60
 		}
+		custom_effect_tooltip = SDL_CONF_CivilianDecsOff_tt
 	}
 }
 
@@ -684,9 +684,9 @@ shared_focus = {
 	x = 20
 	y = 1
 	completion_reward = { 
-		# +решения на армию
 		army_experience = 25
 		add_political_power = -50
+		custom_effect_tooltip = SDL_CONF_MilitaryDecs_tt
 	}
 }
 
@@ -755,9 +755,9 @@ shared_focus = {
 	x = 20
 	y = 3
 	completion_reward = { 
-		# -решения на армию
 		add_political_power = 65
 		army_experience = 50
+		custom_effect_tooltip = SDL_CONF_MilitaryDecsOff_tt
 	}
 }
 
@@ -785,6 +785,9 @@ shared_focus = {
 	x = 24
 	y = 1
 	completion_reward = { 
+		add_political_power = 50
+		add_ideas = sdl_conf_economical_effort
+		custom_effect_tooltip = SDL_CONF_EconomicalDecs_tt
 	}
 }
 
@@ -805,6 +808,11 @@ shared_focus = {
 	x = 23
 	y = 2
 	completion_reward = { 
+		add_opinion_modifier = {
+			    target = OEF
+			    modifier = oef_partner
+		}
+		add_ideas = sdl_conf_fair_partnership
 	}
 }
 
@@ -825,6 +833,9 @@ shared_focus = {
 	x = 23
 	y = 3
 	completion_reward = { 
+		add_political_power = -45
+		add_ideas = sdl_conf_corporate_fund
+
 	}
 }
 
@@ -845,6 +856,10 @@ shared_focus = {
 	x = 25
 	y = 2
 	completion_reward = { 
+		add_opinion_modifier = {
+			    target = OEF
+			    modifier = oef_partner
+		}
 	}
 }
 
@@ -865,6 +880,11 @@ shared_focus = {
 	x = 25
 	y = 3
 	completion_reward = { 
+		add_political_power = 75
+		add_timed_idea = {
+			idea = sdl_conf_resource_deal_with_oef
+			days = 180
+		}
 	}
 }
 
@@ -888,6 +908,12 @@ shared_focus = {
 	x = 24
 	y = 4
 	completion_reward = { 
+		add_political_power = 125
+		add_timed_idea = { 
+			idea = sdl_conf_summit_of_hooves_and_claws
+			days = 60
+		}
+		custom_effect_tooltip = SDL_CONF_EconomicalDecsOff_tt
 	}
 }
 

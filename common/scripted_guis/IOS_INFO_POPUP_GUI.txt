@@ -1,0 +1,23 @@
+scripted_gui = {
+
+   gui_popup_info = {
+    
+        context_type = player_context
+		
+		window_name = "gui_popup_info"
+		
+		visible = {
+			is_ai = no
+			has_variable = global.open_info_popup
+		}
+		
+		effects = {   
+			popup_button_close_click = {
+				clear_variable = global.open_info_popup
+			}
+		}
+        
+		triggers = {          
+		}
+	}
+} 

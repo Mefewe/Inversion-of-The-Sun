@@ -1,3 +1,5 @@
+### CONF/SILVA BOP ###
+
 SDL_CONF_ConventConflict = {
 	SDL_CONF_RiskCheck = {
 		available = {
@@ -131,6 +133,25 @@ SDL_CONF_ConventConflict = {
 				value = 0.10
 			}
 		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 200
+				add = 5
+			}
+			modifier = {
+				has_stability < 0.4
+				add = 5
+			}
+			modifier = {
+				power_balance_value = {
+   					id = SDL_CONF_CONVENT_VS_SILVA_balance 
+   					value > 0.3
+				}
+				add = 5
+			}
+		}
 	}
 	SDL_CONF_LegalActivityProdAdd = {
 		available = {
@@ -156,6 +177,21 @@ SDL_CONF_ConventConflict = {
 				value = 0.10
 			}
 		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 200
+				add = 5
+			}
+			modifier = {
+				power_balance_value = {
+   					id = SDL_CONF_CONVENT_VS_SILVA_balance 
+   					value > 0.3
+				}
+				add = 5
+			}
+		}
 	}
 	SDL_CONF_LegalActivityConstructionAdd = {
 		available = {
@@ -179,6 +215,21 @@ SDL_CONF_ConventConflict = {
 			add_power_balance_value = {
 				id = SDL_CONF_CONVENT_VS_SILVA_balance 
 				value = 0.10
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 200
+				add = 5
+			}
+			modifier = {
+				power_balance_value = {
+   					id = SDL_CONF_CONVENT_VS_SILVA_balance 
+   					value > 0.3
+				}
+				add = 5
 			}
 		}
 	}
@@ -210,6 +261,14 @@ SDL_CONF_ConventConflict = {
 				flag = LegalActivity1_ACTIVE
 				days = 60
 				value = 1
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 200
+				add = 10
 			}
 		}
 	}
@@ -245,6 +304,14 @@ SDL_CONF_ConventConflict = {
 				value = 1
 			}
 		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 200
+				add = 15
+			}
+		}
 	}
 	SDL_CONF_LegalActivity3 = {
 		available = {
@@ -273,6 +340,21 @@ SDL_CONF_ConventConflict = {
 			}
 			set_global_flag = LegalActivity3_COMPLETE
 		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 200
+				add = 5
+			}
+			modifier = {
+				power_balance_value = {
+   					id = SDL_CONF_CONVENT_VS_SILVA_balance 
+   					value > 0.3
+				}
+				add = 15
+			}
+		}
 	}
 	SDL_CONF_IllegalMinorActivity = {
 		available = {
@@ -299,6 +381,25 @@ SDL_CONF_ConventConflict = {
 			add_power_balance_value = {
 				id = SDL_CONF_CONVENT_VS_SILVA_balance 
 				value = 0.2
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 250
+				add = 5
+			}
+			modifier = {
+				power_balance_value = {
+   					id = SDL_CONF_CONVENT_VS_SILVA_balance 
+   					value > 0.3
+				}
+				add = 5
+			}
+			modifier = {
+				has_stability < 0.5
+				factor = 0
 			}
 		}
 	}
@@ -333,6 +434,20 @@ SDL_CONF_ConventConflict = {
 				flag = IllegalActivity1_ACTIVE
 				days = 60
 				value = 1
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				power_balance_value = {
+   					id = SDL_CONF_CONVENT_VS_SILVA_balance 
+   					value > 0.3
+				}
+				add = 5
+			}
+			modifier = {
+				has_stability < 0.5
+				factor = 0
 			}
 		}
 	}
@@ -372,6 +487,17 @@ SDL_CONF_ConventConflict = {
 				value = 1
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 250
+				add = 5
+			}
+			modifier = {
+				has_stability < 0.5
+				factor = 0
+			}
+		}
 	}
 	SDL_CONF_IllegalActivity_3 = {
 		available = {
@@ -409,6 +535,17 @@ SDL_CONF_ConventConflict = {
 				value = 1
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 250
+				add = 5
+			}
+			modifier = {
+				has_stability < 0.5
+				factor = 0
+			}
+		}
 	}
 	SDL_CONF_IllegalActivity_4 = {
 		available = {
@@ -440,6 +577,70 @@ SDL_CONF_ConventConflict = {
 				value = 0.50
 			}
 			set_global_flag = IllegalActivity4_ACTIVE
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_political_power > 250
+				add = 5
+			}
+			modifier = {
+				has_stability < 0.5
+				factor = 0
+			}
+		}
+	}
+}
+
+### NORMAL DECISIONS ###
+SDL_CONF_CivilianDecisions = {
+	SDL_CONF_TEST1 = {
+		available = {
+			always = no
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+}
+SDL_CONF_MilitaryDecisions = {
+	SDL_CONF_TEST2 = {
+		available = {
+			always = no
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+}
+SDL_CONF_EconomicalDecisions = {
+	SDL_CONF_TEST3 = {
+		available = {
+			always = no
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
 		}
 	}
 }

@@ -114,6 +114,10 @@ SDL_CONF_CONVENT_VS_SILVA_balance = {
 				SDL = {
 					country_event = SDL_base.21
 				}
+				set_variable = {
+					var = riskStaticFactor
+					value = 0
+				}
 			}
 		}
 	}

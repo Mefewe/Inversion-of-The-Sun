@@ -1,0 +1,79 @@
+guiTypes = {
+	containerWindowType = {
+		name = "gui_popup_info"
+		position = { x = -350 y = 200}	
+		
+		size = { width = 820 height = 700 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = CENTER_UP
+
+		instantTextboxType = {
+			name = "title"
+			position = { x = 270 y = 30 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "POPUP_TITLE_GUI"
+			maxWidth = 240
+			maxHeight = 20
+			format = centre
+		}
+		
+		instantTextboxType = {
+			name = "welcome_text"
+			position = { x = 70 y = 120 }
+			font = "Bomb_20"
+			borderSize = {x = 0 y = 0}
+			text = "WELCOME_TEXT_GUI"
+			maxWidth = 670
+			maxHeight = 20
+			format = UPPER_LEFT
+		}
+		
+		instantTextboxType = {
+			name = "latest_update"
+			position = { x = 70 y = 180 }
+			font = "Bomb_20"
+			borderSize = {x = 0 y = 0}
+			text = "LATEST_UPDATE_GUI"
+			maxWidth = 670
+			maxHeight = 20
+			format = UPPER_LEFT
+		}
+		
+		instantTextboxType = {
+			name = "creators"
+			position = { x = 70 y = 360 }
+			font = "Bomb_20"
+			borderSize = {x = 0 y = 0}
+			text = "CREATORS_GUI"
+			maxWidth = 240
+			maxHeight = 20
+			format = UPPER_LEFT
+		}
+		
+		buttonType = {
+			name = "popup_button_close"
+			position = { x = 340 y = 640 }
+			spriteType = "GFX_sort_button_171x35"
+			frame = 2
+			buttonFont = "hoi_16mbs"
+			buttonText = "EXIT_SCREEN"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE_SCREEN_tt"
+			Orientation = "centre"
+		}
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+    }
+}
+
+                

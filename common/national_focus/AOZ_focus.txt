@@ -25,6 +25,8 @@ focus_tree = {
 		}
 	}
 	shared_focus = AOZ_zheleznyj
+	shared_focus = AOZ_diplomatic_mission
+	shared_focus = AOZ_ba_pesh
 	shared_focus = AOZ_totalna_oborona
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
@@ -305,7 +307,7 @@ shared_focus = { #
 
 	cost = 1
 	x = 16
-	y = 9
+	y = 10
 	completion_reward = { 
 		country_event = AOZ.11
 
