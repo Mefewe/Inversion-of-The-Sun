@@ -195,6 +195,62 @@ defined_text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_UCF_WIN_NEG
 	}
 	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = AOZ
+			}
+			event_target:winning_country = {
+				original_tag = TYR
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_TYR_WIN_AOZ
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = KAF
+			}
+			event_target:winning_country = {
+				original_tag = AOZ
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_AOZ_WIN_KAF
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = AOZ
+			}
+			event_target:winning_country = {
+				original_tag = KAF
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_KAF_WIN_AOZ
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = AOZ
+			}
+			event_target:winning_country = {
+				original_tag = ZKT
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_ZKT_WIN_AOZ
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = ZKT
+			}
+			event_target:winning_country = {
+				original_tag = AOZ
+			}
+		}
+		localization_key = IOS_PEACE_POPUP_FLAVOR_AOZ_WIN_ZKT
+	}
+
+	text = {
 		localization_key = IOS_PEACE_POPUP_FLAVOR_DEFAULT
 	}
 }

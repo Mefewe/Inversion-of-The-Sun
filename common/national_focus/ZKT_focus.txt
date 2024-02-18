@@ -1,0 +1,41 @@
+focus_tree = {
+	id = ZKT_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ZKT
+		}
+	}
+	shared_focus = ZKT_poslednije_prigotovlenija
+	default = no
+	continuous_focus_position = { x = 2300 y = 700 }
+}
+
+shared_focus = {
+	id = ZKT_poslednije_prigotovlenija
+
+	cost = 2
+	x = 14
+	y = 18
+	completion_reward = { 
+		country_event = TYR.504
+	}
+}
+shared_focus = {
+	id = ZKT_ebashim
+	prerequisite = {
+		focus = ZKT_poslednije_prigotovlenija
+	}
+
+	cost = 2
+	x = 14
+	y = 18
+	completion_reward = { 
+		declare_war_on = {
+			target = AOZ
+			type = annex_everything
+		}
+	}
+}
