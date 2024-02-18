@@ -353,9 +353,50 @@ shared_focus = {
 	x = 14
 	y = 15
 	completion_reward = { 
-		
+		country_event = TYR.500
 	}
 }
+######### Проявить выдержку
+shared_focus = {
+	id = TYR_ukomplektovat_sso
+	prerequisite = {
+		focus = TYR_projavit_viderzhku
+	}
+
+	cost = 2
+	x = 14
+	y = 16
+	completion_reward = { 
+		country_event = TYR.501
+	}
+}
+shared_focus = {
+	id = TYR_provesti_analiz_naselenija
+	prerequisite = {
+		focus = TYR_projavit_viderzhku
+	}
+
+	cost = 2
+	x = 14
+	y = 17
+	completion_reward = { 
+		country_event = TYR.502
+	}
+}
+shared_focus = {
+	id = TYR_prikaz_podan
+	prerequisite = {
+		focus = TYR_projavit_viderzhku
+	}
+
+	cost = 2
+	x = 14
+	y = 18
+	completion_reward = { 
+		country_event = TYR.504
+	}
+}
+
 ######### TYR_iznichtozhit_va_szhech path
 shared_focus = {
 	id = TYR_sobratj_udarnyj_kulak
@@ -421,6 +462,7 @@ shared_focus = {
 		}
 	}
 }
+
 ######### TYR_iznichtozhit_va_szhech path. Тирлития проебала
 shared_focus = { 
 	id = TYR_nam_pizda

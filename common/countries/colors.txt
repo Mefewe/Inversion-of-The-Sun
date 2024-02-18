@@ -342,6 +342,10 @@ KAF = {
 }
 
 
+ZKT = {
+	color = rgb { 70 100 95 }
+	color_ui = rgb { 70 100 95 }
+}
 
 
 D01 = {
