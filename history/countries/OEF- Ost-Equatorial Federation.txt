@@ -15,7 +15,15 @@ add_ideas = {
 		war_economy
 		service_by_requirement
 		closed_economy
-	}
+}
+set_autonomy = {
+        target = OLN
+        autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+        target = AZV
+        autonomous_state = autonomy_integrated_puppet
+}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1768.7.8"

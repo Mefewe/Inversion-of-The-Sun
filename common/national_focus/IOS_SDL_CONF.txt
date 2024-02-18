@@ -1358,7 +1358,7 @@ shared_focus = {
 		focus = SDL_popular_reformation
 	}
 	cost = 1
-	x = 14
+	x = 20
 	y = 6
 	completion_reward = { 
 	}
@@ -1377,7 +1377,7 @@ shared_focus = {
 		focus = SDL_popular_reformation
 	}
 	cost = 1
-	x = 20
+	x = 14
 	y = 6
 	completion_reward = { 
 	}

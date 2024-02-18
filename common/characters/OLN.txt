@@ -1,0 +1,17 @@
+characters = {
+OLN_King_Lindquist = {
+		name = OLN_King_Lindquist
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+		}
+		country_leader = {
+		    desc="OLN_King_Lindquist_desc"
+			ideology = neoharmonism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

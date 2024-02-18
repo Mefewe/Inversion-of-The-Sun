@@ -62,6 +62,27 @@ SDL_CONF_debug_decisions = {
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
+	debug_sdl_conf_load_tree_3.5 = {		
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			tag = SDL
+		}
+	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = SDL_focus_tree_two_and_half
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
 }
 debug_zebrica_decisions = {
 debug_tyr_ATO = {

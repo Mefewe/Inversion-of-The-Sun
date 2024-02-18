@@ -1,0 +1,33 @@
+capital = 102
+recruit_character = OLN_King_Lindquist
+set_stability = 0.3
+set_war_support = 0.1
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+add_ideas = {
+	#laws
+	war_economy
+	service_by_requirement
+	closed_economy
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1768.7.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+	communism = 0
+	neutrality = 0
+	fascism = 0
+	progressivism = 0
+	paternalism = 0
+}
