@@ -16,4 +16,24 @@ on_actions = {
 }
 
 
-
+on_actions = {
+	on_daily_ZKT = {
+		effect = {
+			if = {
+				limit = {
+					has_war_with = AOZ
+					casualties > 7666
+				}
+				AOZ = {
+					annex_country = {
+						target = ZKT
+						transfer_troops = yes
+					}
+				}
+				TYR = {
+					country_event = TYR.550
+				}
+			}
+		}
+	}
+}

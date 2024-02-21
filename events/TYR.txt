@@ -386,15 +386,19 @@ country_event = {
 	}
 }
 
-###########################################
-news_event = {
-	id = TYR_news.1
-	title = TYR_news.1.title
-	desc = TYR_news.1.desc
+########################################### Проеб КТО
+country_event = {
+	id = TYR.550 # Проеб КТО вести
+	title = TYR.550.title
+	desc = TYR.550.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
+	fire_only_once = yes
 	option = {
-		name = TYR_news.1.a
+		name = TYR.550.a
 
 	}
 }
+
+
+###########################################
