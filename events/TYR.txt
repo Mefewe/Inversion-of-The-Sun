@@ -1,7 +1,6 @@
 add_namespace = TYR_hidden
 
 add_namespace = TYR
-add_namespace = TYR_news
 
 country_event = {
 	id = TYR.1
@@ -387,14 +386,3 @@ country_event = {
 }
 
 ###########################################
-news_event = {
-	id = TYR_news.1
-	title = TYR_news.1.title
-	desc = TYR_news.1.desc
-	picture = GFX_placeholder
-	is_triggered_only = yes
-	option = {
-		name = TYR_news.1.a
-
-	}
-}
