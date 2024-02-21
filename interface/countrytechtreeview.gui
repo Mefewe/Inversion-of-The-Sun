@@ -851,15 +851,10 @@ guiTypes = {
 				}
 				clipping = no
 
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
 				iconType = {
 					name ="armortech_bg"
 					spriteType = "GFX_armortech_bg"
-					position = { x=0 y=0 }
+					position = { x=-45 y=0 }
 					alwaystransparent = yes
 				}
 
@@ -989,7 +984,42 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "diesel_engine_2_tree"
-				position = { x = 0 y = 350 }
+				position = { x = -45 y = 350 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}				
+			gridboxtype = {
+				name = "diesel_engine_3_tree"
+				position = { x = -45 y = 350 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}				
+			gridboxtype = {
+				name = "diesel_engine_4_tree"
+				position = { x = -45 y = 350 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}				
+			gridboxtype = {
+				name = "gas_turbine_engine_1_tree"
+				position = { x = 45 y = 350 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}				
+			gridboxtype = {
+				name = "gas_turbine_engine_2_tree"
+				position = { x = 45 y = 350 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}				
+			gridboxtype = {
+				name = "gas_turbine_engine_3_tree"
+				position = { x = 45 y = 350 }
 				size = { width = 80% height = 20% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1014,8 +1044,42 @@ guiTypes = {
 				size = { width = 80% height = 20% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
+			}			
+			gridboxtype = {
+				name = "armor_endurance_enchantment_tree"
+				position = { x = -45 y = 820 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}						
+			gridboxtype = {
+				name = "magical_energy_flash_tree"
+				position = { x = -20 y = 820 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
 			}
-			
+			gridboxtype = {
+				name = "magical_camouflage_tree"
+				position = { x = 165 y = 820 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}				
+			gridboxtype = {
+				name = "magical_autorepair_tree"
+				position = { x = 260 y = 820 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}				
+			gridboxtype = {
+				name = "complex_magical_modulator_tree"
+				position = { x = 630 y = 820 }
+				size = { width = 80% height = 20% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}	
 		}
 
 		containerWindowType = {
