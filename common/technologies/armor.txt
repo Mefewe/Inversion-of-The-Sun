@@ -3,7 +3,6 @@ technologies = {
 	gwtank = { #Leichttraktor
 
 		enable_equipments = {
-			gw_med_tank_eq_1
 			med_tank_eq_1
 			med_tank_eq_2
 			med_tank_eq_3

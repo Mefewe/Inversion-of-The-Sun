@@ -3,7 +3,7 @@ characters = {
 		name = UCF_Coalition_Soviet_of_Valterists
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown_L
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {

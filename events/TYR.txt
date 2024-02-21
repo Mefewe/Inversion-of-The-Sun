@@ -1,7 +1,6 @@
 add_namespace = TYR_hidden
 
 add_namespace = TYR
-add_namespace = TYR_news
 
 country_event = {
 	id = TYR.1
@@ -399,6 +398,4 @@ country_event = {
 
 	}
 }
-
-
 ###########################################

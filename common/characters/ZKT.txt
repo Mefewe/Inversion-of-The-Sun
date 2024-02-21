@@ -3,7 +3,7 @@ characters = {
 		name = ZKT_Gebzun_Tsumervan_Mahrots
 		portraits = {
 			civilian = {
-				large = GFX_ZKT_Gebzun_Tsumervan_Mahrots_L
+				large = GFX_leader_unknown
 			}
 		}
 		country_leader = {

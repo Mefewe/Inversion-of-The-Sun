@@ -1,4 +1,5 @@
 add_namespace = News
+add_namespace = TYR_News
 
 news_event = {
 	id = News.1
@@ -75,6 +76,27 @@ news_event = {
 		name = News.4.b
 		trigger = {
 			tag = EQS
+		}
+	}
+}
+news_event = {
+	id = TYR_News.1
+	title = TYR_news.1.title
+	desc = TYR_news.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = TYR_news.1.a
+		trigger = {
+			NOT = {tag = TYR}
+		}
+	}
+	option = {
+		name = TYR_news.1.b
+		trigger = {
+			tag = TYR
 		}
 	}
 }

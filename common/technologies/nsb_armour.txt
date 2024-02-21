@@ -1,0 +1,509 @@
+technologies = {
+	diesel_engine_1 = {
+		research_cost = 2
+		start_year = 1758
+		path = {
+			leads_to_tech = gw_light_tank
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = diesel_engine_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armor_enchantments
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -7 y = 0 }
+		}
+		categories = {
+			armor
+		}
+	}
+	gw_light_tank = {
+		research_cost = 2
+		start_year = 1763
+		path = {
+			leads_to_tech = improved_construction
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			gw_light_tank_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -5 y = 0 }
+		}
+		categories = {
+			armor
+		}
+	}
+	improved_construction = {
+		research_cost = 2
+		start_year = 1770
+		path = {
+			leads_to_tech = light_tank_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = post_war_modern_tank
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -3 y = 0 }
+		}
+		categories = {
+			armor
+		}
+	}
+	light_tank_1 = {
+		research_cost = 2
+		start_year = 1772
+		path = {
+			leads_to_tech = electronic_integration_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cost_reduce_1
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			light_tank_1_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = -1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	post_war_modern_tank = {
+		research_cost = 2
+		start_year = 1772
+		path = {
+			leads_to_tech = electronic_integration_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cost_reduce_1
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			post_war_modern_tank_eq_1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	electronic_integration_1 = {
+		research_cost = 2
+		start_year = 1774
+		path = {
+			leads_to_tech = modern_tank_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = light_tank_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = -1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	cost_reduce_1 = {
+		research_cost = 2
+		start_year = 1774
+		path = {
+			leads_to_tech = modern_tank_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = light_tank_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = 1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	light_tank_2 = {
+		research_cost = 2
+		start_year = 1776
+		dependencies = {
+			electronic_integration_1 = 1
+		}
+		dependencies = {
+			cost_reduce_1 = 1
+		}
+		dependencies = {
+			light_tank_1 = 1
+		}
+		path = {
+			leads_to_tech = cost_reduce_2
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			light_tank_2_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 3 y = -1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	cost_reduce_2 = {
+		research_cost = 2
+		start_year = 1780
+		path = {
+			leads_to_tech = light_tank_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 5 y = -1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	light_tank_3 = {
+		research_cost = 2
+		start_year = 1783
+		enable_equipments = {
+			light_tank_3_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 7 y = -1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	light_tank_improved_construction = {
+		research_cost = 2
+		start_year = 1785
+		dependencies = {
+			light_tank_3 = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = 0 }
+		}
+		categories = {
+			armor
+		}
+	}
+	light_tank_enigne_improvements = {
+		research_cost = 2
+		start_year = 1785
+		dependencies = {
+			light_tank_3 = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = 0 }
+		}
+		categories = {
+			armor
+		}
+	}
+	modern_tank_1 = {
+		research_cost = 2
+		start_year = 1776
+		dependencies = {
+			electronic_integration_1 = 1
+		}
+		dependencies = {
+			cost_reduce_1 = 1
+		}
+		dependencies = {
+			post_war_modern_tank = 1
+		}
+		path = {
+			leads_to_tech = modern_tank_2
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			modern_tank_1_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 3 y = 1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	modern_tank_2 = {
+		research_cost = 2
+		start_year = 1780
+		path = {
+			leads_to_tech = improved_alloys
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			modern_tank_2_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 6 y = 1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	improved_alloys = {
+		research_cost = 2
+		start_year = 1783
+		path = {
+			leads_to_tech = modern_tank_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 8 y = 1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	modern_tank_3 = {
+		research_cost = 2
+		start_year = 1785
+		enable_equipments = {
+			modern_tank_3_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 10 y = 1 }
+		}
+		categories = {
+			armor
+		}
+	}
+	diesel_engine_2 = {
+		research_cost = 2
+		start_year = 1772
+		path = {
+			leads_to_tech = diesel_engine_3
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			diesel_engine_1 = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = -3 }
+		}
+		categories = {
+			armor
+		}
+	}
+	diesel_engine_3 = {
+		research_cost = 2
+		start_year = 1778
+		path = {
+			leads_to_tech = diesel_engine_4
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 4 y = -3 }
+		}
+		categories = {
+			armor
+		}
+	}
+	diesel_engine_4 = {
+		research_cost = 2
+		start_year = 1785
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = -3 }
+		}
+		categories = {
+			armor
+		}
+	}
+	armor_enchantments = {
+		research_cost = 2
+		start_year = 1770
+		dependencies = {
+			diesel_engine_1 = 1
+		}
+		path = {
+			leads_to_tech = magic_tank_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -3 y = 4 }
+		}
+		categories = {
+			armor
+		}
+	}
+	magic_tank_1 = {
+		research_cost = 2
+		start_year = 1770
+		path = {
+			leads_to_tech = better_magical_crystals
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = enchanted_tank_ammo
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			magic_tank_1_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 4 }
+		}
+		categories = {
+			armor
+		}
+	}
+	better_magical_crystals = {
+		research_cost = 2
+		start_year = 1774
+		path = {
+			leads_to_tech = magic_tank_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = 3 }
+		}
+		categories = {
+			armor
+		}
+	}
+	enchanted_tank_ammo = {
+		research_cost = 2
+		start_year = 1774
+		path = {
+			leads_to_tech = magic_tank_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = 5 }
+		}
+		categories = {
+			armor
+		}
+	}
+	magic_tank_2 = {
+		research_cost = 2
+		start_year = 1776
+		dependencies = {
+			better_magical_crystals = 1
+		}
+		dependencies = {
+			enchanted_tank_ammo = 1
+		}
+		path = {
+			leads_to_tech = ammo_reenchantment
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_magical_crystals
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			magic_tank_2_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 3 y = 4 }
+		}
+		categories = {
+			armor
+		}
+	}
+	ammo_reenchantment = {
+		research_cost = 2
+		start_year = 1780
+		path = {
+			leads_to_tech = magic_tank_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 5 y = 3 }
+		}
+		categories = {
+			armor
+		}
+	}
+	improved_magical_crystals = {
+		research_cost = 2
+		start_year = 1780
+		path = {
+			leads_to_tech = magic_tank_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 5 y = 5 }
+		}
+		categories = {
+			armor
+		}
+	}
+	magic_tank_3 = {
+		research_cost = 2
+		start_year = 1783
+		dependencies = {
+			ammo_reenchantment = 1
+		}
+		dependencies = {
+			improved_magical_crystals = 1
+		}
+		path = {
+			leads_to_tech = magical_crystals_reenchantment
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			magic_tank_3_eq
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 7 y = 4 }
+		}
+		categories = {
+			armor
+		}
+	}
+	magical_crystals_reenchantment = {
+		research_cost = 2
+		start_year = 1785
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = 4 }
+		}
+		categories = {
+			armor
+		}
+	}
+}
