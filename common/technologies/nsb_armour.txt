@@ -16,7 +16,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -7 y = 0 }
+			position = { x = -11 y = 0 }
 		}
 		categories = {
 			armor
@@ -37,7 +37,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -5 y = 0 }
+			position = { x = -7 y = 0 }
 		}
 		categories = {
 			armor
@@ -78,7 +78,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = -1 }
+			position = { x = 1 y = -1 }
 		}
 		categories = {
 			armor
@@ -100,7 +100,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = 1 }
+			position = { x = 1 y = 1 }
 		}
 		categories = {
 			armor
@@ -119,7 +119,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = -1 }
+			position = { x = 5 y = -1 }
 		}
 		categories = {
 			armor
@@ -138,7 +138,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = 1 }
+			position = { x = 5 y = 1 }
 		}
 		categories = {
 			armor
@@ -165,7 +165,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = -1 }
+			position = { x = 9 y = -1 }
 		}
 		categories = {
 			armor
@@ -180,7 +180,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = -1 }
+			position = { x = 13 y = -1 }
 		}
 		categories = {
 			armor
@@ -194,7 +194,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = -1 }
+			position = { x = 17 y = -1 }
 		}
 		categories = {
 			armor
@@ -208,7 +208,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 9 y = 0 }
+			position = { x = 21 y = 0 }
 		}
 		categories = {
 			armor
@@ -222,7 +222,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 9 y = 0 }
+			position = { x = 21 y = 0 }
 		}
 		categories = {
 			armor
@@ -249,7 +249,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = 1 }
+			position = { x = 9 y = 1 }
 		}
 		categories = {
 			armor
@@ -267,7 +267,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 6 y = 1 }
+			position = { x = 13 y = 1 }
 		}
 		categories = {
 			armor
@@ -282,7 +282,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 8 y = 1 }
+			position = { x = 17 y = 1 }
 		}
 		categories = {
 			armor
@@ -296,7 +296,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 10 y = 1 }
+			position = { x = 21 y = 1 }
 		}
 		categories = {
 			armor
@@ -310,7 +310,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = -3 }
+			position = { x = 1 y = -3 }
 		}
 		categories = {
 			armor
@@ -324,7 +324,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = -3 }
+			position = { x = 11 y = -3 }
 		}
 		categories = {
 			armor
@@ -338,7 +338,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 9 y = -3 }
+			position = { x = 21 y = -3 }
 		}
 		categories = {
 			armor
@@ -352,7 +352,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = -3 }
+			position = { x = 1 y = -3 }
 		}
 		categories = {
 			armor
@@ -366,7 +366,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 4 y = -3 }
+			position = { x = 11 y = -3 }
 		}
 		categories = {
 			armor
@@ -380,7 +380,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 9 y = -3 }
+			position = { x = 21 y = -3 }
 		}
 		categories = {
 			armor
@@ -398,7 +398,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -3 y = 4 }
+			position = { x = -4 y = 4 }
 		}
 		categories = {
 			armor
@@ -438,7 +438,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = 3 }
+			position = { x = 5 y = 3 }
 		}
 		categories = {
 			armor
@@ -453,7 +453,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = 5 }
+			position = { x = 5 y = 5 }
 		}
 		categories = {
 			armor
@@ -481,7 +481,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = 4 }
+			position = { x = 9 y = 4 }
 		}
 		categories = {
 			armor
@@ -496,7 +496,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = 3 }
+			position = { x = 13 y = 3 }
 		}
 		categories = {
 			armor
@@ -511,7 +511,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = 5 }
+			position = { x = 13 y = 5 }
 		}
 		categories = {
 			armor
@@ -535,7 +535,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 4 }
+			position = { x = 17 y = 4 }
 		}
 		categories = {
 			armor
@@ -546,7 +546,7 @@ technologies = {
 		start_year = 1785
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 9 y = 4 }
+			position = { x = 21 y = 4 }
 		}
 		categories = {
 			armor
@@ -557,26 +557,6 @@ technologies = {
 		start_year = 1758
 		path = {
 			leads_to_tech = automatical_fire_system_1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = automatical_recharge_1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tank_cannon_105
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tank_cannon_125
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = tank_cannon_152
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = smoke_tank_ammo_1
 			research_cost_coeff = 1
 		}
 		path = {
@@ -593,7 +573,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -7 y = 9 }
+			position = { x = -11 y = 9 }
 		}
 		categories = {
 			armor
@@ -623,7 +603,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = 9 }
+			position = { x = 5 y = 9 }
 		}
 		categories = {
 			armor
@@ -634,7 +614,7 @@ technologies = {
 		start_year = 1780
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = 9 }
+			position = { x = 13 y = 9 }
 		}
 		categories = {
 			armor
@@ -643,9 +623,12 @@ technologies = {
 	tank_cannon_105 = {
 		research_cost = 2
 		start_year = 1772
+		dependencies = {
+			tank_construction_theory = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = 11 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -654,9 +637,12 @@ technologies = {
 	tank_cannon_125 = {
 		research_cost = 2
 		start_year = 1772
+		dependencies = {
+			tank_construction_theory = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = 11 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -665,9 +651,12 @@ technologies = {
 	tank_cannon_152 = {
 		research_cost = 2
 		start_year = 1772
+		dependencies = {
+			tank_construction_theory = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = 11 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -676,13 +665,12 @@ technologies = {
 	smoke_tank_ammo_1 = {
 		research_cost = 2
 		start_year = 1772
-		path = {
-			leads_to_tech = smoke_tank_ammo_2
-			research_cost_coeff = 1
+		dependencies = {
+			tank_construction_theory = 1
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -5 y = 13 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -690,14 +678,13 @@ technologies = {
 	}
 	smoke_tank_ammo_2 = {
 		research_cost = 2
-		path = {
-			leads_to_tech = smoke_tank_ammo_3
-			research_cost_coeff = 1
-		}
 		start_year = 1772
+		dependencies = {
+			smoke_tank_ammo_1 = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -5 y = 15 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -706,9 +693,12 @@ technologies = {
 	smoke_tank_ammo_3 = {
 		research_cost = 2
 		start_year = 1772
+		dependencies = {
+			smoke_tank_ammo_2 = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -5 y = 17 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -716,14 +706,14 @@ technologies = {
 	}
 	tank_turret_1 = {
 		research_cost = 2
-		start_year = 1770
+		start_year = 1763
 		path = {
             leads_to_tech = tank_turret_2
             research_cost_coeff = 1
         }
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = 11 }
+			position = { x = -7 y = 13 }
 		}
 		categories = {
 			armor
@@ -731,14 +721,14 @@ technologies = {
 	}
 	tank_turret_2 = {
 		research_cost = 2
-		start_year = 1775
+		start_year = 1774
 		path = {
             leads_to_tech = tank_turret_3
             research_cost_coeff = 1
         }
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = 15 }
+			position = { x = 5 y = 13 }
 		}
 		categories = {
 			armor
@@ -753,7 +743,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = 20 }
+			position = { x = 21 y = 13 }
 		}
 		categories = {
 			armor
@@ -769,7 +759,7 @@ technologies = {
         }
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 11 }
+			position = { x = -3 y = 11 }
 		}
 		categories = {
 			armor
@@ -777,14 +767,14 @@ technologies = {
 	}
 	armor_tech_2 = {
 		research_cost = 2
-		start_year = 1773
+		start_year = 1774
 		path = {
             leads_to_tech = armor_tech_3
             research_cost_coeff = 1
         }
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 13 }
+			position = { x = 5 y = 11 }
 		}
 		categories = {
 			armor
@@ -792,14 +782,14 @@ technologies = {
 	}
 	armor_tech_3 = {
 		research_cost = 2
-		start_year = 1777
+		start_year = 1780
 		path = {
             leads_to_tech = armor_tech_4
             research_cost_coeff = 1
         }
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 16 }
+			position = { x = 13 y = 11 }
 		}
 		categories = {
 			armor
@@ -807,10 +797,10 @@ technologies = {
 	}
 	armor_tech_4 = {
 		research_cost = 2
-		start_year = 1780
+		start_year = 1785
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 19 }
+			position = { x = 21 y = 11 }
 		}
 		categories = {
 			armor
@@ -820,13 +810,12 @@ technologies = {
 	automatical_recharge_1 = {
 		research_cost = 2
 		start_year = 1772
-		path = {
-            leads_to_tech = automatical_recharge_2
-            research_cost_coeff = 1
-        }
+		dependencies = {
+			tank_construction_theory = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -3 y = 14 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -835,9 +824,12 @@ technologies = {
 	automatical_recharge_2 = {
 		research_cost = 2
 		start_year = 1772
+		dependencies = {
+			automatical_recharge_1 = 1
+		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -3 y = 17 }
+			position = { x = 2 y = 13 }
 		}
 		categories = {
 			armor
@@ -854,7 +846,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = 0 }
+			position = { x = 1 y = 0 }
 		}
 		categories = {
 			armor
@@ -871,7 +863,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 2 y = 0 }
 		}
 		categories = {
 			armor
@@ -888,7 +880,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 6 y = 0 }
 		}
 		categories = {
 			armor
@@ -905,7 +897,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 6 y = 0 }
 		}
 		categories = {
 			armor
@@ -922,7 +914,7 @@ technologies = {
 		}
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 12 y = 0 }
 		}
 		categories = {
 			armor
@@ -933,7 +925,7 @@ technologies = {
 		start_year = 1785
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 9 y = 8 }
+			position = { x = 21 y = 8 }
 		}
 		categories = {
 			armor

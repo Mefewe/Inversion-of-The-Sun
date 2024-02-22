@@ -28,6 +28,8 @@ technologies = {
 
 		research_cost = 1.5
 
+		start_year = 1763
+
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 0 }

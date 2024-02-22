@@ -1,4 +1,4 @@
-technologies = {9
+technologies = {
 	
 	@1763 = 0
 	@1770 = 2
