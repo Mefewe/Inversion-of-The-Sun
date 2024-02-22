@@ -98,7 +98,9 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = AOZ.7.a
-
+		hidden_effect = {
+			country_event = {days = 2 id = AOZ.8}
+		}
 	}
 }
 country_event = {
@@ -109,6 +111,9 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
+		hidden_effect = {
+			country_event = {days = 2 id = AOZ.9}
+		}
 		name = AOZ.8.a
 		add_ideas = ebem_mazhorov
 	}
