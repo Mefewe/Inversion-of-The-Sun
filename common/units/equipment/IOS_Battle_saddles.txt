@@ -2,7 +2,7 @@
 
 equipments = {
 
-	infantry_ammo_equipment = {
+	battle_saddle_eq = {
 		year = 1758
 	
 		is_archetype = yes
@@ -40,23 +40,69 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		
 	}
 
-	infantry_ammo_equipment_0 = {
+	magic_energy_battle_saddle_eq = {
 		year = 1758
 	
-		archetype = infantry_ammo_equipment
+		is_archetype = yes
+                can_be_produced = {
+                	always = no
+                }
+		picture = archetype_infantry_ammo_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.1
+
+		#Defensive Abilities
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.03
+		resources = {
+			steel = 1
+		}
+	}
+
+	battle_saddle_1_eq = {
+		year = 1758
+		archetype = battle_saddle_eq
 		active = yes
 		priority = 05
 		visual_level = 0
 	}
 
-	infantry_ammo_equipment_1 = {
-		year = 1763
-	
-		archetype = infantry_ammo_equipment
-		parent = infantry_ammo_equipment_0
+	magic_energy_battle_saddle_1_eq = {
+		year = 1758
+		archetype = magic_energy_battle_saddle_eq
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+	battle_saddle_2_eq = {
+		year = 1770
+
+		archetype = battle_saddle_eq
+		parent = battle_saddle_1_eq
 		priority = 10
 		visual_level = 1
 
@@ -71,39 +117,14 @@ equipments = {
 		build_cost_ic = 0.05
 	}
 
-	infantry_ammo_equipment_2 = {
-		year = 1770
-	
-		archetype = infantry_ammo_equipment
-		parent = infantry_ammo_equipment_1
-		priority = 10
-		visual_level = 2
-		
-		#Defensive Abilities
-		defense = 53
-
-		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 0
-		
-		build_cost_ic = 0.07
-		resources = {
-			steel = 1
-			tungsten = 1
-		}
-		
-	}
-	
-	infantry_ammo_equipment_3 = {
+	battle_saddle_3_eq = {
 		year = 1774
-	
-		archetype = infantry_ammo_equipment
-		parent = infantry_ammo_equipment_2
+
+		archetype = battle_saddle_eq
+		parent = battle_saddle_2_eq
 		priority = 10
-		visual_level = 3
-		
+		visual_level = 1
+
 		#Defensive Abilities
 		defense = 0
 		#Offensive Abilities
@@ -111,22 +132,18 @@ equipments = {
 		hard_attack = 0
 		ap_attack = 0
 		air_attack = 0
-		
-		build_cost_ic = 0.10
-		resources = {
-			steel = 1
-			tungsten = 1
-		}
+
+		build_cost_ic = 0.05
 	}
 
-	infantry_ammo_equipment_4 = {
+	battle_saddle_4_eq = {
 		year = 1778
-	
-		archetype = infantry_ammo_equipment
-		parent = infantry_ammo_equipment_3
+
+		archetype = battle_saddle_eq
+		parent = battle_saddle_3_eq
 		priority = 10
-		visual_level = 3
-		
+		visual_level = 1
+
 		#Defensive Abilities
 		defense = 0
 		#Offensive Abilities
@@ -134,22 +151,18 @@ equipments = {
 		hard_attack = 0
 		ap_attack = 0
 		air_attack = 0
-		
-		build_cost_ic = 0.10
-		resources = {
-			steel = 1
-			tungsten = 1
-		}
+
+		build_cost_ic = 0.05
 	}
 
-	infantry_ammo_equipment_5 = {
+	battle_saddle_5_eq = {
 		year = 1782
-	
-		archetype = infantry_ammo_equipment
-		parent = infantry_ammo_equipment_4
+
+		archetype = battle_saddle_eq
+		parent = battle_saddle_4_eq
 		priority = 10
-		visual_level = 3
-		
+		visual_level = 1
+
 		#Defensive Abilities
 		defense = 0
 		#Offensive Abilities
@@ -157,22 +170,18 @@ equipments = {
 		hard_attack = 0
 		ap_attack = 0
 		air_attack = 0
-		
-		build_cost_ic = 0.10
-		resources = {
-			steel = 1
-			tungsten = 1
-		}
+
+		build_cost_ic = 0.05
 	}
 
-	infantry_ammo_equipment_6 = {
+	battle_saddle_6_eq = {
 		year = 1785
-	
-		archetype = infantry_ammo_equipment
-		parent = infantry_ammo_equipment_5
+
+		archetype = battle_saddle_eq
+		parent = battle_saddle_5_eq
 		priority = 10
-		visual_level = 3
-		
+		visual_level = 1
+
 		#Defensive Abilities
 		defense = 0
 		#Offensive Abilities
@@ -180,11 +189,7 @@ equipments = {
 		hard_attack = 0
 		ap_attack = 0
 		air_attack = 0
-		
-		build_cost_ic = 0.10
-		resources = {
-			steel = 1
-			tungsten = 1
-		}
+
+		build_cost_ic = 0.05
 	}
 }

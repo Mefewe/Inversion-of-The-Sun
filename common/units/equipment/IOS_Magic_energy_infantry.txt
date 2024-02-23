@@ -1,0 +1,167 @@
+# All infantry ammo equipment
+
+equipments = {
+
+	magic_energy_inf_eq = {
+		year = 1763
+	
+		is_archetype = yes
+                can_be_produced = {
+                	always = no
+                }
+		picture = archetype_infantry_ammo_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.1
+
+		#Defensive Abilities
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.03
+		resources = {
+			steel = 1
+		}
+	}
+
+	combined_magic_energy_inf_eq = {
+		year = 1780
+	
+		is_archetype = yes
+                can_be_produced = {
+                	always = no
+                }
+		picture = archetype_infantry_ammo_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.1
+
+		#Defensive Abilities
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.03
+		resources = {
+			steel = 1
+		}
+	}
+
+	magic_energy_inf_1_eq = {
+		year = 1763
+		archetype = magic_energy_inf_eq
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+	magic_energy_inf_2_eq = {
+		year = 1774
+
+		archetype = magic_energy_inf_eq
+		parent = magic_energy_inf_1_eq
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 0
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		build_cost_ic = 0.05
+	}
+
+	magic_energy_inf_3_eq = {
+		year = 1780
+
+		archetype = magic_energy_inf_eq
+		parent = magic_energy_inf_2_eq
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 0
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		build_cost_ic = 0.05
+	}
+
+	combined_magic_energy_prototype_eq = {
+		year = 1780
+
+		archetype = combined_magic_energy_inf_eq
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 0
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		build_cost_ic = 0.05
+	}
+
+	combined_magic_energy_inf_eq = {
+		year = 1785
+
+		archetype = combined_magic_energy_inf_eq
+		parent = combined_magic_energy_prototype_eq
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 0
+		#Offensive Abilities
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 0
+
+		build_cost_ic = 0.05
+	}
+}
