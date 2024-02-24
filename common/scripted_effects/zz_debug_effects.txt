@@ -130,6 +130,6 @@ d_clear_tech = {
 }
 
 d_add_tech = {
-	set_technology = { improved_infantry_weapons = 1 popup = no }
+	set_technology = { improved_infantry_weapons_1 = 1 popup = no }
 	log = "tech researched: improved_infantry_weapons"
 }

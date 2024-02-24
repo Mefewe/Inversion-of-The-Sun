@@ -51,7 +51,7 @@ on_actions = {
 		effect = {
 			every_country = {
 				set_technology = {
-					infantry_weapons = 1
+					infantry_weapons_1 = 1
 					popup = no
 				}
 			}

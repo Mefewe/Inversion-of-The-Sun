@@ -7,8 +7,8 @@ set_research_slots = 2
 ################## TECHS
 set_technology = {
 	### INFANTRY
-	infantry_weapons = 1
-	infantry_weapons2 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
 	support_weapons = 1
 	support_weapons2 = 1
 	night_vision = 1
