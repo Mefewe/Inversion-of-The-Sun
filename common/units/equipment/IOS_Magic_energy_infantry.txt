@@ -146,7 +146,7 @@ equipments = {
 		build_cost_ic = 0.05
 	}
 
-	combined_magic_energy_inf_eq = {
+	final_combined_magic_energy_inf_eq = {
 		year = 1785
 
 		archetype = combined_magic_energy_inf_eq
