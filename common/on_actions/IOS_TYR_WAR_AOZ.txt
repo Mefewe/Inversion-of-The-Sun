@@ -24,10 +24,10 @@ on_actions = {
 					has_war_with = AOZ
 					casualties > 7666
 				}
-				AOZ = {
+				UNC = {
 					annex_country = {
 						target = ZKT
-						transfer_troops = yes
+						transfer_troops = no
 					}
 				}
 				TYR = {

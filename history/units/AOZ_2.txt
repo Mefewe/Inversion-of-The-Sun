@@ -1,0 +1,65 @@
+division_template = {
+	name = "Nacional bridada de Mobalazi"
+	regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 2 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	is_locked = yes
+}
+
+division_template = {
+	name = "SSO"
+	regiments = {
+			guard = { x = 0 y = 0 }
+			guard = { x = 1 y = 0 }
+			guard = { x = 0 y = 1 }
+			guard = { x = 1 y = 1 }
+			guard = { x = 2 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = {x = 0	y = 1}
+	}
+	is_locked = yes
+}
+
+units = {
+	division = {
+		name = "Zey Gezint Tyrannya brigada"
+		location = 2990
+		division_template = "Nacional bridada de Mobalazi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+division = {
+		name = "Yom Hadim brigada"
+		location = 7250
+		division_template = "Nacional bridada de Mobalazi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+division = {
+		name = "SSO Brigade"
+		location = 7146
+		division_template = "SSO"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "Ikki SSO Brigade"
+		location = 477
+		division_template = "SSO"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+}

@@ -236,9 +236,6 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		758 = {
-			transfer_state_to = UNC
-		}
 		959 = {
 			transfer_state_to = UNC
 		}
@@ -351,10 +348,6 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = TYR.504.a
-		758 = {
-			transfer_state_to = ZKT
-			set_demilitarized_zone = no
-		}
 		959 = {
 			transfer_state_to = ZKT
 			set_demilitarized_zone = no
@@ -395,7 +388,9 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = TYR.550.a
-
+		779 = {
+			transfer_state_to = KAF
+		}
 	}
 }
 ###########################################

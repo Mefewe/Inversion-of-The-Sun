@@ -31,6 +31,23 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+focus_tree = {
+	id = AOZ_focus_tree_three
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = AOZ
+		}
+	}
+	shared_focus = AOZ_zheleznyj
+	shared_focus = AOZ_diplomatic_mission
+	shared_focus = AOZ_ba_pesh
+	shared_focus = AOZ_totalna_oborona
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
 
 shared_focus = {
 	id = AOZ_zheleznyj
@@ -311,5 +328,38 @@ shared_focus = { #
 	completion_reward = { 
 		country_event = AOZ.11
 
+	}
+}
+
+shared_focus = { #
+	id = AOZ_operacija_mahrots
+	prerequisite = {
+		focus = AOZ_totalna_oborona
+	}
+	cost = 1
+	x = 16
+	y = 11
+	completion_reward = { 
+		country_event = AOZ.12
+	}
+}
+
+
+shared_focus = { #
+	id = AOZ_ognevoj_boj
+	prerequisite = {
+		focus = AOZ_operacija_mahrots
+	}
+	available = {
+		OR = {
+			has_war_with = TYR
+			has_war_with = ZKT
+		}
+	}
+	cost = 1
+	x = 16
+	y = 12
+	completion_reward = { 
+		country_event = AOZ.12
 	}
 }

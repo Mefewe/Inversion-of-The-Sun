@@ -170,3 +170,46 @@ country_event = {
 		name = AOZ.11.a
 	}
 }
+country_event = {
+	id = AOZ.12 #Махроцовская операция
+	title = AOZ.12.title
+	desc = AOZ.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		add_manpower = 15000
+		758 = {
+			add_core_of = AOZ
+			transfer_state_to = AOZ
+			set_demilitarized_zone = no
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_ammo_equipment_0
+			amount = 7150
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1000
+		}
+		load_oob = AOZ_2
+		name = AOZ.12.a
+	}
+}
+country_event = {
+	id = AOZ.13 #Огневой бой
+	title = AOZ.13.title
+	desc = AOZ.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.13.a
+		add_command_power = 100
+		add_manpower = 5000	
+		add_equipment_to_stockpile = {
+			type = infantry_ammo_equipment_2
+			amount = 1000
+		}
+	}
+}
