@@ -91,5 +91,9 @@ spriteTypes = {
 	spriteType = {
         name = GFX_NEG_Cozy_Glow_L
         texturefile = gfx/leaders/NEG/portrait_Cozy_Glow.dds
+    }	
+	spriteType = {
+        name = GFX_STR_Erisayr_L
+        texturefile = gfx/leaders/STR/portrait_Erisayr.dds
     }
 }

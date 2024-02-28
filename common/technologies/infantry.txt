@@ -625,7 +625,11 @@ technologies = {
 
 	magic_energy_inf_1 = {
 		path = {
-			leads_to_tech = magic_energy_inf_2
+			leads_to_tech = crystal_prism
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = portable_spark
 			research_cost_coeff = 1
 		}
 		dependencies = {
@@ -652,13 +656,125 @@ technologies = {
 		}
 	}
 
-	magic_energy_inf_2 = {
+	crystal_prism = {
 		path = {
-			leads_to_tech = magic_energy_inf_3
+			leads_to_tech = energy_concentration_crystals_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = combined_magic_energy_prototype
+			leads_to_tech = new_weapon_enchantments
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1770
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 5 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	portable_spark = {
+		path = {
+			leads_to_tech = energy_concentration_crystals_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = new_weapon_enchantments
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1770
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 5 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	energy_concentration_crystals_1 = {
+		path = {
+			leads_to_tech = magic_energy_inf_2
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			crystal_prism = 1
+			portable_spark = 1
+		}
+		research_cost = 1.5
+		start_year = 1772
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 8 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	new_weapon_enchantments = {
+		path = {
+			leads_to_tech = magic_energy_inf_2
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			crystal_prism = 1
+			portable_spark = 1
+		}
+		research_cost = 1.5
+		start_year = 1772
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 8 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	magic_energy_inf_2 = {
+		dependencies = {
+			energy_concentration_crystals_1 = 1
+			new_weapon_enchantments = 1
+		}
+		path = {
+			leads_to_tech = energy_concentration_crystals_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = change_mechanism
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -682,12 +798,70 @@ technologies = {
 		}
 	}
 
+	energy_concentration_crystals_2 = {
+		path = {
+			leads_to_tech = magic_energy_inf_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = combined_magic_energy_prototype
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1778
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 17 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	change_mechanism = {
+		path = {
+			leads_to_tech = magic_energy_inf_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = combined_magic_energy_prototype
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1778
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 17 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
 	magic_energy_inf_3 = {
+		dependencies = {
+			energy_concentration_crystals_2 = 1
+			change_mechanism = 1
+		}
 		enable_equipments = {
 			magic_energy_inf_3_eq
 		}
 		path = {
-			leads_to_tech = final_combined_magic_energy_inf
+			leads_to_tech = portable_reenchanter
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
@@ -709,11 +883,15 @@ technologies = {
 	}
 
 	combined_magic_energy_prototype = {
+		dependencies = {
+			energy_concentration_crystals_2 = 1
+			change_mechanism = 1
+		}
 		enable_equipments = {
 			combined_magic_energy_prototype_eq
 		}
 		path = {
-			leads_to_tech = final_combined_magic_energy_inf
+			leads_to_tech = simpler_construction
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
@@ -734,13 +912,105 @@ technologies = {
 		}
 	}
 
+	portable_reenchanter = {
+		path = {
+			leads_to_tech = wave_amplifier
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1782
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 25 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	wave_amplifier = {
+		path = {
+			leads_to_tech = final_combined_magic_energy_inf
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1784
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 27 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	simpler_construction = {
+		path = {
+			leads_to_tech = semi_magic_weapons
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1782
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 25 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	semi_magic_weapons = {
+		path = {
+			leads_to_tech = final_combined_magic_energy_inf
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1784
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 27 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
 	final_combined_magic_energy_inf = {
 		enable_equipments = {
 			final_combined_magic_energy_inf_eq
 		}
 		dependencies = {
-			magic_energy_inf_3 = 1
-			combined_magic_energy_prototype = 1
+			wave_amplifier = 1
+			semi_magic_weapons = 1
 		}
 		research_cost = 1.5
 		start_year = 1785
