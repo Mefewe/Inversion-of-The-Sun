@@ -9,7 +9,7 @@ recruit_character = DRG_Ember
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {
-	infantry_anti_tank_1 = 1
+	anti_tank_inf_1_eq = 1
 	command_and_control1 = 1
 	infantry_weapons_1 = 1
 	gw_artillery = 1
@@ -33,7 +33,7 @@ add_equipment_to_stockpile = {
          amount = 1550
 }
 add_equipment_to_stockpile = {
-         type = anti_tank_equipment_hand_1
+         type = anti_tank_inf_1_eq
          amount = 2500
 }
 

@@ -16,9 +16,9 @@ set_technology = {
 	tech_special_forces = 1
 	motorised_infantry = 1
 	mechanised_infantry = 1
-	#infantry_anti_tank_1 = 1
+	#anti_tank_inf_1_eq = 1
 	#infantry_anti_tank_2 = 1
-	#infantry_anti_air_1 = 1
+	#anti_air_inf_1 = 1
 
 	### SUPPORT
 	tech_support = 1
@@ -61,7 +61,7 @@ add_equipment_to_stockpile = {
          amount = 571
 }
 add_equipment_to_stockpile = {
-         type = anti_tank_equipment_hand_2
+         type = anti_tank_inf_2_eq
          amount = 1922
 }
 add_equipment_to_stockpile = {

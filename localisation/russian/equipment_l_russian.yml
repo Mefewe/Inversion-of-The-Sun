@@ -21,9 +21,9 @@
  tank_ammo_equipment_0:0 "Танковые боеприпасы"
 
  anti_tank_equipment_hand:0 "Ручное ПТО"
- anti_tank_equipment_hand_1:0 "Ручное ПТО I"
- anti_tank_equipment_hand_2:0 "Ручное ПТО II"
- anti_tank_equipment_hand_3:0 "Ручное ПТО III"
+ anti_tank_inf_1_eq:0 "Ручное ПТО I"
+ anti_tank_inf_2_eq:0 "Ручное ПТО II"
+ anti_tank_inf_3_eq:0 "Ручное ПТО III"
 
  anti_air_equipment_hand_2:0 "Ручное ПВО II"
 

@@ -13,8 +13,8 @@ set_technology = {
 	support_weapons2 = 1
 	night_vision = 1
 	tech_special_forces = 1
-	#infantry_anti_tank_1 = 1
-	#infantry_anti_air_1 = 1
+	#anti_tank_inf_1_eq = 1
+	#anti_air_inf_1 = 1
 	tech_mountaineers = 1
 
 	### SUPPORT

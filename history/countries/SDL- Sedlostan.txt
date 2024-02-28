@@ -11,7 +11,7 @@ set_technology = {
 	basic_train = 1
 	motorised_infantry = 1
     advanced_medium_tank = 1
-	infantry_anti_tank_1 = 1
+	anti_tank_inf_1_eq = 1
 	command_and_control1 = 1
 	bronetransporter_infantry = 1
 	gwtank_chassis = 1
@@ -36,7 +36,7 @@ add_equipment_to_stockpile = {
          amount = 109
 }
 add_equipment_to_stockpile = {
-         type = anti_tank_equipment_hand_1
+         type = anti_tank_inf_1_eq
          amount = 59613
 }
 add_equipment_to_stockpile = {

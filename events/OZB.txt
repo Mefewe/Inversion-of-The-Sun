@@ -94,7 +94,7 @@ country_event = {
        					amount = 490
 				}
 				add_equipment_to_stockpile = {
-         				type = anti_tank_equipment_hand_1
+         				type = anti_tank_inf_1_eq
        					amount = 8905
 				}
 				#
@@ -205,7 +205,7 @@ country_event = {
        					amount = 273
 				}
 				add_equipment_to_stockpile = {
-         				type = anti_tank_equipment_hand_1
+         				type = anti_tank_inf_1_eq
        					amount = 7813
 				}
 				#
@@ -295,7 +295,7 @@ country_event = {
        					amount = 187
 				}
 				add_equipment_to_stockpile = {
-         				type = anti_tank_equipment_hand_1
+         				type = anti_tank_inf_1_eq
        					amount = 2876
 				}
 				#
