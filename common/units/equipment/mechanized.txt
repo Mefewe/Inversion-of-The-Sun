@@ -113,4 +113,31 @@ equipments = {
 			#oil = 2
 		}
 	}
+
+	mechanized_equipment_4 = {
+		year = 1783
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_3
+		priority = 40
+		visual_level = 2
+
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 10
+		hardness = 0.75
+		armor_value = 20
+
+		#Offensive Abilities
+		ap_attack = 21
+
+		build_cost_ic = 12
+		resources = {
+			steel = 4
+			rubber = 1
+			#oil = 2
+		}
+	}
 }

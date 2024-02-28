@@ -38,16 +38,28 @@ equipments = {
 		archetype = bronetransporter
 		priority = 30			
 	}
+
 	bronetransporter_2 = {
 		year = 1773
 
+		parent = bronetransporter_1
 		archetype = bronetransporter
 		priority = 30			
 	}
+
 	bronetransporter_3 = {
 		year = 1780
 
+		parent = bronetransporter_2
 		archetype = bronetransporter
+		priority = 30			
+	}
+
+	bronetransporter_4 = {
+		year = 1783
+
+		archetype = bronetransporter
+		parent = bronetransporter_3
 		priority = 30			
 	}
 }

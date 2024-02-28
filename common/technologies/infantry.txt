@@ -84,7 +84,7 @@ technologies = {
 			infantry_ammo_equipment_2
 		}
 		path = {
-			leads_to_tech = test
+			leads_to_tech = construction_improvements_1
 			research_cost_coeff = 1
 		}		
 		research_cost = 1.5
@@ -105,7 +105,7 @@ technologies = {
 		}
 	}
 	
-	test = {		
+	construction_improvements_1 = {		
 		research_cost = 2
 		start_year = 1772
 		folder = {
@@ -130,23 +130,12 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 0.5
 			}
-			#modifier = {
-			#	factor = 0
-			#	tag = SOV
-			#	OR = {
-			#		date < "1779.1.1" # stock up on lots of rifles, we got the manpower
-			#		AND = {
-			#			date > "1778.1.1"
-			#			surrender_progress < 0.1 # if we arent losing badly its ok
-			#		}
-			#	}
-			#}
 		}
 	}
 
 	infantry_weapons_4 = {
 		path = {
-			leads_to_tech = infantry_weapons_5
+			leads_to_tech = construction_improvements_2
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -171,9 +160,37 @@ technologies = {
 		}
 	}
 
+	construction_improvements_2 = {		
+		research_cost = 2
+		start_year = 1776
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 14 }
+		}
+		path = {
+			leads_to_tech = infantry_weapons_5
+			research_cost_coeff = 1
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 3
+						
+			modifier = {
+				factor = 10
+				date > "1773.1.1"
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5
+			}
+		}
+	}
+
 	infantry_weapons_5 = {
 		path = {
-			leads_to_tech = infantry_weapons_6
+			leads_to_tech = construction_improvements_3
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -198,9 +215,37 @@ technologies = {
 		}
 	}
 
+	construction_improvements_3 = {		
+		research_cost = 2
+		start_year = 1779
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 20 }
+		}
+		path = {
+			leads_to_tech = infantry_weapons_6
+			research_cost_coeff = 1
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 3
+						
+			modifier = {
+				factor = 10
+				date > "1773.1.1"
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5
+			}
+		}
+	}
+
 	infantry_weapons_6 = {
 		path = {
-			leads_to_tech = infantry_weapons_7
+			leads_to_tech = construction_improvements_4
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
@@ -221,6 +266,34 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1773.1.1"
+			}
+		}
+	}
+
+	construction_improvements_4 = {		
+		research_cost = 2
+		start_year = 1783
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 26 }
+		}
+		path = {
+			leads_to_tech = infantry_weapons_7
+			research_cost_coeff = 1
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 3
+						
+			modifier = {
+				factor = 10
+				date > "1773.1.1"
+			}
+			modifier = {
+				num_of_military_factories < 50
+				factor = 0.5
 			}
 		}
 	}
@@ -269,30 +342,12 @@ technologies = {
 		categories = {
 			infantry_weapons
 		}
-		sub_technologies = {
-			magic_energy_battle_saddle_1_unit
-		}
 		ai_will_do = {
 			factor = 2
 			modifier = {
 				factor = 5
 				date > "1773.1.1"
 			}
-		}
-	}
-
-	magic_energy_battle_saddle_1_unit = {
-		enable_equipments = {
-			magic_energy_battle_saddle_1_eq
-		}
-		research_cost = 1.5
-		start_year = 1773
-		ai_will_do = {
-			factor = 1
-		}
-		categories = {
-			mot_rockets
-			mio_cat_tech_all_motorized_mechanized
 		}
 	}
 
@@ -322,7 +377,10 @@ technologies = {
 		}
 		enable_equipments = {
 			battle_saddle_2_eq
-		}	
+		}
+		sub_technologies = {
+			magic_energy_battle_saddle_1_unit
+		}
 		research_cost = 1.5
 		start_year = 1770
 		folder = {
@@ -341,6 +399,23 @@ technologies = {
 		}
 	}
 
+	magic_energy_battle_saddle_1_unit = {
+		enable_equipments = {
+			magic_energy_battle_saddle_1_eq
+		}
+		dependencies = {
+			magic_energy_inf_1 = 1
+		}
+		research_cost = 1.5
+		start_year = 1770
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			infantry_weapons
+		}
+	}
+
 	battle_saddles_3 = {
 		path = {
 			leads_to_tech = battle_saddles_4
@@ -349,6 +424,9 @@ technologies = {
 		enable_equipments = {
 			battle_saddle_3_eq
 		}	
+		sub_technologies = {
+			magic_energy_battle_saddle_2_unit
+		}
 		research_cost = 1.5
 		start_year = 1774
 		folder = {
@@ -367,6 +445,23 @@ technologies = {
 		}
 	}
 
+	magic_energy_battle_saddle_2_unit = {
+		enable_equipments = {
+			magic_energy_battle_saddle_2_eq
+		}
+		dependencies = {
+			magic_energy_battle_saddle_1_unit = 1
+		}
+		research_cost = 1.5
+		start_year = 1774
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			infantry_weapons
+		}
+	}
+
 	battle_saddles_4 = {
 		path = {
 			leads_to_tech = battle_saddles_5
@@ -375,6 +470,9 @@ technologies = {
 		enable_equipments = {
 			battle_saddle_4_eq
 		}	
+		sub_technologies = {
+			magic_energy_battle_saddle_3_unit
+		}
 		research_cost = 1.5
 		start_year = 1778
 		folder = {
@@ -393,6 +491,23 @@ technologies = {
 		}
 	}
 
+	magic_energy_battle_saddle_3_unit = {
+		enable_equipments = {
+			magic_energy_battle_saddle_3_eq
+		}
+		dependencies = {
+			magic_energy_battle_saddle_2_unit = 1
+		}
+		research_cost = 1.5
+		start_year = 1778
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			infantry_weapons
+		}
+	}
+
 	battle_saddles_5 = {
 		path = {
 			leads_to_tech = battle_saddles_6
@@ -401,6 +516,9 @@ technologies = {
 		enable_equipments = {
 			battle_saddle_5_eq
 		}	
+		sub_technologies = {
+			magic_energy_battle_saddle_4_unit
+		}
 		research_cost = 1.5
 		start_year = 1782
 		folder = {
@@ -419,10 +537,30 @@ technologies = {
 		}
 	}
 
+	magic_energy_battle_saddle_4_unit = {
+		enable_equipments = {
+			magic_energy_battle_saddle_4_eq
+		}
+		dependencies = {
+			magic_energy_battle_saddle_3_unit = 1
+		}
+		research_cost = 1.5
+		start_year = 1782
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			infantry_weapons
+		}
+	}
+
 	battle_saddles_6 = {
 		enable_equipments = {
 			battle_saddle_6_eq
 		}	
+		sub_technologies = {
+			magic_energy_battle_saddle_5_unit
+		}
 		research_cost = 1.5
 		start_year = 1785
 		folder = {
@@ -438,6 +576,23 @@ technologies = {
 				factor = 5
 				date > "1773.1.1"
 			}
+		}
+	}
+
+	magic_energy_battle_saddle_5_unit = {
+		enable_equipments = {
+			magic_energy_battle_saddle_5_eq
+		}
+		dependencies = {
+			magic_energy_battle_saddle_4_unit = 1
+		}
+		research_cost = 1.5
+		start_year = 1785
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			infantry_weapons
 		}
 	}
 
@@ -502,6 +657,10 @@ technologies = {
 			leads_to_tech = magic_energy_inf_3
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = combined_magic_energy_prototype
+			research_cost_coeff = 1
+		}
 		enable_equipments = {
 			magic_energy_inf_2_eq
 		}
@@ -526,12 +685,68 @@ technologies = {
 	magic_energy_inf_3 = {
 		enable_equipments = {
 			magic_energy_inf_3_eq
-		}	
+		}
+		path = {
+			leads_to_tech = final_combined_magic_energy_inf
+			research_cost_coeff = 1
+		}
 		research_cost = 1.5
 		start_year = 1780
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 20 }
+			position = { x = 5 y = 22 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	combined_magic_energy_prototype = {
+		enable_equipments = {
+			combined_magic_energy_prototype_eq
+		}
+		path = {
+			leads_to_tech = final_combined_magic_energy_inf
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1780
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 22 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 5
+				date > "1773.1.1"
+			}
+		}
+	}
+
+	final_combined_magic_energy_inf = {
+		enable_equipments = {
+			final_combined_magic_energy_inf_eq
+		}
+		dependencies = {
+			magic_energy_inf_3 = 1
+			combined_magic_energy_prototype = 1
+		}
+		research_cost = 1.5
+		start_year = 1785
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 29 }
 		}
 		categories = {
 			infantry_weapons
@@ -1106,6 +1321,165 @@ technologies = {
 		}
 	}
 
+	################################
+	# ANTI-TANK INFANTRY EQUIPMENT #
+	################################
+
+	anti_tank_inf_1 = {
+		research_cost = 1.5
+		start_year = 1772
+		enable_equipments = {
+			anti_tank_inf_1_eq
+		}
+		path = {
+			leads_to_tech = anti_tank_inf_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = 8 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_tank_inf_2 = {
+		research_cost = 1.5
+		start_year = 1778
+		enable_equipments = {
+			anti_tank_inf_2_eq
+		}
+		path = {
+			leads_to_tech = anti_tank_inf_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = 17 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_tank_inf_3 = {
+		research_cost = 1.5
+		start_year = 1783
+		enable_equipments = {
+			anti_tank_inf_3_eq
+		}
+		path = {
+			leads_to_tech = cost_reduce_and_mass_production
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = 26 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	################################
+	# ANTI-AIR INFANTRY EQUIPMENT #
+	################################
+
+	anti_air_inf_1 = {
+		research_cost = 1.5
+		start_year = 1774
+		enable_equipments = {
+			anti_air_inf_1_eq
+		}
+		path = {
+			leads_to_tech = anti_air_inf_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = 11 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_air_inf_2 = {
+		research_cost = 1.5
+		start_year = 1779
+		enable_equipments = {
+			anti_air_inf_2_eq
+		}
+		path = {
+			leads_to_tech = anti_air_inf_3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = 20 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_air_inf_3 = {
+		research_cost = 1.5
+		start_year = 1783
+		enable_equipments = {
+			anti_air_inf_3_eq
+		}
+		path = {
+			leads_to_tech = cost_reduce_and_mass_production
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = 26 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cost_reduce_and_mass_production = {
+		research_cost = 1.5
+		start_year = 1785
+		dependencies = {
+			anti_tank_inf_3 = 1
+			anti_air_inf_3 = 1
+		}
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 29 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	################
 	# MOTORIZATION #
 	################
@@ -1127,7 +1501,7 @@ technologies = {
 		start_year = 1769
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = -1 }
+			position = { x = 11 y = -1 }
 		}
 		categories = {
 			motorized_equipment
@@ -1189,7 +1563,7 @@ technologies = {
 		start_year = 1769
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 3 }
+			position = { x = 11 y = 3 }
 		}
 		folder = {
 			name = support_folder
@@ -1281,7 +1655,7 @@ technologies = {
 		start_year = 1775
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 7 }
+			position = { x = 11 y = 7 }
 		}
 		categories = {
 			motorized_equipment
@@ -1307,7 +1681,7 @@ technologies = {
 		start_year = 1777
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 11 }
+			position = { x = 11 y = 11 }
 		}
 		categories = {
 			motorized_equipment
@@ -1321,13 +1695,15 @@ technologies = {
 	}
 	
 	mechanised_infantry3 = {
-		enable_equipments = {	
+		enable_equipments = {
+			mechanized_equipment_4
+			bronetransporter_4
 		}
 		research_cost = 3
-		start_year = 1779
+		start_year = 1783
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 15 }
+			position = { x = 11 y = 15 }
 		}
 		categories = {
 			motorized_equipment
@@ -1366,7 +1742,7 @@ technologies = {
 		start_year = 1769
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1769 }
+			position = { x = 7 y = @1769 }
 		}
 		
 		on_research_complete_limit = {
@@ -1407,7 +1783,7 @@ technologies = {
 		start_year = 1773
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1773 }
+			position = { x = 7 y = @1773 }
 		}
 		
 		categories = {
@@ -1431,7 +1807,7 @@ technologies = {
 		start_year = 1778
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1778 }
+			position = { x = 7 y = @1778 }
 		}
 		
 		categories = {
@@ -1471,7 +1847,7 @@ technologies = {
 		start_year = 1769
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1769 }
+			position = { x = 12 y = @1769 }
 		}
 		
 		categories = {
@@ -1499,7 +1875,7 @@ technologies = {
 		start_year = 1773
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1773 }
+			position = { x = 12 y = @1773 }
 		}
 		
 		categories = {
@@ -1522,7 +1898,7 @@ technologies = {
 		start_year = 1778
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1778 }
+			position = { x = 12 y = @1778 }
 		}
 		
 		categories = {
@@ -1562,7 +1938,7 @@ technologies = {
 		start_year = 1769
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1769 }
+			position = { x = 12 y = @1769 }
 		}
 		
 		categories = {
@@ -1591,7 +1967,7 @@ technologies = {
 		start_year = 1773
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1773 }
+			position = { x = 12 y = @1773 }
 		}
 		
 		categories = {
@@ -1614,7 +1990,7 @@ technologies = {
 		start_year = 1778
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1778 }
+			position = { x = 12 y = @1778 }
 		}
 		
 		categories = {
@@ -1634,7 +2010,7 @@ technologies = {
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
 		
-		allow_branch = { not = { has_dlc = "Arms Against Tyranny" } }
+		# allow_branch = { not = { has_dlc = "Arms Against Tyranny" } }
 		
 		#dependencies = {
 		#	OR = {
@@ -1658,7 +2034,7 @@ technologies = {
 		start_year = 1771
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1771 }
+			position = { x = 13 y = -1 }
 		}
 		
 		categories = {
@@ -1694,7 +2070,7 @@ technologies = {
 		start_year = 1775
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1775 }
+			position = { x = 12 y = 3 }
 		}
 		
 		categories = {
@@ -1726,7 +2102,7 @@ technologies = {
 		start_year = 1775
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1775 }
+			position = { x = 14 y = 3 }
 		}
 		
 		categories = {
@@ -1760,7 +2136,7 @@ technologies = {
 		start_year = 1777
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1777 }
+			position = { x = 12 y = 7 }
 		}
 		
 		categories = {
@@ -1793,7 +2169,7 @@ technologies = {
 		start_year = 1777
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1777 }
+			position = { x = 14 y = 7 }
 		}
 		
 		categories = {
@@ -1821,7 +2197,7 @@ technologies = {
 		start_year = 1779
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1779 }
+			position = { x = 13 y = 11 }
 		}
 		
 		categories = {
@@ -1836,83 +2212,6 @@ technologies = {
 		}
 	}
 
-	jungle_warfare = {
-
-		research_cost = 1
-
-		# only from focus!!! #####
-		allow = {
-			always = no
-		}
-
-
-		#If you change these
-		#Change the custom tooltip too: RAJ_jungle_training_effect
-		marine = {
-			jungle = {
-				attack = 0.05 
-				movement = 0.1
-			}
-		}
-
-		mountaineers = {
-			jungle = {
-				attack = 0.05
-				movement = 0.1
-			}
-		}
-
-		paratrooper = {
-			jungle = {
-				attack = 0.05
-				movement = 0.1
-			}
-		}
-
-	}
-
-	mountain_warfare = {
-
-		research_cost = 1
-
-		# only from focus!
-		allow = {
-			always = no
-		}
-
-
-		#If you change these
-		#Change the custom tooltip too: GRE_mountain_training_effect
-		infantry = {
-			mountain = {
-				defence = 0.05
-				movement = 0.05
-			}
-		}
-
-		marine = {
-			mountain = {
-				attack = 0.05 
-				movement = 0.1
-			}
-		}
-
-		mountaineers = {
-			mountain = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.1
-			}
-		}
-
-		paratrooper = {
-			mountain = {
-				attack = 0.05
-				movement = 0.1
-			}
-		}
-
-	}
 	
 	######### FROM JAPANESE FOCUS ##########
 	camelry = {

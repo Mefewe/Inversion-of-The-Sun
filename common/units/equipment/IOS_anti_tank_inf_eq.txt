@@ -1,7 +1,7 @@
 # All infantry equipment
 
 equipments = {
-	anti_tank_equipment_hand = {
+	anti_tank_inf_eq = {
 		is_archetype = yes
 		picture = archetype_infantry_equipment
 		type = {
@@ -39,8 +39,8 @@ equipments = {
 		}
 
 	}
-	anti_tank_equipment_hand_1 = {
-		archetype = anti_tank_equipment_hand
+	anti_tank_inf_1_eq = {
+		archetype = anti_tank_inf_eq
 		priority = 10
 		visual_level = 1
 
@@ -59,9 +59,9 @@ equipments = {
 			tungsten = 1
 		}
 	}
-	anti_tank_equipment_hand_2 = {
-		archetype = anti_tank_equipment_hand
-		parent = anti_tank_equipment_hand_1
+	anti_tank_inf_2_eq = {
+		archetype = anti_tank_inf_eq
+		parent = anti_tank_inf_1_eq
 		priority = 10
 		visual_level = 2
 
@@ -80,9 +80,9 @@ equipments = {
 			tungsten = 1
 		}
 	}
-	anti_tank_equipment_hand_3 = {
-		archetype = anti_tank_equipment_hand
-		parent = anti_tank_equipment_hand_2
+	anti_tank_inf_3_eq = {
+		archetype = anti_tank_inf_eq
+		parent = anti_tank_inf_2_eq
 		priority = 10
 		visual_level = 3
 
