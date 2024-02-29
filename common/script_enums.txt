@@ -102,6 +102,7 @@ script_enum_production_stat = {
 }
 
 script_enum_equipment_category = {
+	paratroopers
 	convoy
 	train
 	floating_harbor
@@ -146,6 +147,9 @@ script_enum_equipment_bonus_type = {
 	## (there will be a log error at startup as a reminder)
 
 	# Equipment categories
+	light_armor
+	modern_armor
+	paratroopers
 	convoy
 	train
 	floating_harbor

@@ -32,7 +32,7 @@ guiTypes = {
 			text = "WELCOME_TEXT_GUI"
 			maxWidth = 670
 			maxHeight = 20
-			format = UPPER_LEFT
+			format = left
 		}
 		
 		instantTextboxType = {
@@ -43,7 +43,7 @@ guiTypes = {
 			text = "LATEST_UPDATE_GUI"
 			maxWidth = 670
 			maxHeight = 20
-			format = UPPER_LEFT
+			format = left
 		}
 		
 		instantTextboxType = {
@@ -54,7 +54,7 @@ guiTypes = {
 			text = "CREATORS_GUI"
 			maxWidth = 240
 			maxHeight = 20
-			format = UPPER_LEFT
+			format = left
 		}
 		
 		buttonType = {

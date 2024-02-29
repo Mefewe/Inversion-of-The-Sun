@@ -107,9 +107,6 @@ technologies = {
 		category_tanks = {
 			max_organisation = 1
 		}
-		armored_car = {
-			max_organisation = 2
-		}
 
 		category_all_armor = {
 			maximum_speed = 0.1
@@ -168,10 +165,6 @@ technologies = {
 			maximum_speed = 0.1
 			default_morale = 0.2
 		}
-		armored_car = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
 		mot_artillery_brigade = {
 			maximum_speed = 0.1
 			default_morale = 0.2
@@ -184,11 +177,6 @@ technologies = {
 			maximum_speed = 0.1
 			default_morale = 0.2
 		}
-		amphibious_mechanized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		
 		
 		path = {
 			leads_to_tech = mass_motorization 
@@ -292,13 +280,6 @@ technologies = {
 		motorized = {
 			max_organisation = 15
 			
-		}
-		amphibious_mechanized = {
-			max_organisation = 15
-		}
-		
-		armored_car = {
-			max_organisation = 3	
 		}
 
 		category_tanks = {
@@ -480,20 +461,12 @@ technologies = {
 		category_all_armor = {
 			default_morale = 0.1
 		}
-		armored_car = {
-			default_morale = 0.1
-			max_organisation = 7
-		}
 
 		enable_tactic = tactic_breakthrough
 		
 		motorized = {
 			max_organisation = 5
 		}
-		amphibious_mechanized = {
-			max_organisation = 5
-		}		
-
 		
 		path = {
 			leads_to_tech = kampfgruppe 
@@ -612,10 +585,6 @@ technologies = {
 		category_tanks = {
 			max_organisation = 2
 		}
-		armored_car = {
-			max_organisation = 2
-		}
-
 		
 		path = {
 			leads_to_tech = backhand_blow 
@@ -670,7 +639,6 @@ technologies = {
 			leads_to_tech = modern_blitzkrieg 
 			research_cost_coeff = 1
 		}
-
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -713,11 +681,6 @@ technologies = {
 
 		category_all_armor = {
 			default_morale = 0.2
-		}
-		armored_car = {
-			max_organisation = 3
-			default_morale = 0.2
-			breakthrough = 0.20
 		}
 		
 		doctrine = yes	
@@ -763,7 +726,6 @@ technologies = {
 		xor={
 			firebrigades
 		}
-
 		
 		conscription = 0.02
 		
@@ -771,7 +733,6 @@ technologies = {
 			leads_to_tech = nd_conscription 
 			research_cost_coeff = 1
 		}
-
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -1481,20 +1442,6 @@ technologies = {
 		#combat advantage when air superior
 		army_bonus_air_superiority_factor = 0.15
 		
-		recon = {
-			battalion_mult = {
-				category = category_anti_air
-				air_attack = 0.10
-			}
-		}
-		
-		mot_recon = {
-			battalion_mult = {
-				category = category_anti_air
-				air_attack = 0.10
-			}
-		}
-		
 		doctrine = yes	
 		research_cost = 4.5
 		
@@ -1651,12 +1598,7 @@ technologies = {
 		category_tanks = {
 			max_organisation = 2
 		}
-
 		category_all_armor = {
-			default_morale = 0.05
-		}
-		armored_car = {
-			max_organisation = 2
 			default_morale = 0.05
 		}
 
@@ -1714,7 +1656,6 @@ technologies = {
 		category_front_line = {
 			 soft_attack = 0.05
 		}
-		
 		category_all_infantry = { 
 			soft_attack = 0.05 
 			hard_attack = 0.05
@@ -1970,12 +1911,6 @@ technologies = {
 		motorized = {
 			max_organisation = 5
 		}
-		armored_car = {
-			max_organisation = 5
-		}
-		amphibious_mechanized = {
-			max_organisation = 5
-		}
 		
 		additional_brigade_column_size = 1
 
@@ -2085,9 +2020,6 @@ technologies = {
 			max_organisation = 5
 		}
 		category_tanks = {
-			max_organisation = 1
-		}
-		armored_car = {
 			max_organisation = 1
 		}
 		coordination_bonus = 0.1
@@ -2255,9 +2187,6 @@ technologies = {
 		category_tanks = {
 			max_organisation = 1
 		}
-		armored_car = {
-			max_organisation = 2
-		}
 
 		doctrine = yes	
 		research_cost = 4.5
@@ -2362,10 +2291,6 @@ technologies = {
 			max_organisation = 2
 		}
 		category_all_armor = {
-			default_morale = 0.1
-		}
-		armored_car = {
-			max_organisation = 2
 			default_morale = 0.1
 		}
 		
@@ -2479,14 +2404,11 @@ technologies = {
 		#reduce land night combat penalty
 		land_night_attack = 0.25 # negates half of base penalty
 	
-	
 		path = {
 			leads_to_tech = attritional_containment 
 			research_cost_coeff = 1
 		}
 		
-		
-
 		doctrine = yes	
 		research_cost = 4.5
 		
@@ -2532,9 +2454,6 @@ technologies = {
 			max_organisation = 5
 		}
 		category_tanks = {
-			max_organisation = 1
-		}	
-		armored_car = {
 			max_organisation = 1
 		}		
 
@@ -2823,9 +2742,6 @@ technologies = {
 		category_tanks = {
 			max_organisation = 2
 		}
-		armored_car = {
-			max_organisation = 2
-		}
 
 		xp_research_type = army
 		xp_unlock_cost = 100
@@ -2989,10 +2905,6 @@ technologies = {
 			max_organisation = 5
 			breakthrough = 0.10
 		}
-		armored_car = {
-			max_organisation = 1
-			breakthrough = 0.10
-		}
 		
 		enable_tactic = tactic_breakthrough
 		
@@ -3047,20 +2959,10 @@ technologies = {
 		category_all_armor = {
 			default_morale = 0.1
 		}
-		armored_car = {
-			max_organisation = 3
-			default_morale = 0.1
-		}	
-
 		motorized = {
 			max_organisation = 10
 			default_morale = 0.1
-		}	
-		amphibious_mechanized = {
-			max_organisation = 10
-			default_morale = 0.1
-		}	
-		
+		}
 		
 		path = {
 			leads_to_tech = continuous_offensive
@@ -3181,14 +3083,6 @@ technologies = {
 			land_doctrine
 			cat_mass_assault
 		}
-
-		military_police = {
-			battalion_mult = {
-				category = category_cavalry
-				suppression = 0.50
-				add = yes
-			}
-		}
 		
 		folder = {
 			name = land_doctrine_folder
@@ -3270,11 +3164,7 @@ technologies = {
 		category_tanks = {
 			max_organisation = 2
 		}
-		armored_car = {
-			max_organisation = 2
-		}
-		
-		
+
 		path = {
 			leads_to_tech = human_wave_offensive
 			research_cost_coeff = 1
