@@ -17,6 +17,7 @@ add_ideas = {
 		war_economy
 		service_by_requirement
 		closed_economy
+		no_war_no_losses
 	}
 set_major = yes
 set_autonomy = {
@@ -51,10 +52,10 @@ set_autonomy = {
         target = FRZ
         autonomous_state = autonomy_integrated_puppet
 }
-set_autonomy = {
-        target = TYR
-        autonomous_state = autonomy_integrated_puppet
-}
+#set_autonomy = {
+#        target = TYR
+#        autonomous_state = autonomy_integrated_puppet
+#}
 
 create_faction = NovaMill
 

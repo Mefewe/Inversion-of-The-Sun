@@ -57,6 +57,7 @@ country_event = {
 	option = {
 		name = AOZ.5.a
 		add_ideas = ebem_mazhorov
+		country_event = {days = 3 id = AOZ.6}
 	}
 }
 country_event = {
@@ -85,7 +86,6 @@ country_event = {
 				target = AOZ
 			}
 		}
-		add_ideas = ebem_mazhorov
 		country_event = {days = 2 id = AOZ.7}
 	}
 }
@@ -211,5 +211,17 @@ country_event = {
 			type = infantry_ammo_equipment_2
 			amount = 1000
 		}
+	}
+}
+country_event = {
+	id = AOZ.20 #Победа
+	title = AOZ.20.title
+	desc = AOZ.20.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.20.a
+		add_stability = 0.1
 	}
 }

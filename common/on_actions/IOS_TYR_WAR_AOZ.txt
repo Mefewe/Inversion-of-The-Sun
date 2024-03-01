@@ -8,8 +8,10 @@ on_actions = {
 					casualties > 4250
 				}
 				white_peace = AOZ
-				country_event = TYR.200
-				clr_country_flag = TYR_AOZ_FW
+				TYR = {
+					country_event = TYR.200
+					clr_country_flag = TYR_AOZ_FW
+				}
 			}
 		}
 	}

@@ -1112,3 +1112,34 @@ default_produce_floating_harbors = {
 		value = 10
 	}
 }
+
+
+
+
+
+##########TYR
+
+TYR_alliance_dont_love_die_for_protect_mgaby_ass = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = TYR
+		value = 100
+		target_country = AOZ
+	}
+}
+CHN_is_so_fat_ass_amogus = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = CHN
+		value = -100
+		target = join_allies
+	}
+}

@@ -214,6 +214,43 @@ country_event = {
 		name = TYR.200.a
 		load_focus_tree = TYR_focus_tree_two_proval
 		mark_focus_tree_layout_dirty = yes
+		hidden_effect = {
+			AOZ = {
+				country_event = AOZ.20
+			}
+			959 = {
+				transfer_state_to = UNC
+			}
+			665 = {
+				set_demilitarized_zone = no
+				transfer_state_to = UNC
+			}
+			957 = {
+				set_demilitarized_zone = no
+				transfer_state_to = UNC
+			}
+			958 = {
+				set_demilitarized_zone = no
+				transfer_state_to = UNC
+			}
+			756 = {
+				set_demilitarized_zone = no
+				transfer_state_to = UNC
+			}
+			712 = {
+				set_demilitarized_zone = no
+				transfer_state_to = UNC
+			}
+			802 = {
+				set_demilitarized_zone = no
+				transfer_state_to = AOZ
+				add_core_of = AOZ
+			}
+			779 = {
+				transfer_state_to = KAF
+				add_core_of = KAF
+			}
+		}
 	}
 }
 country_event = {
@@ -236,33 +273,51 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		959 = {
-			transfer_state_to = UNC
-		}
-		665 = {
-			set_demilitarized_zone = no
-			transfer_state_to = UNC
-		}
-		957 = {
-			set_demilitarized_zone = no
-			transfer_state_to = UNC
-		}
-		958 = {
-			set_demilitarized_zone = no
-			transfer_state_to = UNC
-		}
-		756 = {
-			set_demilitarized_zone = no
-			transfer_state_to = UNC
-		}
-		712 = {
-			set_demilitarized_zone = no
-			transfer_state_to = UNC
-		}
-		779 = {
-			transfer_state_to = KAF
-		}
 		name = TYR.202.a
+		add_political_power = 150
+		635 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 3171
+			}
+		}
+		711 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
+				province = 3942
+			}
+		}
+		702 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 2105
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4420
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7181
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7137
+			}
+		}
+		678 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 3778
+			}
+		}
 	}
 }
 country_event = {
@@ -390,6 +445,11 @@ country_event = {
 		name = TYR.550.a
 		779 = {
 			transfer_state_to = KAF
+		}
+		hidden_effect = {
+			AOZ = {
+				country_event = AOZ.20
+			}
 		}
 	}
 }

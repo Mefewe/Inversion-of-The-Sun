@@ -14,7 +14,7 @@ equipments = {
 		maximum_speed = 4
 		lend_lease_cost = 1
 		build_cost_ic = 1.15
-
+		equipment_capture_factor = 0.04
 		resources = {
 			steel = 1
 		}
