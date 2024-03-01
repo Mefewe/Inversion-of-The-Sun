@@ -44,7 +44,7 @@ sub_units = {
 		need = {
 			#anti_air_equipment_hand = 8
 			candc_equipment = 50
-			anti_tank_equipment_hand = 75
+			anti_tank_inf_eq = 75
 			infantry_ammo_equipment = 500
 			infantry_equipment = 100
 		}
@@ -90,7 +90,7 @@ sub_units = {
 		need = {
 			#anti_air_equipment_hand = 8
 			candc_equipment = 50
-			anti_tank_equipment_hand = 25
+			anti_tank_inf_eq = 25
 			infantry_ammo_equipment = 800
 			infantry_equipment = 150
 		}
@@ -138,7 +138,7 @@ sub_units = {
 	
 		need = {
 			#anti_air_equipment_hand = 8
-			anti_tank_equipment_hand = 50
+			anti_tank_inf_eq = 50
 			candc_equipment = 50
 			infantry_equipment = 150
 			infantry_ammo_equipment = 750
@@ -198,7 +198,7 @@ sub_units = {
 	
 		need = {
 			#anti_air_equipment_hand = 8
-			anti_tank_equipment_hand = 50
+			anti_tank_inf_eq = 50
 			candc_equipment = 50
 			infantry_ammo_equipment = 715
 			infantry_equipment = 140
@@ -259,7 +259,7 @@ sub_units = {
 	
 		need = {
 			#anti_air_equipment_hand = 8
-			anti_tank_equipment_hand = 50
+			anti_tank_inf_eq = 50
 			candc_equipment = 50
 			infantry_ammo_equipment = 750
 			motorized_equipment = 10
@@ -309,7 +309,7 @@ sub_units = {
 	
 		need = {
 			#anti_air_equipment_hand = 8
-			anti_tank_equipment_hand = 75
+			anti_tank_inf_eq = 75
 			candc_equipment = 50
 			infantry_equipment = 100
 			infantry_ammo_equipment = 500

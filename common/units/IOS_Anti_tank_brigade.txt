@@ -25,7 +25,7 @@ sub_units = {
 
 		need = {
 			anti_tank_equipment = 36
-			anti_tank_equipment_hand = 36
+			anti_tank_inf_eq = 36
 			candc_equipment = 25
 		}
 		manpower = 500
@@ -102,7 +102,7 @@ sub_units = {
 		}
 		need = {
 			anti_tank_equipment = 36
-			anti_tank_equipment_hand = 36
+			anti_tank_inf_eq = 36
 			candc_equipment = 25
 			motorized_equipment = 50
 		}

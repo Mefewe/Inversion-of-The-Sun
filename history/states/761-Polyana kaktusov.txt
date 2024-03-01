@@ -5,14 +5,17 @@ state={
 	provinces={
 		912 1646 1760 2075 2684 2819 4295 4317 4560 4905 7247 7256 7316 7343 9111
 	}
-	history={
-        owner = CHN
-        add_core_of = EQS
 
-        resources = {
-        rubber = 3
-        }
+	history = {
+		owner = CHN
+		add_core_of = EQS
+	}
+
+	resources = {
+		rubber = 3
+	}
 
 	manpower=408210
+
 	buildings_max_level_factor=1.000
 }

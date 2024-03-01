@@ -1,7 +1,7 @@
 state={
 	id=798
 	name="STATE_798"
-        state_categroy = large_city
+        state_category = large_city
 	provinces={
 		771 2556 2652 3178 4458 7395 7446 7463 7477 7479 7481 7511 7526 
 	}

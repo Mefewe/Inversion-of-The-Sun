@@ -39,7 +39,7 @@ sub_units = {
 		supply_consumption = 0.06
 	
 		need = {
-			anti_air_equipment_hand = 8
+			anti_air_inf_eq = 8
 			infantry_ammo_equipment = 500
 			infantry_equipment = 100
 		}
@@ -108,7 +108,7 @@ sub_units = {
 		supply_consumption = 0.06
 	
 		need = {
-			anti_air_equipment_hand = 8
+			anti_air_inf_eq = 8
 			infantry_ammo_equipment = 500
 			infantry_equipment = 100
 		}
