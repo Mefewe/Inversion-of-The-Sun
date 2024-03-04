@@ -91,17 +91,19 @@ send_embargo = OZB
 # set_variable = { SDL_CONF_ppgain = -0.3 }
 
 add_ideas = {
-                sdl_conf_struggling_harmony
+		#laws
+		low_economic_mobilisation
+		extensive_conscription
+		free_trade
+
+		#ideas
+                struggling_harmony
                 sdl_conf_last_survivors
                 sdl_conf_just_business
                 sdl_conf_internal_chaos
                 sdl_conf_broken_armade
                 sdl_conf_lost_borean_idol
                 sdl_conf_involuntarily_allies
-		#laws
-		low_economic_mobilisation
-		extensive_conscription
-		free_trade
 }
 set_politics = {
 	ruling_party = neutrality

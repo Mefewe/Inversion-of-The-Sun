@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		ozb_abyssinian_crisis = {
+		}
+		ozb_mass_sabotage = {
+		}
+		ozb_continuous_occupation = {
+		}
+		ozb_rule_of_the_strongest = {
+		}
+	}
+}

@@ -37,6 +37,36 @@ focus_tree = {
 	continuous_focus_position = { x = 2400 y = 750 }
 }
 
+focus_tree = {
+	id = DRG_focus_tree_three
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = DRG
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 2400 y = 750 }
+}
+
+focus_tree = {
+	id = DRG_Society_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = DRG
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 2400 y = 750 }
+}
+
 ### FIRST FOCUS TREE
 
 shared_focus = {
@@ -163,6 +193,7 @@ shared_focus = {
 	y = 5
 	completion_reward = {
         	load_focus_tree = DRG_focus_tree_two
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -393,6 +424,11 @@ shared_focus = {
 	x = 17
 	y = 5
 	completion_reward = {
+		set_cosmetic_tag = DRG_NEW
+		news_event = { 
+			id = DRG_News.2
+			days = 1
+		}
 	}
 }
 
@@ -427,6 +463,10 @@ shared_focus = {
 	x = 16
 	y = 7
 	completion_reward = {
+		country_event = {
+			id = DRG_base.8
+			days = 1
+		}
 	}
 }
 
@@ -448,5 +488,9 @@ shared_focus = {
 	x = 18
 	y = 7
 	completion_reward = {
+		country_event = {
+			id = DRG_base.8
+			days = 1
+		}
 	}
 }

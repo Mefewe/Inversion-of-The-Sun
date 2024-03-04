@@ -1,5 +1,5 @@
 characters = {
-DRG_Ember = {
+	DRG_Ember = {
 		name = DRG_Ember
 		portraits = {
 			civilian = {
@@ -7,11 +7,71 @@ DRG_Ember = {
 			}
 		}
 		country_leader = {
-            desc="DRG_Ember_desc"
+			desc="DRG_Ember_desc"
 			ideology = harmony
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1
 		}
 	}
+	DRG_Aspir = {
+		name = DRG_Aspir
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+		}
+		country_leader = {
+			desc="DRG_Aspir_desc"
+			ideology = harmony
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
 	}
+	DRG_Intentaris = {
+		name = DRG_Intentaris
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+		}
+		country_leader = {
+			desc="DRG_Intentaris_desc"
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	DRG_Basalt_Hall_n2 = {
+		name = DRG_Basalt_Hall_n2
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+		}
+		country_leader = {
+			desc="DRG_Basalt_Hall_desc"
+			ideology = despotism
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+	DRG_Armada_Generalship = {
+		name = DRG_Armada_Generalship
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+		}
+		country_leader = {
+			desc="DRG_Armada_Generalship_desc"
+			ideology = popularity_progressivism_ideology
+			traits = {  }
+			expire = "2000.3.1.1"
+			id = -1
+		}
+	}
+}

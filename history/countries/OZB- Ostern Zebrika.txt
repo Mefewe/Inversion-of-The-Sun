@@ -54,18 +54,25 @@ set_technology = {
 }
 
 create_intelligence_agency = {
-    name = "Aufklärung"
+    name = "Zebrikanishes Aufklärung"
     icon = GFX_intelligence_agency_logo_generic_1
 }
 
 upgrade_intelligence_agency = upgrade_form_department
 
 add_ideas = {
-		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
-	}
+	#laws
+	war_economy
+	service_by_requirement
+	closed_economy
+
+	#ideas
+	changeling_garrison
+	ozb_abyssinian_crisis
+	ozb_mass_sabotage
+	ozb_continuous_occupation
+	ozb_rule_of_the_strongest
+}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1768.7.8"
@@ -79,37 +86,4 @@ set_popularities = {
 	fascism = 100
         progressivism = 0
         paternalism = 0
-}
-
-create_country_leader = {
-	name = "Franklin"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = moderate_social_valterists
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Earl"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "portrait_USA_earl_browder.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Haile"
-	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-
-	}
 }

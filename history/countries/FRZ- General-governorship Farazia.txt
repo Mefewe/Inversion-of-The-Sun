@@ -51,17 +51,25 @@ set_technology = {
 }
 
 add_ideas = {
-		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
-	}
+	#laws
+	war_economy
+	service_by_requirement
+	closed_economy
+
+	#ideas
+	changeling_garrison
+	frz_dense_populism
+	frz_heart_of_zebrica
+	frz_great_forests
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 0
 	communism = 0

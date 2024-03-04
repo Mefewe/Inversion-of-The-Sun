@@ -30,9 +30,9 @@ country_event = {
 		OZB = { add_to_faction = FRZ }
 
 		hidden_effect = {
-		add_ideas = OZB_TranzebricanCatastrophe
-		TYR = { add_ideas = OZB_TranzebricanCatastrophe }
-		FRZ = { add_ideas = OZB_TranzebricanCatastrophe }
+		add_ideas = TranzebricanCatastrophe
+		TYR = { add_ideas = TranzebricanCatastrophe }
+		FRZ = { add_ideas = TranzebricanCatastrophe }
 			AGA = {
 				#
 				add_state_core = 541

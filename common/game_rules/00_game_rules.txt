@@ -496,7 +496,46 @@ allow_scorched_earth = {
 #  # #  # #  # #  #  #  #  #   #         # #    #   #  #  #  #    #  #  #     #  # #  # #   #     # 
  ##   ##   ##  #  #  #  #  #   #       ##  #    ###  ##  ### #   ###  ##      #  #  ##  ### ### ##  
 
-
+DRG_ai_behavior = {
+	name = "DRG_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DRG_EMBER
+		text = "RULE_OPTION_DRG_EMBER"
+		desc = "RULE_OPTION_DRG_EMBER_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DRG_INTENTARIS
+		text = "RULE_OPTION_DRG_INTENTARIS"
+		desc = "RULE_OPTION_DRG_INTENTARIS_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DRG_ASPIR
+		text = "RULE_OPTION_DRG_ASPIR"
+		desc = "RULE_OPTION_DRG_ASPIR_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DRG_SOCIETY_COUP
+		text = "RULE_OPTION_DRG_SOCIETY_COUP"
+		desc = "RULE_OPTION_DRG_SOCIETY_COUP_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DRG_CIVIL_WAR
+		text = "RULE_OPTION_DRG_CIVIL_WAR"
+		desc = "RULE_OPTION_DRG_CIVIL_WAR_AI_DESC"
+		allow_achievements = yes
+	}
+}
 
  #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
  #     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 

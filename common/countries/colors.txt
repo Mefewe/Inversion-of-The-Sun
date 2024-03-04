@@ -347,9 +347,20 @@ color_ui = rgb { 190 195 219 }
 }
 
 ZKT = {
-	color = rgb { 70 100 95 }
-	color_ui = rgb { 70 100 95 }
+color = rgb { 70 100 95 }
+color_ui = rgb { 70 100 95 }
 }
+
+ADR = {
+color = rgb { 201 70 58 }
+color_ui = rgb { 201 70 58 }
+}
+
+MDR = {
+color = rgb { 169 187 212 }
+color_ui = rgb { 169 187 212 }
+}
+
 
 
 D01 = {

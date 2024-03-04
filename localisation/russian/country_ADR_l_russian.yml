@@ -1,0 +1,47 @@
+﻿l_russian:
+ ####################
+ ### COUNTRY NAME ###
+ ####################
+ 
+ ### ADR
+ 
+ ADR_fascism: "Земли Драконов"
+ ADR_democratic: "Земли Драконов"
+ ADR_neutrality: "Земли Драконов"
+ ADR_communism: "Земли Драконов"
+ ADR_paternalism: "Земли Драконов"
+ ADR_progressivism: "Земли Драконов"
+ 
+ ADR_fascism_DEF: "Земли Драконов"
+ ADR_democratic_DEF: "Земли Драконов"
+ ADR_neutrality_DEF: "Земли Драконов"
+ ADR_communism_DEF: "Земли Драконов"
+ ADR_paternalism_DEF: "Земли Драконов"
+ ADR_progressivism_DEF: "Земли Драконов"
+ 
+ ADR_fascism_ADJ: "Драконск."
+ ADR_democratic_ADJ: "Драконск."
+ ADR_neutrality_ADJ: "Драконск."
+ ADR_communism_ADJ: "Драконск."
+ ADR_paternalism_ADJ: "Драконск."
+ ADR_progressivism_ADJ: "Драконск."
+ 
+ ###############
+ ### LEADERS ###
+ ###############
+ DRG_Basalt_Hall_n1: "Базальтовый Зал"
+ DRG_Basalt_Hall_n1_desc: "" 
+ 
+ #############
+ ### IDEAS ###
+ #############
+
+ ######################
+ ### NATIONAL_FOCUS ###
+ ######################
+ 
+ ### FIRST TREE
+
+ ##############
+ ### EVENTS ###
+ ##############

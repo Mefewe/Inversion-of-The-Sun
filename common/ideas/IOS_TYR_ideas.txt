@@ -1,5 +1,15 @@
 ideas = {
 	country = {
+		tyr_first_revolution = {
+		}
+		tyr_unstable_situation = {
+		}
+		tyr_interspecific_tension = {
+		}
+		tyr_unpopular_leader = {
+		}
+		tyr_south_war_continues = {
+		}
 		tyr_army_issues = {
 			picture = generic_army_problems
 			modifier = {

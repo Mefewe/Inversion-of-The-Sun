@@ -5,7 +5,7 @@ state={
 		9370 9369 9368 9367
 	}
 	history={
-	victory_points = {9367 35} # 
+	victory_points = {9367 35} # New-Manehattan
         owner = EQS
         add_core_of = EQS
         buildings = {

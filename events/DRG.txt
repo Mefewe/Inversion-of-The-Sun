@@ -62,7 +62,472 @@ country_event = {
 	}
 }
 
-### Other ###
+### Plot ###
+
+country_event = {
+	id = DRG_base.8		###
+	title = DRG_base.8.title
+	desc = DRG_base.8.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.8.a
+		ai_chance = {
+			base = 1
+			modifier  = {
+				factor = 10
+				has_game_rule = {
+					rule = DRG_AI_BEHAVIOR
+					option = DRG_EMBER
+				} 
+			}
+		}
+		hidden_effect = {
+        		load_focus_tree = DRG_focus_tree_three
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	option = {
+		name = DRG_base.8.b
+		ai_chance = {
+			base = 1
+			modifier  = {
+				factor = 10
+					has_game_rule = {
+					rule = DRG_AI_BEHAVIOR
+					option = DRG_INTENTARIS
+				} 
+			}
+		}
+		retire_country_leader = yes
+		promote_character = {
+   			character = DRG_Intentaris
+			ideology = despotism
+		}
+		set_politics = {
+			ruling_party = paternalism
+		}
+		news_event = { 
+			id = DRG_News.4
+			days = 1
+		}
+	}
+	option = {
+		name = DRG_base.8.c
+		ai_chance = {
+			base = 1
+			modifier  = {
+				factor = 10
+				has_game_rule = {
+					rule = DRG_AI_BEHAVIOR
+					option = DRG_SOCIETY_COUP
+				}
+			}
+			modifier  = {
+				factor = 10
+				has_game_rule = {
+					rule = DRG_AI_BEHAVIOR
+					option = DRG_CIVIL_WAR
+				}
+			}
+		}
+		country_event = DRG_base.9
+	}
+}
+
+country_event = {
+	id = DRG_base.9		### Coup success
+	title = DRG_base.9.title
+	desc = DRG_base.9.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.9.a
+		ai_chance = {
+			base = 1
+			modifier  = {
+				factor = 10
+				has_game_rule = {
+					rule = DRG_AI_BEHAVIOR
+					option = DRG_SOCIETY_COUP
+				} 
+			}
+		}
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = paternalism
+		}
+		hidden_effect = {
+        		load_focus_tree = DRG_Society_focus_tree_one
+			mark_focus_tree_layout_dirty = yes
+		}
+		news_event = { 
+			id = DRG_News.4
+			days = 1
+		}
+	}
+	option = {
+		name = DRG_base.9.b
+		ai_chance = {
+			base = 1
+			modifier  = {
+				factor = 10
+				has_game_rule = {
+					rule = DRG_AI_BEHAVIOR
+					option = DRG_CIVIL_WAR
+				} 
+			}
+		}
+		country_event = {
+			id = DRG_base.10
+			days = 1
+		}
+	}
+}
+
+country_event = {
+	id = DRG_base.10	### Civil war begins
+	title = DRG_base.10.title
+	desc = DRG_base.10.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.10.a
+		trigger = {
+			has_completed_focus = DRG_ember_knows_what_right
+		}
+		ADR = {
+			transfer_state = 581
+			transfer_state = 371
+			transfer_state = 304
+			transfer_state = 553
+			transfer_state = 669
+			transfer_state = 816
+
+			add_state_core = 581
+			add_state_core = 371
+			add_state_core = 304
+			add_state_core = 901
+			add_state_core = 10
+			add_state_core = 32
+			add_state_core = 905
+			add_state_core = 821
+			add_state_core = 883
+			add_state_core = 868
+			add_state_core = 906
+			add_state_core = 553
+			add_state_core = 669
+			add_state_core = 816
+			add_state_core = 628
+			add_state_core = 858
+			add_state_core = 843
+			add_state_core = 863
+			add_state_core = 636
+			add_state_core = 47
+			add_state_core = 727
+			add_state_core = 903
+			set_capital = {
+				state = 816
+				remember_old_capital = no
+			}
+			declare_war_on = {
+				target = DRG
+				type = civil_war
+			}
+			load_oob = "ADR"
+			add_ideas = dragonia_civil_war
+			hidden_effect = {
+        			load_focus_tree = ADR_focus_tree_one
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+		DRG = {
+			country_event = {
+				id = DRG_base.11
+				days = 4
+			}
+			transfer_units_fraction= {
+				target = ADR
+				size = 0.3
+				stockpile_ratio = 0.3
+			}
+			delete_unit = {
+    				state = 581
+    				disband = yes
+			}
+			delete_unit = {
+    				state = 901
+    				disband = yes
+			}
+			remove_ideas = drg_military_veto
+			add_ideas = dragonia_civil_war
+		}
+		ADR = {
+			country_event = {
+				id = DRG_base.11
+				days = 4
+			}
+		}
+		country_event = {
+			id = DRG_base.12
+			days = 7
+		}
+		set_global_flag = DRG_CivilWar
+	}
+	option = {
+		name = DRG_base.10.b
+		trigger = {
+			has_completed_focus = DRG_protect_the_throne
+		}
+		ADR = {
+			transfer_state = 581
+			transfer_state = 371
+			transfer_state = 304
+			transfer_state = 553
+			transfer_state = 669
+			transfer_state = 816
+
+			add_state_core = 581
+			add_state_core = 371
+			add_state_core = 304
+			add_state_core = 901
+			add_state_core = 10
+			add_state_core = 32
+			add_state_core = 905
+			add_state_core = 821
+			add_state_core = 883
+			add_state_core = 868
+			add_state_core = 906
+			add_state_core = 553
+			add_state_core = 669
+			add_state_core = 816
+			add_state_core = 628
+			add_state_core = 858
+			add_state_core = 843
+			add_state_core = 863
+			add_state_core = 636
+			add_state_core = 47
+			add_state_core = 727
+			add_state_core = 903
+			set_capital = {
+				state = 816
+				remember_old_capital = no
+			}
+			declare_war_on = {
+				target = DRG
+				type = civil_war
+			}
+			load_oob = "ADR"
+			add_ideas = dragonia_civil_war
+			hidden_effect = {
+        			load_focus_tree = ADR_focus_tree_one
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+		DRG = {
+			country_event = {
+				id = DRG_base.11
+				days = 4
+			}
+			transfer_units_fraction= {
+				target = ADR
+				size = 0.3
+				stockpile_ratio = 0.3
+			}
+			delete_unit = {
+    				state = 581
+    				disband = yes
+			}
+			delete_unit = {
+    				state = 901
+    				disband = yes
+			}
+			remove_ideas = drg_military_veto
+			add_ideas = dragonia_civil_war
+		}
+		ADR = {
+			country_event = {
+				id = DRG_base.11
+				days = 4
+			}
+		}
+		country_event = {
+			id = DRG_base.12
+			days = 7
+		}
+		ADR = { change_tag_from = DRG }
+	}
+}
+
+country_event = {
+	id = DRG_base.11	### South territory connection broken
+	title = DRG_base.11.title
+	desc = DRG_base.11.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.11.a
+		UNC = {
+			transfer_state = 628
+			transfer_state = 858
+			transfer_state = 843
+			transfer_state = 863
+			transfer_state = 636
+			transfer_state = 47
+			transfer_state = 727
+			transfer_state = 903
+
+			add_state_core = 628
+			add_state_core = 858
+			add_state_core = 843
+			add_state_core = 863
+			add_state_core = 636
+			add_state_core = 47
+			add_state_core = 727
+			add_state_core = 903
+		}
+	}
+}
+
+country_event = {
+	id = DRG_base.12	### Modernist coup
+	title = DRG_base.12.title
+	desc = DRG_base.12.desc
+	is_triggered_only = yes
+	picture = GFX_placeholder
+	fire_only_once = yes
+	option = {
+		name = DRG_base.12.a
+		MDR = {
+			transfer_state = 905
+			transfer_state = 32
+
+			add_state_core = 581
+			add_state_core = 371
+			add_state_core = 304
+			add_state_core = 901
+			add_state_core = 10
+			add_state_core = 32
+			add_state_core = 905
+			add_state_core = 821
+			add_state_core = 883
+			add_state_core = 868
+			add_state_core = 906
+			add_state_core = 553
+			add_state_core = 669
+			add_state_core = 816
+			add_state_core = 628
+			add_state_core = 858
+			add_state_core = 843
+			add_state_core = 863
+			add_state_core = 636
+			add_state_core = 47
+			add_state_core = 727
+			add_state_core = 903
+			set_capital = {
+				state = 905
+				remember_old_capital = no
+			}
+			add_ideas = {
+				drg_dragons_factor
+				drg_no_science_and_industry
+				mdr_revolution_in_a_hurry
+			}
+			declare_war_on = {
+				target = DRG
+				type = civil_war
+			}
+			declare_war_on = {
+				target = ADR
+				type = civil_war
+			}
+			load_oob = "MDR"
+			add_ideas = dragonia_civil_war
+			hidden_effect = {
+        			load_focus_tree = MDR_focus_tree_one
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+		DRG = {
+			transfer_units_fraction= {
+				target = MDR
+				size = 0.4
+				stockpile_ratio = 0.4
+			}
+		}
+	}
+	option = {
+		name = DRG_base.12.b
+		MDR = {
+			transfer_state = 905
+			transfer_state = 32
+
+			add_state_core = 581
+			add_state_core = 371
+			add_state_core = 304
+			add_state_core = 901
+			add_state_core = 10
+			add_state_core = 32
+			add_state_core = 905
+			add_state_core = 821
+			add_state_core = 883
+			add_state_core = 868
+			add_state_core = 906
+			add_state_core = 553
+			add_state_core = 669
+			add_state_core = 816
+			add_state_core = 628
+			add_state_core = 858
+			add_state_core = 843
+			add_state_core = 863
+			add_state_core = 636
+			add_state_core = 47
+			add_state_core = 727
+			add_state_core = 903
+			set_capital = {
+				state = 905
+				remember_old_capital = no
+			}
+			add_ideas = {
+				drg_dragons_factor
+				drg_no_science_and_industry
+				mdr_revolution_in_a_hurry
+			}
+			declare_war_on = {
+				target = DRG
+				type = civil_war
+			}
+			declare_war_on = {
+				target = ADR
+				type = civil_war
+			}
+			load_oob = "MDR"
+			add_ideas = dragonia_civil_war
+			hidden_effect = {
+        			load_focus_tree = MDR_focus_tree_one
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+		DRG = {
+			transfer_units_fraction= {
+				target = MDR
+				size = 0.4
+				stockpile_ratio = 0.4
+			}
+		}
+		MDR = { change_tag_from = DRG }
+		news_event = { 
+			id = DRG_News.1
+			days = 1
+		}
+	}
+}
+
+### Battle for Scratch region ###
 
 country_event = {
 	id = DRG_base.1

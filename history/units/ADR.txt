@@ -1,0 +1,28 @@
+division_template = {
+        name = "Dragon Group"
+        regiments = {
+                oldinf = { x = 0 y = 0 }
+                oldinf = { x = 0 y = 1 }
+                oldinf = { x = 0 y = 2 }
+                oldinf = { x = 0 y = 3 }
+        }
+}
+
+units = {
+        division = {
+                name = "5. Dragon Warriors"
+		location = 1776
+		division_template = "Dragon Group"
+		start_experience_factor = 0.40
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Dragon Warriors"
+		location = 4497
+		division_template = "Dragon Group"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

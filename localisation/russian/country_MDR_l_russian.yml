@@ -1,0 +1,49 @@
+﻿l_russian:
+ ####################
+ ### COUNTRY NAME ###
+ ####################
+ 
+ ### MDR
+ 
+ MDR_fascism: "Демократическая Республика Дракония"
+ MDR_democratic: "Демократическая Республика Дракония"
+ MDR_neutrality: "Демократическая Республика Дракония"
+ MDR_communism: "Демократическая Республика Дракония"
+ MDR_paternalism: "Демократическая Республика Дракония"
+ MDR_progressivism: "Демократическая Республика Дракония"
+ 
+ MDR_fascism_DEF: "Демократическая Республика Дракония"
+ MDR_democratic_DEF: "Демократическая Республика Дракония"
+ MDR_neutrality_DEF: "Демократическая Республика Дракония"
+ MDR_communism_DEF: "Демократическая Республика Дракония"
+ MDR_paternalism_DEF: "Демократическая Республика Дракония"
+ MDR_progressivism_DEF: "Демократическая Республика Дракония"
+ 
+ MDR_fascism_ADJ: "Драконск."
+ MDR_democratic_ADJ: "Драконск."
+ MDR_neutrality_ADJ: "Драконск."
+ MDR_communism_ADJ: "Драконск."
+ MDR_paternalism_ADJ: "Драконск."
+ MDR_progressivism_ADJ: "Драконск."
+ 
+ ###############
+ ### LEADERS ###
+ ###############
+ DRG_Armada_Generalship: "Генералитет Армады"
+ DRG_Armada_Generalship_desc: ""
+ 
+ #############
+ ### IDEAS ###
+ #############
+ mdr_revolution_in_a_hurry: "Революция впопыхах"
+ mdr_revolution_in_a_hurry_desc: ""
+
+ ######################
+ ### NATIONAL_FOCUS ###
+ ######################
+ 
+ ### FIRST TREE
+
+ ##############
+ ### EVENTS ###
+ ##############

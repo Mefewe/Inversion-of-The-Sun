@@ -1,0 +1,45 @@
+﻿recruit_character = DRG_Armada_Generalship
+set_stability = 0.4
+set_war_support = 0.2
+set_research_slots = 1
+
+################## TECHS
+set_technology = {
+	### INFANTRY
+	infantry_weapons_1 = 1
+	anti_tank_inf_1 = 1
+
+	### SUPPORT
+	tech_support = 1
+}
+
+################## STOCKPILES
+
+#### INFANTRY
+
+
+add_ideas = {
+	#laws
+	isolation
+	limited_conscription
+	limited_exports
+
+	#ideas
+	drg_dragons_factor
+	drg_no_science_and_industry
+	drg_modernist_ideas
+}
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1768.7.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 24
+	communism = 13
+	neutrality = 20
+	fascism = 0
+        progressivism = 43
+        paternalism = 0
+}

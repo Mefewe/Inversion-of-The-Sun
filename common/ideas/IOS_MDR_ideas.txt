@@ -1,0 +1,8 @@
+ideas = {
+	country = {
+		mdr_revolution_in_a_hurry = {
+			modifier = {
+			}
+		}
+	}
+}

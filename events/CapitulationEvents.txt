@@ -68,3 +68,42 @@ news_event = {
 		name = CapNews.4.a
 	}
 }
+
+news_event = {
+	id = CapNews.5		# DRG
+	title = CapNews.5.title
+	desc = CapNews.5.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapNews.5.a
+	}
+}
+
+news_event = {
+	id = CapNews.6		# ADR
+	title = CapNews.6.title
+	desc = CapNews.6.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapNews.6.a
+	}
+}
+
+news_event = {
+	id = CapNews.7		# MDR
+	title = CapNews.7.title
+	desc = CapNews.7.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CapNews.7.a
+	}
+}

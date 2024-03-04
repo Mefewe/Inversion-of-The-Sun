@@ -1,0 +1,10 @@
+ideas = {
+	country = {
+		frz_dense_populism = {
+		}
+		frz_heart_of_zebrica = {
+		}
+		frz_great_forests = {
+		}
+	}
+}

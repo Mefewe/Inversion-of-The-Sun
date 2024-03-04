@@ -10,3 +10,7 @@ SDL_CONF = {
 color = rgb { 183 164 48 }
 color_ui = rgb { 183 164 48 }
 }
+DRG_NEW = {
+color = rgb { 219 148 87 }
+color_ui = rgb { 219 148 87 }
+}

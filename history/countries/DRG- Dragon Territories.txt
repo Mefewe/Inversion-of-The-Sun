@@ -1,24 +1,26 @@
 ﻿oob = "DRG"
 
-add_ideas = {
- DRG_DragonsFactor
- sdl_conf_struggling_harmony
-}
 capital = 906
 recruit_character = DRG_Ember
+recruit_character = DRG_Basalt_Hall_n2
+recruit_character = DRG_Intentaris
 set_stability = 0.4
 set_war_support = 0.2
+set_research_slots = 1
+
+################## TECHS
 set_technology = {
-	anti_tank_inf_1_eq = 1
-	command_and_control1 = 1
+	### INFANTRY
 	infantry_weapons_1 = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
-	basic_train = 1
+	anti_tank_inf_1 = 1
+
+	### SUPPORT
+	tech_support = 1
 }
 
+################## STOCKPILES
+
+#### INFANTRY
 
 add_equipment_to_stockpile = {
          type = infantry_ammo_equipment_0
@@ -39,11 +41,19 @@ add_equipment_to_stockpile = {
 
 
 add_ideas = {
-		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
-	}
+	#laws
+	isolation
+	limited_conscription
+	limited_exports
+
+	#ideas
+	drg_dragons_factor
+	struggling_harmony
+	drg_no_science_and_industry
+	drg_modernist_ideas
+	drg_Ember_authority
+	drg_military_veto
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1768.7.8"
@@ -57,37 +67,4 @@ set_popularities = {
 	fascism = 19
         progressivism = 0
         paternalism = 22
-}
-
-create_country_leader = {
-	name = "Franklin"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = neoharmonism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Earl"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "portrait_USA_earl_browder.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Haile"
-	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-
-	}
 }

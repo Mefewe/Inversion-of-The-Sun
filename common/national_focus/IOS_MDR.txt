@@ -1,0 +1,14 @@
+focus_tree = {
+	id = MDR_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = MDR
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 2200 y = 800 }
+}

@@ -35,11 +35,42 @@ on_actions = {
 
 			if = {
 				limit = {
+					has_global_flag = DRG_CivilWar
+					if = {
+						limit = {
+							FROM = { original_tag = DRG }
+							ROOT = { original_tag = ADR }
+							ROOT = { original_tag = MDR }
+						}
+					}
+					if = {
+						limit = {
+							FROM = { original_tag = ADR }
+							ROOT = { original_tag = DRG }
+							ROOT = { original_tag = MDR }
+						}
+					}
+					if = {
+						limit = {
+							FROM = { original_tag = MDR }
+							ROOT = { original_tag = DRG }
+							ROOT = { original_tag = ADR }
+						}
+					}
+				}
+				clr_global_flag = DRG_CivilWar
+			}
+
+			if = {
+				limit = {
 					ROOT = {
 						NOT = { original_tag = SDL }
 						NOT = { original_tag = EQS }
 						NOT = { original_tag = NEG }
 						NOT = { original_tag = UCF }
+						NOT = { original_tag = DRG }
+						NOT = { original_tag = ADR }
+						NOT = { original_tag = MDR }
 					}
 				}
 				news_event = CapitulationNewsGeneric.1
@@ -67,6 +98,24 @@ on_actions = {
 					ROOT = { original_tag = UCF }
 				}
 				news_event = CapNews.4
+			}
+			else_if = {
+				limit = {
+					ROOT = { original_tag = DRG }
+				}
+				news_event = CapNews.5
+			}
+			else_if = {
+				limit = {
+					ROOT = { original_tag = ADR }
+				}
+				news_event = CapNews.6
+			}
+			else_if = {
+				limit = {
+					ROOT = { original_tag = MDR }
+				}
+				news_event = CapNews.7
 			}
 
 			add_to_variable = { global.peace_popup_dirty = 1 }

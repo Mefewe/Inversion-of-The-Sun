@@ -1,5 +1,6 @@
 add_namespace = News
 add_namespace = TYR_News
+add_namespace = DRG_News
 
 news_event = {
 	id = News.1
@@ -97,6 +98,104 @@ news_event = {
 		name = TYR_news.1.b
 		trigger = {
 			tag = TYR
+		}
+	}
+}
+news_event = {
+	id = DRG_News.1		### Civil war DRG
+	title = DRG_news.1.title
+	desc = DRG_news.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = DRG_news.1.a
+		trigger = {
+			NOT = {tag = DRG}
+			NOT = {tag = ADR}
+			NOT = {tag = MDR}
+		}
+	}
+	option = {
+		name = DRG_news.1.b
+		trigger = {
+			tag = DRG
+		}
+	}
+	option = {
+		name = DRG_news.1.c
+		trigger = {
+			tag = ADR
+		}
+	}
+	option = {
+		name = DRG_news.1.d
+		trigger = {
+			tag = MDR
+		}
+	}
+}
+news_event = {
+	id = DRG_News.2		### Dragon Kingdom
+	title = DRG_news.2.title
+	desc = DRG_news.2.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = DRG_news.2.a
+		trigger = {
+			NOT = {tag = DRG}
+		}
+	}
+	option = {
+		name = DRG_news.2.b
+		trigger = {
+			tag = DRG
+		}
+	}
+}
+news_event = {
+	id = DRG_News.3		### Coup DRG
+	title = DRG_news.3.title
+	desc = DRG_news.3.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = DRG_news.3.a
+		trigger = {
+			NOT = {tag = DRG}
+		}
+	}
+	option = {
+		name = DRG_news.3.b
+		trigger = {
+			tag = DRG
+		}
+	}
+}
+news_event = {
+	id = DRG_News.4		### Ember retires
+	title = TYR_news.4.title
+	desc = TYR_news.4.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = DRG_news.4.a
+		trigger = {
+			NOT = {tag = DRG}
+		}
+	}
+	option = {
+		name = DRG_news.4.b
+		trigger = {
+			tag = DRG
 		}
 	}
 }

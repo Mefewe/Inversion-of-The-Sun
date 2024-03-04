@@ -1,0 +1,46 @@
+﻿oob = "DRG"
+
+recruit_character = DRG_Basalt_Hall_n1
+set_stability = 0.4
+set_war_support = 0.2
+set_research_slots = 1
+
+################## TECHS
+set_technology = {
+	### INFANTRY
+	infantry_weapons_1 = 1
+	anti_tank_inf_1 = 1
+
+	### SUPPORT
+	tech_support = 1
+}
+
+################## STOCKPILES
+
+#### INFANTRY
+
+
+add_ideas = {
+	#laws
+	isolation
+	limited_conscription
+	limited_exports
+
+	#ideas
+	drg_dragons_factor
+	drg_no_science_and_industry
+}
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1768.7.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	communism = 0
+	neutrality = 18
+	fascism = 30
+        progressivism = 0
+        paternalism = 52
+}
