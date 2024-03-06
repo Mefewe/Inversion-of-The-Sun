@@ -4,6 +4,12 @@ debug_GUI_decisions = {
 		is_debug = yes
 	}
 }
+DRG_debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}
 SDL_CONF_debug_decisions = {
 	icon = generic_research
 	visible = {

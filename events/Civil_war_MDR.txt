@@ -1,0 +1,13 @@
+add_namespace = MDR_CW_base
+
+country_event = {
+	id = MDR_CW_base.1
+	title = MDR_CW_base.1.title
+	desc = MDR_CW_base.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = MDR_CW_base.1.a
+	}
+}

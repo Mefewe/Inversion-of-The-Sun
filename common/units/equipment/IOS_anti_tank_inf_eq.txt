@@ -4,6 +4,13 @@ equipments = {
 	anti_tank_inf_eq = {
 		is_archetype = yes
 		picture = archetype_infantry_equipment
+		can_be_produced = {
+			NOT = {
+				tag = DRG
+				tag = ADR
+				tag = MDR
+			}
+		}
 		type = {
 			infantry
 			anti_tank

@@ -1,0 +1,33 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = DRG_CivilWar
+				}
+				if = {
+					limit = {
+						DRG = {
+							OR = {
+								AND = {
+									controls_state = 565
+									controls_state = 445
+								}
+								OR = {
+									controls_state = 565
+									controls_state = 445
+								}
+							}
+						}
+					}
+					UNC = {
+						transfer_state = 565
+						add_state_core = 565
+						transfer_state = 445
+						add_state_core = 445
+					}
+				}
+			}
+		}
+	}
+}

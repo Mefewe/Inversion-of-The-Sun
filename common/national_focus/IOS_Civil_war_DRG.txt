@@ -1,0 +1,296 @@
+focus_tree = {
+	id = DRG_CW_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = DRG
+		}
+	}
+	shared_focus = DRG_stabilize_the_situation
+
+	default = no
+	continuous_focus_position = { x = 2200 y = 800 }
+}
+
+focus_tree = {
+	id = DRG_CW_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = DRG
+		}
+	}
+	shared_focus = DRG_stabilize_the_situation
+	shared_focus = DRG_splitted_nation
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 1400 }
+}
+
+### FIRST TREE
+
+shared_focus = {
+	id = DRG_stabilize_the_situation
+	cost = 1
+	x = 20
+	y = 0
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_outlaw_The_Society
+	prerequisite = {
+		focus = DRG_stabilize_the_situation
+	}
+	cost = 1
+	x = 19
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_try_to_figure_out_the_situation
+	prerequisite = {
+		focus = DRG_stabilize_the_situation
+	}
+	cost = 1
+	x = 21
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_appeal_to_nation
+	prerequisite = {
+		focus = DRG_outlaw_The_Society
+	}
+	prerequisite = {
+		focus = DRG_try_to_figure_out_the_situation
+	}
+	cost = 1
+	x = 20
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_boycott_archaists
+	prerequisite = {
+		focus = DRG_appeal_to_nation
+	}
+	cost = 1
+	x = 18
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_arrest_the_rebels
+	prerequisite = {
+		focus = DRG_appeal_to_nation
+	}
+	cost = 1
+	x = 22
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_restore_order
+	prerequisite = {
+		focus = DRG_appeal_to_nation
+	}
+	cost = 1
+	x = 20
+	y = 4
+	completion_reward = {
+	}
+}
+
+### SECOND TREE
+
+shared_focus = {
+	id = DRG_splitted_nation
+
+	cost = 1
+	x = 20
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_encourage_the_world_public
+	prerequisite = {
+		focus = DRG_splitted_nation
+	}
+	cost = 1
+	x = 17
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_new_destroy_methods
+	prerequisite = {
+		focus = DRG_splitted_nation
+	}
+	cost = 1
+	x = 18
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_get_enemy_plans
+	prerequisite = {
+		focus = DRG_splitted_nation
+	}
+	cost = 1
+	x = 19
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_Ember_offensive
+	prerequisite = {
+		focus = DRG_civilian_mobilization
+	}
+	prerequisite = {
+		focus = DRG_get_enemy_plans
+	}
+	cost = 1
+	x = 20
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_civilian_mobilization
+	prerequisite = {
+		focus = DRG_splitted_nation
+	}
+	cost = 1
+	x = 21
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_self_defense
+	prerequisite = {
+		focus = DRG_splitted_nation
+	}
+	cost = 1
+	x = 22
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_Arvira_brigades
+	prerequisite = {
+		focus = DRG_splitted_nation
+	}
+	cost = 1
+	x = 23
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_sky_supremacy
+	prerequisite = {
+		focus = DRG_encourage_the_world_public
+	}
+	prerequisite = {
+		focus = DRG_new_destroy_methods
+	}
+	cost = 1
+	x = 17
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_promises_for_aristocracy
+	prerequisite = {
+		focus = DRG_Ember_offensive
+	}
+	mutually_exclusive = {
+		focus = DRG_populism_accent
+	}
+	cost = 1
+	x = 19
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_populism_accent
+	prerequisite = {
+		focus = DRG_Ember_offensive
+	}
+	mutually_exclusive = {
+		focus = DRG_promises_for_aristocracy
+	}
+	cost = 1
+	x = 21
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_new_conscription_laws
+	prerequisite = {
+		focus = DRG_self_defense
+	}
+	prerequisite = {
+		focus = DRG_Arvira_brigades
+	}
+	cost = 1
+	x = 23
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DRG_our_morale_supremacy
+	prerequisite = {
+		focus = DRG_sky_supremacy
+	}
+	prerequisite = {
+		focus = DRG_promises_for_aristocracy
+		focus = DRG_populism_accent
+	}
+	prerequisite = {
+		focus = DRG_new_conscription_laws
+	}
+	cost = 1
+	x = 20
+	y = 10
+	completion_reward = {
+	}
+}

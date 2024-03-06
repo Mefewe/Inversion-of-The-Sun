@@ -74,6 +74,13 @@
  drg_Ember_authority_desc: ""
  drg_military_veto: "Воинское вето"
  drg_military_veto_desc: ""
+ 
+ #################
+ ### DECISIONS ###
+ #################
+ DRG_blacksmith_decisions: "Ремесленное производство"
+ DRG_blacksmith_decisions_desc: "Традиции создания драконьего оружия имеют долгую историю, и вопреки современности эта история продолжается: в остальном мире уже научились использовать бездушные машины и механизмы для создания необходимых вещей, у нас же предмет ремесла сопряжён с талантами самого ремесленника творить собственными руками.\n\nКто-то указывает на неэффективность такого подхода, но стоит ли жертвовать своей культурой ради циферок и графиков, идущих вверх?\n\n§4( Вместо военных заводов здесь можно строить §Yкузницы§4, которые дают те же самые военные единицы производства. )"
+ drg_build_forge: "Строительство военной кузницы"
 
  ######################
  ### NATIONAL_FOCUS ###
@@ -137,6 +144,52 @@
  DRG_ember_knows_what_right: "Следуйте за своей королевой!"
  DRG_ember_knows_what_right_desc: ""
  
+ ### CIVIL WAR / FIRST TREE
+ 
+ DRG_stabilize_the_situation: "«Мы возьмём их за три дня!»"
+ DRG_stabilize_the_situation_desc: ""
+ DRG_outlaw_The_Society: "Разгромить Общество"
+ DRG_outlaw_The_Society_desc: ""
+ DRG_try_to_figure_out_the_situation: "Что вообще просиходит!?"
+ DRG_try_to_figure_out_the_situation_desc: ""
+ DRG_appeal_to_nation: "Обращение к нации"
+ DRG_appeal_to_nation_desc: ""
+ DRG_boycott_archaists: "Бойкотирование архаистов"
+ DRG_boycott_archaists_desc: ""
+ DRG_arrest_the_rebels: "Арестуйте всех этих трусов"
+ DRG_arrest_the_rebels_desc: ""
+ DRG_restore_order: "Избавить Драконию от бардака"
+ DRG_restore_order_desc: ""
+ 
+ ### CIVIL WAR / SECOND TREE
+ 
+ DRG_splitted_nation: "Расколотая нация"
+ DRG_splitted_nation_desc: ""
+ DRG_encourage_the_world_public: "Обратиться к общественности"
+ DRG_encourage_the_world_public_desc: ""
+ DRG_new_destroy_methods: "Новые методы умершвления"
+ DRG_new_destroy_methods_desc: ""
+ DRG_get_enemy_plans: "Раздобыть планы врага"
+ DRG_get_enemy_plans_desc: ""
+ DRG_Ember_offensive: "Наступление Эмбер"
+ DRG_Ember_offensive_desc: ""
+ DRG_civilian_mobilization: "Мобилизация населения"
+ DRG_civilian_mobilization_desc: ""
+ DRG_self_defense: "Самооборона"
+ DRG_self_defense_desc: ""
+ DRG_Arvira_brigades: "Отряды Арвиры"
+ DRG_Arvira_brigades_desc: ""
+ DRG_sky_supremacy: "Превосходство в воздухе"
+ DRG_sky_supremacy_desc: ""
+ DRG_promises_for_aristocracy: "Обещания для знати"
+ DRG_promises_for_aristocracy_desc: ""
+ DRG_populism_accent: "Яркий популизм"
+ DRG_populism_accent_desc: ""
+ DRG_new_conscription_laws: "Никаких ограничений на призыв"
+ DRG_new_conscription_laws_desc: ""
+ DRG_our_morale_supremacy: "Наше моральное превосходство"
+ DRG_our_morale_supremacy_desc: ""
+ 
  ##############
  ### EVENTS ###
  ##############
@@ -160,3 +213,6 @@
  DRG_base.12.desc: "Здесь описывается захват самых передовых городов Драконии. Студенты и радикалы из прогрессивистских кружков с оружием в руках берут главные здания и провозглошают Республику."
  DRG_base.12.a: "Горячие головы, безумцы!."
  DRG_base.12.b: "Из пепелища - в будущее!"
+ 
+ govno_tt: "Говно: [?govno|R]§W\nСтатикГовно: [?StaticGovno|R]§W\n"
+ build_forge_tt: "Будет построено одно §Yкузнечное здание§W."

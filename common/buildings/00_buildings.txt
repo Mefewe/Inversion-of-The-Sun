@@ -27,7 +27,17 @@ buildings = {
 		icon_frame = 2
 		max_level = 20
 		shares_slots = yes
-		value = 8
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+
+	forge = {
+		base_cost = 7200
+		icon_frame = 2
+		military_production = 1
+		max_level = 20
+		shares_slots = yes
+		value = 5
 		infrastructure_construction_effect = yes
 	}
 

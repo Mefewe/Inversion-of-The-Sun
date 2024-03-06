@@ -1,0 +1,18 @@
+DRG_blacksmith_decisions = {
+	icon = generic_research
+	available = {
+		OR = {
+			tag = DRG
+			tag = ADR
+			tag = MDR
+		}
+	}
+	visible = {
+		OR = {
+			tag = DRG
+			tag = ADR
+			tag = MDR
+		}
+	}
+	priority = 20
+}

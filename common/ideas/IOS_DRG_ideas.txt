@@ -6,6 +6,7 @@ ideas = {
 				custom_modifier_tooltip = drg_dragons_factor_tt
 				army_attack_factor = 1
 				army_defence_factor = 0.5
+				army_speed_factor = 0.5
 				surrender_limit = 0.3
 			}
 		}
@@ -13,8 +14,8 @@ ideas = {
 			modifier = {
 				hidden_modifier = {
 					research_speed_factor = -10
-					production_speed_buildings_factor = -10
-					global_building_slots = -10
+					production_speed_buildings_factor = -10	
+					global_building_slots_factor = -0.9
 				}
 				custom_modifier_tooltip = drg_no_science_and_industry_tt
 			}

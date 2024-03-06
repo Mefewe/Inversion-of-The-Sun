@@ -42,7 +42,42 @@
  ### NATIONAL_FOCUS ###
  ######################
  
- ### FIRST TREE
+ ### CIVIL WAR TREE
+ 
+ MDR_intellectual_coup: "Интеллектуальный переворот"
+ MDR_intellectual_coup_desc: ""
+ MDR_base_in_Torchvallen: "Закрепиться в Торчвалене"
+ MDR_base_in_Torchvallen_desc: ""
+ MDR_Dragonclaw_command_center: "Центр командования в Драгонклау"
+ MDR_Dragonclaw_command_center_desc: ""
+ MDR_attack_focus: "Как гром средь неба"
+ MDR_attack_focus_desc: ""
+ MDR_front_stabilization_focus: "Подождать пока всё утрясётся"
+ MDR_front_stabilization_focus_desc: ""
+ MDR_following_the_political_fashion: "Следуя политической моде"
+ MDR_following_the_political_fashion_desc: ""
+ MDR_neither_of_them: "Ни те, ни эти..."
+ MDR_neither_of_them_desc: ""
+ MDR_only_we: "Только мы!"
+ MDR_only_we_desc: ""
+ MDR_nationalize_aristocracy_property: "Национализировать имущество богатеев..."
+ MDR_nationalize_aristocracy_property_desc: ""
+ MDR_buy_equipment: "И пустить всё на благое дело!"
+ MDR_buy_equipment_desc: ""
+ MDR_green_guards: "Зелёная гвардия"
+ MDR_green_guards_desc: ""
+ MDR_propaganda_focus: "Строительство светлого и прекрасного"
+ MDR_propaganda_focus_desc: ""
+ MDR_young_carabineers: "Юные карабинеры"
+ MDR_young_carabineers_desc: ""
+ MDR_into_the_black_market: "Втиснуться на чёрный рынок"
+ MDR_into_the_black_market_desc: ""
+ MDR_remove_trading_tax: "Ликвидировать торговую таксу"
+ MDR_remove_trading_tax_desc: ""
+ MDR_tremble_plutocrats: "Трепещите плутократы!"
+ MDR_tremble_plutocrats_desc: ""
+ MDR_go_away_conservatives: "Убирайтесь консервы!"
+ MDR_go_away_conservatives_desc: ""
 
  ##############
  ### EVENTS ###

@@ -240,7 +240,7 @@ country_event = {
 			load_oob = "ADR"
 			add_ideas = dragonia_civil_war
 			hidden_effect = {
-        			load_focus_tree = ADR_focus_tree_one
+        			load_focus_tree = ADR_CW_focus_tree_one
 				mark_focus_tree_layout_dirty = yes
 			}
 		}
@@ -264,6 +264,10 @@ country_event = {
 			}
 			remove_ideas = drg_military_veto
 			add_ideas = dragonia_civil_war
+			hidden_effect = {
+        			load_focus_tree = DRG_CW_focus_tree_one
+				mark_focus_tree_layout_dirty = yes
+			}
 		}
 		ADR = {
 			country_event = {
@@ -323,7 +327,7 @@ country_event = {
 			load_oob = "ADR"
 			add_ideas = dragonia_civil_war
 			hidden_effect = {
-        			load_focus_tree = ADR_focus_tree_one
+        			load_focus_tree = ADR_CW_focus_tree_one
 				mark_focus_tree_layout_dirty = yes
 			}
 		}
@@ -347,6 +351,10 @@ country_event = {
 			}
 			remove_ideas = drg_military_veto
 			add_ideas = dragonia_civil_war
+			hidden_effect = {
+        			load_focus_tree = DRG_CW_focus_tree_one
+				mark_focus_tree_layout_dirty = yes
+			}
 		}
 		ADR = {
 			country_event = {
@@ -448,7 +456,7 @@ country_event = {
 			load_oob = "MDR"
 			add_ideas = dragonia_civil_war
 			hidden_effect = {
-        			load_focus_tree = MDR_focus_tree_one
+        			load_focus_tree = MDR_CW_focus_tree_one
 				mark_focus_tree_layout_dirty = yes
 			}
 		}
@@ -508,7 +516,7 @@ country_event = {
 			load_oob = "MDR"
 			add_ideas = dragonia_civil_war
 			hidden_effect = {
-        			load_focus_tree = MDR_focus_tree_one
+        			load_focus_tree = MDR_CW_focus_tree_one
 				mark_focus_tree_layout_dirty = yes
 			}
 		}

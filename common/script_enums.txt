@@ -210,6 +210,8 @@ script_enum_equipment_bonus_type = {
 	guided_missile_equipment_1
 	guided_missile_equipment_2
 	guided_missile_equipment_3
+	swords_and_armor_arch_eq
+	swords_and_armor_eq
 	infantry_equipment_0
 	infantry_equipment_1
 	infantry_equipment_2

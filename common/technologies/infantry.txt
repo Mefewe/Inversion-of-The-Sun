@@ -17,6 +17,40 @@ technologies = {
 	# INFANTRY WEAPONS #
 	####################
 
+	swords_and_armor = {
+		allow = {
+			always = no
+		}
+		enable_equipments = {
+			swords_and_armor_eq
+		}
+		enable_subunits = {
+			oldinf
+		}	
+		research_cost = 1.5
+		folder = {
+			name = infantry_folder
+		}
+		categories = {
+			infantry_weapons
+		}
+	}
+
+	forge_tech = {
+		allow = {
+			always = no
+		}
+		categories = {
+			infantry_weapons
+		}
+		folder = {
+			name = infantry_folder
+		}
+		enable_building = {
+			building = forge
+		}
+	}
+
 	infantry_weapons_1 = {
 		enable_equipments = {
 			infantry_equipment_0

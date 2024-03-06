@@ -9,6 +9,10 @@
  infantry_ammo_equipment_1:0 "Оружейные боеприпасы"
  infantry_ammo_equipment_2:0 "Оружейные боеприпасы"
  infantry_ammo_equipment_3:0 "Оружейные боеприпасы"
+ 
+ swords_and_armor: "Неогнестрельное оружие и броня"
+ swords_and_armor_eq: "Неогнестрельное оружие и броня"
+ swords_and_armor_arch_eq: "Неогнестрельное оружие и броня"
 
  artillery_ammo_equipment:0 "Артиллерийские боеприпасы"
  artillery_ammo_equipment_0:0 "Артиллерийские боеприпасы"

@@ -39,8 +39,7 @@ sub_units = {
 	
 		need = {
 			#anti_air_equipment_hand = 8
-			infantry_ammo_equipment = 500
-			infantry_equipment = 100
+			swords_and_armor_eq = 1000
 		}
 	}
 }

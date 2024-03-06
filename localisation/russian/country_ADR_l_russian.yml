@@ -40,7 +40,45 @@
  ### NATIONAL_FOCUS ###
  ######################
  
- ### FIRST TREE
+ ### CIVIL WAR / FIRST TREE
+ 
+ ADR_bring_order_to_the_capital: "Навести порядок в столице"
+ ADR_bring_order_to_the_capital_desc: ""
+ ADR_appeal_to_aristocracy: "Призыв к аристократии"
+ ADR_appeal_to_aristocracy_desc: ""
+ ADR_point_to_tyrant: "Указать на тирана"
+ ADR_point_to_tyrant_desc: ""
+ ADR_one_demand: "Лишь одно требование"
+ ADR_one_demand_desc: ""
+ ADR_Amberfort_storages: "Хранилища Амберфорта"
+ ADR_Amberfort_storages_desc: ""
+ ADR_dont_obstruct_us: "Не вставайте у нас на пути"
+ ADR_dont_obstruct_us_desc: ""
+ 
+ ### CIVIL WAR / SECOND TREE
+ 
+ ADR_realizing_the_trouble: "Осознание беды"
+ ADR_realizing_the_trouble_desc: ""
+ ADR_recruitment_to_militia: "Объявить о народной войне"
+ ADR_recruitment_to_militia_desc: ""
+ ADR_call_the_knights: "Долг воина"
+ ADR_call_the_knights_desc: ""
+ ADR_mobilization_of_aristans: "Повысить ремесленный налог"
+ ADR_mobilization_of_aristans_desc: ""
+ ADR_small_reformation_focus: "Уступки ради успеха"
+ ADR_small_reformation_focus_desc: ""
+ ADR_prohibit_reformations: "Напомнить о беспорядках в Торчвалене"
+ ADR_prohibit_reformations_desc: ""
+ ADR_relent_demands: "Смягчить вековой отбор"
+ ADR_relent_demands_desc: ""
+ ADR_foreign_weapons: "Современные полки"
+ ADR_foreign_weapons_desc: ""
+ ADR_mobilize_youth_aristans: "Потребовать большей выработки"
+ ADR_mobilize_youth_aristans_desc: ""
+ ADR_shame_of_capitulation: "Позор сдачи"
+ ADR_shame_of_capitulation_desc: ""
+ ADR_tyrancy_of_Ember: "Эмбер и горы трупов"
+ ADR_tyrancy_of_Ember_desc: ""
 
  ##############
  ### EVENTS ###

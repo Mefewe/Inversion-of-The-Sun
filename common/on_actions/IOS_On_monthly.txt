@@ -1,0 +1,36 @@
+#on_actions = {
+#	on_startup = {
+#		effect = {
+#			DRG = {
+#				set_variable = { StaticGovno = 0 }
+#			}
+#			ADR = {
+#				set_variable = { StaticGovno = 0 }
+#			}
+#			MDR = {
+#				set_variable = { StaticGovno = 0 }
+#			}
+#		}
+#	}
+#	on_weekly = {
+#		effect = { 
+#			if = {
+#				limit = {
+#					OR = {
+#						tag = DRG
+#						tag = ADR
+#						tag = MDR
+#					}
+#				}
+#				set_variable = { govno = 0 }
+#				add_to_variable = { govno = StaticGovno }
+#				multiply_variable = { govno = 350 } 
+#				add_equipment_to_stockpile = {
+#					type = swords_and_armor_eq
+#					amount = govno
+#					producer = THIS
+#				}
+#			}
+#		}
+#	}
+#}

@@ -13,6 +13,8 @@ set_technology = {
 	### INFANTRY
 	infantry_weapons_1 = 1
 	anti_tank_inf_1 = 1
+	swords_and_armor = 1
+	forge_tech = 1
 
 	### SUPPORT
 	tech_support = 1

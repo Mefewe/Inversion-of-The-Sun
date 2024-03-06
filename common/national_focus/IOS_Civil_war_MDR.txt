@@ -1,0 +1,261 @@
+focus_tree = {
+	id = MDR_CW_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = MDR
+		}
+	}
+	shared_focus = MDR_intellectual_coup
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 1400 }
+}
+
+shared_focus = {
+	id = MDR_intellectual_coup
+	cost = 1
+	x = 20
+	y = 0
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_base_in_Torchvallen
+	prerequisite = {
+		focus = MDR_intellectual_coup
+	}
+	cost = 1
+	x = 22
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_Dragonclaw_command_center
+	prerequisite = {
+		focus = MDR_intellectual_coup
+	}
+	cost = 1
+	x = 18
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_attack_focus
+	prerequisite = {
+		focus = MDR_base_in_Torchvallen
+	}
+	prerequisite = {
+		focus = MDR_Dragonclaw_command_center
+	}
+	mutually_exclusive = {
+		focus = MDR_front_stabilization_focus
+	}
+	cost = 1
+	x = 19
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_front_stabilization_focus
+	prerequisite = {
+		focus = MDR_base_in_Torchvallen
+	}
+	prerequisite = {
+		focus = MDR_Dragonclaw_command_center
+	}
+	mutually_exclusive = {
+		focus = MDR_attack_focus
+	}
+	cost = 1
+	x = 21
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_following_the_political_fashion
+	prerequisite = {
+		focus = MDR_attack_focus
+	}
+	prerequisite = {
+		focus = MDR_front_stabilization_focus
+	}
+	cost = 1
+	x = 20
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_neither_of_them
+	prerequisite = {
+		focus = MDR_following_the_political_fashion
+	}
+	cost = 1
+	x = 19
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_only_we
+	prerequisite = {
+		focus = MDR_neither_of_them
+	}
+	cost = 1
+	x = 18
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_nationalize_aristocracy_property
+	prerequisite = {
+		focus = MDR_following_the_political_fashion
+	}
+	cost = 1
+	x = 21
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_buy_equipment
+	prerequisite = {
+		focus = MDR_nationalize_aristocracy_property
+	}
+	cost = 1
+	x = 22
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_green_guards
+	prerequisite = {
+		focus = MDR_following_the_political_fashion
+	}
+	cost = 1
+	x = 20
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_propaganda_focus
+	prerequisite = {
+		focus = MDR_only_we
+	}
+	prerequisite = {
+		focus = MDR_green_guards
+	}
+	cost = 1
+	x = 17
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_young_carabineers
+	prerequisite = {
+		focus = MDR_only_we
+	}
+	prerequisite = {
+		focus = MDR_green_guards
+	}
+	cost = 1
+	x = 19
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_into_the_black_market
+	prerequisite = {
+		focus = MDR_buy_equipment
+	}
+	prerequisite = {
+		focus = MDR_green_guards
+	}
+	cost = 1
+	x = 21
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_remove_trading_tax
+	prerequisite = {
+		focus = MDR_buy_equipment
+	}
+	prerequisite = {
+		focus = MDR_green_guards
+	}
+	cost = 1
+	x = 23
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_tremble_plutocrats
+	prerequisite = {
+		focus = MDR_propaganda_focus
+	}
+	prerequisite = {
+		focus = MDR_young_carabineers
+	}
+	prerequisite = {
+		focus = MDR_into_the_black_market
+	}
+	prerequisite = {
+		focus = MDR_remove_trading_tax
+	}
+	cost = 1
+	x = 19
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MDR_go_away_conservatives
+	prerequisite = {
+		focus = MDR_propaganda_focus
+	}
+	prerequisite = {
+		focus = MDR_young_carabineers
+	}
+	prerequisite = {
+		focus = MDR_into_the_black_market
+	}
+	prerequisite = {
+		focus = MDR_remove_trading_tax
+	}
+	cost = 1
+	x = 21
+	y = 8
+	completion_reward = {
+	}
+}

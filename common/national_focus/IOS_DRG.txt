@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 
 		modifier = {
-			add = 12
+			add = 13
 			original_tag = DRG
 		}
 	}
@@ -20,7 +20,7 @@ focus_tree = {
 		factor = 0
 
 		modifier = {
-			add = 12
+			add = 13
 			original_tag = DRG
 		}
 	}
@@ -43,7 +43,7 @@ focus_tree = {
 		factor = 0
 
 		modifier = {
-			add = 12
+			add = 13
 			original_tag = DRG
 		}
 	}
@@ -58,7 +58,7 @@ focus_tree = {
 		factor = 0
 
 		modifier = {
-			add = 12
+			add = 13
 			original_tag = DRG
 		}
 	}

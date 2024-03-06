@@ -1,0 +1,257 @@
+focus_tree = {
+	id = ADR_CW_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ADR
+		}
+	}
+	shared_focus = ADR_bring_order_to_the_capital
+
+	default = no
+	continuous_focus_position = { x = 2200 y = 800 }
+}
+
+focus_tree = {
+	id = ADR_CW_focus_tree_two
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ADR
+		}
+	}
+	shared_focus = ADR_bring_order_to_the_capital
+	shared_focus = ADR_realizing_the_trouble
+
+	default = no
+	continuous_focus_position = { x = 2800 y = 1400 }
+}
+
+### FIRST TREE
+
+shared_focus = {
+	id = ADR_bring_order_to_the_capital
+
+	cost = 1
+	x = 20
+	y = 0
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_appeal_to_aristocracy
+	prerequisite = {
+		focus = ADR_bring_order_to_the_capital
+	}
+	cost = 1
+	x = 19
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_point_to_tyrant
+	prerequisite = {
+		focus = ADR_bring_order_to_the_capital
+	}
+	cost = 1
+	x = 21
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_one_demand
+	prerequisite = {
+		focus = ADR_appeal_to_aristocracy
+	}
+	prerequisite = {
+		focus = ADR_point_to_tyrant
+	}
+	cost = 1
+	x = 18
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_Amberfort_storages
+	prerequisite = {
+		focus = ADR_appeal_to_aristocracy
+	}
+	prerequisite = {
+		focus = ADR_point_to_tyrant
+	}
+	cost = 1
+	x = 20
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_dont_obstruct_us
+	prerequisite = {
+		focus = ADR_appeal_to_aristocracy
+	}
+	prerequisite = {
+		focus = ADR_point_to_tyrant
+	}
+	cost = 1
+	x = 22
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_realizing_the_trouble
+
+	cost = 1
+	x = 20
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_recruitment_to_militia
+	prerequisite = {
+		focus = ADR_realizing_the_trouble
+	}
+	cost = 1
+	x = 18
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_call_the_knights
+	prerequisite = {
+		focus = ADR_realizing_the_trouble
+	}
+	cost = 1
+	x = 19
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_mobilization_of_aristans
+	prerequisite = {
+		focus = ADR_realizing_the_trouble
+	}
+	cost = 1
+	x = 20
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_small_reformation_focus
+	prerequisite = {
+		focus = ADR_realizing_the_trouble
+	}
+	mutually_exclusive = {
+		focus = ADR_prohibit_reformations
+	}
+	cost = 1
+	x = 21
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_prohibit_reformations
+	prerequisite = {
+		focus = ADR_realizing_the_trouble
+	}
+	mutually_exclusive = {
+		focus = ADR_small_reformation_focus
+	}
+	cost = 1
+	x = 23
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_relent_demands
+	prerequisite = {
+		focus = ADR_call_the_knights
+	}
+	prerequisite = {
+		focus = ADR_recruitment_to_militia
+	}
+	cost = 1
+	x = 19
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_foreign_weapons
+	prerequisite = {
+		focus = ADR_small_reformation_focus
+	}
+	cost = 1
+	x = 21
+	y = 6
+	completion_reward = {
+	}
+}
+
+
+shared_focus = {
+	id = ADR_mobilize_youth_aristans
+	prerequisite = {
+		focus = ADR_prohibit_reformations
+	}
+	cost = 1
+	x = 23
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_shame_of_capitulation
+	prerequisite = {
+		focus = ADR_foreign_weapons
+		focus = ADR_mobilize_youth_aristans
+	}
+	cost = 1
+	x = 22
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ADR_tyrancy_of_Ember
+	prerequisite = {
+		focus = ADR_relent_demands
+	}
+	prerequisite = {
+		focus = ADR_shame_of_capitulation
+	}
+	cost = 1
+	x = 20
+	y = 8
+	completion_reward = {
+	}
+}

@@ -1,0 +1,17 @@
+add_namespace = DRG_CW_base
+
+country_event = {
+	id = DRG_CW_base.1
+	title = DRG_CW_base.1.title
+	desc = DRG_CW_base.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = DRG_CW_base.1.a
+		hidden_effect = {
+        		load_focus_tree = DRG_CW_focus_tree_two
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
