@@ -213,6 +213,87 @@ country_event = {
 		}
 	}
 }
+
+
+### ОРУЖИЕ
+country_event = {
+	id = AOZ.14 #
+	title = AOZ.14.title
+	desc = AOZ.14.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.14.a
+
+	}
+}
+
+### ДИПЛОМАТИЈА
+country_event = {
+	id = AOZ.15 #
+	title = AOZ.15.title
+	desc = AOZ.15.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.15.a
+
+	}
+}
+country_event = {
+	id = AOZ.16 #
+	title = AOZ.16.title
+	desc = AOZ.16.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.16.a
+
+	}
+}
+country_event = {
+	id = AOZ.17 #
+	title = AOZ.16.title
+	desc = AOZ.16.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.16.a
+
+	}
+}
+
+### Экономика
+country_event = {
+	id = AOZ.18 #Нолог плоти
+	title = AOZ.18.title
+	desc = AOZ.18.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.18.a
+
+	}
+}
+country_event = {
+	id = AOZ.19 #Рэкэт плэтэ
+	title = AOZ.19.title
+	desc = AOZ.19.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.19.a
+
+	}
+}
+###
+
 country_event = {
 	id = AOZ.20 #Победа
 	title = AOZ.20.title
