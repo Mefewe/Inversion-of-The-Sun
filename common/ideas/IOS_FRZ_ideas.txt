@@ -1,10 +1,22 @@
 ideas = {
 	country = {
 		frz_dense_populism = {
+			modifier = {
+				political_power_factor = 0.2
+				army_core_defence_factor = 0.15
+			}
 		}
 		frz_heart_of_zebrica = {
+			modifier = {
+				local_resources_factor = 0.35
+				army_morale_factor = 0.15
+			}
 		}
 		frz_great_forests = {
+			modifier = {
+				local_resources_factor = 0.25
+				surrender_limit = 0.25
+			}
 		}
 	}
 }

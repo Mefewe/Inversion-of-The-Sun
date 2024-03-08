@@ -12,3 +12,15 @@ on_actions = {
 		}
 	}
 }
+on_actions = {
+	on_startup = {
+		effect = {
+			limit = {
+				tag = OZB
+			}
+			OZB = {
+				country_event = OZB_hidden.1
+			}
+		}
+	}
+}

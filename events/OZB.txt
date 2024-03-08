@@ -386,3 +386,18 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = OZB_hidden.1
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+
+		OZB = {
+			remove_state_core = 332
+			332 = {
+				start_resistance = yes
+			}
+		}
+	}
+}
