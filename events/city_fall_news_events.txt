@@ -1,0 +1,31 @@
+add_namespace = cityfall
+
+
+# The Fall of Dragmajr (common)
+news_event = {
+	id = cityfall.1
+	title = cityfall.1.t
+	desc = cityfall.1.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		906 = { NOT = {is_controlled_by = DRG} }
+		906 = { is_owned_by = DRG }
+		NOT = { has_global_flag = fall_of_dragmajr }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_dragmajr
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = cityfall.1.a
+
+	}
+}
