@@ -1,0 +1,26 @@
+focus_tree = {
+	id = MDR_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 13
+			original_tag = MDR
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 2200 y = 800 }
+}
+
+### FIRST FOCUS TREE
+
+#shared_focus = {
+#	id = DRG_lost_nation
+#	icon = GFX_focus_icon_DRG_lost_nation_icon_focus
+#	cost = 1
+#	x = 20
+#	y = 0
+#	completion_reward = { 
+#	}
+#}

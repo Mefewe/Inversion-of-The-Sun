@@ -1,4 +1,4 @@
-DRG = {
+MDR = {
     navy = {
         male = {
             "GFX_leader_dragon_unknown"

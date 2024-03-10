@@ -74,4 +74,106 @@ characters = {
 			id = -1
 		}
 	}
+	DRG_Fieldmarshal_Gezmayye = {
+		name = DRG_Fieldmarshal_Gezmayye
+		portraits = {
+			civilian = {
+				large = GFX_DRG_Fieldmarshal_Gezmayye_L
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DRG_Caesar = {
+		name = DRG_Caesar
+		portraits = {
+			civilian = {
+				large = GFX_DRG_Caesar_L
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DRG_Arvira = {
+		name = DRG_Arvira
+		portraits = {
+			civilian = {
+				large = GFX_DRG_Arvira_L
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	DRG_Dunar = {
+		name = DRG_Dunar
+		portraits = {
+			civilian = {
+				large = GFX_DRG_Dunar_L
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	DRG_Bukord_Honnor = {
+		name = DRG_Bukord_Honnor
+		portraits = {
+			civilian = {
+				large = GFX_DRG_Bukord_Honnor_L
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	DRG_Antaire = {
+		name = DRG_Antaire
+		portraits = {
+			civilian = {
+				large = GFX_DRG_Antaire_L
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
 }

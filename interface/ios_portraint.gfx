@@ -81,10 +81,6 @@ spriteTypes = {
         texturefile = gfx/leaders/FRZ/portrait_Virta.dds
     }
 	spriteType = {
-        name = GFX_DRG_Ember_L
-        texturefile = gfx/leaders/DRG/portrait_Ember.dds
-    }
-	spriteType = {
         name = GFX_OEF_Paper_Shelf_L
         texturefile = gfx/leaders/OEF/portrait_Paper_Shelf.dds
     }	
@@ -95,5 +91,53 @@ spriteTypes = {
 	spriteType = {
         name = GFX_STR_Erisayr_L
         texturefile = gfx/leaders/STR/portrait_Erisayr.dds
+    }
+	
+	### DRG leaders ###
+	
+	spriteType = {
+        name = GFX_DRG_Ember_L
+        texturefile = gfx/leaders/DRG/portrait_Ember.dds
+    }
+	
+	### DRG generals ###
+	
+	spriteType = {
+        name = GFX_DRG_Fieldmarshal_Gezmayye_L
+        texturefile = gfx/leaders/DRG/portrait_Fieldmarshal_Gezmayye.dds
+    }	
+	spriteType = {
+        name = GFX_DRG_Caesar_L
+        texturefile = gfx/leaders/DRG/portrait_Caesar.dds
+    }	
+	spriteType = {
+        name = GFX_DRG_Arvira_L
+        texturefile = gfx/leaders/DRG/portrait_Arvira.dds
+    }	
+	spriteType = {
+        name = GFX_DRG_Dunar_L
+        texturefile = gfx/leaders/DRG/portrait_Dunar.dds
+    }	
+	spriteType = {
+        name = GFX_DRG_Bukord_Honnor_L
+        texturefile = gfx/leaders/DRG/portrait_Bukord_Honnor.dds
+    }	
+	spriteType = {
+        name = GFX_DRG_Antaire_L
+        texturefile = gfx/leaders/DRG/portrait_Antaire.dds
+    }
+
+	### MDR generals ###
+	
+	spriteType = {
+        name = GFX_MDR_Kariana_Mild_L
+        texturefile = gfx/leaders/MDR/portrait_Kariana_Mild.dds
+    }
+	
+	### Unknown leaders ###
+	
+	spriteType = {
+        name = GFX_leader_dragon_unknown
+        texturefile = gfx/leaders/leader_dragon_unknown.dds
     }
 }

@@ -87,8 +87,6 @@ shared_focus = {
 	id = MDR_following_the_political_fashion
 	prerequisite = {
 		focus = MDR_attack_focus
-	}
-	prerequisite = {
 		focus = MDR_front_stabilization_focus
 	}
 	cost = 1

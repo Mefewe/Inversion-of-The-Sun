@@ -1,0 +1,26 @@
+ADR_Situation_getting_worse = {
+	ADR_Civil_war_continues = {
+		activation = {
+			tag = ADR
+			has_global_flag = DRG_CivilWar
+		}
+		visible = {
+			tag = ADR 
+		}
+		available = {
+			has_war = no
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		days_mission_timeout = 75
+		complete_effect = {
+		}
+		timeout_effect = {
+			hidden_effect = {
+        			load_focus_tree = ADR_CW_focus_tree_two
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+}

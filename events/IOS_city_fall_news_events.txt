@@ -1,0 +1,182 @@
+add_namespace = cityfall
+
+
+# The Fall of Dragmajr (common)
+news_event = {
+	id = cityfall.1
+	title = cityfall.1.t
+	desc = cityfall.1.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		906 = { NOT = {is_controlled_by = DRG} }
+		906 = { is_owned_by = DRG }
+		NOT = { has_global_flag = fall_of_dragmajr }
+		NOT = { DRG = { has_capitulated = yes } }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_dragmajr
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = cityfall.1.a
+
+	}
+}
+
+# The Fall of Torchvallen (common)
+news_event = {
+	id = cityfall.2
+	title = cityfall.2.t
+	desc = cityfall.2.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		32 = { NOT = {is_controlled_by = MDR} }
+		32 = { is_owned_by = MDR }
+		NOT = { has_global_flag = fall_of_torchvallen }
+		NOT = { MDR = { has_capitulated = yes } }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_torchvallen
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = cityfall.2.a
+
+	}
+}
+
+# The Fall of Dragonclaw (common)
+news_event = {
+	id = cityfall.3
+	title = cityfall.3.t
+	desc = cityfall.3.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		905 = { NOT = {is_controlled_by = MDR} }
+		905 = { is_owned_by = MDR }
+		NOT = { has_global_flag = fall_of_dragonclaw }
+		NOT = { MDR = { has_capitulated = yes } }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_dragonclaw
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = cityfall.3.a
+
+	}
+}
+
+# The Fall of Amberfort (common)
+news_event = {
+	id = cityfall.4
+	title = cityfall.4.t
+	desc = cityfall.4.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		816 = { NOT = {is_controlled_by = ADR} }
+		816 = { is_owned_by = ADR }
+		NOT = { has_global_flag = fall_of_amberfort }
+		NOT = { ADR = { has_capitulated = yes } }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_amberfort
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = cityfall.4.a
+
+	}
+}
+
+# The Fall of Dragvire (common)
+news_event = {
+	id = cityfall.5
+	title = cityfall.5.t
+	desc = cityfall.5.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		371 = { NOT = {is_controlled_by = ADR} }
+		371 = { is_owned_by = ADR }
+		NOT = { has_global_flag = fall_of_dragvire }
+		NOT = { ADR = { has_capitulated = yes } }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_dragvire
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = cityfall.5.a
+
+	}
+}
+
+# The Fall of Dekh (common)
+news_event = {
+	id = cityfall.6
+	title = cityfall.6.t
+	desc = cityfall.6.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		821 = { NOT = {is_controlled_by = DRG} }
+		821 = { is_owned_by = DRG }
+		NOT = { has_global_flag = fall_of_dekh }
+		NOT = { DRG = { has_capitulated = yes } }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_dekh
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = cityfall.6.a
+
+	}
+}

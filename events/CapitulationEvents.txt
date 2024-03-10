@@ -79,6 +79,7 @@ news_event = {
 
 	option = {
 		name = CapNews.5.a
+		set_global_flag = DRG_has_fallen
 	}
 }
 
@@ -92,6 +93,7 @@ news_event = {
 
 	option = {
 		name = CapNews.6.a
+		set_global_flag = ADR_has_fallen
 	}
 }
 
@@ -105,5 +107,6 @@ news_event = {
 
 	option = {
 		name = CapNews.7.a
+		set_global_flag = MDR_has_fallen
 	}
 }

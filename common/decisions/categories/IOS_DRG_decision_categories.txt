@@ -16,3 +16,14 @@ DRG_blacksmith_decisions = {
 	}
 	priority = 20
 }
+
+DRG_Situation_getting_worse = {
+	icon = generic_research
+	available = {
+		tag = DRG
+	}
+	visible = {
+		tag = DRG
+	}
+	priority = 20
+}

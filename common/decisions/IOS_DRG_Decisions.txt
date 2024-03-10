@@ -33,3 +33,27 @@ DRG_blacksmith_decisions = {
 		}
 	}
 }
+
+DRG_Situation_getting_worse = {
+	DRG_Civil_war_continues = {
+		activation = {
+			tag = DRG
+			has_global_flag = DRG_CivilWar
+		}
+		available = {
+			has_war = no
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		days_mission_timeout = 75
+		complete_effect = {
+		}
+		timeout_effect = {
+			hidden_effect = {
+        			load_focus_tree = DRG_CW_focus_tree_two
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+}

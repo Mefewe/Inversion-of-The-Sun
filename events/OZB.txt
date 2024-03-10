@@ -395,7 +395,31 @@ country_event = {
 
 		OZB = {
 			remove_state_core = 332
+			remove_state_core = 617
+			remove_state_core = 630
+			remove_state_core = 904
+			remove_state_core = 762
+			remove_state_core = 216
+			remove_state_core = 398
 			332 = {
+				start_resistance = yes
+			}
+			617 = {
+				start_resistance = yes
+			}
+			630 = {
+				start_resistance = yes
+			}
+			904 = {
+				start_resistance = yes
+			}
+			762 = {
+				start_resistance = yes
+			}
+			216 = {
+				start_resistance = yes
+			}
+			398 = {
 				start_resistance = yes
 			}
 		}

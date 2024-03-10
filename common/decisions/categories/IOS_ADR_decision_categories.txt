@@ -1,0 +1,10 @@
+ADR_Situation_getting_worse = {
+	icon = generic_research
+	available = {
+		tag = ADR
+	}
+	visible = {
+		tag = ADR
+	}
+	priority = 20
+}
