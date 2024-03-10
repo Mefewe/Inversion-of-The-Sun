@@ -91,6 +91,17 @@ leader_traits = {
 		
 	}
 	
+
+	sakkiz_diviziy = { 
+		type = land
+		trait_type = personality_trait
+		corps_commander_modifier = {			
+			max_commander_army_size = 8
+		}
+		allowed = {
+			always = no
+		}				
+	}
 	
 	inflexible_strategist = { 
 		type = land

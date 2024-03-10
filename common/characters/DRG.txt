@@ -116,7 +116,7 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={  }
+			traits={ soqqiz_diviziy }
 			skill=3
 			attack_skill=3
 			defense_skill=1
