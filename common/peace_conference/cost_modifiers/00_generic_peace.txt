@@ -71,9 +71,12 @@ peace_action_modifiers = {
         peace_action_type = { take_states puppet liberate force_government }
 
         enable = {
-            FROM.FROM.FROM = { is_controlled_by = ROOT }
+            FROM.FROM.FROM = { 
+				is_controlled_by = ROOT 
+				compliance > 0 #To prevent capitulation-occupation kicking in
+			}
         }
-        cost_multiplier = 0.95
+        cost_multiplier = 0.80
     }
 
 
@@ -269,6 +272,18 @@ peace_action_modifiers = {
 
         cost_multiplier = 1.05
     }
+
+
+    dormant_national_identity = {
+        peace_action_type = liberate
+        enable = {
+            FROM = {
+                is_unlikely_country_tag = yes
+            }
+        }
+        cost_multiplier = 1.25
+    }
+
 
     war_of_independence = {
         category = other
