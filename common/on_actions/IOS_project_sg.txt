@@ -402,13 +402,7 @@ on_actions = {
 					clr_country_flag = DT6
 					}
 				}
-			
-		}
-	}
-}
-on_actions = {
-	on_daily ={
-		effect= {
+				#####################
 				if = {
 					limit = {
 						has_variable = tank_eq_coef

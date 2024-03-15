@@ -2,37 +2,37 @@ defined_text = {
 	name = GETAMMOARTILLERYTEXTURE
 	text = {
 		trigger = {
-			has_country_flag = DA6
+			has_idea = ammo_art_idea6
 		}
 		localization_key = "GFX_ammo_t7"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DA5
+			has_idea = ammo_art_idea5
 		}
 		localization_key = "GFX_ammo_t6"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DA4
+			has_idea = ammo_art_idea4
 		}
 		localization_key = "GFX_ammo_t5"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DA3
+			has_idea = ammo_art_idea3
 		}
 		localization_key = "GFX_ammo_t4"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DA2
+			has_idea = ammo_art_idea2
 		}
 		localization_key = "GFX_ammo_t3"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DA1
+			has_idea = ammo_art_idea1
 		}
 		localization_key = "GFX_ammo_t2"
 	}
@@ -40,7 +40,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				NOT = {
-					has_country_flag = DA1
+					has_idea = ammo_art_idea1
 				}
 			}
 		}
@@ -51,37 +51,37 @@ defined_text = {
 	name = GETAMMOINFTEXTURE
 	text = {
 		trigger = {
-			has_country_flag = DI6
+			has_idea = ammo_inf_idea6
 		}
 		localization_key = "GFX_ammo_p7"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DI5
+			has_idea = ammo_inf_idea5
 		}
 		localization_key = "GFX_ammo_p6"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DI4
+			has_idea = ammo_inf_idea4
 		}
 		localization_key = "GFX_ammo_p5"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DI3
+			has_idea = ammo_inf_idea3
 		}
 		localization_key = "GFX_ammo_p4"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DI2
+			has_idea = ammo_inf_idea2
 		}
 		localization_key = "GFX_ammo_p3"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DI1
+			has_idea = ammo_inf_idea1
 		}
 		localization_key = "GFX_ammo_p2"
 	}
@@ -89,7 +89,7 @@ defined_text = {
 		trigger = {
 			OR ={
 				NOT = {
-					has_country_flag = DI1
+					has_idea = ammo_inf_idea1
 				}
 			}
 		}		
@@ -100,37 +100,37 @@ defined_text = {
 	name = GETAMMOTANKTEXTURE
 	text = {
 		trigger = {
-			has_country_flag = DT6
+			has_idea = ammo_tank_idea6
 		}
 		localization_key = "GFX_ammo_a7"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DT5
+			has_idea = ammo_tank_idea5
 		}
 		localization_key = "GFX_ammo_a6"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DT4
+			has_idea = ammo_tank_idea4
 		}
 		localization_key = "GFX_ammo_a5"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DT3
+			has_idea = ammo_tank_idea3
 		}
 		localization_key = "GFX_ammo_a4"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DT2
+			has_idea = ammo_tank_idea2
 		}
 		localization_key = "GFX_ammo_a3"
 	}
 	text = {
 		trigger = {
-			has_country_flag = DT1
+			has_idea = ammo_tank_idea1
 		}
 		localization_key = "GFX_ammo_a2"
 	}
@@ -138,7 +138,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				NOT = {
-					has_country_flag = DT1
+					has_idea = ammo_tank_idea1
 				}
 			}
 		}
