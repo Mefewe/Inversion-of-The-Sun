@@ -651,7 +651,6 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			#SpriteType ="GFX_technology_info_bg"
 			SpriteType = "GFX_tiled_window_thin_border2"
 		}
 		
@@ -726,16 +725,17 @@ guiTypes = {
 			}
 			
 		}
-		instantTextboxType = {
+		instantTextBoxType = {
 			name = "desc"
-			position = { x = 34 y = 250 }
+			position = { x = 37 y = 230 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
-			maxWidth = 485
-			maxHeight = 70
+			maxWidth = 476
+			maxHeight = 425
 			format = center
+			scrollbarType = standardtext_slider
 		}
 
 		iconType = {

@@ -79,6 +79,9 @@ TAI_civil_war_1 = {
 		available = {
 			always = no
 		}
+		visible = {
+			has_country_flag = TAI_CW_START_1
+		}
 		cancel_trigger = {
 			always = no
 		}
