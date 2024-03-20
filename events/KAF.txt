@@ -34,3 +34,18 @@ country_event = {
 		load_oob = KAF
 	}
 }
+country_event = {
+	id = KAF.4 #на север
+	title = KAF.4.title
+	desc = KAF.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = KAF.4.a
+		957 = {
+			transfer_state_to = KAF
+			add_core_of = KAF
+		}
+	}
+}

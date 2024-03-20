@@ -304,5 +304,117 @@ country_event = {
 	option = {
 		name = AOZ.20.a
 		add_stability = 0.1
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = {flag = CIV_AOZ value > 0}
+				}
+				country_event = {id = AOZ.50 days = 7}
+			}
+			else = {
+				country_event = {id = AOZ.100 days = 7}
+			}
+		}
+	}
+}
+
+###### Ветка крутая
+country_event = {
+	id = AOZ.50 #В офисе
+	title = AOZ.50.title
+	desc = AOZ.50.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.50.a
+		add_stability = 0.1
+	}
+}
+country_event = {
+	id = AOZ.51 #Общественные работы
+	title = AOZ.51.title
+	desc = AOZ.51.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.51.a
+		758 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+		965 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = AOZ.52 #Горы
+	title = AOZ.52.title
+	desc = AOZ.52.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.52.a
+		665 = {
+			transfer_state_to = AOZ
+			add_core_of = AOZ
+		}
+		959 = {
+			transfer_state_to = AOZ
+			add_core_of = AOZ
+		}
+		958 = {
+			transfer_state_to = AOZ
+			add_core_of = AOZ
+		}
+	}
+}
+country_event = {
+	id = AOZ.53 #экономика
+	title = AOZ.53.title
+	desc = AOZ.53.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.53.a
+		add_stability = 0.1
+	}
+	option = {
+		name = AOZ.53.b
+		give_resource_rights = {
+			state = 665
+			resources = {
+				tungsten
+			}
+			receiver = OEF
+		}
+		add_political_power = -50
+		add_stability = 0.15
+	}
+}
+
+
+
+###### Ветка милитаристического ополчения
+country_event = {
+	id = AOZ.100 #На полях
+	title = AOZ.100.title
+	desc = AOZ.100.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.100.a
+		add_stability = 0.1
+
 	}
 }

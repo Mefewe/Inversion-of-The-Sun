@@ -49,10 +49,22 @@ shared_focus = {
 		focus = KAF_vserabocheje_sobranije
 	}
 	id = KAF_mobilizacija
-	cost = 2
+	cost = 4
 	x = 12
 	y = 3
 	completion_reward = {
 		country_event = KAF.3
+	}
+}
+shared_focus = {
+	prerequisite = {
+		focus = KAF_mobilizacija
+	}
+	id = KAF_na_sever
+	cost = 4
+	x = 12
+	y = 4
+	completion_reward = {
+		country_event = KAF.4
 	}
 }
