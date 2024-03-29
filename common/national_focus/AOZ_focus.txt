@@ -562,3 +562,225 @@ shared_focus = { #
 		country_event = AOZ.53
 	}
 }
+
+shared_focus = { #
+	id = AOZ_novij_klass
+	prerequisite = {
+		focus = AOZ_promkompleksi
+	}
+	cost = 4
+	x = 6
+	y = 14
+	completion_reward = { 
+		country_event = AOZ.55
+	}
+}
+
+shared_focus = { #
+	id = AOZ_grjadki
+	prerequisite = {
+		focus = AOZ_agrarii
+	}
+	cost = 4
+	x = 2
+	y = 14
+	completion_reward = { 
+		country_event = AOZ.54
+	}
+}
+
+shared_focus = { #
+	id = AOZ_chirutskoje_pozorishe
+	prerequisite = {
+		focus = AOZ_grjadki
+		focus = AOZ_novij_klass
+	}
+	cost = 4
+	x = 4
+	y = 15
+	completion_reward = { 
+		country_event = AOZ.60
+	}
+}
+
+shared_focus = { #
+	id = AOZ_sformirovatj_chirutskuju_brigadu
+	prerequisite = {
+		focus = AOZ_chirutskoje_pozorishe
+	}
+	cost = 4
+	x = 4
+	y = 16
+	completion_reward = { 
+		
+	}
+}
+
+shared_focus = { #
+	id = AOZ_v_boj
+	prerequisite = {
+		focus = AOZ_sformirovatj_chirutskuju_brigadu
+	}
+	cost = 4
+	x = 4
+	y = 17
+	completion_reward = { 
+		declare_war_on = {
+			target = KAF
+			type = annex_everything
+		}
+	}
+}
+
+shared_focus = { #
+	id = AOZ_integracija
+	prerequisite = {
+		focus = AOZ_v_boj
+	}
+	available = {
+		owns_state = 779
+		KAF = {
+			exists = no
+		}
+	}
+	cost = 4
+	x = 4
+	y = 18
+	completion_reward = { 
+		country_event = AOZ.60
+	}
+}
+
+#
+shared_focus = { #
+	id = AOZ_peregovory_veka
+	prerequisite = {
+		focus = AOZ_integracija
+	}
+	cost = 4
+	x = 6
+	y = 19
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_ih_snarjady
+	prerequisite = {
+		focus = AOZ_peregovory_veka
+	}
+	cost = 4
+	x = 6
+	y = 20
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_ih_avto
+	prerequisite = {
+		focus = AOZ_peregovory_veka
+	}
+	cost = 4
+	x = 8
+	y = 20
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_ih_avtomaty
+	prerequisite = {
+		focus = AOZ_peregovory_veka
+	}
+	cost = 4
+	x = 10
+	y = 20
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_nashi_zebry
+	prerequisite = {
+		focus = AOZ_ih_snarjady
+	}
+	prerequisite = {
+		focus = AOZ_ih_avto
+	}
+	prerequisite = {
+		focus = AOZ_ih_avtomaty
+	}
+	cost = 4
+	x = 8
+	y = 21
+	completion_reward = { 
+		
+	}
+}
+#
+shared_focus = { #
+	id = AOZ_adekvatizacija
+	prerequisite = {
+		focus = AOZ_integracija
+	}
+	cost = 4
+	x = 2
+	y = 19
+	completion_reward = { 
+		
+	}
+}
+
+shared_focus = { #
+	id = AOZ_nam_nyzhen_uchet
+	prerequisite = {
+		focus = AOZ_adekvatizacija
+	}
+	cost = 4
+	x = 2
+	y = 20
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_nam_nuzhny_ukreplenija
+	prerequisite = {
+		focus = AOZ_nam_nyzhen_uchet
+	}
+	cost = 4
+	x = 2
+	y = 21
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_nam_nuzhny_novije_brigady
+	prerequisite = {
+		focus = AOZ_nam_nuzhny_ukreplenija
+	}
+	cost = 4
+	x = 2
+	y = 22
+	completion_reward = { 
+		
+	}
+}
+
+shared_focus = { #
+	id = AOZ_velikij_kongress_vystupajet
+	prerequisite = {
+		focus = AOZ_nashi_zebry
+	}
+	prerequisite = {
+		focus = AOZ_nam_nuzhny_novije_brigady
+	}
+	cost = 4
+	x = 4
+	y = 24
+	completion_reward = { 
+		
+	}
+}

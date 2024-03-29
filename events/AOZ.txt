@@ -403,6 +403,50 @@ country_event = {
 }
 
 
+country_event = {
+	id = AOZ.54 #Много еды
+	title = AOZ.54.title
+	desc = AOZ.54.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.54.a
+		add_ideas = s_polja_v_armiju
+	}
+}
+
+country_event = {
+	id = AOZ.55 #Много еды и ещё станки всякие
+	title = AOZ.55.title
+	desc = AOZ.55.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.55.a
+		add_ideas = rabochije_na_fronte
+	}
+	option = {
+		name = AOZ.55.b
+		add_ideas = zarozhdajushijsja_klass
+	}
+}
+
+
+
+country_event = {
+	id = AOZ.60 #Взгляд на Чируту
+	title = AOZ.60.title
+	desc = AOZ.60.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.60.a
+	}
+}
+
 
 ###### Ветка милитаристического ополчения
 country_event = {
