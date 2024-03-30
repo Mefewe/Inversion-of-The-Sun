@@ -612,7 +612,7 @@ shared_focus = { #
 	x = 4
 	y = 16
 	completion_reward = { 
-		
+		load_oob = AOZ_chiruta
 	}
 }
 
@@ -621,7 +621,7 @@ shared_focus = { #
 	prerequisite = {
 		focus = AOZ_sformirovatj_chirutskuju_brigadu
 	}
-	cost = 4
+	cost = 1
 	x = 4
 	y = 17
 	completion_reward = { 

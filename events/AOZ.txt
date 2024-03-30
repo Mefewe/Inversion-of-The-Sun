@@ -447,6 +447,51 @@ country_event = {
 	}
 }
 
+# 70-80 ивенты про иностранную помощь новую
+country_event = {
+	id = AOZ.70 #Мировая помощь
+	title = AOZ.70.title
+	desc = AOZ.70.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.70.a
+	}
+}
+country_event = {
+	id = AOZ.71 #Раунд: Артиллерия
+	title = AOZ.71.title
+	desc = AOZ.71.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.71.a
+	}
+}
+country_event = {
+	id = AOZ.72 #Раунд: Автомобили
+	title = AOZ.72.title
+	desc = AOZ.72.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.72.a
+	}
+}
+country_event = {
+	id = AOZ.73 #Раунд: Стрелковка
+	title = AOZ.73.title
+	desc = AOZ.73.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.73.a
+	}
+}
 
 ###### Ветка милитаристического ополчения
 country_event = {

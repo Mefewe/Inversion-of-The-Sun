@@ -1,0 +1,23 @@
+division_template = {
+	name = "SSO CHIRUTA"
+	regiments = {
+			guard = { x = 0 y = 0 }
+			guard = { x = 1 y = 0 }
+			guard = { x = 0 y = 1 }
+			guard = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	is_locked = yes
+}
+units = {
+	division = {
+		name = "Ikki SSO Brigade"
+		location = 7492
+		division_template = "SSO CHIRUTA"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+}
