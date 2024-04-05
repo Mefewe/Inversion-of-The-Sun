@@ -493,6 +493,18 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = AOZ.74 #Наши зебры
+	title = AOZ.74.title
+	desc = AOZ.74.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.74.a
+	}
+}
+
 ###### Ветка милитаристического ополчения
 country_event = {
 	id = AOZ.100 #На полях
