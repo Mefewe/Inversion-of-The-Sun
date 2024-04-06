@@ -1,0 +1,321 @@
+ideas = {
+	weapon_legalization = {
+		law = yes
+		use_list_view = yes
+
+		no_weapon_control = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		weapon_rights_forbidden = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		light_weapon_rights = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		full_weapon_legalization = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	drugs_legalization = {
+		law = yes
+		use_list_view = yes
+
+		no_drug_control = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		drugs_forbidden = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		light_drugs_permissions = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		full_drugs_legalization = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	minorities_rights = {
+		law = yes
+		use_list_view = yes
+
+		non_controlled_minorities_rights = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		minorities_discrimination = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		intolerance_to_minorities = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		guranteed_minorities_rights = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		positive_discrimination = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	civ_privileges = {
+		law = yes
+		use_list_view = yes
+
+		estate_system = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		nominal_equality = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		guranteed_equality = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	religious_policy = {
+		law = yes
+		use_list_view = yes
+
+		religious_state = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		secularism = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		state_atheism = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	state_agenda = {
+		law = yes
+		use_list_view = yes
+
+		uncontrolled_culture = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		traditionalism = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		mixed_state_agenda = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		progressive_agenda = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}
+
+

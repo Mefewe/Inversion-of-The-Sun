@@ -61,6 +61,10 @@
  DRG_Basalt_Hall_n2: "Базальтовый Зал"
  DRG_Basalt_Hall_n2_desc: ""
  
+ ### TRAITS
+ 
+ unshakeable_reformer: "Непоколебимый реформатор"
+ 
  ################
  ### GENERALS ###
  ################
@@ -84,6 +88,14 @@
  drg_Ember_authority_desc: ""
  drg_military_veto: "Воинское вето"
  drg_military_veto_desc: ""
+ drg_mitigation_for_competent: "Смягчения для образованных"
+ drg_mitigation_for_competent_desc: ""
+ drg_competitions_of_the_strongest: "Традиционные соревнования"
+ drg_competitions_of_the_strongest_desc: ""
+ 
+ drg_public_calms_down: "Драконий уклад не меняется"
+ drg_pony_financial_support: "Подарки от наших друзей"
+ drg_clan_leaders_loyalty: "Клятва верности"
  
  #################
  ### DECISIONS ###
@@ -93,6 +105,8 @@
  drg_build_forge: "Строительство военной кузницы"
  DRG_Situation_getting_worse: "Обострение кризиса"
  DRG_Civil_war_continues: "Кровопролитие всё не прекращается..."
+ DRG_Building_Tab: "Строительство"
+ DRG_FortBuilding: "Расширение укреплений основной границы"
 
  ######################
  ### NATIONAL_FOCUS ###
@@ -110,6 +124,7 @@
  DRG_embers_ideas_desc: ""
  DRG_send_troops_to_castles: "Направить новых салаг"
  DRG_send_troops_to_castles_desc: ""
+ drg_send_troops_to_castles_tt: "У нашей границы будет сформировано §Y2 отряда§W пограничной службы."
  DRG_all_seems_normal: "Как ни в чём не бывало"
  DRG_all_seems_normal_desc: ""
  DRG_smart_dragons: "Самые мозговитые из нас"
@@ -225,6 +240,10 @@
  DRG_base.12.desc: "Здесь описывается захват самых передовых городов Драконии. Студенты и радикалы из прогрессивистских кружков с оружием в руках берут главные здания и провозглошают Республику."
  DRG_base.12.a: "Горячие головы, безумцы!."
  DRG_base.12.b: "Из пепелища - в будущее!"
+ DRG_base.13.title: "Чуть ли не на краю мира"
+ DRG_base.14.title: "Всё по-прежнему"
+ DRG_base.15.title: "Пора меняться"
+ DRG_base.16.title: "Не укрепить ли нам границу?"
  
  govno_tt: "Говно: [?govno|R]§W\nСтатикГовно: [?StaticGovno|R]§W\n"
  build_forge_tt: "Будет построено одно §Yкузнечное здание§W."

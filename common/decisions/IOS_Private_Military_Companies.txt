@@ -1,0 +1,11 @@
+PMC_Policy = {
+	PMC_Test = {
+
+		available = {
+			always = no
+		}
+
+		complete_effect = {
+		}
+	}
+}

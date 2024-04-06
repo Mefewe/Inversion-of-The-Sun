@@ -63,6 +63,27 @@ DRG_debug_decisions = {
 			complete_national_focus = DRG_protect_the_throne
 		}
 	}
+	debug_drg_load_tree_2 = {		
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+			tag = DRG
+		}
+	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = DRG_focus_tree_two
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
 	debug_drg_load_tree_CW_1 = {		
 		icon = generic_research
 

@@ -13,8 +13,8 @@ ideas = {
 		drg_no_science_and_industry = {
 			modifier = {
 				hidden_modifier = {
-					research_speed_factor = -10
-					production_speed_buildings_factor = -10	
+					research_speed_factor = -30
+					production_speed_buildings_factor = -30	
 					global_building_slots_factor = -0.9
 				}
 				custom_modifier_tooltip = drg_no_science_and_industry_tt
@@ -42,12 +42,55 @@ ideas = {
 		drg_military_veto = {
 			modifier = {
 				custom_modifier_tooltip = drg_military_veto_tt
+				conscription_factor = -0.9
+				training_time_factor = 0.75
 			}
 			on_add = {
 				country_lock_all_division_template = yes
 			} 
 			on_remove = {
 				country_lock_all_division_template = no
+			}
+		}
+		drg_mitigation_for_competent = {
+			modifier = {
+				conscription_factor = -0.025
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.3
+				stability_factor = -0.1
+			}
+		}
+		drg_competitions_of_the_strongest = {
+			modifier = {
+				conscription_factor = 0.04
+				stability_factor = 0.05
+				experience_gain_army_factor = 0.075
+				supply_consumption_factor = -0.05
+				breakthrough_factor = 0.045
+			}
+		}
+	}
+}
+
+ideas = {
+	hidden_ideas = {
+		drg_pony_financial_support = {
+			modifier = {
+				political_power_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_max_efficiency_factor = 0.5
+			}
+		}
+		drg_clan_leaders_loyalty = {
+			modifier = {
+				stability_factor = 0.25
+				conscription_factor = 0.15
+				training_time_factor = -0.5
+			}
+		}
+		drg_public_calms_down = {
+			modifier = {
+				stability_weekly = 0.02
 			}
 		}
 	}

@@ -21,6 +21,12 @@ on_actions = {
 			OZB = {
 				country_event = OZB_hidden.1
 			}
+			limit = {
+				tag = DRG
+			}
+			OZB = {
+				country_event = DRG_hidden.1
+			}
 		}
 	}
 }

@@ -17,6 +17,25 @@ DRG_blacksmith_decisions = {
 	priority = 20
 }
 
+DRG_Army_Upgrade_Tab = {
+	icon = generic_research
+	available = {
+		OR = {
+			tag = DRG
+			tag = ADR
+			tag = MDR
+		}
+	}
+	visible = {
+		OR = {
+			tag = DRG
+			tag = ADR
+			tag = MDR
+		}
+	}
+	priority = 20
+}
+
 DRG_Situation_getting_worse = {
 	icon = generic_research
 	available = {
@@ -25,5 +44,10 @@ DRG_Situation_getting_worse = {
 	visible = {
 		tag = DRG
 	}
+	priority = 20
+}
+
+DRG_Building_Tab = {
+	icon = generic_research
 	priority = 20
 }

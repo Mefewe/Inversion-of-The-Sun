@@ -1,0 +1,242 @@
+ideas = {
+	min_payment_laws = {
+		law = yes
+		use_list_view = yes
+
+		no_guranteed_min_payment = {
+
+			cost = 150
+			removal_cost = 1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		unstable_min_payment = {
+
+			cost = 150
+			removal_cost = 1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		stable_min_payment = {
+
+			cost = 150
+			removal_cost = 1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		not_bad_min_payment = {
+
+			cost = 150
+			removal_cost = 1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	work_hours_laws = {
+		law = yes
+		use_list_view = yes
+
+		non_control_work_hours = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		16_work_hours = {
+
+			cost = 150
+			removal_cost = -1
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		12_work_hours = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		8_hours = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		6_hours = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	slavery_laws = {
+		law = yes
+		use_list_view = yes
+
+		no_slavery_control = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		institutional_slavery = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corporate_slavery = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		full_slavery_ban = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	labour_safety = {
+		law = yes
+		use_list_view = yes
+
+		no_safety_control= {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		nominal_safety_laws = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		guranteed_safety_laws = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

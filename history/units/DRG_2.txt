@@ -1,0 +1,42 @@
+units = {
+        division = {
+                name = "1. Reformed FSaO Infantry Division"
+		location = 3159
+		division_template = "Reformed Infantry Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Reformed FSaO Infantry Division"
+		location = 7714
+		division_template = "Reformed Infantry Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Reformed FSaO Infantry Division"
+		location = 7724
+		division_template = "Reformed Infantry Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "1. FSaO Dragon Militia"
+		location = 1602
+		division_template = "Dragon Group"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. FSaO Dragon Militia"
+		location = 1602
+		division_template = "Dragon Group"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

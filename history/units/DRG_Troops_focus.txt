@@ -1,0 +1,38 @@
+division_template = {
+        name = "Borderline Dragons Group"
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+        regiments = {
+                oldinf = { x = 0 y = 0 }
+                oldinf = { x = 0 y = 1 }
+                oldinf = { x = 0 y = 2 }
+        }
+}
+
+units = {
+        division = {
+                name = "1. Borderline Dragons Group"
+		location = 4899
+		division_template = "Borderline Dragons Group"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Borderline Dragons Group"
+		location = 4899
+		division_template = "Borderline Dragons Group"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Borderline Dragons Group"
+		location = 8073
+		division_template = "Borderline Dragons Group"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

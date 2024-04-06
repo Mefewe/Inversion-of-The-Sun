@@ -39,6 +39,8 @@ shared_focus = {
 	x = 20
 	y = 0
 	completion_reward = {
+	# + стабильность
+	# + политка
 	}
 }
 
@@ -51,6 +53,9 @@ shared_focus = {
 	x = 19
 	y = 1
 	completion_reward = {
+	# - популярность патернализма
+	# - стабильность
+	# + политка
 	}
 }
 
@@ -63,6 +68,8 @@ shared_focus = {
 	x = 21
 	y = 1
 	completion_reward = {
+	# + политка
+	# + стабильность
 	}
 }
 
@@ -78,6 +85,11 @@ shared_focus = {
 	x = 20
 	y = 2
 	completion_reward = {
+	# + рекруты
+	# + 5 юнитсов
+		DRG = {
+			load_oob = "DRG_2"
+		}
 	}
 }
 
@@ -90,6 +102,7 @@ shared_focus = {
 	x = 18
 	y = 3
 	completion_reward = {
+	# + политка
 	}
 }
 
@@ -102,6 +115,7 @@ shared_focus = {
 	x = 22
 	y = 3
 	completion_reward = {
+	# + политка
 	}
 }
 
@@ -114,6 +128,7 @@ shared_focus = {
 	x = 20
 	y = 4
 	completion_reward = {
+	# + политка
 	}
 }
 

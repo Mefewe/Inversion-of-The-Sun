@@ -176,4 +176,76 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	DRG_Minister1 = {
+		name = DRG_Minister1
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_Minister1
+			allowed  = {
+				original_tag  = DRG
+			}
+			traits  = {
+			}
+		}
+	}
+	DRG_Minister2 = {
+		name = DRG_Minister2
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_Minister2
+			allowed  = {
+				original_tag  = DRG
+			}
+			traits  = {
+			}
+		}
+	}
+	DRG_Minister3 = {
+		name = DRG_Minister3
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_Minister3
+			allowed  = {
+				original_tag  = DRG
+			}
+			traits  = {
+			}
+		}
+	}
+	DRG_Minister4 = {
+		name = DRG_Minister4
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_Minister4
+			allowed  = {
+				original_tag  = DRG
+			}
+			traits  = {
+			}
+		}
+	}
+	DRG_Minister5 = {
+		name = DRG_Minister5
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_Minister5
+			allowed  = {
+				original_tag  = DRG
+			}
+			traits  = {
+			}
+		}
+	}
+	DRG_Minister6 = {
+		name = DRG_Minister6
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_Minister6
+			allowed  = {
+				original_tag  = DRG
+			}
+			traits  = {
+			}
+		}
+	}
 }

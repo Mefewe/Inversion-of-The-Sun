@@ -544,6 +544,151 @@ ideas = {
    			}
 		}
 	}
+
+	civilian_tax_laws = {
+		law = yes
+		use_list_view = yes
+
+		civ_progressive_tax = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.045
+				consumer_goods_factor = -0.35
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.045
+			}
+
+			cancel_if_invalid = no
+		}
+
+		civ_proportional_tax = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				stability_factor = -0.045
+				consumer_goods_factor = -0.35
+				production_speed_buildings_factor = 0.075
+			}
+
+			cancel_if_invalid = no
+		}
+
+		civ_regressive_tax = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.50
+				political_power_factor = -0.05
+				production_speed_buildings_factor = 0.15
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	corporate_tax_laws = {
+		law = yes
+		use_list_view = yes
+
+		corp_progressive_tax = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.5
+				political_power_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corp_proportional_tax = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				consumer_goods_factor = -0.35
+				production_speed_buildings_factor = 0.085
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corp_regressive_tax = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.2
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.125
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	budget_balance = {
+		law = yes
+		use_list_view = yes
+
+		cycle_balance = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.35
+				stability_factor = 0.065
+			}
+
+			cancel_if_invalid = no
+		}
+
+		yearly_balance = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		functional_balance = {
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.25
+				stability_factor = -0.075
+			}
+
+			cancel_if_invalid = no
+		}
+	}
 }
 
 

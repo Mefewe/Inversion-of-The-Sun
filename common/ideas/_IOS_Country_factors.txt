@@ -1,0 +1,488 @@
+ideas = {
+	corruption = {
+		law = yes
+		use_list_view = yes
+
+		corruption_1 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				# -прирост политки %
+				# -призыв
+				# -рост населения
+				# -командный ресурс %
+				# -стабильность
+				# -эффективность добычи ресурсов
+				# -атака/оборона
+				# +стоимость командного ресурса %
+				# +стоимость найма %
+				# +цель сопротивления
+				resistance_target = -0.13
+				political_power_factor = 0.125
+				stability_factor = 0.25
+				monthly_population = 0.075
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corruption_2 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				resistance_target = -0.08
+				political_power_factor = 0.075
+				stability_factor = 0.125
+				monthly_population = 0.045
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corruption_3 = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				resistance_target = -0.02
+				political_power_factor = 0.035
+				stability_factor = 0.045
+				monthly_population = 0.015
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corruption_4 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = -0.025
+				resistance_target = 0.05
+				political_power_factor = -0.025
+				stability_factor = -0.025
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corruption_5 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = -0.065
+				resistance_target = 0.085
+				political_power_factor = -0.09
+				stability_factor = -0.12
+				monthly_population = -0.08
+				command_power_gain_mult = -0.05
+				max_command_power_mult = -0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		corruption_6 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = -0.125
+				resistance_target = 0.13
+				political_power_factor = -0.15
+				stability_factor = -0.25
+				monthly_population = -0.16
+				command_power_gain_mult = -0.15
+				max_command_power_mult = -0.15
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	civ_rights = {
+		law = yes
+		use_list_view = yes
+
+		civ_rights_1 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+				# -прирост населения
+				# -стабильность
+				# +политка %
+				political_power_factor = -0.15
+				monthly_population = 0.015
+				stability_factor = 0.25
+			}
+
+			cancel_if_invalid = no
+		}
+
+		civ_rights_2 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		civ_rights_3 = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	science_level = {
+		law = yes
+		use_list_view = yes
+
+		science_level_1 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+				# -скорость исследований
+				# -эффективность производства
+				# -скорость строительства/восстановления
+				# +прирост населения
+			}
+
+			cancel_if_invalid = no
+		}
+
+		science_level_2 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		science_level_3 = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		science_level_4 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		science_level_5 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		science_level_6 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	industry_level = {
+		law = yes
+		use_list_view = yes
+
+		industry_level_1 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+				# -кол-во ячеек строительства
+				# -эффективность производства
+				# -строительство/восстановление
+				# -добыча ресурсов
+				# -прирост/хранение топлива
+			}
+
+			cancel_if_invalid = no
+		}
+
+		industry_level_2 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		industry_level_3 = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		industry_level_4 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		industry_level_5 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		industry_level_6 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	criminality = {
+		law = yes
+		use_list_view = yes
+
+		criminality_1 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+				# -прирост населения
+				# -политка %
+				# -прирост ресурсов
+				# -стабильность
+				# -15 человек в неделю
+				# +гражданские фабрики
+			}
+
+			cancel_if_invalid = no
+		}
+
+		criminality_2 = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		criminality_3 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		criminality_4 = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

@@ -296,8 +296,171 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
 	}
 
+	training_policy = {
+		law = yes
+		use_list_view = yes
 
+		training_program = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+
+		weekly_training = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		no_trainings = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	officers_training = {
+		law = yes
+		use_list_view = yes
+
+		state_academies = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		military_favoritism = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		uncontrolable_warlords = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	state_border_laws = {
+		law = yes
+		use_list_view = yes
+
+		open_borders = {
+
+			cost = 150
+			removal_cost = -1
+
+			default = yes
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		closed_borders = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+
+		no_border_control = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			cancel_if_invalid = no
+		}
+	}
 }

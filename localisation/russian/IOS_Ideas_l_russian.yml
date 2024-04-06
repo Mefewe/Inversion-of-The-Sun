@@ -10,3 +10,152 @@
  #############
  struggling_harmony: "Борющаяся гармония"
  struggling_harmony_desc: "Нация, что всё ещё может постоять за идеалы старого мира. Их воля сильна, но их недоброжелателей больше."
+ 
+ ############
+ ### LAWS ###
+ ############
+ major_ministers: "Администрация правительства"
+ 
+ ministers: "Правительственные министры"
+ 
+ economy_politics: "Экономические законы"
+ 
+ budget_balance: "Бюджетный баланс"
+ cycle_balance: "Циклический бюджет"
+ yearly_balance: "Ежегодно балансируемый"
+ functional_balance: "Функциональный бюджет"
+ 
+ civilian_tax_laws: "Гражданский налог"
+ civ_progressive_tax: "Прогрессивный"
+ civ_proportional_tax: "Пропорциональный"
+ civ_regressive_tax: "Регрессивный"
+ 
+ corporate_tax_laws: "Корпоративный налог"
+ corp_progressive_tax: "Прогрессивный"
+ corp_proportional_tax: "Пропорциональный"
+ corp_regressive_tax: "Регрессивный"
+ 
+ ###
+ 
+ government: "Социальные законы"
+ 
+ weapon_legalization: "Легализация оружия"
+ no_weapon_control: "Отсутствие контроля"
+ weapon_rights_forbidden: "Запрет гражданского оружия"
+ light_weapon_rights: "Легализация мелких калибров"
+ full_weapon_legalization: "Полная легализация гражданского оружия"
+ 
+ drugs_legalization: "Легализация веществ"
+ no_drug_control: "Отсутствие контроля"
+ drugs_forbidden: "Вещества запрещены"
+ light_drugs_permissions: "Частичная легализация веществ"
+ full_drugs_legalization: "Полная легализация веществ"
+ 
+ minorities_rights: "Права меньшинств"
+ non_controlled_minorities_rights: "Не регулируются"
+ minorities_discrimination: "Дискриминация меньшинств"
+ intolerance_to_minorities: "Нетерпимость к меньшинствам"
+ guranteed_minorities_rights: "Гарантия прав меньшинств"
+ positive_discrimination: "Позитивная дискриминация"
+ 
+ civ_privileges: "Привелегированность слоёв"
+ estate_system: "Сословная система"
+ nominal_equality: "Номинальное равенство"
+ guranteed_equality: "Гарантированное равенство"
+ 
+ religious_policy: "Религиозная политика"
+ religious_state: "Религия во власти"
+ secularism: "Секуляризм"
+ state_atheism: "Государственный атеизм"
+ 
+ state_agenda: "Социальная направленность"
+ uncontrolled_culture: "Отсутствие контроля над культурой"
+ traditionalism: "Традиционность"
+ mixed_state_agenda: "Смешанная государственная повестка"
+ progressive_agenda: "Прогрессивность"
+ 
+ ###
+ 
+ labour: "Трудовые законы"
+ 
+ min_payment_laws: "МРОТ"
+ no_guranteed_min_payment: "Не гарантирован"
+ unstable_min_payment: "Нестабильный"
+ stable_min_payment: "Стабильный"
+ not_bad_min_payment: "Крупный"
+ 
+ work_hours_laws: "Рабочие часы"
+ non_control_work_hours: "Не регулируются"
+ 16_work_hours: "16 часов в день"
+ 12_work_hours: "12 часов в день"
+ 8_hours: "8 часов в день"
+ 6_hours: "6 часов в день"
+ 
+ slavery_laws: "Принудительный труд"
+ no_slavery_control: "Отсутствие контроля над рабством"
+ institutional_slavery: "Институциональное рабство"
+ corporate_slavery: "Корпоративное рабство"
+ full_slavery_ban: "Гарантия свободы граждан"
+ 
+ labour_safety: "Безопасность труда"
+ no_safety_control: "Не регулируется"
+ nominal_safety_laws: "Номинальные правила"
+ guranteed_safety_laws: "Серьёзный контроль"
+ 
+ ###
+ 
+ military: "Военные законы"
+ 
+ training_policy: "Тренировочная политика"
+ no_trainings: "Сразу в пекло"
+ weekly_training: "Недельный инструктаж"
+ training_program: "Тренировочные курсы"
+ 
+ officers_training: "Обучение офицеров"
+ uncontrolable_warlords: "Бесконтрольные варлорды"
+ military_favoritism: "Отсутствие военных училищ"
+ state_academies: "Офицерские академии"
+ 
+ state_border_laws: "Граница"
+ no_border_control: "Граница не регулируется"
+ closed_borders: "Закрытая граница"
+ open_borders: "Открытая граница"
+ 
+ ###
+ 
+ country_factors: "Состояние государства"
+ 
+ corruption: "Уровень коррупции"
+ corruption_1: "Искоренённая"
+ corruption_2: "Минимально низкая"
+ corruption_3: "Достаточно низкая"
+ corruption_4: "Проблематичная"
+ corruption_5: "Крайне проблематичная"
+ corruption_6: "Укоренившаяся"
+ 
+ civ_rights: "Права граждан"
+ civ_rights_1: "Социальное государство"
+ civ_rights_2: "Базовые гражданские права"
+ civ_rights_3: "Не гарантируемые права"
+ 
+ science_level: "Академическая база"
+ science_level_1: "Передовая академическая база"
+ science_level_2: "Современная академическая база"
+ science_level_3: "Устаревшая академическая база"
+ science_level_4: "Зарождающаяся академическая база"
+ science_level_5: "Частично образованное население"
+ science_level_6: "Отсутствие научного метода"
+ 
+ industry_level: "Развитие промышленности"
+ industry_level_1: "Постиндустриальное производство"
+ industry_level_2: "Начальная постиндустриализация"
+ industry_level_3: "Индустриальное производство"
+ industry_level_4: "Начальная индустриализация"
+ industry_level_5: "Распродажа ресурсов"
+ industry_level_6: "Традиционная автаркия"
+ 
+ criminality: "Уровень преступности"
+ criminality_1: "Минимальный уровень преступности"
+ criminality_2: "Проблема криминала"
+ criminality_3: "Влиятельные ОПГ"
+ criminality_4: "Криминал во власти"

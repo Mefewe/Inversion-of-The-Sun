@@ -114,6 +114,14 @@ political_actions = {
 	}
 }
 
+PMC_Policy = {
+	icon = generic_political_actions
+
+	allowed = {
+		always = yes
+	}
+}
+
 foreign_influence = {
 	icon = generic_political_actions
 }

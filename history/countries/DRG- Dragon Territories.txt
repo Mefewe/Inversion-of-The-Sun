@@ -10,6 +10,7 @@ recruit_character = DRG_Arvira
 recruit_character = DRG_Dunar
 recruit_character = DRG_Bukord_Honnor
 recruit_character = DRG_Antaire
+
 set_stability = 0.4
 set_war_support = 0.2
 set_research_slots = 1
