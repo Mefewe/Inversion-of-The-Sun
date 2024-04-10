@@ -468,6 +468,16 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = AOZ.71.a
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_2
+			amount = 500
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_ammo_equipment_1
+			amount = 25000
+			producer = OEF
+		}
 	}
 }
 country_event = {
@@ -479,6 +489,14 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = AOZ.72.a
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = bronetransporter_1
+			amount = 250
+		}
 	}
 }
 country_event = {
@@ -490,6 +508,16 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = AOZ.73.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 10000
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_ammo_equipment_1
+			amount = 53500
+			producer = OEF
+		}
 	}
 }
 
@@ -502,6 +530,60 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = AOZ.74.a
+		add_manpower = 50000
+	}
+}
+
+country_event = {
+	id = AOZ.75 #Адекватизация
+	title = AOZ.75.title
+	desc = AOZ.75.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.75.a
+		add_stability = 0.1
+		add_war_support = -0.05
+	}
+}
+
+country_event = {
+	id = AOZ.76 #Бюрократия
+	title = AOZ.76.title
+	desc = AOZ.76.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.76.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = AOZ.77 #укрепления
+	title = AOZ.77.title
+	desc = AOZ.77.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.77.a
+		add_ideas = AOZ_ukrepi
+	}
+}
+
+country_event = {
+	id = AOZ.78 #бригады
+	title = AOZ.78.title
+	desc = AOZ.78.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.78.a
+		load_oob = AOZ_3
 	}
 }
 

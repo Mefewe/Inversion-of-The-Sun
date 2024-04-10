@@ -66,5 +66,12 @@ ideas = {
 				conscription = 0.05
 			}
 		}
+
+		AOZ_ukrepi = {
+			picture = generic_army_problems
+			modifier = {
+				production_speed_bunker_factor = 0.75
+			}
+		}
 	}
 }

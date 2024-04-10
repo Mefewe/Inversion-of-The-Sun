@@ -67,6 +67,25 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+focus_tree = {
+	id = AOZ_focus_tree_besh_A #адекватно 2
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = AOZ
+		}
+	}
+	shared_focus = AOZ_zheleznyj
+	shared_focus = AOZ_diplomatic_mission
+	shared_focus = AOZ_ba_pesh
+	shared_focus = AOZ_totalna_oborona
+	shared_focus = AOZ_razvitj_infrastrukturu
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
 
 focus_tree = {
 	id = AOZ_focus_tree_tort_B #авангардно
@@ -661,7 +680,7 @@ shared_focus = { #
 	x = 6
 	y = 19
 	completion_reward = { 
-		
+		country_event = AOZ.70
 	}
 }
 shared_focus = { #
@@ -673,7 +692,7 @@ shared_focus = { #
 	x = 6
 	y = 20
 	completion_reward = { 
-		
+		country_event = AOZ.71
 	}
 }
 shared_focus = { #
@@ -685,7 +704,7 @@ shared_focus = { #
 	x = 8
 	y = 20
 	completion_reward = { 
-		
+		country_event = AOZ.72
 	}
 }
 shared_focus = { #
@@ -697,7 +716,7 @@ shared_focus = { #
 	x = 10
 	y = 20
 	completion_reward = { 
-		
+		country_event = AOZ.73
 	}
 }
 shared_focus = { #
@@ -715,7 +734,7 @@ shared_focus = { #
 	x = 8
 	y = 21
 	completion_reward = { 
-		
+		country_event = AOZ.74
 	}
 }
 #
@@ -728,7 +747,7 @@ shared_focus = { #
 	x = 2
 	y = 19
 	completion_reward = { 
-		
+		country_event = AOZ.75
 	}
 }
 
@@ -741,7 +760,7 @@ shared_focus = { #
 	x = 2
 	y = 20
 	completion_reward = { 
-		
+		country_event = AOZ.76
 	}
 }
 shared_focus = { #
@@ -753,7 +772,7 @@ shared_focus = { #
 	x = 2
 	y = 21
 	completion_reward = { 
-		
+		country_event = AOZ.77
 	}
 }
 shared_focus = { #
@@ -765,7 +784,7 @@ shared_focus = { #
 	x = 2
 	y = 22
 	completion_reward = { 
-		
+		country_event = AOZ.78
 	}
 }
 

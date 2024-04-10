@@ -52,5 +52,6 @@ tags={
 }
 name="Inversion of The Sun"
 picture="thumbnail.png"
-supported_version="1.13.*"
-path="mod/Inversion-of-The-Sun/"
+supported_version="1.14.*"
+path="/home/mixorio/.local/share/Paradox Interactive/Hearts of Iron IV/mod/Inversion-of-The-Sun"
+remote_file_id="3118644626"

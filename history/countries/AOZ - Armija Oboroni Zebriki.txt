@@ -4,6 +4,7 @@ set_stability = 0
 set_war_support = 1
 set_research_slots = 1
 load_oob = AOZ
+country_lock_all_division_template = yes
 ################## TECHS
 set_technology = {
 	### INFANTRY
