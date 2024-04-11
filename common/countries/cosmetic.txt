@@ -14,3 +14,7 @@ DRG_NEW = {
 color = rgb { 219 148 87 }
 color_ui = rgb { 219 148 87 }
 }
+AOZ_republic = {
+color = rgb { 66 135 245 }
+color_ui = rgb { 66 135 245 }
+}

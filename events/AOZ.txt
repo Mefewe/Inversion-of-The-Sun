@@ -309,10 +309,10 @@ country_event = {
 				limit = {
 					has_country_flag = {flag = CIV_AOZ value > 0}
 				}
-				country_event = {id = AOZ.50 days = 7}
+				country_event = {id = AOZ.50 days = 5}
 			}
 			else = {
-				country_event = {id = AOZ.100 days = 7}
+				country_event = {id = AOZ.200 days = 5}
 			}
 		}
 	}
@@ -328,7 +328,9 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = AOZ.50.a
-		add_stability = 0.1
+		add_stability = 0.15
+		load_focus_tree = AOZ_focus_tree_tort_A
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 country_event = {
@@ -447,7 +449,25 @@ country_event = {
 	}
 }
 
-# 70-80 ивенты про иностранную помощь новую
+country_event = {
+	id = AOZ.65 #Интеграция Чируты
+	title = AOZ.65.title
+	desc = AOZ.65.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.65.a
+		779 = {
+			add_core_of = AOZ
+		}
+		957 = {
+			add_core_of = AOZ
+		}
+	}
+}
+
+# 70-80
 country_event = {
 	id = AOZ.70 #Мировая помощь
 	title = AOZ.70.title
@@ -587,16 +607,34 @@ country_event = {
 	}
 }
 
-###### Ветка милитаристического ополчения
 country_event = {
-	id = AOZ.100 #На полях
-	title = AOZ.100.title
-	desc = AOZ.100.desc
+	id = AOZ.80 #конгресс
+	title = AOZ.80.title
+	desc = AOZ.80.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = AOZ.100.a
+		name = AOZ.80.a
+		set_cosmetic_tag = AOZ_republic
+		load_focus_tree = AOZ_focus_tree_besh_A
+		mark_focus_tree_layout_dirty = yes
+		set_capital = {
+			state = 779
+		}
+	}
+}
+
+###### Ветка милитаристического ополчения
+country_event = {
+	id = AOZ.200 #На полях
+	title = AOZ.200.title
+	desc = AOZ.200.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.200.a
 		add_stability = 0.1
 
 	}

@@ -666,7 +666,7 @@ shared_focus = { #
 	x = 4
 	y = 18
 	completion_reward = { 
-		country_event = AOZ.60
+		country_event = AOZ.65
 	}
 }
 
