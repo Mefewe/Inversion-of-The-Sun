@@ -66,11 +66,124 @@ ideas = {
 				conscription = 0.05
 			}
 		}
-
 		AOZ_ukrepi = {
 			picture = generic_army_problems
 			modifier = {
 				production_speed_bunker_factor = 0.75
+			}
+		}
+		AOZ_Prep_level_1 = {
+			cancel = { 
+				AOZ = {
+					OR = {
+						has_country_flag = AOZ_OperationSucceed
+						has_country_flag = AOZ_OperationFailed
+					}
+					NOT = {
+						has_global_flag = AOZ_TYR_Anti_Guerilla_War
+					}
+				}
+			}
+			picture = generic_army_problems
+			modifier = {
+				recon_factor = -0.15
+				army_org_factor = -0.1
+				army_morale_factor = -0.05
+				army_attack_factor = -0.045
+				experience_loss_factor = 0.1
+			}
+		}
+		AOZ_Prep_level_2 = {
+			cancel = { 
+				AOZ = {
+					OR = {
+						has_country_flag = AOZ_OperationSucceed
+						has_country_flag = AOZ_OperationFailed
+					}
+					NOT = {
+						has_global_flag = AOZ_TYR_Anti_Guerilla_War
+					}
+				}
+			}
+			picture = generic_army_problems
+			modifier = {
+				recon_factor = 0.45
+				army_org_factor = 0.05
+				army_morale_factor = 0.1
+				army_attack_factor = 0.15
+			}
+		}
+		AOZ_Prep_level_3 = {
+			cancel = { 
+				AOZ = {
+					OR = {
+						has_country_flag = AOZ_OperationSucceed
+						has_country_flag = AOZ_OperationFailed
+					}
+					NOT = {
+						has_global_flag = AOZ_TYR_Anti_Guerilla_War
+					}
+				}
+			}
+			picture = generic_army_problems
+			modifier = {
+				recon_factor = 1
+				army_org_factor = 0.3
+				army_morale_factor = 0.5
+				army_attack_factor = 0.35
+				experience_loss_factor = -0.35
+			}
+		}
+		AOZ_Raider_economy = {
+			picture = generic_army_problems
+			modifier = {
+			}
+		}
+	}
+}
+
+ideas = {
+	hidden_ideas = {
+		AOZ_Army_modifier_1 = {
+			cancel = { has_global_flag = AOZ_Won_Guerilla_War }
+			modifier = {
+				army_morale_factor = 0.025
+				army_defence_factor = 0.025
+			}
+		}
+		AOZ_Army_modifier_2 = {
+			cancel = { has_global_flag = AOZ_Won_Guerilla_War }
+			modifier = {
+				army_morale_factor = 0.05
+				supply_consumption_factor = -0.075
+				out_of_supply_factor = -0.035
+				experience_loss_factor = -0.125
+			}
+		}
+		AOZ_Army_modifier_3 = {
+			cancel = { has_global_flag = AOZ_Won_Guerilla_War }
+			modifier = {
+				dig_in_speed_factor = 0.25
+				max_dig_in_factor = 0.5
+				recon_factor_while_entrenched = 0.1
+				out_of_supply_factor = -0.035
+			}
+		}
+		AOZ_Army_modifier_4 = {
+			cancel = { has_global_flag = AOZ_Won_Guerilla_War }
+			modifier = {
+				recon_factor = 0.15
+				planning_speed = 0.1
+				max_planning_factor = 0.25
+			}
+		}
+		AOZ_Inspiring_reminder_modifier = {
+			cancel = { has_global_flag = AOZ_Won_Guerilla_War }
+			modifier = {
+				army_morale_factor = 0.05
+				army_org_factor = 0.025
+				army_defence_factor = 0.05
+				political_power_factor = 0.1
 			}
 		}
 	}

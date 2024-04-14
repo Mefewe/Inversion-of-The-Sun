@@ -146,7 +146,6 @@ shared_focus = {
 	y = 2
 	completion_reward = { 
 		758 = {
-			transfer_state_to = UNC
 			add_building_construction = {
 				type = bunker
 				level = 2
@@ -475,11 +474,97 @@ shared_focus = { #
 	id = AOZ_totalna_oborona
 
 	cost = 1
-	x = 16
-	y = 10
+	x = 12
+	y = 8
 	completion_reward = { 
 		country_event = AOZ.11
 
+	}
+}
+
+shared_focus = { #
+	id = AOZ_opornik
+	prerequisite = {
+		focus = AOZ_totalna_oborona
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 2
+	x = 10
+	y = 9
+	completion_reward = {
+		965 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7291
+			}
+		}
+		966 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7146
+			}
+		}
+		add_ideas = AOZ_Army_modifier_1
+	}
+}
+
+shared_focus = { #
+	id = AOZ_quickly_available_camps
+	prerequisite = {
+		focus = AOZ_opornik
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 2.5
+	x = 10
+	y = 10
+	completion_reward = {
+		add_ideas = AOZ_Army_modifier_2
+	}
+}
+
+shared_focus = { #
+	id = AOZ_guerilla_engineering
+	prerequisite = {
+		focus = AOZ_quickly_available_camps
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 2.5
+	x = 9
+	y = 11
+	completion_reward = {
+		add_ideas = AOZ_Army_modifier_3
+	}
+}
+
+shared_focus = { #
+	id = AOZ_to_put_the_traps
+	prerequisite = {
+		focus = AOZ_quickly_available_camps
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 2.5
+	x = 11
+	y = 11
+	completion_reward = {
+		add_ideas = AOZ_Army_modifier_4
 	}
 }
 
@@ -488,19 +573,131 @@ shared_focus = { #
 	prerequisite = {
 		focus = AOZ_totalna_oborona
 	}
-	cost = 1
-	x = 16
-	y = 11
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 2
+	x = 14
+	y = 9
 	completion_reward = { 
-		country_event = AOZ.12
+		# country_event = AOZ.12
 	}
 }
 
+shared_focus = { #
+	id = AOZ_find_the_targets
+	prerequisite = {
+		focus = AOZ_operacija_mahrots
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 2.5
+	x = 14
+	y = 10
+	completion_reward = {
+		custom_effect_tooltip = AOZ_Prep6_5_tt
+		add_to_variable = {
+			var = AOZ_StaticPrepFactor
+			value = 0.065
+		}
+	}
+}
+
+shared_focus = { #
+	id = AOZ_an_inspiring_reminder
+	prerequisite = {
+		focus = AOZ_operacija_mahrots
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 1
+	x = 16
+	y = 10
+	completion_reward = { 
+		custom_effect_tooltip = AOZ_Prep3_5_tt
+		add_to_variable = {
+			var = AOZ_StaticPrepFactor
+			value = 0.035
+		}
+		add_timed_idea = {
+			idea = AOZ_Inspiring_reminder_modifier
+			days = 100
+		}
+		add_political_power = 50
+	}
+}
+shared_focus = { #
+	id = AOZ_snake_paths
+	prerequisite = {
+		focus = AOZ_find_the_targets
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 3
+	x = 15
+	y = 11
+	completion_reward = { 
+		custom_effect_tooltip = AOZ_Prep10_tt
+		add_to_variable = {
+			var = AOZ_StaticPrepFactor
+			value = 0.1
+		}
+	}
+}
+
+shared_focus = { #
+	id = AOZ_a_few_crates_with_trotyl
+	prerequisite = {
+		focus = AOZ_find_the_targets
+	}
+	available = {
+		NOT = {
+			has_global_flag = AOZ_TYR_Anti_Guerilla_War
+		}
+	}
+	cost = 3
+	x = 13
+	y = 11
+	completion_reward = { 
+		custom_effect_tooltip = AOZ_Prep10_tt
+		add_to_variable = {
+			var = AOZ_StaticPrepFactor
+			value = 0.1
+		}
+	}
+}
+
+shared_focus = { #
+	id = AOZ_our_mission_is_to_survive
+	prerequisite = {
+		focus = AOZ_totalna_oborona
+	}
+	available = {
+		always = no
+	}
+	cost = 1
+	x = 12
+	y = 9
+	completion_reward = { 
+		# country_event = AOZ.12
+	}
+}
 
 shared_focus = { #
 	id = AOZ_ognevoj_boj
 	prerequisite = {
-		focus = AOZ_operacija_mahrots
+		focus = AOZ_our_mission_is_to_survive
 	}
 	available = {
 		OR = {
@@ -509,8 +706,8 @@ shared_focus = { #
 		}
 	}
 	cost = 2
-	x = 16
-	y = 12
+	x = 12
+	y = 10
 	completion_reward = { 
 		country_event = AOZ.13
 	}

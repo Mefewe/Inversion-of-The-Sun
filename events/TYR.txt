@@ -430,6 +430,11 @@ country_event = {
 		779 = {
 			transfer_state_to = ZKT
 		}
+		hidden_effect = {
+			AOZ = {
+				complete_national_focus = AOZ_our_mission_is_to_survive
+			}
+		}
 	}
 }
 

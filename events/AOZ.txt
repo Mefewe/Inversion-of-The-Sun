@@ -156,14 +156,14 @@ country_event = {
 		965 = {
 			add_building_construction = {
 				type = bunker
-				level = 6
+				level = 2
 				province = 7291
 			}
 		}
 		966 = {
 			add_building_construction = {
 				type = bunker
-				level = 6
+				level = 2
 				province = 7146
 			}
 		}
@@ -194,6 +194,8 @@ country_event = {
 		}
 		load_oob = AOZ_2
 		name = AOZ.12.a
+		set_country_flag = AOZ_OperationSucceed
+		clr_country_flag = AOZ_OperationStarted
 	}
 }
 country_event = {
@@ -295,6 +297,241 @@ country_event = {
 ###
 
 country_event = {
+	id = AOZ.30 # Похищение коменданта удалось
+	title = AOZ.30.title
+	desc = AOZ.30.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.30.a
+		add_political_power = 50
+		custom_effect_tooltip = AOZ_PrepAdd25_tt
+		add_to_variable = {
+			var = AOZ_StaticPrepFactor
+			value = 0.25
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.38 # Комендант был убит в ходе миссии
+	title = AOZ.38.title
+	desc = AOZ.38.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.38.a
+		add_political_power = -5
+	}
+}
+
+country_event = {
+	id = AOZ.31 # Начало операции
+	title = AOZ.31.title
+	desc = AOZ.31.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.31.a
+		AOZ_Begin_operation = yes
+		set_country_flag = AOZ_OperationDecisionCompleted
+	}
+}
+
+country_event = {
+	id = AOZ.32 # Во время рейда попали в засаду
+	title = AOZ.32.title
+	desc = AOZ.32.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.32.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -200
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = -10
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -25
+			producer = AOZ
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.33 # Неудачный рейд
+	title = AOZ.33.title
+	desc = AOZ.33.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.33.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 350
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 20
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 30
+			producer = AOZ
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.34 # В целом удачный рейд
+	title = AOZ.34.title
+	desc = AOZ.34.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.34.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1150
+			producer = TYR
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 125
+			producer = TYR
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 200
+			producer = TYR
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.35 # Более чем удачный рейд
+	title = AOZ.35.title
+	desc = AOZ.35.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.35.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 350
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 20
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 30
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 4000
+			producer = TYR
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 530
+			producer = TYR
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 825
+			producer = TYR
+		}
+		add_equipment_to_stockpile = {
+			type = anti_tank_inf_1_eq
+			amount = 700
+			producer = TYR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 5
+			producer = TYR
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.36 # Разведгруппа возвратилась
+	title = AOZ.32.title
+	desc = AOZ.32.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.32.a
+		add_political_power = 10
+		custom_effect_tooltip = AOZ_Prep5_tt
+		add_to_variable = {
+			var = AOZ_StaticPrepFactor
+			value = 0.05
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 200
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 10
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 25
+			producer = AOZ
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.37 # Связь с разведгруппой оборвалась
+	title = AOZ.37.title
+	desc = AOZ.37.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.32.a
+		add_political_power = -5
+	}
+}
+
+country_event = {
+	id = AOZ.40 # Поражение при Бнампуле
+	title = AOZ.40.title
+	desc = AOZ.40.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.40.a
+		add_political_power = -150
+		758 = {
+			set_demilitarized_zone = yes
+		}
+		set_country_flag = AOZ_OperationFailed
+		clr_country_flag = AOZ_OperationStarted
+	}
+}
+
+country_event = {
 	id = AOZ.20 #Победа
 	title = AOZ.20.title
 	desc = AOZ.20.desc
@@ -314,6 +551,7 @@ country_event = {
 			else = {
 				country_event = {id = AOZ.200 days = 5}
 			}
+			set_global_flag = AOZ_Won_Guerilla_War
 		}
 	}
 }

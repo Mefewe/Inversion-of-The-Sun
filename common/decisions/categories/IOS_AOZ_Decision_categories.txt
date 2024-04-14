@@ -1,0 +1,47 @@
+AOZ_Operation_Mahrots_Preparing = {
+	icon = generic_research
+	visible = {
+		tag = AOZ
+		OR = {
+			AOZ = {
+				has_country_flag = Debug_AOZ_MahrotsOperation_ON
+			}
+			AND = {
+				has_completed_focus = AOZ_operacija_mahrots
+				NOT = {
+					has_country_flag = AOZ_OperationDecisionCompleted
+					has_country_flag = AOZ_TYR_Anti_Guerilla_War
+					OR = {
+						has_country_flag = AOZ_OperationSucceed
+						has_country_flag = AOZ_OperationFailed
+					}
+				}
+			}
+		}
+	}
+	priority = 20
+}
+
+AOZ_Equipment_ = {
+	icon = generic_research
+	visible = {
+		tag = AOZ
+		OR = {
+			AOZ = {
+				has_country_flag = Debug_AOZ_MahrotsOperation_ON
+			}
+			AND = {
+				has_completed_focus = AOZ_operacija_mahrots
+				NOT = {
+					has_country_flag = AOZ_OperationDecisionCompleted
+					has_country_flag = AOZ_TYR_Anti_Guerilla_War
+					OR = {
+						has_country_flag = AOZ_OperationSucceed
+						has_country_flag = AOZ_OperationFailed
+					}
+				}
+			}
+		}
+	}
+	priority = 20
+}

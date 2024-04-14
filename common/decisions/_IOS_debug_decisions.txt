@@ -108,21 +108,89 @@ DRG_debug_decisions = {
 	debug_drg_load_tree_CW_2 = {		
 		icon = generic_research
 
-		available = {
-			is_ai = no
-			is_debug = yes
-			tag = DRG
-		}
-	
-		visible = {
-			always = yes
-		}
-
 		fire_only_once = no
 		cost = 0
 
 		complete_effect = {
 			load_focus_tree = DRG_CW_focus_tree_two
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+AOZ_debug_decisions = {
+	debug_aoz_force_mahrots_operation_show = {		
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = Debug_AOZ_MahrotsOperation_ON
+		}
+	}
+	debug_aoz_load_tree_2 = {		
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = AOZ_focus_tree_two
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	debug_aoz_load_tree_3 = {		
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = AOZ_focus_tree_three
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	debug_aoz_load_tree_4 = {		
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = AOZ_focus_tree_tort_A
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	debug_aoz_load_tree_5 = {		
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = AOZ_focus_tree_besh_A
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	debug_aoz_load_tree_6 = {		
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = AOZ_focus_tree_besh_A
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	debug_aoz_load_tree_6_alt = {		
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = AOZ_focus_tree_tort_B
 			mark_focus_tree_layout_dirty = yes
 		}
 	}

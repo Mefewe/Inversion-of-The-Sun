@@ -1,0 +1,242 @@
+AOZ_Operation_Mahrots_Preparing = {
+	AOZ_Test50 = {
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+		available = {
+			check_variable = { AOZ_StaticPrepFactor < 1 }
+			NOT = { has_country_flag = AOZ_OperationDecisionON }
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = AOZ_StaticPrepFactor
+				value = 0.5
+			}
+		}
+	}
+	AOZ_Test100 = {
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+		available = {
+			check_variable = { AOZ_StaticPrepFactor < 1 }
+			NOT = { has_country_flag = AOZ_OperationDecisionON }
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = AOZ_StaticPrepFactor
+				value = 1
+			}
+		}
+	}
+	AOZ_Send_recon = {
+		days_remove = 10
+		cost = 25
+		fixed_random_seed = no
+		available = {
+			check_variable = { AOZ_StaticPrepFactor < 1 }
+			NOT = { has_country_flag = AOZ_OperationDecisionON }
+			has_equipment = {
+				infantry_equipment > 250
+			}
+			has_equipment = {
+				candc_equipment > 15
+			}
+			has_equipment = {
+				support_equipment > 25
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -250
+				producer = AOZ
+			}
+			add_equipment_to_stockpile = {
+				type = candc_equipment
+				amount = -15
+				producer = AOZ
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -25
+				producer = AOZ
+			}
+			random = {
+				chance = 15
+				AOZ = {
+					country_event = { 
+						id = AOZ.37
+						days = 10
+					}
+				}
+			}
+			random = {
+				chance = 85
+				AOZ = {
+					country_event = {
+						id = AOZ.36
+						days = 10
+					}
+				}
+			}
+		}
+	}
+	AOZ_Pay_bribes = {
+		days_remove = 10
+		cost = 100
+		available = {
+			check_variable = { AOZ_StaticPrepFactor < 1 }
+			NOT = { has_country_flag = AOZ_OperationDecisionON }
+		}
+		complete_effect = {
+			custom_effect_tooltip = AOZ_Prep7_5_tt
+			add_to_variable = {
+				var = AOZ_StaticPrepFactor
+				value = 0.075
+			}
+		}
+	}
+	AOZ_Raid_the_supplies = {
+		days_remove = 15
+		cost = 50
+		fixed_random_seed = no
+		available = {
+			check_variable = { AOZ_StaticPrepFactor < 1 }
+			NOT = { has_country_flag = AOZ_OperationDecisionON }
+			has_equipment = {
+				infantry_equipment > 350
+			}
+			has_equipment = {
+				candc_equipment > 20
+			}
+			has_equipment = {
+				support_equipment > 30
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -350
+				producer = AOZ
+			}
+			add_equipment_to_stockpile = {
+				type = candc_equipment
+				amount = -20
+				producer = AOZ
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -30
+				producer = AOZ
+			}
+			add_to_variable = {
+				var = AOZ_StaticPrepFactor
+				value = -0.05
+			}
+			random = {
+				chance = 15
+				AOZ = {
+					country_event = AOZ.32
+					days = 15
+				}
+			}
+			random = {
+				chance = 15
+				AOZ = {
+					country_event = { 
+						id = AOZ.33
+						days = 15
+					}
+				}
+			}
+			random = {
+				chance = 50
+				AOZ = {
+					country_event = {
+						id = AOZ.34
+						days = 15
+					}
+				}
+			}
+			random = {
+				chance = 20
+				AOZ = {
+					country_event = {
+						id = AOZ.35
+						days = 15
+					}
+				}
+			}
+		}
+	}
+	AOZ_Try_to_kidnap_commandant = {
+		days_remove = 10
+		cost = 75
+		fixed_random_seed = no
+		available = {
+			check_variable = { AOZ_StaticPrepFactor < 1 }
+			NOT = { has_country_flag = AOZ_OperationDecisionON }
+			has_equipment = {
+				infantry_equipment > 350
+			}
+			has_equipment = {
+				candc_equipment > 20
+			}
+			has_equipment = {
+				support_equipment > 30
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -350
+				producer = AOZ
+			}
+			add_equipment_to_stockpile = {
+				type = candc_equipment
+				amount = -20
+				producer = AOZ
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -30
+				producer = AOZ
+			}
+			random = {
+				chance = 20
+				AOZ = {
+					country_event = AOZ.30
+					days = 10
+				}
+			}
+			random = {
+				chance = 80
+				AOZ = {
+					country_event = {
+						id = AOZ.38
+						days = 10
+					}
+				}
+			}
+		}
+	}
+	AOZ_Begin_the_operation = {
+		days_remove = 15
+		available = {
+			NOT = { has_country_flag = AOZ_OperationDecisionON }
+		}
+		complete_effect = {
+			custom_effect_tooltip = AOZ_Begin_operation_tt
+			hidden_effect = {
+				set_country_flag = AOZ_OperationDecisionON
+				country_event = {
+					id = AOZ.31
+					days = 15
+				}
+			}
+		}
+	}
+}

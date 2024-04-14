@@ -1,0 +1,67 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			set_variable = { AOZ_StaticPrepFactor = 0 }
+		}
+	}
+	on_daily = {
+		effect = {
+			set_variable = { AOZ_PrepFactor = 0 }
+			add_to_variable = { AOZ_StaticPrepFactor = AOZ_PrepFactor }
+			if = {
+				limit = {
+					AOZ = {
+						has_country_flag = AOZ_OperationStarted
+					}
+					AOZ = {
+						check_variable = {
+								AOZ_StaticPrepFactor < 0.35
+						}
+					}
+				}
+				AOZ = {
+					add_ideas = AOZ_Prep_level_1
+				}
+			}
+			else_if = {
+				limit = {
+					AOZ = {
+						has_country_flag = AOZ_OperationStarted
+					}
+					AOZ = {
+						check_variable = {
+							AOZ_StaticPrepFactor > 0.35
+						}
+						check_variable = {
+							AOZ_StaticPrepFactor < 0.70
+						}
+					}
+				}
+				AOZ = {
+					swap_ideas = {
+						remove_idea = AOZ_Prep_level_1
+						add_idea = AOZ_Prep_level_2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					AOZ = {
+						has_country_flag = AOZ_OperationStarted
+					}
+					AOZ = {
+						check_variable = {
+							AOZ_StaticPrepFactor > 0.70
+						}
+					}
+				}
+				AOZ = {
+					swap_ideas = {
+						remove_idea = AOZ_Prep_level_2
+						add_idea = AOZ_Prep_level_3
+					}
+				}
+			}
+		}
+	}
+}

@@ -390,6 +390,7 @@ shared_focus = {
 	}
 
 	cost = 2
+	will_lead_to_war_with = AOZ
 	x = 14
 	y = 18
 	completion_reward = { 
@@ -444,6 +445,7 @@ shared_focus = {
 	}
 
 	cost = 2
+	will_lead_to_war_with = AOZ
 	x = 22
 	y = 18
 	completion_reward = { 
@@ -459,6 +461,10 @@ shared_focus = {
 		}
 		hidden_effect = {
 			set_country_flag = TYR_AOZ_FW
+			set_global_flag = AOZ_TYR_Anti_Guerilla_War
+			AOZ = {
+				complete_national_focus = AOZ_our_mission_is_to_survive
+			}
 		}
 	}
 }
