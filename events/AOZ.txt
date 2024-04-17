@@ -917,6 +917,8 @@ country_event = {
 					defender = {
 						state = 758
 						num_provinces = 1
+						on_lose = TYR_RAIDS.1
+						on_win = TYR_RAIDS.2
 					}
 				}
 			}
@@ -939,6 +941,8 @@ country_event = {
 					defender = {
 						state = 665
 						num_provinces = 1
+						on_lose = TYR_RAIDS.3
+						on_win = TYR_RAIDS.4
 					}
 				}
 			}

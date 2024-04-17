@@ -1,5 +1,5 @@
 add_namespace = TYR_hidden
-
+add_namespace = TYR_RAIDS
 add_namespace = TYR
 
 country_event = {
@@ -531,6 +531,20 @@ country_event = {
 				transfer_state_to = KAF
 				add_core_of = KAF
 			}
+			if = {
+				limit = {
+					NOT = {
+						758 = {
+							is_owned_by = AOZ
+						}
+					}
+				}
+				758 = {
+					set_demilitarized_zone = no
+					transfer_state_to = AOZ
+					add_core_of = AOZ
+				}
+			}
 		}
 	}
 }
@@ -757,6 +771,63 @@ country_event = {
 				start_resistance = yes
 				set_compliance = 70
 			}
+		}
+	}
+}
+
+
+#######################################
+
+country_event = {
+	id = TYR_RAIDS.1 # 758
+	title = TYR_RAIDS.1
+	desc = TYR_RAIDS.1
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = TYR_RAIDS.1.a
+		758 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}
+country_event = {
+	id = TYR_RAIDS.2 # 758
+	title = TYR_RAIDS.2
+	desc = TYR_RAIDS.2
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = TYR_RAIDS.2.a
+		758 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}
+
+country_event = {
+	id = TYR_RAIDS.3 # 665
+	title = TYR_RAIDS.3
+	desc = TYR_RAIDS.3
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = TYR_RAIDS.3.a
+		665 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}
+country_event = {
+	id = TYR_RAIDS.4 # 665
+	title = TYR_RAIDS.4
+	desc = TYR_RAIDS.4
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = TYR_RAIDS.4.a
+		665 = {
+			set_demilitarized_zone = yes
 		}
 	}
 }

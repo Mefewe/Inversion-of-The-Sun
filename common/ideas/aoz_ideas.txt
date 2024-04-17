@@ -24,6 +24,7 @@ ideas = {
 		zhelenyje = {
 			picture = generic_army_problems
 			modifier = {
+				surrender_limit = 1
 				attrition = -0.2
 				dig_in_speed_factor = 1
 				combat_width_factor = -0.2

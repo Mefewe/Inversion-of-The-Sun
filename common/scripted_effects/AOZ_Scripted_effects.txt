@@ -16,6 +16,8 @@ AOZ_Begin_operation = {
 		defender = {
 			state = 758
 			num_provinces = 2
+			on_lose = TYR_RAIDS.1
+			on_win = TYR_RAIDS.2
 		}
 	}
 }

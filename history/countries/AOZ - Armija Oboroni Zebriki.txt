@@ -1,6 +1,10 @@
 capital = 965
+
 recruit_character = AOZ_MovementCommanders
-set_stability = 0
+recruit_character = AOZ_Ebdelj_Vahnjar
+recruit_character = AOZ_Lahenjar_Getrenukho
+
+set_stability = 0.05
 set_war_support = 1
 set_research_slots = 1
 load_oob = AOZ
