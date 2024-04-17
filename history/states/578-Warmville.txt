@@ -6,7 +6,7 @@ state={
 	}
 	history={
 	victory_points = {1739 10} #
-        owner = TYR
+        owner = UNC
         add_core_of = ABS
         buildings = {
                 infrastructure = 2

@@ -5,7 +5,7 @@ state={
 		3871 
 	}
 	history={
-        owner = TYR
+        owner = UNC
         add_core_of = ABS
     }
 

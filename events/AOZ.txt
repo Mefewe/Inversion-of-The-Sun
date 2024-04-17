@@ -1,4 +1,6 @@
 add_namespace = AOZ
+add_namespace = AOZ_hidden
+add_namespace = AOZ_BlackMarket
 
 country_event = {
 	id = AOZ.1 #Железный
@@ -875,5 +877,270 @@ country_event = {
 		name = AOZ.200.a
 		add_stability = 0.1
 
+	}
+}
+
+country_event = {
+	id = AOZ.300
+	title = AOZ.300.title
+	desc = AOZ.300.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.300.a
+		AOZ_Raid_supplies_small_effect = yes
+	}
+}
+
+country_event = {
+	id = AOZ_hidden.1
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		random_list = {
+			50 = {
+				758 = {
+					set_demilitarized_zone = no
+					add_dynamic_modifier = {
+						scope = TYR
+						modifier = AOZ_Raid_Mod
+					}
+				}
+				start_border_war = {
+					change_state_after_war = no	
+					attacker = {
+						state = 965
+						on_win = AOZ.300
+						on_lose = AOZ.401
+						num_provinces = 1
+					}
+					defender = {
+						state = 758
+						num_provinces = 1
+					}
+				}
+			}
+			50 = {
+				665 = {
+					set_demilitarized_zone = no
+					add_dynamic_modifier = {
+						scope = TYR
+						modifier = AOZ_Raid_Mod
+					}
+				}
+				start_border_war = {
+					change_state_after_war = no	
+					attacker = {
+						state = 965
+						on_win = AOZ.300
+						on_lose = AOZ.403
+						num_provinces = 1
+					}
+					defender = {
+						state = 665
+						num_provinces = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.400
+	title = AOZ.400.title
+	desc = AOZ.400.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.400.a
+		758 = {
+			set_demilitarized_zone = yes
+			remove_dynamic_modifier = {
+				modifier = AOZ_Raid_Mod
+			}
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.401
+	title = AOZ.401.title
+	desc = AOZ.401.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.401.a
+		758 = {
+			set_demilitarized_zone = yes
+			remove_dynamic_modifier = {
+				modifier = AOZ_Raid_Mod
+			}
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.402
+	title = AOZ.402.title
+	desc = AOZ.402.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.402.a
+		665 = {
+			set_demilitarized_zone = yes
+			remove_dynamic_modifier = {
+				modifier = AOZ_Raid_Mod
+			}
+		}
+	}
+}
+
+country_event = {
+	id = AOZ.403
+	title = AOZ.403.title
+	desc = AOZ.403.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.403.a
+		665 = {
+			set_demilitarized_zone = yes
+			remove_dynamic_modifier = {
+				modifier = AOZ_Raid_Mod
+			}
+		}
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.1
+	title = AOZ_BlackMarket.1.title
+	desc = AOZ_BlackMarket.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.1.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = AOZ
+		}
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.2
+	title = AOZ_BlackMarket.2.title
+	desc = AOZ_BlackMarket.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.2.a
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.3
+	title = AOZ_BlackMarket.3.title
+	desc = AOZ_BlackMarket.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.3.a
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 150
+			producer = AOZ
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 250
+			producer = AOZ
+		}
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.4
+	title = AOZ_BlackMarket.4.title
+	desc = AOZ_BlackMarket.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.4.a
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.5
+	title = AOZ_BlackMarket.5.title
+	desc = AOZ_BlackMarket.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.5.a
+		add_equipment_to_stockpile = {
+			type = anti_tank_inf_eq
+			amount = 85
+			producer = AOZ
+		}
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.6
+	title = AOZ_BlackMarket.6.title
+	desc = AOZ_BlackMarket.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.6.a
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.7
+	title = AOZ_BlackMarket.7.title
+	desc = AOZ_BlackMarket.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.7.a
+		add_equipment_to_stockpile = {
+			type = anti_air_inf_eq
+			amount = 85
+			producer = AOZ
+		}
+	}
+}
+
+country_event = {
+	id = AOZ_BlackMarket.8
+	title = AOZ_BlackMarket.7.title
+	desc = AOZ_BlackMarket.7.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ_BlackMarket.6.a
+	}
+}
+
+country_event = {
+	id = AOZ_hidden.2
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		add_ideas = AOZ_Raider_economy
+	}
+}
+
+country_event = {
+	id = AOZ_hidden.3
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		remove_ideas = AOZ_Raider_economy
 	}
 }

@@ -5,7 +5,7 @@ state={
 		1447 2953 6434 6460 
 	}
 	history={
-        owner = TYR
+        owner = UNC
         add_core_of = ABS
         buildings = {
                 infrastructure = 1

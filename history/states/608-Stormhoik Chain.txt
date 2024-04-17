@@ -5,6 +5,7 @@ state={
 		953 1717 2120 2841 3516 3615 3670 4496 4711 6641 6650 6670 6688 6714 6719 6795 6833 6874 6920 
 	}
 	history={
+		set_demilitarized_zone = yes
 	victory_points = {6795 20} #
 	victory_points = {6714 15} #
 	victory_points = {3516 10} #

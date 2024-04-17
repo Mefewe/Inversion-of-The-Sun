@@ -36,7 +36,7 @@ add_equipment_to_stockpile = {
          amount = 109
 }
 add_equipment_to_stockpile = {
-         type = anti_tank_inf_1_eq
+         type = anti_tank_inf_1
          amount = 59613
 }
 add_equipment_to_stockpile = {
@@ -44,7 +44,7 @@ add_equipment_to_stockpile = {
          amount = 31740
 }
 add_equipment_to_stockpile = {
-         type = infantry_equipment_0
+         type = infantry_equipment
          amount = 20719
 }
 add_equipment_to_stockpile = {

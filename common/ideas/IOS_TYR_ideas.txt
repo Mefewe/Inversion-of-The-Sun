@@ -1,21 +1,233 @@
 ideas = {
 	country = {
 		tyr_first_revolution = {
+			modifier = {
+				political_power_factor = -0.5
+				stability_factor = -0.35
+				conscription_factor = -0.45
+			}
 		}
-		tyr_unstable_situation = {
+		tyr_unstable_situation_1 = {
+			modifier = {
+				stability_factor = -0.3
+				political_power_factor = -0.25
+				compliance_growth_on_our_occupied_states = 0.05
+				resistance_damage_to_garrison_on_our_occupied_states = 0.15
+				resistance_activity = 0.2
+				resistance_target = 0.05
+			}
+		}
+		tyr_unstable_situation_2 = {
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = -0.125
+				compliance_growth_on_our_occupied_states = 0.025
+				resistance_damage_to_garrison_on_our_occupied_states = 0.075
+				resistance_activity = 0.1
+				resistance_target = 0.025
+			}
 		}
 		tyr_interspecific_tension = {
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_max_efficiency_factor = -0.075
+				production_speed_buildings_factor = -0.085
+			}
+		}
+		tyr_interspecific_stabilization = {
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.025
+				production_factory_max_efficiency_factor = -0.03
+				production_speed_buildings_factor = -0.03
+			}
+		}
+		tyr_interspecific_apartheid = {
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.075
+				production_factory_max_efficiency_factor = 0.085
+				production_speed_buildings_factor = 0.1
+			}
 		}
 		tyr_unpopular_leader = {
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.05
+				conscription_factor = -0.075
+			}
 		}
 		tyr_south_war_continues = {
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.15
+				conscription_factor = 0.05
+			}
 		}
 		tyr_army_issues = {
 			picture = generic_army_problems
 			modifier = {
 				attrition = 0.5
-				army_defence_factor = -0.35
-				army_attack_factor = -0.35
+				army_defence_factor = -0.5
+				army_attack_factor = -0.65
+			}
+		}
+		tyr_occupation_payments_idea = {
+			picture = generic_army_problems
+			modifier = {
+				political_power_factor = -0.05
+				consumer_goods_factor = 1.5
+			}
+		}
+		tyr_agitation_work_idea = {
+			modifier = {
+				political_power_factor = 0.5
+				stability_weekly = 0.025
+				conscription_factor = 0.035
+				compliance_growth_on_our_occupied_states = 0.35
+			}
+		}
+		tyr_kelpie_raids_idea = {
+			on_cancel = {
+				542 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				529 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				578 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				956 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				550 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				571 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				567 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				562 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+				547 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_KelpieResistance 
+					}
+				}
+			}
+			modifier = {
+				political_power_factor = 0.25
+				stability_weekly = -0.008
+				war_support_weekly = 0.025
+			}
+		}
+		tyr_abada_raids_idea = {
+			on_cancel = {
+				496 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				953 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				468 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				952 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				505 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				503 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				502 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				951 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+				961 = {
+					remove_dynamic_modifier = {
+						scope = TYR
+						modifier = TYR_AbadaResistance 
+					}
+				}
+			}
+			modifier = {
+				political_power_factor = 0.25
+				stability_weekly = -0.008
+				war_support_weekly = 0.025
+			}
+		}
+	}
+}
+
+ideas = {
+	hidden_ideas = {
+		TYR_AdministrationEquality_idea = {
+			modifier = {
+			}
+		}
+		TYR_InnerGovernorships_idea = {
+			modifier = {
 			}
 		}
 	}

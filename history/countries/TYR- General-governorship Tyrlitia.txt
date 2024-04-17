@@ -2,8 +2,8 @@
 
 capital = 678
 recruit_character = TYR_Mgabe_Zurasi
-set_stability = 0.4
-set_war_support = 0.2
+set_stability = 0
+set_war_support = 0.1
 
 ################## TECHS
 set_technology = {
@@ -53,59 +53,59 @@ set_technology = {
 
 #### INFANTRY
 add_equipment_to_stockpile = {
-         type = infantry_ammo_equipment_1
+         type = infantry_ammo_equipment
          amount = 3374
 }
 add_equipment_to_stockpile = {
-         type = infantry_equipment_1
+         type = infantry_equipment
          amount = 571
 }
 add_equipment_to_stockpile = {
-         type = anti_tank_inf_2_eq
+         type = anti_tank_inf_eq
          amount = 1922
 }
 add_equipment_to_stockpile = {
-         type = anti_air_equipment_hand_1
+         type = anti_air_inf_eq
          amount = 578
 }
 
 #### SUPPORT
 add_equipment_to_stockpile = {
-         type = support_equipment_1
+         type = support_equipment
          amount = 1028
 }
 add_equipment_to_stockpile = {
-         type = candc_equpment_1
+         type = candc_equpment
          amount = 4740
 }
 
 #### ARTILLERY
 add_equipment_to_stockpile = {
-         type = artillery_equipment_1
+         type = artillery_equipment
          amount = 394
 }
 
 #### MECHANIZED & MOTOR
 add_equipment_to_stockpile = {
-         type = bronetransporter_1
+         type = bronetransporter
          amount = 208
 }
 add_equipment_to_stockpile = {
-         type = motorized_equipment_1
+         type = motorized_equipment
          amount = 489
 }
 add_equipment_to_stockpile = {
-         type = mechanized_equipment_1
+         type = mechanized_equipment
          amount = 686
 }
 
 #### TANK
 add_equipment_to_stockpile = {
-         type = med_tank_eq_1
+         type = med_tank_eq
          amount = 1029
 }
 add_equipment_to_stockpile = {
-         type = tank_ammo_equipment_0
+         type = tank_ammo_equipment
          amount = 165
 }
 
@@ -118,11 +118,8 @@ add_ideas = {
 	#ideas
 	changeling_garrison
 	tyr_first_revolution
-	tyr_unstable_situation
 	tyr_interspecific_tension
 	tyr_unpopular_leader
-	tyr_south_war_continues
-	tyr_army_issues
 }
 set_politics = {
 	ruling_party = fascism

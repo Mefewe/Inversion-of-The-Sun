@@ -5,3 +5,34 @@ sdl_conf_internal_chaos_dyn = {
 	stability_factor = SDL_CONF_stabilityfactor # -0.35
 	political_power_factor = SDL_CONF_ppgain # -0.3
 }
+
+AOZ_Raid_Mod = {
+	icon = GFX_idea_unknown
+	army_defence_factor = -0.35
+	army_org_factor = -0.5
+	army_morale_factor = -0.35
+}
+
+TYR_SouthGuerillaActivities = {
+	icon = GFX_idea_unknown
+	compliance_growth = -0.35
+	resistance_growth = 0.25
+	resistance_damage_to_garrison = 0.15
+	local_resources = -0.15
+	local_factory_sabotage = 0.5
+	state_production_speed_buildings_factor = -0.1
+}
+
+TYR_KelpieResistance = {
+	icon = GFX_idea_unknown
+	compliance_growth = 0.15
+	resistance_growth = -0.35
+	resistance_damage_to_garrison = -0.1
+}
+
+TYR_AbadaResistance = {
+	icon = GFX_idea_unknown
+	compliance_growth = 0.15
+	resistance_growth = -0.35
+	resistance_damage_to_garrison = -0.1
+}

@@ -1,4 +1,4 @@
-﻿capital = 95
+﻿capital = 13
 recruit_character = UNC_NoAuthority
 set_stability = 0.4
 set_war_support = 0.2

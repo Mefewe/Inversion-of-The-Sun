@@ -19,3 +19,18 @@ AOZ_Begin_operation = {
 		}
 	}
 }
+AOZ_Raid_supplies_small_effect = {
+	AOZ = {
+		set_temp_variable_to_random = {
+			var = AOZ_InfEquipmentNumSmall
+			min = 200
+			max = 1000
+			integer = yes
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = AOZ_InfEquipmentNumSmall
+			producer = AOZ
+		}
+	}
+}

@@ -139,8 +139,10 @@ AOZ_Operation_Mahrots_Preparing = {
 			random = {
 				chance = 15
 				AOZ = {
-					country_event = AOZ.32
-					days = 15
+					country_event = { 
+						id = AOZ.32
+						days = 15
+					}
 				}
 			}
 			random = {
@@ -208,8 +210,10 @@ AOZ_Operation_Mahrots_Preparing = {
 			random = {
 				chance = 20
 				AOZ = {
-					country_event = AOZ.30
-					days = 10
+					country_event = {
+						id = AOZ.30
+						days = 10
+					}
 				}
 			}
 			random = {
@@ -237,6 +241,203 @@ AOZ_Operation_Mahrots_Preparing = {
 					days = 15
 				}
 			}
+		}
+	}
+}
+
+AOZ_Equipment_Receiving = {
+	AOZ_KopanimBase_RaidRandomNeighborState = {
+		days_remove = 5
+		visible = {
+			AOZ = {
+				has_idea = AOZ_Raider_economy
+			}
+		}
+		complete_effect = {
+			country_event = { 
+				id = AOZ_hidden.1
+				days = 5
+			}
+		}
+	}
+	AOZ_EsheingissBase_RaidRandomNeighborState = {
+		visible = {
+			AOZ = {
+				has_idea = AOZ_Raider_economy
+			}
+		}
+		complete_effect = {
+			country_event = { 
+				id = AOZ_hidden.2
+				days = 5
+			}
+		}
+	}
+	AOZ_RemoveRaiderEconomy = {
+		days_remove = 15
+		visible = {
+			AOZ = {
+				has_idea = AOZ_Raider_economy
+			}
+		}
+		complete_effect = {
+			country_event = {
+				id = AOZ_hidden.3
+				days = 15
+			}
+		}
+	}
+	AOZ_AddRaiderEconomy = {
+		days_remove = 15
+		visible = {
+			NOT = {
+				has_idea = AOZ_Raider_economy
+			}
+		}
+		complete_effect = {
+			country_event = {
+				id = AOZ_hidden.2
+				days = 15
+			}
+		}
+	}
+	AOZ_BlackMarketOpenTab = {
+		visible = {
+			NOT = {
+				has_country_flag = AOZ_BlackMarketTabOpened
+			}
+		}
+		complete_effect = {
+			set_country_flag = AOZ_BlackMarketTabOpened
+		}
+	}
+	AOZ_BlackMarketDummyDec = {
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		available = {
+			always = no
+		}
+		complete_effect = {
+			set_country_flag = AOZ_BlackMarketTabOpened
+		}
+	}
+	AOZ_BlackMarketBuySupport = {
+		days_remove = 15
+		cost = 100
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		complete_effect = {
+			random_list = {
+				80 = {
+					country_event = {
+						id = AOZ_BlackMarket.3
+						days = 15
+					}
+				}
+				10 = {
+					country_event = {
+						id = AOZ_BlackMarket.4
+						days = 15
+					}
+				}
+			}
+		}
+	}
+	AOZ_BlackMarketBuyInfantry = {
+		days_remove = 15
+		cost = 150
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		complete_effect = {
+			random_list = {
+				80 = {
+					country_event = {
+						id = AOZ_BlackMarket.1
+						days = 15
+					}
+				}
+				10 = {
+					country_event = {
+						id = AOZ_BlackMarket.2
+						days = 15
+					}
+				}
+			}
+		}
+	}
+	AOZ_BlackMarketBuyAntitank = {
+		days_remove = 15
+		cost = 300
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		complete_effect = {
+			random_list = {
+				80 = {
+					country_event = {
+						id = AOZ_BlackMarket.5
+						days = 15
+					}
+				}
+				10 = {
+					country_event = {
+						id = AOZ_BlackMarket.6
+						days = 15
+					}
+				}
+			}
+		}
+	}
+	AOZ_BlackMarketBuyAntiair = {
+		days_remove = 15
+		cost = 300
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		complete_effect = {
+			random_list = {
+				80 = {
+					country_event = {
+						id = AOZ_BlackMarket.7
+						days = 15
+					}
+				}
+				10 = {
+					country_event = {
+						id = AOZ_BlackMarket.8
+						days = 15
+					}
+				}
+			}
+		}
+	}
+	AOZ_BlackMarketBuyArtillery = {
+		days_remove = 15
+		cost = 500
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		complete_effect = {
+		}
+	}
+	AOZ_BlackMarketBuyMoto = {
+		days_remove = 15
+		cost = 500
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		complete_effect = {
+		}
+	}
+	AOZ_BlackMarketCloseTab = {
+		visible = {
+			has_country_flag = AOZ_BlackMarketTabOpened
+		}
+		complete_effect = {
+			clr_country_flag = AOZ_BlackMarketTabOpened
 		}
 	}
 }

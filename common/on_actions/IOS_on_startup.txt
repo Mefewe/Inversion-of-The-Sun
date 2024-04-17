@@ -22,9 +22,15 @@ on_actions = {
 				country_event = OZB_hidden.1
 			}
 			limit = {
+				tag = TYR
+			}
+			TYR = {
+				country_event = TYR_hidden.1
+			}
+			limit = {
 				tag = DRG
 			}
-			OZB = {
+			DRG = {
 				country_event = DRG_hidden.1
 			}
 		}

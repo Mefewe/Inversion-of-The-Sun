@@ -149,6 +149,287 @@ country_event = {
 }
 ###############################################################################################
 country_event = {
+	id = TYR.10
+	title = TYR.10.title
+	desc = TYR.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.10.a
+		add_ideas = tyr_unstable_situation_1
+	}
+}
+country_event = {
+	id = TYR.11
+	title = TYR.11.title
+	desc = TYR.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.11.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
+country_event = {
+	id = TYR.12
+	title = TYR.12.title
+	desc = TYR.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.12.a
+		add_manpower = -150
+		army_experience = 10
+		654 = {
+			set_demilitarized_zone = no
+		}
+		601 = {
+			set_demilitarized_zone = no
+		}
+		608 = {
+			set_demilitarized_zone = no
+		}
+	}
+}
+country_event = {
+	id = TYR.13
+	title = TYR.13.title
+	desc = TYR.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.13.a
+		add_political_power = 25
+		add_stability = 0.05
+		add_timed_idea = { idea = tyr_occupation_payments_idea days = 60 }
+	}
+}
+country_event = {
+	id = TYR.14
+	title = TYR.14.title
+	desc = TYR.14.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.14.a
+		678 = {
+			damage_building = {
+				type = industrial_complex
+				damage = 2
+			}
+			damage_building = {
+				type = arms_factory
+				damage = 2
+			}
+			damage_building = {
+				type = ammo_complex
+				damage = 1
+			}
+		}
+		585 = {
+			damage_building = {
+				type = industrial_complex
+				damage = 5
+			}
+			damage_building = {
+				type = arms_factory
+				damage = 5
+			}
+		}
+		528 = {
+			damage_building = {
+				type = dockyard
+				damage = 5
+			}
+		}
+		add_equipment_to_stockpile = {
+         		type = infantry_ammo_equipment
+         		amount = -50000
+		}
+		add_equipment_to_stockpile = {
+        		type = infantry_equipment
+         		amount = -25000
+		}
+		add_equipment_to_stockpile = {
+         		type = anti_tank_inf_eq
+         		amount = -2500
+		}
+		add_equipment_to_stockpile = {
+        		type = anti_air_inf_eq
+         		amount = -1500
+		}
+		add_equipment_to_stockpile = {
+        		type = support_equipment
+         		amount = -650
+		}
+		add_equipment_to_stockpile = {
+         		type = candc_equpment
+         		amount = -5000
+		}
+		add_equipment_to_stockpile = {
+         		type = artillery_equipment
+         		amount = -500
+		}
+		add_equipment_to_stockpile = {
+         		type = artillery_ammo_equipment
+         		amount = -1000
+		}
+		add_equipment_to_stockpile = {
+         		type = bronetransporter
+        		amount = -100
+		}
+		add_equipment_to_stockpile = {
+         		type = motorized_equipment
+         		amount = -150
+		}
+		add_equipment_to_stockpile = {
+         		type = mechanized_equipment
+        		amount = -50
+		}
+	}
+}
+country_event = {
+	id = TYR.15
+	title = TYR.15.title
+	desc = TYR.15.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.15.a
+		add_political_power = 50
+		add_ideas = {
+			tyr_south_war_continues
+			tyr_army_issues
+		}
+	}
+}
+country_event = {
+	id = TYR.16
+	title = TYR.16.title
+	desc = TYR.16.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.16.a
+		add_political_power = 50
+		add_stability = 0.1
+	}
+}
+country_event = {
+	id = TYR.17
+	title = TYR.17.title
+	desc = TYR.17.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.17.a
+		add_manpower = -850
+		add_stability = 0.05
+		add_political_power = 75
+		add_war_support = 0.075
+	}
+}
+country_event = {
+	id = TYR.18
+	title = TYR.18.title
+	desc = TYR.18.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.18.a
+		add_political_power = 100
+		add_stability = 0.05
+		swap_ideas = {
+			add_idea = tyr_unstable_situation_2
+			remove_idea = tyr_unstable_situation_1
+		}
+	}
+}
+country_event = {
+	id = TYR.19
+	title = TYR.19.title
+	desc = TYR.19.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.19.a
+		add_political_power = 50
+		manpower = 1254
+	}
+}
+country_event = {
+	id = TYR.20
+	title = TYR.20.title
+	desc = TYR.20.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.20.a
+		add_political_power = 50
+		manpower = -749
+	}
+}
+country_event = {
+	id = TYR.21
+	title = TYR.21.title
+	desc = TYR.21.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.21.a
+	}
+	option = {
+		name = TYR.21.b
+	}
+}
+country_event = {
+	id = TYR.22
+	title = TYR.22.title
+	desc = TYR.22.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.22.a
+		swap_ideas = {
+			add_idea = tyr_interspecific_stabilization
+			remove_idea = tyr_interspecific_tension
+		}
+	}
+	option = {
+		name = TYR.22.b
+		swap_ideas = {
+			add_idea = tyr_interspecific_apartheid
+			remove_idea = tyr_interspecific_tension
+		}
+	}
+}
+country_event = {
+	id = TYR.23
+	title = TYR.23.title
+	desc = TYR.23.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.23.a
+	}
+}
+###############################################################################################
+country_event = {
 	id = TYR.100 # Первый ивент для смены 1 древа фокусов на 2
 	title = TYR.100.title
 	desc = TYR.100.desc
@@ -459,3 +740,23 @@ country_event = {
 	}
 }
 ###########################################
+
+country_event = {
+	id = TYR_hidden.1
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+		TYR = {
+			remove_state_core = 678
+			remove_state_core = 702
+			678 = {
+				start_resistance = yes
+				set_compliance = 70
+			}
+			702 = {
+				start_resistance = yes
+				set_compliance = 70
+			}
+		}
+	}
+}

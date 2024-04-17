@@ -8,9 +8,9 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
-	shared_focus = TYR_GovernorSpeech
+	shared_focus = TYR_WeekOfVictoriesAndFails
 	default = no
-	continuous_focus_position = { x = 2800 y = 2200 }
+	continuous_focus_position = { x = 2000 y = 1200 }
 }
 focus_tree = {
 	id = TYR_focus_tree_two
@@ -22,7 +22,7 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
-	shared_focus = TYR_GovernorSpeech
+	shared_focus = TYR_WeekOfVictoriesAndFails
 	shared_focus = TYR_Zebrijskaja_problema
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
@@ -38,7 +38,7 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
-	shared_focus = TYR_GovernorSpeech
+	shared_focus = TYR_WeekOfVictoriesAndFails
 	shared_focus = TYR_Zebrijskaja_problema
 	shared_focus = TYR_nam_pizda
 	default = no
@@ -46,233 +46,593 @@ focus_tree = {
 }
 
 shared_focus = {
-	id = TYR_GovernorSpeech
-	cost = 1
+	id = TYR_WeekOfVictoriesAndFails
+	cost = 0.5
 	x = 12
 	y = 0
-	completion_reward = { 
+	completion_reward = {
+		country_event = {days = 1 id = TYR.10}
+		add_war_support = 0.05
 	}
 }
 
 shared_focus = {
-	id = TYR_LastOperation
+	id = TYR_GovernorSpeech
 	prerequisite = {
-		focus = TYR_GovernorSpeech
+		focus = TYR_WeekOfVictoriesAndFails
 	}
-	cost = 1
+	cost = 2
 	x = 11
 	y = 1
-	completion_reward = { 
+	completion_reward = {
+		country_event = {days = 1 id = TYR.11}
 	}
 }
 
 shared_focus = {
-	id = TYR_RegionStabilized
+	id = TYR_GuerillaZones
 	prerequisite = {
-		focus = TYR_GovernorSpeech
+		focus = TYR_WeekOfVictoriesAndFails
 	}
-	cost = 1
+	cost = 2
 	x = 13
 	y = 1
-	completion_reward = { 
+	completion_reward = {
+		country_event = {days = 1 id = TYR.12}
 	}
 }
 
 shared_focus = {
-	id = TYR_TheNewReign
+	id = TYR_OccupationPayments
 	prerequisite = {
-		focus = TYR_LastOperation
+		focus = TYR_WeekOfVictoriesAndFails
 	}
-	prerequisite = {
-		focus = TYR_RegionStabilized
-	}
-	cost = 1
-	x = 12
+	cost = 2
+	x = 10
 	y = 2
 	completion_reward = { 
+		country_event = {days = 1 id = TYR.13}
 	}
 }
 
 shared_focus = {
-	id = TYR_AbadaRaids
+	id = TYR_MaterialCommission
 	prerequisite = {
-		focus = TYR_TheNewReign
+		focus = TYR_WeekOfVictoriesAndFails
 	}
-	cost = 1
-	x = 9
+	cost = 3
+	x = 12
+	y = 2
+	completion_reward = {
+		country_event = {days = 1 id = TYR.14}
+	}
+}
+
+shared_focus = {
+	id = TYR_NewInformation
+	prerequisite = {
+		focus = TYR_WeekOfVictoriesAndFails
+	}
+	cost = 2
+	x = 14
+	y = 2
+	completion_reward = {
+		country_event = {days = 1 id = TYR.15}
+		957 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		758 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		958 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		779 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		665 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		802 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		756 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		712 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+		959 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_SouthGuerillaActivities
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = TYR_AgitationWork
+	prerequisite = {
+		focus = TYR_WeekOfVictoriesAndFails
+	}
+	prerequisite = {
+		focus = TYR_OccupationPayments
+	}
+	cost = 2
+	x = 11
 	y = 3
-	completion_reward = { 
+	completion_reward = {
+		add_timed_idea = { idea = tyr_agitation_work_idea days = 75 }
+		country_event = {days = 1 id = TYR.16}
 	}
 }
 
 shared_focus = {
-	id = TYR_AbadaRepressions
+	id = TYR_DestroyWhiteAmbands
 	prerequisite = {
-		focus = TYR_AbadaRaids
+		focus = TYR_WeekOfVictoriesAndFails
 	}
-	mutually_exclusive = {
-		focus = TYR_SoftAbadaPolicy
+	prerequisite = {
+		focus = TYR_NewInformation
 	}
-	cost = 1
-	x = 9
-	y = 4
-	completion_reward = { 
+	cost = 2
+	x = 13
+	y = 3
+	completion_reward = {
+		country_event = {days = 1 id = TYR.17}
 	}
 }
 
 shared_focus = {
-	id = TYR_SoftAbadaPolicy
+	id = TYR_ReturnOfRegime
 	prerequisite = {
-		focus = TYR_AbadaRaids
+		focus = TYR_MaterialCommission
 	}
-	mutually_exclusive = {
-		focus = TYR_AbadaRepressions
-	}
-	cost = 1
-	x = 7
-	y = 4
-	completion_reward = { 
-	}
-}
-
-shared_focus = {
-	id = TYR_ZebraRaids
 	prerequisite = {
-		focus = TYR_TheNewReign
+		focus = TYR_AgitationWork
+	}
+	prerequisite = {
+		focus = TYR_DestroyWhiteAmbands
 	}
 	cost = 1
 	x = 12
-	y = 3
-	completion_reward = { 
+	y = 4
+	completion_reward = {
+		country_event = {days = 1 id = TYR.18}
 	}
 }
 
 shared_focus = {
-	id = TYR_UnitedZebraPolicy
+	id = TYR_MareitsaOperation
 	prerequisite = {
-		focus = TYR_ZebraRaids
+		focus = TYR_ReturnOfRegime
 	}
-	mutually_exclusive = {
-		focus = TYR_ZebraMinoritiesPolicy
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_MareitsaOperation_trigger_tt
+			has_completed_focus = TYR_ReturnOfRegime
+		}
 	}
 	cost = 1
 	x = 11
-	y = 4
-	completion_reward = { 
-	}
-}
-
-shared_focus = {
-	id = TYR_ZebraMinoritiesPolicy
-	prerequisite = {
-		focus = TYR_ZebraRaids
-	}
-	mutually_exclusive = {
-		focus = TYR_UnitedZebraPolicy
-	}
-	cost = 1
-	x = 13
-	y = 4
-	completion_reward = { 
+	y = 5
+	completion_reward = {
+		custom_effect_tooltip = TYR_MareitsaOperation_focus_tt
+		hidden_effect = {
+			TYR = {
+				set_state_owner = 542
+				set_state_owner = 529
+				set_state_owner = 578
+				set_state_owner = 956
+				set_state_owner = 550
+				set_state_owner = 571
+				set_state_owner = 567
+				set_state_owner = 562
+				set_state_owner = 547
+			}
+		}
 	}
 }
 
 shared_focus = {
 	id = TYR_KelpieRaids
 	prerequisite = {
-		focus = TYR_TheNewReign
+		focus = TYR_MareitsaOperation
 	}
 	cost = 1
-	x = 15
-	y = 3
+	x = 11
+	y = 6
 	completion_reward = { 
+		add_timed_idea = { idea = tyr_kelpie_raids_idea days = 30 }
+		country_event = {days = 1 id = TYR.19}
+		542 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		529 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		578 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		956 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		550 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		571 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		567 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		562 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
+		547 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_KelpieResistance 
+			}
+		}
 	}
 }
 
 shared_focus = {
-	id = TYR_KelpieRepressions
+	id = TYR_ProtectTheFarms
 	prerequisite = {
-		focus = TYR_KelpieRaids
-	}
-	mutually_exclusive = {
-		focus = TYR_SoftKelpiePolicy
+		focus = TYR_MareitsaOperation
 	}
 	cost = 1
-	x = 15
-	y = 4
+	x = 9
+	y = 6
 	completion_reward = { 
+		add_stability = 0.1
+		add_political_power = 50
 	}
 }
 
 shared_focus = {
-	id = TYR_SoftKelpiePolicy
+	id = TYR_ToRecoveryTheMines
 	prerequisite = {
-		focus = TYR_KelpieRaids
-	}
-	mutually_exclusive = {
-		focus = TYR_KelpieRepressions
+		focus = TYR_MareitsaOperation
 	}
 	cost = 1
-	x = 17
-	y = 4
+	x = 10
+	y = 7
 	completion_reward = { 
+		add_resource = {
+			type = tungsten
+			amount = 8
+			state = 562
+		}
+		add_resource = {
+			type = chromium
+			amount = 9
+			state = 562
+		}
+		add_resource = {
+			type = aluminium
+			amount = 23
+			state = 562
+		}
+		add_resource = {
+			type = steel
+			amount = 19
+			state = 562
+		}
+		add_resource = {
+			type = aluminium
+			amount = 20
+			state = 571
+		}
+		add_resource = {
+			type = steel
+			amount = 11
+			state = 571
+		}
+		add_resource = {
+			type = tungsten
+			amount = 6
+			state = 542
+		}
+		add_resource = {
+			type = aluminium
+			amount = 14
+			state = 542
+		}
+		add_resource = {
+			type = steel
+			amount = 12
+			state = 542
+		}
 	}
 }
 
 shared_focus = {
-	id = TYR_AbadaDistrictZone
+	id = TYR_BehindRiverInSands
 	prerequisite = {
-		focus = TYR_SoftAbadaPolicy
-		focus = TYR_AbadaRepressions
+		focus = TYR_ReturnOfRegime
+	}
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_BehindRiverInSands_trigger_tt
+			has_completed_focus = TYR_MareitsaOperation
+		}
 	}
 	cost = 1
-	x = 8
+	x = 13
 	y = 5
 	completion_reward = { 
+		custom_effect_tooltip = TYR_BehindRiverInSands_focus_tt
+		hidden_effect = {
+			TYR = {
+				set_state_owner = 496
+				set_state_owner = 953
+				set_state_owner = 468
+				set_state_owner = 952
+				set_state_owner = 505
+				set_state_owner = 503
+				set_state_owner = 502
+				set_state_owner = 951
+				set_state_owner = 961
+			}
+		}
 	}
 }
 
 shared_focus = {
-	id = TYR_ZebraNationalityProblem
+	id = TYR_AbadaRaids
 	prerequisite = {
-		focus = TYR_UnitedZebraPolicy
-		focus = TYR_ZebraMinoritiesPolicy
+		focus = TYR_BehindRiverInSands
+	}
+	cost = 1
+	x = 13
+	y = 6
+	completion_reward = { 
+		add_timed_idea = { idea = tyr_abada_raids_idea days = 30 }
+		country_event = {days = 1 id = TYR.20}
+		496 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		953 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		468 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		952 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		505 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		503 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		502 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		951 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+		961 = {
+			add_dynamic_modifier = {
+				scope = TYR
+				modifier = TYR_AbadaResistance 
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = TYR_OrnithianEducation
+	prerequisite = {
+		focus = TYR_BehindRiverInSands
+	}
+	cost = 1
+	x = 15
+	y = 6
+	completion_reward = { 
+		hidden_effect = {
+			country_event = {days = 1 id = TYR.21}
+		}
+	}
+}
+
+shared_focus = {
+	id = TYR_SeadelatCamps
+	prerequisite = {
+		focus = TYR_BehindRiverInSands
+	}
+	cost = 1
+	x = 14
+	y = 7
+	completion_reward = { 
+		503 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = TYR_StatusOfUsefulMinorities
+	prerequisite = {
+		focus = TYR_MareitsaOperation
+	}
+	prerequisite = {
+		focus = TYR_BehindRiverInSands
 	}
 	cost = 1
 	x = 12
-	y = 5
+	y = 7
 	completion_reward = { 
+		country_event = {days = 1 id = TYR.22}
 	}
 }
 
 shared_focus = {
-	id = TYR_KelpieDistrictZone
+	id = TYR_GovernorshipOfTwoMareities
 	prerequisite = {
-		focus = TYR_SoftKelpiePolicy
-		focus = TYR_KelpieRepressions
+		focus = TYR_KelpieRaids
+	}
+	prerequisite = {
+		focus = TYR_ProtectTheFarms
+	}
+	prerequisite = {
+		focus = TYR_ToRecoveryTheMines
+	}
+	prerequisite = {
+		focus = TYR_AbadaRaids
+	}
+	prerequisite = {
+		focus = TYR_OrnithianEducation
+	}
+	prerequisite = {
+		focus = TYR_SeadelatCamps
+	}
+	prerequisite = {
+		focus = TYR_StatusOfUsefulMinorities
+	}
+	mutually_exclusive = {
+		focus = TYR_AdministrationEquality
 	}
 	cost = 1
-	x = 16
-	y = 5
+	x = 11
+	y = 8
 	completion_reward = { 
+		add_ideas = TYR_AdministrationEquality_idea
+	}
+}
+
+shared_focus = {
+	id = TYR_AdministrationEquality
+	prerequisite = {
+		focus = TYR_KelpieRaids
+	}
+	prerequisite = {
+		focus = TYR_ProtectTheFarms
+	}
+	prerequisite = {
+		focus = TYR_ToRecoveryTheMines
+	}
+	prerequisite = {
+		focus = TYR_AbadaRaids
+	}
+	prerequisite = {
+		focus = TYR_OrnithianEducation
+	}
+	prerequisite = {
+		focus = TYR_SeadelatCamps
+	}
+	prerequisite = {
+		focus = TYR_StatusOfUsefulMinorities
+	}
+	mutually_exclusive = {
+		focus = TYR_GovernorshipOfTwoMareities
+	}
+	cost = 1
+	x = 13
+	y = 8
+	completion_reward = { 
+		add_ideas = TYR_InnerGovernorships_idea
 	}
 }
 
 shared_focus = {
 	id = TYR_MgabeDossier
 	prerequisite = {
-		focus = TYR_AbadaDistrictZone
-	}
-	prerequisite = {
-		focus = TYR_ZebraNationalityProblem
-	}
-	prerequisite = {
-		focus = TYR_KelpieDistrictZone
+		focus = TYR_GovernorshipOfTwoMareities
+		focus = TYR_AdministrationEquality
 	}
 	cost = 1
 	x = 12
-	y = 6
+	y = 9
 	completion_reward = { 
+		country_event = {days = 1 id = TYR.23}
 	}
 }
 

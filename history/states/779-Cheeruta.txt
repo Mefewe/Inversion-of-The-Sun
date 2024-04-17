@@ -5,6 +5,7 @@ state={
 		7547
 	}
 	history={
+		set_demilitarized_zone = yes
 	victory_points = {7547 30} # Чирута
         owner = TYR
         add_core_of = ABS
