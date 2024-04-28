@@ -12,6 +12,7 @@ on_actions = {
             if = {
                 limit = {
                     has_global_flag = SDL_FactionStruggleBegins
+			SDL = { is_ai = no }
                 }
 		set_variable = { bugFix = stability }
                 set_variable = { coeffRisk = 0}

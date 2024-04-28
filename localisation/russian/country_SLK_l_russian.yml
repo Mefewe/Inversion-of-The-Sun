@@ -1,0 +1,45 @@
+﻿l_russian:
+ ####################
+ ### COUNTRY NAME ###
+ ####################
+ 
+ ### SLK
+ 
+ SLK_fascism: "Салекхское Движение"
+ SLK_democratic: "Салекхское Движение"
+ SLK_neutrality: "Салекхское Движение"
+ SLK_communism: "Салекхское Движение"
+ SLK_paternalism: "Салекхское Движение"
+ SLK_progressivism: "Салекхское Движение"
+ 
+ SLK_fascism_DEF: "Салекхское Движение"
+ SLK_democratic_DEF: "Салекхское Движение"
+ SLK_neutrality_DEF: "Салекхское Движение"
+ SLK_communism_DEF: "Салекхское Движение"
+ SLK_paternalism_DEF: "Салекхское Движение"
+ SLK_progressivism_DEF: "Салекхское Движение"
+ 
+ SLK_fascism_ADJ: "Салекхск."
+ SLK_democratic_ADJ: "Салекхск."
+ SLK_neutrality_ADJ: "Салекхск."
+ SLK_communism_ADJ: "Салекхск."
+ SLK_paternalism_ADJ: "Салекхск."
+ SLK_progressivism_ADJ: "Салекхск."
+ 
+ ###############
+ ### LEADERS ###
+ ###############
+ SLK_Leader: "Руководитель салекхов"
+ SLK_Leader_desc: "" 
+ 
+ #############
+ ### IDEAS ###
+ #############
+
+ ######################
+ ### NATIONAL_FOCUS ###
+ ######################
+
+ ##############
+ ### EVENTS ###
+ ##############

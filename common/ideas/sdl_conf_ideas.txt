@@ -315,5 +315,8 @@ ideas = {
 				stability_factor = -0.7
 			}
 		}
+
+		### AI HIDDEN IDEAS ###
+
 	}
 }

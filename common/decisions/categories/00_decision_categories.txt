@@ -12,6 +12,14 @@ DRG_debug_decisions = {
 		tag = DRG
 	}
 }
+TYR_debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_ai = no
+		is_debug = yes
+		tag = TYR
+	}
+}
 AOZ_debug_decisions = {
 	icon = generic_research
 	visible = {

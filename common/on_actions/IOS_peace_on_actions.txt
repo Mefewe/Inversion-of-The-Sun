@@ -156,6 +156,43 @@ on_actions = {
 						######
 					}
 				}
+				if = { ####### Удаление корок салекхов
+					limit = {
+						ROOT = { original_tag = SLK }	
+					}
+					remove_state_core = 411
+					remove_state_core = 412
+					remove_state_core = 410
+					remove_state_core = 425
+					remove_state_core = 417
+					remove_state_core = 459
+					remove_state_core = 455
+					remove_state_core = 467
+					remove_state_core = 492
+					remove_state_core = 501
+					remove_state_core = 498
+					remove_state_core = 460
+					remove_state_core = 483
+					remove_state_core = 503
+					remove_state_core = 604
+					remove_state_core = 551
+					remove_state_core = 411
+					remove_state_core = 557
+					remove_state_core = 558
+					remove_state_core = 527
+					remove_state_core = 586
+					remove_state_core = 521
+					remove_state_core = 546
+					remove_state_core = 504
+					remove_state_core = 569
+					remove_state_core = 552
+					remove_state_core = 508
+					remove_state_core = 960
+					remove_state_core = 533
+					remove_state_core = 600
+					remove_state_core = 620
+					remove_state_core = 595
+				}
 				if = {
 					limit = {
 						ROOT = { original_tag = OZB }	

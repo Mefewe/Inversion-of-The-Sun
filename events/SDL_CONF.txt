@@ -1,6 +1,7 @@
 add_namespace = SDL_base
 add_namespace = SDL_ostequ
 add_namespace = SDL_dragons
+add_namespace = SDL_hidden
 
 ### Negotitaions with OEF
 
@@ -372,10 +373,24 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = SDL_base.12.a
+		trigger = {
+			is_ai = no
+		}
 		set_power_balance = {
 			id = SDL_CONF_CONVENT_VS_SILVA_balance
 		}
 		set_global_flag = SDL_FactionStruggleBegins
+	}
+	option = {
+		name = SDL_base.12.b
+		trigger = {
+			is_ai = yes
+		}
+		set_power_balance = {
+			id = SDL_CONF_CONVENT_VS_SILVA_balance
+		}
+		set_global_flag = SDL_FactionStruggleBegins
+		country_event = { id = SDL_hidden.1 days = 180 }
 	}
 }
 country_event = {
@@ -1076,6 +1091,131 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = SDL_base.30
+	title = SDL_base.30.title
+	desc = SDL_base.30.desc
+	picture = GFX_placeholder
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SDL_base.30.a
+		SLK = {
+			transfer_state = 411
+			transfer_state = 412
+			transfer_state = 410
+			transfer_state = 425
+
+			### SDL CORES
+			add_state_core = 411
+			add_state_core = 412
+			add_state_core = 410
+			add_state_core = 425
+			add_state_core = 417
+			add_state_core = 459
+			add_state_core = 455
+			add_state_core = 467
+			add_state_core = 492
+			add_state_core = 501
+			add_state_core = 498
+			add_state_core = 460
+			add_state_core = 483
+			add_state_core = 503
+			add_state_core = 604
+			add_state_core = 551
+			add_state_core = 411
+			add_state_core = 557
+			add_state_core = 558
+			add_state_core = 527
+			add_state_core = 586
+			add_state_core = 521
+			add_state_core = 546
+			add_state_core = 504
+			add_state_core = 569
+			add_state_core = 552
+			add_state_core = 508
+			add_state_core = 960
+			add_state_core = 533
+			add_state_core = 600
+			add_state_core = 620
+			add_state_core = 595
+
+			declare_war_on = {
+				target = SDL
+				type = civil_war
+			}
+			load_oob = "SLK"
+			delete_unit_template_and_units = {
+   				division_template = "Infantry Division"
+			}
+			delete_unit_template_and_units = {
+   				division_template = "Militia Brigade"
+			}
+			delete_unit_template_and_units = {
+   				division_template = "Tank Brigade"
+			}
+			delete_unit_template_and_units = {
+   				division_template = "Motorized Brigade"
+			}
+			delete_unit_template_and_units = {
+   				division_template = "Saddle Arabian Guards"
+			}
+			delete_unit_template_and_units = {
+   				division_template = "Griffin Brigade"
+			}
+			delete_unit_template_and_units = {
+   				division_template = "Mountaineer Brigade"
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 29481
+				producer = SDL
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_ammo_equipment
+				amount = 58162
+				producer = SDL
+			}
+			add_equipment_to_stockpile = {
+				type = candc_equipment
+				amount = 7217
+				producer = SDL
+			}
+			add_equipment_to_stockpile = {
+				type = anti_tank_inf_eq
+				amount = 4908
+				producer = SDL
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 11271
+				producer = SDL
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 908
+				producer = SDL
+			}
+			add_equipment_to_stockpile = {
+				type = bronetransporter
+				amount = 837
+				producer = SDL
+			}
+			add_equipment_to_stockpile = {
+				type = mechanized_equipment
+				amount = 918
+				producer = SDL
+			}
+		}
+		set_global_flag = SalekhRevolt_1
+		hidden_effect = {
+			news_event = { id = SDL_CONF_News.1 days = 1 }
+		}
+	}
+}
+
 ### TRANZEBRICAN RALLY STARTS
 country_event = {
 	id = SDL_base.5
@@ -1147,5 +1287,17 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+### HIDDEN SDL EVENTS ###
+
+country_event = {
+	id = SDL_hidden.1
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		add_power_balance_value = { id = SDL_CONF_CONVENT_VS_SILVA_balance value = 1 }
+		set_variable = { var = riskStaticFactor value = 0 }
 	}
 }

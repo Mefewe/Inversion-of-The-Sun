@@ -1,0 +1,601 @@
+division_template = {
+        name = "Salekh Manjasin"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+        }
+}
+division_template = {
+        name = "Salekh Sakhi Manjasin"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+        }
+}
+division_template = {
+        name = "Manjasin Al-jabal"
+        regiments = {
+                mountaineers = { x = 0 y = 0 }
+                mountaineers = { x = 1 y = 0 }
+                mountaineers = { x = 2 y = 0 }
+                mountaineers = { x = 0 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+        }
+}
+division_template = {
+        name = "Manjasin Al-kharis"
+	priority = 2
+        regiments = {
+		guard = { x = 0 y = 0 }
+		guard = { x = 0 y = 1 }
+		guard = { x = 1 y = 0 }
+		guard = { x = 1 y = 1 }
+        }
+        support = {
+                engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+                artillery = { x = 0 y = 2 }
+        }
+}
+division_template = {
+        name = "Salekh Manjasin Elneis"
+	is_locked = yes
+        regiments = {
+                irregular_infantry = { x = 0 y = 0 }
+                irregular_infantry = { x = 1 y = 0 }
+                irregular_infantry = { x = 0 y = 1 }
+                irregular_infantry = { x = 1 y = 1 }
+        }
+}
+
+units = {
+### Normal templates
+        division = {
+                name = "1. Salekh Manjasin"
+		location = 4758
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Salekh Manjasin"
+		location = 9218
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Salekh Manjasin"
+		location = 5762
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.23
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Salekh Manjasin"
+		location = 9222
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.21
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Salekh Manjasin"
+		location = 5763
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Salekh Manjasin"
+		location = 9227
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Salekh Manjasin"
+		location = 5971
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Salekh Manjasin"
+		location = 5757
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.23
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Salekh Manjasin"
+		location = 9256
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Salekh Manjasin"
+		location = 9249
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+
+        division = {
+                name = "11. Salekh Manjasin"
+		location = 2516
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Salekh Manjasin"
+		location = 9346
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Salekh Manjasin"
+		location = 6091
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Salekh Manjasin"
+		location = 9349
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Salekh Manjasin"
+		location = 9342
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Salekh Manjasin"
+		location = 9342
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Salekh Manjasin"
+		location = 2516
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.34
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Salekh Manjasin"
+		location = 5807
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Salekh Manjasin"
+		location = 9352
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "20. Salekh Manjasin"
+		location = 9338
+		division_template = "Salekh Manjasin"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Light templates
+        division = {
+                name = "1. Salekh Sakhi Manjasin"
+		location = 9229
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Salekh Sakhi Manjasin"
+		location = 4193
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Salekh Sakhi Manjasin"
+		location = 9240
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Salekh Sakhi Manjasin"
+		location = 2490
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Salekh Sakhi Manjasin"
+		location = 9237
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Salekh Sakhi Manjasin"
+		location = 9272
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Salekh Sakhi Manjasin"
+		location = 9269
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Salekh Sakhi Manjasin"
+		location = 9262
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Salekh Sakhi Manjasin"
+		location = 9316
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Salekh Sakhi Manjasin"
+		location = 9311
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.21
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Salekh Sakhi Manjasin"
+		location = 5947
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Salekh Sakhi Manjasin"
+		location = 9286
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.26
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Salekh Sakhi Manjasin"
+		location = 9365
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.21
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Salekh Sakhi Manjasin"
+		location = 6229
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.18
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Salekh Sakhi Manjasin"
+		location = 9349
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Salekh Sakhi Manjasin"
+		location = 3177
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Salekh Sakhi Manjasin"
+		location = 9379
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Salekh Sakhi Manjasin"
+		location = 5937
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "19. Salekh Sakhi Manjasin"
+		location = 9303
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "20. Salekh Sakhi Manjasin"
+		location = 4739
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "21. Salekh Sakhi Manjasin"
+		location = 9352
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.26
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "22. Salekh Sakhi Manjasin"
+		location = 9340
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "23. Salekh Sakhi Manjasin"
+		location = 9344
+		division_template = "Salekh Sakhi Manjasin"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Mountaineer templates
+        division = {
+                name = "1. Manjasin Al-jabal"
+		location = 1933
+		division_template = "Manjasin Al-jabal"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Manjasin Al-jabal"
+		location = 1933
+		division_template = "Manjasin Al-jabal"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Manjasin Al-jabal"
+		location = 1933
+		division_template = "Manjasin Al-jabal"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Guard templates
+        division = {
+                name = "1. Manjasin Al-kharis"
+		location = 4584
+		division_template = "Manjasin Al-kharis"
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Manjasin Al-kharis"
+		location = 6089
+		division_template = "Manjasin Al-kharis"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+### Irregular militia templates
+        division = {
+                name = "1. Salekh Manjasin Elneis"
+		location = 5763
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Salekh Manjasin Elneis"
+		location = 4758
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Salekh Manjasin Elneis"
+		location = 9222
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Salekh Manjasin Elneis"
+		location = 9256
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Salekh Manjasin Elneis"
+		location = 5757
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Salekh Manjasin Elneis"
+		location = 4584
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Salekh Manjasin Elneis"
+		location = 6089
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Salekh Manjasin Elneis"
+		location = 3812
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Salekh Manjasin Elneis"
+		location = 2993
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Salekh Manjasin Elneis"
+		location = 5807
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Salekh Manjasin Elneis"
+		location = 2516
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Salekh Manjasin Elneis"
+		location = 9342
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Salekh Manjasin Elneis"
+		location = 9344
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Salekh Manjasin Elneis"
+		location = 9352
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "15. Salekh Manjasin Elneis"
+		location = 6229
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "16. Salekh Manjasin Elneis"
+		location = 9379
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "17. Salekh Manjasin Elneis"
+		location = 2516
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+        division = {
+                name = "18. Salekh Manjasin Elneis"
+		location = 9346
+		division_template = "Salekh Manjasin Elneis"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+		start_manpower_factor = 1.0
+	}
+}

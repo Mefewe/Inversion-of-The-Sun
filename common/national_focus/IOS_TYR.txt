@@ -22,7 +22,22 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
-	shared_focus = TYR_WeekOfVictoriesAndFails
+	shared_focus = TYR_AftermathOfRevolution
+	shared_focus = TYR_ArmyWillWait
+	shared_focus = TYR_AufklarungInfluence
+	default = no
+	continuous_focus_position = { x = 2000 y = 1200 }
+}
+focus_tree = {
+	id = TYR_focus_crisis_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = TYR
+		}
+	}
 	shared_focus = TYR_Zebrijskaja_problema
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
@@ -38,7 +53,6 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
-	shared_focus = TYR_WeekOfVictoriesAndFails
 	shared_focus = TYR_Zebrijskaja_problema
 	shared_focus = TYR_nam_pizda
 	default = no
@@ -238,7 +252,7 @@ shared_focus = {
 			has_completed_focus = TYR_ReturnOfRegime
 		}
 	}
-	cost = 1
+	cost = 3
 	x = 11
 	y = 5
 	completion_reward = {
@@ -264,7 +278,7 @@ shared_focus = {
 	prerequisite = {
 		focus = TYR_MareitsaOperation
 	}
-	cost = 1
+	cost = 3
 	x = 11
 	y = 6
 	completion_reward = { 
@@ -332,7 +346,7 @@ shared_focus = {
 	prerequisite = {
 		focus = TYR_MareitsaOperation
 	}
-	cost = 1
+	cost = 2
 	x = 9
 	y = 6
 	completion_reward = { 
@@ -346,7 +360,7 @@ shared_focus = {
 	prerequisite = {
 		focus = TYR_MareitsaOperation
 	}
-	cost = 1
+	cost = 3
 	x = 10
 	y = 7
 	completion_reward = { 
@@ -409,7 +423,7 @@ shared_focus = {
 			has_completed_focus = TYR_MareitsaOperation
 		}
 	}
-	cost = 1
+	cost = 3
 	x = 13
 	y = 5
 	completion_reward = { 
@@ -435,7 +449,7 @@ shared_focus = {
 	prerequisite = {
 		focus = TYR_BehindRiverInSands
 	}
-	cost = 1
+	cost = 3
 	x = 13
 	y = 6
 	completion_reward = { 
@@ -503,7 +517,7 @@ shared_focus = {
 	prerequisite = {
 		focus = TYR_BehindRiverInSands
 	}
-	cost = 1
+	cost = 2
 	x = 15
 	y = 6
 	completion_reward = { 
@@ -518,7 +532,7 @@ shared_focus = {
 	prerequisite = {
 		focus = TYR_BehindRiverInSands
 	}
-	cost = 1
+	cost = 3
 	x = 14
 	y = 7
 	completion_reward = { 
@@ -546,7 +560,7 @@ shared_focus = {
 	prerequisite = {
 		focus = TYR_BehindRiverInSands
 	}
-	cost = 1
+	cost = 2
 	x = 12
 	y = 7
 	completion_reward = { 
@@ -580,7 +594,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = TYR_AdministrationEquality
 	}
-	cost = 1
+	cost = 2
 	x = 11
 	y = 8
 	completion_reward = { 
@@ -614,7 +628,7 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = TYR_GovernorshipOfTwoMareities
 	}
-	cost = 1
+	cost = 2
 	x = 13
 	y = 8
 	completion_reward = { 
@@ -635,6 +649,435 @@ shared_focus = {
 		country_event = {days = 1 id = TYR.23}
 	}
 }
+
+###
+
+shared_focus = {
+	id = TYR_AftermathOfRevolution
+	cost = 1
+	x = 12
+	y = 0
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ChangelingKooperation
+	prerequisite = {
+		focus = TYR_AftermathOfRevolution
+	}
+	cost = 1
+	x = 11
+	y = 1
+	mutually_exclusive = {
+		focus = TYR_ZebricanNationalism
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ZebricanNationalism
+	prerequisite = {
+		focus = TYR_AftermathOfRevolution
+	}
+	cost = 1
+	x = 13
+	y = 1
+	mutually_exclusive = {
+		focus = TYR_ChangelingKooperation
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_TalkWithRevolutioneries
+	prerequisite = {
+		focus = TYR_AftermathOfRevolution
+	}
+	cost = 1
+	x = 10
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_VisitVirta
+	prerequisite = {
+		focus = TYR_AftermathOfRevolution
+	}
+	cost = 1
+	x = 14
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_TyrlitianReforging
+	prerequisite = {
+		focus =	TYR_ChangelingKooperation
+		focus = TYR_ZebricanNationalism
+	}
+	prerequisite = {
+		focus = TYR_TalkWithRevolutioneries
+	}
+	prerequisite = {
+		focus = TYR_VisitVirta
+	}
+	cost = 1
+	x = 12
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ByGraceOfEmpress
+	prerequisite = {
+		focus =	TYR_TyrlitianReforging
+	}
+	cost = 1
+	x = 8
+	y = 4
+	mutually_exclusive = {
+		focus = TYR_SearchInPockets
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_SearchInPockets
+	prerequisite = {
+		focus =	TYR_TyrlitianReforging
+	}
+	cost = 1
+	x = 16
+	y = 4
+	mutually_exclusive = {
+		focus = TYR_ByGraceOfEmpress
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_GenerousSubsides
+	prerequisite = {
+		focus =	TYR_ByGraceOfEmpress
+	}
+	cost = 1
+	x = 10
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_GreatChangelingMission
+	prerequisite = {
+		focus =	TYR_GenerousSubsides
+	}
+	cost = 1
+	x = 8
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_SpecialTyrlitianStatus
+	prerequisite = {
+		focus =	TYR_GenerousSubsides
+	}
+	cost = 1
+	x = 10
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_StimulationOfMining
+	prerequisite = {
+		focus =	TYR_GenerousSubsides
+	}
+	cost = 1
+	x = 7
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_InfrastructurePlaning
+	prerequisite = {
+		focus =	TYR_GenerousSubsides
+	}
+	cost = 1
+	x = 9
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ChangelingMilitaryUniversity
+	prerequisite = {
+		focus =	TYR_GenerousSubsides
+	}
+	cost = 1
+	x = 8
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ChitinArmy
+	prerequisite = {
+		focus =	TYR_GenerousSubsides
+	}
+	cost = 1
+	x = 10
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_EncryptionTechnologies
+	prerequisite = {
+		focus =	TYR_ChangelingMilitaryUniversity
+	}
+	prerequisite = {
+		focus =	TYR_ChitinArmy
+	}
+	cost = 1
+	x = 9
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_MgabeTheUnifier
+	prerequisite = {
+		focus =	TYR_SearchInPockets
+		focus =	TYR_ByGraceOfEmpress
+	}
+	cost = 1
+	x = 12
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ZebrichesstoltzGazette
+	prerequisite = {
+		focus =	TYR_MgabeTheUnifier
+	}
+	cost = 1
+	x = 11
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_GreatTour
+	prerequisite = {
+		focus =	TYR_MgabeTheUnifier
+	}
+	cost = 1
+	x = 12
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_StateRadioClubs
+	prerequisite = {
+		focus =	TYR_MgabeTheUnifier
+	}
+	cost = 1
+	x = 13
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ArmyWillWait
+	available = {
+		OR = {
+			AND = {
+				has_completed_focus = TYR_GreatChangelingMission
+				has_completed_focus = TYR_SpecialTyrlitianStatus
+				has_completed_focus = TYR_StimulationOfMining
+				has_completed_focus = TYR_InfrastructurePlaning
+			}
+			AND = {
+				has_completed_focus = TYR_FarmSale
+				has_completed_focus = TYR_TyrlitianLightManufacturing
+				has_completed_focus = TYR_GambleCities
+				has_completed_focus = TYR_WorkHarder
+			}
+		}
+	}
+	cost = 1
+	x = 12
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_SecretPartners
+	prerequisite = {
+		focus =	TYR_SearchInPockets
+	}
+	cost = 1
+	x = 14
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_FarmSale
+	prerequisite = {
+		focus =	TYR_SecretPartners
+	}
+	cost = 1
+	x = 14
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_TyrlitianLightManufacturing
+	prerequisite = {
+		focus =	TYR_SecretPartners
+	}
+	cost = 1
+	x = 16
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_GambleCities
+	prerequisite = {
+		focus =	TYR_SecretPartners
+	}
+	cost = 1
+	x = 15
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_WorkHarder
+	prerequisite = {
+		focus =	TYR_SecretPartners
+	}
+	cost = 1
+	x = 17
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_JusticeForPeople
+	prerequisite = {
+		focus =	TYR_SecretPartners
+	}
+	cost = 1
+	x = 14
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_ProjectOfMilitarySovereignty
+	prerequisite = {
+		focus =	TYR_SecretPartners
+	}
+	cost = 1
+	x = 16
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_AbteilungZebriches
+	prerequisite = {
+		focus =	TYR_JusticeForPeople
+	}
+	prerequisite = {
+		focus =	TYR_ProjectOfMilitarySovereignty
+	}
+	cost = 1
+	x = 15
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_AufklarungInfluence
+	available = {
+		OR = {
+			AND = {
+				has_completed_focus = TYR_GreatChangelingMission
+				has_completed_focus = TYR_SpecialTyrlitianStatus
+				has_completed_focus = TYR_StimulationOfMining
+				has_completed_focus = TYR_InfrastructurePlaning
+			}
+			AND = {
+				has_completed_focus = TYR_FarmSale
+				has_completed_focus = TYR_TyrlitianLightManufacturing
+				has_completed_focus = TYR_GambleCities
+				has_completed_focus = TYR_WorkHarder
+			}
+		}
+	}
+	cost = 1
+	x = 12
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = TYR_FirstTyrlitianStatePlan
+	prerequisite = {
+		focus =	TYR_AufklarungInfluence
+	}
+	prerequisite = {
+		focus =	TYR_EncryptionTechnologies
+		focus =	TYR_AbteilungZebriches
+	}
+	cost = 1
+	x = 12
+	y = 10
+	completion_reward = {
+	}
+}
+
+###
 
 shared_focus = {
 	id = TYR_Zebrijskaja_problema

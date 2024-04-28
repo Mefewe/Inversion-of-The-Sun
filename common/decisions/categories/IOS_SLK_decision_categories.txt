@@ -1,0 +1,7 @@
+SLK_Situation_getting_worse = {
+	icon = generic_research
+	visible = {
+		tag = SLK
+	}
+	priority = 20
+}

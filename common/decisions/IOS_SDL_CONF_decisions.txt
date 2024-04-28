@@ -68,6 +68,27 @@ SDL_CONF_ConventConflict = {
 			}
 		}
 	}
+	SDL_CONF_RiskTest100 = {
+		available = {
+			tag = SDL
+			is_ai = yes
+			is_debug = yes
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = {
+				var = riskStaticFactor
+				value = 100
+			}
+		}
+	}
 	SDL_CONF_SilvaPopularityAdd = {
 		available = {
 			tag = SDL

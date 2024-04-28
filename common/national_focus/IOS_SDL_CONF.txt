@@ -1406,6 +1406,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_information_about_swarm
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	cost = 1
 	x = 18
 	y = 0
@@ -1415,6 +1421,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_supply_sabotage
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_information_about_swarm
 	}
@@ -1427,6 +1439,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_movement_coordination
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_information_about_swarm
 	}
@@ -1439,6 +1457,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_throw_bait
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_supply_sabotage
 	}
@@ -1459,6 +1483,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_treaties_with_partners
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	cost = 1
 	x = 14
 	y = 1
@@ -1468,6 +1498,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_canterberrian_pact
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_treaties_with_partners
 	}
@@ -1489,6 +1525,10 @@ shared_focus = {
 	}
 	available = {
 		has_global_flag = OEF_CanHelpSDL
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
 	}
 	cost = 1
 	x = 14
@@ -1503,6 +1543,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_visit_dragonclaw
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_treaties_with_partners
 	}
@@ -1525,6 +1571,10 @@ shared_focus = {
 	}
 	available = {
 		has_global_flag = DRG_NegotiationsAccepted
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
 	}
 	cost = 1
 	x = 16
@@ -1544,6 +1594,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_propaganda_effort
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	cost = 1
 	x = 22
 	y = 1
@@ -1553,6 +1609,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_work_with_nation_thoughts
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_propaganda_effort
 	}
@@ -1565,6 +1627,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_we_all_belong_to_tricolour
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_work_with_nation_thoughts
 	}
@@ -1577,6 +1645,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_major_training
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_propaganda_effort
 	}
@@ -1589,6 +1663,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_strengthening_of_positions
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_major_training
 	}
@@ -1606,11 +1686,15 @@ shared_focus = {
 shared_focus = {
 	id = SDL_call_the_rear
 	available = {
-	has_completed_focus = SDL_throw_bait
-	has_completed_focus = SDL_canterberrian_pact
-	has_completed_focus = SDL_visit_dragonclaw
-	has_completed_focus = SDL_we_all_belong_to_tricolour
-	has_completed_focus = SDL_strengthening_of_positions
+		has_completed_focus = SDL_throw_bait
+		has_completed_focus = SDL_canterberrian_pact
+		has_completed_focus = SDL_visit_dragonclaw
+		has_completed_focus = SDL_we_all_belong_to_tricolour
+		has_completed_focus = SDL_strengthening_of_positions
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
 	}
 	cost = 1
 	x = 15
@@ -1626,11 +1710,15 @@ shared_focus = {
 shared_focus = {
 	id = SDL_call_the_armies
 	available = {
-	has_completed_focus = SDL_throw_bait
-	has_completed_focus = SDL_canterberrian_pact
-	has_completed_focus = SDL_visit_dragonclaw
-	has_completed_focus = SDL_we_all_belong_to_tricolour
-	has_completed_focus = SDL_strengthening_of_positions
+		has_completed_focus = SDL_throw_bait
+		has_completed_focus = SDL_canterberrian_pact
+		has_completed_focus = SDL_visit_dragonclaw
+		has_completed_focus = SDL_we_all_belong_to_tricolour
+		has_completed_focus = SDL_strengthening_of_positions
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
 	}
 	cost = 1
 	x = 17
@@ -1646,11 +1734,15 @@ shared_focus = {
 shared_focus = {
 	id = SDL_deadly_gamble
 	available = {
-	has_completed_focus = SDL_throw_bait
-	has_completed_focus = SDL_canterberrian_pact
-	has_completed_focus = SDL_visit_dragonclaw
-	has_completed_focus = SDL_we_all_belong_to_tricolour
-	has_completed_focus = SDL_strengthening_of_positions
+		has_completed_focus = SDL_throw_bait
+		has_completed_focus = SDL_canterberrian_pact
+		has_completed_focus = SDL_visit_dragonclaw
+		has_completed_focus = SDL_we_all_belong_to_tricolour
+		has_completed_focus = SDL_strengthening_of_positions
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
 	}
 	cost = 1
 	x = 19
@@ -1666,11 +1758,15 @@ shared_focus = {
 shared_focus = {
 	id = SDL_call_the_cats
 	available = {
-	has_completed_focus = SDL_throw_bait
-	has_completed_focus = SDL_canterberrian_pact
-	has_completed_focus = SDL_visit_dragonclaw
-	has_completed_focus = SDL_we_all_belong_to_tricolour
-	has_completed_focus = SDL_strengthening_of_positions
+		has_completed_focus = SDL_throw_bait
+		has_completed_focus = SDL_canterberrian_pact
+		has_completed_focus = SDL_visit_dragonclaw
+		has_completed_focus = SDL_we_all_belong_to_tricolour
+		has_completed_focus = SDL_strengthening_of_positions
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
 	}
 	cost = 1
 	x = 21
@@ -1690,6 +1786,12 @@ shared_focus = {
 
 shared_focus = {
 	id = SDL_rally_starts
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = SDL_CONF_NotInCrisis_trigger_tt
+			NOT = { has_war_with = SLK }
+		}
+	}
 	prerequisite = {
 		focus = SDL_call_the_rear
 	}

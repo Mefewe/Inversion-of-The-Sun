@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			### ZEBRICA COUNTRY EVENTS
+			SDL = {
+				country_event = { id = SDL_base.30 days = 450 } # Salekh revolt
+			}
+		}
+	}
+}

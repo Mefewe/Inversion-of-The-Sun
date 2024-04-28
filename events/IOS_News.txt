@@ -1,6 +1,7 @@
 add_namespace = News
 add_namespace = TYR_News
 add_namespace = DRG_News
+add_namespace = SDL_CONF_News
 
 news_event = {
 	id = News.1
@@ -197,5 +198,22 @@ news_event = {
 		trigger = {
 			tag = DRG
 		}
+	}
+}
+news_event = {
+	id = SDL_CONF_News.1		### Salekh Movement revolt
+	title = SDL_CONF_News.1.title
+	desc = SDL_CONF_News.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = SDL_CONF_News.1.a
+		trigger = { NOT = {tag = SDL} }
+	}
+	option = {
+		name = SDL_CONF_News.1.b
+		trigger = { tag = SDL }
 	}
 }

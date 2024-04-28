@@ -20,6 +20,25 @@ debug_GUI_decisions = {
 		}
 	}
 }
+TYR_debug_decisions = {
+	debug_tyr_load_tree_2 = {		
+		icon = generic_research
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			tag = TYR
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			load_focus_tree = TYR_focus_tree_two
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
 DRG_debug_decisions = {
 	debug_drg_begin_civil_war_ember = {		
 		icon = generic_research

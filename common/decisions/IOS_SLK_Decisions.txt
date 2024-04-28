@@ -1,0 +1,70 @@
+SLK_Situation_getting_worse = {
+	SLK_Salekh_war_popularity_1 = {
+		activation = { 
+			tag = SLK 
+			has_global_flag = SalekhRevolt_1
+		}
+		available = {
+			has_war = no
+			has_global_flag = SalekhRevolt_1
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		days_mission_timeout = 10
+		complete_effect = {
+		}
+		timeout_effect = {
+			add_ideas = slk_war_going_not_well_1
+			set_global_flag = SalekhRevolt_2
+			clr_global_flag = SalekhRevolt_1
+		}
+	}
+	SLK_Salekh_war_popularity_2 = {
+		activation = { 
+			tag = SLK 
+			has_global_flag = SalekhRevolt_2
+		}
+		available = {
+			has_war = no
+			has_global_flag = SalekhRevolt_2
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		days_mission_timeout = 10
+		complete_effect = {
+		}
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = slk_war_going_not_well_1
+				add_idea = slk_war_going_not_well_2
+			}
+			set_global_flag = SalekhRevolt_3
+			clr_global_flag = SalekhRevolt_2
+		}
+	}
+	SLK_Salekh_war_popularity_3 = {
+		activation = { 
+			tag = SLK 
+			has_global_flag = SalekhRevolt_3
+		}
+		available = {
+			has_war = no
+			has_global_flag = SalekhRevolt_3
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		days_mission_timeout = 10
+		complete_effect = {
+		}
+		timeout_effect = {
+			swap_ideas = {
+				remove_idea = slk_war_going_not_well_2
+				add_idea = slk_war_going_not_well_3
+			}
+			clr_global_flag = SalekhRevolt_3
+		}
+	}
+}

@@ -361,6 +361,11 @@ color = rgb { 169 187 212 }
 color_ui = rgb { 169 187 212 }
 }
 
+SLK = {
+color = rgb { 171 132 60 }
+color_ui = rgb { 171 132 60 }
+}
+
 
 
 D01 = {

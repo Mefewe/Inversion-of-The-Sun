@@ -5,6 +5,14 @@
  AOZ_MovementCommanders: "Партизанские офицеры"
  AOZ_MovementCommanders_desc: ""
 
+ ################
+ ### GENERALS ###
+ ################
+ AOZ_Zarka_Ikonsi: "Зарка «Мванахисабати» Иконси"
+ AOZ_Lahenjar_Getrenukho: "Лахеньяр «Камуси» Гетренукхо"
+ AOZ_Gmappe_Astripe: "Гмаппе «Карго» Астрайп"
+ AOZ_Berk_Visp: "Берк «ККУ» Висп"
+
  #############
  ### IDEAS ###
  #############
