@@ -8,6 +8,7 @@ state={
 		set_demilitarized_zone = yes
 	victory_points = {7547 30} # Чирута
         owner = TYR
+        add_core_of = TYR
         add_core_of = ABS
         buildings = {
                 infrastructure = 4

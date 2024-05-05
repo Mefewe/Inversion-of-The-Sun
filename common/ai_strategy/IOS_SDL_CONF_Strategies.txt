@@ -1,0 +1,54 @@
+SDL_CONF_SalekhRevoltPushing = {
+	allowed = {
+		tag = SDL
+	}
+	enable = {
+		SDL = { 
+			has_war_with = SLK 
+		}
+		has_equipment = { infantry_ammo_equipment > -10000 }
+	}
+	abort = {
+		SLK = {
+			exists = no
+		}
+		has_equipment = { infantry_ammo_equipment < -10000 }
+	}
+	ai_strategy = {
+		type = front_control
+		state_trigger = { is_owned_by = SLK }
+		ratio = 0.1
+		ordertype = front
+		execution_typer = rush
+		id = SDL
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = sdl_conf_area
+		value = 90
+	}
+}
+
+SDL_CONF_SalekhRevoltPushing = {
+	allowed = {
+		tag = SDL
+	}
+	enable = {
+		SDL = { 
+			has_war_with = SLK 
+			has_equipment = { infantry_ammo_equipment < -10000 }
+		}
+	}
+	abort = {
+		SLK = {
+			exists = no
+		}
+		has_equipment = { infantry_ammo_equipment > -10000 }
+	}
+	ai_strategy = {
+		type = area_priority
+		id = sdl_conf_area
+		value = 90
+	}
+}

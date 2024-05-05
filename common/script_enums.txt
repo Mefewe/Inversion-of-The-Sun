@@ -451,9 +451,11 @@ script_enum_equipment_bonus_type = {
 	power_armor_1
 	tank_ammo_equipment
 	tank_ammo_equipment_0
-	anti_air_equipment_hand
-	anti_air_equipment_hand_1
-	anti_air_equipment_hand_2
+	anti_air_inf_eq
+	anti_air_inf_eq_1
+	anti_air_inf_eq_2
+	anti_air_inf_eq_3
+	anti_tank_inf_eq
 	anti_tank_inf_1_eq
 	anti_tank_inf_2_eq
 	anti_tank_inf_3_eq

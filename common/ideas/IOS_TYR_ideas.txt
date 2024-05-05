@@ -217,6 +217,47 @@ ideas = {
 				war_support_weekly = 0.025
 			}
 		}
+		tyr_fake_country_idea = {
+			modifier = {
+				political_power_factor = -0.5
+				stability_factor = -0.5
+				conscription_factor = -0.25
+				compliance_growth_on_our_occupied_states = 0.25
+				resistance_activity = 0.05
+				resistance_decay_on_our_occupied_states = -0.075
+				production_speed_buildings_factor = -0.25
+				autonomy_gain = -0.75
+				autonomy_gain_trade_factor = -0.75
+				surrender_limit = -0.3
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.35
+				production_factory_start_efficiency_factor = -0.075
+				line_change_production_efficiency_factor = -0.085
+				production_lack_of_resource_penalty_factor = 0.15
+				local_resources_factor = -0.75
+				research_speed_factor = -0.75
+			}
+		}
+		tyr_changeling_neu_chrysaltz_university = {
+			modifier = {
+				research_speed_factor = 0.15
+				experience_gain_army_factor = 0.5
+				experience_gain_navy_factor = 0.35
+				experience_gain_air_factor = 0.35
+			}
+		}
+		tyr_army_changeling_reformation_1 = {
+			picture = generic_army_problems
+			modifier = {
+				attrition = 0.45
+				army_defence_factor = -0.375
+				army_attack_factor = -0.5
+				army_speed_factor = 0.025
+				army_org_factor = 0.025
+				army_org_regain = 0.05
+				breakthrough_factor = 0.035
+			}
+		}
 	}
 }
 
@@ -224,10 +265,119 @@ ideas = {
 	hidden_ideas = {
 		TYR_AdministrationEquality_idea = {
 			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+				compliance_growth_on_our_occupied_states = -0.05
+				resistance_activity = -0.05
+				production_factory_efficiency_gain_factor = 0.075
+				production_factory_max_efficiency_factor = 0.125
+				production_factory_start_efficiency_factor = 0.1
 			}
 		}
 		TYR_InnerGovernorships_idea = {
 			modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.25
+				compliance_growth_on_our_occupied_states = -0.2
+				resistance_activity = -0.1
+				production_factory_efficiency_gain_factor = -0.025
+				production_factory_max_efficiency_factor = -0.075
+				production_factory_start_efficiency_factor = -0.05
+			}
+		}
+		TYR_MutualAssistanceWithChangelings_idea = {
+			modifier = {
+				stability_factor = 0.075
+				compliance_growth_on_our_occupied_states = -0.1
+				resistance_growth_on_our_occupied_states = 0.075
+			}
+		}
+		TYR_SoftNationalismEffort_idea = {
+			modifier = {
+				stability_factor = -0.05
+				compliance_growth_on_our_occupied_states = 0.035
+				resistance_growth_on_our_occupied_states = -0.05
+				resistance_activity = -0.05
+				war_support_factor = 0.1
+			}
+		}
+		TYR_PartisanIntegration_idea = {
+			modifier = {
+				army_attack_factor = 0.05
+				special_forces_cap = 0.5
+				special_forces_out_of_supply_factor = -0.1
+				political_power = 0.035
+				compliance_growth_on_our_occupied_states = 0.02
+				resistance_growth_on_our_occupied_states = -0.03
+				resistance_activity = -0.05
+			}
+		}
+		TYR_ChangelingSubsides_idea = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.35
+				production_factory_max_efficiency_factor = 0.7
+				line_change_production_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.5
+			}
+		}
+		TYR_ChangelingMission_idea = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		TYR_PreferentialStatus_idea = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.2
+				local_resources_factor = 0.35
+			}
+		}
+		TYR_InfrastructureRebuilding_idea = {
+			modifier = {
+				production_speed_infrastructure_factor = 0.45
+				industry_free_repair_factor = 0.2
+			}
+		}
+		TYR_ChangelingsDecryptionTechs_idea = {
+			modifier = {
+				decryption_factor = 0.15
+				intel_network_gain_factor = 0.05
+			}
+		}
+		TYR_ChangelingsDecryptionTechs_idea = {
+			modifier = {
+				decryption_factor = 0.15
+				intel_network_gain_factor = 0.05
+			}
+		}
+		TYR_EconomyEfforts_idea = {
+			modifier = {
+				production_speed_buildings_factor = 1
+				production_factory_efficiency_gain_factor = 0.5
+				production_factory_max_efficiency_factor = 0.85
+				production_lack_of_resource_penalty_factor = -0.65
+				local_resources_factor = 1
+				research_speed_factor = 0.2
+			}
+		}
+		TYR_MgabeTour_idea = {
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+		TYR_StatePress_idea = {
+			modifier = {
+				political_power_factor = 0.1
+				compliance_growth_on_our_occupied_states = 0.03
+			}
+		}
+		TYR_StateRadioClubs_idea = {
+			modifier = {
+				political_power_factor = 0.1
+				resistance_activity = -0.03
 			}
 		}
 	}

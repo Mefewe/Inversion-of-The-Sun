@@ -1,5 +1,5 @@
 characters = {
-TYR_Mgabe_Zurasi = {
+	TYR_Mgabe_Zurasi = {
 		name = TYR_Mgabe_Zurasi
 		portraits = {
 			civilian = {
@@ -14,4 +14,17 @@ TYR_Mgabe_Zurasi = {
 			id = -1
 		}
 	}
+	TYR_GuerillaGeneral = {
+		name = TYR_GuerillaGeneral
+
+		corps_commander={
+			traits={ aggressive_assaulter inspirational_leader trickster adaptable }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
 	}
+}

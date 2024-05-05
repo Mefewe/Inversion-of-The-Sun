@@ -1,10 +1,56 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
 
+IOS_default_ammo_factories_low_priority = {
+	enable = {
+		has_equipment = { infantry_ammo_equipment > 0 }
+	}
+	abort = {
+		has_equipment = { infantry_ammo_equipment < 0 }
+	}
+	ai_strategy = {
+		type = building_target
+		id = ammo_complex
+		value = 0
+	}
+}
+
+IOS_default_ammo_factories_high_priority = {
+	enable = {
+		has_equipment = { infantry_ammo_equipment < 0 }
+	}
+	abort = {
+		OR = {
+			has_equipment = { infantry_ammo_equipment > 0 }
+			has_equipment = { infantry_ammo_equipment < -1000 }
+		}
+	}
+	ai_strategy = {
+		type = building_target
+		id = ammo_complex
+		value = 50
+	}
+}
+
+IOS_default_ammo_factories_highest_priority = {
+	enable = {
+		has_equipment = { infantry_ammo_equipment < -1000 }
+	}
+	abort = {
+		OR = {
+			has_equipment = { infantry_ammo_equipment > -1000 }
+		}
+	}
+	ai_strategy = {
+		type = building_target
+		id = ammo_complex
+		value = 300
+	}
+}
+
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
-		
 	}
 
 	ai_strategy = {

@@ -22,4 +22,11 @@ areas = {
 			2 # C C
 		}
 	}
+	sdl_conf_area = {
+		strategic_regions = {
+			93
+			92
+			87
+		}
+	}
 }

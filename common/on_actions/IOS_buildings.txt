@@ -2,6 +2,8 @@ on_actions = {
     on_weekly = {
         effect = {
                 set_variable = { ammo_eqp = 0 }
+                set_variable = { ammo_eqp_artillery = 0 }
+                set_variable = { ammo_eqp_tank = 0 }
                 set_variable = { total_ammo_complexes = 0 }
                 every_owned_state = {
                     limit = { ammo_complex > 0 }
@@ -18,11 +20,25 @@ on_actions = {
                                 total_ammo_complexes > 0
                             }
                         }
-                        add_to_variable = {ammo_eqp = 50}
+                        add_to_variable = {ammo_eqp = 500}
+                        add_to_variable = {ammo_eqp_artillery = 300}
+                        add_to_variable = {ammo_eqp_tank = 150}
                         multiply_variable = {ammo_eqp  = total_ammo_complexes }
+                        multiply_variable = {ammo_eqp_artillery  = total_ammo_complexes }
+                        multiply_variable = {ammo_eqp_tank  = total_ammo_complexes }
                         add_equipment_to_stockpile = {
-                            type = infantry_ammo_equipment_0
+                            type = infantry_ammo_equipment
                             amount = ammo_eqp
+                            producer = THIS
+                        }
+                        add_equipment_to_stockpile = {
+                            type = artillery_ammo_equipment
+                            amount = ammo_eqp_artillery
+                            producer = THIS
+                        }
+                        add_equipment_to_stockpile = {
+                            type = tank_ammo_equipment
+                            amount = ammo_eqp_tank
                             producer = THIS
                         }
                     }

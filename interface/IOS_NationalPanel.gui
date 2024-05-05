@@ -1,0 +1,157 @@
+guiTypes = {
+	containerWindowType = { 
+		name = "IOS_NationalPanelView_button" 
+		position = { x = 0 y = 0 } 
+		Orientation = UPPER_LEFT
+		buttonType = {
+			name = "IOS_NationalPanelView_button_open"
+			position = { x = 164 y = 35 }
+			quadTextureSprite ="GFX_staff_office_button"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			buttonFont = "hoi_18"
+			oversound = ui_menu_over
+		}
+	}
+	containerWindowType = {
+		name = "IOS_NationalPanelView"
+		position = { x=-606 y=78}
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=550 height=100%% }
+
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		        verticalScrollbar = "right_vertical_slider"
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_bg"
+		}
+		iconType = {
+			name ="nat_panel_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -43 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		buttonType = {
+			name = "info_button"
+			position = { x = -113 y = -5 }
+			quadTextureSprite ="GFX_info_button"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		background = {
+			name = "Background"
+			position = { x = 0 y = 45 } 
+			spriteType ="GFX_tiled_bg"
+		}
+	}
+	containerWindowType = {
+		name = "IOS_TyrlitianPanel" 
+		Orientation = UPPER_LEFT
+		position = { x = -606 y = 78 }
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=100 }
+		buttonType = {
+			name = "header_category"
+			position = { x = -487 y = 65 }
+			quadTextureSprite ="GFX_panel_header_bg"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+	}
+	containerWindowType = {
+		name = "IOS_TyrlitianPanel1"
+		position = { x = -606 y = 78 }
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		iconType = {
+			name = "panel_bg"
+			position = { x = 8 y = 120 }
+			spriteType ="GFX_panel_bg"
+		}
+	}	
+	containerWindowType = {
+		name = "IOS_SocPanel" 
+		Orientation = UPPER_LEFT
+		position = { x = -606 y = 78 }
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=100 }
+		buttonType = {
+			name = "header_category"
+			position = { x = -487 y = 425 }
+			quadTextureSprite ="GFX_panel_header_bg"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+	}
+	containerWindowType = {
+		name = "IOS_SocPanel1"
+		position = { x = -606 y = 78 }
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=100 }
+		iconType = {
+			name = "panel_bg"
+			position = { x = 8 y = 480 }
+			spriteType ="GFX_panel_bg"
+		}
+	}
+	containerWindowType = {
+		name = "IOS_PolPanel" 
+		Orientation = UPPER_LEFT
+		position = { x = -606 y = 78 }
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=100 }
+		buttonType = {
+			name = "header_category"
+			position = { x = -487 y = 785 }
+			quadTextureSprite ="GFX_panel_header_bg"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+	}
+	containerWindowType = {
+		name = "IOS_PolPanel1"
+		position = { x = -606 y = 78 }
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=100 }
+		iconType = {
+			name = "panel_bg"
+			position = { x = 8 y = 840 }
+			spriteType ="GFX_panel_bg"
+		}
+	}
+}

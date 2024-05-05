@@ -751,7 +751,7 @@ guiTypes = {
 			buttonType = {
 				name = "intel_agency_button"
 				quadTextureSprite ="GFX_topbar_intelligence" 
-				position = { x= -49 y = 0 }
+				position = { x= 6 y = 0 }
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
@@ -761,14 +761,14 @@ guiTypes = {
 			iconType = {
 				name = "intelview_ops_prepared_or_completed_bg"
 				spriteType = "GFX_topbar_alert_bg"
-				position = { x = -49 y = 4}
+				position = { x = 6 y = 4}
 				alwaystransparent = yes
 				frame = 4
 			}
 	
 			instantTextBoxType = {
 				name ="intelview_ops_prepared_or_completed_items"
-				position = { x= -51 y = 4 }
+				position = { x= 4 y = 4 }
 				font = "hoi_16mbs"
 				text = "9"
 				format = center
@@ -780,14 +780,14 @@ guiTypes = {
 			iconType = {
 				name = "intelview_ops_available_bg"
 				spriteType = "GFX_topbar_alert_bg"
-				position = { x = -49 y = 20}
+				position = { x = 6 y = 20}
 				alwaystransparent = yes
 				frame = 1
 			}
 
 			instantTextBoxType = {
 				name ="intelview_ops_available_items"
-				position = { x= -51 y = 20 }
+				position = { x= 4 y = 20 }
 				font = "hoi_16mbs"
 				text = "9"
 				format = center
@@ -805,7 +805,7 @@ guiTypes = {
 					name = "technology_button"
 					quadTextureSprite ="GFX_topbar_technology"
 	#				position = { x= -104 y = 0 }
-					position = { x= -49 y = 0 }
+					position = { x= 7 y = 0 }
 					Orientation = "UPPER_LEFT"
 					shortcut = "w"
 					clicksound = click_close
@@ -815,7 +815,7 @@ guiTypes = {
 				buttonType = {
 					name = "diplomacy_button"
 					quadTextureSprite ="GFX_topbar_diplomacy"
-					position = { x= 6 y = 0 }
+					position = { x= 62 y = 0 }
 					Orientation = "UPPER_LEFT"
 					shortcut = "e"
 					clicksound = click_close
@@ -823,7 +823,7 @@ guiTypes = {
 				}
 				containerWindowType = {
 					name = "non_delivering_contracts"
-					position = { x=9 y=4 }
+					position = { x=65 y=4 }
 
 					iconType = {
 						name = "non_delivering_contract_amount_bg"
@@ -847,7 +847,7 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "delivering_contracts"
-					position = { x=9 y=20 }
+					position = { x=65 y=20 }
 
 					iconType = {
 						name = "ongoing_contract_amount_bg"
@@ -871,7 +871,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "trade_button"
-					position = { x= 62 y = 0 }
+					position = { x= 118 y = 0 }
 					quadTextureSprite ="GFX_topbar_trade_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "r"
@@ -881,7 +881,7 @@ guiTypes = {
 
 				buttonType = {
 					name = "construction_button"
-					position = { x = 118 y = 0 }
+					position = { x = 173 y = 0 }
 					quadTextureSprite ="GFX_construction_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "t"
@@ -891,14 +891,14 @@ guiTypes = {
 				
 				iconType = {
 					name = "production_button_glow"
-					position = { x = 170 y = -3 }
+					position = { x = 228 y = -3 }
 					spriteType = "GFX_decisions_glow_yellow"
 					alwaystransparent = yes
 				}
 				
 				buttonType = {
 					name = "production_button"
-					position = { x = 173 y = 0 }
+					position = { x = 228 y = 0 }
 					quadTextureSprite ="GFX_topbar_production"
 					Orientation = "UPPER_LEFT"
 					shortcut = "y"
@@ -908,7 +908,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "deployment_button"
-					position = { x = 228 y = 0 }
+					position = { x = 284 y = 0 }
 					quadTextureSprite ="GFX_deployment_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "u"
@@ -918,7 +918,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "logistics_button"
-					position = { x = 284 y = 0 }
+					position = { x = 340 y = 0 }
 					quadTextureSprite ="GFX_ledger_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "i"
@@ -928,7 +928,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "officer_corp_button"
-					position = { x = 340 y = 0 }
+					position = { x = 396 y = 0 }
 					quadTextureSprite ="GFX_staff_office_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "shift+e"

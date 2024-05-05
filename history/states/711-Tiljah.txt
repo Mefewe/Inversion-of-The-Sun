@@ -6,6 +6,7 @@ state={
 	}
 	history={
         owner = TYR
+        add_core_of = TYR
         add_core_of = ABS
         buildings = {
                 infrastructure = 2

@@ -11,7 +11,7 @@ SLK_Situation_getting_worse = {
 		cancel_trigger = {
 			has_war = no
 		}
-		days_mission_timeout = 10
+		days_mission_timeout = 180
 		complete_effect = {
 		}
 		timeout_effect = {
@@ -32,7 +32,7 @@ SLK_Situation_getting_worse = {
 		cancel_trigger = {
 			has_war = no
 		}
-		days_mission_timeout = 10
+		days_mission_timeout = 125
 		complete_effect = {
 		}
 		timeout_effect = {
@@ -56,7 +56,7 @@ SLK_Situation_getting_worse = {
 		cancel_trigger = {
 			has_war = no
 		}
-		days_mission_timeout = 10
+		days_mission_timeout = 75
 		complete_effect = {
 		}
 		timeout_effect = {

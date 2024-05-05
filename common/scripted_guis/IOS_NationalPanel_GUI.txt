@@ -1,0 +1,159 @@
+scripted_gui = {
+	IOS_NationalPanelView_button = {
+		context_type = player_context
+		window_name = "IOS_NationalPanelView_button"
+		effects = {   
+			IOS_NationalPanelView_button_open_click = {
+				if = {
+					limit = { NOT = { has_variable = global.open_national_panel_popup } }
+					set_variable = { global.open_national_panel_popup = 1 }
+				}
+				else = {
+					clear_variable = global.open_national_panel_popup
+				}
+			}
+		}
+	}
+}
+scripted_gui = {
+	IOS_NationalPanelView = {
+		context_type = player_context
+		window_name = "IOS_NationalPanelView"
+		visible = {
+			has_variable = global.open_national_panel_popup
+		}
+		effects = {   
+			close_button_click = {
+				clear_variable = global.open_national_panel_popup
+			}
+			info_button_click = {
+				if = {
+					limit = { NOT = { has_variable = global.open_national_panel_popup } }
+					set_variable = { global.open_national_panel_popup = 1 }
+				}
+				else = {
+					clear_variable = global.open_national_panel_popup
+				}
+			}
+		}
+        
+		triggers = {          
+		}
+	}
+}
+scripted_gui = {
+	IOS_TyrlitianPanel = {
+		context_type = player_context
+		window_name = "IOS_TyrlitianPanel"
+		visible = {
+			has_variable = global.open_national_panel_popup
+			tag = TYR
+		}
+		effects = {   
+			header_category_click = {
+				if = {
+					limit = { NOT = { has_variable = global.open_tyr_panel } }
+					set_variable = { global.open_tyr_panel = 1 }
+				}
+				else = {
+					clear_variable = global.open_tyr_panel
+				}
+			}
+		}
+        
+		triggers = {          
+		}
+	}
+}
+scripted_gui = {
+	IOS_TyrlitianPanel1 = {
+		context_type = player_context
+		window_name = "IOS_TyrlitianPanel1"
+		visible = {
+			has_variable = global.open_national_panel_popup
+			has_variable = global.open_tyr_panel
+			tag = TYR
+		}
+		effects = {   
+		}
+        
+		triggers = {          
+		}
+	}
+}
+scripted_gui = {
+	IOS_SocPanel = {
+		context_type = player_context
+		window_name = "IOS_SocPanel"
+		visible = {
+			has_variable = global.open_national_panel_popup
+		}
+		effects = {   
+			header_category_click = {
+				if = {
+					limit = { NOT = { has_variable = global.open_soc_panel } }
+					set_variable = { global.open_soc_panel = 1 }
+				}
+				else = {
+					clear_variable = global.open_soc_panel
+				}
+			}
+		}
+        
+		triggers = {          
+		}
+	}
+}
+scripted_gui = {
+	IOS_SocPanel1 = {
+		context_type = player_context
+		window_name = "IOS_SocPanel1"
+		visible = {
+			has_variable = global.open_national_panel_popup
+			has_variable = global.open_soc_panel
+		}
+		effects = {   
+		}
+        
+		triggers = {          
+		}
+	}
+}
+scripted_gui = {
+	IOS_PolPanel = {
+		context_type = player_context
+		window_name = "IOS_PolPanel"
+		visible = {
+			has_variable = global.open_national_panel_popup
+		}
+		effects = {   
+			header_category_click = {
+				if = {
+					limit = { NOT = { has_variable = global.open_pol_panel } }
+					set_variable = { global.open_pol_panel = 1 }
+				}
+				else = {
+					clear_variable = global.open_pol_panel
+				}
+			}
+		}
+        
+		triggers = {          
+		}
+	}
+}
+scripted_gui = {
+	IOS_PolPanel1 = {
+		context_type = player_context
+		window_name = "IOS_PolPanel1"
+		visible = {
+			has_variable = global.open_national_panel_popup
+			has_variable = global.open_pol_panel
+		}
+		effects = {   
+		}
+        
+		triggers = {          
+		}
+	}
+}

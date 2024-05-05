@@ -10,6 +10,7 @@ state={
 	victory_points = {6938 5} #
 	victory_points = {6873 5} #
         owner = TYR
+        add_core_of = TYR
         add_core_of = ABS
         buildings = {
                 infrastructure = 1

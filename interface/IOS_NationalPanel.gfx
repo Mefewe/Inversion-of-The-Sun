@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+        name = GFX_panel_header_bg
+        texturefile = gfx\interface\national_panel\backgrounds\panel_header_bg.dds
+    }
+	spriteType = {
+        name = GFX_panel_bg
+        texturefile = gfx\interface\national_panel\backgrounds\panel_bg.dds
+    }
+	spriteType = {
+        name = GFX_info_button
+        texturefile = gfx\interface\national_panel\buttons\info_button.dds
+    }
+}

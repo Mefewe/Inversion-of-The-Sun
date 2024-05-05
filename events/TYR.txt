@@ -426,6 +426,38 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = TYR.23.a
+		hidden_effect = {
+			country_event = { id = TYR.24 days = 5 }
+		}
+		add_political_power = 50
+	}
+}
+country_event = {
+	id = TYR.24
+	title = TYR.24.title
+	desc = TYR.24.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.24.a
+		add_ideas = { tyr_fake_country_idea }
+		hidden_effect = {
+			load_focus_tree = TYR_focus_tree_two
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+country_event = {
+	id = TYR.25
+	title = TYR.25.title
+	desc = TYR.25.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = TYR.25.a
+		add_political_power = -50
 	}
 }
 ###############################################################################################
@@ -763,13 +795,152 @@ country_event = {
 		TYR = {
 			remove_state_core = 678
 			remove_state_core = 702
+			remove_state_core = 528
+			remove_state_core = 954
+			remove_state_core = 955
+			remove_state_core = 585
+			remove_state_core = 612
+			remove_state_core = 654
+			remove_state_core = 608
+			remove_state_core = 601
+			remove_state_core = 602
+			remove_state_core = 678
+			remove_state_core = 635
+			remove_state_core = 758
+			remove_state_core = 957
+			remove_state_core = 958
+			remove_state_core = 711
+			remove_state_core = 779
+			remove_state_core = 756
+			remove_state_core = 802
+			remove_state_core = 665
+			remove_state_core = 959
+			remove_state_core = 712
+			remove_state_core = 652
 			678 = {
 				start_resistance = yes
-				set_compliance = 70
+				set_compliance = 0
+				set_resistance = 50
 			}
 			702 = {
 				start_resistance = yes
-				set_compliance = 70
+				set_compliance = 0
+				set_resistance = 50
+			}
+			528 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			954 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			955 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			585 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			612 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			654 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			608 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			601 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			602 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			678 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			635 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			711 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			758 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			957 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			958 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			612 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			779 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			756 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			802 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			665 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			959 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			712 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
+			}
+			652 = {
+				start_resistance = yes
+				set_compliance = 0
+				set_resistance = 50
 			}
 		}
 	}
