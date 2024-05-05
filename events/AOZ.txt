@@ -865,20 +865,6 @@ country_event = {
 	}
 }
 
-###### Ветка милитаристического ополчения
-country_event = {
-	id = AOZ.200 #На полях
-	title = AOZ.200.title
-	desc = AOZ.200.desc
-	picture = GFX_placeholder
-	is_triggered_only = yes
-	fire_only_once = yes
-	option = {
-		name = AOZ.200.a
-		add_stability = 0.1
-
-	}
-}
 
 country_event = {
 	id = AOZ.300
@@ -1017,6 +1003,47 @@ country_event = {
 		}
 	}
 }
+
+###### Ветка милитаристического ополчения
+country_event = {
+	id = AOZ.200 #На полях
+	title = AOZ.200.title
+	desc = AOZ.200.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.200.a
+		add_stability = 0.1
+		load_focus_tree = AOZ_focus_tree_tort_B
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+######## TORT B
+country_event = { #Перемога
+	id = AOZ.1000
+	title = AOZ.1000.title
+	desc = AOZ.1000.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.1000.a
+
+	}
+}
+country_event = { #Урбанизация
+	id = AOZ.1001
+	title = AOZ.1001.title
+	desc = AOZ.1001.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.1001.a
+
+	}
+}
+
 
 country_event = {
 	id = AOZ_BlackMarket.1

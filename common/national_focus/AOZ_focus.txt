@@ -101,8 +101,9 @@ focus_tree = {
 	shared_focus = AOZ_diplomatic_mission
 	shared_focus = AOZ_ba_pesh
 	shared_focus = AOZ_totalna_oborona
+	shared_focus = AOZ_peremoga
 	default = no
-	continuous_focus_position = { x = 2800 y = 2200 }
+	continuous_focus_position = { x = 3500 y = 2200 }
 }
 
 shared_focus = {
@@ -712,7 +713,8 @@ shared_focus = { #
 		country_event = AOZ.13
 	}
 }
-#################
+
+################# TORT A
 shared_focus = { #
 	id = AOZ_razvitj_infrastrukturu
 
@@ -998,5 +1000,41 @@ shared_focus = { #
 	y = 24
 	completion_reward = { 
 		country_event = AOZ.80
+	}
+}
+
+################# TORT B
+shared_focus = { #
+	id = AOZ_peremoga
+	cost = 4
+	x = 20
+	y = 12
+	completion_reward = { 
+		country_event = AOZ.1000
+	}
+}
+shared_focus = { #
+	id = AOZ_komitet_osvobozhdenija
+	prerequisite = {
+		focus = AOZ_peremoga
+	}
+	cost = 4
+	x = 20
+	y = 13
+	completion_reward = { 
+		add_stability = 0.05
+		add_political_power = 250
+	}
+}
+shared_focus = { #
+	id = AOZ_kommisija_po_urbanizacii
+	prerequisite = {
+		focus = AOZ_komitet_osvobozhdenija
+	}
+	cost = 10
+	x = 20
+	y = 14
+	completion_reward = { 
+		country_event = AOZ.1001
 	}
 }
