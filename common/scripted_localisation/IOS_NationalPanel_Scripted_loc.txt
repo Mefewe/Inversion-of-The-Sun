@@ -4,4 +4,7 @@ defined_text = {
 		trigger = { has_country_flag = NatPan_opened_category }
 		localization_key = NAT_PAN_OPEN_CAT
 	}
+	text = {
+		localization_key = NAT_PAN_CLOSED_CAT
+	}
 }
