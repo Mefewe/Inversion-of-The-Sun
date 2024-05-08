@@ -1043,6 +1043,40 @@ country_event = { #Урбанизация
 
 	}
 }
+country_event = { #
+	id = AOZ.1002
+	title = AOZ.1002.title
+	desc = AOZ.1002.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.1002.a
+		add_stability = 0.05
+		add_war_support = 0.05
+	}
+}
+country_event = { #
+	id = AOZ.1003
+	title = AOZ.1003.title
+	desc = AOZ.1003.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.1003.a
+		add_stability = 0.025
+	}
+}
+country_event = { #AOZ_uchitesj_zebry
+	id = AOZ.1004
+	title = AOZ.1004.title
+	desc = AOZ.1004.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.1004.a
+
+	}
+}
 
 
 country_event = {
