@@ -1038,3 +1038,117 @@ shared_focus = { #
 		country_event = AOZ.1001
 	}
 }
+
+shared_focus = { #
+	id = AOZ_igy_volt
+	prerequisite = {
+		focus = AOZ_kommisija_po_urbanizacii
+	}
+	cost = 5
+	x = 22
+	y = 15
+	completion_reward = { 
+		country_event = AOZ.1002
+	}
+}
+shared_focus = { #
+	id = AOZ_igy_lesz
+	prerequisite = {
+		focus = AOZ_igy_volt
+	}
+	cost = 5
+	x = 22
+	y = 16
+	completion_reward = { 
+		country_event = AOZ.1003
+	}
+}
+shared_focus = { #
+	id = AOZ_uchitesj_zebry
+	prerequisite = {
+		focus = AOZ_igy_lesz
+	}
+	cost = 8
+	x = 22
+	y = 17
+	completion_reward = { 
+		country_event = AOZ.1004
+	}
+}
+
+shared_focus = { #
+	id = AOZ_batallion_parade
+	prerequisite = {
+		focus = AOZ_kommisija_po_urbanizacii
+	}
+	cost = 5
+	x = 18
+	y = 15
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_brigade_parade
+	prerequisite = {
+		focus = AOZ_batallion_parade
+	}
+	cost = 5
+	x = 18
+	y = 16
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_big_marsch
+	prerequisite = {
+		focus = AOZ_brigade_parade
+	}
+	cost = 8
+	x = 18
+	y = 17
+	completion_reward = { 
+		
+	}
+}
+
+shared_focus = { #
+	id = AOZ_popolnenija_v_armiju_ot_partnerov
+	prerequisite = {
+		focus = AOZ_big_marsch
+	}
+	cost = 8
+	x = 19
+	y = 18
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_agrarnyj_podjem
+	prerequisite = {
+		focus = AOZ_uchitesj_zebry
+	}
+	cost = 8
+	x = 21
+	y = 18
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_chiruta
+	prerequisite = {
+		focus = AOZ_popolnenija_v_armiju_ot_partnerov
+	}
+	prerequisite = {
+		focus = AOZ_agrarnyj_podjem
+	}
+	cost = 8
+	x = 20
+	y = 19
+	completion_reward = { 
+		
+	}
+}
