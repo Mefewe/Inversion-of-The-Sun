@@ -10,5 +10,9 @@ spriteTypes = {
 	spriteType = {
         name = GFX_info_button
         texturefile = gfx\interface\national_panel\buttons\info_button.dds
+    }	
+	spriteType = {
+        name = GFX_parameter_tab
+        texturefile = gfx\interface\national_panel\parameter_tab.dds
     }
 }

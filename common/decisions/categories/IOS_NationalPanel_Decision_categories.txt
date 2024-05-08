@@ -1,0 +1,4 @@
+NationalPanel_decisions = {
+	icon = generic_research
+	priority = 20
+}

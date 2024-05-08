@@ -1,0 +1,14 @@
+scripted_gui = {
+	IOS_NatPanel_DecCat_desc_UI = {
+		context_type = decision_category
+		window_name = "IOS_NatPanel_DecCat_desc_UI_window"
+
+		properties = {
+			lon_we_1_icon = {
+				image = "[GET_WAR_ESCALATION_LEVEL_1_COLOR]"
+				frame = 1	
+			}
+		}
+	}
+}
+

@@ -24,11 +24,56 @@ guiTypes = {
 
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
-		        verticalScrollbar = "right_vertical_slider"
+		verticalScrollbar = "right_vertical_slider"
 
 		background = {
 			name = "Background"
 			spriteType ="GFX_tiled_bg"
+		}
+		
+		iconType = {
+			name = "exc_header_category_TYR"
+			position = { x = -537 y = 55 }
+			quadTextureSprite ="GFX_panel_header_bg"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+			name = "exc_panel_bg_TYR"
+			position = { x = 12 y = 110 }
+			spriteType ="GFX_panel_bg"
+		}
+		iconType = {
+			name = "1exc_header_category_TYR"
+			position = { x = -537 y = 415 }
+			quadTextureSprite ="GFX_panel_header_bg"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+			name = "1exc_panel_bg_TYR"
+			position = { x = 12 y = 470 }
+			spriteType ="GFX_panel_bg"
+		}
+		iconType = {
+			name = "2exc_header_category_TYR"
+			position = { x = -537 y = 775 }
+			quadTextureSprite ="GFX_panel_header_bg"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+		}
+		iconType = {
+			name = "1exc_panel_bg_TYR"
+			position = { x = 12 y = 470 }
+			spriteType ="GFX_panel_bg"
+		}
+		iconType = {
+			name = "2exc_panel_bg_TYR"
+			position = { x = 12 y = 830 }
+			spriteType ="GFX_panel_bg"
 		}
 		iconType = {
 			name ="nat_panel_header_bg"
@@ -45,6 +90,11 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 		}
+		iconType = {
+			name = "easd"
+			position = { x = 122 y = 110 }
+			spriteType ="GFX_parameter_tab"
+		}
 		buttonType = {
 			name = "info_button"
 			position = { x = -113 y = -5 }
@@ -52,106 +102,6 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
-		}
-		background = {
-			name = "Background"
-			position = { x = 0 y = 45 } 
-			spriteType ="GFX_tiled_bg"
-		}
-	}
-	containerWindowType = {
-		name = "IOS_TyrlitianPanel" 
-		Orientation = UPPER_LEFT
-		position = { x = -606 y = 78 }
-		show_position = { x=-6 y =78 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
-		size = { width=500 height=100 }
-		buttonType = {
-			name = "header_category"
-			position = { x = -487 y = 65 }
-			quadTextureSprite ="GFX_panel_header_bg"
-			buttonFont = "Main_14_black"
-			Orientation = "UPPER_RIGHT"
-			clicksound = click_close
-		}
-	}
-	containerWindowType = {
-		name = "IOS_TyrlitianPanel1"
-		position = { x = -606 y = 78 }
-		show_position = { x=-6 y =78 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
-		iconType = {
-			name = "panel_bg"
-			position = { x = 8 y = 120 }
-			spriteType ="GFX_panel_bg"
-		}
-	}	
-	containerWindowType = {
-		name = "IOS_SocPanel" 
-		Orientation = UPPER_LEFT
-		position = { x = -606 y = 78 }
-		show_position = { x=-6 y =78 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
-		size = { width=500 height=100 }
-		buttonType = {
-			name = "header_category"
-			position = { x = -487 y = 425 }
-			quadTextureSprite ="GFX_panel_header_bg"
-			buttonFont = "Main_14_black"
-			Orientation = "UPPER_RIGHT"
-			clicksound = click_close
-		}
-	}
-	containerWindowType = {
-		name = "IOS_SocPanel1"
-		position = { x = -606 y = 78 }
-		show_position = { x=-6 y =78 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
-		size = { width=500 height=100 }
-		iconType = {
-			name = "panel_bg"
-			position = { x = 8 y = 480 }
-			spriteType ="GFX_panel_bg"
-		}
-	}
-	containerWindowType = {
-		name = "IOS_PolPanel" 
-		Orientation = UPPER_LEFT
-		position = { x = -606 y = 78 }
-		show_position = { x=-6 y =78 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
-		size = { width=500 height=100 }
-		buttonType = {
-			name = "header_category"
-			position = { x = -487 y = 785 }
-			quadTextureSprite ="GFX_panel_header_bg"
-			buttonFont = "Main_14_black"
-			Orientation = "UPPER_RIGHT"
-			clicksound = click_close
-		}
-	}
-	containerWindowType = {
-		name = "IOS_PolPanel1"
-		position = { x = -606 y = 78 }
-		show_position = { x=-6 y =78 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
-		size = { width=500 height=100 }
-		iconType = {
-			name = "panel_bg"
-			position = { x = 8 y = 840 }
-			spriteType ="GFX_panel_bg"
 		}
 	}
 }

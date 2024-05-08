@@ -1,0 +1,48 @@
+NationalPanel_decisions = {
+	NatPan_Test_loc_ON = {
+		available = {
+			NOT = { has_country_flag = NatPan_opened_category }
+		}
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			set_country_flag = NatPan_opened_category
+		}
+	}
+	NatPan_Test_loc_OFF = {
+		available = {
+			has_country_flag = NatPan_opened_category
+		}
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			clr_country_flag = NatPan_opened_category
+		}
+	}
+	NatPan_Inner_Politics = {
+		available = {
+		}
+		visible = {
+		}
+		complete_effect = {
+		}
+	}
+	NatPan_Opinions_of_Population = {
+		available = {
+		}
+		visible = {
+		}
+		complete_effect = {
+		}
+	}
+	NatPan_Economy = {
+		available = {
+		}
+		visible = {
+		}
+		complete_effect = {
+		}
+	}
+}
