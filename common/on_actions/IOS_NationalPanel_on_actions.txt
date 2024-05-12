@@ -1,7 +1,566 @@
+# NatPan_Populism
+#
+# NatPan_TYRexc_NewIdentity
+# NatPan_TYRexc_NewIdentity_ppFactor
+# NatPan_TYRexc_NewIdentity_stabFactor
+# NatPan_TYRexc_NewIdentity_compilanceFactor
+# NatPan_TYRexc_NewIdentity_resistanceFactor
+# NatPan_TYRexc_Legitimacy
+# NatPan_TYRexc_Legitimacy_ppFactor
+# NatPan_TYRexc_Legitimacy_compilanceFactor
+# NatPan_TYRexc_Legitimacy_resistanceFactor
+# NatPan_Collaborationism
+# NatPan_PowerCentralization
+# NatPan_PowerCentralization_ppNum
+# NatPan_PowerCentralization_researchFactor
+# NatPan_PowerCentralization_autonomyFactor
+# NatPan_PowerCentralization_attackFactor
+# NatPan_PowerCentralization_defenceFactor
+# NatPan_PowerCentralization_consumerFactor
+# NatPan_PoliticalIndependence
+# NatPan_CapitalismDrift
+# NatPan_CollectivismDrift
+# NatPan_PrivateProperty
+# NatPan_StateProperty
+# NatPan_LightInustry
+# NatPan_HeavyIndustry
+# NatPan_ProductionProgressivity
+# NatPan_Monopolization
+#
+# PrivatePropertySubvar, StatePropertySubvar - you should add values to NatPan_PrivateProperty and NatPan_StateProperty through this vars
+
 on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = { tag = TYR }
+					add_dynamic_modifier = {
+						modifier = NatPan_TYRexc_NewIdentity_dyn_mod
+						scope = TYR
+					}
+					add_dynamic_modifier = {
+						modifier = NatPan_TYRexc_Legitimacy_dyn_mod
+						scope = TYR
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_Populism_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_PowerCentralization_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_PoliticalIndependence_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_EconTrends_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_Collaborationism_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_PrivateProperty_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_StateProperty_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_LightInustry_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_HeavyIndustry_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_ProductionProgressivity_dyn_mod
+				}
+				add_dynamic_modifier = {
+					modifier = NatPan_Monopolization_dyn_mod
+				}
+			}
+		}
+	}
 	on_daily = {
 		effect = {
+			###################### FIXING VARS
 
+			### POPULISM
+			if = {
+				limit = {
+					NOT = { check_variable = { var = NatPan_Populism value > 0 } }
+				}
+				set_variable = { var = NatPan_Populism value = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = NatPan_Populism value > 99.99 }
+				}
+				set_variable = { var = NatPan_Populism value = 100 }
+			}
+
+			### TYR IDENTITY
+			if = {
+				limit = {
+					tag = TYR
+					NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 0 } }
+				}
+				set_variable = { var = NatPan_TYRexc_NewIdentity value = 0 }
+			}
+			if = {
+				limit = {
+					tag = TYR
+					check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 }
+				}
+				set_variable = { var = NatPan_TYRexc_NewIdentity value = 100 }
+			}
+
+			### TYR LEGITIMACY
+			if = {
+				limit = {
+					tag = TYR
+					NOT = { check_variable = { var = NatPan_TYRexc_Legitimacy value > 0 } }
+				}
+				set_variable = { var = NatPan_TYRexc_Legitimacy value = 0 }
+			}
+			if = {
+				limit = {
+					tag = TYR
+					check_variable = { var = NatPan_TYRexc_Legitimacy value > 99.99 }
+				}
+				set_variable = { var = NatPan_TYRexc_Legitimacy value = 100 }
+			}
+
+			### POWER CENTRALIZATION
+			if = {
+				limit = {
+					NOT = { check_variable = { var = NatPan_PowerCentralization value > 0 } }
+				}
+				set_variable = { var = NatPan_PowerCentralization value = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = NatPan_PowerCentralization value > 99.99 }
+				}
+				set_variable = { var = NatPan_PowerCentralization value = 100 }
+			}
+			
+			### POLITICAL INDEPENDENCE
+			if = {
+				limit = {
+					NOT = { check_variable = { var = NatPan_PoliticalIndependence value > 0 } }
+				}
+				set_variable = { var = NatPan_PoliticalIndependence value = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = NatPan_PoliticalIndependence value > 99.99 }
+				}
+				set_variable = { var = NatPan_PoliticalIndependence value = 100 }
+			}
+
+			### PROD PROGRESSIVITY
+			if = {
+				limit = {
+					NOT = { check_variable = { var = NatPan_ProductionProgressivity value > 0 } }
+				}
+				set_variable = { var = NatPan_ProductionProgressivity value = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = NatPan_ProductionProgressivity value > 99.99 }
+				}
+				set_variable = { var = NatPan_ProductionProgressivity value = 100 }
+			}
+
+			### PRIVATE PROD PROPERTY
+			if = {
+				limit = {
+					NOT = { check_variable = { var = NatPan_PrivateProperty value > -0.005 } }
+				}
+				set_variable = { var = NatPan_PrivateProperty value = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = NatPan_PrivateProperty value > 0.99 }
+				}
+				set_variable = { var = NatPan_PrivateProperty value = 1 }
+			}
+			# Needed to make substraction from state property var
+			add_to_variable = { var = NatPan_PrivateProperty value = PrivatePropertySubvar }
+			subtract_from_variable = { var = NatPan_StateProperty value = PrivatePropertySubvar }
+			set_variable = { var = PrivatePropertySubvar value = 0 }
+
+			### STATE PROD PROPERTY
+
+			if = {
+				limit = {
+					NOT = { check_variable = { var = NatPan_StateProperty value > -0.005 } }
+				}
+				set_variable = { var = NatPan_StateProperty value = 0 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = NatPan_StateProperty value > 0.99 }
+				}
+				set_variable = { var = NatPan_StateProperty value = 1 }
+			}
+			# Same as in private property
+			add_to_variable = { var = NatPan_StateProperty value = StatePropertySubvar }
+			subtract_from_variable = { var = NatPan_PrivateProperty value = StatePropertySubvar }
+			set_variable = { var = StatePropertySubvar value = 0 }
+
+			###################### DIVIDING AND MULTIPLYING VARS
+
+			### POPULISM: Political Power Cost
+			set_variable = {
+				var = NatPan_Populism_ppCostFactor
+				value = NatPan_Populism
+			}
+			divide_variable = {
+				var = NatPan_Populism_ppCostFactor
+				value = 50
+			}
+			
+			### POPULISM: Law Efficiency
+			set_variable = {
+				var = NatPan_Populism_lawEffFactor
+				value = NatPan_Populism
+			}
+			divide_variable = {
+				var = NatPan_Populism_lawEffFactor
+				value = 1150
+			}
+
+			### ###
+
+			### NEW IDENTITY: Political Power
+			set_variable = {
+				var = NatPan_TYRexc_NewIdentity_ppFactor
+				value = NatPan_TYRexc_NewIdentity
+			}
+			divide_variable = {
+				var = NatPan_TYRexc_NewIdentity_ppFactor
+				value = 350
+			}
+
+			### NEW IDENTITY: Stability
+			set_variable = {
+				var = NatPan_TYRexc_NewIdentity_stabFactor
+				value = NatPan_TYRexc_NewIdentity
+			}
+			divide_variable = {
+				var = NatPan_TYRexc_NewIdentity_stabFactor
+				value = 550
+			}
+
+			### NEW IDENTITY: Compilance
+			set_variable = {
+				var = NatPan_TYRexc_NewIdentity_compilanceFactor
+				value = NatPan_TYRexc_NewIdentity
+			}
+			divide_variable = {
+				var = NatPan_TYRexc_NewIdentity_compilanceFactor 
+				value = 1100
+			}
+
+			### NEW IDENTITY: Resistance
+			set_variable = {
+				var = NatPan_TYRexc_NewIdentity_resistanceFactor
+				value = NatPan_TYRexc_NewIdentity
+			}
+			divide_variable = {
+				var = NatPan_TYRexc_NewIdentity_resistanceFactor
+				value = 1650
+			}
+
+			### ###
+
+			### LEGITIMACY: Political Power
+			set_variable = {
+				var = NatPan_TYRexc_Legitimacy_ppFactor
+				value = NatPan_TYRexc_Legitimacy
+			}
+			divide_variable = {
+				var = NatPan_TYRexc_Legitimacy_ppFactor
+				value = 250
+			}
+
+			### LEGITIMACY: Compilance
+			set_variable = {
+				var = NatPan_TYRexc_Legitimacy_compilanceFactor
+				value = NatPan_TYRexc_Legitimacy
+			}
+			divide_variable = {
+				var = NatPan_TYRexc_Legitimacy_compilanceFactor 
+				value = 800
+			}
+
+			### LEGITIMACY: Resistance
+			set_variable = {
+				var = NatPan_TYRexc_Legitimacy_resistanceFactor
+				value = NatPan_TYRexc_Legitimacy
+			}
+			divide_variable = {
+				var = NatPan_TYRexc_Legitimacy_resistanceFactor
+				value = 1350
+			}
+			
+			### ###
+			
+			### POWER CENTRALIZATION: Political Power Cost
+			
+			set_variable = {
+				var = NatPan_PowerCentralization_ppNum
+				value = NatPan_PowerCentralization
+			}
+			divide_variable = {
+				var = NatPan_PowerCentralization_ppNum
+				value = 35
+			}			
+			
+			### POWER CENTRALIZATION: Research Speed
+
+			if = {
+				limit = { 
+					check_variable = { var = NatPan_PowerCentralization value > 70 }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_researchFactor
+					value = NatPan_PowerCentralization
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_researchFactor
+					value = 500
+				}
+			}
+			else_if = {
+				limit = { 
+					check_variable = { var = NatPan_PowerCentralization value > 50 }
+
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_researchFactor
+					value = NatPan_PowerCentralization
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_researchFactor
+					value = 1500
+				}
+			}			
+			else_if = {
+				limit = { 
+					NOT = { check_variable = { var = NatPan_PowerCentralization value > 50 } }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_researchFactor
+					value = NatPan_PowerCentralization
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_researchFactor
+					value = -3000
+				}
+			}
+			
+			### POWER CENTRALIZATION: Autonomy Gain
+			
+			set_variable = {
+				var = NatPan_PowerCentralization_autonomyFactor
+				value = NatPan_PowerCentralization
+			}
+			divide_variable = {
+				var = NatPan_PowerCentralization_autonomyFactor
+				value = 1150
+			}		
+
+			### POWER CENTRALIZATION: Attack Factor
+
+			if = {
+				limit = { 
+					check_variable = { var = NatPan_PowerCentralization value > 74.99 }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = NatPan_PowerCentralization
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = 650
+				}
+			}
+			if = {
+				limit = { 
+					check_variable = { var = NatPan_PowerCentralization value > 49.99 }
+					NOT = { check_variable = { var = NatPan_PowerCentralization value > 75 } }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = NatPan_PowerCentralization
+				}
+				add_to_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = 30
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = 1050
+				}
+			}		
+			if = {
+				limit = { 
+					NOT = { check_variable = { var = NatPan_PowerCentralization value > 50 } }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = NatPan_PowerCentralization
+				}
+				add_to_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = 150
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_attackFactor
+					value = 1875
+				}
+			}
+			
+			### POWER CENTRALIZATION: Defence Factor
+			
+			if = {
+				limit = { 
+					check_variable = { var = NatPan_PowerCentralization value > 74.99 }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = NatPan_PowerCentralization
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = 1450
+				}
+			}
+			if = {
+				limit = { 
+					check_variable = { var = NatPan_PowerCentralization value > 49.99 }
+					NOT = { check_variable = { var = NatPan_PowerCentralization value > 75 } }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = NatPan_PowerCentralization
+				}
+				add_to_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = 30
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = 1750
+				}
+			}		
+			if = {
+				limit = { 
+					check_variable = { var = NatPan_PowerCentralization value > 24.99 }
+					NOT = { check_variable = { var = NatPan_PowerCentralization value > 50 } }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = NatPan_PowerCentralization
+				}
+				add_to_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = 85
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = 2375
+				}
+			}
+			if = {
+				limit = { 
+					NOT = { check_variable = { var = NatPan_PowerCentralization value > 25 } }
+				}
+				set_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = NatPan_PowerCentralization
+				}
+				add_to_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = 150
+				}
+				divide_variable = {
+					var = NatPan_PowerCentralization_defenceFactor
+					value = 1875
+				}
+			}
+
+			### POWER CENTRALIZATION: Consumer Goods Factor
+
+			set_variable = {
+				var = NatPan_PowerCentralization_consumerFactor
+				value = NatPan_PowerCentralization
+			}
+			divide_variable = {
+				var = NatPan_PowerCentralization_consumerFactor
+				value = 1150
+			}
+			
+			### ###
+			
+			### POLITICAL INDEPENDENCE:
+			
+			if = {
+				limit = { 
+					check_variable = { var = NatPan_Populism value > 0.001 }
+				}
+				add_to_variable = { var = NatPan_Populism value = -0.01 }
+			}
+			
+			if = {
+				limit = { has_country_flag = SUSSY value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 0.009 }
+			}
+			if = {
+				limit = { has_country_flag = SUSSY2 value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 0.009 }
+			}
+			if = {
+				limit = { has_country_flag = SUSSY3 value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 0.009 }
+			}			
+			if = {
+				limit = { has_country_flag = SUSSY4 value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 0.035 }
+			}			
+			if = {
+				limit = { has_country_flag = SUSSY5 value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 0.009 }
+			}			
+			if = {
+				limit = { has_country_flag = SUSSY6 value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 0.02 }
+				add_to_variable = { var = NatPan_Populism value = 0.015 }
+			}			
+			if = {
+				limit = { has_country_flag = SUSSY7 value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 0.007 }
+			}
+			if = {
+				limit = { has_country_flag = OccupationPayments_Legitimacy_Add value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_Legitimacy value = 0.009 }
+			}
+			if = {
+				limit = { has_country_flag = EliminateOpposition_Legitimacy_Add value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_Legitimacy value = 0.009 }
+			}
+			if = {
+				limit = { has_country_flag = PromiseFuture_Legitimacy_Add value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_Legitimacy value = 0.009 }
+				add_to_variable = { var = NatPan_Populism value = 0.015 }
+			}
+			if = {
+				limit = { has_country_flag = PropagandizeAgenda_Legitimacy_Add value = 1 }
+				add_to_variable = { var = NatPan_TYRexc_Legitimacy value = 0.009 }
+				add_to_variable = { var = NatPan_Populism value = 0.015 }
+			}
 		}
 	}
 }

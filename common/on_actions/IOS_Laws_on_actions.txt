@@ -1,0 +1,188 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = { var = LawEfficiencyCoef value = 1 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_EfficiencyFactorCoef value = 1 }
+
+				add_dynamic_modifier = { modifier = WeaponLegalize_NO_CONTROL_LawModifier }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_stabFactor value = 0 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_conscFactor value = 0 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_armyCoreAttackFactor value = 0 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_armyCoreDefenceFactor value = 0 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_stabEfficiencyFactor value = -3.5 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_conscEfficiencyFactor value = 7.5 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_armyCoreAttackEfficiencyFactor value = 5 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_armyCoreDefenceEfficiencyFactor value = 5 }
+				set_variable = { var = WeaponLegalize_NO_CONTROL_EfficiencyFactor value = 0.005 }
+
+				add_dynamic_modifier = { modifier = WeaponLegalize_RIGHTS_FORBIDDEN_LawModifier }
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_stabFactor value = 0 }
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_ppFactor value = 0 }
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_stabEfficiencyFactor value = 0.003 }
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_ppEfficiencyFactor value = 0.005 }
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_EfficiencyFactor value = 0.005 }
+
+				add_dynamic_modifier = { modifier = WeaponLegalize_LIGHT_RIGHTS_LawModifier }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_stabFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_ppFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_conscFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_armyCoreAttackFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_armyCoreDefenceFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_stabEfficiencyFactor value = -0.004 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_ppEfficiencyFactor value = 0.002 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_conscEfficiencyFactor value = 0.002 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_armyCoreAttackEfficiencyFactor value = 0.003 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_armyCoreDefenceEfficiencyFactor value = 0.003 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_EfficiencyFactor value = 0.005 }
+
+				add_dynamic_modifier = { modifier = WeaponLegalize_FULL_RIGHTS_LawModifier }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_stabFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_ppFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_conscFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_armyCoreAttackFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_armyCoreDefenceFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_stabEfficiencyFactor value = -0.006 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_ppEfficiencyFactor value = -0.005 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_conscEfficiencyFactor value = 0.003 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_armyCoreAttackEfficiencyFactor value = 0.004 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_armyCoreDefenceEfficiencyFactor value = 0.004 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_EfficiencyFactor value = 0.005 }
+			}
+		}
+	}
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					has_idea = no_weapon_control
+					NOT = { check_variable = { var = WeaponLegalize_NO_CONTROL_MaxFactor value = 1 } }
+				}
+
+				### No weapon control: stability
+				set_variable = {
+					var = WeaponLegalize_NO_CONTROL_stabFactor
+					value = WeaponLegalize_NO_CONTROL_MaxFactor
+				}
+				divide_variable = {
+					var = WeaponLegalize_NO_CONTROL_stabFactor
+					value = WeaponLegalize_NO_CONTROL_stabEfficiencyFactor
+				}
+
+				### No weapon control: conscription
+				set_variable = {
+					var = WeaponLegalize_NO_CONTROL_conscFactor
+					value = WeaponLegalize_NO_CONTROL_MaxFactor
+				}
+				divide_variable = {
+					var = WeaponLegalize_NO_CONTROL_conscFactor
+					value = WeaponLegalize_NO_CONTROL_conscEfficiencyFactor
+				}
+
+				### No weapon control: army core attack
+				set_variable = {
+					var = WeaponLegalize_NO_CONTROL_armyCoreAttackFactor
+					value = WeaponLegalize_NO_CONTROL_MaxFactor
+				}
+				divide_variable = {
+					var = WeaponLegalize_NO_CONTROL_armyCoreAttackFactor
+					value = WeaponLegalize_NO_CONTROL_armyCoreAttackEfficiencyFactor
+				}
+
+				### No weapon control: army core defence
+				set_variable = {
+					var = WeaponLegalize_NO_CONTROL_armyCoreDefenceFactor
+					value = WeaponLegalize_NO_CONTROL_MaxFactor
+				}
+				divide_variable = {
+					var = WeaponLegalize_NO_CONTROL_armyCoreDefenceFactor
+					value = WeaponLegalize_NO_CONTROL_armyCoreDefenceEfficiencyFactor
+				}
+
+				### Max efficiency of law - No weapon control
+				add_to_variable = {
+					var = WeaponLegalize_NO_CONTROL_MaxFactor
+					value = WeaponLegalize_NO_CONTROL_EfficiencyFactor
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = weapon_rights_forbidden
+					NOT = { check_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_MaxFactor value = 1 } }
+				}
+				add_to_variable = {
+					var = WeaponLegalize_RIGHTS_FORBIDDEN_stabFactor
+					value = WeaponLegalize_RIGHTS_FORBIDDEN_stabEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_RIGHTS_FORBIDDEN_ppFactor
+					value = WeaponLegalize_RIGHTS_FORBIDDEN_ppEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_RIGHTS_FORBIDDEN_MaxFactor
+					value = WeaponLegalize_RIGHTS_FORBIDDEN_EfficiencyFactor
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = light_weapon_rights
+					NOT = { check_variable = { var = WeaponLegalize_LIGHT_RIGHTS_MaxFactor value = 1 } }
+				}
+				add_to_variable = {
+					var = WeaponLegalize_LIGHT_RIGHTS_stabFactor
+					value = WeaponLegalize_LIGHT_RIGHTS_stabEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_LIGHT_RIGHTS_ppFactor
+					value = WeaponLegalize_LIGHT_RIGHTS_ppEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_LIGHT_RIGHTS_conscFactor
+					value = WeaponLegalize_LIGHT_RIGHTS_conscEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_LIGHT_RIGHTS_armyCoreAttackFactor
+					value = WeaponLegalize_LIGHT_RIGHTS_armyCoreAttackEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_LIGHT_RIGHTS_armyCoreDefenceFactor
+					value = WeaponLegalize_LIGHT_RIGHTS_armyCoreDefenceEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_LIGHT_RIGHTS_MaxFactor
+					value = WeaponLegalize_LIGHT_RIGHTS_EfficiencyFactor
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = full_weapon_legalization
+					NOT = { check_variable = { var = WeaponLegalize_FULL_RIGHTS_MaxFactor value = 1 } }
+				}
+				add_to_variable = {
+					var = WeaponLegalize_FULL_RIGHTS_stabFactor
+					value = WeaponLegalize_FULL_RIGHTS_stabEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_FULL_RIGHTS_ppFactor
+					value = WeaponLegalize_FULL_RIGHTS_ppEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_FULL_RIGHTS_conscFactor
+					value = WeaponLegalize_FULL_RIGHTS_conscEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_FULL_RIGHTS_armyCoreAttackFactor
+					value = WeaponLegalize_FULL_RIGHTS_armyCoreAttackEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_FULL_RIGHTS_armyCoreDefenceFactor
+					value = WeaponLegalize_FULL_RIGHTS_armyCoreDefenceEfficiencyFactor
+				}
+				add_to_variable = {
+					var = WeaponLegalize_FULL_RIGHTS_MaxFactor
+					value = WeaponLegalize_FULL_RIGHTS_EfficiencyFactor
+				}
+			}
+		}
+	}
+}

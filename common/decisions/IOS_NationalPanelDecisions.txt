@@ -1,48 +1,902 @@
 NationalPanel_decisions = {
-	NatPan_Test_loc_ON = {
+	NatPan_test_activate_all_decs = {
+		visible = {
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = PromiseFuture_DecisionActive
+			set_country_flag = PropagandizeAgenda_DecisionActive
+			set_country_flag = OccupationPayments_DecisionActive
+			set_country_flag = EliminateOpposition_DecisionActive
+			set_country_flag = TyrlitianAgitation_DecisionActive
+			set_country_flag = CulturalExpenses_DecisionActive
+			set_country_flag = RaidTranszebrica_DecisionActive
+			set_country_flag = PolitizeScience_DecisionActive
+			set_country_flag = ReformTextbooks_DecisionActive
+		}
+	}
+	NatPan_var_modifiers_ENABLE = {
+		visible = {
+			NOT = { has_country_flag = VarModifiersENABLED }
+		}
+		complete_effect = {
+			set_country_flag = SEE0
+			set_country_flag = SEE1
+			set_country_flag = SEE2
+			set_country_flag = SEE3
+			set_country_flag = SEE4
+			set_country_flag = VarModifiersENABLED
+		}
+	}
+	NatPan_enable_var_modifiers_DISABLE = {
+		visible = {
+			has_country_flag = VarModifiersENABLED
+		}
+		complete_effect = {
+			clr_country_flag = SEE0
+			clr_country_flag = SEE1
+			clr_country_flag = SEE2
+			clr_country_flag = SEE3
+			clr_country_flag = SEE4
+			clr_country_flag = VarModifiersENABLED
+		}
+	}
+	NatPan_populism_debug_descs_OPEN = {
 		available = {
-			NOT = { has_country_flag = NatPan_opened_category }
 		}
 		visible = {
 			is_debug = yes
+			NOT = { has_country_flag = DEBUG_PopulismDecsOpened }
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
 		}
 		complete_effect = {
-			set_country_flag = NatPan_opened_category
+			set_country_flag = DEBUG_PopulismDecsOpened
 		}
 	}
-	NatPan_Test_loc_OFF = {
+	NatPan_test_add_populism50 = {
 		available = {
-			has_country_flag = NatPan_opened_category
 		}
 		visible = {
 			is_debug = yes
+			has_country_flag = DEBUG_PopulismDecsOpened
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
 		}
 		complete_effect = {
-			clr_country_flag = NatPan_opened_category
+			add_to_variable = { var = NatPan_Populism value = 50 }
 		}
 	}
-	NatPan_Inner_Politics = {
+	NatPan_test_remove_populism50 = {
 		available = {
 		}
 		visible = {
+			is_debug = yes
+			has_country_flag = DEBUG_PopulismDecsOpened
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
 		}
 		complete_effect = {
+			add_to_variable = { var = NatPan_Populism value = -50 }
 		}
 	}
-	NatPan_Opinions_of_Population = {
+	NatPan_test_add_populism5 = {
 		available = {
 		}
 		visible = {
+			is_debug = yes
+			has_country_flag = DEBUG_PopulismDecsOpened
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
 		}
 		complete_effect = {
+			add_to_variable = { var = NatPan_Populism value = 5 }
 		}
 	}
-	NatPan_Economy = {
+	NatPan_test_remove_populism5 = {
 		available = {
 		}
 		visible = {
+			is_debug = yes
+			has_country_flag = DEBUG_PopulismDecsOpened
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
 		}
 		complete_effect = {
+			add_to_variable = { var = NatPan_Populism value = -5 }
+		}
+	}
+	NatPan_populism_debug_descs_CLOSE = {
+		available = {
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = DEBUG_PopulismDecsOpened
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_PopulismDecsOpened
+		}
+	}
+	NatPan_TYR_exc_ON = {
+		available = {
+		}
+		visible = {
+			tag = TYR
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
+		}
+		complete_effect = {
+			set_country_flag = NatPan_default_category_off
+			set_country_flag = NatPan_tyrexc_category
+			clr_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_innerpol_category
+		}
+	}
+	##########################
+	### Identity Decisions ###
+	##########################
+	NatPan_TYR_exc_IdentityDecs_OPEN = {
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			NOT = { has_country_flag = TYR_IdentityDecsOpened }
+		}
+		complete_effect = {
+			set_country_flag = TYR_IdentityDecsOpened
+		}
+	}
+	### . : DEBUG DECS : . ###
+	NatPan_TYR_exc_test_add_identity10 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			is_debug = yes
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 10 }
+		}
+	}
+	NatPan_TYR_exc_test_remove_identity10 = {
+		icon = GFX_decision_generic_research
+		available = {
+			check_variable = { var = NatPan_TYRexc_NewIdentity value < 0.005 }
+		}
+		visible = {
+			tag = TYR
+			is_debug = yes
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_TYRexc_NewIdentity value = -10 }
+		}
+	}
+	NatPan_TYR_exc_test_add_identity5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			is_debug = yes
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_TYRexc_NewIdentity value = 5 }
+		}
+	}
+	NatPan_TYR_exc_test_remove_identity5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			check_variable = { var = NatPan_TYRexc_NewIdentity value < 0.005 }
+		}
+		visible = {
+			tag = TYR
+			is_debug = yes
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_TYRexc_NewIdentity value = -5 }
+		}
+	}
+	### . : NORMAL DECS : . ###
+	NatPan_TYR_exc_politize_science = {
+		icon = GFX_decision_eng_trade_unions_demand
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+			has_country_flag = PolitizeScience_DecisionActive
+		}
+		days_remove = 160
+		cost = 25
+		complete_effect = {
+			set_country_flag = { flag = SUSSY days = 160 value = 1 }
+			custom_effect_tooltip = NatPan_TYR_exc_politize_science_tt
+		}
+	}
+	NatPan_TYR_exc_propaganda = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+			has_country_flag = TyrlitianAgitation_DecisionActive
+		}
+		days_remove = 160
+		cost = 25
+		complete_effect = {
+			set_country_flag = { flag = SUSSY2 days = 160 value = 1 }
+			custom_effect_tooltip = NatPan_TYR_exc_propaganda_tt
+		}
+	}
+	NatPan_TYR_exc_cultural_expenses = {
+		icon = GFX_decision_generic_welfare
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+			has_country_flag = CulturalExpenses_DecisionActive
+		}
+		days_remove = 160
+		cost = 25
+		complete_effect = {
+			set_country_flag = { flag = SUSSY3 days = 160 value = 1 }
+			custom_effect_tooltip = NatPan_TYR_exc_cultural_expenses_tt
+		}
+	}
+	NatPan_TYR_exc_raid_transzebrica = {
+		icon = GFX_decision_generic_operation
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+			command_power > 15
+			has_political_power > 30
+			961 = {
+				is_controlled_by = TYR
+
+			}
+			divisions_in_state = { size > 0 state = 961 }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+			has_country_flag = RaidTranszebrica_DecisionActive
+			960 = {
+				NOT = { is_controlled_by = TYR }
+
+			}
+		}
+		days_remove = 75
+		complete_effect = {
+			add_political_power = -30
+			add_command_power = -15
+			custom_effect_tooltip = NatPan_TYR_exc_raid_transzebrica_tt
+			hidden_effect = {
+				country_event = { id = NatPan_TYR_Raid.1 days = 14 }
+			}
+		}
+	}
+	NatPan_TYR_exc_greet_our_island_victory = {
+		icon = GFX_decision_generic_nationalism
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+			960 = {
+				is_controlled_by = TYR
+
+			}
+		}
+		cost = 30
+		days_remove = 180
+		complete_effect = {
+			set_country_flag = { flag = SUSSY6 days = 180 value = 1 }
+			custom_effect_tooltip = NatPan_TYR_exc_greet_our_island_victory_tt
+		}
+	}
+	NatPan_TYR_exc_reform_the_textbooks = {
+		icon = GFX_decision_eng_trade_unions_support
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+			has_country_flag = ReformTextbooks_DecisionActive
+		}
+		cost = 75
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = { flag = SUSSY7 value = 1 }
+			custom_effect_tooltip = NatPan_TYR_exc_reform_the_textbooks_tt
+		}
+	}
+	NatPan_TYR_exc_IdentityDecs_CLOSE = {
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_IdentityDecsOpened
+		}
+		complete_effect = {
+			clr_country_flag = TYR_IdentityDecsOpened
+		}
+	}
+	############################
+	### Legitimacy Decisions ###
+	############################
+	NatPan_TYR_exc_LegitimacyDecs_OPEN = {
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			NOT = { has_country_flag = TYR_LegitimacyDecsOpened }
+		}
+		complete_effect = {
+			set_country_flag = TYR_LegitimacyDecsOpened
+		}
+	}
+	### . : DEBUG DECS : . ###
+	NatPan_TYR_exc_test_add_legitimacy5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_Legitimacy value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			is_debug = yes
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_LegitimacyDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_TYRexc_Legitimacy value = 5 }
+		}
+	}
+	NatPan_TYR_exc_test_remove_legitimacy5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			check_variable = { var = NatPan_TYRexc_Legitimacy value < 0.005 }
+		}
+		visible = {
+			tag = TYR
+			is_debug = yes
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_LegitimacyDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_TYRexc_Legitimacy value = -5 }
+		}
+	}
+	### . : NORMAL DECS : . ###
+	NatPan_TYR_exc_continue_occupation_payments = {
+		icon = GFX_decision_generic_welfare
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_Legitimacy value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_LegitimacyDecsOpened
+			has_country_flag = OccupationPayments_DecisionActive
+		}
+		days_remove = 180
+		cost = 25
+		complete_effect = {
+			set_country_flag = { flag = OccupationPayments_Legitimacy_Add days = 180 value = 1 }
+			add_timed_idea = { idea = NatPan_OccupationPayments_Legitimacy_Add_idea days = 180 }
+			custom_effect_tooltip = NatPan_TYR_exc_continue_occupation_payments_tt
+		}
+	}
+	NatPan_TYR_exc_eliminate_political_competition = {
+		icon = GFX_decision_generic_arrest
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_Legitimacy value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_LegitimacyDecsOpened
+			has_country_flag = EliminateOpposition_DecisionActive
+		}
+		days_remove = 210
+		cost = 50
+		complete_effect = {
+			set_country_flag = { flag = EliminateOpposition_Legitimacy_Add days = 210 value = 1 }
+			add_timed_idea = { idea = EliminateOpposition_Legitimacy_Add_idea days = 210 }
+			custom_effect_tooltip = NatPan_TYR_exc_eliminate_political_competition_tt
+		}
+	}
+	NatPan_TYR_exc_promise_great_future = {
+		icon = GFX_decision_generic_political_address
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_Legitimacy value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_LegitimacyDecsOpened
+			has_country_flag = PromiseFuture_DecisionActive
+		}
+		days_remove = 140
+		cost = 25
+		complete_effect = {
+			set_country_flag = { flag = PromiseFuture_Legitimacy_Add days = 140 value = 1 }
+			custom_effect_tooltip = NatPan_TYR_exc_promise_great_future_tt
+		}
+	}
+	NatPan_TYR_exc_propagandize_mgabe_agenda = {
+		icon = GFX_decision_hol_radio_oranje
+		available = {
+			NOT = { check_variable = { var = NatPan_TYRexc_Legitimacy value > 99.99 } }
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_LegitimacyDecsOpened
+			has_country_flag = PropagandizeAgenda_DecisionActive
+		}
+		days_remove = 200
+		cost = 50
+		complete_effect = {
+			set_country_flag = { flag = PropagandizeAgenda_Legitimacy_Add days = 200 value = 1 }
+			custom_effect_tooltip = NatPan_TYR_exc_propagandize_mgabe_agenda_tt
+		}
+	}
+	NatPan_TYR_exc_LegitimacyDecs_CLOSE = {
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+			has_country_flag = TYR_LegitimacyDecsOpened
+		}
+		complete_effect = {
+			clr_country_flag = TYR_LegitimacyDecsOpened
+		}
+	}
+	NatPan_TYR_exc_OFF = {
+		available = {
+		}
+		visible = {
+			tag = TYR
+			has_country_flag = NatPan_tyrexc_category
+		}
+		complete_effect = {
+			clr_country_flag = NatPan_default_category_off
+			clr_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_innerpol_category
+			clr_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_tyrexc_category
+		}
+	}
+	NatPan_Inner_Politics_ON = {
+		available = {
+		}
+		visible = {
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
+		}
+		complete_effect = {
+			set_country_flag = NatPan_default_category_off
+			set_country_flag = NatPan_innerpol_category
+			clr_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_tyrexc_category
+		}
+	}
+	################################
+	### Centralization Decisions ###
+	################################
+	NatPan_InnerPol_CentralizationDecs_OPEN = {
+		visible = {
+			has_country_flag = NatPan_innerpol_category
+			NOT = { has_country_flag = CentralizationDecsOpened }
+		}
+		complete_effect = {
+			set_country_flag = CentralizationDecsOpened
+		}
+	}
+	### . : DEBUG DECS : . ###
+	NatPan_InnerPol_test_add_centralization50 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_PowerCentralization value > 99.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = CentralizationDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PowerCentralization value = 50 }
+		}
+	}
+	NatPan_InnerPol_test_remove_centralization50 = {
+		icon = GFX_decision_generic_research
+		available = {
+			check_variable = { var = NatPan_PowerCentralization value < 0.005 }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = CentralizationDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PowerCentralization value = -50 }
+		}
+	}
+	NatPan_InnerPol_test_add_centralization5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_PowerCentralization value > 99.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = CentralizationDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PowerCentralization value = 5 }
+		}
+	}
+	NatPan_InnerPol_test_remove_centralization5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			check_variable = { var = NatPan_PowerCentralization value < 0.005 }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = CentralizationDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PowerCentralization value = -5 }
+		}
+	}
+	NatPan_InnerPol_test_add_centralization1 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_PowerCentralization value > 99.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = CentralizationDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PowerCentralization value = 1 }
+		}
+	}
+	NatPan_InnerPol_test_remove_centralization1 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_PowerCentralization value > 99.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = CentralizationDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PowerCentralization value = -1 }
+		}
+	}
+	### . : NORMAL DECS : . ###
+	NatPan_InnerPol_CentralizationDecs_CLOSE = {
+		visible = {
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = CentralizationDecsOpened
+		}
+		complete_effect = {
+			clr_country_flag = CentralizationDecsOpened
+		}
+	}
+	########################################
+	### Political Independence Decisions ###
+	########################################
+
+	NatPan_InnerPol_PolIndependenceDecs_OPEN = {
+		visible = {
+			has_country_flag = NatPan_innerpol_category
+			NOT = { has_country_flag = PolIndependenceDecsOpened }
+		}
+		complete_effect = {
+			set_country_flag = PolIndependenceDecsOpened
+		}
+	}
+	### . : DEBUG DECS : . ###
+	NatPan_InnerPol_test_add_independence50 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_PoliticalIndependence value > 99.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = PolIndependenceDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PoliticalIndependence value = 50 }
+		}
+	}
+	NatPan_InnerPol_test_remove_independence50 = {
+		icon = GFX_decision_generic_research
+		available = {
+			check_variable = { var = NatPan_PoliticalIndependence value < 0.005 }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = PolIndependenceDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PoliticalIndependence value = -50 }
+		}
+	}
+	NatPan_InnerPol_test_add_independence5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			NOT = { check_variable = { var = NatPan_PoliticalIndependence value > 99.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = PolIndependenceDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PoliticalIndependence value = 5 }
+		}
+	}
+	NatPan_InnerPol_test_remove_independence5 = {
+		icon = GFX_decision_generic_research
+		available = {
+			check_variable = { var = NatPan_PoliticalIndependence value < 0.005 }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = PolIndependenceDecsOpened
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_PoliticalIndependence value = -5 }
+		}
+	}
+	### . : NORMAL DECS : . ###
+	NatPan_InnerPol_PolIndependenceDecs_CLOSE = {
+		visible = {
+			has_country_flag = NatPan_innerpol_category
+			has_country_flag = PolIndependenceDecsOpened
+		}
+		complete_effect = {
+			clr_country_flag = PolIndependenceDecsOpened
+		}
+	}
+	NatPan_Inner_Politics_OFF = {
+		available = {
+		}
+		visible = {
+			has_country_flag = NatPan_innerpol_category
+		}
+		complete_effect = {
+			clr_country_flag = NatPan_default_category_off
+			clr_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_innerpol_category
+			clr_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_tyrexc_category
+		}
+	}
+	NatPan_Opinions_of_Population_ON = {
+		available = {
+		}
+		visible = {
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
+		}
+		complete_effect = {
+			set_country_flag = NatPan_default_category_off
+			set_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_innerpol_category
+			clr_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_tyrexc_category
+		}
+	}
+	NatPan_Opinions_of_Population_OFF = {
+		available = {
+		}
+		visible = {
+			has_country_flag = NatPan_opinions_category
+		}
+		complete_effect = {
+			clr_country_flag = NatPan_default_category_off
+			clr_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_innerpol_category
+			clr_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_tyrexc_category
+		}
+	}
+	NatPan_Economy_ON = {
+		available = {
+		}
+		visible = {
+			NOT = {
+				has_country_flag = NatPan_opinions_category
+				has_country_flag = NatPan_innerpol_category
+				has_country_flag = NatPan_econ_category
+				has_country_flag = NatPan_tyrexc_category
+			}
+		}
+		complete_effect = {
+			set_country_flag = NatPan_default_category_off
+			set_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_innerpol_category
+			clr_country_flag = NatPan_tyrexc_category
+		}
+	}
+	NatPan_Economy_test_add_private_property50 = {
+		available = {
+			NOT = { check_variable = { var = NatPan_PrivateProperty value > 0.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = PrivatePropertySubvar value = 0.5 }
+		}
+	}
+	NatPan_Economy_test_add_state_property50 = {
+		available = {
+			NOT = { check_variable = { var = NatPan_StateProperty value > 0.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = StatePropertySubvar value = 0.5 }
+		}
+	}
+	NatPan_Economy_test_add_private_property5 = {
+		available = {
+			NOT = { check_variable = { var = NatPan_PrivateProperty value > 0.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = PrivatePropertySubvar value = 0.05 }
+		}
+	}
+	NatPan_Economy_test_add_state_property5 = {
+		available = {
+			NOT = { check_variable = { var = NatPan_StateProperty value > 0.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = testtest2 value = 0.05 }
+		}
+	}
+	NatPan_Economy_test_add_progressivity50 = {
+		available = {
+			NOT = { check_variable = { var = NatPan_ProductionProgressivity value > 0.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_ProductionProgressivity value = 0.5 }
+		}
+	}
+	NatPan_Economy_test_remove_progressivity50 = {
+		available = {
+			check_variable = { var = NatPan_ProductionProgressivity value < 0.005 }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_ProductionProgressivity value = -0.5 }
+		}
+	}
+	NatPan_Economy_test_add_progressivity5 = {
+		available = {
+			NOT = { check_variable = { var = NatPan_ProductionProgressivity value > 0.99 } }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_ProductionProgressivity value = 0.05 }
+		}
+	}
+	NatPan_Economy_test_remove_progressivity5 = {
+		available = {
+			check_variable = { var = NatPan_ProductionProgressivity value < 0.005 }
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			add_to_variable = { var = NatPan_ProductionProgressivity value = -0.05 }
+		}
+	}
+	NatPan_Economy_OFF = {
+		available = {
+		}
+		visible = {
+			has_country_flag = NatPan_econ_category
+		}
+		complete_effect = {
+			clr_country_flag = NatPan_default_category_off
+			clr_country_flag = NatPan_opinions_category
+			clr_country_flag = NatPan_innerpol_category
+			clr_country_flag = NatPan_econ_category
+			clr_country_flag = NatPan_tyrexc_category
 		}
 	}
 }

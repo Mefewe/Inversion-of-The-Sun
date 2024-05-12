@@ -1,1 +1,20 @@
-﻿
+﻿add_namespace = tests
+
+country_event = {
+	id = tests.1
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+		add_dynamic_modifier = {
+			modifier = ULTRATEST
+		}
+	}
+}
+country_event = {
+	id = tests.2
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+		set_variable = { var = WeaponLegalize_LawEfficiency_coef value = 0.5 }
+	}
+}

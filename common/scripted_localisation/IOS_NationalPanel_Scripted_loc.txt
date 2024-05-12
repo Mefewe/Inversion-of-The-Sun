@@ -1,10 +1,208 @@
 defined_text = {
-	name = NatPan_DecCategory_desc
+	name = NatPan_Var_Colors
 	text = {
-		trigger = { has_country_flag = NatPan_opened_category }
-		localization_key = NAT_PAN_OPEN_CAT
+		trigger = { 
+			check_variable = { var = NatPan_Populism value > 95 }
+		}
+		localization_key = 100_STAT
 	}
 	text = {
-		localization_key = NAT_PAN_CLOSED_CAT
+		trigger = { 
+			check_variable = { var = NatPan_Populism value > 75 }
+		}
+		localization_key = RED_STAT
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_Populism value > 50 }
+			NOT = { check_variable = { var = NatPan_Populism value > 75 } }
+		}
+		localization_key = ORANGE_STAT
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_Populism value > 25 }
+			NOT = { check_variable = { var = NatPan_Populism value > 50 } }
+		}
+		localization_key = YELLOW_STAT
+	}
+	text = {
+		trigger = { 
+			NOT = { check_variable = { var = NatPan_Populism value > 25 } }
+		}
+		localization_key = GREEN_STAT
+	}
+}
+defined_text = {
+	name = NatPan_DecCategory_desc
+	text = {
+		trigger = { 
+			NOT = { has_country_flag = NatPan_default_category_off }
+		}
+		localization_key = NAT_PAN_DEFAULT_CAT
+	}
+	text = {
+		trigger = { has_country_flag = NatPan_innerpol_category }
+		localization_key = NAT_PAN_INNERPOL_CAT
+	}
+	text = {
+		trigger = { has_country_flag = NatPan_opinions_category }
+		localization_key = NAT_PAN_OPINIONS_CAT
+	}
+	text = {
+		trigger = { has_country_flag = NatPan_econ_category }
+		localization_key = NAT_PAN_ECONOMY_CAT
+	}
+	text = {
+		trigger = { tag = TYR }
+		localization_key = TYR_EXC_CAT
+	}
+}
+defined_text = {
+	name = NatPan_Populism
+	text = {
+		localization_key = NATPAN_POPUILISM
+	}
+}
+defined_text = {
+	name = NatPan_Populism_exc
+	text = {
+		trigger = { has_country_flag = NatPan_tyrexc_category }
+		localization_key = NATPAN_POPUILISM
+	}
+}
+defined_text = {
+	name = NatPan_VarModifiers_Populism
+	text = {
+		trigger = {
+			has_country_flag = SEE0
+		}
+		localization_key = NATPAN_POPULISM_MODIFIERS
+	}
+}
+defined_text = {
+	name = NatPan_VarModifiers_TYR_NewIdentity
+	text = {
+		trigger = {
+			has_country_flag = SEE1
+		}
+		localization_key = NATPAN_TYR_NEWIDENTITY_MODIFIERS
+	}
+}
+defined_text = {
+	name = NatPan_VarModifiersTYR_Legitimacy
+	text = {
+		trigger = {
+			has_country_flag = SEE2
+		}
+		localization_key = NATPAN_TYR_LEGITIMACY_MODIFIERS
+	}
+}
+defined_text = {
+	name = NatPan_VarModifiers_Centralization
+	text = {
+		trigger = {
+			has_country_flag = SEE3
+		}
+		localization_key = NATPAN_CENTRALIZATION_MODIFIERS
+	}
+}
+defined_text = {
+	name = NatPan_VarModifiers_Independence
+	text = {
+		trigger = {
+			has_country_flag = SEE4
+		}
+		localization_key = NATPAN_INDEPENDENCE_MODIFIERS
+	}
+}
+defined_text = {
+	name = NatPan_Exc_Panels
+	text = {
+		trigger = { tag = TYR }
+		localization_key = TYR_EXC
+	}
+}
+defined_text = {
+	name = NatPan_Collabroationism_Panel
+	text = {
+		trigger = { 
+			PREV = { is_subject = yes }
+		}
+		localization_key = NATPAN_COLLABORATIONISM
+	}
+}
+defined_text = {
+	name = NatPan_TYR_NewIdentity_loc
+	text = {
+		trigger = { 
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 24.9 } }
+		}
+		localization_key = TYR_LOW_IDENTITY
+	}
+	text = {
+		trigger = {
+			check_variable = { var = NatPan_TYRexc_NewIdentity value > 0.25 }
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 49.9 } }
+		}
+		localization_key = TYR_LOW_MED_IDENTITY
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_TYRexc_NewIdentity value > 0.499 }
+			NOT = { check_variable = { var = NatPan_TYRexc_NewIdentity value > 74.9 } }
+		}
+		localization_key = TYR_MED_HIGH_IDENTITY
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_TYRexc_NewIdentity value > 74.9 }
+		}
+		localization_key = TYR_HIGH_IDENTITY
+	}
+}
+defined_text = {
+	name = NatPan_EconTrends_loc
+	text = {
+		trigger = { 
+			NOT = { check_variable = { var = NatPan_EconTrends value > 0.249 } }
+		}
+		localization_key = TYR_LOW_IDENTITY
+	}
+}
+defined_text = {
+	name = NatPan_ProductionProgressivity_loc
+	text = {
+		trigger = { 
+			NOT = { check_variable = { var = NatPan_ProductionProgressivity value > 0.199 } }
+		}
+		localization_key = TYR_LOW_PROGRESSIVITY
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_ProductionProgressivity value > 0.199 }
+			NOT = { check_variable = { var = NatPan_ProductionProgressivity value > 0.399 } }
+		}
+		localization_key = TYR_LOW_MID_PROGRESSIVITY
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_ProductionProgressivity value > 0.399 }
+			NOT = { check_variable = { var = NatPan_ProductionProgressivity value > 0.599 } }
+		}
+		localization_key = TYR_MID_PROGRESSIVITY
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_ProductionProgressivity value > 0.599 }
+			NOT = { check_variable = { var = NatPan_ProductionProgressivity value > 0.799 } }
+		}
+		localization_key = TYR_MID_HIGH_PROGRESSIVITY
+	}
+	text = {
+		trigger = { 
+			check_variable = { var = NatPan_ProductionProgressivity value > 0.799 }
+		}
+		localization_key = TYR_HIGH_PROGRESSIVITY
 	}
 }

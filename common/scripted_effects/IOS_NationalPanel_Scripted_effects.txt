@@ -1,0 +1,30 @@
+NatPan_VariablesSet_effect = {
+	set_variable = { NatPan_PowerCentralization = 0 }
+	set_variable = { NatPan_PoliticalIndependence = 0 }
+	set_variable = { NatPan_CapitalismDrift = 0.5 }
+	set_variable = { NatPan_CollectivismDrift = 0.5 }
+	set_variable = { NatPan_PrivateProperty = 0.5 }
+	set_variable = { NatPan_StateProperty = 0.5 }
+	set_variable = { NatPan_LightInustry = 0.5 }
+	set_variable = { NatPan_HeavyIndustry = 0.5 }
+	set_variable = { NatPan_ProductionProgressivity = 0 }
+	set_variable = { NatPan_Monopolization = 0 }
+	if = {
+		limit = { tag = TYR }
+		set_variable = { NatPan_TYRexc_NewIdentity = 0 }
+		set_variable = { NatPan_TYRexc_NewIdentity_ppFactor = 0 }
+		set_variable = { NatPan_TYRexc_NewIdentity_stabFactor = 0 }
+		set_variable = { NatPan_TYRexc_NewIdentity_compilanceFactor = 0 }
+		set_variable = { NatPan_TYRexc_NewIdentity_resistanceFactor = 0 }
+		set_variable = { NatPan_TYRexc_Legitimacy = 0 }
+		set_variable = { NatPan_TYRexc_Legitimacy_ppFactor = 0 }
+		set_variable = { NatPan_TYRexc_Legitimacy_compilanceFactor = 0 }
+		set_variable = { NatPan_TYRexc_Legitimacy_resistanceFactor = 0 }
+	}
+	if = {
+		limit = { 
+			PREV = { is_subject = yes } 
+		}
+		set_variable = { NatPan_Collaborationism = 0 }
+	}
+}

@@ -39,7 +39,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				army_attack_factor = 1000000
+				army_attack_factor = 1000
 			}
 		}
 		BuffDefence = {
@@ -52,7 +52,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				army_defence_factor = 1000000
+				army_defence_factor = 1000
 			}
 		}
 		BuffSpeed = {
@@ -65,7 +65,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				army_speed_factor = 1000000
+				army_speed_factor = 1000
 			}
 		}
 		BuffOrg = {
@@ -78,7 +78,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				army_morale_factor = 1000000
+				army_morale_factor = 1000
 			}
 		}
 		BuffAll = {

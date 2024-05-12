@@ -1,0 +1,76 @@
+NatPan_Populism_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+
+	political_power_cost = NatPan_Populism_ppCostFactor
+}
+NatPan_TYRexc_NewIdentity_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+
+	political_power_factor = NatPan_TYRexc_NewIdentity_ppFactor
+	stability_factor = NatPan_TYRexc_NewIdentity_stabFactor
+	compliance_growth_on_our_occupied_states = NatPan_TYRexc_NewIdentity_compilanceFactor
+	resistance_target = NatPan_TYRexc_NewIdentity_resistanceFactor
+}
+NatPan_TYRexc_Legitimacy_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+
+	political_power_factor = NatPan_TYRexc_Legitimacy_ppFactor
+	compliance_growth_on_our_occupied_states = NatPan_TYRexc_Legitimacy_compilanceFactor
+	resistance_target = NatPan_TYRexc_Legitimacy_resistanceFactor
+}
+NatPan_PowerCentralization_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+
+	political_power_gain = NatPan_PowerCentralization_ppNum
+	research_speed_factor = NatPan_PowerCentralization_researchFactor
+	autonomy_gain = NatPan_PowerCentralization_autonomyFactor
+	army_attack_factor = NatPan_PowerCentralization_attackFactor
+	army_defence_factor = NatPan_PowerCentralization_defenceFactor
+	consumer_goods_factor = NatPan_PowerCentralization_consumerFactor
+}
+NatPan_PoliticalIndependence_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}
+NatPan_EconTrends_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}
+NatPan_Collaborationism_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}
+NatPan_PrivateProperty_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}
+NatPan_StateProperty_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}
+NatPan_LightInustry_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}
+NatPan_HeavyIndustry_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}
+NatPan_ProductionProgressivity_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+
+	production_speed_buildings_factor = NatPan_ProductionProgressivity
+	production_factory_max_efficiency_factor = NatPan_ProductionProgressivity
+	production_factory_efficiency_gain_factor = NatPan_ProductionProgressivity
+	production_factory_start_efficiency_factor = NatPan_ProductionProgressivity
+	industrial_capacity_factory = NatPan_ProductionProgressivity
+}
+NatPan_Monopolization_dyn_mod = {
+	enable = { always = yes }
+	remove_trigger = { always = no }
+}

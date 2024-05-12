@@ -33,5 +33,9 @@ bitmapfonts = {
 		P = { 255 156 209 } #Ponk
 		D = { 133 218 255 } #RD
 		r = { 165 111 191 } #Rarity
+		
+		# Inversion of The Sun
+		
+		M = { 161 79 90 } # Kinda purple idk (for populism stat)
 	}
 }

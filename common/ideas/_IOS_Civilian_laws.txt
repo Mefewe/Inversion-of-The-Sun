@@ -8,9 +8,18 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 
+			on_remove = {
+				hidden_effect = {
+					set_variable = { var = WeaponLegalize_NO_CONTROL_stabFactor value = 0 }
+					set_variable = { var = WeaponLegalize_NO_CONTROL_conscFactor value = 0 }
+					set_variable = { var = WeaponLegalize_NO_CONTROL_MaxFactor value = 0 }
+					set_variable = { var = WeaponLegalize_NO_CONTROL_armyCoreAttackFactor value = 0 }
+					set_variable = { var = WeaponLegalize_NO_CONTROL_armyCoreDefenceFactor value = 0 }
+				}
+			}
+
 			modifier = {
-				stability_factor = -0.1
-				conscription = 0.02
+				custom_modifier_tooltip = no_weapon_control_tt
 			}
 
 			cancel_if_invalid = no
@@ -23,9 +32,14 @@ ideas = {
 
 			default = yes
 
+			on_remove = {
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_stabFactor value = 0 }
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_ppFactor value = 0 }
+				set_variable = { var = WeaponLegalize_RIGHTS_FORBIDDEN_MaxFactor value = 0 }
+			}
+
 			modifier = {
-				stability_factor = 0.05
-				political_power_factor = 0.05
+				custom_modifier_tooltip = weapon_rights_forbidden_tt
 			}
 
 			cancel_if_invalid = no
@@ -36,12 +50,17 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 
+			on_remove = {
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_stabFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_ppFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_conscFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_armyCoreAttackFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_armyCoreDefenceFactor value = 0 }
+				set_variable = { var = WeaponLegalize_LIGHT_RIGHTS_MaxFactor value = 0 }
+			}
+
 			modifier = {
-				political_power_factor = -0.05
-				conscription = 0.01
-				stability_factor = -0.05
-				army_core_attack_factor = 0.03
-				army_core_defence_factor = 0.03
+				custom_modifier_tooltip = light_weapon_rights_tt
 			}
 
 			cancel_if_invalid = no
@@ -52,12 +71,17 @@ ideas = {
 			cost = 150
 			removal_cost = -1
 
+			on_remove = {
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_stabFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_ppFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_conscFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_armyCoreAttackFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_armyCoreDefenceFactor value = 0 }
+				set_variable = { var = WeaponLegalize_FULL_RIGHTS_MaxFactor value = 0 }
+			}
+
 			modifier = {
-				political_power_factor = -0.1
-				stability_factor = -0.075
-				conscription = 0.02
-				army_core_attack_factor = 0.07
-				army_core_defence_factor = 0.07
+				custom_modifier_tooltip = full_weapon_legalization_tt
 			}
 
 			cancel_if_invalid = no
@@ -74,6 +98,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				custom_modifier_tooltip = no_drug_control_tt
 				stability_factor = -0.15
 				monthly_population = -0.10
 			}
@@ -89,6 +114,7 @@ ideas = {
 			default = yes
 
 			modifier = {
+				custom_modifier_tooltip = drugs_forbidden_tt
 				stability_factor = 0.05
 			}
 
@@ -101,6 +127,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				custom_modifier_tooltip = light_drugs_permissions_tt
 				stability_factor = 0.025
 				monthly_population = 0.05
 			}
@@ -114,6 +141,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				custom_modifier_tooltip = full_drugs_legalization_tt
 				stability_factor = -0.05
 				monthly_population = -0.05
 			}
