@@ -82,6 +82,7 @@ focus_tree = {
 	shared_focus = AOZ_ba_pesh
 	shared_focus = AOZ_totalna_oborona
 	shared_focus = AOZ_razvitj_infrastrukturu
+	shared_focus = AOZ_republica_svobodi
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
@@ -1150,5 +1151,668 @@ shared_focus = { #
 	y = 19
 	completion_reward = { 
 		
+	}
+}
+################# BESH A
+shared_focus = { #
+	id = AOZ_republica_svobodi
+	cost = 5
+	x = 12
+	y = 26
+	completion_reward = { 
+		country_event = AOZ.100
+	}
+}
+shared_focus = { #
+	id = AOZ_national_kompanija
+	prerequisite = {
+		focus = AOZ_republica_svobodi
+	}
+	cost = 5
+	x = 10
+	y = 27
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_kopajte_glubzhe
+	prerequisite = {
+		focus = AOZ_national_kompanija
+	}
+	cost = 5
+	x = 8
+	y = 28
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_boljshe_stankov
+	prerequisite = {
+		focus = AOZ_national_kompanija
+	}
+	cost = 5
+	x = 10
+	y = 28
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_boljshe_pechej
+	prerequisite = {
+		focus = AOZ_boljshe_stankov
+	}
+	cost = 5
+	x = 10
+	y = 29
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_razvitije_zhd
+	prerequisite = {
+		focus = AOZ_national_kompanija
+	}
+	cost = 5
+	x = 8
+	y = 29
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_pervyj_trubnyj_zavod
+	prerequisite = {
+		focus = AOZ_boljshe_pechej
+	}
+	cost = 5
+	x = 10
+	y = 30
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_nash_melkij_avtoban
+	prerequisite = {
+		focus = AOZ_razvitije_zhd
+	}
+	cost = 5
+	x = 8
+	y = 30
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_podschitatj_pribylj
+	prerequisite = {
+		focus = AOZ_nash_melkij_avtoban
+	}
+	prerequisite = {
+		focus = AOZ_pervyj_trubnyj_zavod
+	}
+	cost = 5
+	x = 9
+	y = 31
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_klassovaja_solidarnostj
+	prerequisite = {
+		focus = AOZ_podschitatj_pribylj
+	}
+	cost = 5
+	x = 9
+	y = 32
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_klassovaja_solidarnostj
+	prerequisite = {
+		focus = AOZ_podschitatj_pribylj
+	}
+	cost = 5
+	x = 9
+	y = 32
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_bizness_dolzhen_zhytj
+	prerequisite = {
+		focus = AOZ_klassovaja_solidarnostj
+	}
+	cost = 5
+	x = 9
+	y = 33
+	completion_reward = { 
+
+	}
+}
+
+
+shared_focus = { #
+	id = AOZ_billj_o_pravah_zebrijskogo_naroda
+	prerequisite = {
+		focus = AOZ_republica_svobodi
+	}
+	cost = 5
+	x = 14
+	y = 27
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_kontrollj_nad_granicej
+	prerequisite = {
+		focus = AOZ_billj_o_pravah_zebrijskogo_naroda
+	}
+	cost = 5
+	x = 14
+	y = 28
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_migranty
+	prerequisite = {
+		focus = AOZ_kontrollj_nad_granicej
+	}
+	cost = 5
+	x = 14
+	y = 29
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = { #
+	id = AOZ_primem_ljubogo
+	prerequisite = {
+		focus = AOZ_migranty
+	}
+	mutually_exclusive = {
+		focus = AOZ_nuzhen_kontrollj
+	}
+	cost = 5
+	x = 15
+	y = 30
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_nuzhen_kontrollj
+	prerequisite = {
+		focus = AOZ_migranty
+	}
+	mutually_exclusive = {
+		focus = AOZ_primem_ljubogo
+	}
+	cost = 5
+	x = 13
+	y = 30
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_bolee_reshiteljnyje_reformy
+	prerequisite = {
+		focus = AOZ_primem_ljubogo
+		focus = AOZ_nuzhen_kontrollj
+	}
+	cost = 5
+	x = 14
+	y = 31
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = { #
+	id = AOZ_rasovyj_kontrollj
+	prerequisite = {
+		focus = AOZ_bolee_reshiteljnyje_reformy
+	}
+	mutually_exclusive = {
+		focus = AOZ_vse_druzja_svobody
+	}
+	cost = 5
+	x = 18
+	y = 32
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_ukrepitj_polliciju
+	prerequisite = {
+		focus = AOZ_rasovyj_kontrollj
+	}
+	cost = 5
+	x = 15
+	y = 33
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_regularnyje_patruli
+	prerequisite = {
+		focus = AOZ_ukrepitj_polliciju
+	}
+	cost = 5
+	x = 15
+	y = 34
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_rasprostranjatj_patriotizm_administrativnymi_metodami
+	prerequisite = {
+		focus = AOZ_regularnyje_patruli
+	}
+	cost = 5
+	x = 15
+	y = 35
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_antyshpionskaja_operacija
+	prerequisite = {
+		focus = AOZ_rasprostranjatj_patriotizm_administrativnymi_metodami
+	}
+	cost = 5
+	x = 15
+	y = 36
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = { #
+	id = AOZ_sozdatj_rezervacii_v_holmah
+	prerequisite = {
+		focus = AOZ_rasovyj_kontrollj
+	}
+	mutually_exclusive = {
+		focus = AOZ_sjobyvajte_s_strany
+	}
+	cost = 5
+	x = 18
+	y = 33
+	completion_reward = { 
+		
+	}
+}
+shared_focus = { #
+	id = AOZ_sjobyvajte_s_strany
+	prerequisite = {
+		focus = AOZ_rasovyj_kontrollj
+	}
+	mutually_exclusive = {
+		focus = AOZ_sozdatj_rezervacii_v_holmah
+	}
+	cost = 5
+	x = 20
+	y = 33
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = { #
+	id = AOZ_specialisti_ostanjtesj
+	prerequisite = {
+		focus = AOZ_sozdatj_rezervacii_v_holmah
+		focus = AOZ_sjobyvajte_s_strany
+	}
+	mutually_exclusive = {
+		focus = AOZ_bez_iskluchnij
+	}
+	cost = 5
+	x = 18
+	y = 34
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_bez_iskluchnij
+	prerequisite = {
+		focus = AOZ_sozdatj_rezervacii_v_holmah
+		focus =AOZ_sjobyvajte_s_strany
+	}
+	mutually_exclusive = {
+		focus = AOZ_specialisti_ostanjtesj
+	}
+	cost = 5
+	x = 20
+	y = 34
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_a_zebry_i_ne_protiv
+	prerequisite = {
+		focus = AOZ_bez_iskluchnij
+		focus = AOZ_specialisti_ostanjtesj
+	}
+	cost = 5
+	x = 19
+	y = 35
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_rasovyj_porjadok
+	prerequisite = {
+		focus = AOZ_a_zebry_i_ne_protiv
+	}
+	cost = 5
+	x = 19
+	y = 36
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_laissez_passer
+	prerequisite = {
+		focus = AOZ_rasovyj_porjadok
+		focus = AOZ_antyshpionskaja_operacija
+	}
+	cost = 5
+	x = 17
+	y = 37
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_armija_vsego_naroda_zebr
+	prerequisite = {
+		focus = AOZ_laissez_passer
+	}
+	cost = 5
+	x = 17
+	y = 38
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_pjatj_bazovyh_prav_zebr
+	prerequisite = {
+		focus = AOZ_armija_vsego_naroda_zebr
+	}
+	cost = 5
+	x = 17
+	y = 39
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_bditeljnost_cest_svoboda
+	prerequisite = {
+		focus = AOZ_pjatj_bazovyh_prav_zebr
+	}
+	cost = 5
+	x = 17
+	y = 40
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = { #
+	id = AOZ_vse_druzja_svobody
+	prerequisite = {
+		focus = AOZ_bolee_reshiteljnyje_reformy
+	}
+	mutually_exclusive = {
+		focus = AOZ_rasovyj_kontrollj
+	}
+	cost = 5
+	x = 24
+	y = 32
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_idealnaja_svoboda
+	prerequisite = {
+		focus = AOZ_vse_druzja_svobody
+	}
+	cost = 5
+	x = 24
+	y = 33
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_mestnaja_policija
+	prerequisite = {
+		focus = AOZ_vse_druzja_svobody
+	}
+	cost = 5
+	x = 26
+	y = 33
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_ne_bojsja_zebr_v_pogonah
+	prerequisite = {
+		focus = AOZ_mestnaja_policija
+	}
+	cost = 5
+	x = 26
+	y = 34
+	completion_reward = { 
+ 
+	}
+}
+shared_focus = { #
+	id = AOZ_armija_eto_chestj
+	prerequisite = {
+		focus = AOZ_ne_bojsja_zebr_v_pogonah
+	}
+	cost = 5
+	x = 26
+	y = 35
+	completion_reward = { 
+ 
+	}
+}
+shared_focus = { #
+	id = AOZ_demobilizacija
+	prerequisite = {
+		focus = AOZ_armija_eto_chestj
+	}
+	cost = 5
+	x = 26
+	y = 36
+	completion_reward = { 
+ 
+	}
+}
+shared_focus = { #
+	id = AOZ_bazovaja_podgotovka
+	prerequisite = {
+		focus = AOZ_demobilizacija
+	}
+	mutually_exclusive = {
+		focus = AOZ_vysluga
+	}
+	cost = 5
+	x = 26
+	y = 37
+	completion_reward = { 
+ 
+	}
+}
+shared_focus = { #
+	id = AOZ_vysluga
+	prerequisite = {
+		focus = AOZ_demobilizacija
+	}
+	mutually_exclusive = {
+		focus = AOZ_bazovaja_podgotovka
+	}
+	cost = 5
+	x = 28
+	y = 37
+	completion_reward = { 
+ 
+	}
+}
+shared_focus = { #
+	id = AOZ_umerenyje_zarplaty
+	prerequisite = {
+		focus = AOZ_vysluga
+		focus = AOZ_bazovaja_podgotovka
+	}
+	cost = 5
+	x = 27
+	y = 38
+	completion_reward = { 
+ 
+	}
+}
+shared_focus = { #
+	id = AOZ_tradicionnaja_bezvzjatochnostj
+	prerequisite = {
+		focus = AOZ_umerenyje_zarplaty
+	}
+	cost = 5
+	x = 27
+	y = 39
+	completion_reward = { 
+ 
+	}
+}
+shared_focus = { #
+	id = AOZ_triumf_istinnoj_svobody
+	prerequisite = {
+		focus = AOZ_tradicionnaja_bezvzjatochnostj
+	}
+	prerequisite = {
+		focus = AOZ_pasportizacija
+	}
+	cost = 5
+	x = 26
+	y = 40
+	completion_reward = { 
+		
+	}
+}
+
+
+shared_focus = { #
+	id = AOZ_ne_toljko_zebry
+	prerequisite = {
+		focus = AOZ_vse_druzja_svobody
+	}
+	cost = 5
+	x = 24
+	y = 34
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_svoboda_slova
+	prerequisite = {
+		focus = AOZ_ne_toljko_zebry
+	}
+	cost = 5
+	x = 24
+	y = 35
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_svoboda_peremeshenija
+	prerequisite = {
+		focus = AOZ_svoboda_slova
+	}
+	cost = 5
+	x = 24
+	y = 36
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_svoboda_biznesa
+	prerequisite = {
+		focus = AOZ_svoboda_peremeshenija
+	}
+	cost = 5
+	x = 24
+	y = 37
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_sohranjaja_porjadok_na_granice
+	prerequisite = {
+		focus = AOZ_svoboda_biznesa
+	}
+	cost = 5
+	x = 24
+	y = 38
+	completion_reward = { 
+
+	}
+}
+shared_focus = { #
+	id = AOZ_pasportizacija
+	prerequisite = {
+		focus = AOZ_sohranjaja_porjadok_na_granice
+	}
+	cost = 5
+	x = 24
+	y = 39
+	completion_reward = { 
+
+	}
+}
+
+shared_focus = { #
+	id = AOZ_novaja_zhiznj
+	prerequisite = {
+		focus = AOZ_triumf_istinnoj_svobody
+		focus = AOZ_bditeljnost_cest_svoboda
+	}
+	cost = 5
+	x = 21
+	y = 41
+	completion_reward = { 
+
 	}
 }

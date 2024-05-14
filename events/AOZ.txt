@@ -866,6 +866,21 @@ country_event = {
 }
 
 
+#### BESH A
+country_event = {
+	id = AOZ.100 #конгресс
+	title = AOZ.100.title
+	desc = AOZ.100.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = AOZ.100.a
+
+	}
+}
+
+
 country_event = {
 	id = AOZ.300
 	title = AOZ.300.title
@@ -1003,6 +1018,8 @@ country_event = {
 		}
 	}
 }
+
+
 
 ###### Ветка милитаристического ополчения
 country_event = {
