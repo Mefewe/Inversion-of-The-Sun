@@ -6,7 +6,7 @@ state={
 	}
 	history={
 		victory_points = {6109 10}
-        	owner = UNC
+        	owner = TYR
         	add_core_of = SDL
 		add_core_of = KTH
 		add_core_of = ABS

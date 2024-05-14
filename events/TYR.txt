@@ -486,6 +486,7 @@ country_event = {
 	option = {
 		add_stability = -0.05
 		name = TYR.101.a
+		set_country_flag = TyrlitiaInCrisis
 		load_focus_tree = TYR_focus_crisis_tree_one
 		mark_focus_tree_layout_dirty = yes
 		news_event = TYR_news.1

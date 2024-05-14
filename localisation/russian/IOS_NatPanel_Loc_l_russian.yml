@@ -1,0 +1,102 @@
+﻿l_russian:
+ NationalPanel_decisions: "Национальная панель - [This.GetTag.GetName]"
+ NationalPanel_decisions_desc: "[NatPan_DecCategory_desc]"
+ 
+ NAT_PAN_DEFAULT_CAT: "Национальная панель - место, где расположено множество важных модификаторов. Они могут быть изменены различными игровыми механиками, в особенности решениями. Здесь помимо основных показателей представлены решения, которые позволят контролировать ситуацию в стране.\n[NatPan_Populism][NatPan_Exc_Panels]\n=== --- --- --- --- --- --- ===\nВнутренняя политика\n--- --- ---\nЦентрализация власти: §g[?NatPan_PowerCentralization|%0]§![NatPan_VarModifiers_Centralization]\nПолитическая самодостаточность: §g[?NatPan_PoliticalIndependence|%0]§![NatPan_VarModifiersTYR_Independence]\n=== --- --- --- --- --- --- ===\n\n=== --- --- --- --- --- --- ===\nНастроения населения\n--- --- ---\n[NatPan_Collabroationism_Panel]Поддержка рыночного фундаментализма: §g[?NatPan_CapitalismDrift|%0]§!\nПоддержка народного коллективизма: §g[?NatPan_CollectivismDrift|%0]§!\n=== --- --- --- --- --- --- ===\n\n=== --- --- --- --- --- --- ===\nСостояние экономики\n--- --- ---\nДоля частной собственности: §g[?NatPan_PrivateProperty|%0]§!\nДоля государственной собственности: §g[?NatPan_StateProperty|%0]§!\n\nДоля лёгкой промышленности: §g[?NatPan_LightInustry|%0]§!\nДоля тяжёлой промышленности: §g[?NatPan_HeavyIndustry|%0]§!\n\nПрогрессивность производства: [NatPan_ProductionProgressivity_loc] (§g[?NatPan_ProductionProgressivity|%0]§!)\n\nСтепень монополизации: §g[?NatPan_Monopolization|%0]§!\n=== --- --- --- --- --- --- ==="
+ 
+ ### Colors for vars ###
+ 100_STAT: "§M"
+ RED_STAT: "§t"
+ ORANGE_STAT: "§O"
+ YELLOW_STAT: "§Y"
+ GREEN_STAT: "§G"
+ ###
+ NATPAN_POPUILISM: "\nПопулизм режима: [NatPan_Var_Colors][?NatPan_Populism|%%1]§![NatPan_VarModifiers_Populism]\n"
+ NATPAN_POPULISM_MODIFIERS: "\nСтоимость политки популизма: [?NatPan_Populism_ppCostFactor]\nПрирост неэффективности законов: [?NatPan_Populism_lawEffFactor|%9] (НЕ РАБОТАЕТ)"
+ NATPAN_TYR_NEWIDENTITY_MODIFIERS: "\nПрибавка к политке: [?NatPan_TYRexc_NewIdentity_ppFactor|%0]\nПрибавка к стабке: [?NatPan_TYRexc_NewIdentity_stabFactor|%]\nПрибавка к подчинению: [?NatPan_TYRexc_NewIdentity_compilanceFactor|%]\nЦель сопротивления: [?NatPan_TYRexc_NewIdentity_resistanceFactor|%]"
+ NATPAN_TYR_LEGITIMACY_MODIFIERS: "\nПрибавка к политке: [?NatPan_TYRexc_Legitimacy_ppFactor|%0]\nПрибавка к подчинению: [?NatPan_TYRexc_Legitimacy_compilanceFactor|%]\nЦель сопротивления: [?NatPan_TYRexc_Legitimacy_resistanceFactor|%]"
+ NATPAN_CENTRALIZATION_MODIFIERS: "\nПрибавка к политке: [?NatPan_PowerCentralization_ppNum|3]\nСкорость исследований: [?NatPan_PowerCentralization_researchFactor|%3]\nПриобретение автономии: [?NatPan_PowerCentralization_autonomyFactor|3]\nПрибавка к атаке: [?NatPan_PowerCentralization_attackFactor|%3]\nПрибавка к обороне: [?NatPan_PowerCentralization_defenceFactor|%3]\nПроцент гражданских фабрик: [?NatPan_PowerCentralization_consumerFactor|%3]"
+ NATPAN_INDEPENDENCE_MODIFIERS: ""
+ 
+ TYR_EXC: "[NatPan_Populism_exc]\n=== --- --- --- --- --- --- ===\n§8Тирлийский проект§!\n---\nНовая идентичность: [NatPan_TYR_NewIdentity_loc] (§g[?NatPan_TYRexc_NewIdentity|%%4]§!)[NatPan_VarModifiers_TYR_NewIdentity]\nЛегитимизация власти: §g[?NatPan_TYRexc_Legitimacy|%%4]§![NatPan_VarModifiersTYR_Legitimacy]\n=== --- --- --- --- --- --- ===\n"
+ TYR_EXC_CAT: "[NatPan_Exc_Panels]"
+ 
+ NATPAN_COLLABORATIONISM: "Склонность к коллаборационизму: §g[?NatPan_Collaborationism|%0]§!\n\n"
+ 
+ NAT_PAN_INNERPOL_CAT: "[NatPan_Populism]\n=== --- --- --- --- --- --- ===\nВнутренняя политика\n--- --- ---\nЦентрализация власти: §g[?NatPan_PowerCentralization|%%0]§![NatPan_VarModifiers_Centralization]\nПолитическая самодостаточность: §g[?NatPan_PoliticalIndependence|%%0]§![NatPan_VarModifiersTYR_Independence]\n=== --- --- --- --- --- --- ==="
+ NAT_PAN_OPINIONS_CAT: "[NatPan_Populism]\n=== --- --- --- --- --- --- ===\nНастроения населения\n--- --- ---\n[NatPan_Collabroationism_Panel]Поддержка рыночного фундаментализма: §g[?NatPan_CapitalismDrift|%0]§!\nПоддержка народного коллективизма: §g[?NatPan_CollectivismDrift|%0]§!\n=== --- --- --- --- --- --- ==="
+ NAT_PAN_ECONOMY_CAT: "[NatPan_Populism]\n=== --- --- --- --- --- --- ===\nСостояние экономики\n--- --- ---\nДоля частной собственности: §g[?NatPan_PrivateProperty|%0]§!\nДоля государственной собственности: §g[?NatPan_StateProperty|%0]§!\n\nДоля лёгкой промышленности: §g[?NatPan_LightInustry|%0]§!\nДоля тяжёлой промышленности: §g[?NatPan_HeavyIndustry|%0]§!\n\nПрогрессивность производства: [NatPan_ProductionProgressivity_loc] (§g[?NatPan_ProductionProgressivity|%0]§!)\n\nСтепень монополизации: §g[?NatPan_Monopolization|%0]§!\n=== --- --- --- --- --- --- ==="
+
+ NatPan_TYR_exc_ON: "§8Тирлийский проект§! - §GОТКРЫТЬ§!"
+ NatPan_TYR_exc_OFF: "§8Тирлийский проект§! - §RЗАКРЫТЬ§!"
+ NatPan_Inner_Politics_ON: "Внутренняя политика - §GОТКРЫТЬ§!"
+ NatPan_Inner_Politics_OFF: "Внутренняя политика - §RЗАКРЫТЬ§!"
+ NatPan_Opinions_of_Population_ON: "Настроения населения - §GОТКРЫТЬ§!"
+ NatPan_Opinions_of_Population_OFF: "Настроения населения - §RЗАКРЫТЬ§!"
+ NatPan_Economy_ON: "Состояние экономики - §GОТКРЫТЬ§!"
+ NatPan_Economy_OFF: "Состояние экономики - §RЗАКРЫТЬ§!"
+ 
+ TYR_LOW_IDENTITY: "§RОтсутствие идентичности§!"
+ TYR_LOW_MED_IDENTITY: "§YЗачатки новой нации§!"
+ TYR_MED_HIGH_IDENTITY: "§7Государствообразующая мифология§!"
+ TYR_HIGH_IDENTITY: "§GТирлийский гештальт§!"
+ 
+ TYR_LOW_PROGRESSIVITY: "§LТехнологии прошлого века§!"
+ TYR_LOW_MID_PROGRESSIVITY: "§OОграниченные современные методы и нововведения§!"
+ TYR_MID_PROGRESSIVITY: "§YСовременность во всём§!"
+ TYR_MID_HIGH_PROGRESSIVITY: "§6Ограниченные передовые методы и нововведения§!"
+ TYR_HIGH_PROGRESSIVITY: "§0Опережая мир§!"
+ 
+ ### DEBUG DECS
+ NatPan_test_activate_all_decs: "Активировать все решения"
+ 
+ NatPan_populism_debug_descs_OPEN: "(§G+§!) DEBUG - Решения на добавление популизма"
+ NatPan_populism_debug_descs_CLOSE: "(§R-§!) DEBUG - Решения на добавление популизма"
+ NatPan_test_add_populism50: "Добавить 50% популизма"
+ NatPan_test_remove_populism50: "Убрать 50% популизма"
+ NatPan_test_add_populism5: "Добавить 5% популизма"
+ NatPan_test_remove_populism5: "Убрать 5% популизма"
+ 
+ NatPan_TYR_exc_test_add_identity10: "Добавить 10% идентичности"
+ NatPan_TYR_exc_test_remove_identity10: "Убрать 10% идентичности"
+ NatPan_TYR_exc_test_add_identity5: "Добавить 5% идентичности"
+ NatPan_TYR_exc_test_remove_identity5: "Убрать 5% идентичности"
+ 
+ NatPan_TYR_exc_test_add_legitimacy50: "Добавить 50% легитимности"
+ NatPan_TYR_exc_test_remove_legitimacy50: "Убрать 50% легитимности"
+ NatPan_TYR_exc_test_add_legitimacy5: "Добавить 5% легитимности"
+ NatPan_TYR_exc_test_remove_legitimacy5: "Убрать 5% легитимности"
+ 
+ NatPan_InnerPol_test_add_centralization5: "Добавить 5% централизации"
+ NatPan_InnerPol_test_remove_centralization5: "Убрать 5% централизации"
+ 
+ ### NORMAL DECS
+ NatPan_var_modifiers_ENABLE: "§GПОКАЗАТЬ§! Модификаторы параметров"
+ NatPan_enable_var_modifiers_DISABLE: "§RСКРЫТЬ§! Модификаторы параметров"
+ 
+ NatPan_TYR_exc_IdentityDecs_OPEN: "(§G+§!) §GОткрыть§! решения на идентичность"
+ NatPan_TYR_exc_IdentityDecs_CLOSE: "(§R-§!) §RЗакрыть§! решения на идентичность"
+ NatPan_TYR_exc_politize_science: "Продвигать в научных кругах политически мотивированные гипотезы"
+ NatPan_TYR_exc_politize_science_tt: "§gИзменение шкалы национальной идентичности: §G+0.009%§!§!"
+ NatPan_TYR_exc_propaganda: "Волна «тирлийского агитпропа»"
+ NatPan_TYR_exc_propaganda_tt: "§gИзменение шкалы национальной идентичности: §G+0.009%§!§!"
+ NatPan_TYR_exc_cultural_expenses: "Увеличить расходы на культуру"
+ NatPan_TYR_exc_cultural_expenses_tt: "§gИзменение шкалы национальной идентичности: §G+0.009%§!§!"
+ NatPan_TYR_exc_raid_transzebrica: "Попробовать отбить [960.GetName]"
+ NatPan_TYR_exc_raid_transzebrica_desc: "Общие потрясения могут сблизить даже, казалось бы, самых больших неприятелей. Мы попробуем воспользоваться этим и подготовим вторжение на север острова, который чейнджлингские войска когда-то не успели полностью занять.\n\nНачиная с тех лет и поныне, эта территория остаётся причиной ухудшения и без того жалкой дипломатии с трансзебриканскими коллегами. Если всё пройдёт достаточно гладко, то нашему штатгальтерству удастся зарекомендовать себя как защитника угнетённых тирлийцев, которых наши доблестные учёные и чиновники опознали среди большего числа местного населения. Вдобавок мы сможем наконец взять под контроль полезный узел снабжения и разрешить многолетние споры в нашу пользу.\n\nВо всяком случае репортажи, воспевающие героизм зебрийско-чейнджлингского военного братства, несомненно будут смотреться красиво в первых стобцах газет.\n\nДаже если фактически всё обернётся разгромом и лишними жертвами - всё будет нормально. Наградим героев, помпезно захороним павших и вновь обвиним во всём врага. И так хоть до бесконечности."
+ NatPan_TYR_exc_raid_transzebrica_tt: ""
+ NatPan_TYR_exc_greet_our_island_victory: "Напомнить населению о триумфе в Прадешкроу"
+ NatPan_TYR_exc_greet_our_island_victory_tt: "§gИзменение шкалы национальной идентичности: §G+0.020%§!\nИзменение популизма режима: §R+0.015%§!§!"
+ NatPan_TYR_exc_reform_the_textbooks: "Добавить в учебники упоминания о величии Фараси"
+ NatPan_TYR_exc_reform_the_textbooks_tt: "§gВечное изменение шкалы национальной идентичности: §G+0.007%§!§!"
+ 
+ NatPan_TYR_exc_LegitimacyDecs_OPEN: "(§G+§!) §GОткрыть§! решения на легитимность"
+ NatPan_TYR_exc_LegitimacyDecs_CLOSE: "(§R-§!) §RЗакрыть§! решения на легитимность"
+ NatPan_TYR_exc_continue_occupation_payments: "Возобновить оккупационные выплаты"
+ NatPan_TYR_exc_continue_occupation_payments_tt: "\n§gИзменение легитимности режима: §G+0.009%§!§!"
+ NatPan_TYR_exc_eliminate_political_competition: "Громить политическую конкуренцию"
+ NatPan_TYR_exc_eliminate_political_competition_tt: "§gИзменение легитимности режима: §!§G+0.009%§!"
+ NatPan_TYR_exc_promise_great_future: "Описывать красивое будущее режима по радио"
+ NatPan_TYR_exc_promise_great_future_tt: "§gИзменение легитимности режима: §!§G+0.009%§!§g\nИзменение популизма режима: §!§R+0.015%§!"
+ NatPan_TYR_exc_propagandize_mgabe_agenda: "Кампания возвеличивания правительства Мгабе в СМИ"
+ NatPan_TYR_exc_propagandize_mgabe_agenda_tt: "§gИзменение легитимности режима: §!§G+0.009%§!§g\nИзменение популизма режима: §!§R+0.015%§!"

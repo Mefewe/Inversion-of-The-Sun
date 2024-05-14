@@ -1,0 +1,18 @@
+ideas = {
+	hidden_ideas = {
+		NatPan_OccupationPayments_Legitimacy_Add_idea = {
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.3
+				consumer_goods_expected_value = 1.5
+			}
+		}
+		EliminateOpposition_Legitimacy_Add_idea = {
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_expected_value = 0.5
+			}
+		}
+	}
+}

@@ -40,6 +40,104 @@ debug_GUI_decisions = {
 		}
 	}
 }
+debug_law_decisions = {
+	debug_law_efficiency_weapon_legalize = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_variable = { var = WeaponLegalize_NO_CONTROL_EfficiencyFactor value = 0.045 }
+		}
+	}
+	debug_law_efficiency_stab_weapon_legalize = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_variable = { var = WeaponLegalize_NO_CONTROL_stabEfficiencyFactor value = -0.003 }
+
+		}
+	}
+	debug_law_efficiency_consc_weapon_legalize = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_variable = { var = WeaponLegalize_NO_CONTROL_conscEfficiencyFactor value = 0.001 }
+		}
+	}
+	debug_law_stability_weapon_legalize = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = WeaponLegalize_stabFactor value = 0.2 }
+		}
+	}
+	debug_law_max_weapon_legalize = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = WeaponLegalize_MaxFactor value = 0.05 }
+		}
+	}
+}
 TYR_debug_decisions = {
 	debug_tyr_load_tree_2 = {		
 		icon = generic_research

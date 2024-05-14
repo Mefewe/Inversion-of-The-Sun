@@ -109,6 +109,17 @@ add_equipment_to_stockpile = {
          amount = 165
 }
 
+################## NATIONAL PANEL MODIFIERS
+set_variable = { var = NatPan_Populism value = 0.07 }
+set_variable = { var = NatPan_CapitalismDrift value = 0.37 }
+set_variable = { var = NatPan_CollectivismDrift value = 0.63 }
+set_variable = { var = NatPan_PrivateProperty value = 0.8 }
+set_variable = { var = NatPan_StateProperty value = 0.2 }
+set_variable = { var = NatPan_LightInustry value = 0.94 }
+set_variable = { var = NatPan_HeavyIndustry value = 0.16 }
+
+################## IDEAS
+
 add_ideas = {
 	#laws
 	civilian_economy

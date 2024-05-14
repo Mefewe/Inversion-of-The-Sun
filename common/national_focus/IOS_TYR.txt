@@ -22,11 +22,12 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
+	shared_focus = TYR_WeekOfVictoriesAndFails
 	shared_focus = TYR_AftermathOfRevolution
 	shared_focus = TYR_ArmyWillWait
 	shared_focus = TYR_AufklarungInfluence
 	default = no
-	continuous_focus_position = { x = 2000 y = 1200 }
+	continuous_focus_position = { x = 2000 y = 2700 }
 }
 focus_tree = {
 	id = TYR_focus_crisis_tree_one
@@ -38,6 +39,7 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
+	shared_focus = TYR_WeekOfVictoriesAndFails
 	shared_focus = TYR_AftermathOfRevolution
 	shared_focus = TYR_ArmyWillWait
 	shared_focus = TYR_AufklarungInfluence
@@ -56,6 +58,10 @@ focus_tree = {
 			original_tag = TYR
 		}
 	}
+	shared_focus = TYR_WeekOfVictoriesAndFails
+	shared_focus = TYR_AftermathOfRevolution
+	shared_focus = TYR_ArmyWillWait
+	shared_focus = TYR_AufklarungInfluence
 	shared_focus = TYR_Zebrijskaja_problema
 	shared_focus = TYR_nam_pizda
 	default = no
@@ -83,6 +89,9 @@ shared_focus = {
 	y = 1
 	completion_reward = {
 		country_event = {days = 1 id = TYR.11}
+		set_country_flag = PromiseFuture_DecisionActive
+		set_country_flag = PropagandizeAgenda_DecisionActive
+		custom_effect_tooltip = TYR_GovernorSpeech_focus_tt
 	}
 }
 
@@ -109,6 +118,9 @@ shared_focus = {
 	y = 2
 	completion_reward = { 
 		country_event = {days = 1 id = TYR.13}
+		set_country_flag = OccupationPayments_DecisionActive
+		activate_decision = NatPan_TYR_exc_continue_occupation_payments
+		custom_effect_tooltip = TYR_OccupationPayments_focus_tt
 	}
 }
 
@@ -135,58 +147,62 @@ shared_focus = {
 	y = 2
 	completion_reward = {
 		country_event = {days = 1 id = TYR.15}
-		957 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+		set_country_flag = EliminateOpposition_DecisionActive
+		custom_effect_tooltip = TYR_NewInformation_focus_tt
+		hidden_effect = {
+			957 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		758 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			758 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		958 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			958 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		779 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			779 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		665 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			665 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		802 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			802 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		756 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			756 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		712 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			712 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
-		}
-		959 = {
-			add_dynamic_modifier = {
-				scope = TYR
-				modifier = TYR_SouthGuerillaActivities
+			959 = {
+				add_dynamic_modifier = {
+					scope = TYR
+					modifier = TYR_SouthGuerillaActivities
+				}
 			}
 		}
 	}
@@ -204,8 +220,11 @@ shared_focus = {
 	x = 11
 	y = 3
 	completion_reward = {
-		add_timed_idea = { idea = tyr_agitation_work_idea days = 75 }
 		country_event = {days = 1 id = TYR.16}
+		set_country_flag = TyrlitianAgitation_DecisionActive
+		set_country_flag = CulturalExpenses_DecisionActive
+		custom_effect_tooltip = TYR_AgitationWork_focus_tt
+		add_timed_idea = { idea = tyr_agitation_work_idea days = 75 }
 	}
 }
 
@@ -429,7 +448,8 @@ shared_focus = {
 	cost = 3
 	x = 13
 	y = 5
-	completion_reward = { 
+	completion_reward = {
+		set_country_flag = RaidTranszebrica_DecisionActive
 		custom_effect_tooltip = TYR_BehindRiverInSands_focus_tt
 		hidden_effect = {
 			TYR = {
@@ -523,10 +543,11 @@ shared_focus = {
 	cost = 2
 	x = 15
 	y = 6
-	completion_reward = { 
-		hidden_effect = {
-			country_event = {days = 1 id = TYR.21}
-		}
+	completion_reward = {
+		country_event = {days = 1 id = TYR.21}
+		set_country_flag = PolitizeScience_DecisionActive
+		set_country_flag = ReformTextbooks_DecisionActive
+		custom_effect_tooltip = TYR_OrnithianEducation_focus_tt
 	}
 }
 
@@ -657,9 +678,16 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_AftermathOfRevolution
+	available = {
+		has_completed_focus = TYR_MgabeDossier
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	cost = 1
 	x = 12
-	y = 0
+	y = 10
 	completion_reward = {
 		country_event = {id = TYR.25 days = 1}
 	}
@@ -667,12 +695,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_ChangelingKooperation
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus = TYR_AftermathOfRevolution
 	}
 	cost = 4
 	x = 11
-	y = 1
+	y = 11
 	mutually_exclusive = {
 		focus = TYR_ZebricanNationalism
 	}
@@ -683,12 +717,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_ZebricanNationalism
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus = TYR_AftermathOfRevolution
 	}
 	cost = 4
 	x = 13
-	y = 1
+	y = 11
 	mutually_exclusive = {
 		focus = TYR_ChangelingKooperation
 	}
@@ -699,12 +739,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_TalkWithRevolutioneries
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus = TYR_AftermathOfRevolution
 	}
 	cost = 2
 	x = 10
-	y = 2
+	y = 12
 	completion_reward = {
 		add_ideas = TYR_PartisanIntegration_idea
 		add_manpower = 1500
@@ -715,18 +761,30 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_VisitVirta
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus = TYR_AftermathOfRevolution
 	}
 	cost = 2
 	x = 14
-	y = 2
+	y = 12
 	completion_reward = {
 	}
 }
 
 shared_focus = {
 	id = TYR_TyrlitianReforging
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_ChangelingKooperation
 		focus = TYR_ZebricanNationalism
@@ -739,19 +797,25 @@ shared_focus = {
 	}
 	cost = 1
 	x = 12
-	y = 3
+	y = 13
 	completion_reward = {
 	}
 }
 
 shared_focus = {
 	id = TYR_ByGraceOfEmpress
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_TyrlitianReforging
 	}
 	cost = 2
 	x = 8
-	y = 4
+	y = 14
 	mutually_exclusive = {
 		focus = TYR_SearchInPockets
 	}
@@ -761,12 +825,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_SearchInPockets
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_TyrlitianReforging
 	}
 	cost = 2
 	x = 16
-	y = 4
+	y = 14
 	mutually_exclusive = {
 		focus = TYR_ByGraceOfEmpress
 	}
@@ -776,12 +846,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_GenerousSubsides
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_ByGraceOfEmpress
 	}
 	cost = 4
 	x = 10
-	y = 5
+	y = 15
 	completion_reward = {
 		add_offsite_building = { type = industrial_complex level = 5 }
 		add_timed_idea = { idea = TYR_ChangelingSubsides_idea days = 365 }
@@ -790,12 +866,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_GreatChangelingMission
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_GenerousSubsides
 	}
 	cost = 4
 	x = 8
-	y = 6
+	y = 16
 	completion_reward = {
 		add_timed_idea = { idea = TYR_ChangelingMission_idea days = 365 }
 	}
@@ -803,12 +885,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_SpecialTyrlitianStatus
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_GenerousSubsides
 	}
 	cost = 4
 	x = 10
-	y = 6
+	y = 16
 	completion_reward = {
 		add_timed_idea = { idea = TYR_PreferentialStatus_idea days = 730 }
 	}
@@ -816,12 +904,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_StimulationOfMining
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_GenerousSubsides
 	}
 	cost = 4
 	x = 7
-	y = 7
+	y = 17
 	completion_reward = {
 		add_resource = {
 			type = tungsten
@@ -893,12 +987,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_InfrastructurePlaning
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_GenerousSubsides
 	}
 	cost = 4
 	x = 9
-	y = 7
+	y = 17
 	completion_reward = {
 		add_timed_idea = { idea = TYR_InfrastructureRebuilding_idea days = 180 }
 	}
@@ -907,6 +1007,12 @@ shared_focus = {
 shared_focus = {
 	id = TYR_ChangelingMilitaryUniversity
 	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
+	available = {
 		NOT = { has_completed_focus = TYR_ArmyWillWait }
 	}
 	prerequisite = {
@@ -914,7 +1020,7 @@ shared_focus = {
 	}
 	cost = 3
 	x = 8
-	y = 8
+	y = 18
 	completion_reward = {
 		add_ideas = tyr_changeling_neu_chrysaltz_university
 		add_research_slot = 1
@@ -925,13 +1031,17 @@ shared_focus = {
 	id = TYR_ChitinArmy
 	available = {
 		NOT = { has_completed_focus = TYR_ArmyWillWait }
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
 	}
 	prerequisite = {
 		focus =	TYR_GenerousSubsides
 	}
 	cost = 3
 	x = 10
-	y = 8
+	y = 18
 	completion_reward = {
 		army_experience = 25
 		swap_ideas = {
@@ -945,6 +1055,10 @@ shared_focus = {
 	id = TYR_EncryptionTechnologies
 	available = {
 		NOT = { has_completed_focus = TYR_ArmyWillWait }
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
 	}
 	prerequisite = {
 		focus =	TYR_ChangelingMilitaryUniversity
@@ -954,7 +1068,7 @@ shared_focus = {
 	}
 	cost = 3
 	x = 9
-	y = 9
+	y = 19
 	completion_reward = {
 		add_ideas = TYR_ChangelingsDecryptionTechs_idea
 	}
@@ -962,13 +1076,19 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_MgabeTheUnifier
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_SearchInPockets
 		focus =	TYR_ByGraceOfEmpress
 	}
 	cost = 2
 	x = 12
-	y = 5
+	y = 15
 	completion_reward = {
 		add_political_power = 75
 	}
@@ -976,12 +1096,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_ZebrichesstoltzGazette
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_MgabeTheUnifier
 	}
 	cost = 2
 	x = 11
-	y = 7
+	y = 17
 	completion_reward = {
 		add_political_power = 50
 		add_ideas = TYR_StatePress_idea
@@ -990,12 +1116,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_GreatTour
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_MgabeTheUnifier
 	}
 	cost = 3
 	x = 12
-	y = 6
+	y = 16
 	completion_reward = {
 		add_timed_idea = { idea = TYR_MgabeTour_idea days = 60 }
 	}
@@ -1003,12 +1135,18 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_StateRadioClubs
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_MgabeTheUnifier
 	}
 	cost = 2
 	x = 13
-	y = 7
+	y = 17
 	completion_reward = {
 		add_political_power = 50
 		add_ideas = TYR_StateRadioClubs_idea
@@ -1039,10 +1177,14 @@ shared_focus = {
 				}
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
 	}
 	cost = 5
 	x = 12
-	y = 8
+	y = 18
 	completion_reward = {
 		add_timed_idea = { idea = TYR_EconomyEfforts_idea days = 720 }
 	}
@@ -1050,60 +1192,90 @@ shared_focus = {
 
 shared_focus = {
 	id = TYR_SecretPartners
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_SearchInPockets
 	}
 	cost = 2
 	x = 14
-	y = 5
+	y = 15
 	completion_reward = {
 	}
 }
 
 shared_focus = {
 	id = TYR_FarmSale
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_SecretPartners
 	}
 	cost = 4
 	x = 14
-	y = 6
+	y = 16
 	completion_reward = {
 	}
 }
 
 shared_focus = {
 	id = TYR_TyrlitianLightManufacturing
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_SecretPartners
 	}
 	cost = 4
 	x = 16
-	y = 6
+	y = 16
 	completion_reward = {
 	}
 }
 
 shared_focus = {
 	id = TYR_GambleCities
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_SecretPartners
 	}
 	cost = 4
 	x = 15
-	y = 7
+	y = 17
 	completion_reward = {
 	}
 }
 
 shared_focus = {
 	id = TYR_WorkHarder
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_SecretPartners
 	}
 	cost = 4
 	x = 17
-	y = 7
+	y = 17
 	completion_reward = {
 	}
 }
@@ -1112,13 +1284,17 @@ shared_focus = {
 	id = TYR_JusticeForPeople
 	available = {
 		NOT = { has_completed_focus = TYR_ArmyWillWait }
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
 	}
 	prerequisite = {
 		focus =	TYR_SecretPartners
 	}
 	cost = 3
 	x = 14
-	y = 8
+	y = 18
 	completion_reward = {
 	}
 }
@@ -1127,13 +1303,17 @@ shared_focus = {
 	id = TYR_ProjectOfMilitarySovereignty
 	available = {
 		NOT = { has_completed_focus = TYR_ArmyWillWait }
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
 	}
 	prerequisite = {
 		focus =	TYR_SecretPartners
 	}
 	cost = 3
 	x = 16
-	y = 8
+	y = 18
 	completion_reward = {
 	}
 }
@@ -1142,6 +1322,10 @@ shared_focus = {
 	id = TYR_AbteilungZebriches
 	available = {
 		NOT = { has_completed_focus = TYR_ArmyWillWait }
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
 	}
 	prerequisite = {
 		focus =	TYR_JusticeForPeople
@@ -1151,7 +1335,7 @@ shared_focus = {
 	}
 	cost = 3
 	x = 15
-	y = 9
+	y = 19
 	completion_reward = {
 	}
 }
@@ -1173,16 +1357,26 @@ shared_focus = {
 				has_completed_focus = TYR_WorkHarder
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
 	}
 	cost = 3
 	x = 12
-	y = 9
+	y = 19
 	completion_reward = {
 	}
 }
 
 shared_focus = {
 	id = TYR_FirstTyrlitianStatePlan
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = TYR_Crisis_trigger_tt
+			NOT = { has_country_flag = TyrlitiaInCrisis }
+		}
+	}
 	prerequisite = {
 		focus =	TYR_AufklarungInfluence
 	}
@@ -1193,7 +1387,7 @@ shared_focus = {
 	}
 	cost = 8
 	x = 12
-	y = 10
+	y = 20
 	completion_reward = {
 	}
 }
@@ -1255,7 +1449,7 @@ shared_focus = {
 		focus = TYR_projavit_viderzhku
 	}
 	cost = 2
-	x = 19
+	x = 21
 	y = 4
 	ai_will_do = {
 		factor = 100
@@ -1274,7 +1468,7 @@ shared_focus = {
 		focus = TYR_iznichtozhit_va_szhech
 	}
 	cost = 2
-	x = 21
+	x = 19
 	y = 4
 	completion_reward = { 
 		country_event = TYR.500

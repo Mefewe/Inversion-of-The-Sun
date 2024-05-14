@@ -1,0 +1,84 @@
+add_namespace = NatPan_VariablesSet
+add_namespace = NatPan_TYR_Raid
+
+country_event = {
+	id = NatPan_VariablesSet.1
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+		NatPan_VariablesSet_effect = yes
+	}
+}
+
+country_event = {
+	id = NatPan_TYR_Raid.1		# Tyrlitia begins battle
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 961
+				num_of_provinces = 3
+				on_win = NatPan_TYR_Raid.2
+				on_lose = NatPan_TYR_Raid.3
+				modifier = 2
+			}
+			defender = {
+				state = 960
+				num_of_provinces = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NatPan_TYR_Raid.2		# Tyrlitia wins battle
+	title = NatPan_TYR_Raid.2.title
+	desc = NatPan_TYR_Raid.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = NatPan_TYR_Raid.2.a
+		add_war_support = 0.075
+		set_country_flag = { flag = SUSSY4 days = 90 value = 1 }
+		TYR = {
+			transfer_state = 960
+		}
+	}
+}
+
+country_event = {
+	id = NatPan_TYR_Raid.3		# Tyrlitia loses battle
+	title = NatPan_TYR_Raid.3.title
+	desc = NatPan_TYR_Raid.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = NatPan_TYR_Raid.3.a
+		add_war_support = 0.025
+		set_country_flag = { flag = SUSSY5 days = 90 value = 1 }
+	}
+}
+
+country_event = {
+	id = NatPan_TYR_Raid.4
+	title = NatPan_TYR_Raid.4.title
+	desc = NatPan_TYR_Raid.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = NatPan_TYR_Raid.4.a
+	}
+}
+
+country_event = {
+	id = NatPan_TYR_Raid.5
+	title = NatPan_TYR_Raid.5.title
+	desc = NatPan_TYR_Raid.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = NatPan_TYR_Raid.5.a
+	}
+}

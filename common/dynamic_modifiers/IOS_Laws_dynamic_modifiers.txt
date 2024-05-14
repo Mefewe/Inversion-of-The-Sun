@@ -1,0 +1,33 @@
+### LAW: Weapon legalization
+WeaponLegalize_NO_CONTROL_LawModifier = {
+	enable = { has_idea = no_weapon_control }
+
+	stability_factor = WeaponLegalize_NO_CONTROL_stabFactor
+	conscription = WeaponLegalize_NO_CONTROL_conscFactor
+	army_core_attack_factor = WeaponLegalize_NO_CONTROL_armyCoreAttackFactor
+	army_core_defence_factor = WeaponLegalize_NO_CONTROL_armyCoreDefenceFactor
+}
+WeaponLegalize_RIGHTS_FORBIDDEN_LawModifier = {
+	enable = { has_idea = weapon_rights_forbidden }
+
+	stability_factor = WeaponLegalize_RIGHTS_FORBIDDEN_stabFactor
+	political_power_factor = WeaponLegalize_RIGHTS_FORBIDDEN_ppFactor
+}
+WeaponLegalize_LIGHT_RIGHTS_LawModifier = {
+	enable = { has_idea = light_weapon_rights }
+
+	stability_factor = WeaponLegalize_LIGHT_RIGHTS_stabFactor
+	political_power_factor = WeaponLegalize_LIGHT_RIGHTS_ppFactor
+	conscription = WeaponLegalize_LIGHT_RIGHTS_conscFactor
+	army_core_attack_factor = WeaponLegalize_LIGHT_RIGHTS_armyCoreAttackFactor
+	army_core_defence_factor = WeaponLegalize_LIGHT_RIGHTS_armyCoreDefenceFactor
+}
+WeaponLegalize_FULL_RIGHTS_LawModifier = {
+	enable = { has_idea = full_weapon_legalization }
+
+	stability_factor = WeaponLegalize_FULL_RIGHTS_stabFactor
+	political_power_factor = WeaponLegalize_FULL_RIGHTS_ppFactor
+	conscription = WeaponLegalize_FULL_RIGHTS_conscFactor
+	army_core_attack_factor = WeaponLegalize_FULL_RIGHTS_armyCoreAttackFactor
+	army_core_defence_factor = WeaponLegalize_FULL_RIGHTS_armyCoreDefenceFactor
+}

@@ -1,0 +1,19 @@
+defined_text = {
+	name = DebugLawDecs_desc
+	text = {
+		trigger = { has_idea = no_weapon_control }
+		localization_key = DEBUG_NO_WEAPON_CONTROL_DESC
+	}
+	text = {
+		trigger = { has_idea = weapon_rights_forbidden }
+		localization_key = DEBUG_WEAPON_RIGHTS_FORBIDDEN_DESC
+	}
+	text = {
+		trigger = { has_idea = light_weapon_rights }
+		localization_key = DEBUG_WEAPON_LIGHT_RIGHTS_DESC
+	}
+	text = {
+		trigger = { has_idea = full_weapon_legalization }
+		localization_key = DEBUG_WEAPON_FULL_RIGHTS_DESC
+	}
+}

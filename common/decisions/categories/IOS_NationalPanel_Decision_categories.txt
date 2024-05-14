@@ -1,4 +1,7 @@
 NationalPanel_decisions = {
 	icon = generic_research
+	visible = {
+		NOT = { tag = UNC }
+	}
 	priority = 20
 }

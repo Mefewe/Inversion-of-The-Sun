@@ -52,10 +52,10 @@ set_autonomy = {
         target = FRZ
         autonomous_state = autonomy_integrated_puppet
 }
-#set_autonomy = {
-#        target = TYR
-#        autonomous_state = autonomy_integrated_puppet
-#}
+set_autonomy = {
+        target = TYR
+        autonomous_state = autonomy_integrated_puppet
+}
 
 create_faction = NovaMill
 
