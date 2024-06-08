@@ -1,8 +1,11 @@
 capital = 965
 
 recruit_character = AOZ_MovementCommanders
-recruit_character = AOZ_Ebdelj_Vahnjar
+# recruit_character = AOZ_Ebdelj_Vahnjar
+recruit_character = AOZ_Zarka_Ikonsi
 recruit_character = AOZ_Lahenjar_Getrenukho
+recruit_character = AOZ_Gmappe_Astripe
+recruit_character = AOZ_Berk_Visp
 
 set_stability = 0.05
 set_war_support = 1

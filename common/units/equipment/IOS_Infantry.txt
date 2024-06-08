@@ -52,6 +52,12 @@ equipments = {
 	}
 
 	swords_and_armor_arch_eq = {
+
+		can_be_produced = {
+			tag = DRG
+			tag = ADR
+			tag = MDR
+		}
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
@@ -109,38 +115,17 @@ equipments = {
 		air_attack = 0
 	}
 
-	infantry_equipment_0 = {
+	infantry_equipment_1 = {
 		year = 1758
 	
 		archetype = infantry_equipment
 		active = yes
-		priority = 05
+		priority = 5
 		visual_level = 0
 	}
 
-	infantry_equipment_1 = {
-		year = 1763
-	
-		archetype = infantry_equipment
-		parent = infantry_equipment_0
-		priority = 10
-		visual_level = 1
-
-		#Defensive Abilities
-		defense = 23.5
-		breakthrough = 3
-
-		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
-		air_attack = 0
-
-		build_cost_ic = 0.44
-	}
-
 	infantry_equipment_2 = {
-		year = 1770
+		year = 1763
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_1
@@ -165,7 +150,7 @@ equipments = {
 	}
 	
 	infantry_equipment_3 = {
-		year = 1774
+		year = 1770
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_2
@@ -190,7 +175,7 @@ equipments = {
 	}
 
 	infantry_equipment_4 = {
-		year = 1778
+		year = 1774
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_3
@@ -215,7 +200,7 @@ equipments = {
 	}
 
 	infantry_equipment_5 = {
-		year = 1782
+		year = 1778
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_4
@@ -240,10 +225,35 @@ equipments = {
 	}
 
 	infantry_equipment_6 = {
-		year = 1785
+		year = 1782
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_5
+		priority = 10
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 5
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 2
+		ap_attack = 10
+		air_attack = 0
+		
+		reliability = 0.8
+		build_cost_ic = 0.55
+		resources = {
+			steel = 4
+		}
+	}
+
+	infantry_equipment_7 = {
+		year = 1785
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_6
 		priority = 10
 		visual_level = 3
 		

@@ -569,7 +569,8 @@ country_event = {
 	option = {
 		name = AOZ.50.a
 		add_stability = 0.15
-		load_focus_tree = AOZ_focus_tree_tort_A
+		# load_focus_tree = AOZ_focus_tree_tort_A
+		load_focus_tree = AOZ_focus_tree_three
 		mark_focus_tree_layout_dirty = yes
 	}
 }
@@ -1032,7 +1033,8 @@ country_event = {
 	option = {
 		name = AOZ.200.a
 		add_stability = 0.1
-		load_focus_tree = AOZ_focus_tree_tort_B
+		# load_focus_tree = AOZ_focus_tree_tort_B
+		load_focus_tree = AOZ_focus_tree_three
 		mark_focus_tree_layout_dirty = yes
 	}
 }

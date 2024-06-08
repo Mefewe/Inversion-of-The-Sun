@@ -6,9 +6,7 @@ equipments = {
 		year = 1763
 	
 		is_archetype = yes
-                can_be_produced = {
-                	always = no
-                }
+
 		picture = archetype_infantry_ammo_equipment		
 		is_buildable = no
 		type = infantry
@@ -19,26 +17,29 @@ equipments = {
 		active = yes
 		
 		#Misc Abilities
-		reliability = 0.1
+		reliability = 0.4
+		maximum_speed = 4
 
 		#Defensive Abilities
-		defense = 0
-		breakthrough = 0
+		defense = 23
+		breakthrough = 2.5
 		hardness = 0
-		armor_value = 0
+		armor_value = 2
 
 		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
+		soft_attack = 5
+		hard_attack = 0.5
+		ap_attack = 2
 		air_attack = 0
 
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.03
+		build_cost_ic = 0.5
 		resources = {
 			steel = 1
+			aluminium = 1
+			chromium = 2
 		}
 	}
 
@@ -46,9 +47,7 @@ equipments = {
 		year = 1780
 	
 		is_archetype = yes
-                can_be_produced = {
-                	always = no
-                }
+
 		picture = archetype_infantry_ammo_equipment		
 		is_buildable = no
 		type = infantry
@@ -78,7 +77,9 @@ equipments = {
 		
 		build_cost_ic = 0.03
 		resources = {
-			steel = 1
+			steel = 3
+			aluminium = 2
+			chromium = 4
 		}
 	}
 
@@ -88,6 +89,11 @@ equipments = {
 		active = yes
 		priority = 05
 		visual_level = 0
+		resources = {
+			steel = 1
+			aluminium = 1
+			chromium = 2
+		}
 	}
 
 	magic_energy_inf_2_eq = {
@@ -98,15 +104,31 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
+		#Misc Abilities
+		reliability = 0.5
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 0
+		defense = 31
+		breakthrough = 5.7
+		hardness = 0
+		armor_value = 2
+
 		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
+		soft_attack = 13
+		hard_attack = 1.9
+		ap_attack = 7
 		air_attack = 0
 
-		build_cost_ic = 0.05
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.6
+		resources = {
+			steel = 1
+			aluminium = 1
+			chromium = 2
+		}
 	}
 
 	magic_energy_inf_3_eq = {
@@ -117,15 +139,31 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
+		#Misc Abilities
+		reliability = 0.56
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 0
+		defense = 37
+		breakthrough = 7.2
+		hardness = 0
+		armor_value = 2
+
 		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
+		soft_attack = 20
+		hard_attack = 2.3
+		ap_attack = 10
 		air_attack = 0
 
-		build_cost_ic = 0.05
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.85
+		resources = {
+			steel = 1
+			aluminium = 1
+			chromium = 2
+		}
 	}
 
 	combined_magic_energy_prototype_eq = {
@@ -135,15 +173,31 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
+		#Misc Abilities
+		reliability = 0.37
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 0
+		defense = 45
+		breakthrough = 12
+		hardness = 0
+		armor_value = 4
+
 		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
+		soft_attack = 40
+		hard_attack = 5.5
+		ap_attack = 20
 		air_attack = 0
 
-		build_cost_ic = 0.05
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 1.45
+		resources = {
+			steel = 3
+			aluminium = 2
+			chromium = 4
+		}
 	}
 
 	final_combined_magic_energy_inf_eq = {
@@ -154,14 +208,30 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
+		#Misc Abilities
+		reliability = 0.6
+		maximum_speed = 4
+
 		#Defensive Abilities
-		defense = 0
+		defense = 65
+		breakthrough = 21
+		hardness = 0
+		armor_value = 8
+
 		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
+		soft_attack = 65
+		hard_attack = 12.5
+		ap_attack = 30
 		air_attack = 0
 
-		build_cost_ic = 0.05
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 2.15
+		resources = {
+			steel = 3
+			aluminium = 2
+			chromium = 4
+		}
 	}
 }

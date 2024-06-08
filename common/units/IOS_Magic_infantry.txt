@@ -1,0 +1,47 @@
+sub_units = {
+	magic_infantry = {
+		abbreviation = "MIF"
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 25
+		max_organisation = 55
+		default_morale = 0.25
+		manpower = 1000
+
+		#Misc Abilities
+		training_time = 100
+		suppression = 1.9
+		weight = 0.6
+
+		soft_attack = 0.35
+		breakthrough = 0.15
+		supply_consumption = 0.07
+	
+		need = {
+			candc_equipment = 50
+			anti_tank_inf_eq = 75
+			magic_energy_inf_eq = 100
+		}
+	}
+}

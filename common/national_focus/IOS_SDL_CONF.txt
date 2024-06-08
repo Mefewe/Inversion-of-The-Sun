@@ -1812,5 +1812,6 @@ shared_focus = {
    			id = SDL_base.5
     			days = 1
 		}
+		news_event = SDL_CONF_News.2
 	}
 }

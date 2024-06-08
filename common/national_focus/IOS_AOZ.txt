@@ -41,10 +41,8 @@ focus_tree = {
 			original_tag = AOZ
 		}
 	}
-	shared_focus = AOZ_zheleznyj
-	shared_focus = AOZ_diplomatic_mission
-	shared_focus = AOZ_ba_pesh
-	shared_focus = AOZ_totalna_oborona
+	shared_focus = AOZ_republcian_project
+	shared_focus = AOZ_raid_on_cheeruta
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
@@ -712,6 +710,90 @@ shared_focus = { #
 	y = 10
 	completion_reward = { 
 		country_event = AOZ.13
+	}
+}
+################# Third tree
+shared_focus = {
+	id = AOZ_republcian_project
+	cost = 1
+	x = 12
+	y = 1
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_state_integration
+	prerequisite = {
+		focus = AOZ_republcian_project
+	}
+	cost = 1
+	x = 12
+	y = 2
+	completion_reward = { 
+		set_country_flag = AOZ_StateRaceActive
+	}
+}
+shared_focus = {
+	id = AOZ_world_solidarity
+	prerequisite = {
+		focus = AOZ_state_integration
+	}
+	cost = 1
+	x = 12
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_bringing_peace_and_prosperity
+	prerequisite = {
+		focus = AOZ_world_solidarity
+	}
+	cost = 1
+	x = 12
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_communications_campaign
+	prerequisite = {
+		focus = AOZ_bringing_peace_and_prosperity
+	}
+	cost = 1
+	x = 11
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_property_bureau
+	prerequisite = {
+		focus = AOZ_bringing_peace_and_prosperity
+	}
+	cost = 1
+	x = 13
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_new_beginning
+	prerequisite = {
+		focus = AOZ_property_bureau
+	}
+	cost = 1
+	x = 12
+	y = 6
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_raid_on_cheeruta
+	cost = 1
+	x = 12
+	y = 7
+	completion_reward = { 
 	}
 }
 

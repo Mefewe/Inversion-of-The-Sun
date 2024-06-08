@@ -1,16 +1,12 @@
 ﻿l_russian:
+ EQUIPMENT_DESCRIPTION: "$NAME$"
+
  power_armor:0 "Силовая броня"
  power_armor_1:0 "Силовая броня"
  power_armor_1_short:0 "СБ"
  power_armor_desc:0 "Силовая броня - новейшая разработка и новая веха в технологиях ведения войны. Концептуально обращаясь к старейшим временам, когда существовала тяжёлая металлическая броня, была, наконец, создана модель с экзоскелетом и достаточно толстыми бронепластинами из особого сплава."
-
- infantry_ammo_equipment:0 "Оружейные боеприпасы"
- infantry_ammo_equipment_0:0 "Оружейные боеприпасы"
- infantry_ammo_equipment_1:0 "Оружейные боеприпасы"
- infantry_ammo_equipment_2:0 "Оружейные боеприпасы"
- infantry_ammo_equipment_3:0 "Оружейные боеприпасы"
  
- swords_and_armor: "Неогнестрельное оружие и броня"
+ swords_and_armor_TITLE: "Неогнестрельное оружие и броня"
  swords_and_armor_eq: "Неогнестрельное оружие и броня"
  swords_and_armor_arch_eq: "Неогнестрельное оружие и броня"
 
@@ -24,19 +20,22 @@
  tank_ammo_equipment:0 "Танковые боеприпасы"
  tank_ammo_equipment_0:0 "Танковые боеприпасы"
 
- anti_tank_equipment_hand:0 "Ручное ПТО"
- anti_tank_inf_1_eq:0 "Ручное ПТО I"
- anti_tank_inf_2_eq:0 "Ручное ПТО II"
- anti_tank_inf_3_eq:0 "Ручное ПТО III"
+ anti_tank_inf_eq: "Ручное ПТО"
+ anti_tank_inf_1_eq: "Ручное ПТО I"
+ anti_tank_inf_2_eq: "Ручное ПТО II"
+ anti_tank_inf_3_eq: "Ручное ПТО III"
 
- anti_air_equipment_hand_2:0 "Ручное ПВО II"
+ anti_air_inf_eq: "Ручное ПВО"
+ anti_air_inf_1_eq: "Ручное ПВО I"
+ anti_air_inf_2_eq: "Ручное ПВО II"
+ anti_air_inf_3_eq: "Ручное ПВО III"
 
  motorized_equipment_2:0 "Усовершенствованный транспорт"
 
- bronetransporter:0 "Бронетранспортёр"
- bronetransporter_1:0 "БТР I"
- bronetransporter_2:0 "БТР II"
- bronetransporter_3:0 "БТР III"
+ bronetransporter: "Бронетранспортёр"
+ bronetransporter_1: "БТР I"
+ bronetransporter_2: "БТР II"
+ bronetransporter_3: "БТР III" 
 
  candc_equipment:0 "Оборудование управления войсками"
 
@@ -476,21 +475,6 @@
  rocket_artillery_equipment_1:0 "Буксируемая реактивная артиллерия"
  rocket_artillery_equipment_1_short:0 "Ракеты"
  rocket_artillery_equipment_1_desc:0 "Реактивная артиллерия менее точна и скорострельна, чем традиционные орудия, однако недостатки окупаются эффектом от одновременного попадания нескольких ракет в цель."
- infantry_equipment:0 "Пехотное снаряжение"
- infantry_equipment_short:0 "Пехотное снар."
- infantry_equipment_desc:0 "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца."
- infantry_equipment_0:0 "Базовое пехотное снаряжение"
- infantry_equipment_0_short:0 "Базовое снаряж."
- infantry_equipment_0_desc:0 "Базовое снаряжение пехоты, разработанное до и во время Великой войны."
- infantry_equipment_1:0 "Пехотное снаряжение I"
- infantry_equipment_1_short:0 "Оружие I"
- infantry_equipment_1_desc:0 "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца."
- infantry_equipment_2:0 "Пехотное снаряжение II"
- infantry_equipment_2_short:0 "Оружие II"
- infantry_equipment_2_desc:0 "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца. Включает большое количество пистолетов-пулеметов и противотанковых ружей."
- infantry_equipment_3:0 "Пехотное снаряжение III"
- infantry_equipment_3_short:0 "Оружие III"
- infantry_equipment_3_desc:0 "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца. Включает штурмовые винтовки и противотанковые гранатометы."
 
  gw_armored_car_equipment:1 "Межвоенная бронемашина"
  gw_armored_car_equipment_desc:0 "Предыдущие бронемашины были обычными автомобилями с дополнительной тонкой обшивкой; эта же модель изначально спроектирована с учётом брони и лёгкого вооружения."
