@@ -1,5 +1,20 @@
 ﻿l_russian:
+ ################
+ ### INFANTRY ###
+ ################
+ infantry_weapons_1: "Пехотное снаряжение I"
+ infantry_weapons_2: "Пехотное снаряжение II"
+ infantry_weapons_3: "Пехотное снаряжение III"
+ infantry_weapons_4: "Пехотное снаряжение IV"
+ infantry_weapons_5: "Пехотное снаряжение V"
+ infantry_weapons_6: "Пехотное снаряжение VI"
+ infantry_weapons_7: "Пехотное снаряжение VII"
+ 
+ final_combined_magic_energy_inf: "Комбинированное оружие"
 
+ #############
+ ### TANKS ###
+ #############
  gw_med_tank: "Средний танк Великой войны"
  med_tank_1: "Средний танк 1-го поколения"
  med_tank_2: "Средний танк 2-го поколения"

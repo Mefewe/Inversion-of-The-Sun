@@ -1,0 +1,151 @@
+StateRace_decs = {
+	### AOZ & KAF
+	StruggleForStates_mission = {
+		activation = {
+			always = yes
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+			UNC = { owns_state = 665 }
+		}
+		days_mission_timeout = 100
+		selectable_mission = no
+		cancel_trigger = {
+			has_war = yes
+		}
+		timeout_effect = {
+			clr_country_flag = StateStruggleStarts
+			set_country_flag = StateRaceEnds
+		}
+	}
+	SouthAlpakia_integration = {
+		highlight_states = {
+			highlight_state_targets = { state = 665 }
+		}
+		visible = { 
+			NOT = {
+				FROM = {
+					owns_state = 665
+				}
+			}
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+			command_power > 20
+		}
+		complete_effect = {
+			FROM = { transfer_state = 665 }
+		}
+	}
+	NorthAlpakia_integration = {
+		highlight_states = {
+			highlight_state_targets = { state = 959 }
+		}
+		visible = { 
+			NOT = {
+				FROM = {
+					owns_state = 959
+				}
+			}
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+		}
+		complete_effect = {
+			FROM = { transfer_state = 959 }
+		}
+	}
+	Alkara_integration = {
+		highlight_states = {
+			highlight_state_targets = { state = 756 }
+		}
+		visible = { 
+			NOT = {
+				FROM = {
+					owns_state = 756
+				}
+			}
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+		}
+		complete_effect = {
+			FROM = { transfer_state = 756 }
+		}
+	}
+	Dimbnam_integration = {
+		highlight_states = {
+			highlight_state_targets = { state = 712 }
+		}
+		visible = { 
+			NOT = {
+				FROM = {
+					owns_state = 712
+				}
+			}
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+		}
+		complete_effect = {
+			FROM = { transfer_state = 712 }
+		}
+	}
+	Yourtrott_integration = {
+		highlight_states = {
+			highlight_state_targets = { state = 957 }
+		}
+		visible = { 
+			NOT = {
+				FROM = {
+					owns_state = 957
+				}
+			}
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+		}
+		complete_effect = {
+			FROM = { transfer_state = 957 }
+		}
+	}
+	Cheercoast_integration = {
+		highlight_states = {
+			highlight_state_targets = { state = 958 }
+		}
+		visible = { 
+			NOT = {
+				FROM = {
+					owns_state = 958
+				}
+			}
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+		}
+		complete_effect = {
+			FROM = { transfer_state = 958 }
+		}
+	}
+}

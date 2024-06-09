@@ -2,6 +2,9 @@ technologies = {
 	diesel_engine_1 = {
 		research_cost = 2
 		start_year = 1758
+		enable_equipment_modules = {
+			tank_diesel_engine_1
+		}
 		path = {
 			leads_to_tech = gw_light_tank
 			research_cost_coeff = 1
@@ -25,15 +28,15 @@ technologies = {
 	gw_light_tank = {
 		research_cost = 2
 		start_year = 1763
+		enable_equipments = {
+			gw_light_tank_chassis
+		}
 		dependencies = {
 			tank_construction_theory = 1
 		}
 		path = {
 			leads_to_tech = improved_construction
 			research_cost_coeff = 1
-		}
-		enable_equipments = {
-			gw_light_tank_eq
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -305,6 +308,9 @@ technologies = {
 	diesel_engine_2 = {
 		research_cost = 2
 		start_year = 1772
+		enable_equipment_modules = {
+			tank_diesel_engine_2
+		}
 		dependencies = {
 			diesel_engine_1 = 1
 		}
@@ -319,6 +325,9 @@ technologies = {
 	diesel_engine_3 = {
 		research_cost = 2
 		start_year = 1778
+		enable_equipment_modules = {
+			tank_diesel_engine_3
+		}
 		dependencies = {
 			diesel_engine_2 = 1
 		}
@@ -333,6 +342,9 @@ technologies = {
 	diesel_engine_4 = {
 		research_cost = 2
 		start_year = 1785
+		enable_equipment_modules = {
+			tank_diesel_engine_4
+		}
 		dependencies = {
 			diesel_engine_3 = 1
 		}
@@ -347,6 +359,9 @@ technologies = {
 	gas_turbine_engine_1 = {
 		research_cost = 2
 		start_year = 1772
+		enable_equipment_modules = {
+			tank_gas_turbine_engine_1
+		}
 		dependencies = {
 			diesel_engine_1 = 1
 		}
@@ -361,6 +376,9 @@ technologies = {
 	gas_turbine_engine_2 = {
 		research_cost = 2
 		start_year = 1778
+		enable_equipment_modules = {
+			tank_gas_turbine_engine_2
+		}
 		dependencies = {
 			gas_turbine_engine_1 = 1
 		}
@@ -375,6 +393,9 @@ technologies = {
 	gas_turbine_engine_3 = {
 		research_cost = 2
 		start_year = 1785
+		enable_equipment_modules = {
+			tank_gas_turbine_engine_3
+		}
 		dependencies = {
 			gas_turbine_engine_2 = 1
 		}
@@ -389,6 +410,9 @@ technologies = {
 	armor_enchantments = {
 		research_cost = 2
 		start_year = 1770
+		enable_equipment_modules = {
+			tank_armor_enchantments 
+		}
 		dependencies = {
 			diesel_engine_1 = 1
 		}

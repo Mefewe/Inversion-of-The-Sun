@@ -53,8 +53,8 @@ technologies = {
 
 	infantry_weapons_1 = {
 		enable_equipments = {
-			infantry_equipment_0
-			infantry_ammo_equipment_0
+			infantry_equipment_1
+			infantry_ammo_equipment_1
 		}
 		enable_equipment_modules = {
 			tank_heavy_machine_gun
@@ -84,8 +84,8 @@ technologies = {
 	
 	infantry_weapons_2 = {
 		enable_equipments = {
-			infantry_equipment_1
-			infantry_ammo_equipment_1
+			infantry_equipment_2
+			infantry_ammo_equipment_2
 		}		
 		path = {
 			leads_to_tech = infantry_weapons_3
@@ -114,8 +114,8 @@ technologies = {
 	}
 	infantry_weapons_3 = {
 		enable_equipments = {
-			infantry_equipment_2
-			infantry_ammo_equipment_2
+			infantry_equipment_3
+			infantry_ammo_equipment_3
 		}
 		path = {
 			leads_to_tech = construction_improvements_1
@@ -173,8 +173,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			infantry_equipment_3
-			infantry_ammo_equipment_3
+			infantry_equipment_4
+			infantry_ammo_equipment_4
 		}	
 		research_cost = 1.5
 		start_year = 1774
@@ -228,8 +228,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			infantry_equipment_4
-			infantry_ammo_equipment_4
+			infantry_equipment_5
+			infantry_ammo_equipment_5
 		}	
 		research_cost = 1.5
 		start_year = 1778
@@ -283,8 +283,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			infantry_equipment_5
-			infantry_ammo_equipment_5
+			infantry_equipment_6
+			infantry_ammo_equipment_6
 		}	
 		research_cost = 1.5
 		start_year = 1782
@@ -334,8 +334,8 @@ technologies = {
 
 	infantry_weapons_7 = {
 		enable_equipments = {
-			infantry_equipment_6
-			infantry_ammo_equipment_6
+			infantry_equipment_7
+			infantry_ammo_equipment_7
 		}	
 		research_cost = 1.5
 		start_year = 1785
@@ -366,7 +366,10 @@ technologies = {
 		}
 		enable_equipments = {
 			battle_saddle_1_eq
-		}	
+		}
+		enable_subunits = {
+			saddle_infantry
+		}
 		research_cost = 1.5
 		start_year = 1758
 		folder = {
@@ -436,6 +439,9 @@ technologies = {
 	magic_energy_battle_saddle_1_unit = {
 		enable_equipments = {
 			magic_energy_battle_saddle_1_eq
+		}
+		enable_subunits = {
+			magic_saddle_infantry
 		}
 		dependencies = {
 			magic_energy_inf_1 = 1
@@ -671,7 +677,10 @@ technologies = {
 		}
 		enable_equipments = {
 			magic_energy_inf_1_eq
-		}	
+		}
+		enable_subunits = {
+			magic_infantry
+		}
 		research_cost = 1.5
 		start_year = 1763
 		folder = {
@@ -924,6 +933,11 @@ technologies = {
 		enable_equipments = {
 			combined_magic_energy_prototype_eq
 		}
+		magic_infantry = {
+			need = {
+				combined_magic_energy_prototype_eq = 100
+			}
+		}
 		path = {
 			leads_to_tech = simpler_construction
 			research_cost_coeff = 1
@@ -1042,6 +1056,11 @@ technologies = {
 		enable_equipments = {
 			final_combined_magic_energy_inf_eq
 		}
+		magic_infantry = {
+			need = {
+				final_combined_magic_energy_inf_eq = 100
+			}
+		}
 		dependencies = {
 			wave_amplifier = 1
 			semi_magic_weapons = 1
@@ -1137,7 +1156,7 @@ technologies = {
 	}
 
 	night_vision_3 = {
-		land_night_attack = 0.15	
+		land_night_attack = 0.2
 		research_cost = 2
 		start_year = 1776
 		path = {
@@ -1169,7 +1188,7 @@ technologies = {
 	}
 
 	night_vision_4 = {
-		land_night_attack = 0.15	
+		land_night_attack = 0.25
 		research_cost = 2
 		start_year = 1779
 		path = {
@@ -1201,7 +1220,7 @@ technologies = {
 	}
 
 	night_vision_5 = {
-		land_night_attack = 0.15	
+		land_night_attack = 0.3	
 		research_cost = 2
 		start_year = 1782
 		path = {
@@ -1233,7 +1252,7 @@ technologies = {
 	}
 
 	night_vision_6 = {
-		land_night_attack = 0.15	
+		land_night_attack = 0.35
 		research_cost = 2
 		start_year = 1785
 		folder = {

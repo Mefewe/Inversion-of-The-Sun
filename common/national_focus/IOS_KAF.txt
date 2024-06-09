@@ -1,0 +1,165 @@
+focus_tree = {
+	id = FAW_focus_tree_one
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = KAF
+		}
+	}
+	shared_focus = KAF_kinuli
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+
+shared_focus = {
+	id = KAF_kinuli
+	cost = 1
+	x = 12
+	y = 1
+	completion_reward = {
+		country_event = KAF.1
+		779 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 7547
+			}
+		}
+	}
+}
+shared_focus = {
+	id = KAF_vserabocheje_sobranije
+	prerequisite = {
+		focus = KAF_kinuli
+	}
+	cost = 1
+	x = 12
+	y = 2
+	completion_reward = {
+		country_event = KAF.2
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = KAF_Cheeruta_control
+	prerequisite = {
+		focus = KAF_vserabocheje_sobranije
+	}
+	cost = 1
+	x = 10
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = KAF_defence_tasks
+	prerequisite = {
+		focus = KAF_Cheeruta_control
+	}
+	cost = 1
+	x = 8
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = KAF_better_up_supplies
+	prerequisite = {
+		focus = KAF_Cheeruta_control
+	}
+	cost = 1
+	x = 9
+	y = 5
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = KAF_labour_duty
+	prerequisite = {
+		focus = KAF_Cheeruta_control
+	}
+	cost = 1
+	x = 10
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = KAF_battle_continues
+	prerequisite = {
+		focus = KAF_vserabocheje_sobranije
+	}
+	cost = 1
+	x = 14
+	y = 3
+	completion_reward = {
+		country_event = KAF.3
+	}
+}
+shared_focus = {
+	id = KAF_negative_agitation
+	prerequisite = {
+		focus = KAF_battle_continues
+	}
+	cost = 1
+	x = 15
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = KAF_pick_last_weapons
+	prerequisite = {
+		focus = KAF_battle_continues
+	}
+	cost = 1
+	x = 14
+	y = 5
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = KAF_stabilize_territories
+	prerequisite = {
+		focus = KAF_vserabocheje_sobranije
+	}
+	cost = 1
+	x = 12
+	y = 4
+	completion_reward = {
+		country_event = KAF.4
+		set_country_flag = KAF_StateRaceActive
+	}
+}
+shared_focus = {
+	id = KAF_war_with_aoz
+	custom_trigger_tooltip = {
+		tooltip = KAF_war_with_aoz_tigger_tt
+		always = no
+	}
+	prerequisite = {
+		focus = KAF_stabilize_territories
+	}
+	cost = 1
+	x = 12
+	y = 6
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = KAF_great_result
+	custom_trigger_tooltip = {
+		tooltip = KAF_great_result_trigger_tt
+		AOZ = { exists = no }
+	}
+	prerequisite = {
+		focus = KAF_war_with_aoz
+	}
+	cost = 1
+	x = 12
+	y = 7
+	completion_reward = {
+	}
+}

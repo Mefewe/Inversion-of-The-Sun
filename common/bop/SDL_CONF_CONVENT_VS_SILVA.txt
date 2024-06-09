@@ -61,6 +61,7 @@ SDL_CONF_CONVENT_VS_SILVA_balance = {
 				SDL = {
 					complete_national_focus = SDL_convent_interrputs
 				}
+				news_event = SDL_CONF_News.3
 			}
 		}
 	}
@@ -114,6 +115,7 @@ SDL_CONF_CONVENT_VS_SILVA_balance = {
 				SDL = {
 					country_event = SDL_base.21
 				}
+				news_event = SDL_CONF_News.4
 				set_variable = {
 					var = riskStaticFactor
 					value = 0

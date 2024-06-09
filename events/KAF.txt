@@ -43,9 +43,5 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = KAF.4.a
-		957 = {
-			transfer_state_to = KAF
-			add_core_of = KAF
-		}
 	}
 }

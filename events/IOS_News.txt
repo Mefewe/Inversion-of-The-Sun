@@ -17,7 +17,7 @@ news_event = {
 }
 
 news_event = {
-	id = News.2
+	id = News.2	### Cozy's coup
 	title = News.2.title
 	desc = News.2.desc
 	picture = GFX_event_test
@@ -39,7 +39,7 @@ news_event = {
 }
 
 news_event = {
-	id = News.3
+	id = News.3	### EQS Civil war
 	title = News.3.title
 	desc = News.3.desc
 	picture = GFX_event_test
@@ -61,7 +61,7 @@ news_event = {
 }
 
 news_event = {
-	id = News.4
+	id = News.4	### Independence of west coast
 	title = News.4.title
 	desc = News.4.desc
 	picture = GFX_event_test
@@ -82,7 +82,7 @@ news_event = {
 	}
 }
 news_event = {
-	id = TYR_News.1
+	id = TYR_News.1		### Neu-Chryzaltz raid
 	title = TYR_news.1.title
 	desc = TYR_news.1.desc
 	picture = GFX_event_test
@@ -214,6 +214,57 @@ news_event = {
 	}
 	option = {
 		name = SDL_CONF_News.1.b
+		trigger = { tag = SDL }
+	}
+}
+news_event = {
+	id = SDL_CONF_News.2		### Confederation begins the Rally
+	title = SDL_CONF_News.2.title
+	desc = SDL_CONF_News.2.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = SDL_CONF_News.2.a
+		trigger = { NOT = {tag = SDL} }
+	}
+	option = {
+		name = SDL_CONF_News.2.b
+		trigger = { tag = SDL }
+	}
+}
+news_event = {
+	id = SDL_CONF_News.3		### Confederation collapse
+	title = SDL_CONF_News.3.title
+	desc = SDL_CONF_News.3.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = SDL_CONF_News.3.a
+		trigger = { NOT = {tag = SDL} }
+	}
+	option = {
+		name = SDL_CONF_News.3.b
+		trigger = { tag = SDL }
+	}
+}
+news_event = {
+	id = SDL_CONF_News.4		### Silva saves the Confederation
+	title = SDL_CONF_News.4.title
+	desc = SDL_CONF_News.4.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = SDL_CONF_News.4.a
+		trigger = { NOT = {tag = SDL} }
+	}
+	option = {
+		name = SDL_CONF_News.4.b
 		trigger = { tag = SDL }
 	}
 }

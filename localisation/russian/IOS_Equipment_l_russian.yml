@@ -1,0 +1,130 @@
+﻿l_russian:
+ ########################
+ ### INFANTRY WEAPONS ###
+ ########################
+ infantry_equipment: "Пехотное снаряжение"
+ infantry_equipment_short: "Пехотное снар."
+ infantry_equipment_desc: "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца."
+ 
+ infantry_equipment_1: "Пехотное снаряжение I"
+ infantry_equipment_1_short: "Оружие I"
+ infantry_equipment_1_desc: "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца."
+ infantry_equipment_2: "Пехотное снаряжение II"
+ infantry_equipment_2_short: "Оружие II"
+ infantry_equipment_2_desc: "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца. Включает большое количество пистолетов-пулеметов и противотанковых ружей."
+ infantry_equipment_3: "Пехотное снаряжение III"
+ infantry_equipment_3_short: "Оружие III"
+ infantry_equipment_3_desc: "Индивидуальное и коллективное стрелковое оружие, а также прочие элементы экипировки пехотинца. Включает штурмовые винтовки и противотанковые гранатометы." 
+ infantry_equipment_4: "Пехотное снаряжение IV"
+ infantry_equipment_4_short: "Оружие IV"
+ infantry_equipment_4_desc: "" 
+ infantry_equipment_5: "Пехотное снаряжение V"
+ infantry_equipment_5_short: "Оружие V"
+ infantry_equipment_5_desc: "" 
+ infantry_equipment_6: "Пехотное снаряжение VI"
+ infantry_equipment_6_short: "Оружие VI"
+ infantry_equipment_6_desc: "" 
+ infantry_equipment_7: "Пехотное снаряжение VII"
+ infantry_equipment_7_short: "Оружие VII"
+ infantry_equipment_7_desc: ""
+ 
+ #####################
+ ### INFANTRY AMMO ###
+ #####################
+ infantry_ammo_equipment: "Оружейные боеприпасы"
+ infantry_equipment_short: "Патроны"
+ infantry_equipment_desc: ""
+ 
+ infantry_ammo_equipment_1: "Оружейные боеприпасы I"
+ infantry_ammo_equipment_1_short: "Патроны I"
+ infantry_ammo_equipment_1_desc: ""
+ infantry_ammo_equipment_2: "Оружейные боеприпасы II"
+ infantry_ammo_equipment_2_short: "Патроны II"
+ infantry_ammo_equipment_2_desc: ""
+ infantry_ammo_equipment_3: "Оружейные боеприпасы III"
+ infantry_ammo_equipment_3_short: "Патроны III"
+ infantry_ammo_equipment_3_desc: ""
+ infantry_ammo_equipment_4: "Оружейные боеприпасы IV"
+ infantry_ammo_equipment_4_short: "Патроны IV"
+ infantry_ammo_equipment_4_desc: ""
+ infantry_ammo_equipment_5: "Оружейные боеприпасы V"
+ infantry_ammo_equipment_5_short: "Патроны V"
+ infantry_ammo_equipment_5_desc: ""
+ infantry_ammo_equipment_6: "Оружейные боеприпасы VI"
+ infantry_ammo_equipment_6_short: "Патроны VI"
+ infantry_ammo_equipment_6_desc: ""
+ infantry_ammo_equipment_7: "Оружейные боеприпасы VII"
+ infantry_ammo_equipment_7_short: "Патроны VII"
+ infantry_ammo_equipment_7_desc: ""
+ 
+ ######################
+ ### BATTLE SADDLES ###
+ ######################
+ battle_saddle_eq: "Боевые сёдла"
+ battle_saddle_eq_short: "Боевые сёдла"
+ battle_saddle_eq_desc: ""
+
+ battle_saddle_1_eq: "Боевые сёдла I"
+ battle_saddle_1_eq_short: "Боевые сёдла I"
+ battle_saddle_1_eq_desc: "" 
+ battle_saddle_2_eq: "Боевые сёдла II"
+ battle_saddle_2_eq_short: "Боевые сёдла II"
+ battle_saddle_2_eq_desc: "" 
+ battle_saddle_3_eq: "Боевые сёдла III"
+ battle_saddle_3_eq_short: "Боевые сёдла III"
+ battle_saddle_3_eq_desc: "" 
+ battle_saddle_4_eq: "Боевые сёдла IV"
+ battle_saddle_4_eq_short: "Боевые сёдла IV"
+ battle_saddle_4_eq_desc: "" 
+ battle_saddle_5_eq: "Боевые сёдла V"
+ battle_saddle_5_eq_short: "Боевые сёдла V"
+ battle_saddle_5_eq_desc: ""
+ battle_saddle_6_eq: "Боевые сёдла VI"
+ battle_saddle_6_eq_short: "Боевые сёдла VI"
+ battle_saddle_6_eq_desc: ""
+ 
+ ###################################
+ ### MAGIC ENERGY BATTLE SADDLES ###
+ ###################################
+ magic_energy_battle_saddle_eq: "Энергомагические боевые сёдла"
+ magic_energy_battle_saddle_eq_short: "Магические сёдла"
+ magic_energy_battle_saddle_eq_desc: "" 
+ 
+ magic_energy_battle_saddle_1_eq: "Энергомагические боевые сёдла I"
+ magic_energy_battle_saddle_1_eq_short: "Магические сёдла I"
+ magic_energy_battle_saddle_1_eq_desc: "" 
+ magic_energy_battle_saddle_2_eq: "Энергомагические боевые сёдла II"
+ magic_energy_battle_saddle_2_eq_short: "Магические сёдла II"
+ magic_energy_battle_saddle_2_eq_desc: "" 
+ magic_energy_battle_saddle_3_eq: "Энергомагические боевые сёдла III"
+ magic_energy_battle_saddle_3_eq_short: "Магические сёдла III"
+ magic_energy_battle_saddle_3_eq_desc: "" 
+ magic_energy_battle_saddle_4_eq: "Энергомагические боевые сёдла IV"
+ magic_energy_battle_saddle_4_eq_short: "Магические сёдла IV"
+ magic_energy_battle_saddle_4_eq_desc: "" 
+ magic_energy_battle_saddle_5_eq: "Энергомагические боевые сёдла V"
+ magic_energy_battle_saddle_5_eq_short: "Магические сёдла V"
+ magic_energy_battle_saddle_5_eq_desc: ""
+ 
+ #####################################
+ ### MAGIC ENERGY INFANTRY WEAPONS ###
+ #####################################
+ magic_energy_inf_eq: "Энергомагическое пехотное снаряжение"
+ magic_energy_inf_eq_short: "Магическое оружие"
+ magic_energy_inf_eq_desc: ""
+
+ magic_energy_inf_1_eq: "Энергомагическое пехотное снаряжение I"
+ magic_energy_inf_1_eq_short: "Магическое оружие I"
+ magic_energy_inf_1_eq_desc: "" 
+ magic_energy_inf_2_eq: "Энергомагическое пехотное снаряжение II"
+ magic_energy_inf_2_eq_short: "Магическое оружие II"
+ magic_energy_inf_2_eq_desc: "" 
+ magic_energy_inf_3_eq: "Энергомагическое пехотное снаряжение III"
+ magic_energy_inf_3_eq_short: "Магическое оружие III"
+ magic_energy_inf_3_eq_desc: ""
+ combined_magic_energy_prototype_eq: "Прототип комбинированного оружия"
+ combined_magic_energy_prototype_eq_short: "Протокомбин."
+ combined_magic_energy_prototype_eq_desc: ""
+ final_combined_magic_energy_inf_eq: "Комбинированное оружие"
+ final_combined_magic_energy_inf_eq_short: "Комбин."
+ final_combined_magic_energy_inf_eq_desc: ""
