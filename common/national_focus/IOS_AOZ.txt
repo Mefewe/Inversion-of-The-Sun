@@ -1296,7 +1296,7 @@ shared_focus = { #
 shared_focus = { #
 	id = AOZ_razvitije_zhd
 	prerequisite = {
-		focus = AOZ_national_kompanija
+		focus = AOZ_kopajte_glubzhe
 	}
 	cost = 5
 	x = 8
@@ -1542,7 +1542,7 @@ shared_focus = { #
 	x = 18
 	y = 33
 	completion_reward = { 
-		
+		country_event = AOZ.2006
 	}
 }
 shared_focus = { #
@@ -1622,6 +1622,8 @@ shared_focus = { #
 	id = AOZ_laissez_passer
 	prerequisite = {
 		focus = AOZ_rasovyj_porjadok
+	}
+	prerequisite = {
 		focus = AOZ_antyshpionskaja_operacija
 	}
 	cost = 5
