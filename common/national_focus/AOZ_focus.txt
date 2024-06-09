@@ -1160,7 +1160,7 @@ shared_focus = { #
 	x = 12
 	y = 26
 	completion_reward = { 
-		country_event = AOZ.100
+		country_event = AOZ.2000
 	}
 }
 shared_focus = { #
@@ -1309,7 +1309,7 @@ shared_focus = { #
 	x = 14
 	y = 27
 	completion_reward = { 
-
+		country_event = AOZ.2001
 	}
 }
 shared_focus = { #
@@ -1321,7 +1321,7 @@ shared_focus = { #
 	x = 14
 	y = 28
 	completion_reward = { 
-
+		country_event = AOZ.2002
 	}
 }
 shared_focus = { #
@@ -1333,7 +1333,7 @@ shared_focus = { #
 	x = 14
 	y = 29
 	completion_reward = { 
-
+		country_event = AOZ.2003
 	}
 }
 
@@ -1349,7 +1349,7 @@ shared_focus = { #
 	x = 15
 	y = 30
 	completion_reward = { 
-
+		
 	}
 }
 shared_focus = { #
@@ -1364,7 +1364,7 @@ shared_focus = { #
 	x = 13
 	y = 30
 	completion_reward = { 
-
+		
 	}
 }
 shared_focus = { #
@@ -1389,11 +1389,14 @@ shared_focus = { #
 	mutually_exclusive = {
 		focus = AOZ_vse_druzja_svobody
 	}
+	available = {
+		has_country_flag = AOZ_centralisation
+	}
 	cost = 5
 	x = 18
 	y = 32
 	completion_reward = { 
-
+		country_event = AOZ.2004
 	}
 }
 shared_focus = { #
@@ -1405,7 +1408,7 @@ shared_focus = { #
 	x = 15
 	y = 33
 	completion_reward = { 
-
+		country_event = AOZ.2007
 	}
 }
 shared_focus = { #
@@ -1472,7 +1475,7 @@ shared_focus = { #
 	x = 20
 	y = 33
 	completion_reward = { 
-
+		country_event = AOZ.2005
 	}
 }
 
@@ -1590,6 +1593,9 @@ shared_focus = { #
 	}
 	mutually_exclusive = {
 		focus = AOZ_rasovyj_kontrollj
+	}
+	available = {
+		has_country_flag = AOZ_federation
 	}
 	cost = 5
 	x = 24

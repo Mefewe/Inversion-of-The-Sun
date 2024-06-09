@@ -1096,6 +1096,100 @@ country_event = { #AOZ_uchitesj_zebry
 }
 
 
+#### BESH A
+country_event = { #AOZ_republica_svobodi
+	id = AOZ.2000
+	title = AOZ.2000.title
+	desc = AOZ.2000.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = { #злій
+		name = AOZ.2000.a
+		set_country_flag = AOZ_centralisation
+	}
+	option = { #добри
+		name = AOZ.2000.b
+		set_country_flag = AOZ_federation
+	}
+}
+
+country_event = { #AOZ_billj_o_pravah_zebrijskogo_naroda
+	id = AOZ.2001
+	title = AOZ.2001.title
+	desc = AOZ.2001.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2001.a
+	}
+}
+
+country_event = { #AOZ_kontrollj_nad_granicej
+	id = AOZ.2002
+	title = AOZ.2002.title
+	desc = AOZ.2002.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2002.a
+	}
+}
+
+country_event = { #AOZ_migranty
+	id = AOZ.2003
+	title = AOZ.2003.title
+	desc = AOZ.2003.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2003.a
+	}
+}
+
+country_event = { #AOZ_rasovyj_kontrollj
+	id = AOZ.2004
+	title = AOZ.2004.title
+	desc = AOZ.2004.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2004.a
+	}
+}
+
+country_event = { #AOZ_sjobyvajte_s_strany
+	id = AOZ.2005
+	title = AOZ.2005.title
+	desc = AOZ.2005.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2005.a
+	}
+}
+
+country_event = { #AOZ_sozdatj_rezervacii_v_holmah
+	id = AOZ.2006
+	title = AOZ.2006.title
+	desc = AOZ.2006.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2006.a
+	}
+}
+
+country_event = { #
+	id = AOZ.2007
+	title = AOZ.2007.title
+	desc = AOZ.2007.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2007.a
+	}
+}
+
 country_event = {
 	id = AOZ_BlackMarket.1
 	title = AOZ_BlackMarket.1.title
