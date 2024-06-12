@@ -13,10 +13,10 @@ on_actions = {
 						957 = { is_owned_by = UNC }
 						958 = { is_owned_by = UNC }
 					}
-				}
+				}			
+				AOZ = { set_country_flag = StateStruggleStarts }
+				KAF = { set_country_flag = StateStruggleStarts }
 			}
-			AOZ = { set_country_flag = StateStruggleStarts }
-			KAF = { set_country_flag = StateStruggleStarts }
 		}
 	}
 }
