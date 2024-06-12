@@ -295,22 +295,6 @@
  FRZ_paternalism_DEF:1 "Генералговернмент Фаразия"
  FRZ_paternalism_ADJ:1 "Генералговернмент Фаразия"
  
- TYR_fascism:0 "Генералговернмент Тирлития"
- TYR_fascism_DEF:0 "Генералговернмент Тирлития"
- TYR_democratic:0 "A"
- TYR_democratic_DEF:0 "A"
- TYR_neutrality:1 "А"
- TYR_neutrality_DEF:1 "А"
- TYR_communism:0 "A"
- TYR_communism_DEF:0 "A"
- TYR_fascism_ADJ:0 "A"
- TYR_democratic_ADJ:0 "A"
- TYR_neutrality_ADJ:0 "A"
- TYR_communism_ADJ:0 "A"
- TYR_paternalism:1 "Генералговернмент Тирлития"
- TYR_paternalism_DEF:1 "Генералговернмент Тирлития"
- TYR_paternalism_ADJ:1 "Генералговернмент Тирлития"
- 
  SDL_fascism:0 "А"
  SDL_fascism_DEF:0 "А"
  SDL_democratic:0 "A"
@@ -975,23 +959,10 @@
  GRF_democratic_ADJ:1 "А"
  GRF_neutrality_ADJ:1 "А"
 
- #AOZ
- AOZ: "Зебриканская армия самообороны - Зебрийская национальная армия"
- AOZ_DEF: "Зебриканская армия самообороны - Зебрийская национальная армия"
- AOZ_ADJ: "Зебриканск"
- AOZ_republic: "Зебриканская республика"
- AOZ_republic_DEF: "Зебриканская республика зебрийского народа"
- AOZ_republic_ADJ: "Зебрийскореспубликанск"
-
  # ZKT
  ZKT: "Зона КТО Объединенных Сил"
  ZKT_DEF: "Зона Контртеррористической Операции Объединенных Сил"
  ZKT_ADJ: "Контртеррорестическ"
-
- #KAF
- KAF: "Коалиция Аль Фаллекфаў"
- KAF_DEF: "Коалиция Аль Фаллекфаў"
- KAF_ADJ: "Фаллекфаўск"
 
  # New Equestrian Government
  NEG: "Новое Эквестрийское Правительство"

@@ -10,10 +10,6 @@ on_actions = {
 				set_variable = { global.open_info_popup }
 			}
 		}
-	}
-}
-on_actions = {
-	on_startup = {
 		effect = {
 			limit = {
 				tag = OZB

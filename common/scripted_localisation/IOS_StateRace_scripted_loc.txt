@@ -1,0 +1,329 @@
+### Control status
+
+defined_text = {
+	name = StateRace_NorthAlpakia_ControlStatus
+	text = {
+		trigger = {
+			UNC = { owns_state = 959 }
+		}
+		localization_key = "NORTH_ALPAKIA_CONTROL_STATUS_UNC"
+	}
+	text = {
+		trigger = {
+			AOZ = { owns_state = 959 }
+		}
+		localization_key = "NORTH_ALPAKIA_CONTROL_STATUS_AOZ"
+	}
+	text = {
+		trigger = {
+			KAF = { owns_state = 959 }
+		}
+		localization_key = "NORTH_ALPAKIA_CONTROL_STATUS_KAF"
+	}
+}
+defined_text = {
+	name = StateRace_SouthAlpakia_ControlStatus
+	text = {
+		trigger = {
+			UNC = { owns_state = 665 }
+		}
+		localization_key = "SOUTH_ALPAKIA_CONTROL_STATUS_UNC"
+	}
+	text = {
+		trigger = {
+			AOZ = { owns_state = 665 }
+		}
+		localization_key = "SOUTH_ALPAKIA_CONTROL_STATUS_AOZ"
+	}
+	text = {
+		trigger = {
+			KAF = { owns_state = 665 }
+		}
+		localization_key = "SOUTH_ALPAKIA_CONTROL_STATUS_KAF"
+	}
+}
+defined_text = {
+	name = StateRace_Alkara_ControlStatus
+	text = {
+		trigger = {
+			UNC = { owns_state = 756 }
+		}
+		localization_key = "ALKARA_CONTROL_STATUS_UNC"
+	}
+	text = {
+		trigger = {
+			AOZ = { owns_state = 756 }
+		}
+		localization_key = "ALKARA_CONTROL_STATUS_AOZ"
+	}
+	text = {
+		trigger = {
+			KAF = { owns_state = 756 }
+		}
+		localization_key = "ALKARA_CONTROL_STATUS_KAF"
+	}
+}
+defined_text = {
+	name = StateRace_Dimbnam_ControlStatus
+	text = {
+		trigger = {
+			UNC = { owns_state = 712 }
+		}
+		localization_key = "DIMBNAM_CONTROL_STATUS_UNC"
+	}
+	text = {
+		trigger = {
+			AOZ = { owns_state = 712 }
+		}
+		localization_key = "DIMBNAM_CONTROL_STATUS_AOZ"
+	}
+	text = {
+		trigger = {
+			KAF = { owns_state = 712 }
+		}
+		localization_key = "DIMBNAM_CONTROL_STATUS_KAF"
+	}
+}
+defined_text = {
+	name = StateRace_Yourtrott_ControlStatus
+	text = {
+		trigger = {
+			UNC = { owns_state = 957 }
+		}
+		localization_key = "YOURTROTT_CONTROL_STATUS_UNC"
+	}
+	text = {
+		trigger = {
+			AOZ = { owns_state = 957 }
+		}
+		localization_key = "YOURTROTT_CONTROL_STATUS_AOZ"
+	}
+	text = {
+		trigger = {
+			KAF = { owns_state = 957 }
+		}
+		localization_key = "YOURTROTT_CONTROL_STATUS_KAF"
+	}
+}
+defined_text = {
+	name = StateRace_Cheercoast_ControlStatus
+	text = {
+		trigger = {
+			UNC = { owns_state = 958 }
+		}
+		localization_key = "CHEERCOAST_CONTROL_STATUS_UNC"
+	}
+	text = {
+		trigger = {
+			AOZ = { owns_state = 958 }
+		}
+		localization_key = "CHEERCOAST_CONTROL_STATUS_AOZ"
+	}
+	text = {
+		trigger = {
+			KAF = { owns_state = 958 }
+		}
+		localization_key = "CHEERCOAST_CONTROL_STATUS_KAF"
+	}
+}
+
+### Difficulty status
+
+defined_text = {
+	name = StateRace_NorthAlpakia_DiffStatus
+	text = {
+		trigger = {
+			NOT = { 959 = { is_owned_by = UNC } }
+			NOT = { check_variable = { var = StateRace_NorthAlpakia_Diff value > 25 } }
+		}
+		localization_key = "DIFF_STATUS_1"
+	}
+	text = {
+		trigger = {
+			NOT = { 959 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_NorthAlpakia_Diff value > 24.99 }
+			NOT = { check_variable = { var = StateRace_NorthAlpakia_Diff value > 50 } }
+		}
+		localization_key = "DIFF_STATUS_2"
+	}
+	text = {
+		trigger = {
+			NOT = { 959 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_NorthAlpakia_Diff value > 49.99 }
+			NOT = { check_variable = { var = StateRace_NorthAlpakia_Diff value > 75 } }
+		}
+		localization_key = "DIFF_STATUS_3"
+	}
+	text = {
+		trigger = {
+			NOT = { 959 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_NorthAlpakia_Diff value > 74.99 }
+		}
+		localization_key = "DIFF_STATUS_4"
+	}
+}
+defined_text = {
+	name = StateRace_SouthAlpakia_DiffStatus
+	text = {
+		trigger = {
+			NOT = { 665 = { is_owned_by = UNC } }
+			NOT = { check_variable = { var = StateRace_SouthAlpakia_Diff value > 25 } }
+		}
+		localization_key = "DIFF_STATUS_1"
+	}
+	text = {
+		trigger = {
+			NOT = { 665 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_SouthAlpakia_Diff value > 24.99 }
+			NOT = { check_variable = { var = StateRace_SouthAlpakia_Diff value > 50 } }
+		}
+		localization_key = "DIFF_STATUS_2"
+	}
+	text = {
+		trigger = {
+			NOT = { 665 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_SouthAlpakia_Diff value > 49.99 }
+			NOT = { check_variable = { var = StateRace_SouthAlpakia_Diff value > 75 } }
+		}
+		localization_key = "DIFF_STATUS_3"
+	}
+	text = {
+		trigger = {
+			NOT = { 665 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_SouthAlpakia_Diff value > 74.99 }
+		}
+		localization_key = "DIFF_STATUS_4"
+	}
+}
+defined_text = {
+	name = StateRace_Alkara_DiffStatus
+	text = {
+		trigger = {
+			NOT = { 756 = { is_owned_by = UNC } }
+			NOT = { check_variable = { var = StateRace_Alkara_Diff value > 25 } }
+		}
+		localization_key = "DIFF_STATUS_1"
+	}
+	text = {
+		trigger = {
+			NOT = { 756 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Alkara_Diff value > 24.99 }
+			NOT = { check_variable = { var = StateRace_Alkara_Diff value > 50 } }
+		}
+		localization_key = "DIFF_STATUS_2"
+	}
+	text = {
+		trigger = {
+			NOT = { 756 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Alkara_Diff value > 49.99 }
+			NOT = { check_variable = { var = StateRace_Alkara_Diff value > 75 } }
+		}
+		localization_key = "DIFF_STATUS_3"
+	}
+	text = {
+		trigger = {
+			NOT = { 756 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Alkara_Diff value > 74.99 }
+		}
+		localization_key = "DIFF_STATUS_4"
+	}
+}
+defined_text = {
+	name = StateRace_Dimbnam_DiffStatus
+	text = {
+		trigger = {
+			NOT = { 712 = { is_owned_by = UNC } }
+			NOT = { check_variable = { var = StateRace_Dimbnam_Diff value > 25 } }
+		}
+		localization_key = "DIFF_STATUS_1"
+	}
+	text = {
+		trigger = {
+			NOT = { 712 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Dimbnam_Diff value > 24.99 }
+			NOT = { check_variable = { var = StateRace_Dimbnam_Diff value > 50 } }
+		}
+		localization_key = "DIFF_STATUS_2"
+	}
+	text = {
+		trigger = {
+			NOT = { 712 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Dimbnam_Diff value > 49.99 }
+			NOT = { check_variable = { var = StateRace_Dimbnam_Diff value > 75 } }
+		}
+		localization_key = "DIFF_STATUS_3"
+	}
+	text = {
+		trigger = {
+			NOT = { 712 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Dimbnam_Diff value > 74.99 }
+		}
+		localization_key = "DIFF_STATUS_4"
+	}
+}
+defined_text = {
+	name = StateRace_Yourtrott_DiffStatus
+	text = {
+		trigger = {
+			NOT = { 957 = { is_owned_by = UNC } }
+			NOT = { check_variable = { var = StateRace_Yourtrott_Diff value > 25 } }
+		}
+		localization_key = "DIFF_STATUS_1"
+	}
+	text = {
+		trigger = {
+			NOT = { 957 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Yourtrott_Diff value > 24.99 }
+			NOT = { check_variable = { var = StateRace_Yourtrott_Diff value > 50 } }
+		}
+		localization_key = "DIFF_STATUS_2"
+	}
+	text = {
+		trigger = {
+			NOT = { 957 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Yourtrott_Diff value > 49.99 }
+			NOT = { check_variable = { var = StateRace_Yourtrott_Diff value > 75 } }
+		}
+		localization_key = "DIFF_STATUS_3"
+	}
+	text = {
+		trigger = {
+			NOT = { 957 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Yourtrott_Diff value > 74.99 }
+		}
+		localization_key = "DIFF_STATUS_4"
+	}
+}
+defined_text = {
+	name = StateRace_Cheercoast_DiffStatus
+	text = {
+		trigger = {
+			NOT = { 958 = { is_owned_by = UNC } }
+			NOT = { check_variable = { var = StateRace_Cheercoast_Diff value > 25 } }
+		}
+		localization_key = "DIFF_STATUS_1"
+	}
+	text = {
+		trigger = {
+			NOT = { 958 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Cheercoast_Diff value > 24.99 }
+			NOT = { check_variable = { var = StateRace_Cheercoast_Diff value > 50 } }
+		}
+		localization_key = "DIFF_STATUS_2"
+	}
+	text = {
+		trigger = {
+			NOT = { 958 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Cheercoast_Diff value > 49.99 }
+			NOT = { check_variable = { var = StateRace_Cheercoast_Diff value > 75 } }
+		}
+		localization_key = "DIFF_STATUS_3"
+	}
+	text = {
+		trigger = {
+			NOT = { 958 = { is_owned_by = UNC } }
+			check_variable = { var = StateRace_Cheercoast_Diff value > 74.99 }
+		}
+		localization_key = "DIFF_STATUS_4"
+	}
+}

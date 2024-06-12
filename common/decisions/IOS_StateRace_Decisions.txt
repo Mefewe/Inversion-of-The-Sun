@@ -2,14 +2,10 @@ StateRace_decs = {
 	### AOZ & KAF
 	StruggleForStates_mission = {
 		activation = {
-			always = yes
+			has_country_flag = StateStruggleStarts
 		}
 		available = {
-			OR = {
-				tag = AOZ
-				tag = KAF
-			}
-			UNC = { owns_state = 665 }
+			always = no
 		}
 		days_mission_timeout = 100
 		selectable_mission = no
@@ -18,9 +14,123 @@ StateRace_decs = {
 		}
 		timeout_effect = {
 			clr_country_flag = StateStruggleStarts
-			set_country_flag = StateRaceEnds
+			AOZ = { set_country_flag = StateRaceEnds }
+			KAF = { set_country_flag = StateRaceEnds }
 		}
 	}
+
+	#####################
+	### NORTH ALPAKIA ###
+	#####################
+	NorthAlpakia_integration = {
+		highlight_states = {
+			highlight_state_targets = { state = 959 }
+		}
+		visible = { 
+			NOT = {
+				FROM = {
+					owns_state = 959
+				}
+			}
+		}
+		available = {
+			OR = {
+				tag = AOZ
+				tag = KAF
+			}
+		}
+		complete_effect = {
+			FROM = { transfer_state = 959 }
+		}
+	}
+	NorthAlpakia_folder_open = {
+		visible = { 
+			FROM = {
+				owns_state = 959
+			}
+			NOT = { has_country_flag = NorthAlpakia_Tab_Opened }
+		}
+		complete_effect = {
+			set_country_flag = NorthAlpakia_Tab_Opened
+		}
+	}
+	### . : Debug decs
+	Debug_north_alpakia_diff_add_10 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 959
+			}
+			has_country_flag = NorthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_NorthAlpakia_Diff value = 10 }
+		}
+	}
+	Debug_north_alpakia_diff_remove_10 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 959
+			}
+			has_country_flag = NorthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_NorthAlpakia_Diff value = -10 }
+		}
+	}
+	Debug_north_alpakia_diff_add_1 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 959
+			}
+			has_country_flag = NorthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_NorthAlpakia_Diff value = 1 }
+		}
+	}
+	Debug_north_alpakia_diff_remove_1 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 959
+			}
+			has_country_flag = NorthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_NorthAlpakia_Diff value = -1 }
+		}
+	}
+	### . : Normal decs
+	NorthAlpakia_folder_close = {
+		visible = { 
+			FROM = {
+				owns_state = 959
+			}
+			has_country_flag = NorthAlpakia_Tab_Opened
+		}
+		complete_effect = {
+			clr_country_flag = NorthAlpakia_Tab_Opened
+		}
+	}
+
+	#####################
+	### SOUTH ALPAKIA ###
+	#####################
 	SouthAlpakia_integration = {
 		highlight_states = {
 			highlight_state_targets = { state = 665 }
@@ -43,27 +153,91 @@ StateRace_decs = {
 			FROM = { transfer_state = 665 }
 		}
 	}
-	NorthAlpakia_integration = {
-		highlight_states = {
-			highlight_state_targets = { state = 959 }
-		}
+	SouthAlpakia_folder_open = {
 		visible = { 
-			NOT = {
-				FROM = {
-					owns_state = 959
-				}
+			FROM = {
+				owns_state = 665
 			}
-		}
-		available = {
-			OR = {
-				tag = AOZ
-				tag = KAF
-			}
+			NOT = { has_country_flag = SouthAlpakia_Tab_Opened }
 		}
 		complete_effect = {
-			FROM = { transfer_state = 959 }
+			set_country_flag = SouthAlpakia_Tab_Opened
 		}
 	}
+	### . : Debug decs
+	Debug_south_alpakia_diff_add_10 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 665
+			}
+			has_country_flag = SouthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_SouthAlpakia_Diff value = 10 }
+		}
+	}
+	Debug_south_alpakia_diff_remove_10 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 665
+			}
+			has_country_flag = SouthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_SouthAlpakia_Diff value = -10 }
+		}
+	}
+	Debug_south_alpakia_diff_add_1 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 665
+			}
+			has_country_flag = SouthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_SouthAlpakia_Diff value = 1 }
+		}
+	}
+	Debug_south_alpakia_diff_remove_1 = {
+		icon = generic_research
+		visible = { 
+			FROM = {
+				owns_state = 665
+			}
+			has_country_flag = SouthAlpakia_Tab_Opened
+		}
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = { var = StateRace_SouthAlpakia_Diff value = -1 }
+		}
+	}
+	### . : Normal decs
+	SouthAlpakia_folder_close = {
+		visible = { 
+			FROM = {
+				owns_state = 665
+			}
+			has_country_flag = SouthAlpakia_Tab_Opened
+		}
+		complete_effect = {
+			clr_country_flag = SouthAlpakia_Tab_Opened
+		}
+	}
+
 	Alkara_integration = {
 		highlight_states = {
 			highlight_state_targets = { state = 756 }

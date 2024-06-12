@@ -531,6 +531,7 @@ country_event = {
 		hidden_effect = {
 			AOZ = {
 				country_event = AOZ.20
+				set_country_flag = StateRaceActive
 			}
 			959 = {
 				transfer_state_to = UNC
@@ -564,6 +565,13 @@ country_event = {
 				transfer_state_to = KAF
 				add_core_of = KAF
 			}
+			KAF = { set_country_flag = StateRaceActive }
+			set_variable = { StateRace_NorthAlpakia_Diff = 0 }
+			set_variable = { StateRace_SouthAlpakia_Diff = 0 }
+			set_variable = { StateRace_Alkara_Diff = 0 }
+			set_variable = { StateRace_Dimbnam_Diff = 0 }
+			set_variable = { StateRace_Yourtrott_Diff = 0 }
+			set_variable = { StateRace_Cheercoast_Diff = 0 }
 			if = {
 				limit = {
 					NOT = {

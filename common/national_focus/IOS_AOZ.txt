@@ -790,10 +790,19 @@ shared_focus = {
 }
 shared_focus = {
 	id = AOZ_raid_on_cheeruta
+	available = {
+		has_country_flag = StateRaceEnds
+	}
 	cost = 1
 	x = 12
 	y = 7
 	completion_reward = { 
+		AOZ = {
+			declare_war_on = {
+				target = KAF
+				type = annex_everything
+			}
+		}
 	}
 }
 

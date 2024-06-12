@@ -4,9 +4,9 @@ StateRace_decs = {
 			tag = KAF
 			tag = AOZ
 		}
-		OR = {
-			has_country_flag = KAF_StateRaceActive
-			has_country_flag = AOZ_StateRaceActive
-		}
+		AOZ = { has_war = no }
+		KAF = { has_war = no }
+		has_country_flag = StateRaceActive
 	}
+	priority = 20
 }

@@ -255,6 +255,16 @@ DRG_debug_decisions = {
 	}
 }
 AOZ_debug_decisions = {
+	debug_state_struggle_start = {
+		icon = generic_research
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = StateStruggleStarts
+		}
+	}
 	debug_aoz_force_mahrots_operation_show = {		
 		icon = generic_research
 

@@ -137,7 +137,7 @@ shared_focus = {
 	id = KAF_war_with_aoz
 	custom_trigger_tooltip = {
 		tooltip = KAF_war_with_aoz_tigger_tt
-		always = no
+		has_country_flag = StateRaceEnds
 	}
 	prerequisite = {
 		focus = KAF_stabilize_territories
@@ -146,6 +146,12 @@ shared_focus = {
 	x = 12
 	y = 6
 	completion_reward = {
+		KAF = {
+			declare_war_on = {
+				target = AOZ
+				type = annex_everything
+			}
+		}
 	}
 }
 shared_focus = {

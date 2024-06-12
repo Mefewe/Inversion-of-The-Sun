@@ -1,0 +1,22 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					AOZ = { has_country_flag = StateRaceActive }
+					KAF = { has_country_flag = StateRaceActive }
+					NOT = {
+						665 = { is_owned_by = UNC }
+						959 = { is_owned_by = UNC }
+						756 = { is_owned_by = UNC }
+						712 = { is_owned_by = UNC }
+						957 = { is_owned_by = UNC }
+						958 = { is_owned_by = UNC }
+					}
+				}
+			}
+			AOZ = { set_country_flag = StateStruggleStarts }
+			KAF = { set_country_flag = StateStruggleStarts }
+		}
+	}
+}

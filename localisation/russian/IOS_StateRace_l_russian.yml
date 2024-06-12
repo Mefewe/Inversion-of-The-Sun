@@ -1,0 +1,34 @@
+﻿l_russian:
+ StateRace_decs: "Дикие тирлийские земли"
+ StateRace_decs_desc: "[?StateRace_NorthAlpakia_Diff]\n\nДоступные территории:\n\nСеверная Альпакия: ([StateRace_NorthAlpakia_ControlStatus]) [StateRace_NorthAlpakia_DiffStatus] \nЮжная Альпакия: ([StateRace_SouthAlpakia_ControlStatus]) [StateRace_SouthAlpakia_DiffStatus] \nАлькара: ([StateRace_Alkara_ControlStatus]) [StateRace_Alkara_DiffStatus] \nДимбнам: ([StateRace_Dimbnam_ControlStatus]) [StateRace_Dimbnam_DiffStatus] \nЮртротт: ([StateRace_Yourtrott_ControlStatus]) [StateRace_Yourtrott_DiffStatus] \nЧиркост: ([StateRace_Cheercoast_ControlStatus]) [StateRace_Cheercoast_DiffStatus]"
+
+ ### Control status
+ NORTH_ALPAKIA_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ NORTH_ALPAKIA_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ NORTH_ALPAKIA_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!"
+ 
+ SOUTH_ALPAKIA_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ SOUTH_ALPAKIA_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ SOUTH_ALPAKIA_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!"
+ 
+ ALKARA_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ ALKARA_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ ALKARA_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!" 
+ 
+ DIMBNAM_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ DIMBNAM_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ DIMBNAM_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!"
+ 
+ YOURTROTT_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ YOURTROTT_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ YOURTROTT_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!" 
+ 
+ CHEERCOAST_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ CHEERCOAST_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ CHEERCOAST_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!" 
+ 
+ ### Difficulty status
+ DIFF_STATUS_1: "£GFX_strenght_texticon"
+ DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon"
+ DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon"
+ DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon"

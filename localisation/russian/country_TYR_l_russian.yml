@@ -1,4 +1,31 @@
 ﻿l_russian:
+ ####################
+ ### COUNTRY NAME ###
+ ####################
+ 
+ ### TYR
+ 
+ TYR_fascism: "Генералговернмент Тирлития"
+ TYR_democratic: "Генералговернмент Тирлития"
+ TYR_neutrality: "Генералговернмент Тирлития"
+ TYR_communism: "Генералговернмент Тирлития"
+ TYR_paternalism: "Генералговернмент Тирлития"
+ TYR_progressivism: "Генералговернмент Тирлития"
+ 
+ TYR_fascism_DEF: "Генералговернмент Тирлития"
+ TYR_democratic_DEF: "Генералговернмент Тирлития"
+ TYR_neutrality_DEF: "Генералговернмент Тирлития"
+ TYR_communism_DEF: "Генералговернмент Тирлития"
+ TYR_paternalism_DEF: "Генералговернмент Тирлития"
+ TYR_progressivism_DEF: "Генералговернмент Тирлития"
+ 
+ TYR_fascism_ADJ: "Тирлийск"
+ TYR_democratic_ADJ: "Тирлийск"
+ TYR_neutrality_ADJ: "Тирлийск"
+ TYR_communism_ADJ: "Тирлийск"
+ TYR_paternalism_ADJ: "Тирлийск"
+ TYR_progressivism_ADJ: "Тирлийск"
+
  ###############
  ### LEADERS ###
  ###############
