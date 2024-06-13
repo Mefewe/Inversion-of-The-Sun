@@ -1,6 +1,6 @@
 ﻿l_russian:
  StateRace_decs: "Дикие тирлийские земли"
- StateRace_decs_desc: "[?StateRace_NorthAlpakia_Diff]\n\nДоступные территории:\n\nСеверная Альпакия: ([StateRace_NorthAlpakia_ControlStatus]) [StateRace_NorthAlpakia_DiffStatus] \nЮжная Альпакия: ([StateRace_SouthAlpakia_ControlStatus]) [StateRace_SouthAlpakia_DiffStatus] \nАлькара: ([StateRace_Alkara_ControlStatus]) [StateRace_Alkara_DiffStatus] \nДимбнам: ([StateRace_Dimbnam_ControlStatus]) [StateRace_Dimbnam_DiffStatus] \nЮртротт: ([StateRace_Yourtrott_ControlStatus]) [StateRace_Yourtrott_DiffStatus] \nЧиркост: ([StateRace_Cheercoast_ControlStatus]) [StateRace_Cheercoast_DiffStatus]"
+ StateRace_decs_desc: "Юг скатился в сущий хаос!\n\nПозорное отсупление чейнджлингов и их союзников раскрыло населению истинное положение дел, где действительной власти даже у Мгабе и его правительства нет. Казалось, что партизаны и ополченцы могут лишь мешать интересам Чейнджлии...\n\nИ вдруг превосходящие силы оккупантов бегут из холмов и лесов Юга. Затем, окончательное падение иностранных институтов и жучиной эксплуатации вдогонку с упорядоченной жизнью. Полный бардак, питаемый страдальцами и негодяями, позволяет возвыситься именно нам во имя мира.\n\nМы должны взять под контроль как можно больше городов и сёл, не позволяя никому оспаривать превосходство нашего общества в этом регионе.\n\n§gПояснение:\nВы должны захватывать провинции. После того, как не останется бесконтрольных земель, активируется обратный отсчёт, по окончанию которого выполняется фокус на начало войны с противной стороной. Если территория находится под контролем другого правительства, её можно отбить активацией соотетствующего решения. У каждой провинции есть свои уровни сложности, которые можно увеличивать и ухудшать. Ниже представлена градация этих уровней.\n\n£GFX_strenght_texticon : вероятность захвата - 75%\n£GFX_strenght_texticon £GFX_strenght_texticon : вероятность захвата - 50%\n£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon : вероятность захвата - 25%\n£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon : вероятность захвата - 5%§!\n\nСеверная Альпакия: ([StateRace_NorthAlpakia_ControlStatus]) [StateRace_NorthAlpakia_DiffStatus]\nЮжная Альпакия: ([StateRace_SouthAlpakia_ControlStatus]) [StateRace_SouthAlpakia_DiffStatus] \nАлькара: ([StateRace_Alkara_ControlStatus]) [StateRace_Alkara_DiffStatus] \nДимбнам: ([StateRace_Dimbnam_ControlStatus]) [StateRace_Dimbnam_DiffStatus] \nЮртротт: ([StateRace_Yourtrott_ControlStatus]) [StateRace_Yourtrott_DiffStatus] \nЧиркост: ([StateRace_Cheercoast_ControlStatus]) [StateRace_Cheercoast_DiffStatus] \nБнампул: ([StateRace_Bnampul_ControlStatus]) [StateRace_Bnampul_DiffStatus] \nМинхабан: ([StateRace_Minchaban_ControlStatus]) [StateRace_Minchaban_DiffStatus]"
 
  ### Control status
  NORTH_ALPAKIA_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
@@ -25,10 +25,209 @@
  
  CHEERCOAST_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
  CHEERCOAST_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
- CHEERCOAST_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!" 
+ CHEERCOAST_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!"  
+ 
+ BNAMPUL_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ BNAMPUL_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ BNAMPUL_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!"  
+ 
+ MINCHABAN_CONTROL_STATUS_UNC: "§gТерритория бесконтрольна§!"
+ MINCHABAN_CONTROL_STATUS_AOZ: "§tПод управлением ЗНА§!"
+ MINCHABAN_CONTROL_STATUS_KAF: "§8Под управлением Аль Фаллекфаў§!" 
  
  ### Difficulty status
- DIFF_STATUS_1: "£GFX_strenght_texticon"
- DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon"
- DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon"
- DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon"
+ NORTH_ALPAKIA_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_NorthAlpakia_Diff|0%%])"
+ NORTH_ALPAKIA_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_NorthAlpakia_Diff|0%%])"
+ NORTH_ALPAKIA_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_NorthAlpakia_Diff|0%%])"
+ NORTH_ALPAKIA_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_NorthAlpakia_Diff|0%%])"
+
+ SOUTH_ALPAKIA_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_SouthAlpakia_Diff|0%%])"
+ SOUTH_ALPAKIA_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_SouthAlpakia_Diff|0%%])"
+ SOUTH_ALPAKIA_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_SouthAlpakia_Diff|0%%])"
+ SOUTH_ALPAKIA_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_SouthAlpakia_Diff|0%%])" 
+ 
+ ALKARA_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_Alkara_Diff|0%%])"
+ ALKARA_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Alkara_Diff|0%%])"
+ ALKARA_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Alkara_Diff|0%%])"
+ ALKARA_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Alkara_Diff|0%%])" 
+ 
+ DIMBNAM_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_Dimbnam_Diff|0%%])"
+ DIMBNAM_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Dimbnam_Diff|0%%])"
+ DIMBNAM_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Dimbnam_Diff|0%%])"
+ DIMBNAM_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Dimbnam_Diff|0%%])"
+
+ YOURTROTT_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_Yourtrott_Diff|0%%])"
+ YOURTROTT_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Yourtrott_Diff|0%%])"
+ YOURTROTT_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Yourtrott_Diff|0%%])"
+ YOURTROTT_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Yourtrott_Diff|0%%])" 
+ 
+ CHEERCOAST_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_Cheercoast_Diff|0%%])"
+ CHEERCOAST_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Cheercoast_Diff|0%%])"
+ CHEERCOAST_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Cheercoast_Diff|0%%])"
+ CHEERCOAST_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Cheercoast_Diff|0%%])" 
+ 
+ BNAMPUL_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_Bnampul_Diff|0%%])"
+ BNAMPUL_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Bnampul_Diff|0%%])"
+ BNAMPUL_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Bnampul_Diff|0%%])"
+ BNAMPUL_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Bnampult_Diff|0%%])" 
+ 
+ MINCHABAN_DIFF_STATUS_1: "£GFX_strenght_texticon ([?global.StateRace_Minchaban_Diff|0%%])"
+ MINCHABAN_DIFF_STATUS_2: "£GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Minchaban_Diff|0%%])"
+ MINCHABAN_DIFF_STATUS_3: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Minchaban_Diff|0%%])"
+ MINCHABAN_DIFF_STATUS_4: "£GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon £GFX_strenght_texticon ([?global.StateRace_Minchaban_Diff|0%%])"
+ 
+ #################
+ ### DECISIONS ###
+ #################
+ 
+ ### North Alpakia
+ NorthAlpakia_integration: "Наведение порядка в регионе §5[959.GetName]§!"
+ NorthAlpakia_folder_open: "§GОткрыть§! вкладку региона §5[959.GetName]§!"
+ NorthAlpakia_folder_close: "§RЗакрыть§! вкладку региона §5[959.GetName]§!"
+ 
+ Debug_north_alpakia_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[959.GetName]§!"
+ Debug_north_alpakia_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[959.GetName]§!"
+ Debug_north_alpakia_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[959.GetName]§!"
+ Debug_north_alpakia_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[959.GetName]§!"
+ 
+ NorthAlpakia_conquest: "Наступление в регионе §5[959.GetName]§!"
+ NorthAlpakia_sabotage: "Подорвать обороноспособность региона §5[959.GetName]§!"
+ 
+ NorthAlpakia_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[959.GetName]§!"
+ NorthAlpakia_labour_mobilization: "Трудовая мобилизация населения в регионе §5[959.GetName]§!"
+ NorthAlpakia_defence_building: "Строительство укреплений в регионе §5[959.GetName]§!"
+ NorthAlpakia_state_repressions: "Отыскать врагов зебр в регионе §5[959.GetName]§!"
+ 
+ ### South Alpakia
+ SouthAlpakia_integration: "Наведение порядка в регионе §5[665.GetName]§!"
+ SouthAlpakia_folder_open: "§GОткрыть§! вкладку региона §5[665.GetName]§!"
+ SouthAlpakia_folder_close: "§RЗакрыть§! вкладку региона §5[665.GetName]§!"
+ 
+ Debug_south_alpakia_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[665.GetName]§!"
+ Debug_south_alpakia_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[665.GetName]§!"
+ Debug_south_alpakia_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[665.GetName]§!"
+ Debug_south_alpakia_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[665.GetName]§!"
+ 
+ SouthAlpakia_conquest: "Наступление в регионе §5[665.GetName]§!"
+ SouthAlpakia_sabotage: "Подорвать обороноспособность региона §5[665.GetName]§!"
+ 
+ SouthAlpakia_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[665.GetName]§!"
+ SouthAlpakia_labour_mobilization: "Трудовая мобилизация населения в регионе §5[665.GetName]§!"
+ SouthAlpakia_defence_building: "Строительство укреплений в регионе §5[665.GetName]§!"
+ SouthAlpakia_state_repressions: "Отыскать врагов зебр в регионе §5[665.GetName]§!"
+ 
+ ### Alkara
+ Alkara_integration: "Наведение порядка в регионе §5[756.GetName]§!"
+ Alkara_folder_open: "§GОткрыть§! вкладку региона §5[756.GetName]§!"
+ Alkara_folder_close: "§RЗакрыть§! вкладку региона §5[756.GetName]§!"
+ 
+ Debug_alkara_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[756.GetName]§!"
+ Debug_alkara_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[756.GetName]§!"
+ Debug_alkara_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[756.GetName]§!"
+ Debug_alkara_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[756.GetName]§!"
+ 
+ Alkara_conquest: "Наступление в регионе §5[756.GetName]§!"
+ Alkara_sabotage: "Подорвать обороноспособность региона §5[756.GetName]§!"
+ 
+ Alkara_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[756.GetName]§!"
+ Alkara_labour_mobilization: "Трудовая мобилизация населения в регионе §5[756.GetName]§!"
+ Alkara_defence_building: "Строительство укреплений в регионе §5[756.GetName]§!"
+ Alkara_state_repressions: "Отыскать врагов зебр в регионе §5[756.GetName]§!"
+ 
+ ### Dimbnam
+ Dimbnam_integration: "Наведение порядка в регионе §5[712.GetName]§!"
+ Dimbnam_folder_open: "§GОткрыть§! вкладку региона §5[712.GetName]§!"
+ Dimbnam_folder_close: "§RЗакрыть§! вкладку региона §5[712.GetName]§!"
+ 
+ Debug_dimbnam_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[712.GetName]§!"
+ Debug_dimbnam_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[712.GetName]§!"
+ Debug_dimbnam_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[712.GetName]§!"
+ Debug_dimbnam_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[712.GetName]§!"
+ 
+ Dimbnam_conquest: "Наступление в регионе §5[712.GetName]§!"
+ Dimbnam_sabotage: "Подорвать обороноспособность региона §5[712.GetName]§!"
+ 
+ Dimbnam_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[712.GetName]§!"
+ Dimbnam_labour_mobilization: "Трудовая мобилизация населения в регионе §5[712.GetName]§!"
+ Dimbnam_defence_building: "Строительство укреплений в регионе §5[712.GetName]§!"
+ Dimbnam_state_repressions: "Отыскать врагов зебр в регионе §5[712.GetName]§!"
+ 
+ ### Yourtrott
+ Yourtrott_integration: "Наведение порядка в регионе §5[957.GetName]§!"
+ Yourtrott_folder_open: "§GОткрыть§! вкладку региона §5[957.GetName]§!"
+ Yourtrott_folder_close: "§RЗакрыть§! вкладку региона §5[957.GetName]§!"
+ 
+ Debug_yourtrott_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[957.GetName]§!"
+ Debug_yourtrott_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[957.GetName]§!"
+ Debug_yourtrott_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[957.GetName]§!"
+ Debug_yourtrott_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[957.GetName]§!"
+ 
+ Yourtrott_conquest: "Наступление в регионе §5[957.GetName]§!"
+ Yourtrott_sabotage: "Подорвать обороноспособность региона §5[957.GetName]§!"
+ 
+ Yourtrott_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[957.GetName]§!"
+ Yourtrott_labour_mobilization: "Трудовая мобилизация населения в регионе §5[957.GetName]§!"
+ Yourtrott_defence_building: "Строительство укреплений в регионе §5[957.GetName]§!"
+ Yourtrott_state_repressions: "Отыскать врагов зебр в регионе §5[957.GetName]§!"
+ 
+ ### Cheercoast
+ Cheercoast_integration: "Наведение порядка в регионе §5[958.GetName]§!"
+ Cheercoast_folder_open: "§GОткрыть§! вкладку региона §5[958.GetName]§!"
+ Cheercoast_folder_close: "§RЗакрыть§! вкладку региона §5[958.GetName]§!"
+ 
+ Debug_cheercoast_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[958.GetName]§!"
+ Debug_cheercoast_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[958.GetName]§!"
+ Debug_cheercoast_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[958.GetName]§!"
+ Debug_cheercoast_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[958.GetName]§!"
+ 
+ Cheercoast_conquest: "Наступление в регионе §5[958.GetName]§!"
+ Cheercoast_sabotage: "Подорвать обороноспособность региона §5[958.GetName]§!"
+ 
+ Cheercoast_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[958.GetName]§!"
+ Cheercoast_labour_mobilization: "Трудовая мобилизация населения в регионе §5[958.GetName]§!"
+ Cheercoast_defence_building: "Строительство укреплений в регионе §5[958.GetName]§!"
+ Cheercoast_state_repressions: "Отыскать врагов зебр в регионе §5[958.GetName]§!" 
+ 
+ ### Bnampul
+ Bnampul_integration: "Наведение порядка в регионе §5[758.GetName]§!"
+ Bnampul_folder_open: "§GОткрыть§! вкладку региона §5[758.GetName]§!"
+ Bnampul_folder_close: "§RЗакрыть§! вкладку региона §5[758.GetName]§!"
+ 
+ Debug_bnampul_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[758.GetName]§!"
+ Debug_bnampul_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[758.GetName]§!"
+ Debug_bnampul_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[758.GetName]§!"
+ Debug_bnampul_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[758.GetName]§!"
+ 
+ Bnampul_conquest: "Наступление в регионе §5[758.GetName]§!"
+ Bnampul_sabotage: "Подорвать обороноспособность региона §5[758.GetName]§!"
+ 
+ Bnampul_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[758.GetName]§!"
+ Bnampul_labour_mobilization: "Трудовая мобилизация населения в регионе §5[758.GetName]§!"
+ Bnampul_defence_building: "Строительство укреплений в регионе §5[758.GetName]§!"
+ Bnampul_state_repressions: "Отыскать врагов зебр в регионе §5[758.GetName]§!" 
+ 
+ ### Minchaban
+ Minchaban_integration: "Наведение порядка в регионе §5[802.GetName]§!"
+ Minchaban_folder_open: "§GОткрыть§! вкладку региона §5[802.GetName]§!"
+ Minchaban_folder_close: "§RЗакрыть§! вкладку региона §5[802.GetName]§!"
+ 
+ Debug_minchaban_diff_add_10: "§Y(Debug)§! §7Добавить§! 10% сложности региону §5[802.GetName]§!"
+ Debug_minchaban_diff_remove_10: "§Y(Debug)§! §tУбрать§! 10% сложности региону §5[802.GetName]§!"
+ Debug_minchaban_diff_add_1: "§Y(Debug)§! §7Добавить§! 1% сложности региону §5[802.GetName]§!"
+ Debug_minchaban_diff_remove_1: "§Y(Debug)§! §tУбрать§! 1% сложности региону §5[802.GetName]§!"
+ 
+ Minchaban_conquest: "Наступление в регионе §5[802.GetName]§!"
+ Minchaban_sabotage: "Подорвать обороноспособность региона §5[802.GetName]§!"
+ 
+ Minchaban_infrastructure_buff: "Улучшение сообщения между поселениями в регионе §5[802.GetName]§!"
+ Minchaban_labour_mobilization: "Трудовая мобилизация населения в регионе §5[802.GetName]§!"
+ Minchaban_defence_building: "Строительство укреплений в регионе §5[802.GetName]§!"
+ Minchaban_state_repressions: "Отыскать врагов зебр в регионе §5[802.GetName]§!"
+ 
+ #######################
+ ### STATE MODIFIERS ###
+ #######################
+ StateRace_infrastructure_state_modifier: "Ведётся строительство и восстановление дорог"
+ StateRace_industrial_state_modifier: "В регионе объявлена особая трудовая повинность"
+ StateRace_defence_construction_state_modifier: "Проводится масштабное улучшение укрепление"
+ 

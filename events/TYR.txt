@@ -566,12 +566,14 @@ country_event = {
 				add_core_of = KAF
 			}
 			KAF = { set_country_flag = StateRaceActive }
-			set_variable = { StateRace_NorthAlpakia_Diff = 0 }
-			set_variable = { StateRace_SouthAlpakia_Diff = 0 }
-			set_variable = { StateRace_Alkara_Diff = 0 }
-			set_variable = { StateRace_Dimbnam_Diff = 0 }
-			set_variable = { StateRace_Yourtrott_Diff = 0 }
-			set_variable = { StateRace_Cheercoast_Diff = 0 }
+			set_variable = { global.StateRace_NorthAlpakia_Diff = 0 }
+			set_variable = { global.StateRace_SouthAlpakia_Diff = 0 }
+			set_variable = { global.StateRace_Alkara_Diff = 0 }
+			set_variable = { global.StateRace_Dimbnam_Diff = 0 }
+			set_variable = { global.StateRace_Yourtrott_Diff = 0 }
+			set_variable = { global.StateRace_Cheercoast_Diff = 0 }
+			set_variable = { global.StateRace_Bnampul_Diff = 50 }
+			set_variable = { global.StateRace_Minchaban_Diff = 30 }
 			if = {
 				limit = {
 					NOT = {

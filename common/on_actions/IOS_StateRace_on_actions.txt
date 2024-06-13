@@ -1,0 +1,49 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			set_variable = { var = StateRace_NorthAlpakia_ConqChance value = 0 }
+		}
+	}
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { check_variable = { var = StateRace_NorthAlpakia_Diff value > 25 } }
+				}
+				set_global_flag = StateRace_NorthAlpakia_Diff_1
+				clr_global_flag = StateRace_NorthAlpakia_Diff_2
+				clr_global_flag = StateRace_NorthAlpakia_Diff_3
+				clr_global_flag = StateRace_NorthAlpakia_Diff_4
+			}
+			else_if = {
+				limit = {
+					check_variable = { var = StateRace_NorthAlpakia_Diff value > 24.99 }
+					NOT = { check_variable = { var = StateRace_NorthAlpakia_Diff value > 50 } }
+				}
+				set_global_flag = StateRace_NorthAlpakia_Diff_2
+				clr_global_flag = StateRace_NorthAlpakia_Diff_1
+				clr_global_flag = StateRace_NorthAlpakia_Diff_3
+				clr_global_flag = StateRace_NorthAlpakia_Diff_4
+			}
+			else_if = {
+				limit = {
+					check_variable = { var = StateRace_NorthAlpakia_Diff value > 49.99 }
+					NOT = { check_variable = { var = StateRace_NorthAlpakia_Diff value > 75 } }
+				}
+				set_global_flag = StateRace_NorthAlpakia_Diff_3
+				clr_global_flag = StateRace_NorthAlpakia_Diff_1
+				clr_global_flag = StateRace_NorthAlpakia_Diff_2
+				clr_global_flag = StateRace_NorthAlpakia_Diff_4
+			}
+			else_if = {
+				limit = {
+					check_variable = { var = StateRace_NorthAlpakia_Diff value > 74.99 }
+				}
+				set_global_flag = StateRace_NorthAlpakia_Diff_4
+				clr_global_flag = StateRace_NorthAlpakia_Diff_3
+				clr_global_flag = StateRace_NorthAlpakia_Diff_2
+				clr_global_flag = StateRace_NorthAlpakia_Diff_1
+			}
+		}
+	}
+}

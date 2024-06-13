@@ -135,8 +135,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = KAF_war_with_aoz
-	custom_trigger_tooltip = {
-		tooltip = KAF_war_with_aoz_tigger_tt
+	available = {
 		has_country_flag = StateRaceEnds
 	}
 	prerequisite = {

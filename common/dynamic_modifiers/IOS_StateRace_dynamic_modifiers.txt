@@ -1,0 +1,15 @@
+StateRace_infrastructure_state_modifier = {
+	icon = GFX_decision_category_border_war
+	state_production_speed_infrastructure_factor = 1
+	state_production_speed_supply_node_factor = 1
+	state_production_speed_rail_way_factor = 1
+}
+StateRace_industrial_state_modifier = {
+	icon = GFX_decision_category_SOV_propaganda
+	local_factories = 3
+	local_building_slots_factor = 3
+}
+StateRace_defence_construction_state_modifier = {
+	icon = GFX_decision_category_generic_mountain_fortification
+	local_factories = -0.5
+}

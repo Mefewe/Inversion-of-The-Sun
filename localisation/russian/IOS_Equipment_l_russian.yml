@@ -32,8 +32,8 @@
  ### INFANTRY AMMO ###
  #####################
  infantry_ammo_equipment: "Оружейные боеприпасы"
- infantry_equipment_short: "Патроны"
- infantry_equipment_desc: ""
+ infantry_ammo_equipment_short: "Патроны"
+ infantry_ammo_equipment_desc: ""
  
  infantry_ammo_equipment_1: "Оружейные боеприпасы I"
  infantry_ammo_equipment_1_short: "Патроны I"

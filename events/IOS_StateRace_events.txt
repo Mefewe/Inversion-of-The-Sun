@@ -1,0 +1,194 @@
+add_namespace = StateRace_conquest_event
+add_namespace = StateRace_sabotage_event
+
+### Conquest events
+country_event = {
+	id = StateRace_conquest_event.1		# North Alpakia conquest success
+	title = StateRace_conquest_event.1.title
+	desc = StateRace_conquest_event.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_conquest_event.1.a
+		FROM = { transfer_state = 959 }
+		add_manpower = 1100
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 850
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 75
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 165
+		}
+	}
+}
+country_event = {
+	id = StateRace_conquest_event.2		# North Alpakia conquest fail
+	title = StateRace_conquest_event.2.title
+	desc = StateRace_conquest_event.2.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_conquest_event.2.a
+		add_manpower = 700
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 450
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 25
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 85
+		}
+	}
+}
+country_event = {
+	id = StateRace_conquest_event.3		# South Alpakia conquest success
+	title = StateRace_conquest_event.3.title
+	desc = StateRace_conquest_event.3.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_conquest_event.3.a
+		FROM = { transfer_state = 665 }
+		add_manpower = 1100
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 850
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 75
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 165
+		}
+	}
+}
+country_event = {
+	id = StateRace_conquest_event.4		# South Alpakia conquest fail
+	title = StateRace_conquest_event.4.title
+	desc = StateRace_conquest_event.4.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_conquest_event.4.a
+		add_manpower = 700
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 450
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 25
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 85
+		}
+	}
+}
+
+### Sabotage events
+country_event = {
+	id = StateRace_sabotage_event.1		# North Alpakia sabotage success
+	title = StateRace_sabotage_event.1.title
+	desc = StateRace_sabotage_event.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_sabotage_event.1.a
+		add_to_variable = { var = global.StateRace_NorthAlpakia_Diff value = -5 }
+		add_manpower = 700
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 600
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 50
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 100
+		}
+	}
+}
+country_event = {
+	id = StateRace_sabotage_event.2		# North Alpakia sabotage failed
+	title = StateRace_sabotage_event.2.title
+	desc = StateRace_sabotage_event.2.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_sabotage_event.2.a
+		add_manpower = 700
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 600
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 50
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 100
+		}
+	}
+}
+country_event = {
+	id = StateRace_sabotage_event.3		# South Alpakia sabotage success
+	title = StateRace_sabotage_event.3.title
+	desc = StateRace_sabotage_event.3.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_sabotage_event.3.a
+		add_to_variable = { var = global.StateRace_SouthAlpakia_Diff value = -5 }
+		add_manpower = 700
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 600
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 50
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 100
+		}
+	}
+}
+country_event = {
+	id = StateRace_sabotage_event.4		# South Alpakia sabotage failed
+	title = StateRace_sabotage_event.4.title
+	desc = StateRace_sabotage_event.4.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = StateRace_sabotage_event.4.a
+		add_manpower = 700
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 600
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equipment
+			amount = 50
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 100
+		}
+	}
+}
