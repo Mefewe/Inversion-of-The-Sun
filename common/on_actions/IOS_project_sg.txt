@@ -38,24 +38,6 @@ on_actions = {
 				set_variable = {
 					infantry_artillery_cel = num_target_equipment_in_armies_k@artillery_ammo_equipment # Необходимое количество арт. снарядов в армии
 				}
-				set_variable = {
-					infantry_strelkovoje_voj = infantry_ammo_strelkovoje_st # 
-				}
-				set_variable = {
-					infantry_tank_voj = infantry_ammo_tank_st # 
-				}
-				set_variable = {
-					infantry_artillery_voj = infantry_ammo_artillery_st # 
-				}
-				subtract_from_variable = {
-					infantry_tank_voj = infantry_strelkovoje_cel # Запасы снарядов в войсках
-				} 
-				subtract_from_variable = {
-					infantry_strelkovoje_voj = infantry_strelkovoje_cel # Запасы патронов в войсках
-				} 
-				subtract_from_variable = {
-					infantry_artillery_voj = infantry_artillery_cel # Запасы арт. снарядов в войсках
-				} 
 				
 				set_variable = {
 					infantry_eq_coef = 1 # оснащённость патронами и соответственно влияние на характеристики
@@ -70,8 +52,14 @@ on_actions = {
 				set_temp_variable = {
 					inf_eq_coef_temp = infantry_ammo_strelkovoje_zp
 				}
+				add_to_temp_variable = {
+					inf_eq_coef_temp = infantry_ammo_strelkovoje_st
+				}
 				set_temp_variable = {
 					tank_eq_coef_temp = infantry_ammo_tank_zp
+				}
+				add_to_temp_variable = {
+					tank_eq_coef_temp = infantry_ammo_tank_st
 				}
 				divide_temp_variable  = {
 					tank_eq_coef_temp = infantry_tank_cel
@@ -87,6 +75,9 @@ on_actions = {
 				}
 				set_temp_variable = {
 					art_eq_coef_temp = infantry_ammo_artillery_zp
+				}
+				add_to_temp_variable = {
+					art_eq_coef_temp = infantry_ammo_artillery_st
 				}
 				divide_temp_variable  = {
 					art_eq_coef_temp = infantry_artillery_cel
