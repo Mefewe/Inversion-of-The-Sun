@@ -713,7 +713,7 @@ shared_focus = { #
 			amount = 2000
 		}
 		add_equipment_to_stockpile = {
-			type = post_war_modern_tank_eq_1
+			type = post_war_modern_tank_chassis
 			amount = 100
 			producer = OEF
 		}
@@ -728,7 +728,7 @@ shared_focus = { #
 			producer = OEF
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_ammo_equipment_0
+			type = infantry_ammo_equipment_1
 			amount = 10000
 		}
 		hidden_effect = {load_oob = TAI_2}

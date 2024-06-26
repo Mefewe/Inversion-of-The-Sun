@@ -426,16 +426,6 @@ script_enum_equipment_bonus_type = {
 	bronetransporter_1
 	bronetransporter_2
 	bronetransporter_3
-	med_tank_eq
-	gw_med_tank_eq_1
-	med_tank_eq_1
-	med_tank_eq_2
-	med_tank_eq_3
-	modern_tank_eq
-	post_war_modern_tank_eq_1
-	modern_tank_1_eq
-	modern_tank_2_eq
-	modern_tank_3_eq
 	artillery_ammo_equipment
 	artillery_ammo_equipment_0
 	artillery_ammo_equipment_1
@@ -452,9 +442,6 @@ script_enum_equipment_bonus_type = {
 	tank_ammo_equipment
 	tank_ammo_equipment_0
 	anti_air_inf_eq
-	anti_air_inf_eq_1
-	anti_air_inf_eq_2
-	anti_air_inf_eq_3
 	anti_tank_inf_eq
 	anti_tank_inf_1_eq
 	anti_tank_inf_2_eq
@@ -464,4 +451,53 @@ script_enum_equipment_bonus_type = {
 	candc_equpment_2
 	candc_equpment_3
 	motorized_equipment_2
+
+	bronetransporter_4
+	battle_saddle_eq
+	magic_energy_battle_saddle_eq
+	battle_saddle_1_eq
+	battle_saddle_2_eq
+	magic_energy_battle_saddle_1_eq
+	battle_saddle_3_eq
+	magic_energy_battle_saddle_2_eq
+	battle_saddle_4_eq
+	magic_energy_battle_saddle_3_eq
+	battle_saddle_5_eq
+	magic_energy_battle_saddle_4_eq
+	battle_saddle_6_eq
+	magic_energy_battle_saddle_5_eq
+	infantry_equipment_4
+	infantry_equipment_5
+	infantry_equipment_6
+	infantry_equipment_7
+	magic_energy_inf_eq
+	combined_magic_energy_inf_eq
+	magic_energy_inf_1_eq
+	magic_energy_inf_2_eq
+	magic_energy_inf_3_eq
+	combined_magic_energy_prototype_eq
+	final_combined_magic_energy_inf_eq
+	light_tank_chassis
+	gw_light_tank_chassis
+	light_tank_1_chassis
+	light_tank_2_chassis
+	light_tank_3_chassis
+	modern_tank_chassis
+	post_war_modern_tank_chassis
+	modern_tank_1_chassis
+	modern_tank_2_chassis
+	modern_tank_3_chassis
+	magic_tank_eq
+	magic_tank_1_eq
+	magic_tank_2_eq
+	magic_tank_3_eq
+	anti_air_inf_1_eq
+	anti_air_inf_2_eq
+	anti_air_inf_3_eq
+	infantry_ammo_equipment_4
+	infantry_ammo_equipment_5
+	infantry_ammo_equipment_6
+	infantry_ammo_equipment_7
+	mechanized_equipment_4
+
 }

@@ -1,13 +1,13 @@
 guiTypes = {
 	containerWindowType = {
-		name = "equipment_designer_light_tank_chassis"
+		name = "equipment_designer_modern_tank_chassis"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_light_tank_chassis"
+			spriteType = "GFX_TC_heavy_tank_chassis"
 			position = { x=0 y=0 }
 		}
 
@@ -35,11 +35,10 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_light_tank_chassis_main_armament_slot"
+						spriteType = "GFX_TM_heavy_tank_chassis_main_armament_slot"
 						position = { x=0 y=0 }
 					}
 				}
-
 			}
 
 			################# MODULE SLOT: Turret #################
@@ -61,7 +60,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_light_tank_chassis_turret_type_slot"
+						spriteType = "GFX_TM_heavy_tank_chassis_turret_type_slot"
 						position = { x=0 y=0 }
 					}
 				}
@@ -117,7 +116,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_light_tank_chassis_suspension_type_slot"
+						spriteType = "GFX_TM_heavy_tank_chassis_suspension_type_slot"
 						position = { x=0 y=0 }
 					}
 				}
@@ -149,7 +148,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_light_tank_chassis_armor_type_slot"
+						spriteType = "GFX_TM_heavy_tank_chassis_armor_type_slot"
 						position = { x=0 y=0 }
 					}
 				}
@@ -163,13 +162,13 @@ guiTypes = {
 				size = { width=100% height=100% }
 
 				containerWindowType = {
-					name = "tank_engine_type"
+					name = "engine_type_slot"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 				}
 
 				containerWindowType = {
-					name = "tank_engine_type@highlight"
+					name = "engine_type_slot@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 
@@ -181,13 +180,12 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot"
+						spriteType = "GFX_TM_heavy_tank_chassis_engine_type_slot"
 						position = { x=0 y=0 }
 					}
 				}
 
-			}			
-			
+			}
 			################# MODULE SLOT: Enchantment #################
 			containerWindowType = {
 				name = "tank_enchantment_type_slot"

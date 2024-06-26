@@ -77,7 +77,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			light_tank_1_eq
+			light_tank_1_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -99,7 +99,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			post_war_modern_tank_eq_1
+			post_war_modern_tank_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -164,7 +164,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			light_tank_2_eq
+			light_tank_2_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -193,7 +193,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1783
 		enable_equipments = {
-			light_tank_3_eq
+			light_tank_3_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -248,7 +248,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			modern_tank_1_eq
+			modern_tank_1_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -266,7 +266,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			modern_tank_2_eq
+			modern_tank_2_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -295,7 +295,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1785
 		enable_equipments = {
-			modern_tank_3_eq
+			modern_tank_3_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -614,6 +614,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = -3 y = 9 }
 		}
+		enable_equipment_modules = {
+			suo_1
+		}
 		categories = {
 			armor
 		}
@@ -629,6 +632,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 5 y = 9 }
 		}
+		enable_equipment_modules = {
+			suo_2
+		}
 		categories = {
 			armor
 		}
@@ -639,6 +645,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 13 y = 9 }
+		}
+		enable_equipment_modules = {
+			suo_3
 		}
 		categories = {
 			armor
@@ -654,6 +663,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
 		}
+		enable_equipment_modules = {
+			tank_cannon_105_module
+		}
 		categories = {
 			armor
 		}
@@ -667,6 +679,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
+		}
+		enable_equipment_modules = {
+			tank_cannon_125_module
 		}
 		categories = {
 			armor
@@ -682,6 +697,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
 		}
+		enable_equipment_modules = {
+			tank_cannon_152_module
+		}
 		categories = {
 			armor
 		}
@@ -695,6 +713,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
+		}
+		enable_equipment_modules = {
+			smoke_launchers1
 		}
 		categories = {
 			armor
@@ -710,6 +731,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
 		}
+		enable_equipment_modules = {
+			smoke_launchers2
+		}
 		categories = {
 			armor
 		}
@@ -723,6 +747,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
+		}
+		enable_equipment_modules = {
+			smoke_launchers3
 		}
 		categories = {
 			armor
@@ -841,6 +868,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
 		}
+		enable_equipment_modules = {
+			auto_loader
+		}
 		categories = {
 			armor
 		}
@@ -854,6 +884,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 13 }
+		}
+		enable_equipment_modules = {
+			auto_loader2
 		}
 		categories = {
 			armor

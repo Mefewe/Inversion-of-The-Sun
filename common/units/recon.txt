@@ -220,11 +220,11 @@ sub_units = {
 		armor_value = -0.6
 
 		essential = {
-			modern_tank_eq
+			modern_tank_chassis
 		}
 
 		need = {
-			modern_tank_eq = 24
+			modern_tank_chassis = 24
 			candc_equipment = 25
 		}
 
