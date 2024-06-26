@@ -478,15 +478,15 @@ script_enum_equipment_bonus_type = {
 	combined_magic_energy_prototype_eq
 	final_combined_magic_energy_inf_eq
 	light_tank_chassis
-	gw_light_tank_chassis
-	light_tank_1_chassis
-	light_tank_2_chassis
-	light_tank_3_chassis
+	light_tank_chassis_1
+	light_tank_chassis_2
+	light_tank_chassis_3
+	light_tank_chassis_4
 	modern_tank_chassis
-	post_war_modern_tank_chassis
-	modern_tank_1_chassis
-	modern_tank_2_chassis
-	modern_tank_3_chassis
+	modern_tank_chassis_1
+	modern_tank_chassis_2
+	modern_tank_chassis_3
+	modern_tank_chassis_4
 	magic_tank_eq
 	magic_tank_1_eq
 	magic_tank_2_eq

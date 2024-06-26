@@ -108,7 +108,7 @@ equipments = {
 
 		manpower = 2
 	}
-	gw_light_tank_chassis = {
+	light_tank_chassis_1 = {
 		abbreviation = "gwlt"
 		visual_level = 0
 		year = 1763
@@ -116,10 +116,11 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 	}
-	light_tank_1_chassis = {
+	light_tank_chassis_2 = {
 		year = 1772
 
 		archetype = light_tank_chassis
+		parent = light_tank_chassis_1
 		priority = 50
 		visual_level = 0
 		module_slots = inherit
@@ -129,10 +130,10 @@ equipments = {
 			steel = 10
 		}
 	}
-	light_tank_2_chassis = {
+	light_tank_chassis_3 = {
 		year = 1776
 		archetype = light_tank_chassis
-		parent = light_tank_1_chassis
+		parent = light_tank_chassis_2
 		priority = 50
 		visual_level = 0
 		module_slots = inherit
@@ -142,13 +143,13 @@ equipments = {
 			steel = 10
 		}
 	}
-	light_tank_3_chassis = {
+	light_tank_chassis_4 = {
 		year = 1783
-		module_slots = inherit
 		archetype = light_tank_chassis
-		parent = light_tank_2_chassis
+		parent = light_tank_chassis_3
 		priority = 50
 		visual_level = 0
+		module_slots = inherit
 		build_cost_ic = 20
 		resources = {
 			tungsten = 7
@@ -255,7 +256,7 @@ equipments = {
 		fuel_consumption = 4.1
 	}
 
-	post_war_modern_tank_chassis = {
+	modern_tank_chassis_1 = {
 		year = 1770
 		module_slots = inherit
 		archetype = modern_tank_chassis
@@ -272,11 +273,11 @@ equipments = {
 		}
 	}
 
-	modern_tank_1_chassis = {
+	modern_tank_chassis_2 = {
 		year = 1775
 		module_slots = inherit
 		archetype = modern_tank_chassis
-		parent = post_war_modern_tank_chassis
+		parent = modern_tank_chassis_1
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
@@ -290,11 +291,11 @@ equipments = {
 		}
 	}
 
-	modern_tank_2_chassis = {
+	modern_tank_chassis_3 = {
 		year = 1780
 		module_slots = inherit
 		archetype = modern_tank_chassis
-		parent = modern_tank_1_chassis
+		parent = modern_tank_chassis_2
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
@@ -308,11 +309,11 @@ equipments = {
 		}
 	}
 
-	modern_tank_3_chassis = {
+	modern_tank_chassis_4 = {
 		year = 1785
 		module_slots = inherit
 		archetype = modern_tank_chassis
-		parent = modern_tank_2_chassis
+		parent = modern_tank_chassis_3
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
