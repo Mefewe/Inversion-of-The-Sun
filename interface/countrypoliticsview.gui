@@ -307,7 +307,7 @@ guiTypes = {
 				name = "national_spirit_container"
 				position = { x = -2 y = 24 }
 				size = { width = 360 height = 80 }
-				verticalScrollbar = "right_vertical_slider"
+				horizontalScrollbar = "bottom_horizontal_slider"
 				
 				background = {
 					name = "Background"
@@ -359,7 +359,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 179 y = 48 }
+			position = { x = 176 y = 54 }
 			size = { width = 330 height = 50 }
 			clipping = no
 						
