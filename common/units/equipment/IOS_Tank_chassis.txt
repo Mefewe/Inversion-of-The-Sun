@@ -166,8 +166,7 @@ equipments = {
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
-		priority = 2000	
-
+		priority = 2500
 		module_slots = {			
 			turret_type_slot = {
 				required = yes
@@ -205,7 +204,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
-					tank_secondary_turret
 				}
 			}
 			special_type_slot_2 = {
@@ -213,7 +211,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
-					tank_secondary_turret
 				}
 			}
 			special_type_slot_3 = {
@@ -221,7 +218,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
-					tank_secondary_turret
 				}
 			}
 			special_type_slot_4 = {
@@ -229,7 +225,6 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
-					tank_secondary_turret
 				}
 			}
 		}
@@ -258,12 +253,11 @@ equipments = {
 
 	modern_tank_chassis_1 = {
 		year = 1770
-		module_slots = inherit
 		archetype = modern_tank_chassis
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
-
+		module_slots = inherit
 		build_cost_ic = 26
 		resources = {
 			tungsten = 7
@@ -275,13 +269,12 @@ equipments = {
 
 	modern_tank_chassis_2 = {
 		year = 1775
-		module_slots = inherit
 		archetype = modern_tank_chassis
 		parent = modern_tank_chassis_1
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
-
+		module_slots = inherit
 		build_cost_ic = 30
 		resources = {
 			tungsten = 10
@@ -293,13 +286,12 @@ equipments = {
 
 	modern_tank_chassis_3 = {
 		year = 1780
-		module_slots = inherit
 		archetype = modern_tank_chassis
 		parent = modern_tank_chassis_2
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
-
+		module_slots = inherit
 		build_cost_ic = 38
 		resources = {
 			tungsten = 12
@@ -311,13 +303,12 @@ equipments = {
 
 	modern_tank_chassis_4 = {
 		year = 1785
-		module_slots = inherit
 		archetype = modern_tank_chassis
 		parent = modern_tank_chassis_3
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
-
+		module_slots = inherit
 		build_cost_ic = 48
 		resources = {
 			tungsten = 15

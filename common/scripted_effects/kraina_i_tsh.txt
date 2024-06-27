@@ -47,7 +47,9 @@ independence_of_KRE = {
 }
 
 inpedence_of_toshlibinsk = {
-	news_event = EQS_news.2
+	every_country = {
+		news_event = EQS_news.2
+	}
 	338 = {
 		add_core_of = TSH
 		transfer_state_to = TSH
