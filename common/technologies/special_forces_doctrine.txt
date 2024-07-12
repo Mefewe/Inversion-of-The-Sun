@@ -13,10 +13,7 @@ technologies = {
 		category_special_forces = {
 			max_organisation = 5
 			soft_attack = 0.05
-		}
-		enable_subunits = {
-			rangers_support
-		}		
+		}	
 		###########
 		
 		force_use_small_tech_layout = yes
@@ -89,15 +86,6 @@ technologies = {
 
 		xor = { rangers }
 		
-		rangers_support = {
-			acclimatization_cold_climate_gain_factor = 0.25
-			snow = {
-				attack = 0.15
-				defence = 0.20
-				movement = 0.15
-			}
-		}
-		
 		doctrine = yes	
 		research_cost = 4.5
 
@@ -134,14 +122,6 @@ technologies = {
 		}
 
 		xor = { ski_troops }
-		
-		rangers_support = {
-			mountain = {
-				attack = 0.20
-				defence = 0.10
-				movement = 0.10
-			}
-		}
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -272,13 +252,6 @@ technologies = {
 			battalion_mult = {
 				category = category_mountaineers
 				breakthrough = 0.15
-			}
-		}
-		
-		rangers_support = {
-			battalion_mult = {
-				category = category_line_artillery
-				soft_attack = 0.20
 			}
 		}
 		
@@ -468,9 +441,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		enable_subunits = {
-			pioneer_support
-		}
 		
 		doctrine = yes	
 		research_cost = 2.25
@@ -514,13 +484,6 @@ technologies = {
 		
 		force_use_small_tech_layout = yes
 		
-		pioneer_support = {
-			jungle = {
-				attack = 0.15
-				defence = 0.10
-				movement = 0.10
-			}
-		}
 		
 		path = {
 			leads_to_tech = marines_recon 
@@ -565,13 +528,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		pioneer_support = {
-			amphibious = {
-				attack = 0.25
-				defence = 0.15
-				movement = 0.20
-			}
-		}
 		
 		doctrine = yes	
 		research_cost = 2.25
@@ -798,13 +754,6 @@ technologies = {
 		}
 
 		
-		pioneer_support = {
-			battalion_mult = {
-				category = category_line_artillery
-				max_organisation = 2
-				add = yes
-			}
-		}
 		
 		shore_bombardment_bonus = 0.15
 		special_forces_attack_factor = 0.10
@@ -845,20 +794,7 @@ technologies = {
 			 soft_attack = 0.1
 			 breakthrough = 0.1
 			 max_organisation = 5
-		}
-		
-		pioneer_support = {
-			battalion_mult = {
-				category = category_amphibious_tanks
-				armor = 0.15
-				breakthrough = 0.15
-			}
-		}
-		
-		
-		on_research_complete = {
-			add_ideas = GEN_cheaper_amphib
-		}
+		}		
 		
 		doctrine = yes	
 		research_cost = 2.25

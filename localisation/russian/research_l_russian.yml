@@ -1138,6 +1138,92 @@
  armored_car2:0 "$armored_car_equipment_1$"
  armored_car3:0 "$armored_car_equipment_2$"
 
+ SUBUNIT_CATEGORY_ADD: "§HКоэффициент батальона: $CATEGORY$§!"
+ SUBUNIT_CATEGORY_ADD_STAT: "$NAME$: $VALUE|+=$\n"
+ SUBUNIT_CATEGORY_MULT_STAT: "$NAME$: $VALUE|+=%$\n"
+ SUBUNIT_CATEGORY_ADD_STAT_VALUE: "$VALUE|+=$"
+ SUBUNIT_CATEGORY_MULT_STAT_VALUE: "$VALUE|+=%$"
+ special_forces_doctrine: "Доктрина войск спецназначения"
+ special_forces_doctrine_folder: "Доктрина войск спецназначения"
+ special_forces_doctrine_folder_desc: "Как подготовлены наши войска спецназначения."
+ MOUNTAINEERS_DOCTRINE_LABEL: "Горно-стрелковые войска"
+ MARINES_DOCTRINE_LABEL: "Морская пехота"
+ PARATROOPERS_DOCTRINE_LABEL: "ВДВ"
+ MOUNTAINEERS_DOCTRINE_DESC: "Сделав упор на войска, приспособленные к действиям в условиях сложного ландшафта, мы получим тактическое преимущество над противником."
+ MARINES_DOCTRINE_DESC: "Подготовленный корпус морской пехоты означает, что вражеские берега отныне в опасности. Наши элитные морпехи крайне эффективно действуют под огнем противника в самых непростых ситуациях."
+ PARATROOPERS_DOCTRINE_DESC: "Воздушный десант — будущее войны. Сделав упор на ВДВ, мы создадим идеальную синергию воздушных и наземных войск."
+ special_forces_mountaineers: "Возвысить горно-стрелковые войска"
+ special_forces_mountaineers_desc: "Опасное окружение и вооруженные конфликты привлекают лучших бойцов наших элитных войск. Подчеркнув их элитарность в своей военной доктрине, мы сможем отбирать лучших из лучших."
+ special_forces_paratroopers: "Возвысить десантников"
+ special_forces_paratroopers_desc: "Нет ничего страшнее неба, потемневшего от тысячи транспортных самолетов с десантниками. Нужно задействовать в своей военной доктрине шок и трепет, которые внушают наши десантники врагу."
+ special_forces_marines: "Возвысить корпус морской пехоты"
+ special_forces_marines_desc: "Корпус морской пехоты действует там, куда не осмеливается пойти никто другой. Эти солдаты готовы высадиться куда угодно, от домашних берегов до чужих земель. В нашей доктрине стоит сделать упор на их широкий охват и гибкость применения."
+ ski_troops: "Специалисты по зимним операциям"
+ ski_troops_desc: "Для нашей боевой тактики жизненно важны специалисты по зимним операциям. Признав их мастерство официально, мы сможем заполучить ресурсы, чтобы подготовить этих специалистов еще лучше."
+ special_forces_recon: "Боевая разведка"
+ special_forces_recon_desc: "Наши элитные полки отлично распознают дезинформацию и собирают разведданные, из-за чего действуют крайне эффективно. Дополнительное обучение сделает их еще эффективнее."
+ gwtank: "Танк Первой мировой"
+ basic_light_tank: "Легк. танк I"
+ armored_car1: "$gw_armored_car_equipment$"
+ armored_car2: "$armored_car_equipment_1$"
+ armored_car3: "$armored_car_equipment_2$"
+ mountaineers_combat_1: "Удерживать строй"
+ mountaineers_combat_1_desc: "Наши элитные войска должны сделать особый упор на том, к чему их готовили. Сочетание засадной тактики и улучшенной полковой организации помогут им организовать эффективную глубокую оборону от вторжения противника."
+ mountaineers_combat_2: "Горная артиллерия"
+ mountaineers_combat_2_desc: "Полки горной артиллерии — особые войска для поддержки наших элитных дивизий на большом расстоянии. Они обучены действовать на сложном ландшафте. Их присутствие значительно повышает боевую эффективность войск спецназначения."
+ mountaineers_combat_3: "Совместная подготовка войск"
+ mountaineers_combat_3_desc: "Хоть обычно наши элитные полки действуют независимо, программа их подготовки дополнена совместными операциями, что еще больше повысит боевую эффективность."
+ mountaineers_keystone_1: "Костяк вооруженных сил"
+ mountaineers_keystone_1_desc: "Успех наших элитных спецвойск говорит о том, что нам надо сделать их центром своей военной философии."
+ mountaineers_keystone_2: "Общие инструкторы"
+ mountaineers_keystone_2_desc: "Наши горные стрелки накопили немалый опыт, и было бы глупо не поделиться им с другими родами войск. Мы введем программу ротации инструкторов, чтобы повысить общую боевую эффективность."
+ paras_dispersed_drop: "Разведка и саботаж"
+ paras_dispersed_drop_desc: "Природа наших операций диктует точечное, распределенное применение десанта — оно позволяет провести масштабные диверсии в тылу противника раньше, чем он узнает о нашем присутствии."
+ paras_combat_drop: "Проникновение с боем"
+ paras_combat_drop_desc: "Прямое проникновение на территорию врага — опасная боевая техника, но именно она может дать нам значительное преимущество, если применять ее совместно с традиционными штурмами."
+ SF_PARAS_combat_effect_tt: "У дивизий противника в регионах, куда забрасывается наш §Hвоздушный десант§!, будет снижено значение §Hорганизации§!.\n\n$PARA_EFFECT_TIMER$"
+ SF_PARAS_sabotage_effect_tt: "В контролируемых противником регионах, куда забрасывается наш §Hвоздушный десант§!, получат урон §Hвоенные заводы§!, §Hгражданские фабрики§! и §Hинфраструктура§!.\n\n$PARA_EFFECT_TIMER$"
+ PARA_EFFECT_TIMER: "Этот эффект можно задействовать раз в §H30§! дней для каждого региона."
+ paras_airborne_light_armor: "Десантная бронетехника"
+ paras_airborne_light_armor_desc: "Некоторые легкие танки можно приспособить для десантирования с воздуха на тяжелых планерах. Это не самый обычный метод, но он обеспечит нам новые возможности."
+ paras_bonus_2: "Стратегическая переброска по воздуху"
+ paras_bonus_2_desc: "Создав командную структуру для переброски по воздуху, мы сможем переоборудовать наши транспортные самолеты в десантные."
+ paras_combat_1: "Десантная связь"
+ paras_combat_1_desc: "Надежная связь с войсками в тылу — задача первостепенной важности. Обучив роты связи десантированию с воздуха, мы обеспечим коммуникацию даже в самых неблагоприятных условиях."
+ paras_combat_2: "Десантный медотряд"
+ paras_combat_2_desc: "Масштаб наших десантных операций вырос до такой степени, что теперь готовить к выброске с воздуха надо даже важное медицинское снаряжение."
+ paras_bonus_1: "Расширенный курс навигации"
+ paras_bonus_1_desc: "Даже тщательно подготовленная высадка может пойти не по плану. Нужно сделать все, чтобы наши бойцы умели ориентироваться на местности."
+ paras_keystone_1: "Лучшие из лучших"
+ paras_keystone_1_desc: "Отбирать в наши десантные батальоны следует лишь самых закаленных в боях ветеранов. Такой принцип снизит простор для выбора, но зато здорово поможет нам в сражениях."
+ paras_keystone_2: "Костяк вооруженных сил"
+ paras_keystone_2_desc: "Мастерство и выучка наших десантных войск отныне послужат основой для подготовки всей нашей армии. Купола парашютов закроют собой небеса, и враг познает страх."
+ RESEARCH_SPEED: "Темпы исследований:"
+ LIMITED_RESEARCH_BONUS: "Ограниченные бонусы:"
+ cat_scout_plane: "Модели самолетов-разведчиков"
+ cat_maritime_patrol: "Модели самолетов для морского патрулирования"
+ cat_mountaineers_doctrine: "Доктрина горно-стрелковых войск"
+ cat_marines_doctrine: "Доктрина морской пехоты"
+ cat_paratroopers_doctrine: "Доктрина ВДВ"
+ mio_cat_tech_all_armor_and_modules: "Все технологии бронетехники"
+ mio_cat_tech_light_armor_and_modules: "Технологии легкой бронетехники" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_medium_armor_and_modules: "Технологии средней бронетехники" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_heavy_armor_and_modules: "Технологии тяжелой бронетехники" #Cannot talk about modules because of DLC lock tack
+ mio_cat_all_artillery_equipment: "Все артиллерийские технологии"
+ mio_cat_all_light_fighter_and_modules: "Все технологии истребителей" #Cannot talk about modules because of DLC lock tack
+ mio_cat_all_cas_and_modules: "Все технологии штурмовиков" #Cannot talk about modules because of DLC lock tack
+ mio_cat_all_naval_bomber_and_modules: "Все технологии морских бомбардировщиков" #Cannot talk about modules because of DLC lock tack
+ mio_cat_all_light_aircraft_and_modules: "Все технологии легкой авиации" #Cannot talk about modules because of DLC lock tack
+ mio_cat_all_medium_aircraft_and_modules: "Все технологии средней авиации" #Cannot talk about modules because of DLC lock tack
+ mio_cat_all_heavy_aircraft_and_modules: "Все технологии тяжелой авиации" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_capital_ship_and_modules: "Все технологии крупных кораблей" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_screen_ship_and_modules: "Все технологии кораблей охранения" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_submarine_and_modules: "Все технологии подводных лодок" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_carrier_and_modules: "Все технологии авианосцев" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_cruiser_and_modules: "Все технологии крейсеров" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_destroyer_and_modules: "Все технологии эсминцев" #Cannot talk about modules because of DLC lock tack
+ mio_cat_tech_all_motorized_mechanized: "Все технологии моторизованной пехоты и бронетранспортеров"
+
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  dp_medium_battery:0 "Усовершенствованная средняя универсальная батарея"
  dp_medium_battery_desc:0 "Скорострельные установки среднего размера с автоматическим зарядным механизмом существенно повышают огневую мощь.\n\nУстановка §Yсредней батареи§! повышает характеристику §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, что помогает в бою с вражескими §Yкораблями охранения§!. Этот модуль также повышает характеристику §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!."

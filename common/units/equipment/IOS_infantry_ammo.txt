@@ -47,7 +47,6 @@ equipments = {
 		year = 1758
 	
 		archetype = infantry_ammo_equipment
-		parent = infantry_ammo_equipment_0
 		priority = 10
 		visual_level = 1
 

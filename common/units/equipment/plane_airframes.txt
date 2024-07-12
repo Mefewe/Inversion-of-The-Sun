@@ -97,10 +97,6 @@ equipments = {
 				}
 			}
 		}
-		module_count_limit = {
-			module = guided_anti_ship_missile
-			count < 2
-		}
 
 		module_count_limit = {
 			module = fixed_explosive_charge
@@ -718,11 +714,6 @@ equipments = {
 					plane_special_module_air_air_radar
 				}
 			}
-		}
-
-		module_count_limit = {
-			module = guided_anti_ship_missile
-			count < 2
 		}
 
 		module_count_limit = {

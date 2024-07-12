@@ -194,6 +194,7 @@ sub_units = {
 			category_army
 			category_all_armor
 			category_recon
+			category_mountaineers
 		}
 
 	

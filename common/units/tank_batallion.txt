@@ -29,7 +29,7 @@ sub_units = {
 			infantry_ammo_equipment = 200
 			tank_ammo_equipment = 200
 			candc_equipment = 25
-			med_tank_eq = 50
+			modern_tank_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 10

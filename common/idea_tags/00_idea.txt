@@ -97,23 +97,6 @@ idea_categories = {
 		cost = 150
 		removal_cost = 0
 	}
-
-	military_staff = {
-		type = military_staff_type
-
-		character_slot = army_chief 
-		character_slot = navy_chief 
-		character_slot = air_chief
-		character_slot = high_command
-		character_slot = high_command
-		character_slot = high_command
-		
-		ledger = hidden
-		
-		cost = 150
-		removal_cost = 0
-	}
-
 	country_factors = {
 		type = country_factors_type
 
@@ -124,6 +107,20 @@ idea_categories = {
 		slot = criminality
 		
 		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	military_staff = {
+		character_slot = army_chief 
+		character_slot = navy_chief 
+		character_slot = air_chief
+		character_slot = high_command
+		character_slot = high_command
+		character_slot = high_command
+		
+		ledger = invalid # must be overridden
 		
 		cost = 150
 		removal_cost = 0
