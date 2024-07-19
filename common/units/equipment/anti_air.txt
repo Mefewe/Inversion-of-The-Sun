@@ -84,4 +84,63 @@ equipments = {
 			steel = 3
 		}
 	}
+
+
+	zrk_equipment = {
+		year = 1772
+
+		is_archetype = yes
+		picture = archetype_anti_air_equipment		
+		type = {
+			anti_air
+			infantry #adding infantry type
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 1
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		air_attack = 40
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 6
+		resources = {
+			steel = 5
+			tungsten = 2
+		}
+	}
+
+	zrk_equipment_1 = {
+		year = 1772
+
+		archetype = zrk_equipment
+		priority = 80
+		visual_level = 0
+	}
+	zrk_equipment_2 = {
+		year = 1777
+		parent = zrk_equipment_1
+		archetype = zrk_equipment
+		priority = 80
+		visual_level = 0
+	}
+	zrk_equipment_3 = {
+		year = 1785
+		parent = zrk_equipment_2
+		archetype = zrk_equipment
+		priority = 80
+		visual_level = 0
+	}
+
 }
