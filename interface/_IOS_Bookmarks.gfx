@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_select_changeling_side
+        texturefile = gfx/interface/bookmarks/select_changeling_side.dds
+    }      
+	spriteType = {
+        name = GFX_select_non_alligned_side
+        texturefile = gfx/interface/bookmarks/select_non_alligned_side.dds
+    }      
+	spriteType = {
+        name = GFX_select_neoharmonists_side
+        texturefile = gfx/interface/bookmarks/select_neoharmonists_side.dds
+    }  
+}

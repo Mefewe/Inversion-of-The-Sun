@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		changeling_garrison = {
+			picture = changeling_garrison_icon
 			modifier = {
 				army_speed_factor = 0.1
 				army_attack_factor = 0.1

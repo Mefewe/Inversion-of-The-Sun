@@ -1,0 +1,41 @@
+bookmarks = {
+	bookmark = {
+		name = "IOS_CHANGELING_SIDE"
+		desc = "IOS_CHANGELING_SIDE_desc"
+		date = 1770.1.1.12
+		picture = "GFX_select_changeling_side"
+		default_country = "TYR"
+		default = no
+		"OZB"={
+			history = "OZB_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"TYR"={
+			history = "TYR_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRZ"={
+			history = "FRZ_IOS_S_DESC"
+			ideology = fascism
+			available = { }
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

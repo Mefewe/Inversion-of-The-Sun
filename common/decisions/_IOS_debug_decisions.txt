@@ -1,45 +1,6 @@
-debug_GUI_decisions = {
-	debug_info_popup_gui_open = {
-			icon = generic_research
-
-			available = {
-				is_ai = no
-				is_debug = yes
-			}
-	
-			visible = {
-				always = yes
-			}
-
-			fire_only_once = no
-			cost = 0
-
-			complete_effect = {
-				set_variable = { global.open_info_popup }
-			}
-		}
-	}
-	debug_national_panel_gui_open = {
-			icon = generic_research
-
-			available = {
-				is_ai = no
-				is_debug = yes
-			}
-	
-			visible = {
-				always = yes
-			}
-
-			fire_only_once = no
-			cost = 0
-
-			complete_effect = {
-				set_variable = { global.open_national_panel_popup }
-			}
-		}
-	}
-}
+#######################
+### LAWS DEBUG DECS ###
+#######################
 debug_law_decisions = {
 	debug_law_efficiency_weapon_legalize = {
 		icon = generic_research
@@ -138,42 +99,91 @@ debug_law_decisions = {
 		}
 	}
 }
-TYR_debug_decisions = {
-	debug_tyr_load_tree_2 = {		
-		icon = generic_research
 
+##########################
+### GENERAL DEBUG DECS ###
+##########################
+debug_decisions = {
+
+	### GUI Decs
+	debug_gui_folder_OPEN = {
 		visible = {
-			is_ai = no
-			is_debug = yes
-			tag = TYR
+			NOT = { has_country_flag = DEBUG_GuiFolderOpened }
 		}
-
+		complete_effect = {
+			set_country_flag = DEBUG_GuiFolderOpened
+		}
+	}
+	debug_info_popup_gui_open = {
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_GuiFolderOpened
+		}
 		fire_only_once = no
 		cost = 0
-
+		complete_effect = {
+			set_variable = { global.open_info_popup }
+		}
+	}
+	debug_gui_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_GuiFolderOpened
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_GuiFolderOpened
+		}
+	}
+	
+	### TYR Debug Decs
+	debug_TYR_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_TYR_FolderOpened }
+			tag = TYR
+		}
+		complete_effect = {
+			set_country_flag = DEBUG_TYR_FolderOpened
+		}
+	}
+	debug_tyr_load_tree_2 = {		
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_TYR_FolderOpened
+			tag = TYR
+		}
+		fire_only_once = no
+		cost = 0
 		complete_effect = {
 			load_focus_tree = TYR_focus_tree_two
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-}
-DRG_debug_decisions = {
-	debug_drg_begin_civil_war_ember = {		
-		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
+	debug_TYR_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_TYR_FolderOpened
+			tag = TYR
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_TYR_FolderOpened
+		}
+	}
+	### DRG Debug Decs
+	debug_DRG_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_DRG_FolderOpened }
 			tag = DRG
 		}
-	
-		visible = {
-			always = yes
+		complete_effect = {
+			set_country_flag = DEBUG_DRG_FolderOpened
 		}
-
+	}
+	debug_drg_begin_civil_war_ember = {		
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_DRG_FolderOpened
+			tag = DRG
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			complete_national_focus = DRG_proclaim_dragon_state
 			complete_national_focus = DRG_ember_knows_what_right
@@ -181,20 +191,12 @@ DRG_debug_decisions = {
 	}
 	debug_drg_begin_civil_war_society = {		
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
+		visible = {
+			has_country_flag = DEBUG_DRG_FolderOpened
 			tag = DRG
 		}
-	
-		visible = {
-			always = yes
-		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			complete_national_focus = DRG_proclaim_dragon_state
 			complete_national_focus = DRG_protect_the_throne
@@ -202,20 +204,12 @@ DRG_debug_decisions = {
 	}
 	debug_drg_load_tree_2 = {		
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
+		visible = {
+			has_country_flag = DEBUG_DRG_FolderOpened
 			tag = DRG
 		}
-	
-		visible = {
-			always = yes
-		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = DRG_focus_tree_two
 			mark_focus_tree_layout_dirty = yes
@@ -223,20 +217,12 @@ DRG_debug_decisions = {
 	}
 	debug_drg_load_tree_CW_1 = {		
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
+		visible = {
+			has_country_flag = DEBUG_DRG_FolderOpened
 			tag = DRG
 		}
-	
-		visible = {
-			always = yes
-		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = DRG_CW_focus_tree_one
 			mark_focus_tree_layout_dirty = yes
@@ -244,43 +230,68 @@ DRG_debug_decisions = {
 	}
 	debug_drg_load_tree_CW_2 = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_DRG_FolderOpened
+			tag = DRG
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = DRG_CW_focus_tree_two
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-}
-AOZ_debug_decisions = {
+	debug_DRG_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_DRG_FolderOpened
+			tag = DRG
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_DRG_FolderOpened
+		}
+	}
+	### AOZ Debug Decs
+	debug_AOZ_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_AOZ_FolderOpened }
+			tag = AOZ
+		}
+		complete_effect = {
+			set_country_flag = DEBUG_AOZ_FolderOpened
+		}
+	}
 	debug_state_struggle_start = {
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			set_country_flag = StateStruggleStarts
 		}
 	}
 	debug_aoz_force_mahrots_operation_show = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			set_country_flag = Debug_AOZ_MahrotsOperation_ON
 		}
 	}
 	debug_aoz_load_tree_2 = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = AOZ_focus_tree_two
 			mark_focus_tree_layout_dirty = yes
@@ -288,10 +299,12 @@ AOZ_debug_decisions = {
 	}
 	debug_aoz_load_tree_3 = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = AOZ_focus_tree_three
 			mark_focus_tree_layout_dirty = yes
@@ -299,10 +312,12 @@ AOZ_debug_decisions = {
 	}
 	debug_aoz_load_tree_4 = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = AOZ_focus_tree_tort_A
 			mark_focus_tree_layout_dirty = yes
@@ -310,10 +325,12 @@ AOZ_debug_decisions = {
 	}
 	debug_aoz_load_tree_5 = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = AOZ_focus_tree_besh_A
 			mark_focus_tree_layout_dirty = yes
@@ -321,10 +338,12 @@ AOZ_debug_decisions = {
 	}
 	debug_aoz_load_tree_6 = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = AOZ_focus_tree_besh_A
 			mark_focus_tree_layout_dirty = yes
@@ -332,102 +351,134 @@ AOZ_debug_decisions = {
 	}
 	debug_aoz_load_tree_6_alt = {		
 		icon = generic_research
-
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = AOZ_focus_tree_tort_B
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-}
-SDL_CONF_debug_decisions = {
-	debug_sdl_conf_start_rally = {		
-		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
+	debug_AOZ_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_AOZ_FolderOpened
+		}
+	}
+	### SDL Debug Decs
+	debug_SDL_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_SDL_FolderOpened }
 			tag = SDL
 		}
-	
-		visible = {
-			always = yes
-		}
-
-		fire_only_once = no
-		cost = 0
-
 		complete_effect = {
-			country_event = SDL_base.5
+			set_country_flag = DEBUG_SDL_FolderOpened
 		}
 	}
 	debug_sdl_conf_load_tree_2 = {		
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
+		visible = {
+			has_country_flag = DEBUG_SDL_FolderOpened
 			tag = SDL
 		}
-	
-		visible = {
-			always = yes
-		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = SDL_focus_tree_two
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-	debug_sdl_conf_load_tree_3.5 = {		
+	debug_sdl_conf_load_tree_3.5 = {
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
+		visible = {
+			has_country_flag = DEBUG_SDL_FolderOpened
 			tag = SDL
 		}
-	
-		visible = {
-			always = yes
-		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			load_focus_tree = SDL_focus_tree_two_and_half
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-}
-debug_zebrica_decisions = {
-debug_tyr_ATO = {
-		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
+	debug_SDL_folder_CLOSE = {
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_SDL_FolderOpened
+			tag = SDL
 		}
-
+		complete_effect = {
+			clr_country_flag = DEBUG_SDL_FolderOpened
+		}
+	}
+	### Continent Debug Decs
+	debug_continents_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_ContinentsFolderOpened }
+		}
+		complete_effect = {
+			set_country_flag = DEBUG_ContinentsFolderOpened
+		}
+	}
+	debug_zebrica_conflicts_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_ZebricaConlictsFolderOpened }
+			has_country_flag = DEBUG_ContinentsFolderOpened
+		}
+		complete_effect = {
+			set_country_flag = DEBUG_ZebricaConlictsFolderOpened
+		}
+	}
+	debug_sdl_conf_start_rally = {
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_ZebricaConlictsFolderOpened
+			has_country_flag = DEBUG_ContinentsFolderOpened
+		}
 		fire_only_once = no
 		cost = 0
-
+		complete_effect = {
+			SDL = { country_event = SDL_base.5 }
+		}
+	}
+	debug_tyr_ATO = {
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_ZebricaConlictsFolderOpened
+			has_country_flag = DEBUG_ContinentsFolderOpened
+		}
+		fire_only_once = no
+		cost = 0
 		complete_effect = {
 			TYR = {
 				complete_national_focus = TYR_v_ataku_voini_dobra
 			}
 		}
 	}
+	debug_zebrica_conflicts_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_ZebricaConlictsFolderOpened
+			has_country_flag = DEBUG_ContinentsFolderOpened
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_ZebricaConlictsFolderOpened
+		}
+	}
+	debug_continents_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_ContinentsFolderOpened
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_ContinentsFolderOpened
+		}
+	}
+	
+	### --- ---
 	regive_states_to_tyrlitia = {
 		icon = generic_research
 
@@ -436,9 +487,7 @@ debug_tyr_ATO = {
 			is_debug = yes
 		}
 
-		visible = {
-			always = yes
-		}
+		visible = { always = no }
 
 		fire_only_once = no
 		cost = 0
@@ -485,8 +534,8 @@ debug_tyr_ATO = {
 			652 = { set_state_controller_to = TYR }
 			961 = { set_state_controller_to = TYR }
 		}
-}
-regive_states_to_farazia = {
+	}
+	regive_states_to_farazia = {
 		icon = generic_research
 
 		available = {
@@ -494,9 +543,7 @@ regive_states_to_farazia = {
 			is_debug = yes
 		}
 
-		visible = {
-			always = yes
-		}
+		visible = { always = no }
 
 		fire_only_once = no
 		cost = 0
@@ -524,7 +571,7 @@ regive_states_to_farazia = {
 			856 = { set_state_controller_to = FRZ }
 		}
 	}
-regive_states_to_sudern_zebrica = {
+	regive_states_to_sudern_zebrica = {
 		icon = generic_research
 
 		available = {
@@ -532,9 +579,7 @@ regive_states_to_sudern_zebrica = {
 			is_debug = yes
 		}
 
-		visible = {
-			always = yes
-		}
+		visible = { always = no }
 
 		fire_only_once = no
 		cost = 0
@@ -583,60 +628,26 @@ regive_states_to_sudern_zebrica = {
 	}
 	liberate_zebrica = {
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
+		visible = { always = no }
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
-                        ### Sandwater
-			951 = {
-                            set_state_controller_to = SNW
-                        }
-			502 = {
-                            set_state_controller_to = SNW
-                        }
-			503 = {
-                            set_state_controller_to = SNW
-                        }
-                        ### Bucksana
-                        BKS = {
-			drop_cosmetic_tag = yes
-                        }
-			756 = {
-                            set_state_controller_to = BKS
-                        }
-			712 = {
-                            set_state_controller_to = BKS
-                        }
-			652 = {
-                            set_state_controller_to = BKS
-                        }
-                        ### Moozambique
-			758 = {
-                            set_state_controller_to = MZB
-                        }
-			957 = {
-                            set_state_controller_to = MZB
-                        }
-			958 = {
-                            set_state_controller_to = MZB
-                        }
-			802 = {
-                            set_state_controller_to = MZB
-                        }
-                        ### Cheeruta
-			779 = {
-                            set_state_controller_to = CHR
-                        }
+			### Sandwater
+			951 = { set_state_controller_to = SNW }
+			502 = { set_state_controller_to = SNW }
+			503 = { set_state_controller_to = SNW }
+			### Bucksana
+            BKS = { drop_cosmetic_tag = yes }
+			756 = { set_state_controller_to = BKS }
+			712 = { set_state_controller_to = BKS }
+			652 = { set_state_controller_to = BKS }
+			### Moozambique
+			758 = { set_state_controller_to = MZB }
+			957 = { set_state_controller_to = MZB }
+			958 = {  set_state_controller_to = MZB }
+			802 = { set_state_controller_to = MZB }
+			### Cheeruta
+			779 = { set_state_controller_to = CHR }
 			### Alpacia
 			665 = { set_state_controller_to = ALP }
 			959 = { set_state_controller_to = ALP }
@@ -671,9 +682,7 @@ regive_states_to_sudern_zebrica = {
 			is_debug = yes
 		}
 
-		visible = {
-			always = yes
-		}
+		visible = { always = no }
 
 		fire_only_once = no
 		cost = 0
@@ -711,9 +720,7 @@ regive_states_to_sudern_zebrica = {
 			is_debug = yes
 		}
 
-		visible = {
-			always = yes
-		}
+		visible = { always = no }
 
 		fire_only_once = no
 		cost = 0
@@ -817,9 +824,7 @@ regive_states_to_sudern_zebrica = {
 			is_debug = yes
 		}
 
-		visible = {
-			always = yes
-		}
+		visible = { always = no }
 
 		fire_only_once = no
 		cost = 0
@@ -857,9 +862,7 @@ regive_states_to_sudern_zebrica = {
 			is_debug = yes
 		}
 
-		visible = {
-			always = yes
-		}
+		visible = { always = no }
 
 		fire_only_once = no
 		cost = 0
@@ -971,130 +974,70 @@ regive_states_to_sudern_zebrica = {
 			838 = { set_state_controller_to = ABS }
 		}
 	}
-}
-
-debug_decisions = {
+	### --- ---
+	
+	### Army Decs
+	debug_army_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_ArmyFolderOpened }
+		}
+		complete_effect = {
+			set_country_flag = DEBUG_ArmyFolderOpened
+		}
+	}
 	buff_all = {
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_ArmyFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			add_ideas = BuffAll
 		}
 	}
-	remove_buff_all = {
+	add_attack_bonus = {
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_ArmyFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
+		complete_effect = {
+			add_ideas = BuffAttack
+		}
+	}
+	add_defence_bonus = {
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_ArmyFolderOpened
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			add_ideas = BuffDefence
+		}
+	}
+	remove_army_modifiers = {
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_ArmyFolderOpened
+		}
+		fire_only_once = no
+		cost = 0
 		complete_effect = {
 			if = {
 				limit = {
 					has_idea = BuffAll
 				}
 				remove_ideas = BuffAll
-			}
-		}
-	}
-	add_attack_bonus = {
-		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
-		fire_only_once = no
-		cost = 0
-
-		complete_effect = {
-			add_ideas = BuffAttack
-		}
-	}
-	remove_attack_bonus = {
-		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
-		fire_only_once = no
-		cost = 0
-
-		complete_effect = {
+			}			
 			if = {
 				limit = {
 					has_idea = BuffAttack
 				}
 				remove_ideas = BuffAttack
-			}
-		}
-	}
-	add_defence_bonus = {
-		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
-		fire_only_once = no
-		cost = 0
-
-		complete_effect = {
-			add_ideas = BuffDefence
-		}
-	}
-	remove_defence_bonus = {
-		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
-		visible = {
-			always = yes
-		}
-
-		fire_only_once = no
-		cost = 0
-
-		complete_effect = {
+			}			
 			if = {
 				limit = {
 					has_idea = BuffDefence
@@ -1103,41 +1046,41 @@ debug_decisions = {
 			}
 		}
 	}
+	debug_army_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_ArmyFolderOpened
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_ArmyFolderOpened
+		}
+	}
+	### Industry Decs
+	debug_industry_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_IndustryFolderOpened }
+		}
+		complete_effect = {
+			set_country_flag = DEBUG_IndustryFolderOpened
+		}
+	}
 	add_efficiency_growth_debug = {
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_IndustryFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			add_ideas = add_production_efficiency
 		}
 	}
-		
 	remove_efficiency_growth_debug = {
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_IndustryFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			if = {
 				limit = {
@@ -1153,99 +1096,70 @@ debug_decisions = {
 			}	
 		}
 	}
-		
 	decrease_efficiency_growth_debug = {
 		icon = generic_research
-
-		available = {
-			is_ai = no
-			is_debug = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_IndustryFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			add_ideas = decrease_production_efficiency
 		}
-
-		ai_will_do = {
-			base = 0
+	}
+	debug_industry_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_IndustryFolderOpened
+		}
+		complete_effect = {
+			clr_country_flag = DEBUG_IndustryFolderOpened
 		}
 	}
-
+	### Agency Decs
+	debug_agency_folder_OPEN = {
+		visible = {
+			NOT = { has_country_flag = DEBUG_AgencyFolderOpened }
+		}
+		complete_effect = {
+			set_country_flag = DEBUG_AgencyFolderOpened
+		}
+	}
 	create_recruitable_operative_not_to_spy_master_debug = {
 		icon = generic_research
-
-		available = {
-			always = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_AgencyFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			create_operative_leader = {
 				bypass_recruitment = no
 				available_to_spy_master = no
 			}
 		}
-
-		ai_will_do = {
-			base = 0
-		}
 	}
-
 	create_recruitable_operative_debug = {
 		icon = generic_research
-
-		available = {
-			always = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_AgencyFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			create_operative_leader = {
 				bypass_recruitment = no
 			}
 		}
-
-		ai_will_do = {
-			base = 0
-		}
 	}
-
-
-	
-
-	
-
 	add_random_nationality = {
 		available = {
 			num_of_operatives > 0
 		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_AgencyFolderOpened
 		}
-
 		fire_only_once = no
 		cost = 0
-
 		complete_effect = {
 			random_country = {
 				limit = {
@@ -1258,68 +1172,38 @@ debug_decisions = {
 				}
 			}
 		}
-
-		ai_will_do = {
-			base = 0
-		}
-
 	}
-
 	slot_machine = { # we pegi 18 now
-		available = {
-			always = yes
-		}
-
 		visible = {
-			always = yes
+			has_country_flag = DEBUG_AgencyFolderOpened
 		}
-
 		days_remove = 777
-
 		modifier = {
 			operative_slot = 99
 		}
 	}
-
 	decryption_tech_1 = {
-		days_remove = 100
+		visible = {
+			has_country_flag = DEBUG_AgencyFolderOpened
+		}
 		modifier = {
 			decryption = 1
 		}
 	}
-
-	decryption_tech_2 = {
-		days_remove = 100
-		modifier = {
-			decryption = 1
-		}
-	}
-
-	decryption_tech_3 = {
-		days_remove = 100
-		modifier = {
-			decryption = 1
-		}
-	}
-
 	encryption_tech_1 = {
-		days_remove = 100
+		visible = {
+			has_country_flag = DEBUG_AgencyFolderOpened
+		}
 		modifier = {
 			encryption = 1
 		}
 	}
-
-	encryption_tech_2 = {
-		days_remove = 100
-		modifier = {
-			encryption = 1
+	debug_agency_folder_CLOSE = {
+		visible = {
+			has_country_flag = DEBUG_AgencyFolderOpened
 		}
-	}
-
-	encryption_tech_3 = {
-		days_remove = 100
-		modifier = {
-			encryption = 1
+		complete_effect = {
+			clr_country_flag = DEBUG_AgencyFolderOpened
 		}
 	}
 }

@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		proigravshije1 = {
-                        picture = ENG_the_war_to_end_all_wars
+                        picture = proigravshije_icon
 			modifier = {
 				production_speed_buildings_factor = -0.2
 				production_factory_max_efficiency_factor = -0.25
@@ -20,7 +20,7 @@ ideas = {
 			}
 		}
 		tleushaja_garmonija = {
-                        picture = anti_soviet_pact
+                        picture = tleushaja_garmonija_icon
 			modifier = {
 				stability_factor = -0.1
 				political_power_cost = 0.15

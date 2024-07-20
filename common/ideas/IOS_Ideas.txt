@@ -1,6 +1,7 @@
 ideas = {
 	country = {
                 struggling_harmony = {
+			picture = struggling_harmony_icon
 			cancel = {
 				NOT = {
 					has_country_leader_ideology = harmony

@@ -16,7 +16,11 @@ AOZ_MovementCommanders = {
 	}
 AOZ_Zarka_Ikonsi = {
 	name = AOZ_Zarka_Ikonsi
-
+	portraits = {
+		civilian = {
+			large = GFX_AOZ_Zarka_Ikonsi_L
+		}
+	}
 	corps_commander = {
 		skill = 4
 		attack_skill = 2
@@ -27,7 +31,11 @@ AOZ_Zarka_Ikonsi = {
 }
 AOZ_Lahenjar_Getrenukho = {
 	name = AOZ_Lahenjar_Getrenukho
-
+	portraits = {
+		civilian = {
+			large = GFX_AOZ_Lahenjar_Getrenukho_L
+		}
+	}
 	corps_commander = {
 		skill = 3
 		attack_skill = 2
@@ -38,7 +46,11 @@ AOZ_Lahenjar_Getrenukho = {
 }
 AOZ_Gmappe_Astripe = {
 	name = AOZ_Gmappe_Astripe
-
+	portraits = {
+		civilian = {
+			large = GFX_AOZ_Gmappe_Astripe_L
+		}
+	}
 	corps_commander = {
 		skill = 3
 		attack_skill = 1
@@ -49,7 +61,11 @@ AOZ_Gmappe_Astripe = {
 }
 AOZ_Berk_Visp = {
 	name = AOZ_Berk_Visp
-
+	portraits = {
+		civilian = {
+			large = GFX_AOZ_Berk_Visp_L
+		}
+	}
 	corps_commander = {
 		skill = 3
 		attack_skill = 3

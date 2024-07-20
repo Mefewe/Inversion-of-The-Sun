@@ -7,46 +7,6 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
-	### SINGLEPLAYER & MULTIPLAYER BUTTON
-	textSpriteType = {
-		name = "GFX_mod_singleplayer_button"
-		textureFile = "gfx/interface/custom/mod_singleplayer_button.dds"
-		noOfFrames = 2
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}
-	
-	### EXIT BUTTON
-	textSpriteType = {
-		name = "GFX_mod_exit_button"
-		textureFile = "gfx/interface/custom/mod_exit_button.dds"
-		noOfFrames = 2
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}
-	
-	### SETTINGS BUTTON
-	textSpriteType = {
-		name = "GFX_mod_settings_button"
-		textureFile = "gfx/interface/custom/mod_settings_button.dds"
-		noOfFrames = 2
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}
-	
-	### CAREER BUTTON
-	textSpriteType = {
-		name = "GFX_mod_career_button"
-		textureFile = "gfx/interface/custom/mod_career_button.dds"
-		noOfFrames = 2
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}
-	
-	### CREDITS BUTTON
-	textSpriteType = {
-		name = "GFX_mod_credits_button"
-		textureFile = "gfx/interface/custom/mod_credits_button.dds"
-		noOfFrames = 2
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}
 
 	SpriteType = {
 		name = "GFX_main_lobby_button_highlight"
@@ -72,14 +32,10 @@ spriteTypes = {
 		name = "GFX_main_lobby_divider"
 		textureFile = "gfx/interface/main_lobby_divider.dds"
 	}
-	
-	corneredTileSpriteType = {
-		name = "GFX_mod_bg"
-		size= { x=789 y=801 }
-		textureFile = "gfx//interface//custom//mod_background.dds"
-		borderSize = { x=64 y=64 }
-		tilingCenter = yes
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+
+	spriteType = {
+		name = "GFX_frontend_game_logo"
+		texturefile = "gfx/interface/logo_game.dds"
 	}
 
 	spriteType = {
@@ -111,6 +67,93 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_subscription_widget_active"
 		textureFile = "gfx/interface/sub/main/subscription_widget_active.dds"
+	}
+	
+	### DLC Banners
+	
+	spriteType = { #Tfv
+		name = "GFX_frontend_banner_dlc018"
+		texturefile = "gfx/interface/dlc_banners/dlc018.dds"
+	}
+	
+	spriteType = { #Dod
+		name = "GFX_frontend_banner_dlc020"
+		texturefile = "gfx/interface/dlc_banners/dlc020.dds"
+	}
+	
+	spriteType = { #WTT
+		name = "GFX_frontend_banner_dlc022"
+		texturefile = "gfx/interface/dlc_banners/dlc022.dds"
+	}
+	
+	spriteType = { #Mtg
+		name = "GFX_frontend_banner_dlc023"
+		texturefile = "gfx/interface/dlc_banners/dlc023.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_medal_dlc023"
+		texturefile = "gfx/interface/goals/focus_DLC_man_the_guns.dds"
+	}
+	
+	spriteType = { #LaR
+		name = "GFX_frontend_banner_dlc028"
+		texturefile = "gfx/interface/dlc_banners/dlc028.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_medal_dlc028"
+		texturefile = "gfx/interface/goals/focus_DLC_la_resistance.dds"
+	}
+	
+	spriteType = { #BftB
+		name = "GFX_frontend_banner_dlc031"
+		texturefile = "gfx/interface/dlc_banners/dlc031.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_medal_dlc031"
+		texturefile = "gfx/interface/goals/focus_DLC_battle_for_the_bosporous.dds"
+	}
+	
+	spriteType = { #NsB
+		name = "GFX_frontend_banner_dlc034"
+		texturefile = "gfx/interface/dlc_banners/dlc034.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_medal_dlc034"
+		texturefile = "gfx/interface/goals/focus_DLC_no_step_back.dds"
+	}
+	
+	spriteType = { #BbA
+		name = "GFX_frontend_banner_dlc036"
+		texturefile = "gfx/interface/dlc_banners/dlc036.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_medal_dlc036"
+		texturefile = "gfx/interface/goals/focus_DLC_by_blood_alone.dds"
+	}
+	
+	spriteType = { #AaT
+		name = "GFX_frontend_banner_dlc038"
+		texturefile = "gfx/interface/dlc_banners/dlc038.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_medal_dlc038"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_FIN_a_cry_for_help.dds"
+	}
+	
+	spriteType = { #ToA
+		name = "GFX_frontend_banner_dlc040"
+		texturefile = "gfx/interface/dlc_banners/dlc018.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_medal_dlc040"
+		texturefile = "gfx/interface/goals/focus_DLC_trial_of_allegiance.dds"
 	}
 
 }

@@ -1,57 +1,16 @@
-debug_GUI_decisions = {
-	icon = generic_research
-	visible = {
-		is_debug = yes
-	}
-}
 debug_law_decisions = {
 	icon = generic_research
 	visible = {
 		is_debug = yes
-	}
-}
-DRG_debug_decisions = {
-	icon = generic_research
-	visible = {
 		is_ai = no
-		is_debug = yes
-		tag = DRG
-	}
-}
-TYR_debug_decisions = {
-	icon = generic_research
-	visible = {
-		is_ai = no
-		is_debug = yes
-		tag = TYR
-	}
-}
-AOZ_debug_decisions = {
-	icon = generic_research
-	visible = {
-		is_ai = no
-		is_debug = yes
-		tag = AOZ
-	}
-}
-SDL_CONF_debug_decisions = {
-	icon = generic_research
-	visible = {
-		is_ai = no
-		is_debug = yes
-		tag = SDL
-	}
-}
-debug_zebrica_decisions = {
-	icon = generic_research
-	visible = {
-		is_debug = yes
 	}
 }
 debug_decisions = {
 	icon = generic_research
+	picture = GFX_decision_image_DebugJeff
 	visible = {
 		is_debug = yes
+		is_ai = no
 	}
 }
 propaganda_efforts = {
@@ -126,7 +85,7 @@ foreign_politics = {
 
 political_actions = {
 	icon = generic_political_actions
-
+	priority = 90
 	allowed = {
 		NOT = { tag = UNC }
 	}
@@ -137,14 +96,6 @@ political_actions = {
 				has_dlc = "By Blood Alone"
 			}	
 		}
-	}
-}
-
-PMC_Policy = {
-	icon = generic_political_actions
-
-	allowed = {
-		NOT = { tag = UNC }
 	}
 }
 

@@ -1,0 +1,36 @@
+bookmarks = {
+	bookmark = {
+		name = "IOS_NON_ALLIGNED_SIDE"
+		desc = "IOS_NON_ALLIGNED_SIDE_desc"
+		date = 1770.1.1.12
+		picture = "GFX_select_non_alligned_side"
+		default_country = "OEF"
+		default = no
+		"AOZ"={
+			history = "AOZ_IOS_S_DESC"
+			ideology = paternalism
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"DRG"={
+			history = "DRG_IOS_S_DESC"
+			ideology = neutrality
+			available = { }
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

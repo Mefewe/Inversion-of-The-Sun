@@ -3,7 +3,7 @@ OLN_King_Lindquist = {
 		name = OLN_King_Lindquist
 		portraits = {
 			civilian = {
-				large = GFX_leader_unknown
+				large = GFX_OLN_King_Lindquist_L
 			}
 		}
 		country_leader = {

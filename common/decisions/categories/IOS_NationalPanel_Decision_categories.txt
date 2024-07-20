@@ -3,5 +3,5 @@ NationalPanel_decisions = {
 	visible = {
 		NOT = { tag = UNC }
 	}
-	priority = 20
+	priority = 100
 }

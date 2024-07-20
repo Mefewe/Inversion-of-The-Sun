@@ -1,0 +1,36 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_drg_dragons_factor_icon
+        texturefile = gfx/interface/ideas/DRG_DragonsFactor_icon.dds
+    }  
+}
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_struggling_harmony_icon
+        texturefile = gfx/interface/ideas/struggling_harmony_icon.dds
+    }  
+}
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_proigravshije_icon
+        texturefile = gfx/interface/ideas/proigravshije_icon.dds
+    }  
+}
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_tleushaja_garmonija_icon
+        texturefile = gfx/interface/ideas/tleushaja_garmonija_icon.dds
+    }  
+}
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_changeling_garrison_icon
+        texturefile = gfx/interface/ideas/changeling_garrison_icon.dds
+    }  
+}
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_raider_economy_icon
+        texturefile = gfx/interface/ideas/raider_economy_icon.dds
+    }  
+}

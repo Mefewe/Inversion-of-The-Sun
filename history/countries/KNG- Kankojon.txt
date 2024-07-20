@@ -1,5 +1,5 @@
 ﻿capital = 392
-recruit_character = KNG_Kirin
+recruit_character = KNG_Symarhea
 set_stability = 0.4
 set_war_support = 0.2
 set_technology = {

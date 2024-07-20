@@ -1,6 +1,0 @@
-spriteTypes = {
-    spriteType = {
-        name = GFX_idea_drg_dragons_factor_icon
-        texturefile = gfx/interface/ideas/DRG_DragonsFactor_icon.dds
-    }  
-}

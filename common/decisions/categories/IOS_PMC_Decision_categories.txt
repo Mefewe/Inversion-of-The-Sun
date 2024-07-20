@@ -1,0 +1,7 @@
+PMC_Policy = {
+	icon = generic_research
+	allowed = {
+		NOT = { tag = UNC }
+	}
+	priority = 80
+}

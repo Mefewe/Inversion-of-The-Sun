@@ -136,7 +136,7 @@ ideas = {
 			}
 		}
 		AOZ_Raider_economy = {
-			picture = generic_army_problems
+			picture = raider_economy_icon
 			modifier = {
 				army_org_factor = 0.025
 				army_morale_factor = 0.065

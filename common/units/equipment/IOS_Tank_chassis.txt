@@ -317,6 +317,24 @@ equipments = {
 			rubber = 6
 		}
 	}
+
+	modern_tank_4_chassis = {
+		year = 1785
+		module_slots = inherit
+		archetype = modern_tank_chassis
+
+		priority = 50
+		visual_level = 0
+		is_convertable = yes
+
+		build_cost_ic = 48
+		resources = {
+			tungsten = 15
+			steel = 13
+			chromium = 7
+			rubber = 6
+		}
+	}
 	###################
 	### MAGIC TANKS ###
 	###################

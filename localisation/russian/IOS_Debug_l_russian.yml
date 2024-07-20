@@ -1,0 +1,45 @@
+﻿l_russian:
+ #################
+ ### D E B U G ###
+ #################
+ 
+ debug_decisions: "ДЕБАГ ИОСА"
+ debug_decisions_desc: "Sus"
+ 
+ ### GUI Decs
+ debug_gui_folder_OPEN: "(§G+§!) DEBUG - Отладка ГУИ"
+ debug_gui_folder_CLOSE: "(§R-§!) DEBUG - Отладка ГУИ"
+ debug_info_popup_gui_open: "Открыть приветственное окно"
+ 
+ ### Industry Debug
+ debug_industry_folder_OPEN: "(§G+§!) DEBUG - Модификаторы производства"
+ debug_industry_folder_CLOSE: "(§R-§!) DEBUG - Модификаторы производства"
+ add_efficiency_growth_debug: "Добавить эффективность производства"
+ remove_efficiency_growth_debug: "Убрать модификаторы эффективности производства"
+ decrease_efficiency_growth_debug: "Снизить эффективность производства"
+ 
+ ### Army Debug
+ debug_army_folder_OPEN: "(§G+§!) DEBUG - Модификаторы армии"
+ debug_army_folder_CLOSE: "(§R-§!) DEBUG - Модификаоры армии"
+ buff_all: "Добавить увеличение атаки, обороны и скорости"
+ add_attack_bonus: "Добавить увеличение атаки"
+ add_defence_bonus: "Добавить увеличение обороны"
+ remove_army_modifiers: "Убрать модификаторы армии"
+ 
+ ### Agency Debug
+ debug_agency_folder_OPEN: "(§G+§!) DEBUG - Модификаторы разведки"
+ debug_agency_folder_CLOSE: "(§R-§!) DEBUG - Модификаторы разведки"
+ slot_machine: "Открыть 99 ячеек оперативников"
+ 
+ ### TYR Decs
+ debug_TYR_folder_OPEN: "(§G+§!) DEBUG - Отладка [GetName.TYR]"
+ debug_TYR_folder_CLOSE: "(§R-§!) DEBUG - Отладка [GetName.TYR]"
+ debug_tyr_load_tree_2: "Загрузить дерево фокусов: 2"
+ 
+ ### Continent Decs
+ debug_continents_folder_OPEN: "(§G+§!) DEBUG - Отладка глобальных событий"
+ debug_continents_folder_CLOSE: "(§R-§!) DEBUG - Отладка глобальных событий"
+ debug_zebrica_conflicts_folder_OPEN: "(§G+§!) DEBUG - Отладка войн в Зебрике"
+ debug_zebrica_conflicts_folder_CLOSE: "(§R-§!) DEBUG - Отладка войн в Зебрике"
+ debug_sdl_conf_start_rally: "Начать Ралли"
+ debug_tyr_ATO: "Начать войну на юге Тирлитии"

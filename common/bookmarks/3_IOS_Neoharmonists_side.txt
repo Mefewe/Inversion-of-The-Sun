@@ -1,0 +1,26 @@
+bookmarks = {
+	bookmark = {
+		name = "IOS_NEOHARMONIST_SIDE"
+		desc = "IOS_NEOHARMONIST_SIDE_desc"
+		date = 1770.1.1.12
+		picture = "GFX_select_neoharmonists_side"
+		default_country = "OEF"
+		default = no
+		"SDL"={
+			history = "SDL_CONF_IOS_S_DESC"
+			ideology = neutrality
+			available = { }
+			ideas = {
+				sdl_conf_involuntarily_allies
+				sdl_conf_last_survivors
+				sdl_conf_just_business
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

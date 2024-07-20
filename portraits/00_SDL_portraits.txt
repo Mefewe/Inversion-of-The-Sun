@@ -11,6 +11,7 @@ SDL = {
     army = {
         male = {
             "GFX_portrait_unknown"
+            "GFX_SDL_CONF_Army_1"
         }
         female = {
             "GFX_portrait_unknown"
