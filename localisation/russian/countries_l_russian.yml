@@ -478,6 +478,10 @@
  AZV_DEF: "Азив"
  AZV_ADJ: "Азивск"
  
+ ABL: "Освободительные силы Абиссинии"
+ ABL_DEF: "Освободительные силы Абиссинии"
+ ABL_ADJ: "Абиссинск"
+
  UNC_fascism:0 "А"
  UNC_fascism_DEF:0 "А"
  UNC_democratic:0 "A"

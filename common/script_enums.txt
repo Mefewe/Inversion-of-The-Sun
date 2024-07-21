@@ -499,5 +499,8 @@ script_enum_equipment_bonus_type = {
 	infantry_ammo_equipment_6
 	infantry_ammo_equipment_7
 	mechanized_equipment_4
-
+	zrk_equipment
+	zrk_equipment_1
+	zrk_equipment_2
+	zrk_equipment_3
 }

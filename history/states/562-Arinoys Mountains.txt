@@ -7,7 +7,7 @@ state={
 	history={
 	victory_points = {4077 5}
         owner = UNC
-        add_core_of = ABS
+        add_core_of = ABL
     }
 
         resources = {

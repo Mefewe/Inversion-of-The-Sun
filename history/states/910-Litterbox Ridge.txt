@@ -7,7 +7,7 @@ state={
 	}
 	history={
         owner = OZB
-        add_core_of = ABS
+        add_core_of = ABL
     }
 
         resources = {

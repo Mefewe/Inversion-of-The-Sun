@@ -366,6 +366,10 @@ color = rgb { 171 132 60 }
 color_ui = rgb { 171 132 60 }
 }
 
+ABL = {
+	color = rgb { 79 129 69 }
+	color_ui = rgb {  79 129 69 }
+}
 
 
 D01 = {

@@ -125,7 +125,7 @@ units = {
 	}
         division = {
                 name = "3. Infantry Division"
-		location = 2198
+		location = 4035
 		division_template = "Infantry Division"
 		start_experience_factor = 0.40
 		start_equipment_factor = 0.0
@@ -157,7 +157,7 @@ units = {
 	}
         division = {
                 name = "7. Infantry Division"
-		location = 6710
+		location = 6040
 		division_template = "Infantry Division"
 		start_experience_factor = 0.35
 		start_equipment_factor = 0.0
@@ -189,7 +189,7 @@ units = {
 	}
         division = {
                 name = "11. Infantry Division"
-		location = 2198
+		location = 4035
 		division_template = "Infantry Division"
 		start_experience_factor = 0.35
 		start_equipment_factor = 0.0
@@ -197,7 +197,7 @@ units = {
 	}
         division = {
                 name = "12. Infantry Division"
-		location = 1551
+		location = 6763
 		division_template = "Infantry Division"
 		start_experience_factor = 0.35
 		start_equipment_factor = 0.0
@@ -344,7 +344,7 @@ units = {
 	}
         division = {
                 name = "13. Militia Brigade"
-		location = 1551
+		location = 6763
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.30
 		start_equipment_factor = 0.0
@@ -352,7 +352,7 @@ units = {
 	}
         division = {
                 name = "14. Militia Brigade"
-		location = 2198
+		location = 4035
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.0
@@ -433,7 +433,7 @@ units = {
 	}
         division = {
                 name = "5. Tank Brigade"
-		location = 2198
+		location = 4035
 		division_template = "Tank Brigade"
 		start_experience_factor = 0.35
 		start_equipment_factor = 0.0
@@ -441,7 +441,7 @@ units = {
 	}
         division = {
                 name = "6. Tank Brigade"
-		location = 1753
+		location = 6754
 		division_template = "Tank Brigade"
 		start_experience_factor = 0.40
 		start_equipment_factor = 0.0
@@ -449,7 +449,7 @@ units = {
 	}
         division = {
                 name = "7. Tank Brigade"
-		location = 6710
+		location = 6040
 		division_template = "Tank Brigade"
 		start_experience_factor = 0.55
 		start_equipment_factor = 0.0
@@ -562,7 +562,7 @@ units = {
 	}
         division = {
                 name = "4. Motorized Brigade"
-		location = 6710
+		location = 6040
 		division_template = "Motorized Brigade"
 		start_experience_factor = 0.35
 		start_equipment_factor = 0.0
@@ -701,7 +701,7 @@ units = {
 	}
         division = {
                 name = "2. Mountaineer Brigade"
-		location = 2198
+		location = 4035
 		division_template = "Mountaineer Brigade"
 		start_experience_factor = 0.60
 		start_equipment_factor = 0.0

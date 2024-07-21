@@ -10,7 +10,7 @@ state={
 		victory_points = {7359 10} #
         owner = TYR
         add_core_of = TYR
-        add_core_of = ABS
+        add_core_of = ABL
 		set_demilitarized_zone = yes
     }
 

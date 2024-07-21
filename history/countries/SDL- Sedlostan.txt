@@ -1,6 +1,8 @@
 ﻿oob = "SDL_CONF"
 
 capital = 492
+give_military_access = ABL
+
 ################## TECHS
 set_technology = {
 	### INFANTRY

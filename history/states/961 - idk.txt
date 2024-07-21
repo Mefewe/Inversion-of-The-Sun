@@ -9,7 +9,7 @@ state={
         	owner = TYR
         	add_core_of = SDL
 		add_core_of = KTH
-		add_core_of = ABS
+		add_core_of = ABL
         	buildings = {
             	infrastructure = 2
         	}

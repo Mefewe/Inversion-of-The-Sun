@@ -1,0 +1,62 @@
+oob = "ABL"
+
+country_lock_all_division_template = yes
+add_manpower = 300000 #общий объем сбежавших сюда абиссинцев, готовых держать винтовку
+capital = 587
+recruit_character = ABL_Arlemanj_Krilj
+set_stability = 0.7
+set_war_support = 0.6
+set_research_slots = 2
+set_technology = {
+	infantry_weapons_1 = 1
+	mass_assault = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	artillery1 = 1
+}
+give_military_access = SDL
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 25000
+}
+add_equipment_to_stockpile = {
+	type = infantry_ammo_equipment_1
+	amount = 250000
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_1
+	amount = 300
+}
+add_equipment_to_stockpile = {
+	type = artillery_ammo_equipment_0
+	amount = 15000
+}
+add_equipment_to_stockpile = {
+	type = candc_equpment_1
+	amount = 5000
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 800
+}
+
+add_ideas = {
+		#laws
+		low_economic_mobilisation
+		service_by_requirement
+		limited_exports
+	}
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1768.7.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	communism = 0
+	neutrality = 25
+	fascism = 0
+    progressivism = 5
+    paternalism = 70
+}

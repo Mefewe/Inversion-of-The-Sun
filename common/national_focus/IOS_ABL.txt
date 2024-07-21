@@ -1,0 +1,88 @@
+focus_tree = {
+	id = ABL_birinchi
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ABL
+		}
+	}
+	shared_focus = ABL_Wir_Wollen_Atmen
+	default = no
+	continuous_focus_position = { x = 2000 y = 1200 }
+}
+
+shared_focus = {
+	id = ABL_Wir_Wollen_Atmen
+	cost = 3
+	x = 12
+	y = 0
+	completion_reward = {
+		country_event = {days = 1 id = ABL.1}
+		add_stability = 0.025
+	}
+}
+shared_focus = {
+	id = ABL_Sedlostanskaja_derzhava
+	prerequisite = {
+		focus = ABL_Wir_Wollen_Atmen
+	}
+	cost = 7
+	x = 10
+	y = 1
+	completion_reward = {
+		country_event = {days = 1 id = ABL.2}
+	}
+}
+shared_focus = {
+	id = ABL_Sedlostan_tur_pervyj
+	prerequisite = {
+		focus = ABL_Sedlostanskaja_derzhava
+	}
+	cost = 7
+	x = 10
+	y = 2
+	completion_reward = {
+		country_event = {days = 1 id = ABL.3}
+	}
+}
+shared_focus = {
+	id = ABL_osmotor_armii
+	prerequisite = {
+		focus = ABL_Wir_Wollen_Atmen
+	}
+	cost = 7
+	x = 14
+	y = 1
+	completion_reward = {
+		country_event = {days = 1 id = ABL.4}
+	}
+}
+shared_focus = {
+	id = ABL_ukaz_o_demobilizacii
+	prerequisite = {
+		focus = ABL_osmotor_armii
+	}
+	cost = 7
+	x = 14
+	y = 2
+	completion_reward = {
+		country_event = {days = 1 id = ABL.5}
+	}
+}
+shared_focus = {
+	id = ABL_szebb_jovo
+	prerequisite = {
+		focus = ABL_ukaz_o_demobilizacii
+	}
+	prerequisite = {
+		focus = ABL_Sedlostan_tur_pervyj
+	}
+	cost = 10
+	x = 14
+	y = 2
+	completion_reward = {
+		country_event = ABL.6
+	}
+}

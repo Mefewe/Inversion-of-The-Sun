@@ -1,0 +1,81 @@
+add_namespace = ABL
+
+country_event = {
+	id = ABL.1 #Мы хотим дышать
+	title = ABL.1.title
+	desc = ABL.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.1.a
+		
+	}
+}
+
+country_event = {
+	id = ABL.2 #Седлостан 1
+	title = ABL.2.title
+	desc = ABL.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.2.a
+		
+	}
+}
+
+country_event = {
+	id = ABL.3 #Седлостан 2
+	title = ABL.3.title
+	desc = ABL.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.3.a
+		
+	}
+}
+country_event = {
+	id = ABL.4 #Осмотр армии
+	title = ABL.4.title
+	desc = ABL.4.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.4.a
+		
+	}
+}
+country_event = {
+	id = ABL.5 #Демобилизация
+	title = ABL.5.title
+	desc = ABL.5.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.5.a
+		
+	}
+}
+country_event = {
+	id = ABL.6 #Первый военный завод
+	title = ABL.6.title
+	desc = ABL.6.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.6.a
+		587 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+			}
+		}
+	}
+}

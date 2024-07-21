@@ -5,10 +5,11 @@ state={
 		1415 1551 1753 2198 2763 3490 4083 4291 6511 6587 6611 6710 
 	}
 	history={
-	victory_points = {4291 15} #
+	victory_points = {4291 20} #
 	victory_points = {2198 15} #
-	owner = SDL
+	owner = ABL
 	add_core_of = SDL
+	add_core_of = ABL
         add_core_of = LBR
         buildings = {
                 infrastructure = 1
