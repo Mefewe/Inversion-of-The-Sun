@@ -187,7 +187,7 @@ country_event = {
 			set_demilitarized_zone = no
 		}
 		add_equipment_to_stockpile = {
-			type = infantry_ammo_equipment_0
+			type = infantry_ammo_equipment_1
 			amount = 7150
 		}
 		add_equipment_to_stockpile = {

@@ -402,7 +402,7 @@ shared_focus = {
 	completion_reward = { 
 		country_event = AOZ.2
 		add_equipment_to_stockpile = {
-			type = infantry_equipment_0
+			type = infantry_equipment_1
 			amount = 1500
 		}
 	}

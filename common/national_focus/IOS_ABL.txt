@@ -12,10 +12,39 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2000 y = 1200 }
 }
+focus_tree = {
+	id = ABL_ikkinchi
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ABL
+		}
+	}
+	shared_focus = ABL_Wir_Wollen_Atmen
+	shared_focus = ABL_sozvatj_komitet
+	default = no
+	continuous_focus_position = { x = 2000 y = 1200 }
+}
+focus_tree = {
+	id = ABL_siljve_pizdec_birinchi
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ABL
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 2000 y = 1200 }
+}
 
 shared_focus = {
 	id = ABL_Wir_Wollen_Atmen
-	cost = 3
+	cost = 4
 	x = 12
 	y = 0
 	completion_reward = {
@@ -28,7 +57,7 @@ shared_focus = {
 	prerequisite = {
 		focus = ABL_Wir_Wollen_Atmen
 	}
-	cost = 7
+	cost = 8
 	x = 10
 	y = 1
 	completion_reward = {
@@ -40,7 +69,7 @@ shared_focus = {
 	prerequisite = {
 		focus = ABL_Sedlostanskaja_derzhava
 	}
-	cost = 7
+	cost = 8
 	x = 10
 	y = 2
 	completion_reward = {
@@ -52,7 +81,7 @@ shared_focus = {
 	prerequisite = {
 		focus = ABL_Wir_Wollen_Atmen
 	}
-	cost = 7
+	cost = 8
 	x = 14
 	y = 1
 	completion_reward = {
@@ -64,7 +93,7 @@ shared_focus = {
 	prerequisite = {
 		focus = ABL_osmotor_armii
 	}
-	cost = 7
+	cost = 8
 	x = 14
 	y = 2
 	completion_reward = {
@@ -79,10 +108,112 @@ shared_focus = {
 	prerequisite = {
 		focus = ABL_Sedlostan_tur_pervyj
 	}
-	cost = 10
-	x = 14
-	y = 2
+	cost = 12
+	x = 12
+	y = 3
 	completion_reward = {
 		country_event = ABL.6
+	}
+}
+
+shared_focus = {
+	id = ABL_sozvatj_komitet
+
+	cost = 2
+	x = 12
+	y = 5
+	completion_reward = {
+		country_event = ABL.10
+	}
+}
+
+shared_focus = {
+	id = ABL_sozdatj_voennuju_komissiu
+	prerequisite = {
+		focus = ABL_sozvatj_komitet
+	}
+	mutually_exclusive = {
+		focus = ABL_poisk_investorov
+	}
+	available = {
+		has_country_flag = ABL_militari
+	}
+	cost = 5
+	x = 8
+	y = 6
+	completion_reward = {
+
+	}
+}
+
+
+shared_focus = {
+	id = ABL_poisk_investorov
+	mutually_exclusive = {
+		focus = ABL_sozdatj_voennuju_komissiu
+	}
+	prerequisite = {
+		focus = ABL_sozvatj_komitet
+	}
+	available = {
+		has_country_flag = ABL_grazhdanskej
+	}
+	cost = 5
+	x = 16
+	y = 6
+	completion_reward = {
+		country_event = ABL.11
+	}
+}
+shared_focus = {
+	id = ABL_lesozagotovka
+	prerequisite = {
+		focus = ABL_poisk_investorov
+	}
+
+	cost = 5
+	x = 14
+	y = 7
+	completion_reward = {
+		country_event = ABL.12
+	}
+}
+shared_focus = {
+	id = ABL_sozdanie_zavodov
+	prerequisite = {
+		focus = ABL_poisk_investorov
+	}
+
+	cost = 7
+	x = 18
+	y = 7
+	completion_reward = {
+		country_event = ABL.13
+	}
+}
+shared_focus = {
+	id = ABL_bazovyj_komplekt_oborony
+	prerequisite = {
+		focus = ABL_sozdanie_zavodov
+	}
+
+	cost = 5
+	x = 18
+	y = 8
+	completion_reward = {
+		country_event = ABL.14
+	}
+}
+shared_focus = {
+	id = ABL_posev
+	prerequisite = {
+		focus = ABL_lesozagotovka
+	}
+
+	cost = 5
+	x = 14
+	y = 8
+	completion_reward = {
+		country_event = ABL.15
 	}
 }

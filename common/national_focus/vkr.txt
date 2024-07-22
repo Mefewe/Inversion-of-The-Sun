@@ -320,7 +320,7 @@ shared_focus = {
 					is_ai = yes
 				}
 				add_equipment_to_stockpile = {
-					type = infantry_ammo_equipment_0
+					type = infantry_ammo_equipment_1
 					amount = 50000
 				}
 				add_political_power = 500

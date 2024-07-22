@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		vechnoe_vremennoe_praviteljstvo = {
+			modifier = {
+				stability_factor = -0.1
+				defence = 0.1
+				surrender_limit = 1
+			}
+		}
+		my_velikije = {
+			modifier = {
+				stability_factor = -0.1
+				attack = 0.1
+				war_support_factor = 0.2
+			}
+		}
+
+		ABL_investitions_1 = {
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = -0.1
+			}
+		}
+	}
+}

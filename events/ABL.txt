@@ -77,5 +77,133 @@ country_event = {
 				level = 1
 			}
 		}
+		hidden_effect = {
+			load_focus_tree = ABL_ikkinchi
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+
+####
+country_event = {
+	id = ABL.10 #Созвать комитет
+	title = ABL.10.title
+	desc = ABL.10.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.10.a
+		set_country_flag = ABL_militari
+	}
+	option = {
+		name = ABL.10.b
+		set_country_flag = ABL_grazhdanskej
+	}
+}
+country_event = {
+	id = ABL.11 #Поиск инвесторов
+	title = ABL.11.title
+	desc = ABL.11.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.11.a
+		add_ideas = ABL_investitions_1
+	}
+}
+country_event = {
+	id = ABL.12 #Лесозаготовки
+	title = ABL.12.title
+	desc = ABL.12.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.12.a
+		587 = {
+			set_state_category = large_town
+		}
+	}
+}
+country_event = {
+	id = ABL.13 #Лесозаготовки
+	title = ABL.13.title
+	desc = ABL.13.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.13.a
+		587 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+			}
+			add_resource = {
+				type = steel
+				amount = 5
+			}
+		}
+	}
+}
+country_event = {
+	id = ABL.14 #Линия обороны
+	title = ABL.14.title
+	desc = ABL.14.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.14.a
+		587 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 6710
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1551
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1753
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 2198
+			}
+		}
+	}
+}
+country_event = {
+	id = ABL.15 #Посеў
+	title = ABL.15.title
+	desc = ABL.15.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.15.a
+		add_stability = 0.05
+	}
+}
+
+#####
+country_event = {
+	id = ABL.1000 #Коллапс в Седлостане
+	title = ABL.1000.title
+	desc = ABL.1000.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.1000.a
+
 	}
 }

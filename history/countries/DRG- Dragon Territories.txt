@@ -34,11 +34,11 @@ set_technology = {
 #### INFANTRY
 
 add_equipment_to_stockpile = {
-         type = infantry_ammo_equipment_0
+         type = infantry_ammo_equipment_1
          amount = 55000
 }
 add_equipment_to_stockpile = {
-         type = infantry_equipment_0
+         type = infantry_equipment_1
          amount = 3000
 }
 add_equipment_to_stockpile = {

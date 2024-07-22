@@ -15,15 +15,13 @@ state={
                 infrastructure = 1
         }
     }
-
-        resources = {
+    resources = {
         steel = 7
         aluminium = 5
-	rubber = 14
-	oil = 5
-        }
-
-        state_category = rural
+		rubber = 14
+		oil = 5
+    }
+    state_category = rural
 	manpower=284954
 	buildings_max_level_factor=1.000
 }

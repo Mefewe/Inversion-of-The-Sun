@@ -641,6 +641,9 @@ country_event = {	# PRESIDENT RETIRES
    				id = SDL_base.24
     				days = 7
 			}
+			ABL = {
+				country_event = ABL.1000
+			}
 		}
 	}
 }
@@ -761,7 +764,7 @@ country_event = {
 		name = SDL_base.29.a
 		custom_effect_tooltip = ConfederationCollapseEvent_SDL_tt
 		hidden_effect = {
-			drop_cosmetic_tag
+			drop_cosmetic_tag = yes
 			retire_country_leader = yes
 			recruit_character = SDL_Monarch
 			promote_character = { 
@@ -801,7 +804,6 @@ country_event = {
 				transfer_state = 622
 				transfer_state = 677
 				transfer_state = 613
-				transfer_state = 587
 
 				add_state_core = 408
 				add_state_core = 429
@@ -832,7 +834,6 @@ country_event = {
 				add_state_core = 622
 				add_state_core = 677
 				add_state_core = 613
-				add_state_core = 587
 				set_cosmetic_tag = GRF_UNI
 				add_ideas = {
 					tleushaja_garmonija
@@ -901,7 +902,6 @@ country_event = {
 				remove_state_core = 622
 				remove_state_core = 677
 				remove_state_core = 613
-				remove_state_core = 587
 
 				transfer_units_fraction = {
 					target = GRF
@@ -925,7 +925,7 @@ country_event = {
 		name = SDL_base.29.b
 		custom_effect_tooltip = ConfederationCollapseEvent_GRF_tt
 		hidden_effect = {
-			drop_cosmetic_tag
+			drop_cosmetic_tag = yes
 			retire_country_leader = yes
 			recruit_character = GRF_Griffon
 			promote_character = { 
@@ -965,7 +965,6 @@ country_event = {
 				transfer_state = 622
 				transfer_state = 677
 				transfer_state = 613
-				transfer_state = 587
 
 				add_state_core = 408
 				add_state_core = 429
@@ -996,7 +995,6 @@ country_event = {
 				add_state_core = 622
 				add_state_core = 677
 				add_state_core = 613
-				add_state_core = 587
 				set_capital = {
 					state = 486
 					remember_old_capital = no
@@ -1070,7 +1068,6 @@ country_event = {
 				remove_state_core = 622
 				remove_state_core = 677
 				remove_state_core = 613
-				remove_state_core = 587
 
 				transfer_units_fraction = {
 					target = GRF

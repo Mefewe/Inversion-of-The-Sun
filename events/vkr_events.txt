@@ -12,7 +12,7 @@ country_event = {
 		name = VKR.1.1
 		VKR = {
 			add_equipment_to_stockpile = {
-				type = infantry_ammo_equipment_0
+				type = infantry_ammo_equipment_1
 				amount = 2000
 			}
 			add_equipment_to_stockpile = {

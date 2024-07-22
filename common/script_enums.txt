@@ -212,7 +212,6 @@ script_enum_equipment_bonus_type = {
 	guided_missile_equipment_3
 	swords_and_armor_arch_eq
 	swords_and_armor_eq
-	infantry_equipment_0
 	infantry_equipment_1
 	infantry_equipment_2
 	infantry_equipment_3
@@ -433,7 +432,6 @@ script_enum_equipment_bonus_type = {
 	artillery_ammo_equipment_3
 	artillery_ammo_equipment_4
 	infantry_ammo_equipment
-	infantry_ammo_equipment_0
 	infantry_ammo_equipment_1
 	infantry_ammo_equipment_2
 	infantry_ammo_equipment_3

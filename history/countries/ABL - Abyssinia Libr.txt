@@ -16,8 +16,8 @@ set_technology = {
 }
 give_military_access = SDL
 add_equipment_to_stockpile = {
-	type = infantry_equipment_0
-	amount = 25000
+	type = infantry_equipment_1
+	amount = 20000
 }
 add_equipment_to_stockpile = {
 	type = infantry_ammo_equipment_1
@@ -25,11 +25,11 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 300
+	amount = 350
 }
 add_equipment_to_stockpile = {
 	type = artillery_ammo_equipment_0
-	amount = 15000
+	amount = 7500
 }
 add_equipment_to_stockpile = {
 	type = candc_equpment_1
@@ -37,7 +37,7 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = support_equipment_1
-	amount = 800
+	amount = 850
 }
 
 add_ideas = {
@@ -45,6 +45,9 @@ add_ideas = {
 		low_economic_mobilisation
 		service_by_requirement
 		limited_exports
+		#nacfokuz
+		vechnoe_vremennoe_praviteljstvo
+		my_velikije
 	}
 set_politics = {
 	ruling_party = paternalism
