@@ -269,7 +269,7 @@ country_event = {
          		amount = -650
 		}
 		add_equipment_to_stockpile = {
-         		type = candc_equpment
+         		type = candc_equipment
          		amount = -5000
 		}
 		add_equipment_to_stockpile = {
@@ -365,7 +365,7 @@ country_event = {
 	option = {
 		name = TYR.19.a
 		add_political_power = 50
-		manpower = 1254
+		add_manpower = 1254
 	}
 }
 country_event = {
@@ -378,7 +378,7 @@ country_event = {
 	option = {
 		name = TYR.20.a
 		add_political_power = 50
-		manpower = -749
+		add_manpower = -749
 	}
 }
 country_event = {

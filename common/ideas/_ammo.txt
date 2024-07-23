@@ -173,7 +173,7 @@ ideas = {
         }
 		ammo_tank_idea5 = {
 			equipment_bonus = {
-				modern_tank_chassis = {
+				modern_armor = {
 					defense = -0.25
 					soft_attack = -0.25
 					hard_attack = -0.25

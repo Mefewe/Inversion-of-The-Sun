@@ -124,6 +124,10 @@ country_event = {
 		name = ABL.12.a
 		587 = {
 			set_state_category = large_town
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
 		}
 	}
 }
@@ -193,6 +197,158 @@ country_event = {
 		add_stability = 0.05
 	}
 }
+country_event = {
+	id = ABL.16 #Комиссия
+	title = ABL.16.title
+	desc = ABL.16.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.16.a
+		add_political_power = 50
+	}
+}
+country_event = {
+	id = ABL.17 #Авиавыставка
+	title = ABL.17.title
+	desc = ABL.17.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.17.a
+		air_experience = 10
+	}
+}
+country_event = {
+	id = ABL.18 #Закупки
+	title = ABL.18.title
+	desc = ABL.18.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.18.a
+		add_equipment_to_stockpile = {
+			type = candc_equpment_1
+			amount = 500
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 100
+			producer = OEF
+		}
+	}
+}
+
+country_event = {
+	id = ABL.20 #Военный совет
+	title = ABL.20.title
+	desc = ABL.20.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.20.a
+		
+	}
+}
+country_event = {
+	id = ABL.21 #Трудовая армия
+	title = ABL.21.title
+	desc = ABL.21.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.21.a
+		587 = {
+			set_state_category = town
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = ABL.22 #Открыть экономику полностью
+	title = ABL.22.title
+	desc = ABL.22.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.22.a
+		
+	}
+}
+country_event = {
+	id = ABL.23 #Дайте им всё
+	title = ABL.23.title
+	desc = ABL.23.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.23.a
+		
+	}
+}
+country_event = {
+	id = ABL.24 #в ОЭФ
+	title = ABL.24.title
+	desc = ABL.24.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.24.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 2000
+		}
+		add_equipment_to_stockpile = {
+			type = anti_tank_inf_1_eq
+			amount = 1500
+		}
+		add_equipment_to_stockpile = {
+			type = candc_equpment_1
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+		}
+	}
+}
+country_event = {
+	id = ABL.25 #Свобода
+	title = ABL.25.title
+	desc = ABL.25.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.25.a
+		
+	}
+}
+
+country_event = {
+	id = ABL.50 #Ротация
+	title = ABL.50.title
+	desc = ABL.50.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.50.a
+		
+	}
+}
 
 #####
 country_event = {
@@ -204,6 +360,10 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = ABL.1000.a
-
+		hidden_effect = {
+			load_focus_tree = ABL_siljve_pizdec_birinchi
+		}
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = ABL.1000_tultipe
 	}
 }

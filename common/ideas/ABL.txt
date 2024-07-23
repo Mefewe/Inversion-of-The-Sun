@@ -7,11 +7,18 @@ ideas = {
 				surrender_limit = 1
 			}
 		}
+		slava_abissniskoj_svobode = {
+			modifier = {
+				defence = 0.15
+				surrender_limit = 1
+			}
+		}
+
 		my_velikije = {
 			modifier = {
-				stability_factor = -0.1
-				attack = 0.1
-				war_support_factor = 0.2
+				stability_factor = -0.25
+				war_support_factor = 0.1
+				production_speed_buildings_factor = -0.2
 			}
 		}
 

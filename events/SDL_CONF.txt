@@ -1247,6 +1247,20 @@ country_event = {
    				type = annex_everything
 				}
 		}
+		ABL = {
+			declare_war_on = {
+    				target = OZB
+   				type = annex_everything
+				}
+			declare_war_on = {
+    				target = TYR
+   				type = annex_everything
+				}
+			declare_war_on = {
+    				target = FRZ
+   				type = annex_everything
+				}
+		}
 		hidden_effect = {
 			OZB = {
 				country_event = {

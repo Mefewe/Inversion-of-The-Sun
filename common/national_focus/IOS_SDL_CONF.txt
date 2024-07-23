@@ -1587,11 +1587,6 @@ shared_focus = {
 	}
 }
 
-
-
-
-
-
 shared_focus = {
 	id = SDL_propaganda_effort
 	available = {

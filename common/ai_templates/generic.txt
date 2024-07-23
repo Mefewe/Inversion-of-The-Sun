@@ -40,7 +40,7 @@ armor_generic = {
 		}
 		
 		can_upgrade_in_field = {
-			has_equipment = { med_tank_eq < 500 } 
+			has_equipment = { modern_tank_chassis < 500 } 
 		}
 		
 		target_width = 18.0

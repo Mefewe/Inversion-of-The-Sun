@@ -28,6 +28,38 @@ focus_tree = {
 	continuous_focus_position = { x = 2000 y = 1200 }
 }
 focus_tree = {
+	id = ABL_uchinchi_democratie
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ABL
+		}
+	}
+	shared_focus = ABL_Wir_Wollen_Atmen
+	shared_focus = ABL_sozvatj_komitet
+	shared_focus = ABL_razvitj_infrastrukturu
+	shared_focus = ABL_proizvesti_rotaciji
+	default = no
+	continuous_focus_position = { x = 2000 y = 1200 }
+}
+focus_tree = {
+	id = ABL_uchinchi_ankapie
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ABL
+		}
+	}
+	shared_focus = ABL_Wir_Wollen_Atmen
+	shared_focus = ABL_sozvatj_komitet
+	default = no
+	continuous_focus_position = { x = 2000 y = 1200 }
+}
+focus_tree = {
 	id = ABL_siljve_pizdec_birinchi
 	country = {
 		factor = 0
@@ -142,10 +174,135 @@ shared_focus = {
 	x = 8
 	y = 6
 	completion_reward = {
-
+		country_event = ABL.20
 	}
 }
 
+shared_focus = {
+	id = ABL_armija_truda
+	prerequisite = {
+		focus = ABL_sozdatj_voennuju_komissiu
+	}
+
+	cost = 5
+	x = 6
+	y = 7
+	completion_reward = {
+		country_event = ABL.21
+	}
+}
+shared_focus = {
+	id = ABL_velikij_val
+	prerequisite = {
+		focus = ABL_armija_truda
+	}
+
+	cost = 5
+	x = 6
+	y = 8
+	completion_reward = {
+		587 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
+				province = 6710
+			}
+			add_building_construction = {
+				type = bunker
+				level = 4
+				province = 1551
+			}
+			add_building_construction = {
+				type = bunker
+				level = 4
+				province = 1753
+			}
+			add_building_construction = {
+				type = bunker
+				level = 4
+				province = 2198
+			}
+		}
+	}
+}
+shared_focus = {
+	id = ABL_otkrytj_ekonomiku_polnostju
+	prerequisite = {
+		focus = ABL_sozdatj_voennuju_komissiu
+	}
+
+	cost = 5
+	x = 8
+	y = 7
+	completion_reward = {
+		country_event = ABL.22
+	}
+}
+shared_focus = {
+	id = ABL_dajte_im_vsjo
+	prerequisite = {
+		focus = ABL_otkrytj_ekonomiku_polnostju
+	}
+
+	cost = 5
+	x = 8
+	y = 8
+	completion_reward = {
+		country_event = ABL.23
+	}
+}
+shared_focus = {
+	id = ABL_kupitj_oborudovanije
+	prerequisite = {
+		focus = ABL_sozdatj_voennuju_komissiu
+	}
+
+	cost = 5
+	x = 10
+	y = 7
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = candc_equpment_1
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 100
+		}
+	}
+}
+shared_focus = {
+	id = ABL_poluchatj_pomosh_oef
+	prerequisite = {
+		focus = ABL_kupitj_oborudovanije
+	}
+
+	cost = 5
+	x = 10
+	y = 8
+	completion_reward = {
+		country_event = ABL.24
+	}
+}
+shared_focus = {
+	id = ABL_sohranjaja_svobodu
+	prerequisite = {
+		focus = ABL_poluchatj_pomosh_oef
+	}
+	prerequisite = {
+		focus = ABL_velikij_val
+	}
+	prerequisite = {
+		focus = ABL_dajte_im_vsjo
+	}
+
+	cost = 5
+	x = 8
+	y = 9
+	completion_reward = {
+		country_event = ABL.25
+	}
+}
 
 shared_focus = {
 	id = ABL_poisk_investorov
@@ -210,10 +367,97 @@ shared_focus = {
 		focus = ABL_lesozagotovka
 	}
 
-	cost = 5
+	cost = 7
 	x = 14
 	y = 8
 	completion_reward = {
 		country_event = ABL.15
+	}
+}
+shared_focus = {
+	id = ABL_poehatj_na_aviavystavku_v_oef
+	prerequisite = {
+		focus = ABL_poisk_investorov
+	}
+
+	cost = 3
+	x = 16
+	y = 7
+	completion_reward = {
+		country_event = ABL.17
+	}
+}
+shared_focus = {
+	id = ABL_zakupitj_raciji
+	prerequisite = {
+		focus = ABL_poehatj_na_aviavystavku_v_oef
+	}
+	available = {
+		has_completed_focus = ABL_lesozagotovka
+		has_completed_focus = ABL_sozdanie_zavodov
+	}
+	cost = 3
+	x = 16
+	y = 8
+	completion_reward = {
+		country_event = ABL.18
+	}
+}
+shared_focus = {
+	id = ABL_komissija_reform
+	prerequisite = {
+		focus = ABL_posev
+	}
+	prerequisite = {
+		focus = ABL_bazovyj_komplekt_oborony
+	}
+	prerequisite = {
+		focus = ABL_zakupitj_raciji
+	}
+
+	cost = 4
+	x = 16
+	y = 9
+	completion_reward = {
+		country_event = ABL.16
+	}
+}
+shared_focus = {
+	id = ABL_vvod_konstituciji
+	prerequisite = {
+		focus = ABL_komissija_reform
+		focus = ABL_sohranjaja_svobodu
+	}
+
+	cost = 5
+	x = 12
+	y = 10
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = vechnoe_vremennoe_praviteljstvo
+			add_idea = slava_abissniskoj_svobode
+		}
+	}
+}
+###A
+shared_focus = {
+	id = ABL_razvitj_infrastrukturu
+
+	cost = 5
+	x = 8
+	y = 11
+	completion_reward = {
+
+	}
+}
+shared_focus = {
+	id = ABL_proizvesti_rotaciji
+
+	cost = 5
+	x = 16
+	y = 11
+	completion_reward = {
+		remove_ideas = my_velikije
+		country_event = ABL.50
 	}
 }
