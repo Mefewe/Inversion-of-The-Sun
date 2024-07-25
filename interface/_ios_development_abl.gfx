@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ABL_development_guia_info_icon"
+		textureFile = "gfx/interface/ABL/ABL_info_icon.dds"
+	}
+	progressbartype = {
+		name = "GFX_ABL_progress_progbar"
+		textureFile1 = "gfx/interface/ABL/ABL_progress_content.dds"
+		textureFile2 = "gfx/interface/ABL/ABL_progress_empty.dds"
+		size = { x = 430 y = 36 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+}

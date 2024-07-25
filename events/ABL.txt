@@ -346,7 +346,290 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = ABL.50.a
-		
+		hidden_effect = {
+			set_country_flag = ABL_stariki_demobnuty
+		}
+		custom_effect_tooltip = ABL.50.tt
+	}
+}
+country_event = {
+	id = ABL.51 #ПТ
+	title = ABL.51.title
+	desc = ABL.51.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.51.a
+		add_equipment_to_stockpile = {
+			type = anti_tank_inf_1_eq
+			amount = 5000
+		}
+	}
+}
+country_event = {
+	id = ABL.52 #Выставка Абиссиния — Прогресс
+	title = ABL.52.title
+	desc = ABL.52.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.52.a
+		587 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+		swap_ideas = {
+			remove_idea = ABL_investitions_1
+			add_idea = ABL_investitions_2
+		}
+	}
+}
+country_event = {
+	id = ABL.53 #Реформы армии
+	title = ABL.53.title
+	desc = ABL.53.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.53.a
+		country_lock_all_division_template = no
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.65
+			category = land_doctrine
+			name = ABL_reform_tt
+		}
+		army_experience = 50
+	}
+}
+country_event = {
+	id = ABL.54 #Авиация
+	title = ABL.54.title
+	desc = ABL.54.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.54.a
+		create_equipment_variant = {
+			type = small_plane_airframe_1
+			name = "P-449"
+			modules = {
+				special_type_slot_1 = hmg_defense_turret
+				engine_type_slot = engine_1_1x
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				fixed_auxiliary_weapon_slot_2 = bomb_locks
+				fixed_auxiliary_weapon_slot_3 = bomb_locks
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = small_plane_airframe_1
+			variant_name = "P-449"
+			amount = 75
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = transport_plane_equipment_1
+			amount = 50
+			producer = OEF
+		}
+	}
+}
+
+country_event = {
+	id = ABL.55 #2 мехбригады
+	title = ABL.55.title
+	desc = ABL.55.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.55.a
+		create_equipment_variant = {
+			type = modern_tank_chassis_1
+			name = "T-68"
+			modules = {
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_diesel_engine_2
+				turret_type_slot = tank_modern_tank_turret
+				main_armament_slot = tank_cannon_105_module
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = suo_1
+				special_type_slot_1 = smoke_launchers1
+			}
+			upgrades = {
+				tank_engine_upgrade = 4
+				tank_armor_upgrade = 6
+			}
+		}
+		add_equipment_to_stockpile = {
+			type = modern_tank_chassis_1
+			variant_name = "T-68"
+			producer = OEF
+			amount = 250
+		}
+		add_equipment_to_stockpile = {
+			type = tank_ammo_equipment_0
+			amount = 5000
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			producer = SDL
+			amount = 12
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 500
+		}
+		add_equipment_to_stockpile = {
+			type = bronetransporter_1
+			amount = 350
+		}
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_1
+			amount = 350
+		}
+		load_oob = ABL_35
+	}
+}
+country_event = {
+	id = ABL.56 #Аэропорт
+	title = ABL.56.title
+	desc = ABL.56.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.56.a
+		587 = {
+			add_building_construction = {
+				type = air_base
+				level = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = ABL.57 #Далі буде
+	title = ABL.57.title
+	desc = ABL.57.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.57.a
+		load_focus_tree = ABL_tortinchi_democratie
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = ABL.57.dalitt
+	}
+}
+#####
+country_event = {
+	id = ABL.60 #ABL_otkrytj_sovmestnoe_predprijatije
+	title = ABL.60.title
+	desc = ABL.60.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.60.a
+		587 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = ABL.61 #дороги
+	title = ABL.61.title
+	desc = ABL.61.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.61.a
+		587 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = ABL.62 #конференция
+	title = ABL.62.title
+	desc = ABL.62.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.62.a
+		hidden_effect = {
+			set_country_flag = ABL_konfer_flage
+		}
+		custom_effect_tooltip = ABL.62.tt
+	}
+}
+#####
+country_event = {
+	id = ABL.70 #консультации
+	title = ABL.70.title
+	desc = ABL.70.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.70.a
+		add_equipment_to_stockpile = {
+			type = candc_equpment_1
+			amount = 5000
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 500
+			producer = OEF
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 200
+		}
+	}
+}
+
+
+##
+country_event = {
+	id = ABL.100 #Старт ралли (демократы)
+	title = ABL.100.title
+	desc = ABL.100.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ABL.100.a
+		ABL = {
+			declare_war_on = {
+    				target = OZB
+   					type = annex_everything
+				}
+			declare_war_on = {
+    				target = TYR
+   					type = annex_everything
+				}
+			declare_war_on = {
+    				target = FRZ
+   					type = annex_everything
+			}
+		}
 	}
 }
 

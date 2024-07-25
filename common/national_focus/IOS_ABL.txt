@@ -45,6 +45,24 @@ focus_tree = {
 	continuous_focus_position = { x = 2000 y = 1200 }
 }
 focus_tree = {
+	id = ABL_tortinchi_democratie
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = ABL
+		}
+	}
+	shared_focus = ABL_Wir_Wollen_Atmen
+	shared_focus = ABL_sozvatj_komitet
+	shared_focus = ABL_razvitj_infrastrukturu
+	shared_focus = ABL_proizvesti_rotaciji
+	shared_focus = ABL_konsultacii
+	default = no
+	continuous_focus_position = { x = 2000 y = 1200 }
+}
+focus_tree = {
 	id = ABL_uchinchi_ankapie
 	country = {
 		factor = 0
@@ -56,6 +74,7 @@ focus_tree = {
 	}
 	shared_focus = ABL_Wir_Wollen_Atmen
 	shared_focus = ABL_sozvatj_komitet
+	shared_focus = ABL_uvelichitj_dobychu
 	default = no
 	continuous_focus_position = { x = 2000 y = 1200 }
 }
@@ -447,7 +466,96 @@ shared_focus = {
 	x = 8
 	y = 11
 	completion_reward = {
-
+		set_country_flag = ABL_development_mechanic
+		set_variable = {var = ABL_progresse value = 0}
+	}
+}
+shared_focus = {
+	id = ABL_proizvesti_naturalizaciju
+	prerequisite = {
+		focus = ABL_razvitj_infrastrukturu
+	}
+	available = {
+		check_variable = {ABL_progresse > 14}
+	}
+	cost = 5
+	x = 8
+	y = 12
+	completion_reward = {
+		587 = {
+			add_manpower = 50000
+		}
+	}
+}
+shared_focus = {
+	id = ABL_priglasitj_na_vystavku
+	prerequisite = {
+		focus = ABL_proizvesti_naturalizaciju
+	}
+	available = {
+		check_variable = {ABL_progresse > 29}
+	}
+	cost = 5
+	x = 10
+	y = 13
+	completion_reward = {
+		country_event = ABL.52
+	}
+}
+shared_focus = {
+	id = ABL_osnovatj_aeroport
+	prerequisite = {
+		focus = ABL_priglasitj_na_vystavku
+	}
+	available = {
+		check_variable = {ABL_progresse > 29}
+	}
+	cost = 7
+	x = 10
+	y = 14
+	completion_reward = {
+		country_event = ABL.56
+	}
+}
+shared_focus = {
+	id = ABL_remontnye_kontory
+	prerequisite = {
+		focus = ABL_osnovatj_aeroport
+	}
+	available = {
+		check_variable = {ABL_progresse > 50}
+	}
+	cost = 5
+	x = 10
+	y = 15
+	completion_reward = {
+		587 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+			}
+		}
+	}
+}
+shared_focus = {
+	id = ABL_dali_bude
+	prerequisite = {
+		focus = ABL_remontnye_kontory
+	}
+	prerequisite = {
+		focus = ABL_sozdatj_mehbrigady
+	}
+	available = {
+		check_variable = {ABL_progresse > 99}
+	}
+	cost = 5
+	x = 12
+	y = 16
+	completion_reward = {
+		hidden_effect = {
+			set_country_flag = ABL_dali_bude_flage
+		}
+		custom_effect_tooltip = ABL_dali_bude.tt
 	}
 }
 shared_focus = {
@@ -457,7 +565,142 @@ shared_focus = {
 	x = 16
 	y = 11
 	completion_reward = {
+		587 = {
+			add_manpower = 50000
+		}
+		add_manpower = -50000
 		remove_ideas = my_velikije
 		country_event = ABL.50
+	}
+}
+shared_focus = {
+	id = ABL_zajupitj_protivotankovoje_osnashenive
+	prerequisite = {
+		focus = ABL_proizvesti_rotaciji
+	}
+	cost = 5
+	x = 16
+	y = 12
+	completion_reward = {
+		country_event = ABL.51
+	}
+}
+shared_focus = {
+	id = ABL_reformy_armiji
+	prerequisite = {
+		focus = ABL_zajupitj_protivotankovoje_osnashenive
+	}
+	cost = 5
+	x = 14
+	y = 13
+	completion_reward = {
+		country_event = ABL.53
+	}
+}
+shared_focus = {
+	id = ABL_zakupka_aviaciji
+	available = {
+		check_variable = {ABL_progresse > 30}
+		has_completed_focus = ABL_osnovatj_aeroport
+	}
+	prerequisite = {
+		focus = ABL_reformy_armiji
+	}
+	cost = 5
+	x = 14
+	y = 14
+	completion_reward = {
+		air_experience = 100
+		country_event = ABL.54
+	}
+}
+shared_focus = {
+	id = ABL_sozdatj_mehbrigady
+	prerequisite = {
+		focus = ABL_zakupka_aviaciji
+	}
+	cost = 5
+	x = 14
+	y = 15
+	completion_reward = {
+		country_event = ABL.55
+	}
+}
+###B
+shared_focus = {
+	id = ABL_uvelichitj_dobychu
+
+	cost = 5
+	x = 12
+	y = 12
+	completion_reward = {
+		587 = {
+			add_resource = {
+				type = steel
+				amount = 5
+			}
+			add_resource = {
+				type = oil
+				amount = 10
+			}
+		}
+	}
+}
+shared_focus = {
+	id = ABL_otkrytj_sovmestnoe_predprijatije
+	prerequisite = {
+		focus = ABL_uvelichitj_dobychu
+	}
+	cost = 5
+	x = 12
+	y = 13
+	completion_reward = {
+		country_event = ABL.60
+	}
+}
+shared_focus = {
+	id = ABL_razvitije_dorozhnoj_sistemy
+	prerequisite = {
+		focus = ABL_otkrytj_sovmestnoe_predprijatije
+	}
+	cost = 5
+	x = 12
+	y = 14
+	completion_reward = {
+		country_event = ABL.61
+	}
+}
+shared_focus = {
+	id = ABL_konferencija_s
+	prerequisite = {
+		focus = ABL_razvitije_dorozhnoj_sistemy
+	}
+	cost = 5
+	x = 12
+	y = 15
+	completion_reward = {
+		country_event = ABL.62
+		SDL = {
+			diplomatic_relation = {
+				country = ABL
+				active = yes
+				relation = puppet
+			}
+			set_autonomy = {
+				target = ABL
+				autonomy_state = autonomy_collaboration_government
+			}
+		}
+	}
+}
+
+###4A
+shared_focus = {
+	id = ABL_konsultacii
+	cost = 1
+	x = 12
+	y = 14
+	completion_reward = {
+		country_event = ABL.70
 	}
 }

@@ -11,32 +11,32 @@ ideas = {
 		ammo_art_idea2 = {
 			equipment_bonus = {
 				artillery = {
-					soft_attack = -0.10
-					defense = -0.15
+					soft_attack = -0.2
+					defense = -0.2
 				} 
             }
         }
 		ammo_art_idea3 = {
 			equipment_bonus = {
 				artillery = {
-					soft_attack = -0.15
-					defense = -0.15
+					soft_attack = -0.2
+					defense = -0.2
 				} 
             }
         }
 		ammo_art_idea4 = {
 			equipment_bonus = {
 				artillery = {
-					soft_attack = -0.20
-					defense = -0.20
+					soft_attack = -0.25
+					defense = -0.25
 				} 
             }
         }
 		ammo_art_idea5 = {
 			equipment_bonus = {
 				artillery = {
-					soft_attack = -0.20
-					defense = -0.20
+					soft_attack = -0.5
+					defense = -0.5
 				} 
             }
         }
@@ -62,8 +62,8 @@ ideas = {
 		ammo_inf_idea2 = {
 			equipment_bonus = {
 				infantry_equipment = {
-					defense = -0.10
-					soft_attack = -0.10
+					defense = -0.2
+					soft_attack = -0.2
 				}
 
             }
@@ -71,8 +71,8 @@ ideas = {
 		ammo_inf_idea3 = {
 			equipment_bonus = {
 				infantry_equipment = {
-					defense = -0.15
-					soft_attack = -0.15
+					defense = -0.25
+					soft_attack = -0.25
 				}
 
             }
@@ -80,8 +80,8 @@ ideas = {
 		ammo_inf_idea4 = {
 			equipment_bonus = {
 				infantry_equipment = {
-					defense = -0.20
-					soft_attack = -0.20
+					defense = -0.25
+					soft_attack = -0.25
 				}
 
             }
@@ -89,8 +89,8 @@ ideas = {
 		ammo_inf_idea5 = {
 			equipment_bonus = {
 				infantry_equipment = {
-					defense = -0.25
-					soft_attack = -0.25
+					defense = -0.5
+					soft_attack = -0.5
 				}
 
             }
@@ -108,13 +108,13 @@ ideas = {
 
 		ammo_tank_idea1 = { # 
 			equipment_bonus = {
-				modern_armor = {
+				modern_tank_chassis = {
 					defense = -0.1
 					soft_attack = -0.1
 					hard_attack = -0.1
 					breakthrough = -0.1
 				}
-				light_armor = {
+				light_tank_chassis = {
 					defense = -0.10
 					soft_attack = -0.10
 					hard_attack = -0.10
@@ -125,13 +125,13 @@ ideas = {
         }
 		ammo_tank_idea2 = {
 			equipment_bonus = {
-				modern_armor = {
+				modern_tank_chassis = {
 					defense = -0.10
 					soft_attack = -0.10
 					hard_attack = -0.10
 					breakthrough = -0.10
 				}
-				light_armor = {
+				light_tank_chassis = {
 					defense = -0.10
 					soft_attack = -0.10
 					hard_attack = -0.10
@@ -141,13 +141,13 @@ ideas = {
         }
 		ammo_tank_idea3 = {
 			equipment_bonus = {
-				modern_armor = {
+				modern_tank_chassis = {
 					defense = -0.10
 					soft_attack = -0.10
 					hard_attack = -0.10
 					breakthrough = -0.10
 				}
-				light_armor = {
+				light_tank_chassis = {
 					defense = -0.10
 					soft_attack = -0.10
 					hard_attack = -0.10
@@ -157,13 +157,13 @@ ideas = {
         }
 		ammo_tank_idea4 = {
 			equipment_bonus = {
-				modern_armor = {
+				modern_tank_chassis = {
 					defense = -0.20
 					soft_attack = -0.20
 					hard_attack = -0.20
 					breakthrough = -0.20
 				}
-				light_armor = {
+				light_tank_chassis = {
 					defense = -0.20
 					soft_attack = -0.20
 					hard_attack = -0.20
@@ -173,7 +173,7 @@ ideas = {
         }
 		ammo_tank_idea5 = {
 			equipment_bonus = {
-				modern_armor = {
+				modern_tank_chassis = {
 					defense = -0.25
 					soft_attack = -0.25
 					hard_attack = -0.25
@@ -189,13 +189,13 @@ ideas = {
         }
 		ammo_tank_idea6 = {
 			equipment_bonus = {
-				modern_armor = {
+				modern_tank_chassis = {
 					defense = -1
 					soft_attack = -1
 					hard_attack = -1
 					breakthrough = -1
 				}
-				light_armor = {
+				light_tank_chassis = {
 					defense = -1
 					soft_attack = -1
 					hard_attack = -1

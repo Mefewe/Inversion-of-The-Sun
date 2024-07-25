@@ -1,0 +1,32 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ABL_development_guia"
+		size = { width = 482 height = 100 }
+		position = { x = 0 y = 0 }
+		containerWindowType = {
+			name = "ABL_progress_niz"
+			position = { x = 33 y = 20 }
+			instantTextBoxType = {
+				name = "ABL_progress_niz_text"
+				position = { x = -22 y = 51 }
+				text = ABL_progress_niz_text_t
+				font = "hoi_18mbs"
+				format = centre
+				maxWidth = 482
+			}
+			iconType = {
+				name = "ABL_progress_progbar"
+				position = { x = 4 y = 3 }
+				quadTextureSprite = "GFX_ABL_progress_progbar"
+			}
+		}
+		
+		iconType = {
+			name = "ABL_development_guia_info_icon"
+			position = { x = 434 y = -15 }
+			spriteType = "GFX_ABL_development_guia_info_icon"
+			pdx_tooltip = ABL_develop_description_title
+			pdx_tooltip_delayed = ABL_develop_description
+		}
+	}
+}

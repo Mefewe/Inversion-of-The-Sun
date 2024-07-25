@@ -1,0 +1,13 @@
+scripted_gui = {
+	ABL_development_gui = {
+		context_type = decision_category
+		window_name = "ABL_development_guia"
+		dirty = ABL_progresse
+		triggers = {
+			ABL_progress_progbar_visible = { has_country_flag = ABL_development_mechanic }
+		}
+		properties = {
+			ABL_progress_progbar = { frame = ABL_progresse }
+		}
+	}
+}

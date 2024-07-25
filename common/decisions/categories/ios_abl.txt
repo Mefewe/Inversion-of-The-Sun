@@ -1,0 +1,27 @@
+ABL_developmentos = {
+	icon = generic_crisis
+	priority = 20
+	allowed = {
+		original_tag = ABL
+	}
+	visible = {
+		ABL = {
+			exists = yes
+			has_country_flag = ABL_development_mechanic
+		}
+	}
+	scripted_gui = ABL_development_gui
+}
+ABL_war = {
+	icon = generic_crisis
+	priority = 20
+	allowed = {
+		original_tag = ABL
+	}
+	visible = {
+		ABL = {
+			exists = yes
+			has_war = yes
+		}
+	}
+}

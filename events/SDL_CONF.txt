@@ -1247,19 +1247,22 @@ country_event = {
    				type = annex_everything
 				}
 		}
-		ABL = {
-			declare_war_on = {
-    				target = OZB
-   				type = annex_everything
+		if = {
+			limit = {
+				ABL = {
+					has_country_flag = flag_abl_done_1
 				}
-			declare_war_on = {
-    				target = TYR
-   				type = annex_everything
+			}
+			ABL = { 
+				country_event = ABL.100
+			}
+		}
+		else_if = {
+			limit = {
+				ABL = {
+					has_country_flag = flag_abl_done_2
 				}
-			declare_war_on = {
-    				target = FRZ
-   				type = annex_everything
-				}
+			}
 		}
 		hidden_effect = {
 			OZB = {

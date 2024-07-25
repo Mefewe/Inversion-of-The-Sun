@@ -1,0 +1,246 @@
+ABL_developmentos = {
+	ABL_postroitj_dorogi_mestnogo_znachenija = {
+		allowed = {
+			original_tag = ABL
+		}
+		visible = {
+			ABL = {
+				has_country_flag = ABL_development_mechanic
+				exists = yes
+			}
+		}
+		days_remove = 50
+		available = {
+			NOT = {has_country_flag = ABL_vzhe_robyat}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ABL_vzhe_robyat
+			}
+		}
+		remove_effect = {
+			587 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+			} 
+			ABL = {
+				clr_country_flag = ABL_vzhe_robyat
+				add_to_variable = {var = ABL_progresse value = 15}
+			}
+		}
+	}
+	ABL_postroitj_eshe_zavod = {
+		allowed = {
+			original_tag = ABL
+		}
+		visible = {
+			ABL = {
+				has_country_flag = ABL_development_mechanic
+				exists = yes
+			}
+		}
+		days_remove = 50
+		available = {
+			NOT = {has_country_flag = ABL_vzhe_robyat}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ABL_vzhe_robyat
+			}
+		}
+		remove_effect = {
+			587 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			} 
+			ABL = {
+				clr_country_flag = ABL_vzhe_robyat
+				add_to_variable = {var = ABL_progresse value = 15}
+			}
+		}
+	}
+	ABL_postroitj_zhiloj_kompleks = {
+		allowed = {
+			original_tag = ABL
+		}
+		visible = {
+			ABL = {
+				has_country_flag = ABL_development_mechanic
+				exists = yes
+			}
+		}
+		days_remove = 50
+		available = {
+			NOT = {has_country_flag = ABL_vzhe_robyat}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ABL_vzhe_robyat
+			}
+		}
+		remove_effect = {
+			587 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+			} 
+			ABL = {
+				clr_country_flag = ABL_vzhe_robyat
+				add_to_variable = {var = ABL_progresse value = 15}
+			}
+		}
+	}
+	ABL_postroitj_shkoly_i_bolnicy = {
+		allowed = {
+			original_tag = ABL
+		}
+		visible = {
+			ABL = {
+				has_country_flag = ABL_development_mechanic
+				exists = yes
+			}
+		}
+		days_remove = 65
+		available = {
+			NOT = {has_country_flag = ABL_vzhe_robyat}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ABL_vzhe_robyat
+			}
+		}
+		remove_effect = {
+			587 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+				}
+			} 
+			ABL = {
+				clr_country_flag = ABL_vzhe_robyat
+				add_to_variable = {var = ABL_progresse value = 15}
+			}
+		}
+	}
+	ABL_postroitj_zavod_boepripasov = {
+		allowed = {
+			original_tag = ABL
+		}
+		visible = {
+			ABL = {
+				has_country_flag = ABL_development_mechanic
+				exists = yes
+			}
+		}
+		days_remove = 65
+		available = {
+			NOT = {has_country_flag = ABL_vzhe_robyat}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ABL_vzhe_robyat
+			}
+		}
+		remove_effect = {
+			587 = {
+				add_building_construction = {
+					type = ammo_complex
+					level = 1
+				}
+			} 
+			ABL = {
+				clr_country_flag = ABL_vzhe_robyat
+				add_to_variable = {var = ABL_progresse value = 20}
+			}
+		}
+	}
+	ABL_postroitj_voennyj_zavod = {
+		allowed = {
+			original_tag = ABL
+		}
+		visible = {
+			ABL = {
+				has_country_flag = ABL_development_mechanic
+				exists = yes
+			}
+		}
+		days_remove = 65
+		available = {
+			NOT = {has_country_flag = ABL_vzhe_robyat}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ABL_vzhe_robyat
+			}
+		}
+		remove_effect = {
+			587 = {
+				add_building_construction = {
+					type = ammo_complex
+					level = 1
+				}
+			} 
+			ABL = {
+				clr_country_flag = ABL_vzhe_robyat
+				add_to_variable = {var = ABL_progresse value = 10}
+			}
+		}
+	}
+}
+ABL_war = {
+	ABL_postroitj_voennyj_zavod = {
+		allowed = {
+			original_tag = ABL
+		}
+		visible = {
+			ABL = {
+				has_war = yes
+				has_country_flag = ABL_stariki_demobnuty
+				exists = yes
+			}
+		}
+		days_remove = 3
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		remove_effect = {
+			load_oob = ABL_2
+		}
+	}
+}
