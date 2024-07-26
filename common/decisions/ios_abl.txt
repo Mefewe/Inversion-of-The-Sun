@@ -9,6 +9,7 @@ ABL_developmentos = {
 				exists = yes
 			}
 		}
+		cost = 100
 		days_remove = 50
 		available = {
 			NOT = {has_country_flag = ABL_vzhe_robyat}
@@ -46,6 +47,7 @@ ABL_developmentos = {
 				exists = yes
 			}
 		}
+		cost = 100
 		days_remove = 50
 		available = {
 			NOT = {has_country_flag = ABL_vzhe_robyat}
@@ -83,6 +85,7 @@ ABL_developmentos = {
 				exists = yes
 			}
 		}
+		cost = 100
 		days_remove = 50
 		available = {
 			NOT = {has_country_flag = ABL_vzhe_robyat}
@@ -120,6 +123,7 @@ ABL_developmentos = {
 				exists = yes
 			}
 		}
+		cost = 100
 		days_remove = 65
 		available = {
 			NOT = {has_country_flag = ABL_vzhe_robyat}
@@ -157,6 +161,7 @@ ABL_developmentos = {
 				exists = yes
 			}
 		}
+		cost = 100
 		days_remove = 65
 		available = {
 			NOT = {has_country_flag = ABL_vzhe_robyat}
@@ -194,6 +199,7 @@ ABL_developmentos = {
 				exists = yes
 			}
 		}
+		cost = 100
 		days_remove = 65
 		available = {
 			NOT = {has_country_flag = ABL_vzhe_robyat}
@@ -223,7 +229,7 @@ ABL_developmentos = {
 	}
 }
 ABL_war = {
-	ABL_postroitj_voennyj_zavod = {
+	ABL_prizyv_veteranov = {
 		allowed = {
 			original_tag = ABL
 		}
@@ -234,6 +240,7 @@ ABL_war = {
 				exists = yes
 			}
 		}
+		cost = 50
 		days_remove = 3
 		ai_will_do = {
 			factor = 100
