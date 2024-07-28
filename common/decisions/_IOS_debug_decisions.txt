@@ -130,7 +130,7 @@ debug_decisions = {
 		fire_only_once = no
 		cost = 0
 		complete_effect = {
-			set_variable = { global.open_info_popup }
+			set_variable = { var = global.open_info_popup value = 1 }
 		}
 	}
 	debug_gui_folder_CLOSE = {

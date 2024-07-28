@@ -1,6 +1,6 @@
 ﻿l_russian:
- CHN_fascism:0 "Великая Чейнджлингская Империя"
- CHN_fascism_DEF:0 "Великая Чейнджлингская Империя"
+ CHN_fascism:0 "Великочейнджлингская Империя"
+ CHN_fascism_DEF:0 "Великочейнджлингская Империя"
  CHN_democratic:0 "A"
  CHN_democratic_DEF:0 "A"
  CHN_neutrality:1 "A"
@@ -498,9 +498,9 @@
  UNC_paternalism_DEF:1 "Не колонизированное"
  UNC_paternalism_ADJ:1 "Не колонизированное"
 
- ANF: "АНД"
- ANF_DEF: "Анти-нирикское движение"
- ANF_ADJ: "Анти-нирикск"
+ ANF: "Анти-нирикинское Движение"
+ ANF_DEF: "Анти-нирикинское Движение"
+ ANF_ADJ: "Анти-нирикинск"
 
  BKS_communism:1 "Баксана"
  BKS_communism_DEF:1 "Баксанск"
