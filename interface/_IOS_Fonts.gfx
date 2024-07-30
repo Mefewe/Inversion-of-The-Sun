@@ -4,5 +4,5 @@ bitmapfonts = {
 		path = "gfx/fonts/invisiblefont"
 		color = 0xffffffff
 		textcolors = { }
-	}
+	}	
 }

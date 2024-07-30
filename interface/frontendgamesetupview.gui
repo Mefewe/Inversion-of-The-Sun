@@ -32,7 +32,7 @@ guiTypes = {
 			name = "date"
 			#position = { x = 22 y = 147 }
 			position = { x = -6000 y = 147 }
-			font = "aldrich_24_outline"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "FE_BOOKMARK_DATE"
 			maxWidth = 185
