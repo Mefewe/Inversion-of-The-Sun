@@ -183,42 +183,6 @@ equipment_modules = {
 
 	###Armor Types
 
-	tank_riveted_armor = {
-		abbreviation = "riv"
-		category = tank_armor_type
-		sfx = sfx_ui_sd_module_sonar
-
-		add_stats = {
-			#soft_attack = 1 # that's when rivets shoot back because they got dislodged by the shock. That was in fact the first reactive armor.
-			
-			defense = 2
-			breakthrough = 2
-		}
-		xp_cost = 8
-		multiply_stats = {
-			build_cost_ic = -0.2
-
-		}
-	}
-
-	tank_cast_armor = {
-		abbreviation = "cas"
-		category = tank_armor_type
-		sfx = sfx_ui_sd_module_sonar
-
-		add_stats = {
-			defense = 4
-			breakthrough = 4	
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 8
-		multiply_stats = {
-			build_cost_ic = 0.2
-			armor_value = 0.5
-
-		}
-	}
-
 	tank_welded_armor = {
 		abbreviation = "wel"
 		category = tank_armor_type
@@ -232,7 +196,39 @@ equipment_modules = {
 		dismantle_cost_ic = 1
 		multiply_stats = {
 			armor_value = 0.4
+		}
+	}
 
+	tank_welded_armor_2 = {
+		abbreviation = "wel2"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+			defense = 2
+			breakthrough = 2
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+			armor_value = 0.6
+
+		}
+	}
+
+	tank_welded_armor_3 = {
+		abbreviation = "wel3"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+			defense = 2
+			breakthrough = 2
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+			armor_value = 0.95
 		}
 	}
 
@@ -394,8 +390,8 @@ equipment_modules = {
 
 	}
 	
-	tank_modern_tank_turret = {
-		abbreviation = "mbt"
+	tank_modern_tank_turret_1 = {
+		abbreviation = "mbt1"
 		category = tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
 
@@ -412,7 +408,46 @@ equipment_modules = {
 		xp_cost = 2
 		multiply_stats = {
 		}
+	}
 
+	tank_modern_tank_turret_2 = {
+		abbreviation = "mbt2"
+		category = tank_modern_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_heavy_main_armament
+			}
+		}
+		add_stats = {
+			build_cost_ic = 12
+			breakthrough = 36
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 2
+		multiply_stats = {
+		}
+	}
+
+	tank_modern_tank_turret_3 = {
+		abbreviation = "mbt3"
+		category = tank_modern_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_heavy_main_armament
+			}
+		}
+		add_stats = {
+			build_cost_ic = 15
+			breakthrough = 48
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 2
+		multiply_stats = {
+		}
 	}
 
 	###Weapons

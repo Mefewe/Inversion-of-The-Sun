@@ -798,6 +798,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = -7 y = 13 }
 		}
+		enable_equipment_modules = {
+			tank_modern_tank_turret_1
+		}
 		categories = {
 			armor
 		}
@@ -813,6 +816,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 5 y = 13 }
 		}
+		enable_equipment_modules = {
+			tank_modern_tank_turret_2
+		}
 		categories = {
 			armor
 		}
@@ -827,6 +833,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 21 y = 13 }
+		}
+		enable_equipment_modules = {
+			tank_modern_tank_turret_3
 		}
 		categories = {
 			armor
@@ -849,7 +858,7 @@ technologies = {
 			position = { x = -3 y = 11 }
 		}
 		enable_equipment_modules = {
-			smoke_launchers3
+			tank_welded_armor
 		}
 		categories = {
 			armor
@@ -867,7 +876,7 @@ technologies = {
 			position = { x = 5 y = 11 }
 		}
 		enable_equipment_modules = {
-			smoke_launchers3
+			tank_welded_armor_2
 		}
 		categories = {
 			armor
@@ -884,8 +893,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 13 y = 11 }
 		}
-		enable_equipment_modules = {
-			smoke_launchers3
+		modern_armor = {
+			armor_value = 50
+			breakthrough = 50
 		}
 		categories = {
 			armor
@@ -899,7 +909,7 @@ technologies = {
 			position = { x = 21 y = 11 }
 		}
 		enable_equipment_modules = {
-			smoke_launchers3
+			tank_welded_armor_3
 		}
 		categories = {
 			armor
