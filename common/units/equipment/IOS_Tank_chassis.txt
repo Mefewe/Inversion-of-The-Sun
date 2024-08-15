@@ -440,12 +440,11 @@ equipments = {
 	magic_tank_1_chassis = {
 		year = 1772
 
-		module_slots = inherit
 		archetype = magic_tank_chassis
-
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
+		module_slots = inherit
 
 		build_cost_ic = 48
 		resources = {
@@ -459,13 +458,12 @@ equipments = {
 	magic_tank_2_chassis = {
 		year = 1776
 
-		module_slots = inherit
 		archetype = magic_tank_chassis
 		parent = magic_tank_1_chassis
-
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
+		module_slots = inherit
 
 		build_cost_ic = 48
 		resources = {
@@ -479,13 +477,12 @@ equipments = {
 	magic_tank_3_chassis = {
 		year = 1783
 
-		module_slots = inherit
 		archetype = magic_tank_chassis
 		parent = magic_tank_2_chassis
-
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
+		module_slots = inherit
 
 		build_cost_ic = 48
 		resources = {

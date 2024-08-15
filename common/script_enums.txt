@@ -419,6 +419,14 @@ script_enum_equipment_bonus_type = {
 	jet_strat_bomber_equipment_1
 	
 	# IOS EQUIPMENT TYPES
+	magic_tank_chassis
+	magic_tank_1_chassis
+	magic_tank_2_chassis
+	magic_tank_3_chassis
+	magic_tank_eq
+	magic_tank_1_eq
+	magic_tank_2_eq
+	magic_tank_3_eq
 	boevaja_mashina_desantu
 	boevaja_mashina_desantu_1
 	bronetransporter
