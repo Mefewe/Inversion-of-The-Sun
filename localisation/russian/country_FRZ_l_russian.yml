@@ -1,4 +1,55 @@
 ﻿l_russian:
+
+ ####################
+ ### COUNTRY NAME ###
+ ####################
+ 
+ ### FRZ
+
+ FRZ_fascism: "Фараси"
+ FRZ_democratic: "Фараси"
+ FRZ_neutrality: "Фараси"
+ FRZ_communism: "Фараси"
+ FRZ_paternalism: "Фараси"
+ FRZ_progressivism: "Фараси"
+ 
+ FRZ_fascism_DEF: "Фараси"
+ FRZ_democratic_DEF: "Фараси"
+ FRZ_neutrality_DEF: "Фараси"
+ FRZ_communism_DEF: "Фараси"
+ FRZ_paternalism_DEF: "Фараси"
+ FRZ_progressivism_DEF: "Фараси"
+ 
+ FRZ_fascism_ADJ: "Фарсийск"
+ FRZ_democratic_ADJ: "Фарсийск"
+ FRZ_neutrality_ADJ: "Фарсийск"
+ FRZ_communism_ADJ: "Фарсийск"
+ FRZ_paternalism_ADJ: "Фарсийск"
+ FRZ_progressivism_ADJ: "Фарсийск"
+
+ ### FRZ_CHN
+
+ FRZ_CHN_fascism: "Генералговернмент Фаразия"
+ FRZ_CHN_democratic: "Генералговернмент Фаразия"
+ FRZ_CHN_neutrality: "Генералговернмент Фаразия"
+ FRZ_CHN_communism: "Генералговернмент Фаразия"
+ FRZ_CHN_paternalism: "Генералговернмент Фаразия"
+ FRZ_CHN_progressivism: "Генералговернмент Фаразия"
+ 
+ FRZ_CHN_fascism_DEF: "Генералговернмент Фаразия"
+ FRZ_CHN_democratic_DEF: "Генералговернмент Фаразия"
+ FRZ_CHN_neutrality_DEF: "Генералговернмент Фаразия"
+ FRZ_CHN_communism_DEF: "Генералговернмент Фаразия"
+ FRZ_CHN_paternalism_DEF: "Генералговернмент Фаразия"
+ FRZ_CHN_progressivism_DEF: "Генералговернмент Фаразия"
+ 
+ FRZ_CHN_fascism_ADJ: "Фарсийск"
+ FRZ_CHN_democratic_ADJ: "Фарсийск"
+ FRZ_CHN_neutrality_ADJ: "Фарсийск"
+ FRZ_CHN_communism_ADJ: "Фарсийск"
+ FRZ_CHN_paternalism_ADJ: "Фарсийск"
+ FRZ_CHN_progressivism_ADJ: "Фарсийск"
+ 
  ###############
  ### LEADERS ###
  ###############

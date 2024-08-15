@@ -19,7 +19,7 @@ AOZ_Operation_Mahrots_Preparing = {
 			}
 		}
 	}
-	priority = 20
+	priority = 120
 }
 
 AOZ_Equipment_Receiving = {
@@ -27,5 +27,5 @@ AOZ_Equipment_Receiving = {
 	visible = {
 		tag = AOZ
 	}
-	priority = 20
+	priority = 110
 }

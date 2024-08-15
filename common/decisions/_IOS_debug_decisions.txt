@@ -327,7 +327,7 @@ debug_decisions = {
 		fire_only_once = no
 		cost = 0
 		complete_effect = {
-			load_focus_tree = AOZ_focus_tree_tort_A
+			load_focus_tree = AOZ_focus_tree_four
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
@@ -340,11 +340,11 @@ debug_decisions = {
 		fire_only_once = no
 		cost = 0
 		complete_effect = {
-			load_focus_tree = AOZ_focus_tree_besh_A
+			load_focus_tree = AOZ_focus_tree_five
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-	debug_aoz_load_tree_6 = {		
+	debug_aoz_load_tree_REP_OLD_1 = {		
 		icon = generic_research
 		visible = {
 			has_country_flag = DEBUG_AOZ_FolderOpened
@@ -353,11 +353,11 @@ debug_decisions = {
 		fire_only_once = no
 		cost = 0
 		complete_effect = {
-			load_focus_tree = AOZ_focus_tree_besh_A
+			load_focus_tree = AOZ_focus_tree_tort_A
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-	debug_aoz_load_tree_6_alt = {		
+	debug_aoz_load_tree_REP_OLD_2 = {		
 		icon = generic_research
 		visible = {
 			has_country_flag = DEBUG_AOZ_FolderOpened
@@ -366,7 +366,20 @@ debug_decisions = {
 		fire_only_once = no
 		cost = 0
 		complete_effect = {
-			load_focus_tree = AOZ_focus_tree_tort_B
+			load_focus_tree = AOZ_focus_tree_besh_A 
+			mark_focus_tree_layout_dirty = yes
+		}
+	}	
+	debug_aoz_load_tree_NAT_OLD_1 = {		
+		icon = generic_research
+		visible = {
+			has_country_flag = DEBUG_AOZ_FolderOpened
+			tag = AOZ
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			load_focus_tree = AOZ_focus_tree_tort_B 
 			mark_focus_tree_layout_dirty = yes
 		}
 	}

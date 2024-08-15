@@ -104,10 +104,70 @@ equipment_modules = {
 		}
 	}
 
-	### Armor enchatments
+	### Tank enchantments
 
-	tank_armor_enchantments = {
-		abbreviation = "ench"
+	tank_armor_resistance_enchantment = {
+		abbreviation = "bench"
+		category = tank_armor_enchantment_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 2
+		}
+		xp_cost = 8
+		multiply_stats = {
+			build_cost_ic = 2
+
+		}
+	}
+
+	tank_magic_flash_enchantment = {
+		abbreviation = "mfench"
+		category = tank_armor_enchantment_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 2
+		}
+		xp_cost = 8
+		multiply_stats = {
+			build_cost_ic = 2
+
+		}
+	}
+
+	tank_armor_camouflage_enchantment = {
+		abbreviation = "acench"
+		category = tank_armor_enchantment_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 2
+		}
+		xp_cost = 8
+		multiply_stats = {
+			build_cost_ic = 2
+
+		}
+	}
+
+	tank_autorepair_enchantment = {
+		abbreviation = "arench"
+		category = tank_armor_enchantment_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 2
+		}
+		xp_cost = 8
+		multiply_stats = {
+			build_cost_ic = 2
+
+		}
+	}
+
+	tank_armor_universal_modulator = {
+		abbreviation = "umench"
 		category = tank_armor_enchantment_type
 		sfx = sfx_ui_sd_module_sonar
 

@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		mjn_our_right = {
+			modifier = {
+				offensive_war_stability_factor = 0.85
+			}
+		}
+		mjn_mfa_degradation = {
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.15
+			}
+		}
+		mjn_end_is_near = {
+			modifier = {
+			}
+		}
+		mjn_last_offensive = {
+			modifier = {
+				army_attack_factor = 0.15
+				army_speed_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.25
+				supply_consumption_factor = -0.1
+				out_of_supply_factor = -0.25
+				army_fuel_consumption_factor = -0.5
+				max_planning_factor = 0.15
+				planning_speed = 0.25
+			}
+		}
+		mjn_alchemic_experiments = {
+			modifier = {
+				army_attack_factor = 0.15
+				army_morale_factor = 0.1
+				stability_factor = -0.075
+				research_speed_factor = 0.1
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.08
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_max_efficiency_factor = -0.075
+			}
+		}
+	}
+}

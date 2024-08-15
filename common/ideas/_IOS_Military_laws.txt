@@ -303,7 +303,7 @@ ideas = {
 		use_list_view = yes
 
 		training_program = {
-
+			level = 1
 			cost = 150
 			removal_cost = -1
 
@@ -322,7 +322,7 @@ ideas = {
 
 
 		weekly_training = {
-
+			level = 2
 			cost = 150
 			removal_cost = -1
 
@@ -338,7 +338,7 @@ ideas = {
 		}
 
 		no_trainings = {
-
+			level = 3
 			cost = 150
 			removal_cost = -1
 
@@ -359,7 +359,7 @@ ideas = {
 		use_list_view = yes
 
 		state_academies = {
-
+			level = 1
 			cost = 150
 			removal_cost = -1
 
@@ -377,7 +377,7 @@ ideas = {
 		}
 
 		military_favoritism = {
-
+			level = 2
 			cost = 150
 			removal_cost = -1
 
@@ -393,7 +393,7 @@ ideas = {
 		}
 
 		uncontrolable_warlords = {
-
+			level = 3
 			cost = 150
 			removal_cost = -1
 
@@ -414,7 +414,7 @@ ideas = {
 		use_list_view = yes
 
 		open_borders = {
-
+			level = 1
 			cost = 150
 			removal_cost = -1
 
@@ -432,7 +432,7 @@ ideas = {
 		}
 
 		closed_borders = {
-
+			level = 2
 			cost = 150
 			removal_cost = -1
 
@@ -448,7 +448,7 @@ ideas = {
 		}
 
 		no_border_control = {
-
+			level = 3
 			cost = 150
 			removal_cost = -1
 

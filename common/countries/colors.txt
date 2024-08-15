@@ -111,8 +111,8 @@ color_ui = rgb { 85 101 63 }
 }
 
 FRZ = {
-color = rgb { 76 103 81 }
-color_ui = rgb { 76 103 81 }
+color = rgb { 189 71 122 }
+color_ui = rgb { 189 71 122 }
 }
 
 TYR = {
@@ -124,7 +124,6 @@ SDL = {
 color = rgb { 183 164 48 }
 color_ui = rgb { 183 164 48 }
 }
-
 
 LBR = {
 color = rgb { 174 97 36 }
@@ -287,8 +286,8 @@ color_ui = rgb { 149 193 170 }
 }
 
 SRP = {
-color = rgb { 79 105 95 }
-color_ui = rgb { 79 105 95 }
+color = rgb { 146 130 104 }
+color_ui = rgb { 146 130 104 }
 }
 
 ZRT = {
@@ -367,10 +366,14 @@ color_ui = rgb { 171 132 60 }
 }
 
 ABL = {
-	color = rgb { 79 129 69 }
-	color_ui = rgb {  79 129 69 }
+color = rgb { 79 129 69 }
+color_ui = rgb {  79 129 69 }
 }
 
+MJN = {
+color = rgb { 97 95 227 }
+color_ui = rgb { 97 95 227 }
+}
 
 D01 = {
 	color = rgb { 122 179 97 }

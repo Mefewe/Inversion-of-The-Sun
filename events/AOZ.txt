@@ -1192,6 +1192,21 @@ country_event = { #
 	}
 }
 
+country_event = { # Beginning of fourth focus tree
+	id = AOZ.2100
+	title = AOZ.2100.title
+	desc = AOZ.2100.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	option = {
+		name = AOZ.2100.a
+		mark_focus_tree_layout_dirty = yes
+		load_focus_tree = AOZ_focus_tree_four
+	}
+}
+
+### Black market decision events
+
 country_event = {
 	id = AOZ_BlackMarket.1
 	title = AOZ_BlackMarket.1.title

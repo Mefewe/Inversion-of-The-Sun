@@ -25,6 +25,11 @@ technologies = {
 			armor
 		}
 	}
+
+	################
+	# TANK CHASSIS #
+	################
+
 	gw_light_tank = {
 		research_cost = 2
 		start_year = 1763
@@ -305,6 +310,11 @@ technologies = {
 			armor
 		}
 	}
+
+	##################
+	# ENGINE MODULES #
+	##################
+
 	diesel_engine_2 = {
 		research_cost = 2
 		start_year = 1772
@@ -407,12 +417,14 @@ technologies = {
 			armor
 		}
 	}
+
+	#######################
+	# MAGIC TANKS CHASSIS #
+	#######################
+
 	armor_enchantments = {
 		research_cost = 2
 		start_year = 1770
-		enable_equipment_modules = {
-			tank_armor_enchantments 
-		}
 		dependencies = {
 			diesel_engine_1 = 1
 		}
@@ -443,7 +455,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			magic_tank_1_eq
+			magic_tank_1_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -501,7 +513,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			magic_tank_2_eq
+			magic_tank_2_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -555,7 +567,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			magic_tank_3_eq
+			magic_tank_3_chassis
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -603,6 +615,11 @@ technologies = {
 			armor
 		}
 	}
+
+	###############
+	# SUO MODULES #
+	###############
+
 	automatical_fire_system_1 = {
 		research_cost = 2
 		start_year = 1770
@@ -653,6 +670,11 @@ technologies = {
 			armor
 		}
 	}
+
+	##################
+	# CANNON MODULES #
+	##################
+
 	tank_cannon_105 = {
 		research_cost = 2
 		start_year = 1772
@@ -704,6 +726,11 @@ technologies = {
 			armor
 		}
 	}
+
+	#################
+	# OTHER MODULES #
+	#################
+
 	smoke_tank_ammo_1 = {
 		research_cost = 2
 		start_year = 1772
@@ -755,6 +782,11 @@ technologies = {
 			armor
 		}
 	}
+
+	##################
+	# TURRET MODULES #
+	##################
+
 	tank_turret_1 = {
 		research_cost = 2
 		start_year = 1763
@@ -801,16 +833,23 @@ technologies = {
 		}
 	}
 
+	#################
+	# ARMOR MODULES #
+	#################
+
 	armor_tech_1 = {
 		research_cost = 2
 		start_year = 1770
 		path = {
-            leads_to_tech = armor_tech_2
-            research_cost_coeff = 1
-        }
+			leads_to_tech = armor_tech_2
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -3 y = 11 }
+		}
+		enable_equipment_modules = {
+			smoke_launchers3
 		}
 		categories = {
 			armor
@@ -820,12 +859,15 @@ technologies = {
 		research_cost = 2
 		start_year = 1774
 		path = {
-            leads_to_tech = armor_tech_3
-            research_cost_coeff = 1
-        }
+			leads_to_tech = armor_tech_3
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 5 y = 11 }
+		}
+		enable_equipment_modules = {
+			smoke_launchers3
 		}
 		categories = {
 			armor
@@ -835,12 +877,15 @@ technologies = {
 		research_cost = 2
 		start_year = 1780
 		path = {
-            leads_to_tech = armor_tech_4
-            research_cost_coeff = 1
-        }
+			leads_to_tech = armor_tech_4
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 13 y = 11 }
+		}
+		enable_equipment_modules = {
+			smoke_launchers3
 		}
 		categories = {
 			armor
@@ -853,10 +898,17 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 21 y = 11 }
 		}
+		enable_equipment_modules = {
+			smoke_launchers3
+		}
 		categories = {
 			armor
 		}
 	}
+
+	####################
+	# RECHARGE MODULES #
+	####################
 
 	automatical_recharge_1 = {
 		research_cost = 2
@@ -892,6 +944,11 @@ technologies = {
 			armor
 		}
 	}
+
+	########################
+	# ENCHANTMENTS MODULES #
+	########################
+
 	armor_endurance_enchantment = {
 		research_cost = 2
 		start_year = 1772
@@ -904,6 +961,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = 0 }
+		}
+		enable_equipment_modules = {
+			tank_armor_resistance_enchantment
 		}
 		categories = {
 			armor
@@ -922,6 +982,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 0 }
 		}
+		enable_equipment_modules = {
+			tank_magic_flash_enchantment
+		}
 		categories = {
 			armor
 		}
@@ -938,6 +1001,9 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 6 y = 0 }
+		}
+		enable_equipment_modules = {
+			tank_armor_camouflage_enchantment
 		}
 		categories = {
 			armor
@@ -956,6 +1022,9 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 6 y = 0 }
 		}
+		enable_equipment_modules = {
+			tank_autorepair_enchantment
+		}
 		categories = {
 			armor
 		}
@@ -973,10 +1042,16 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 12 y = 0 }
 		}
+		enable_equipment_modules = {
+			tank_armor_universal_modulator
+		}
 		categories = {
 			armor
 		}
 	}
+
+
+
 	armoured_capsule = {
 		research_cost = 2
 		start_year = 1785

@@ -46,7 +46,35 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 2800 y = 2200 }
 }
+focus_tree = {
+	id = AOZ_focus_tree_four
+	country = {
+		factor = 0
 
+		modifier = {
+			add = 12
+			original_tag = AOZ
+		}
+	}
+	shared_focus = AOZ_targets_and_reasons
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
+focus_tree = {
+	id = AOZ_focus_tree_five
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 12
+			original_tag = AOZ
+		}
+	}
+	shared_focus = AOZ_targets_and_reasons
+	shared_focus = AOZ_result_of_invasion
+	default = no
+	continuous_focus_position = { x = 2800 y = 2200 }
+}
 focus_tree = {
 	id = AOZ_focus_tree_tort_A #адекватно
 	country = {
@@ -805,7 +833,368 @@ shared_focus = {
 		}
 	}
 }
+################# Fourth tree
+shared_focus = {
+	id = AOZ_targets_and_reasons
+	cost = 1
+	x = 12
+	y = 1
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_initiate_a_fall_of_Mgabe
+	prerequisite = {
+		focus = AOZ_targets_and_reasons
+	}
+	cost = 1
+	x = 12
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_call_foreign_allies
+	prerequisite = {
+		focus = AOZ_initiate_a_fall_of_Mgabe
+	}
+	cost = 1
+	x = 11
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_special_diplomatic_mission
+	prerequisite = {
+		focus = AOZ_call_foreign_allies
+	}
+	cost = 1
+	x = 10
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_call_warlords
+	prerequisite = {
+		focus = AOZ_initiate_a_fall_of_Mgabe
+	}
+	cost = 1
+	x = 13
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_jewelry_for_weapons
+	prerequisite = {
+		focus = AOZ_call_warlords
+	}
+	cost = 1
+	x = 14
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_a_blow_to_the_rear
+	prerequisite = {
+		focus = AOZ_special_diplomatic_mission
+	}
+	prerequisite = {
+		focus = AOZ_jewelry_for_weapons
+	}
+	cost = 1
+	x = 12
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_beginning_of_invasion
+	prerequisite = {
+		focus = AOZ_a_blow_to_the_rear
+	}
+	cost = 1
+	x = 12
+	y = 6
+	completion_reward = { 
+	}
+}
+################# Fifth tree
+shared_focus = {
+	id = AOZ_result_of_invasion
+	cost = 1
+	x = 12
+	y = 7
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_calculating_losses
+	prerequisite = {
+		focus = AOZ_result_of_invasion
+	}
+	cost = 1
+	x = 12
+	y = 8
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_problematic_army
+	prerequisite = {
+		focus = AOZ_calculating_losses
+	}
+	cost = 1
+	x = 11
+	y = 9
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_problematic_society
+	prerequisite = {
+		focus = AOZ_calculating_losses
+	}
+	cost = 1
+	x = 13
+	y = 9
+	completion_reward = { 
+	}
+}
 
+
+shared_focus = {
+	id = AOZ_proclamation_of_fourth_principles
+	prerequisite = {
+		focus = AOZ_problematic_army
+	}
+	prerequisite = {
+		focus = AOZ_problematic_society
+	}
+	cost = 1
+	x = 10
+	y = 10
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_we_are_not_defeated
+	prerequisite = {
+		focus = AOZ_problematic_army
+	}
+	prerequisite = {
+		focus = AOZ_problematic_society
+	}
+	cost = 1
+	x = 14
+	y = 10
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_call_Berk
+	prerequisite = {
+		focus = AOZ_problematic_army
+	}
+	prerequisite = {
+		focus = AOZ_problematic_society
+	}
+	cost = 1
+	x = 11
+	y = 11
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_distribution_of_food
+	prerequisite = {
+		focus = AOZ_problematic_army
+	}
+	prerequisite = {
+		focus = AOZ_problematic_society
+	}
+	cost = 1
+	x = 13
+	y = 11
+	competion_reward = { 
+	}
+}
+
+
+
+shared_focus = {
+	id = AOZ_antagonism_of_AOZ_n_Statthalter
+	prerequisite = {
+		focus = AOZ_proclamation_of_fourth_principles
+	}
+	prerequisite = {
+		focus = AOZ_we_are_not_defeated
+	}	
+	prerequisite = {
+		focus = AOZ_call_Berk
+	}	
+	prerequisite = {
+		focus = AOZ_distribution_of_food
+	}
+	cost = 1
+	x = 12
+	y = 12
+	competion_reward = { 
+	}
+}
+
+
+
+shared_focus = {
+	id = AOZ_focus_on_economics
+	prerequisite = {
+		focus = AOZ_antagonism_of_AOZ_n_Statthalter
+	}
+	cost = 1
+	x = 10
+	y = 13
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_encouragement_of_national_production
+	prerequisite = {
+		focus = AOZ_focus_on_economics
+	}
+	mutually_exclusive = {
+		focus = AOZ_organizing_market_frontier
+	}
+	cost = 1
+	x = 8
+	y = 14
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_organizing_market_frontier
+	prerequisite = {
+		focus = AOZ_focus_on_economics
+	}
+	mutually_exclusive = {
+		focus = AOZ_encouragement_of_national_production
+	}
+	cost = 1
+	x = 10
+	y = 14
+	competion_reward = { 
+	}
+}
+
+
+
+shared_focus = {
+	id = AOZ_civilian_self_defence
+	prerequisite = {
+		focus = AOZ_antagonism_of_AOZ_n_Statthalter
+	}
+	cost = 1
+	x = 14
+	y = 13
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_deal_with_all_criminal_organizations
+	prerequisite = {
+		focus = AOZ_civilian_self_defence
+	}
+	mutually_exclusive = {
+		focus = AOZ_decriminalization_of_friends
+	}
+	mutually_exclusive = {
+		focus = AOZ_legalization_of_friends
+	}
+	cost = 1
+	x = 14
+	y = 14
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_decriminalization_of_friends
+	prerequisite = {
+		focus = AOZ_civilian_self_defence
+	}
+	mutually_exclusive = {
+		focus = AOZ_deal_with_all_criminal_organizations
+	}
+	mutually_exclusive = {
+		focus = AOZ_legalization_of_friends
+	}
+	cost = 1
+	x = 16
+	y = 14
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_legalization_of_friends
+	prerequisite = {
+		focus = AOZ_civilian_self_defence
+	}
+	mutually_exclusive = {
+		focus = AOZ_deal_with_all_criminal_organizations
+	}
+	mutually_exclusive = {
+		focus = AOZ_decriminalization_of_friends
+	}
+	cost = 1
+	x = 18
+	y = 14
+	competion_reward = { 
+	}
+}
+
+
+
+shared_focus = {
+	id = AOZ_stop_fragmentation_of_country
+	prerequisite = {
+		focus = AOZ_encouragement_of_national_production
+		focus = AOZ_organizing_market_frontier
+	}
+	prerequisite = {
+		focus = AOZ_deal_with_all_criminal_organizations
+		focus = AOZ_decriminalization_of_friends
+		focus = AOZ_legalization_of_friends
+	}
+	mutually_exclusive = {
+		focus = AOZ_Wisp_federalization_project
+	}
+	cost = 1
+	x = 11
+	y = 15
+	competion_reward = { 
+	}
+}
+shared_focus = {
+	id = AOZ_Wisp_federalization_project
+	prerequisite = {
+		focus = AOZ_encouragement_of_national_production
+		focus = AOZ_organizing_market_frontier
+	}
+	prerequisite = {
+		focus = AOZ_deal_with_all_criminal_organizations
+		focus = AOZ_decriminalization_of_friends
+		focus = AOZ_legalization_of_friends
+	}
+	mutually_exclusive = {
+		focus = AOZ_stop_fragmentation_of_country
+	}
+	cost = 1
+	x = 13
+	y = 15
+	competion_reward = { 
+	}
+}
 ################# TORT A
 shared_focus = { #
 	id = AOZ_razvitj_infrastrukturu

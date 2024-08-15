@@ -8,6 +8,7 @@ state={
 	victory_points = {7682 25} # Баксоя
         owner = FRZ
         add_core_of = ABL
+		add_core_of = FRZ
         buildings = {
                 infrastructure = 3
 		industrial_complex = 2

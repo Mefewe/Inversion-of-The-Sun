@@ -94,6 +94,13 @@
  tyr_abada_raids_idea_desc: ""
  TYR_AbadaResistance: "Подавление абад"
  
+ ### Dynamic modifiers
+ 
+ TYR_SouthGuerillaActivities: "Действия партизан на юге" 
+ TYR_KelpieResistance: "Сопротивление келпи"
+ TYR_AbadaResistance: "Сопротивление абад"
+ TYR_AlpakianBandagesResistance: "Сопротивление альпакских Белых повязок"
+ 
  ######################
  ### NATIONAL_FOCUS ###
  ######################

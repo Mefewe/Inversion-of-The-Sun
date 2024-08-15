@@ -5,7 +5,8 @@ state={
 		2738 3504 3829 6452 
 	}
 	history={
-        owner = UNC
+        owner = MJN
+        add_core_of = MJN
         add_core_of = ABL
         buildings = {
                 infrastructure = 1

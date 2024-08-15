@@ -181,8 +181,8 @@ news_event = {
 }
 news_event = {
 	id = DRG_News.4		### Ember retires
-	title = TYR_news.4.title
-	desc = TYR_news.4.desc
+	title = DRG_news.4.title
+	desc = DRG_news.4.desc
 	picture = GFX_event_test
 	is_triggered_only = yes
 	major = yes

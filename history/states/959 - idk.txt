@@ -5,7 +5,10 @@ state={
 		3275 4638 4026 3302 1219 371 2363 6990 4526 6892 75
 	}
 	history={
-		set_demilitarized_zone = yes
+		#add_dynamic_modifier = {
+		#	scope = TYR
+		#	modifier = TYR_SouthGuerillaActivities
+		#}
 	victory_points = {3275 20} #
 	victory_points = {371 10} #
 	victory_points = {75 5} #
@@ -17,7 +20,8 @@ state={
         resources = {
         steel = 17
         aluminium = 10
-        tungsten = 6
+        tungsten = 14
+	oil = 3
         }
 
         state_category = pastoral

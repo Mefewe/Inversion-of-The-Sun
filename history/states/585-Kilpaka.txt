@@ -6,7 +6,7 @@ state={
 	}
 	history={
 	victory_points = {6642 25} #
-        owner = TYR
+        owner = MJN
         add_core_of = TYR
         add_core_of = ABL
         buildings = {

@@ -12,22 +12,22 @@ set_technology = {
 	basic_train = 1
 }
 add_ideas = {
-		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
-	}
+	#laws
+	war_economy
+	service_by_requirement
+	closed_economy
+}
 set_politics = {
-	ruling_party = democratic
+	ruling_party = paternalism
 	last_election = "1768.7.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 40
-	communism = 4
+	democratic = 5
+	communism = 0
 	neutrality = 0
-	fascism = 8
-    progressivism = 18
-    paternalism = 30
+	fascism = 37
+	progressivism = 0
+	paternalism = 58
 }

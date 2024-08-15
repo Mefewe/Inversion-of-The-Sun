@@ -6,7 +6,8 @@ state={
 	}
 	history={
 	victory_points = {6133 5} #
-        owner = UNC
+        owner = MJN
+        add_core_of = MJN
         add_core_of = ABL
         buildings = {
                 infrastructure = 1

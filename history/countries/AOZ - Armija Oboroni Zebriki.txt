@@ -80,6 +80,7 @@ add_ideas = {
 	limited_exports
 
 	# ideas
+	AOZ_NonGovernmentSubject 
 	AOZ_Raider_economy
 }
 ################## PARTIES

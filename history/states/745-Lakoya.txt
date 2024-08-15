@@ -11,6 +11,7 @@ state={
 	victory_points = {781 10} #
         owner = FRZ
         add_core_of = ABL
+		add_core_of = FRZ
         buildings = {
                 infrastructure = 1
 		7244 = { naval_base = 1 }

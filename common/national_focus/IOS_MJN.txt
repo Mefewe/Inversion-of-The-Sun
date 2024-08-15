@@ -1,0 +1,11 @@
+focus_tree = {
+	id = MJN_no_content
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MJN
+		}
+	}
+	default = no
+}

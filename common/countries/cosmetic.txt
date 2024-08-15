@@ -18,3 +18,15 @@ AOZ_republic = {
 color = rgb { 66 135 245 }
 color_ui = rgb { 66 135 245 }
 }
+MJN_ARMY = {
+color = rgb { 108 107 148 }
+color_ui = rgb { 108 107 148 }
+}
+MJN_CHN = {
+color = rgb { 90 93 60 }
+color_ui = rgb { 90 93 60 }
+}
+FRZ_CHN = {
+color = rgb { 76 103 81 }
+color_ui = rgb { 76 103 81 }
+}

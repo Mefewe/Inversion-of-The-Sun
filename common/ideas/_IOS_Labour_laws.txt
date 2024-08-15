@@ -4,9 +4,9 @@ ideas = {
 		use_list_view = yes
 
 		no_guranteed_min_payment = {
-
+			level = 1
 			cost = 150
-			removal_cost = 1
+			removal_cost = -1
 
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
@@ -20,9 +20,9 @@ ideas = {
 		}
 
 		unstable_min_payment = {
-
+			level = 2
 			cost = 150
-			removal_cost = 1
+			removal_cost = -1
 
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
@@ -36,9 +36,9 @@ ideas = {
 		}
 
 		stable_min_payment = {
-
+			level = 3
 			cost = 150
-			removal_cost = 1
+			removal_cost = -1
 
 			default = yes
 
@@ -54,9 +54,9 @@ ideas = {
 		}
 
 		not_bad_min_payment = {
-
+			level = 4
 			cost = 150
-			removal_cost = 1
+			removal_cost = -1
 
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
@@ -75,7 +75,7 @@ ideas = {
 		use_list_view = yes
 
 		non_control_work_hours = {
-
+			level = 1
 			cost = 150
 			removal_cost = -1
 
@@ -87,7 +87,7 @@ ideas = {
 		}
 
 		16_work_hours = {
-
+			level = 2
 			cost = 150
 			removal_cost = -1
 			modifier = {
@@ -98,7 +98,7 @@ ideas = {
 		}
 
 		12_work_hours = {
-
+			level = 3
 			cost = 150
 			removal_cost = -1
 
@@ -110,7 +110,7 @@ ideas = {
 		}
 
 		8_hours = {
-
+			level = 4
 			cost = 150
 			removal_cost = -1
 
@@ -124,7 +124,7 @@ ideas = {
 		}
 
 		6_hours = {
-
+			level = 5
 			cost = 150
 			removal_cost = -1
 
@@ -141,7 +141,7 @@ ideas = {
 		use_list_view = yes
 
 		no_slavery_control = {
-
+			level = 1
 			cost = 150
 			removal_cost = -1
 
@@ -153,7 +153,7 @@ ideas = {
 		}
 
 		institutional_slavery = {
-
+			level = 2
 			cost = 150
 			removal_cost = -1
 
@@ -167,7 +167,7 @@ ideas = {
 		}
 
 		corporate_slavery = {
-
+			level = 3
 			cost = 150
 			removal_cost = -1
 
@@ -181,7 +181,7 @@ ideas = {
 		}
 
 		full_slavery_ban = {
-
+			level = 4
 			cost = 150
 			removal_cost = -1
 
@@ -200,7 +200,7 @@ ideas = {
 		use_list_view = yes
 
 		no_safety_control= {
-
+			level = 1
 			cost = 150
 			removal_cost = -1
 
@@ -212,8 +212,8 @@ ideas = {
 		}
 
 		nominal_safety_laws = {
-
-			cost = 150
+			level = 2
+			cost = 200
 			removal_cost = -1
 
 			default = yes
@@ -226,8 +226,8 @@ ideas = {
 		}
 
 		guranteed_safety_laws = {
-
-			cost = 150
+			level = 3
+			cost = 350
 			removal_cost = -1
 
 			default = yes

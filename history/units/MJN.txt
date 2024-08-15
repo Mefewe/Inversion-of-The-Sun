@@ -1,0 +1,595 @@
+division_template = {
+        name = "MFA's Light Infantry Brigade"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+        }
+}
+division_template = {
+        name = "MFA's Mobile Brigade"
+        regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		modern_armor = { x = 2 y = 0 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+        }
+}
+division_template = {
+        name = "MFA's Tank Brigade"
+        regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 1 y = 3 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+        }
+}
+division_template = {
+        name = "MFA's Special Kelpie Brigade"
+	priority = 2
+        regiments = {
+		kelpie = { x = 0 y = 0 }
+		kelpie = { x = 0 y = 1 }
+		kelpie = { x = 0 y = 2 }
+		kelpie = { x = 1 y = 0 }
+		kelpie = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+        }
+}
+division_template = {
+        name = "MFA's Special Abada Brigade"
+	priority = 2
+        regiments = {
+		abada = { x = 0 y = 0 }
+		abada = { x = 0 y = 1 }
+		abada = { x = 0 y = 2 }
+		abada = { x = 1 y = 0 }
+		abada = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+        }
+}
+division_template = {
+	is_locked = yes
+        name = "Aziv Volunteer Brigade"
+	priority = 2
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+        }
+}
+division_template = {
+	is_locked = yes
+        name = "Ost-Equatorial Volunteer Brigade"
+	priority = 2
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		mot_anti_tank_brigade = { x = 3 y = 0 }
+		mot_anti_tank_brigade = { x = 3 y = 1 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		maintenance_company = { x = 0 y = 4 }
+        }
+}
+division_template = {
+	is_locked = yes
+        name = "Tranzebrican Volunteer Division"
+        regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+        }
+        support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+        }
+}
+
+units = {
+	############ INFANTRY
+	division = {
+		name = "1. MFA's Light Infantry Brigade"
+		location = 3469
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.95
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. MFA's Light Infantry Brigade"
+		location = 3469
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.91
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. MFA's Light Infantry Brigade"
+		location = 6833
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.86
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "4. MFA's Light Infantry Brigade"
+		location = 6755
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.76
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "5. MFA's Light Infantry Brigade"
+		location = 3157
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "6. MFA's Light Infantry Brigade"
+		location = 1811
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.73
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "7. MFA's Light Infantry Brigade"
+		location = 6570
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.78
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "8. MFA's Light Infantry Brigade"
+		location = 1576
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "9. MFA's Light Infantry Brigade"
+		location = 4208
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.73
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "10. MFA's Light Infantry Brigade"
+		location = 1255
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.78
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "11. MFA's Light Infantry Brigade"
+		location = 4714
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.71
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "12. MFA's Light Infantry Brigade"
+		location = 3670
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.63
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "13. MFA's Light Infantry Brigade"
+		location = 6795
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.59
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "14. MFA's Light Infantry Brigade"
+		location = 953
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.57
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "15. MFA's Light Infantry Brigade"
+		location = 2120
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.59
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "16. MFA's Light Infantry Brigade"
+		location = 1717
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.51
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "17. MFA's Light Infantry Brigade"
+		location = 4785
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.45
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "18. MFA's Light Infantry Brigade"
+		location = 2380
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.53
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "19. MFA's Capital Defenders Brigade"
+		location = 6343
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "20. MFA's Light Infantry Brigade"
+		location = 2674
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.45
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "21. MFA's Light Infantry Brigade"
+		location = 2674
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.45
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "22. MFA's Light Infantry Brigade"
+		location = 6570
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.38
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "23. MFA's Light Infantry Brigade"
+		location = 1576
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "24. MFA's Light Infantry Brigade"
+		location = 4208
+		division_template = "MFA's Light Infantry Brigade"
+		start_experience_factor = 0.31
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	############ MECHA
+	division = {
+		name = "1. MFA's Mobile Brigade"
+		location = 3469
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.74
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. MFA's Mobile Brigade"
+		location = 4785
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.64
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. MFA's Mobile Brigade"
+		location = 6795
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "4. MFA's Mobile Brigade"
+		location = 6755
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.57
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "5. MFA's Mobile Brigade"
+		location = 3157
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.76
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "6. MFA's Mobile Brigade"
+		location = 6570
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.41
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "7. MFA's Mobile Brigade"
+		location = 1576
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.39
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "8. MFA's Mobile Brigade"
+		location = 4714
+		division_template = "MFA's Mobile Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	############ TANK
+	division = {
+		name = "1. MFA's Tank Brigade"
+		location = 3469
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. MFA's Tank Brigade"
+		location = 3469
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.87
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. MFA's Tank Brigade"
+		location = 6833
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.85
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+
+
+
+	division = {
+		name = "4. MFA's Tank Brigade"
+		location = 2380
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.72
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "5. MFA's Tank Brigade"
+		location = 4785
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.66
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+
+
+
+	division = {
+		name = "6. MFA's Tank Brigade"
+		location = 4714
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.71
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "7. MFA's Tank Brigade"
+		location = 1255
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.74
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "8. MFA's Tank Brigade"
+		location = 1255
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.47
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+
+
+
+	division = {
+		name = "9. MFA's Tank Brigade"
+		location = 4208
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.76
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "10. MFA's Tank Brigade"
+		location = 4208
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.56
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "11. MFA's Tank Brigade"
+		location = 1576
+		division_template = "MFA's Tank Brigade"
+		start_experience_factor = 0.41
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	############ SPECIAL KELPIE
+	division = {
+		name = "1. MFA's Special Kelpie Brigade"
+		location = 6825
+		division_template = "MFA's Special Kelpie Brigade"
+		start_experience_factor = 0.68
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. MFA's Special Kelpie Brigade"
+		location = 6833
+		division_template = "MFA's Special Kelpie Brigade"
+		start_experience_factor = 0.72
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. MFA's Special Kelpie Brigade"
+		location = 3157
+		division_template = "MFA's Special Kelpie Brigade"
+		start_experience_factor = 0.54
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	############ SPECIAL ABADA
+	division = {
+		name = "1. MFA's Special Abada Brigade"
+		location = 3469
+		division_template = "MFA's Special Abada Brigade"
+		start_experience_factor = 0.86
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "2. MFA's Special Abada Brigade"
+		location = 3469
+		division_template = "MFA's Special Abada Brigade"
+		start_experience_factor = 0.76
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "3. MFA's Special Abada Brigade"
+		location = 3469
+		division_template = "MFA's Special Abada Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "4. MFA's Special Abada Brigade"
+		location = 3469
+		division_template = "MFA's Special Abada Brigade"
+		start_experience_factor = 0.54
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	############ VOLUNTEER
+	division = {
+		name = "MFA's Aziv Volunteer Brigade"
+		location = 6833
+		division_template = "Aziv Volunteer Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "MFA's Ost-Equatorial Volunteer Brigade"
+		location = 3670
+		division_template = "Ost-Equatorial Volunteer Brigade"
+		start_experience_factor = 0.85
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "MFA's Tranzebrican Volunteer Division"
+		location = 4208
+		division_template = "Tranzebrican Volunteer Division"
+		start_experience_factor = 0.90
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+}

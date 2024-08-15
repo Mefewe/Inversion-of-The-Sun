@@ -5,11 +5,11 @@ ideas = {
 
 		corruption_1 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -34,11 +34,11 @@ ideas = {
 
 		corruption_2 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -53,13 +53,13 @@ ideas = {
 
 		corruption_3 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			default = yes
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -74,11 +74,11 @@ ideas = {
 
 		corruption_4 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -93,11 +93,11 @@ ideas = {
 
 		corruption_5 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -115,11 +115,11 @@ ideas = {
 
 		corruption_6 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -141,11 +141,11 @@ ideas = {
 
 		civ_rights_1 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -163,11 +163,11 @@ ideas = {
 
 		civ_rights_2 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -179,13 +179,13 @@ ideas = {
 
 		civ_rights_3 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			default = yes
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -201,11 +201,11 @@ ideas = {
 
 		science_level_1 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -221,11 +221,11 @@ ideas = {
 
 		science_level_2 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -237,13 +237,13 @@ ideas = {
 
 		science_level_3 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			default = yes
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -255,11 +255,11 @@ ideas = {
 
 		science_level_4 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -271,11 +271,11 @@ ideas = {
 
 		science_level_5 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -287,11 +287,11 @@ ideas = {
 
 		science_level_6 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -307,11 +307,11 @@ ideas = {
 
 		industry_level_1 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -328,11 +328,11 @@ ideas = {
 
 		industry_level_2 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -344,13 +344,13 @@ ideas = {
 
 		industry_level_3 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			default = yes
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -362,11 +362,11 @@ ideas = {
 
 		industry_level_4 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -378,11 +378,11 @@ ideas = {
 
 		industry_level_5 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -394,11 +394,11 @@ ideas = {
 
 		industry_level_6 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -415,11 +415,11 @@ ideas = {
 
 		criminality_1 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -437,13 +437,13 @@ ideas = {
 
 		criminality_2 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			default = yes
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -455,11 +455,11 @@ ideas = {
 
 		criminality_3 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {
@@ -471,11 +471,11 @@ ideas = {
 
 		criminality_4 = {
 
-			cost = 150
+			cost = 1
 			removal_cost = -1
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+				always = no
 			}
 
 			modifier = {

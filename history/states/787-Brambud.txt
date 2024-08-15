@@ -11,6 +11,7 @@ state={
 	victory_points = {7304 5} #
         owner = FRZ
         add_core_of = ABL
+		add_core_of = FRZ
         buildings = {
                 infrastructure = 1
         }
@@ -20,7 +21,7 @@ state={
 	rubber = 26
         }
 
-        state_category = town
+        state_category = pastoral
 	manpower=482641
 	buildings_max_level_factor=1.000
 }

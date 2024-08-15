@@ -5,7 +5,8 @@ state={
 		3871 
 	}
 	history={
-        owner = UNC
+        owner = MJN
+        add_core_of = MJN
         add_core_of = ABL
     }
 

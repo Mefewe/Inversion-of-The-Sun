@@ -10,15 +10,15 @@ set_technology = {
 	### INFANTRY
 	infantry_weapons_1 = 1
 	infantry_weapons_2 = 1
-	support_weapons = 1
-	support_weapons2 = 1
-	night_vision = 1
+	support_weapons_1 = 1
+	support_weapons_2 = 1
+	night_vision_1 = 1
 	tech_special_forces = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	mechanised_infantry = 1
-	#anti_tank_inf_1_eq = 1
-	#infantry_anti_tank_2 = 1
-	#anti_air_inf_1 = 1
+	anti_tank_inf_1 = 1
+	anti_air_inf_1 = 1
 
 	### SUPPORT
 	tech_support = 1
@@ -45,8 +45,24 @@ set_technology = {
 	fleet_in_being = 1
 
 	### TANKS
-	advanced_medium_tank = 1
-	#medium_tank_gw = 1
+	diesel_engine_1 = 1
+	tank_construction_theory = 1
+	gw_light_tank = 1
+	improved_construction = 1
+	light_tank_1 = 1
+	post_war_modern_tank = 1
+	automatical_fire_system_1 = 1
+	tank_cannon_105 = 1
+	tank_turret_1 = 1
+	armor_tech_1 = 1
+
+	### ELECTRONIC
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+
+	### INDUSTRY
+	basic_machine_tools = 1
 }
 
 ################## STOCKPILES

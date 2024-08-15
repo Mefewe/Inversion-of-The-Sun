@@ -10,15 +10,19 @@ state={
         owner = TYR
         add_core_of = TYR
         add_core_of = ABL
-        buildings = {
-                infrastructure = 1
-        }
-		set_demilitarized_zone = yes
-    }
+		#add_dynamic_modifier = {
+		#	scope = TYR
+		#	modifier = TYR_SouthGuerillaActivities
+		#}
+		buildings = {
+			infrastructure = 1
+		}
+	}
 
         resources = {
         steel = 7
 	rubber = 10
+	oil = 2
         }
 
         state_category = town

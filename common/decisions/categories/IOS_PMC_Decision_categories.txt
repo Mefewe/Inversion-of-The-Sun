@@ -3,5 +3,5 @@ PMC_Policy = {
 	allowed = {
 		NOT = { tag = UNC }
 	}
-	priority = 80
+	priority = 100
 }

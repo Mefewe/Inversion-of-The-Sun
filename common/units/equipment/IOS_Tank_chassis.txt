@@ -75,12 +75,12 @@ equipments = {
 					tank_secondary_turret
 				}
 			}
-			special_type_slot_5 = {
-				required = no
-				allowed_module_categories = {
-					tank_enchantment_type
-				}
-			}
+			#special_type_slot_5 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		tank_enchantment_type
+			#	}
+			#}
 			
 		}
 
@@ -90,7 +90,7 @@ equipments = {
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
-			enchantment_type_slot = empty
+			#enchantment_type_slot = empty
 		}
 
 		fuel_consumption = 0
@@ -338,34 +338,90 @@ equipments = {
 	###################
 	### MAGIC TANKS ###
 	###################
-	magic_tank_eq = {
+	magic_tank_chassis = {
 		year = 1772
-
 		is_archetype = yes
-		is_convertable = yes
-		picture = archetype_medium_tank_equipment		
 		is_buildable = no
-		is_convertable = yes
 		type = armor
 		group_by = archetype
-		
 		interface_category = interface_category_armor
-		
-		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.7
+		priority = 2500
+		module_slots = {			
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_modern_turret_type
+				}
+			}
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_heavy_main_armament
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+					tank_non_tracked_suspension_type
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_enchantment_type
+				}
+			}
+		}
 
-		#Defensive Abilities
-		defense = 15
-		breakthrough = 76
-		hardness = 0.98
-		armor_value = 120
-
-		#Offensive Abilities
-		soft_attack = 35
-		hard_attack = 28
-		ap_attack = 120
-		air_attack = 0
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = empty
+			suspension_type_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			enchantment_type_slot = empty
+		}
 
 		#Space taken in convoy
 		lend_lease_cost = 12
@@ -381,31 +437,17 @@ equipments = {
 		fuel_consumption = 4.1
 	}
 
-	magic_tank_1_eq = {
+	magic_tank_1_chassis = {
 		year = 1772
 
-		archetype = magic_tank_eq
+		module_slots = inherit
+		archetype = magic_tank_chassis
+
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
 
-		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.7
-
-		#Defensive Abilities
-		defense = 15
-		breakthrough = 76
-		hardness = 0.91
-		armor_value = 120
-
-		#Offensive Abilities
-		soft_attack = 35
-		hard_attack = 28
-		ap_attack = 120
-		air_attack = 0
-
-		build_cost_ic = 26
+		build_cost_ic = 48
 		resources = {
 			tungsten = 7
 			steel = 5
@@ -414,32 +456,18 @@ equipments = {
 		}
 	}
 
-	magic_tank_2_eq = {
+	magic_tank_2_chassis = {
 		year = 1776
 
-		archetype = magic_tank_eq
-		parent = magic_tank_1_eq
+		module_slots = inherit
+		archetype = magic_tank_chassis
+		parent = magic_tank_1_chassis
+
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
 
-		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.7
-
-		#Defensive Abilities
-		defense = 15
-		breakthrough = 76
-		hardness = 0.91
-		armor_value = 120
-
-		#Offensive Abilities
-		soft_attack = 35
-		hard_attack = 28
-		ap_attack = 120
-		air_attack = 0
-
-		build_cost_ic = 26
+		build_cost_ic = 48
 		resources = {
 			tungsten = 7
 			steel = 5
@@ -448,32 +476,18 @@ equipments = {
 		}
 	}
 
-	magic_tank_3_eq = {
+	magic_tank_3_chassis = {
 		year = 1783
 
-		archetype = magic_tank_eq
-		parent = magic_tank_2_eq
+		module_slots = inherit
+		archetype = magic_tank_chassis
+		parent = magic_tank_2_chassis
+
 		priority = 50
 		visual_level = 0
 		is_convertable = yes
 
-		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.7
-
-		#Defensive Abilities
-		defense = 15
-		breakthrough = 76
-		hardness = 0.91
-		armor_value = 120
-
-		#Offensive Abilities
-		soft_attack = 35
-		hard_attack = 28
-		ap_attack = 120
-		air_attack = 0
-
-		build_cost_ic = 26
+		build_cost_ic = 48
 		resources = {
 			tungsten = 7
 			steel = 5

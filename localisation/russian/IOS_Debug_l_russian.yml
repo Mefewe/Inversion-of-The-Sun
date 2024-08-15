@@ -32,9 +32,25 @@
  slot_machine: "Открыть 99 ячеек оперативников"
  
  ### TYR Decs
- debug_TYR_folder_OPEN: "(§G+§!) DEBUG - Отладка [GetName.TYR]"
- debug_TYR_folder_CLOSE: "(§R-§!) DEBUG - Отладка [GetName.TYR]"
+ debug_TYR_folder_OPEN: "(§G+§!) DEBUG - Отладка [TYR.GetName]"
+ debug_TYR_folder_CLOSE: "(§R-§!) DEBUG - Отладка [TYR.GetName]"
  debug_tyr_load_tree_2: "Загрузить дерево фокусов: 2"
+ 
+ ### AOZ Decs
+ debug_state_struggle_start: "Активация окна войны за стейты"
+ debug_aoz_force_mahrots_operation_show: "Активация окна операции "Махроц""
+ 
+ debug_AOZ_folder_OPEN: "(§G+§!) DEBUG - Отладка [AOZ.GetName]"
+ debug_AOZ_folder_CLOSE: "(§R-§!) DEBUG - Отладка [AOZ.GetName]"
+ debug_aoz_load_tree_2: "ДФ2: Подготовка к 1-й войне"
+ debug_aoz_load_tree_3: "ДФ3: Война за стейты"
+ debug_aoz_load_tree_4: "ДФ4: Операция "Тираницид""
+ debug_aoz_load_tree_5: "ДФ5: Этап антагонизма"
+ 
+ debug_aoz_load_tree_REP_OLD_1: "(СТАРОЕ) Послевоенное ДФ1: Республика"
+ debug_aoz_load_tree_REP_OLD_2: "(СТАРОЕ) Послевоенное ДФ2: Республика"
+ 
+ debug_aoz_load_tree_NAT_OLD_1: "(СТАРОЕ) Послевоенное ДФ1: Националисты"
  
  ### Continent Decs
  debug_continents_folder_OPEN: "(§G+§!) DEBUG - Отладка глобальных событий"

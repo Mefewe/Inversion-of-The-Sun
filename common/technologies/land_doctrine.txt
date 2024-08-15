@@ -1,5 +1,9 @@
 technologies = {
 
+	##############
+	# BLITZKRIEG #
+	##############
+
 	mobile_warfare = {
 		
 		doctrine_name = "MOBILE_WARFARE_DOCTRINE"
@@ -852,7 +856,11 @@ technologies = {
 			armor = 2.0
 		}
 	}
-	
+
+	######################
+	# SUPERIOR FIREPOWER #
+	######################
+
 	superior_firepower = {
 		doctrine_name = "SUPERIOR_FIREPOWER_DOCTRINE"
 		
@@ -1160,7 +1168,7 @@ technologies = {
 			artillery = 1.0
 		}
 	}
-	
+
 	overwhelming_firepower = {
 		xp_research_type = army
 		xp_unlock_cost = 100
@@ -1703,7 +1711,10 @@ technologies = {
 		}
 	}
 	
-	
+	####################
+	# GRAND BATTLEPLAN #
+	####################
+
 	trench_warfare = {
 		doctrine_name = "GRAND_BATTLEPLAN_DOCTRINE"
 
@@ -2546,7 +2557,11 @@ technologies = {
 			motorized_equipment = 1.0
 		}
 	}
-	
+
+	################
+	# MASS ASSAULT #
+	################
+
 	mass_assault = {
 		doctrine_name = "MASS_ASSAULT_DOCTRINE"
 		

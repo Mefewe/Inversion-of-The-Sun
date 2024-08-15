@@ -5,7 +5,10 @@ state={
 		2505 4133 4924 7060 7091 7105 7125 7132 7168 2056 7209 7192
 	}
 	history={
-		set_demilitarized_zone = yes
+		#add_dynamic_modifier = {
+		#	scope = TYR
+		#	modifier = TYR_SouthGuerillaActivities
+		#}
 	victory_points = {7209 10} #
 	victory_points = {7105 10} #
 	victory_points = {2505 15} #
@@ -19,6 +22,7 @@ state={
 
         resources = {
 	rubber = 5
+	oil = 2
         }
 
         state_category = rural

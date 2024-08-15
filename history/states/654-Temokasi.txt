@@ -5,7 +5,7 @@ state={
 		294 634 2541 2826 3880 6838 6873 6906 6914 6938 6975 
 	}
 	history={
-		set_demilitarized_zone = yes
+		#add_dynamic_modifier = { modifier = TYR_AlpakianBandagesResistance }
 	victory_points = {6975 5} #
 	victory_points = {6938 5} #
 	victory_points = {6873 5} #

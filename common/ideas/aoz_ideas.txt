@@ -1,5 +1,10 @@
 ideas = {
 	country = {
+		AOZ_NonGovernmentSubject = {
+			picture = generic_army_problems
+			modifier = {
+			}
+		}
 		truba_va_ptrk = {
 			picture = generic_army_problems
 			modifier = {

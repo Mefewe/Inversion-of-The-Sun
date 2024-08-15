@@ -1,0 +1,233 @@
+oob = "MJN"
+
+capital = 503
+set_cosmetic_tag = MJN_ARMY
+recruit_character = MJN_Zuri_Egwu
+set_stability = 0.45
+set_war_support = 0.56
+set_research_slots = 3
+
+################## TECHS
+set_technology = {
+	### INFANTRY
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	support_weapons_1 = 1
+	support_weapons_2 = 1
+	night_vision_1 = 1
+	tech_special_forces = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	mechanised_infantry = 1
+	anti_tank_inf_1 = 1
+	anti_air_inf_1 = 1
+
+	### SUPPORT
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	#military_infrastructure1 = 1
+	basic_train = 1
+	#command_and_control1 = 1
+
+	### ARTILLERY
+	gw_artillery = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+
+	### DOCTRINE
+	overwhelming_firepower = 1
+
+	### TANKS
+	diesel_engine_1 = 1
+	tank_construction_theory = 1
+	gw_light_tank = 1
+	improved_construction = 1
+	light_tank_1 = 1
+	post_war_modern_tank = 1
+	automatical_fire_system_1 = 1
+	automatical_recharge_1 = 1
+	tank_cannon_105 = 1
+	tank_turret_1 = 1
+	armor_tech_1 = 1
+
+	### ELECTRONIC
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+
+	### INDUSTRY
+	basic_machine_tools = 1
+}
+
+################## STOCKPILES
+
+#### INFANTRY
+add_equipment_to_stockpile = {
+         type = infantry_ammo_equipment
+         amount = 57102
+}
+add_equipment_to_stockpile = {
+         type = infantry_equipment
+         amount = 12801
+}
+add_equipment_to_stockpile = {
+         type = anti_tank_inf_eq
+         amount = 1789
+}
+
+#### SUPPORT
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 738
+}
+add_equipment_to_stockpile = {
+         type = candc_equpment
+         amount = 6012
+}
+
+#### ARTILLERY
+add_equipment_to_stockpile = {
+         type = artillery_equipment
+         amount = 692
+}
+add_equipment_to_stockpile = {
+         type = artillery_ammo_equipment
+         amount = 1192
+}
+add_equipment_to_stockpile = {
+         type = anti_tank_equipment
+         amount = 489
+}
+
+#### MECHANIZED & MOTOR
+add_equipment_to_stockpile = {
+         type = bronetransporter
+         amount = 208
+}
+add_equipment_to_stockpile = {
+         type = motorized_equipment
+         amount = 489
+}
+add_equipment_to_stockpile = {
+         type = mechanized_equipment
+         amount = 686
+}
+
+#### TANK
+add_equipment_to_stockpile = {
+         type = modern_tank_chassis
+         amount = 104
+}
+add_equipment_to_stockpile = {
+         type = tank_ammo_equipment
+         amount = 165
+}
+
+################## IDEAS
+
+add_ideas = {
+
+	### LAWS
+
+	# Economy
+	war_economy
+	export_focus
+	functional_balance
+
+	# Civilian
+	no_weapon_control
+	light_drugs_permissions
+	guranteed_minorities_rights
+	guranteed_equality
+	secularism
+	uncontrolled_culture
+
+	# Labour
+	no_guranteed_min_payment
+	non_control_work_hours
+	full_slavery_ban
+	no_safety_control
+
+	# Military
+	service_by_requirement
+	weekly_training
+	military_favoritism
+	closed_borders
+
+	# Country factors
+	corruption_5
+	civ_rights_2
+	science_level_2
+	industry_level_5
+
+	### SPIRITS
+	mjn_our_right 
+	mjn_mfa_degradation 
+	mjn_end_is_near 
+	mjn_alchemic_experiments 
+}
+add_timed_idea = {
+	idea = mjn_last_offensive
+	days = 120
+}
+
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1768.7.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 35
+	communism = 9
+	neutrality = 0
+	fascism = 15
+	progressivism = 0
+	paternalism = 41
+}
+declare_war_on = {
+	target = TYR
+	type = annex_everything
+}
+set_province_controller = 2120
+set_province_controller = 953
+set_province_controller = 6795
+set_province_controller = 3670
+set_province_controller = 6833
+set_province_controller = 3469
+set_province_controller = 6825
+set_province_controller = 3222
+set_province_controller = 6570
+set_province_controller = 1576
+set_province_controller = 4208
+set_province_controller = 1255
+set_province_controller = 4714
+set_province_controller = 6755
+set_province_controller = 1963
+set_province_controller = 6455
+set_province_controller = 1353
+set_province_controller = 6356
+set_province_controller = 3065
+set_province_controller = 2323
+set_province_controller = 6758
+set_province_controller = 2879
+set_province_controller = 6720
+set_province_controller = 3895
+set_province_controller = 3516
+set_province_controller = 6650
+set_province_controller = 4496
+set_province_controller = 1717
+set_province_controller = 6641
+set_province_controller = 6719
+set_province_controller = 6670
+set_province_controller = 3615
+set_province_controller = 6688
+set_province_controller = 6714
