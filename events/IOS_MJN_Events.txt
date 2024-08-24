@@ -1,0 +1,49 @@
+add_namespace = MJN
+
+country_event = {
+	id = MJN.1	# Neu-Chrysaltz capture FAILURE
+	title = MJN.1.title
+	desc = MJN.1.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = MJN.1.a
+	}
+}
+
+country_event = {
+	id = MJN.2	# Neu-Chrysaltz capture SUCCESS
+	title = MJN.2.title
+	desc = MJN.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = MJN.2.a
+	}
+}
+
+country_event = {
+	id = MJN.3	# Burning the flags (Army occupying  Birku)
+	title = MJN.3.title
+	desc = MJN.3.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = MJN.3.a
+	}
+}
+
+country_event = {
+	id = MJN.2	# Price for ammo (Tyrlitia in chaos)
+	title = MJN.2.title
+	desc = MJN.2.desc
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = MJN.2.a
+	}
+}

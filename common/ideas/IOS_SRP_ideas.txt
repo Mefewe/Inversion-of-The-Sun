@@ -2,14 +2,17 @@ ideas = {
 	country = {
 		srp_dynasty_modifier = {
 			modifier = {
-				political_power_factor = 0.2
-				army_core_defence_factor = 0.15
+				political_power_gain = 0.7
+				stability_factor = 0.2
+				war_support_factor = 0.1
 			}
 		}
 		srp_deep_zebrica = {
 			modifier = {
-				political_power_factor = 0.2
-				army_core_defence_factor = 0.15
+				army_speed_factor = 0.1
+				army_core_defence_factor = 0.25
+				supply_combat_penalties_on_core_factor = -0.15
+				out_of_supply_factor = -0.20
 			}
 		}
 	}

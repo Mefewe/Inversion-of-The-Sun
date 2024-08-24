@@ -1,21 +1,32 @@
+oob = "SRP"
+
 capital = 690
-recruit_character = SRP_Leader
+recruit_character = SRP_OrientStrai
 set_stability = 0.7
-set_war_support = 0.4
-set_research_slots = 2
+set_war_support = 0.65
+set_research_slots = 1
+
+################## TECHS
 set_technology = {
-	infantry_weapons_1 = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
-	basic_train = 1
+	### INFANTRY
+	swords_and_armor = 1
+	forge_tech = 1
 }
+
+################## STOCKPILES
+
+#### INFANTRY
+
 add_ideas = {
 	#laws
 	war_economy
 	service_by_requirement
 	closed_economy
+
+	#spirits
+	srp_dynasty_modifier
+	srp_deep_zebrica
+	no_science_and_industry
 }
 set_politics = {
 	ruling_party = paternalism

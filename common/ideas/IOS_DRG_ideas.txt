@@ -10,16 +10,6 @@ ideas = {
 				surrender_limit = 0.3
 			}
 		}
-		drg_no_science_and_industry = {
-			modifier = {
-				hidden_modifier = {
-					research_speed_factor = -30
-					production_speed_buildings_factor = -30	
-					global_building_slots_factor = -0.9
-				}
-				custom_modifier_tooltip = drg_no_science_and_industry_tt
-			}
-		}
 		drg_modernist_ideas = {
 			cancel = {
 				NOT = {

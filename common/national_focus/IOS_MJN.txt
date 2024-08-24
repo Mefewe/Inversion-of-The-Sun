@@ -1,5 +1,5 @@
 focus_tree = {
-	id = MJN_no_content
+	id = MJN_focus_tree_one
 	country = {
 		factor = 0
 		modifier = {
@@ -7,5 +7,472 @@ focus_tree = {
 			tag = MJN
 		}
 	}
+	shared_focus = MJN_last_offensive
+	continuous_focus_position = { x = 2000 y = 1000 }
 	default = no
+}
+
+shared_focus = {
+	id = MJN_last_offensive
+	cost = 1
+	x = 12
+	y = 0
+	completion_reward = { 
+	}
+}
+
+### Democratic route
+shared_focus = {
+	id = MJN_what_we_were_and_what_became
+	prerequisite = {
+		focus = MJN_last_offensive
+	}
+	mutually_exclusive = {
+		focus = MJN_stop_the_panic
+	}
+	cost = 1
+	x = 9
+	y = 1
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_to_bribe_a_factionalists
+	prerequisite = {
+		focus = MJN_what_we_were_and_what_became
+	}
+	cost = 1
+	x = 8
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_not_enough
+	prerequisite = {
+		focus = MJN_to_bribe_a_factionalists
+	}
+	cost = 1
+	x = 7
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_nation_believes_me
+	prerequisite = {
+		focus = MJN_not_enough
+	}
+	cost = 1
+	x = 6
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_revolution_in_politics
+	prerequisite = {
+		focus = MJN_not_enough
+	}
+	cost = 1
+	x = 5
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_sovereignty_conception
+	prerequisite = {
+		focus = MJN_not_enough
+	}
+	cost = 1
+	x = 7
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_greater_form
+	prerequisite = {
+		focus = MJN_nation_believes_me
+	}
+	prerequisite = {
+		focus = MJN_revolution_in_politics
+	}
+	prerequisite = {
+		focus = MJN_sovereignty_conception
+	}
+	cost = 1
+	x = 7
+	y = 6
+	completion_reward = { 
+	}
+}
+
+### Authoritarian route
+shared_focus = {
+	id = MJN_stop_the_panic
+	prerequisite = {
+		focus = MJN_last_offensive
+	}
+	mutually_exclusive = {
+		focus = MJN_what_we_were_and_what_became
+	}
+	cost = 1
+	x = 11
+	y = 1
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_arest_of_old_comrades
+	prerequisite = {
+		focus = MJN_stop_the_panic
+	}
+	cost = 1
+	x = 10
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_crash_of_democracy
+	prerequisite = {
+		focus = MJN_arest_of_old_comrades
+	}
+	cost = 1
+	x = 9
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_tightening_of_regime
+	prerequisite = {
+		focus = MJN_crash_of_democracy
+	}
+	cost = 1
+	x = 9
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_temporary_camps
+	prerequisite = {
+		focus = MJN_crash_of_democracy
+	}
+	cost = 1
+	x = 8
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_the_one_and_irreplaceable
+	prerequisite = {
+		focus = MJN_crash_of_democracy
+	}
+	cost = 1
+	x = 10
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_inevitability_of_despotism
+	prerequisite = {
+		focus = MJN_tightening_of_regime
+	}
+	prerequisite = {
+		focus = MJN_temporary_camps
+	}
+	prerequisite = {
+		focus = MJN_the_one_and_irreplaceable
+	}
+	cost = 1
+	x = 9
+	y = 6
+	completion_reward = { 
+	}
+}
+
+### Kinda military focuses
+shared_focus = {
+	id = MJN_explore_market_of_mercenaries
+	prerequisite = {
+		focus = MJN_last_offensive
+	}
+	cost = 1
+	x = 12
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_huoanian_folks
+	prerequisite = {
+		focus = MJN_explore_market_of_mercenaries
+	}
+	cost = 1
+	x = 11
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_sunshreenian_assasins
+	prerequisite = {
+		focus = MJN_explore_market_of_mercenaries
+	}
+	cost = 1
+	x = 13
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_call_the_world
+	prerequisite = {
+		focus = MJN_explore_market_of_mercenaries
+	}
+	cost = 1
+	x = 12
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_contracts_with_federation
+	prerequisite = {
+		focus = MJN_call_the_world
+	}
+	cost = 1
+	x = 11
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_treaties_with_transzebrica
+	prerequisite = {
+		focus = MJN_call_the_world
+	}
+	cost = 1
+	x = 13
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_monolithic_international
+	prerequisite = {
+		focus = MJN_contracts_with_federation
+	}
+	prerequisite = {
+		focus = MJN_treaties_with_transzebrica
+	}
+	cost = 1
+	x = 12
+	y = 6
+	completion_reward = { 
+	}
+}
+
+### Industry focuses
+shared_focus = {
+	id = MJN_increase_resourse_extraction
+	prerequisite = {
+		focus = MJN_last_offensive
+	}
+	mutually_exclusive = {
+		focus = MJN_military_alchemy_focus
+	}
+	cost = 1
+	x = 13
+	y = 1
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_finance_redirection
+	prerequisite = {
+		focus = MJN_increase_resourse_extraction
+	}
+	cost = 1
+	x = 14
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_uncompleted_plans
+	prerequisite = {
+		focus = MJN_finance_redirection
+	}
+	cost = 1
+	x = 15
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_scientific_pragmatism
+	prerequisite = {
+		focus = MJN_uncompleted_plans
+	}
+	cost = 1
+	x = 15
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_everything_for_the_front
+	prerequisite = {
+		focus = MJN_uncompleted_plans
+	}
+	cost = 1
+	x = 14
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_expand_mountain_industry
+	prerequisite = {
+		focus = MJN_uncompleted_plans
+	}
+	cost = 1
+	x = 16
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_economical_is_based
+	prerequisite = {
+		focus = MJN_scientific_pragmatism
+	}
+	prerequisite = {
+		focus = MJN_everything_for_the_front
+	}
+	prerequisite = {
+		focus = MJN_expand_mountain_industry
+	}
+	cost = 1
+	x = 15
+	y = 6
+	completion_reward = { 
+	}
+}
+
+### Science focuses
+shared_focus = {
+	id = MJN_military_alchemy_focus
+	prerequisite = {
+		focus = MJN_last_offensive
+	}
+	mutually_exclusive = {
+		focus = MJN_increase_resourse_extraction
+	}
+	cost = 1
+	x = 15
+	y = 1
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_new_scientific_projects
+	prerequisite = {
+		focus = MJN_military_alchemy_focus
+	}
+	cost = 1
+	x = 16
+	y = 2
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_conversion_of_matter
+	prerequisite = {
+		focus = MJN_new_scientific_projects
+	}
+	cost = 1
+	x = 17
+	y = 3
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_ethical_questions
+	prerequisite = {
+		focus = MJN_conversion_of_matter
+	}
+	cost = 1
+	x = 18
+	y = 4
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_agricultural_alchemy
+	prerequisite = {
+		focus = MJN_conversion_of_matter
+	}
+	cost = 1
+	x = 17
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_magic_of_kelpies_and_abads
+	prerequisite = {
+		focus = MJN_conversion_of_matter
+	}
+	cost = 1
+	x = 19
+	y = 5
+	completion_reward = { 
+	}
+}
+shared_focus = {
+	id = MJN_power_is_in_knowledge
+	prerequisite = {
+		focus = MJN_ethical_questions
+	}
+	prerequisite = {
+		focus = MJN_agricultural_alchemy
+	}
+	prerequisite = {
+		focus = MJN_magic_of_kelpies_and_abads
+	}
+	cost = 1
+	x = 17
+	y = 6
+	completion_reward = { 
+	}
+}
+
+
+
+shared_focus = {
+	id = MJN_destroy_tyrlitian_colony
+	prerequisite = {
+		focus = MJN_greater_form
+		focus = MJN_inevitability_of_despotism
+	}
+	prerequisite = {
+		focus = MJN_monolithic_international
+	}
+	prerequisite = {
+		focus = MJN_economical_is_based
+		focus = MJN_power_is_in_knowledge
+	}
+	cost = 1
+	x = 12
+	y = 7
+	completion_reward = { 
+	}
 }

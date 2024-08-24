@@ -94,18 +94,15 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 4
-		build_cost_ic = 1
-		reliability = 0.8
+		maximum_speed = 10
+		build_cost_ic = 4
+		reliability = 1.2
 		hardness = 0.8
-		armor_value = 10
-
+		armor_value = 27
 		resources = {
 			steel = 1
 		}
-
 		lend_lease_cost = 10
-
 		manpower = 2
 	}
 	light_tank_chassis_1 = {
@@ -238,17 +235,23 @@ equipments = {
 		}
 
 		#Space taken in convoy
-		lend_lease_cost = 12
-		
+		lend_lease_cost = 15
+
+		maximum_speed = 9
+		reliability = 1.5
+		hardness = 1
+		armor_value = 70
 		build_cost_ic = 26
+
+		fuel_consumption = 4.1
+		manpower = 2
+
 		resources = {
 			tungsten = 7
 			steel = 5
 			chromium = 2
 			rubber = 1
 		}
-		
-		fuel_consumption = 4.1
 	}
 
 	modern_tank_chassis_1 = {
@@ -424,17 +427,23 @@ equipments = {
 		}
 
 		#Space taken in convoy
-		lend_lease_cost = 12
-		
-		build_cost_ic = 26
+		lend_lease_cost = 15
+
+		maximum_speed = 10
+		reliability = 0.7
+		hardness = 1.2
+		armor_value = 75
+		build_cost_ic = 32
+
+		fuel_consumption = 2
+
 		resources = {
 			tungsten = 7
 			steel = 5
 			chromium = 2
 			rubber = 1
 		}
-		
-		fuel_consumption = 4.1
+	
 	}
 
 	magic_tank_1_chassis = {

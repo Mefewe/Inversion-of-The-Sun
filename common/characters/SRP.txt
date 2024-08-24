@@ -1,12 +1,26 @@
 characters = {
-	SRP_Leader = {
-		name = SRP_Leader 
+	SRP_OrientStrai = {
+		name = SRP_OrientStrai
+		portraits = {
+			civilian = {
+				large = GFX_SRP_OrientStrai_L
+			}
+		}
 		country_leader = {
-			desc="SRP_Leader_desc"
+			desc="SRP_OrientStrai_desc"
 			ideology = despotism
 			traits = {  }
 			expire = "2000.3.1.1"
 			id = -1
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
 		}
 	}
 }

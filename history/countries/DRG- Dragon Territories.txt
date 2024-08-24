@@ -60,7 +60,7 @@ add_ideas = {
 	#ideas
 	drg_dragons_factor
 	struggling_harmony
-	drg_no_science_and_industry
+	no_science_and_industry
 	drg_modernist_ideas
 	drg_Ember_authority
 	drg_military_veto

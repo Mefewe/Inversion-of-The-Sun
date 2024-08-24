@@ -84,7 +84,7 @@
  ### LEADERS ###
  ###############
  MJN_Zuri_Egwu: "Капитан Зури Эгву"
- MJN_Zuri_Egwu_desc: "§YДата рождения§!: 13 августа 1752 года, в Седелате.\n\n§YХарактеристика§!: Зури Эгву родилась в семье обеспеченного торговца сахаром. Свидетели описывают, что она обладает энергичным характером и обострённым чувством справедливости.\n\nЧто же, обострённое - это ещё слабо сказано.\n\nПодружиться с ней было легко, но также легко было попасть в список её недоброжелателей. Она не оставляла врагов без "трёпки" и умела изощрённо мстить тем, кого считала обидчиками слабых. Несмотря на это, Зури - верный друг, готовый прийти на помощь и к окружающим она относится часто с тем же благоговением, что и к своим товарищам.\n\nВо время её учёбы в Седелатском Университете на специальность алхимика-ботаника началась Великая война. Зури участвовала в стычках с Роем как полевой медик. После оккупации её родного города, она завоевала авторитет в военной среде и создала МФА для борьбы с оккупантами. В 1768 году она призвала к восстанию, став капитаном революции.\n\nК 1770 году Федеральная Армия была в плачевном состоянии, и союз вокруг Зури начал распадаться. Судьба сопротивления зависела от её "последнего плана"."
+ MJN_Zuri_Egwu_desc: "§YДата рождения§!: 13 августа 1752 года, в Седелате.\n\n§YХарактеристика§!: Зури Эгву родилась в семье обеспеченного торговца сахаром. Свидетели описывают, что она обладает энергичным характером и обострённым чувством справедливости.\n\nЧто же, обострённое - это ещё слабо сказано.\n\nПодружиться с ней было легко, но также легко было попасть в список её недоброжелателей. Она не оставляла врагов без "трёпки" и умела изощрённо мстить тем, кого считала обидчиками слабых. Несмотря на это, Зури - верный друг, готовый прийти на помощь и к окружающим она относится часто с тем же благоговением, что и к своим товарищам.\n\nВо время её учёбы в Седелатском Университете на специальность алхимика-ботаника началась Великая война. Зури участвовала в стычках с Роем как полевой медик. После оккупации её родного города, она завоевала авторитет в военной среде и создала МФА для борьбы с оккупантами. В 1768 году она призвала к восстанию, будучи провозглашённой капитаном революции.\n\nК 1770 году Федеральная Армия состоит в неоднозначном состоянии, а союз вокруг Зури начинает медленно увядать. Теперь, когда передовые части МФА стоят почти у ворот Ной-Кризальца, судьба всего сопротивления зависит от последнего удачного наступления на столицу врага."
  
  ################
  ### GENERALS ###
@@ -103,11 +103,93 @@
  mjn_last_offensive_desc: ""
  mjn_alchemic_experiments: "Экспериментальная биоалхимия"
  mjn_alchemic_experiments_desc: "Как это иногда бывает, интересы лидера распространяются на целую страну. Известно, что капитан - практикующий алхимик, имеющий диплом Седелатского Университета.\n\nНе так много данных известно о центрах исследований химических процессов и магии окроймя их существования. Чейнджлинги публиковали данные о самолётах, распыляющих некие вещества над лесами, при этом зафиксировано применение сильных отравляющих зелий и газов. Солдаты Роя свидетельствуют о невероятных целительных свойствах магии, которую применяли федеральные войска в боях.\n\nНо эксперименты на то и эксперименты - часто идут не по плану. В местах, оставленных МФА нередко находили препараты и яды, нигде прежде невиданные. Иногда экологическая ситуация этих территорий прямо указывала на вредное воздействие явно копытотворных факторов.\n\nОчевидно, что Зури разрабатывает новые виды химического и магического оружия. И чейнджлинги, о чьих научных изысканиях тоже ходят слухи, безумно заинтересованы в заполучении полного набора данных этой «зебриканской науки»."
+ mjn_no_hate: "Мы - не захватчики"
+ mjn_no_hate_desc: ""
 
  ######################
  ### NATIONAL_FOCUS ###
  ######################
+ MJN_last_offensive: "Последнее наступление капитана"
+ MJN_last_offensive_desc: ""
+ 
+ MJN_what_we_were_and_what_became: "Кем были и кем стали"
+ MJN_what_we_were_and_what_became_desc: ""
+ MJN_to_bribe_a_factionalists: "Подкупить фракционистов"
+ MJN_to_bribe_a_factionalists_desc: ""
+ MJN_not_enough: "Им всё мало?"
+ MJN_not_enough_desc: ""
+ MJN_nation_believes_me: "Народ мне верит"
+ MJN_nation_believes_me_desc: ""
+ MJN_revolution_in_politics: "«Революция в политике»"
+ MJN_revolution_in_politics_desc: ""
+ MJN_sovereignty_conception: "Концепция независимости"
+ MJN_sovereignty_conception_desc: ""
+ MJN_greater_form: "Превосходящая форма"
+ MJN_greater_form_desc: ""
 
+ MJN_stop_the_panic: "Пресечь панику"
+ MJN_stop_the_panic_desc: ""
+ MJN_arest_of_old_comrades: "Аресты старых товарищей"
+ MJN_arest_of_old_comrades_desc: ""
+ MJN_crash_of_democracy: "Конец благой системы"
+ MJN_crash_of_democracy_desc: ""
+ MJN_tightening_of_regime: "Ужесточение режима"
+ MJN_tightening_of_regime_desc: ""
+ MJN_temporary_camps: "Временные лагеря"
+ MJN_temporary_camps_desc: ""
+ MJN_the_one_and_irreplaceable: "Единственная и незаменимая"
+ MJN_the_one_and_irreplaceable_desc: ""
+ MJN_inevitability_of_despotism: "Неизбежность деспотии"
+ MJN_inevitability_of_despotism_desc: ""
+ 
+ MJN_explore_market_of_mercenaries: "Изучить рынок наёмничества"
+ MJN_explore_market_of_mercenaries_desc: ""
+ MJN_huoanian_folks: "«Хуанские ребята»"
+ MJN_huoanian_folks_desc: ""
+ MJN_sunshreenian_assasins: "Саншриитские ассасины"
+ MJN_sunshreenian_assasins_desc: ""
+ MJN_call_the_world: "Главные враги Кризалис"
+ MJN_call_the_world_desc: ""
+ MJN_contracts_with_federation: "Ресурсы меняем на патроны..."
+ MJN_contracts_with_federation_desc: ""
+ MJN_treaties_with_transzebrica: "...И политические уступки"
+ MJN_treaties_with_transzebrica_desc: ""
+ MJN_monolithic_international: "Основать МонИнтерн"
+ MJN_monolithic_international_desc: ""
+ 
+ MJN_increase_resourse_extraction: "Усилить выкачку ресурсов"
+ MJN_increase_resourse_extraction_desc: ""
+ MJN_finance_redirection: "Перенаправить финансы в другое русло"
+ MJN_finance_redirection_desc: ""
+ MJN_uncompleted_plans: "Незавершённые дела"
+ MJN_uncompleted_plans_desc: ""
+ MJN_scientific_pragmatism: "Научный прагматизм"
+ MJN_scientific_pragmatism_desc: ""
+ MJN_everything_for_the_front: "Всё для фронта"
+ MJN_everything_for_the_front_desc: ""
+ MJN_expand_mountain_industry: "Декрет об усиленной горной добыче"
+ MJN_expand_mountain_industry_desc: ""
+ MJN_economical_is_based: "Экономика - основа основ"
+ MJN_economical_is_based_desc: ""
+ 
+ MJN_military_alchemy_focus: "Продолжать упор на алхимию"
+ MJN_military_alchemy_focus_desc: ""
+ MJN_new_scientific_projects: "Новые проекты"
+ MJN_new_scientific_projects_desc: ""
+ MJN_conversion_of_matter: "Превращение материи"
+ MJN_conversion_of_matter_desc: ""
+ MJN_ethical_questions: "Этические вопросы"
+ MJN_ethical_questions_desc: ""
+ MJN_agricultural_alchemy: "Сельскохозяйственная алхимия"
+ MJN_agricultural_alchemy_desc: ""
+ MJN_magic_of_kelpies_and_abads: "Углубиться в магию абад и келпи"
+ MJN_magic_of_kelpies_and_abads_desc: ""
+ MJN_power_is_in_knowledge: "Сила в знании"
+ MJN_power_is_in_knowledge_desc: ""
+ 
+ MJN_destroy_tyrlitian_colony: "Выкорочевать трухлявый пень"
+ MJN_destroy_tyrlitian_colony_desc: ""
+ 
  ##############
  ### EVENTS ###
  ##############

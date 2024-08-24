@@ -1,0 +1,18 @@
+MajiWar_decisions = {
+	MJN_Neu_Chrysaltz_mission = {
+		activation = {
+			has_global_flag = MajiWarContinues
+		}
+		available = {
+			always = no
+		}
+		days_mission_timeout = 120
+		selectable_mission = no
+		cancel_trigger = {
+			has_war = no
+		}
+		timeout_effect = {
+			country_event = MJN.1
+		}
+	}
+}

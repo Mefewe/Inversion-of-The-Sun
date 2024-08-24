@@ -108,7 +108,7 @@ division_template = {
 units = {
         division = {
                 name = "1. Colonial Swarm Division"
-		location = 3778
+		location = 6907
 		division_template = "Leg. Swarm Infantry Div."
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
@@ -116,7 +116,7 @@ units = {
 	}
         division = {
                 name = "2. Colonial Swarm Division"
-		location = 3936
+		location = 4833
 		division_template = "Leg. Swarm Infantry Div."
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.0
@@ -148,7 +148,7 @@ units = {
 	}
         division = {
                 name = "6. Colonial Swarm Division"
-		location = 6295
+		location = 6333
 		division_template = "Leg. Swarm Infantry Div."
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.0
@@ -156,7 +156,7 @@ units = {
 	}
         division = {
                 name = "7. Colonial Swarm Division"
-		location = 6412
+		location = 6435
 		division_template = "Leg. Swarm Infantry Div."
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.0
@@ -167,6 +167,54 @@ units = {
 		location = 1476
 		division_template = "Leg. Swarm Infantry Div."
 		start_experience_factor = 0.7
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Colonial Swarm Division"
+		location = 477
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.65
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Colonial Swarm Division"
+		location = 477
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.65
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Colonial Swarm Division"
+		location = 982
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.65
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Colonial Swarm Division"
+		location = 7547
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "13. Colonial Swarm Division"
+		location = 6838
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.85
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "14. Colonial Swarm Division"
+		location = 6109
+		division_template = "Leg. Swarm Infantry Div."
+		start_experience_factor = 0.65
 		start_equipment_factor = 0.0
                 start_manpower_factor = 1.0
 	}
@@ -205,7 +253,7 @@ units = {
 	}
         division = {
                 name = "5. Colonial Swarm Mechanized Briagde"
-		location = 6295
+		location = 6333
 		division_template = "Leg. Swarm Mechanized Br."
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.0
@@ -213,7 +261,7 @@ units = {
 	}
         division = {
                 name = "6. Colonial Swarm Mechanized Briagde"
-		location = 6295
+		location = 1476
 		division_template = "Leg. Swarm Mechanized Br."
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.0
@@ -222,7 +270,7 @@ units = {
 ###################### TANKS
         division = {
                 name = "1. Colonial Swarm Tank Brigade"
-		location = 3778
+		location = 6907
 		division_template = "Leg. Swarm Tank Br."
 		start_experience_factor = 0.85
 		start_equipment_factor = 0.0
@@ -230,7 +278,7 @@ units = {
 	}
         division = {
                 name = "2. Colonial Swarm Tank Brigade"
-		location = 3936
+		location = 4833
 		division_template = "Leg. Swarm Tank Br."
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.0
@@ -301,6 +349,62 @@ units = {
 		start_equipment_factor = 0.0
                 start_manpower_factor = 1.0
 	}
+        division = {
+                name = "6. Colonial Militia"
+		location = 294
+		division_template = "Colonial Militia"
+		start_experience_factor = 0.02
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Colonial Militia"
+		location = 6838
+		division_template = "Colonial Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Colonial Militia"
+		location = 2826
+		division_template = "Colonial Militia"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Colonial Militia"
+		location = 2841
+		division_template = "Colonial Militia"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Colonial Militia"
+		location = 4711
+		division_template = "Colonial Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Colonial Militia"
+		location = 6907
+		division_template = "Colonial Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "12. Colonial Militia"
+		location = 6109
+		division_template = "Colonial Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
 ###################### SPECIAL FORCES
         division = {
                 name = "1. Abada Brigade"
@@ -312,7 +416,7 @@ units = {
 	}
         division = {
                 name = "2. Abada Brigade"
-		location = 6412
+		location = 6435
 		division_template = "Abada Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.0
@@ -337,7 +441,7 @@ units = {
 ###################### GENDARMERIE
         division = {
                 name = "1. Colonial Gendarmerie"
-		location = 6412
+		location = 3992
 		division_template = "Colonial Gendarmerie"
 		start_experience_factor = 0.35
 		start_equipment_factor = 0.0
@@ -345,7 +449,7 @@ units = {
 	}
         division = {
                 name = "2. Colonial Gendarmerie"
-		location = 6295
+		location = 6333
 		division_template = "Colonial Gendarmerie"
 		start_experience_factor = 0.28
 		start_equipment_factor = 0.0
@@ -353,7 +457,7 @@ units = {
 	}
         division = {
                 name = "3. Colonial Gendarmerie"
-		location = 1154
+		location = 6721
 		division_template = "Colonial Gendarmerie"
 		start_experience_factor = 0.32
 		start_equipment_factor = 0.0

@@ -1,0 +1,100 @@
+division_template = {
+        name = "Stripaci Warriors Group"
+        regiments = {
+                oldinf = { x = 0 y = 0 }
+                oldinf = { x = 0 y = 1 }
+                oldinf = { x = 0 y = 2 }
+                oldinf = { x = 0 y = 3 }
+        }
+}
+
+units = {
+        division = {
+                name = "1. Ketta Great Warriors"
+		location = 7050
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "2. Bamendu Warriors"
+		location = 3543
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "3. Manje Warriors"
+		location = 2336
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "4. Manje Abyssinian Slashers"
+		location = 4691
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.96
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "5. Bokumba Abyssinian Slashers"
+		location = 4691
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.94
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "6. Ketta Abyssinian Slashers"
+		location = 7050
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.97
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "7. Grand Oppro Warriors"
+		location = 7033
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "8. Tangutti Warriors"
+		location = 4691
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "9. Lotossi Warriors"
+		location = 1325
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "10. Bamendu Warriors"
+		location = 3543
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+        division = {
+                name = "11. Nokung Warriors"
+		location = 7116
+		division_template = "Stripaci Warriors Group"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.0
+                start_manpower_factor = 1.0
+	}
+}

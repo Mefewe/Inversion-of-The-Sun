@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_satellite
+	id = autonomy_generalgouvernement
 	
 	min_freedom_level = 0.80
 	
@@ -20,6 +20,8 @@ autonomy_state = {
 		overlord_trade_cost_factor = -0.4
 		license_subject_master_purchase_cost = -1
 		autonomy_gain_global_factor = -0.3
+		peace_score_ratio_transferred_to_overlord = 0.1
+		lend_lease_tension_with_overlord = -0.30
 	}
 	
 	ai_subject_wants_higher = {
@@ -35,17 +37,8 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			has_dlc = "Death or Dishonor"
-			AND = {
-				OR = {
-
-				}
-				has_dlc = "No Step Back"
-			}
-		}
-		has_government = fascism
-		OVERLORD = { NOT = { original_tag = CHN } }
+		OVERLORD = { has_government = fascism }
+		OVERLORD = { original_tag = CHN }
 	}
 	
 	can_take_level = {

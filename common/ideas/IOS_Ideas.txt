@@ -13,5 +13,15 @@ ideas = {
 				production_speed_bunker_factor = 0.3
 			}
                 }
+		no_science_and_industry = {
+			modifier = {
+				hidden_modifier = {
+					research_speed_factor = -30
+					production_speed_buildings_factor = -30	
+					global_building_slots_factor = -0.9
+				}
+				custom_modifier_tooltip = no_science_and_industry_tt
+			}
+		}
 	}
 }

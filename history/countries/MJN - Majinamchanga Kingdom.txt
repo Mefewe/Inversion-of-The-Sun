@@ -167,10 +167,11 @@ add_ideas = {
 	industry_level_5
 
 	### SPIRITS
-	mjn_our_right 
-	mjn_mfa_degradation 
-	mjn_end_is_near 
-	mjn_alchemic_experiments 
+	mjn_alchemic_experiments
+	mjn_end_is_near
+	mjn_mfa_degradation
+	mjn_our_right
+	mjn_no_hate
 }
 add_timed_idea = {
 	idea = mjn_last_offensive

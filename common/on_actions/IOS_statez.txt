@@ -21,6 +21,25 @@ on_actions = {
 						reset_province_name = 9128
 					}
 				}
+				else_if = {	
+					limit = {
+						state = 678
+					}
+					if = {
+						limit = { 
+							ROOT = { tag = MJN }
+						}
+						set_state_name = STATE_678_true
+						set_province_name = {
+							id = 3778
+							name = VICTORY_POINTS_3778_true
+						}
+					}
+					else = {
+						reset_state_name = yes
+						reset_province_name = 3778
+					}
+				}
 			}
 		}
 	}

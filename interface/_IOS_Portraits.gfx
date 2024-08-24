@@ -154,6 +154,13 @@ spriteTypes = {
         texturefile = gfx/leaders/OLN/portrait_King_Lindquist.dds
     }	
 	
+	### SRP leaders ###
+	
+	spriteType = {
+        name = GFX_SRP_OrientStrai_L
+        texturefile = gfx/leaders/SRP/portrait_OrientStrai.dds
+    }	
+	
 	### AOZ leaders ###
 	
 	spriteType = {

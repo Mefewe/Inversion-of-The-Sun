@@ -20,55 +20,7 @@ add_ideas = {
 		no_war_no_losses
 	}
 set_major = yes
-set_autonomy = {
-        target = MRT
-        autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-        target = DMN
-        autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-        target = VRB
-        autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-        target = FRD
-        autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-        target = KLG
-        autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-        target = OZB
-        autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-        target = CAR
-        autonomous_state = autonomy_integrated_puppet
-}
-set_autonomy = {
-        target = FRZ
-        autonomous_state = autonomy_integrated_puppet
-}
-set_autonomy = {
-        target = TYR
-        autonomous_state = autonomy_integrated_puppet
-}
 
-create_faction = NovaMill
-
-CHN = { 
-add_to_faction = MRT
-add_to_faction = DMN
-add_to_faction = VRB
-add_to_faction = FRD
-add_to_faction = KLG
-add_to_faction = CAR
-add_to_faction = OZB
-add_to_faction = FRZ
-add_to_faction = TYR }
 
 set_politics = {
 	ruling_party = fascism
@@ -117,3 +69,52 @@ create_country_leader = {
 
 	}
 }
+set_autonomy = {
+        target = MRT
+        autonomous_state = autonomy_reichskreis
+}
+set_autonomy = {
+        target = DMN
+        autonomous_state = autonomy_reichskreis
+}
+set_autonomy = {
+        target = VRB
+        autonomous_state = autonomy_reichskreis
+}
+set_autonomy = {
+        target = FRD
+        autonomous_state = autonomy_reichskreis
+}
+set_autonomy = {
+        target = KLG
+        autonomous_state = autonomy_reichskreis
+}
+set_autonomy = {
+        target = OZB
+        autonomous_state = autonomy_reichskreis
+}
+set_autonomy = {
+        target = CAR
+        autonomous_state = autonomy_generalgouvernement
+}
+set_autonomy = {
+        target = FRZ
+        autonomous_state = autonomy_supervised_state
+}
+set_autonomy = {
+        target = TYR
+        autonomous_state = autonomy_generalgouvernement
+}
+
+create_faction = NovaMill
+
+CHN = { 
+add_to_faction = MRT
+add_to_faction = DMN
+add_to_faction = VRB
+add_to_faction = FRD
+add_to_faction = KLG
+add_to_faction = CAR
+add_to_faction = OZB
+add_to_faction = FRZ
+add_to_faction = TYR }
