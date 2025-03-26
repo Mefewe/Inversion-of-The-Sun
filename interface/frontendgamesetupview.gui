@@ -150,6 +150,18 @@ guiTypes = {
 			origo = center
 		}
 		
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 8 y = 247 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 131
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+		
 		### old tno-like major selection
 
 		#buttonType = {

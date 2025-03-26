@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		srp_dynasty_modifier = {
+			picture = strai_state_icon
 			modifier = {
 				political_power_gain = 0.7
 				stability_factor = 0.2

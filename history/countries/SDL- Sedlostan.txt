@@ -41,10 +41,10 @@ set_technology = {
 }
 
 
-add_equipment_to_stockpile = {
-         type = med_tank_eq
-         amount = 3487
-}
+#add_equipment_to_stockpile = {
+#         type = med_tank_eq
+#         amount = 3487
+#}
 add_equipment_to_stockpile = {
          type = bronetransporter
          amount = 4101
@@ -62,7 +62,7 @@ add_equipment_to_stockpile = {
          amount = 59613
 }
 add_equipment_to_stockpile = {
-         type = candc_equpment
+         type = candc_equipment
          amount = 31740
 }
 add_equipment_to_stockpile = {

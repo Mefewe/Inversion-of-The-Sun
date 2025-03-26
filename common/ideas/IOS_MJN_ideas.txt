@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		mjn_alchemic_experiments = {
+			picture = experimental_bioalchemy_icon
 			modifier = {
 				army_attack_factor = 0.15
 				army_morale_factor = 0.1

@@ -16,7 +16,6 @@ guiTypes = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
-		
 
 		iconType ={
 			name ="production_header_bg"
@@ -35,7 +34,7 @@ guiTypes = {
 			maxWidth = 400
 			maxHeight = 20
 			fixedsize = yes
-		}	
+		}		
 		
 		iconType ={
 			name ="pol_view_bg"
@@ -88,7 +87,7 @@ guiTypes = {
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -2 y = 1 }
+				position = { x= -2 y = 1s }
 			}
 		}
 		
@@ -109,7 +108,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 12014 y = 12022 }
+				position = { x = 9 y = 8 }
 				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 155
@@ -287,79 +286,10 @@ guiTypes = {
 #			position = { x = 482 y = 246 }
 #			quadTextureSprite = "GFX_subject_button"
 #		}
-		containerWindowType = {
-			name = "national_spirit"
-			position = { x = 180 y = 149 }
-			size = { width = 360 height = 104 }
-			clipping = no
-
-			instantTextboxType = {
-				name = "title"
-				position = { x = 0 y = 2 }
-				font = "hoi_16mbs"
-				text = "POLITICS_NATIONAL_SPIRIT"
-				maxWidth = 200
-				maxHeight = 20
-				alwaystransparent = yes
-			}
-			
-			containerWindowType = {
-				name = "national_spirit_container"
-				position = { x = -2 y = 24 }
-				size = { width = 360 height = 80 }
-				horizontalScrollbar = "bottom_horizontal_slider"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
-				
-				gridboxtype = {
-					name = "spirit_grid"
-					position = { x = 0 y = -4 }
-					size = { width = 355 height = 100%% }
-					slotsize = { width = 60 height = 68 }
-					max_slots = { x = 6 y = 1 }
-					format = "UPPER_LEFT"
-				}
-				gridboxtype = {
-					name = "spirit_grid_over_defined"
-					position = { x = 0 y = -4 }
-					size = { width = 355 height = 100%% }
-					slotsize = { width = 60 height = 68 }
-					max_slots_horizontal = 100
-					format = "UPPER_LEFT"
-				}
-			}
-		}
-
-		iconType = {
-			name = "leader"
-			position = { x = 9 y = 55 }
-			spriteType = "GFX_leader_unknown"
-		}
-
-		iconType = {
-			name = "leader_frame2"
-			spriteType = "GFX_pol_leader_frame"
-			position = { x = 1 y = 45 }
-			alwaystransparent = yes
-		}
-
-		instantTextboxType = {
-			name = "leader_name"
-			position = { x = 10 y = 273 }
-			font = "hoi_18mbs"
-			text = "leader_name"
-			maxWidth = 155
-			maxHeight = 20
-			format = center
-			vertical_alignment = center
-		}
 		
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 176 y = 54 }
+			position = { x = 179 y = 48 }
 			size = { width = 330 height = 50 }
 			clipping = no
 						
@@ -461,6 +391,52 @@ guiTypes = {
 				alwaystransparent = yes
 			}			
 		}
+		containerWindowType = {
+			name = "national_spirit"
+			position = { x = 81 y = 153 }
+			size = { width = 360 height = 50 }
+			clipping = no
+						
+			instantTextboxType = {
+				name = "title"
+				position = { x = 110 y = -2 }
+				font = "hoi_18mbs"
+				text = "POLITICS_NATIONAL_SPIRIT"
+				maxWidth = 200
+				maxHeight = 20
+				alwaystransparent = yes
+			}
+			
+			
+			containerWindowType = {
+				name = "national_spirit_container"
+				position = { x = 99 y = 16 }
+				size = { width = 364 height = 74 }
+				verticalScrollbar = "right_vertical_slider"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+				
+				gridboxtype = {
+					name = "spirit_grid"
+					position = { x = 1 y = 2 }
+					size = { width = 354 height = 68 }
+					slotsize = { width = 59 height = 68 }
+					max_slots = { x = 6 y = 1 }
+					format = "UPPER_LEFT"
+				}
+				gridboxtype = {
+					name = "spirit_grid_over_defined"
+					position = { x = 10 y = 1 }
+					size = { width = 330 height = 68 }
+					slotsize = { width = 33 height = 34 }
+					max_slots_horizontal = 10
+					format = "UPPER_LEFT"
+				}
+			}
+		}
 		iconType = {
 			name = "leader"
 			position = { x = 18 y = 58 }
@@ -485,7 +461,6 @@ guiTypes = {
 			vertical_alignment = center
 		}
 		
-		
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 425 }
@@ -494,6 +469,7 @@ guiTypes = {
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
 			margin = { top = 14 bottom = 13}
+		
 			background = {
 				name = "Background"
 				#quadTextureSprite ="GFX_tiled_window_2b_border"
@@ -509,6 +485,8 @@ guiTypes = {
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
+
+
 		}
 
 		iconType ={
@@ -645,6 +623,8 @@ guiTypes = {
 			position = { x=4 y=8 }
 			Orientation = "UPPER_LEFT"
 		}
+		
+		
 		instantTextboxType = {
 			name = "name"
 			position = { x = 70 y = 14 }
@@ -680,8 +660,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
 		
-		
-
 		instantTextboxType = {
 			name = "title"
 			position = { x = 0 y = 4 }
@@ -710,6 +688,8 @@ guiTypes = {
 				position = { x = 0 y = -8 }
 				size = { width=500 height=-4 }
 				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 37
+				smooth_scrolling = yes
 				margin = { top = 4 bottom = 12}	
 
 				background = {
@@ -754,7 +734,7 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
-	
+		
 	}
 	
 	containerWindowType = {
@@ -802,10 +782,8 @@ guiTypes = {
 		}
 	}
 	
-	
 	containerWindowType = {
 		name = "political_idea_entry"
-		position = { x = 0 y = 0 }
 		size = { width = 53 height = 53 }
 		clipping = no
 
@@ -1015,34 +993,43 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_party_info_entry"
-		size = { width = 330 height = 10 }
+		size = { width = 330 height = 18 }
 		clipping = no
 
 		iconType = {
 			name = "leading_pol_party_bg"
-			position = { x = 60 y = -5 }
+			position = { x = 60 y = 5 }
 			spriteType = "GFX_leading_pol_party_bg"
 		}		
 		
 		iconType = {
 			name = "color_block_bg"
-			position = { x = 60 y = -5 }
+			position = { x = 60 y = 2 }
 			spriteType = "GFX_pol_party_colour_bg"
 		}
 		
 		iconType = {
 			name = "color_block"
-			position = { x = 64 y = -8 }
+			position = { x = 64 y = 6 }
 			spriteType = "GFX_pol_party_colour"
 		}
+		
+		#instantTextboxType = {
+		#	name = "score"
+		#	position = { x = 160 y = 4 }
+		#	font = "hoi_16mbs"
+		#	text = "score"
+		#	maxWidth = 60
+		#	maxHeight = 18
+		#}
 			
 		instantTextboxType = {
 			name = "name"
-			position = { x = 82 y = -8 }
+			position = { x = 82 y = 4 }
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
-			maxWidth = 170
+			maxWidth = 175
 			maxHeight = 18
 		}
 	}
@@ -1384,8 +1371,6 @@ guiTypes = {
 			slotsize = { width = 1 height = 20 }
 			max_slots_vertical = 1
 		}
-		
-		
 	}
 	
 	containerWindowType = {
@@ -1475,8 +1460,6 @@ guiTypes = {
 				vertical_alignment = center			
 			}
 		}
-		
-		
 
 		iconType = {
 			name = "player_icon"
@@ -1599,7 +1582,6 @@ guiTypes = {
 		}		
 	}
 	
-	
 	containerWindowType = {
 		name = "manage_occupied_window"
 		position = { x = -356 y = 80 }	
@@ -1671,8 +1653,6 @@ guiTypes = {
 			}
 		}
 	}
-	
-	
 	
 	containerWindowType = {
 		name = "occupied_territory_entry"
@@ -1748,9 +1728,7 @@ guiTypes = {
 			slotsize = { width = 46 height = 46 }
 			max_slots_vertical = 1
 			format = UPPER_LEFT
-			
 		}
-		
 	}
 	
 	containerWindowType = {

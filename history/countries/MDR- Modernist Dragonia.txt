@@ -29,7 +29,7 @@ add_ideas = {
 
 	#ideas
 	drg_dragons_factor
-	drg_no_science_and_industry
+	no_science_and_industry
 	drg_modernist_ideas
 }
 set_politics = {

@@ -4,7 +4,8 @@ state={
 	provinces={
 		2124 2386 2858 2933 3361 3840 4664 5828 5851 5917 
 	}
-	manpower=0
+	manpower=1
+        state_category=pastoral
 
 	history={
 		owner = EQS

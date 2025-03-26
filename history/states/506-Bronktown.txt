@@ -4,7 +4,8 @@ state={
 	provinces={
 		659 3662 4136 6225 
 	}
-	manpower=0
+	manpower=1
+        state_category=pastoral
 	history={
 		victory_points = {6225 5}
 		owner = EQS

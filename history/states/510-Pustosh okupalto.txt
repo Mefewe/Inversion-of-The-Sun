@@ -4,7 +4,7 @@ state={
 	provinces={
 		1247 1896 2550 2673 2943 3354 4502 6265 
 	}
-manpower=0
+manpower=1
 
 history={
 owner = EQS

@@ -87,7 +87,7 @@ add_equipment_to_stockpile = {
          amount = 738
 }
 add_equipment_to_stockpile = {
-         type = candc_equpment
+         type = candc_equipment
          amount = 6012
 }
 

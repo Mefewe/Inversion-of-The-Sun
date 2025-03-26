@@ -4171,6 +4171,11 @@ guiTypes = {
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -4213,6 +4218,11 @@ guiTypes = {
 		position = { x=-56 y=-7 }
 		size = { width = 183 height = 84 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -4311,6 +4321,11 @@ guiTypes = {
 		size = { width = 183 height = 84 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -4387,6 +4402,11 @@ guiTypes = {
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -4429,6 +4449,11 @@ guiTypes = {
 		position = { x=-55 y=0 }
 		size = { width = 183 height = 84 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -4545,6 +4570,11 @@ guiTypes = {
 		size = { width = 183 height = 84 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -4659,6 +4689,11 @@ guiTypes = {
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -4699,6 +4734,11 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width = 72 height = 72 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -4741,6 +4781,11 @@ guiTypes = {
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -4781,6 +4826,11 @@ guiTypes = {
 		position = { x=-55 y=0 }
 		size = { width = 204 height = 72 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -4838,6 +4888,11 @@ guiTypes = {
 		position = { x=-60 y=0 }
 		size = { width = 183 height = 84 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -4915,6 +4970,11 @@ guiTypes = {
 		size = { width = 183 height = 84 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -4991,6 +5051,11 @@ guiTypes = {
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -5032,6 +5097,11 @@ guiTypes = {
 		position = { x=-131 y=1 }
 		size = { width = 204 height = 72 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -5089,6 +5159,11 @@ guiTypes = {
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -5130,6 +5205,11 @@ guiTypes = {
 		position = { x=-131 y=1 }
 		size = { width = 204 height = 72 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -5206,6 +5286,11 @@ guiTypes = {
 		size = { width = 72 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -5247,6 +5332,11 @@ guiTypes = {
 		position = { x=-131 y=1 }
 		size = { width = 204 height = 72 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"
@@ -5317,6 +5407,11 @@ guiTypes = {
 		size = { width = 204 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -5360,6 +5455,11 @@ guiTypes = {
 		size = { width = 204 height = 72 }
 		clipping = no
 
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
@@ -5379,6 +5479,11 @@ guiTypes = {
 		position = { x=0 y=5 }
 		size = { width = 204 height = 72 }
 		clipping = no
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
 
 		background = {
 			name = "Background"

@@ -4,7 +4,7 @@ state={
 	provinces={
 		514 2614 3247 5664 5666 
 	}
-manpower=0
+manpower=1
 
 history={
 	victory_points = {5664 10}

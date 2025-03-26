@@ -9,6 +9,7 @@ sub_units = {
 		need = { small_plane_airframe = 1 }
 		categories = { category_fighter }
 		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
 	}
 	cv_fighter = {
 		sprite = light_plane
@@ -19,6 +20,7 @@ sub_units = {
 		categories = { category_fighter }
 		carrier_air_wing_size = 10
 		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
 	}
 
 	cas = {
@@ -29,6 +31,7 @@ sub_units = {
 		need = { small_plane_cas_airframe = 1 }
 		categories = { category_cas }
 		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
 	}
 	cv_cas = {
 		sprite = light_plane
@@ -39,6 +42,7 @@ sub_units = {
 		categories = { category_cas }
 		carrier_air_wing_size = 10
 		land_air_wing_size = 100
+		mega_carrier_air_wing_size = 10
 	}
 
 	nav_bomber = {
@@ -192,5 +196,6 @@ sub_units = {
 		type = missile
 		need = { guided_missile_equipment = 1 }
 		land_air_wing_size = 100
+		carrier_air_wing_size = 10
 	}
 }

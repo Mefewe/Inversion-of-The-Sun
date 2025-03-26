@@ -34,3 +34,15 @@ spriteTypes = {
         texturefile = gfx/interface/ideas/raider_economy_icon.dds
     }  
 }
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_experimental_bioalchemy_icon
+        texturefile = gfx\interface\ideas\MJN_Ideas\experimental_bioalchemy.dds
+    }  
+}
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_strai_state_icon
+        texturefile = gfx\interface\ideas\SRP_Ideas\strai_state.dds
+    }  
+}
