@@ -15,14 +15,15 @@ state={
 		owner = TYR
 		add_core_of = TYR
 		add_core_of = ABL
-        resources = {
+	}
+    resources = {
         steel = 4
         aluminium = 12
         tungsten = 3
-	oil = 2
-        }
+		oil = 2
+    }
 
-        state_category = pastoral
+    state_category = pastoral
 	manpower=620841
 	buildings_max_level_factor=1.000
 }
