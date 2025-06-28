@@ -16,6 +16,7 @@ SDL_CONF_SalekhRevoltPushing = {
 	}
 	ai_strategy = {
 		type = front_control
+		
 		state_trigger = { is_owned_by = SLK }
 		ratio = 0.1
 		ordertype = front
