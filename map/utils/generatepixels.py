@@ -19,7 +19,7 @@ fileprovince = fileprovincestext.split("\n")
 fileprovinces.close()
 
 def getRGB(provid):
-    res = re.sub(re.compile(r'{};(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?)'.format(provid)), r"\1 \2 \3",fileprovince[int(provid)])
+    res = re.sub(re.compile(r'\A{};(.*?);(.*?);(.*?);(.*?);(.*?);(.*?);(.*?)$'.format(provid)), r"\1 \2 \3",fileprovince[int(provid)])
     return res.split(" ")
 
 prov = 0
@@ -28,10 +28,10 @@ for x in range(width):
         provid = errorprovinces[prov]
         rgb = getRGB(provid)
         print(rgb)
-        image.putpixel((x, 0), (int(rgb[0]),int(rgb[1]),int(rgb[2][:-1])))
+        image.putpixel((x, 0), (int(rgb[0]),int(rgb[1]),int(rgb[2])))
         prov += 1
     else:
         break
 
-image.save('test.bmp')
+image.save('test2.bmp')
 print ('DONE')
