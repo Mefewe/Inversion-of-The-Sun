@@ -9133,10 +9133,10 @@
 9132;200;200;150;land;false;urban;1
 9133;200;100;200;land;false;urban;1
 9134;200;200;100;land;false;urban;1
-9135;100;160;100;land;false;tonnel;1
-9136;10;160;10;land;false;tonnel;1
-9137;100;16;100;land;false;tonnel;1
-9138;100;16;10;land;false;tonnel;1
+9135;100;160;100;land;false;hills;1
+9136;10;160;10;land;false;hills;1
+9137;100;16;100;land;false;hills;1
+9138;100;16;10;land;false;hills;1
 9139;10;16;10;land;false;hills;1
 9140;1;16;10;land;false;hills;1
 9141;10;16;1;land;false;hills;1
@@ -9498,7 +9498,7 @@
 9496;96;207;164;land;false;plains;1
 9497;133;204;235;land;false;plains;1
 9498;150;113;157;land;false;plains;1
-9499;246;144;116;land;false;plains;1
+9499;247;144;116;land;false;plains;1
 9500;229;105;182;land;false;plains;1
 9501;177;202;144;land;false;plains;1
 9502;205;157;194;land;false;plains;1
