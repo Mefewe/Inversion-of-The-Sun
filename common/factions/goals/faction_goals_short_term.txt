@@ -1,0 +1,64 @@
+#category = short_term medium_term or long_term
+# ROOT is faction leader, FROM is faction member who opens UI and views goals, completed/cancel/complete_effect do not have FROM scopes
+
+
+######################################################################
+
+###  ##   ##  ### ###  ##  #  #      ## ###  ###  ##  ### ### ###  ##  
+#   #  # #  #  #   #  #  # ## #     #   #  # #   #  #  #  #    #  #  # 
+##  #### #     #   #  #  # # ##      #  ###  ##  #     #  ##   #  #    
+#   #  # #  #  #   #  #  # #  #       # #    #   #  #  #  #    #  #  # 
+#   #  #  ##   #  ###  ##  #  #     ##  #    ###  ##  ### #   ###  ##  
+
+######################################################################
+
+
+ ##  #   # ###  ## 
+#  #  # #   #  #   
+####   #    #   #  
+#  #  # #   #    # 
+#  # #   # ### ##  
+
+
+faction_goal_one_germany = {
+	name = one_germany_goal_name
+	description = one_germany_goal_desc
+	category = short_term
+	group = FOCUS_FILTER_ANNEXATION
+	visible = {
+		FROM = {
+			original_tag = GER
+		}
+	}
+	cancel = { 
+		FROM = {
+			NOT = { has_government = fascism }
+		}
+	}
+	completed = {
+		any_country_with_original_tag = {
+			original_tag_to_check = AUS
+			exists = no 
+		}
+		any_country_with_original_tag = {
+			original_tag_to_check = GER
+			controls_state = 4
+		}
+	}
+	complete_effect = {
+		add_faction_power_projection = 50
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		add_stability = 0.05
+	}
+	ai_will_do = {
+		base = 10
+	}
+}
+
+
+#  #  ##  ##  
+#  # #   #  # 
+#  #  #  #### 
+#  #   # #  # 
+ ##  ##  #  # 

@@ -22,27 +22,6 @@
 
 #This is going to give misleading and ugly tooltips. Making it nice will take effort. TODO_WTT_CD make nice or ignore and remove comment. Easiest solution is just making a custom tooltip that says "5 civilian factories will be converted to military factories" and ignore telling the player the states where it will happen.
 
-add_potential_special_forces_tree = {
-	custom_effect_tooltip = add_potential_special_forces_tree_tt
-	if = {
-		limit = { NOT = { has_variable = sf_trees } }
-		set_variable = { sf_trees = 2 }
-	}
-	else = {
-		add_to_variable = { sf_trees = 1 }
-	}
-}
-
-remove_potential_special_forces_tree = {
-	if = {
-		limit = { NOT = { has_variable = sf_trees } }
-		set_variable = { sf_trees = 0 }
-	}
-	else = {
-		subtract_from_variable = { sf_trees = 1 }
-	}
-}
-
 replace_civ_with_arms_factories = {
 
 	random_owned_controlled_state = {
@@ -145,8 +124,12 @@ ROOT_inherit_current_scope_wars_effect = {
 	}
 }
 
-# Add AI strategies in case of Central European Alliance
-
+print_variable_log_effect = {
+	print_variables = {
+		file = variables_yug
+		append = yes
+	}
+}
 
 get_best_alliance_match_democratic_effect = { #arguably a trigger, but it does stuff so we keep it in here. If this is your first time seeing this, welcome to my personal hell.
 	if = {
@@ -337,151 +320,6 @@ remove_naval_treaty_effect = {
 	set_country_flag = MTG_naval_treaty_abandoned
 }
 
-civil_war_anti_exploiter_punitive_action = {
-	# Anti-exploiter punitive brigades! BET YA DIDN'T SEE THAT COMING DID YA?!
-	if = {
-		limit = {
-			has_army_size = {
-			    size < 1
-			}
-		}
-		division_template = {
-			name = "Anti-Exploit Punitive Brigade"
-			priority = 1
-			division_names_group = ENG_MAR_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 0 y = 2 }
-
-		   	   	infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
-				infantry = { x = 1 y = 2 }
-
-		   	   	infantry = { x = 2 y = 0 }
-				artillery_brigade = { x = 2 y = 1 }
-				artillery_brigade = { x = 2 y = 2 }
-			}
-			support = {
-				engineer = { x = 0 y = 0 }
-				recon = { x = 0 y = 1 }
-				artillery = { x = 0 y = 2 }
-			}
-		}
-		random_state = {
-			limit = {
-				is_capital = yes
-				is_fully_controlled_by = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-		}
-		random_state = {
-			limit = {
-				is_in_home_area = yes
-				is_fully_controlled_by = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-		}
-		random_state = {
-			limit = {
-				is_in_home_area = yes
-				is_fully_controlled_by = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-		}
-		random_state = {
-			limit = {
-				is_in_home_area = yes
-				is_fully_controlled_by = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-		}
-		random_state = {
-			limit = {
-				is_in_home_area = yes
-				is_fully_controlled_by = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-			create_unit = {
-				division = "division_template = \"Anti-Exploit Punitive Brigade\" start_experience_factor = 1 start_equipment_factor = 1"
-				owner = PREV
-			}
-		}
-	}
-}
-
 clear_sabotaged_resources_if_necesary = {
 	if = {
 		limit = {
@@ -498,6 +336,7 @@ clear_sabotaged_resources_if_necesary = {
 		clear_variable = sabotaged_tungsten
 		clear_variable = sabotaged_steel
 		clear_variable = sabotaged_chromium
+		clear_variable = sabotaged_coal
 	}
 }
 
@@ -571,7 +410,6 @@ instantiate_collaboration_government = {
 		}
 	}
 }
-
 
 upgrade_economy_law = {
 	if = {
@@ -780,15 +618,6 @@ gain_random_agency_upgrade = { #Gives a random agency upgrade or grants a free a
 	}
 }
 
-join_allies_effect = {	
-	else = {
-		get_best_alliance_match_democratic_effect = yes
-		var:best_leader = {
-			country_event = generic.2
-		}
-	}
-}
-
 #Should remove any and all fascist foreign influence, to be updated
 remove_fascist_spirits_effect = {
 	if = {
@@ -806,6 +635,17 @@ remove_fascist_spirits_effect = {
 	if = {
 		limit = { has_idea = GER_align_romania }
 		remove_ideas = GER_align_romania
+	}
+}
+
+#Should remove any and all communist foreign influence
+
+
+#Should remove any and all democratic foreign influence
+remove_democratic_spirits_effect = {
+	if = {
+		limit = { has_idea = democratic_influence }
+		remove_ideas = democratic_influence
 	}
 }
 
@@ -1190,6 +1030,24 @@ add_ruling_to_neu = {
 		}
 	}
 }
+
+
+on_daily = {
+
+}
+
+#on_daily_USA = {
+#	# you can specify an on daily action for a specific country
+#}
+
+###Game weight variables for faction load balancing.
+###We store these on germany because ... we have to
+
+leave_the_league_of_nations = {
+	custom_effect_tooltip = leave_the_league_of_nations_tt
+	hidden_effect = { remove_ideas = league_of_nations_member_idea }
+}
+
 bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_effect has run already to generate a design template if necessary
 	if = {
 		limit = {
@@ -1215,7 +1073,6 @@ bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_e
 			cost_factor = 0
 		}
 	}
-
 	else_if = {
 		limit = {
 			has_tech = basic_small_airframe
@@ -1229,48 +1086,7 @@ bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_e
 		}
 	}
 }
-abandon_colony_tag = {
-	if = {
-		limit = {
-			is_subject = yes
-		}
-	}
-	else = {
-		if = {
-			limit = {
-				OR = {
-					has_cosmetic_tag = united_polynesia
-					has_cosmetic_tag = MAJ_UNIFIED
-				}
-			}
-		}
-		else = {
-			drop_cosmetic_tag = yes
-		}
-	}
-}
-remove_communist_spirits_effect = {
-	if = {
-		limit = { has_idea = pan_slavic_propaganda }
-		remove_ideas = pan_slavic_propaganda
-	}
-	if = {
-		limit = { has_idea = agitated_peasants }
-		remove_ideas = agitated_peasants
-	}
-	if = {
-		limit = { has_idea = armed_communist_militants }
-		remove_ideas = armed_communist_militants
-	}
-	if = {
-		limit = { has_idea = BALTIC_communist_propaganda }
-		remove_ideas = BALTIC_communist_propaganda
-	}
-	if = {
-		limit = { has_idea = BALTIC_communist_militancy }
-		remove_ideas = BALTIC_communist_militancy
-	}
-}
+
 bba_create_fighter_license_effect = { #this assumes that the corresponding get_fighter_effect has run already to generate a design template if necessary
 	if = {
 		limit = {
@@ -1348,12 +1164,7 @@ bba_create_tac_license_effect = { #this assumes that the corresponding get_tac_e
 		}
 	}
 }
-remove_democratic_spirits_effect = {
-	if = {
-		limit = { has_idea = democratic_influence }
-		remove_ideas = democratic_influence
-	}
-}
+
 bba_create_heavy_fighter_license_effect = { #this assumes that the corresponding get_fighter_effect has run already to generate a design template if necessary
 	if = {
 		limit = {
@@ -1425,10 +1236,319 @@ remove_any_country_role_from_character = { #Expected to be used inside the chara
 		}
 		remove_advisor_role = { slot = theorist }
 	}
+}
+
+### Paratroopers
+SF_PARA_sabotage_effect = { #When changing this, update the research tooltip
+	damage_building = {
+		type = infrastructure
+		damage = 2
+	}
+	damage_building = {
+		type = industrial_complex
+		damage = 1
+	}
+	damage_building = {
+		type = arms_factory
+		damage = 1
+	}
+	set_state_flag = {
+		flag = para_drop_effect
+		days = 30
+	}
+}
+
+SF_PARA_combat_effect = { #When changing this, update the research tooltip
+	every_state_division = {
+		limit = { 
+			OWNER = { has_war_with = FROM }
+		}
+		set_unit_organization = 0.50
+	}
+	set_state_flag = {
+		flag = para_drop_effect
+		days = 30
+	}
+}
+
+### Muuuurrrriiinnnnneeeeessssss
+SF_marine_demoliton_effect = { #When changing this, update the research tooltip
+	damage_building = {
+		type = radar_station
+		damage = 1
+	}
+	damage_building = {
+		type = naval_base
+		damage = 1
+	}
+	damage_building = {
+		type = dockyard
+		damage = 1
+	}
+	damage_building = {
+		type = nuclear_reactor
+		damage = 1
+	}
+	damage_building = {
+		type = rocket_site
+		damage = 1
+	}
+	damage_building = {
+		type = fuel_silo
+		damage = 1
+	}
+	set_state_flag = {
+		flag = marines_commando_effect
+		days = 30
+	}
+}
+
+###########################################################################################
+###########################################################################################
+###########################################################################################
+
+							########    ###       ###    ######## 
+							   ##      ## ##     ## ##      ##    
+							   ##     ##   ##   ##   ##     ##    
+							   ##    ##     ## ##     ##    ##    
+							   ##    ######### #########    ##    
+							   ##    ##     ## ##     ##    ##    
+							   ##    ##     ## ##     ##    ##    
+
+###########################################################################################
+###########################################################################################
+###########################################################################################
+
+find_global_platonic_countries = { # Look for the countries that meet the best criteria for the different platonic countries we expect in HoI 
+	find_biggest_fascist = yes
+	find_biggest_democrat = yes
+	find_biggest_communist = yes
+	find_biggest_non_aligned = yes
+	find_biggest_fascist_bully = yes
+	find_best_democratic_ally_leader = yes
+	find_democratic_sleeping_giant = yes
+	find_local_dangerous_fascist = yes 
+}
+
+
+find_biggest_fascist_bully = { # Finds the biggest and/or meanest fascist country 
+	get_highest_scored_country = {
+		var = GLOBAL.platonic_fascist_bully
+		scorer = fascist_bully_scorer
+	}
+}
+
+find_best_democratic_ally_leader = { # Finds the most suitable democratic country to lead a faction
+	get_highest_scored_country = {
+		var = GLOBAL.platonic_democratic_ally_leader
+		scorer = democratic_faction_leader_scorer
+	}
+}
+
+find_democratic_sleeping_giant = { # Finds biggest desarmed democratic nation. Expected to be USA 
+	get_highest_scored_country = {
+		var = GLOBAL.platonic_democratic_sleeping_giant
+		scorer = democratic_sleeping_giant_scorer
+	}
+}
+
+find_biggest_fascist = { # Finds Nazi Germany, or the closest to it 
+	get_highest_scored_country = {
+		var = GLOBAL.platonic_big_fascist
+		scorer = fascist_major_scorer
+	}
+}
+
+find_biggest_democrat = { # Finds biggest Democratic Nation
+	get_highest_scored_country = {
+		var = GLOBAL.platonic_big_democratic
+		scorer = democratic_major_scorer
+	}
+}
+
+find_biggest_communist = { # Finds biggest Communist
+	get_highest_scored_country = {
+		var = GLOBAL.platonic_big_communist
+		scorer = communist_major_scorer
+	}
+}
+
+find_biggest_non_aligned = { # Finds biggest... anything else
+	get_highest_scored_country = {
+		var = GLOBAL.platonic_big_non_aligned
+		scorer = non_aligned_major_scorer
+	}
+}
+# There are ideology scorers for each continent. If you need more check the generic_platonic_scorers file and make a new scripted effect 
+
+find_local_dangerous_fascist = {
+	get_highest_scored_country = {
+		var = platonic_local_dangerous_fascist
+		scorer = local_fascist_country
+	}
+}
+
+
+# The idea is that you can use these effects to store the party popularities (and, if desired, the ruling party) when puppeting or possibly when starting civil wars, and then use the "restore" effects to reset it after the puppeting has happened, so that you don't have to use the overlord's ideology if you don't want to. 
+get_current_ideology_popularities = {
+	set_variable = { ROOT.communist_support_before_change = ROOT.party_popularity_100@communism }
+	set_variable = { ROOT.democratic_support_before_change = ROOT.party_popularity_100@democratic }
+	set_variable = { ROOT.fascist_support_before_change = ROOT.party_popularity_100@fascism }
+	set_variable = { ROOT.neutrality_support_before_change = ROOT.party_popularity_100@neutrality }
+}
+get_current_ruling_party = {
+	set_variable = { ROOT.ruling_ideology_before_change = ROOT.current_party_ideology_group }
+}
+restore_ideology_popularities = {
+	hidden_effect = {
+		# Reset popluarities to what they were before puppeting 
+		set_popularities = {
+			communism = ROOT.communist_support_before_change
+			democratic = ROOT.democratic_support_before_change
+			fascism = ROOT.fascist_support_before_change
+			neutrality = ROOT.neutrality_support_before_change
+		}
+		clear_variable = ROOT.communist_support_before_change
+		clear_variable = ROOT.democratic_support_before_change
+		clear_variable = ROOT.fascist_support_before_change
+		clear_variable = ROOT.neutrality_support_before_change
+	}
+}
+restore_ruling_party = {
+	ROOT = {
+		set_politics = {
+			ruling_party = var:ROOT.ruling_ideology_before_change
+		}
+	}
+}
+
+
+#Upgrades state cat to the next valid level. Called from state scope
+increase_state_category = {
 	if = {
 		limit = {
-			is_character_slot = political_advisor
+			has_state_category = tiny_island
 		}
-		remove_advisor_role = { slot = political_advisor }
+		set_state_category = small_island
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 1
+		}
 	}
+
+	if = {
+		limit = {
+			OR = {
+				has_state_category = wasteland
+				has_state_category = enclave
+			}
+		}
+		set_state_category = pastoral
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+	else_if = {
+		limit = {
+			has_state_category = pastoral
+		}
+		set_state_category = rural
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+	else_if = {
+		limit = {
+			has_state_category = rural
+		}
+		set_state_category = town
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+	else_if = {
+		limit = {
+			has_state_category = town
+		}
+		set_state_category = large_town
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+	else_if = {
+		limit = {
+			has_state_category = large_town
+		}
+		set_state_category = city
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+	else_if = {
+		limit = {
+			has_state_category = city
+		}
+		set_state_category = large_city
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+
+	else_if = {
+		limit = {
+			has_state_category = large_city
+		}
+		set_state_category = metropolis
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+
+	else_if = {
+		limit = {
+			has_state_category = metropolis
+		} 
+		set_state_category = megalopolis
+		effect_tooltip = {
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+
+}
+
+add_potential_special_forces_tree = {
+	custom_effect_tooltip = add_potential_special_forces_tree_tt
+	if = {
+		limit = { NOT = { has_variable = sf_trees } }
+		set_variable = { sf_trees = 2 }
+	}
+	else = {
+		add_to_variable = { sf_trees = 1 }
+	}
+}
+
+remove_potential_special_forces_tree = {
+	if = {
+		limit = { NOT = { has_variable = sf_trees } }
+		set_variable = { sf_trees = 0 }
+	}
+	else = {
+		subtract_from_variable = { sf_trees = 1 }
+	}
+}
+
+store_core_states_on_game_start = { #Should be called from history file
+	every_core_state = {
+		ROOT = {
+			add_to_array = {
+				array = core_states_at_game_start
+				value = PREV
+			}
+		}
+	}
+}
+
+set_african_central_bank_variables = {
+	set_variable = { org_africa_central_bank_stability_factor = 0.05}
+	set_variable = { org_africa_central_bank_industrial_complex_factor = 0.1}
+	set_variable = { org_africa_central_bank_infrastructure_factor = 0.1}
 }

@@ -119,10 +119,10 @@
  
  work_hours_laws: "Рабочие часы"
  non_control_work_hours: "Не регулируются"
- 16_work_hours: "16 часов в день"
- 12_work_hours: "12 часов в день"
- 8_hours: "8 часов в день"
- 6_hours: "6 часов в день"
+ _16_work_hours: "16 часов в день"
+ _12_work_hours: "12 часов в день"
+ _8_hours: "8 часов в день"
+ _6_hours: "6 часов в день"
  
  slavery_laws: "Принудительный труд"
  no_slavery_control: "Отсутствие контроля над рабством"

@@ -1,0 +1,31 @@
+@manifest_fulfilled_value = 0.75
+
+# Defense of Democracy
+faction_manifest_defense_of_democracy = {
+	name = defense_of_democracy_goal_name
+	description = defense_of_democracy_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount = 40
+		completed_amount_collection = collection:world_uncapitulated_democratic_countries_and_dominions
+			
+		scale = {
+			trade_opinion_factor = 0.20
+		}
+		
+		#reversed = { #Scaled upwards as you approach 0% fulfillment
+		#	stability_factor = 0.50
+		#}
+		
+		progress_sections = {
+			manifest_fulfilled = {
+				min = @manifest_fulfilled_value
+	
+				modifier = { 
+					democratic_drift_from_guarantees = 0.05
+					can_guarantee_other_ideologies = 1
+				}
+			}
+		}
+	}
+}

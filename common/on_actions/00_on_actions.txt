@@ -279,23 +279,6 @@ on_actions = {
 
 	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
 	#ROOT = nation being released, FROM = overlord
-
-
-	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
-	on_annex = {
-		effect = {
-			every_country = {
-				limit = {
-					OR = {
-						
-					}
-					is_puppet = no
-				}
-				abandon_colony_tag = yes
-			}
-		}
-	}
-
 	#Not run on a specific country.
 	on_startup = {
 		effect = {

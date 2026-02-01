@@ -1,35 +1,39 @@
-on_weekly = {
-	effect = {
-		if = {
-			limit = {
-				not = {
-					or = {
-						has_global_flag = flag_abl_done_1 
-						has_global_flag = flag_abl_done_2
-					}
-				}
-				SDL = {
-					has_country_flag = SDL_three_focus_tree_flage
-				}
-			}
+on_actions = {
+	on_weekly = {
+		effect = {
 			if = {
 				limit = {
-					ABL = {
-						has_country_flag = ABL_dali_bude_flage
+					not = {
+						or = {
+							has_global_flag = flag_abl_done_1
+							has_global_flag = flag_abl_done_2
+						}
+					}
+					SDL = {
+						has_country_flag = SDL_three_focus_tree_flage
 					}
 				}
-				ABL = {
-					country_event = ABL.57
-					set_global_flag = flag_abl_done_1
+				if = {
+					limit = {
+						ABL = {
+							has_country_flag = ABL_dali_bude_flage
+						}
+					}
+					ABL = {
+						country_event = ABL.57
+						set_global_flag = flag_abl_done_1
+					}
 				}
-			}
-			else_if = {
-				limit = {
-					ABL = {has_country_flag = ABL_konfer_flage}
+				else_if = {
+					limit = {
+						ABL = {
+							has_country_flag = ABL_konfer_flage
+						}
+					}
+					ABL = {
+						set_global_flag = flag_abl_done_2
+					}
 				}
-				ABL = {
-					set_global_flag = flag_abl_done_2
-				}				
 			}
 		}
 	}

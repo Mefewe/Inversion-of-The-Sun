@@ -305,7 +305,7 @@ country_event = {  #ВЫБОРЫ
 			}
 		}
 		set_party_name = {
-			ideology = neoharmonism
+			ideology = democratic
 			long_name = CRY_ljonen_neoharmony_party_long
 			name = CRY_ljonen_neoharmony_party
 		}

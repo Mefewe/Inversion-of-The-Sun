@@ -49,6 +49,7 @@ replace_path="common/technologies"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
 replace_path="interface/equipmentdesigner/tanks"
 replace_path="common/bookmarks"
+replace_path="common/dynamic_modifiers"
 tags={
 	"Map"
 }

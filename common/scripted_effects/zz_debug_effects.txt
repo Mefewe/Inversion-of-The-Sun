@@ -123,13 +123,3 @@ d_retire_country_leader = {
 	}
 	retire_country_leader = yes
 }
-
-d_clear_tech = {
-	set_technology = { improved_infantry_weapons = 0 popup = no }
-	log = "tech reset: improved_infantry_weapons"
-}
-
-d_add_tech = {
-	set_technology = { improved_infantry_weapons_1 = 1 popup = no }
-	log = "tech researched: improved_infantry_weapons"
-}

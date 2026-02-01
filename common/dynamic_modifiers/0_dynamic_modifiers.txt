@@ -1172,7 +1172,7 @@ SOV_the_politburo_good_dynamic_modifier = {
 	max_command_power = SOV_the_politburo_max_command_power # 20 -> Organization, Centralization, Discipline
 	mobilization_speed = SOV_the_politburo_mobilization_speed # 0.1 -> Organization, Centralization, Discipline
 	operative_slot = SOV_the_politburo_operative_slot # 1 -> Behead the Snake
-	political_advisor_cost_factor = SOV_the_politburo_political_advisor_cost_factor #-0.15 -> Freedom of Debate, Unity of Action
+	
 	opinion_gain_monthly_same_ideology_factor = SOV_the_politburo_opinion_gain_monthly_same_ideology_factor #0.25 -> The Construction of Communism
 }
 
@@ -1185,7 +1185,7 @@ SOV_factionalism_modifier = {
 	political_power_factor = SOV_factionalism_political_power_factor # -0.1 The Left Opposition, the Right opposition
 	
 
-	political_advisor_cost_factor = SOV_factionalism_political_advisor_cost_factor # 0.2 -> Cooperation Against stalin
+	
 	party_popularity_stability_factor = SOV_factionalism_popularity_stability_cost_factor # -0.15 -> Cooperation Against stalin
 	overlord_trade_cost_factor = SOV_factionalism_overlord_trade_cost_factor
 	global_building_slots_factor =  SOV_factionalism_building_slots_factor

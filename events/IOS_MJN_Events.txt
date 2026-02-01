@@ -37,13 +37,13 @@ country_event = {
 }
 
 country_event = {
-	id = MJN.2	# Price for ammo (Tyrlitia in chaos)
-	title = MJN.2.title
-	desc = MJN.2.desc
+	id = MJN.4	# Price for ammo (Tyrlitia in chaos)
+	title = MJN.4.title
+	desc = MJN.4.desc
 	picture = GFX_placeholder
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = MJN.2.a
+		name = MJN.4.a
 	}
 }

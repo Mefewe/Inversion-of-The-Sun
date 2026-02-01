@@ -86,7 +86,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-		16_work_hours = {
+		_16_work_hours = {
 			level = 2
 			cost = 150
 			removal_cost = -1
@@ -97,7 +97,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-		12_work_hours = {
+		_12_work_hours = {
 			level = 3
 			cost = 150
 			removal_cost = -1
@@ -109,7 +109,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-		8_hours = {
+		_8_hours = {
 			level = 4
 			cost = 150
 			removal_cost = -1
@@ -123,7 +123,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-		6_hours = {
+		_6_hours = {
 			level = 5
 			cost = 150
 			removal_cost = -1
