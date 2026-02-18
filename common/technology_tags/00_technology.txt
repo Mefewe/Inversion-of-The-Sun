@@ -21,6 +21,7 @@ technology_categories = {
 	nuclear
 	industry
 	electronics
+	cat_fortification
 	land_doctrine
 	air_doctrine
 	naval_doctrine
@@ -62,6 +63,8 @@ technology_categories = {
 	cat_superior_firepower
 	cat_grand_battle_plan
 	cat_mass_assault
+	cat_deep_battle
+	cat_mass_mobilization
 	cat_base_strike
 	cat_trade_interdiction
 	cat_fleet_in_being
@@ -76,6 +79,7 @@ technology_categories = {
 	engineers_tech
 	recon_tech
 	mountaineers_tech
+	rangers_tech_cat
 	military_police_tech
 	hospital_tech
 	logistics_tech
@@ -108,6 +112,12 @@ technology_categories = {
 	cat_mountaineers_doctrine
 	cat_marines_doctrine
 	cat_paratroopers_doctrine
+	cat_rangers_doctrine
+	naval_armor
+	naval_artillery
+	helicopter_tech
+	pykrete_tech
+	transport_planes_cat
 
 	mio_cat_tech_all_armor_and_modules #Includes modules and chassis (DOES NOT INCLUDE ARMORED CARS)
 	mio_cat_tech_light_armor_and_modules #Includes modules and stand-alone Amphibious Chassis
@@ -127,6 +137,7 @@ technology_categories = {
 	mio_cat_tech_all_cruiser_and_modules #Includes all CA (+ Coastal etc.), CL (Torpedo Cruiser) and all related modules
 	mio_cat_tech_all_destroyer_and_modules #Includes all DD and all related modules
 	mio_cat_tech_all_motorized_mechanized #Includes all Motorized (incl. Motorized Rocket Artillery) and Mechanized Equipment. (DOES NOT INCLUDE ARMORED CARS)
+	mio_cat_artillery #Includes Artillery only (no AT, AA or Rocketry)
 }
 
 technology_folders = {
