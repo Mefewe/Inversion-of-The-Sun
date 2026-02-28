@@ -1,5 +1,4 @@
-ID Changes 2026-02-09 01:33:34
-- Assigned ID 11308 to new province
-- Assigned ID 11307 to new province
-- Assigned ID 11306 to new province
-- Created IDs 11306 through 11308
+ID Changes 2026-02-28 22:34:27
+- Reassigned ID 11662 to 11575
+- Reassigned ID 11661 to 11573
+- Deleted IDs 11661 through 11662
