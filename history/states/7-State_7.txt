@@ -2,13 +2,10 @@ state={
 	id=7
 	name="STATE_7"
 	provinces={
-		225 649 843 3138 3878 4934 4935 4944 
+		649 843 
 	}
-	history={
-        owner = YAK
-        add_core_of = YAK
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

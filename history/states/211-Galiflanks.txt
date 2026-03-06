@@ -2,15 +2,10 @@ state={
 	id=211
 	name="STATE_211"
 	provinces={
-		1061 4098 4443 5209 5215 8187
+		1061 4098 4443 5209 5215 
 	}
-	history={
-		victory_points = {4443 10}
-        owner = EQS
-        add_core_of = EQS
-    }
-	state_category = large_town
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

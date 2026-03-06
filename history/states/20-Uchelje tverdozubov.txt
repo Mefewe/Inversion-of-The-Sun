@@ -1,21 +1,16 @@
 state={
 	id=20
 	name="STATE_20"
-        state_category = wasteland
-	provinces={
-		549 611 791 907 1250 1474 1579 1582 1816 2222 2429 2497 3542 4302 4307 4365 4516 4734 4966 4974 4977 4978 8168 
+	resources={
+		oil=1
+		tungsten=2
+		chromium=1
 	}
-	history={
-        owner = YAK
-        add_core_of = YAK
-    }
-
-        resources = {
-        oil = 1
-        tungsten = 2
-        chromium = 1
-        }
-
+	provinces={
+		549 791 907 1250 1474 1579 1582 2222 2429 2497 3542 4302 4307 4516 4734 4974 4977 4978 8168 
+	}
 	manpower=2056
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=wasteland
+	local_supplies=0
 }

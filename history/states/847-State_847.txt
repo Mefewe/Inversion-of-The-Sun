@@ -2,13 +2,10 @@ state={
 	id=847
 	name="STATE_847"
 	provinces={
-		395 814 1347 1561 1724 1904 2211 2257 3556 3773 4134 4435 4509 7460 7494 7540 7582 7591 7592 7602 7622 7644 7670 7734 7763 7687 
+		395 814 1561 1904 4134 4435 4509 7460 7494 7540 7582 7591 7602 7644 7687 7763 
 	}
-	history={
-        owner = DMN
-        add_core_of = DMN
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

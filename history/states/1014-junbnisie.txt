@@ -1,0 +1,10 @@
+state={
+	id=1014
+	name="STATE_1014"
+	provinces={
+		1062 2019 2768 7697 8236 11310 11316 11336 11339 11348 11349 11356 11360 11368 11371 11382 11384 11395 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

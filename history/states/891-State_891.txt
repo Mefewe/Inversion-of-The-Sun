@@ -2,13 +2,10 @@ state={
 	id=891
 	name="STATE_891"
 	provinces={
-		1100 1895 1934 2092 4151 7735 7750 7764 9117 9118 9119
+		1100 1895 1934 2092 4151 7735 7750 7764 9118 9119 
 	}
-	history={
-        owner = VRB
-        add_core_of = VRB
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

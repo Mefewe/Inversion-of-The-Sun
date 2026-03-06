@@ -2,13 +2,10 @@ state={
 	id=653
 	name="STATE_653"
 	provinces={
-		59 2232 3119 3628 4042 6831 6886 6931 9107
+		59 2232 3119 3628 4042 6831 6886 6931 
 	}
-	history={
-        owner = DMN
-        add_core_of = DMN
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }
