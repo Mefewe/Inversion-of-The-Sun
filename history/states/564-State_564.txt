@@ -2,17 +2,10 @@ state={
 	id=564
 	name="STATE_564"
 	provinces={
-		98 567 599 1231 2104 2410 2730 3014 3212 4369 6493 6498 6506 6541 6588 6622 6638 
+		98 1231 2410 3014 4369 6493 6498 6506 6541 6588 6622 6638 
 	}
-	history={
-	victory_points = { 567 25 } # Хорнбин
-        owner = HUO
-        add_core_of = HUO
-        buildings = {
-                infrastructure = 4
-        }
-    }
-        state_category = town
 	manpower=789126
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
 }

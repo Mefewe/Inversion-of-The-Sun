@@ -2,13 +2,10 @@ state={
 	id=52
 	name="STATE_52"
 	provinces={
-		174 304 1228 1343 1352 1875 1941 2987 4646 8175 
+		174 304 1228 1343 1352 8175 
 	}
-	history={
-        owner = UNC
-        add_core_of = UNC
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

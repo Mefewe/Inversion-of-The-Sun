@@ -2,13 +2,10 @@ state={
 	id=472
 	name="STATE_472"
 	provinces={
-		969 1640 3404 6031 6041 6077 6083 6099 6144 
+		969 1640 3404 6031 6041 6077 6083 6099 6144 9515 9521 
 	}
-	history={
-        owner = OEF
-        add_core_of = OEF
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

@@ -2,13 +2,10 @@ state={
 	id=30
 	name="STATE_30"
 	provinces={
-		169 583 914 1013 1299 1882 1947 2338 2575 3652 3836 4007 4371 4943 5030 
+		169 2338 2575 3836 4943 5030 
 	}
-	history={
-        owner = EQS
-        add_core_of = EQS
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

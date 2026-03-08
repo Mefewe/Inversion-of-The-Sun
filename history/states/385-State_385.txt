@@ -2,13 +2,10 @@ state={
 	id=385
 	name="STATE_385"
 	provinces={
-		1772 1847 2119 2493 2740 2832 3229 3726 4410 4182 5638 5658 5734 5761 5777 5820 5864 5872 
+		5638 5658 5734 5761 5777 5820 5864 5872 
 	}
-	history={
-        owner = OEF
-        add_core_of = OEF
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

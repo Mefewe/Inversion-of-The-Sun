@@ -5,7 +5,7 @@ state={
 		oil=5
 	}
 	provinces={
-		206 679 2578 3256 5013 
+		206 679 1591 2578 3256 5013 5544 6261 7687 9101 9109 11399 11407 11411 
 	}
 	manpower=957
 	buildings_max_level_factor=1

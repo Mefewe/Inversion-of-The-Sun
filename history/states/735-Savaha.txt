@@ -1,40 +1,17 @@
 state={
 	id=735
 	name="STATE_735"
+	resources={
+		oil=86
+		aluminium=21
+		steel=5
+		rubber=10
+	}
 	provinces={
-		1395 2181 2633 3037 3043 3152 3532 4138 4480 7058 7103 7233 7254 7270 7294 7431 7459 
+		1395 2181 2633 3037 3043 4138 4480 7058 7103 7233 7254 7270 
 	}
-	resources = {
-		oil = 86
-		aluminium = 21
-		steel = 5
-		rubber = 10
-	}
-	history={
-		add_building_construction = {
-			type = infrastructure
-			level = 2
-		}
-		add_building_construction = {
-			type = naval_base
-			level = 1
-			province = 3043
-		}
-		add_building_construction = {
-			type = industrial_complex
-			level = 1
-		}
-		add_building_construction = {
-			type = arms_factory
-			level = 1
-		}
-		victory_points = {
-			3043 5
-		}
-        owner = TAI
-        add_core_of = TAI
-    }
 	manpower=459781
-	buildings_max_level_factor=1.000
-	state_category = town
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
 }

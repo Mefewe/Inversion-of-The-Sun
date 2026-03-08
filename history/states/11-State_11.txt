@@ -2,13 +2,10 @@ state={
 	id=11
 	name="STATE_11"
 	provinces={
-		499 1361 1381 3963 4376 4942 4950 
+		1361 1381 3963 4376 4942 4950 9945 9946 9947 9983 9984 
 	}
-	history={
-        owner = UNC
-        add_core_of = UNC
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

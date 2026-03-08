@@ -2,13 +2,10 @@ state={
 	id=643
 	name="STATE_643"
 	provinces={
-		305 2733 4122 7972 8226
+		305 7972 8226 
 	}
-	history={
-        owner = SEQ
-        add_core_of = SEQ
-    }
 	manpower=1
-        state_category=pastoral
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
 }

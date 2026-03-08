@@ -1,24 +1,14 @@
 state={
 	id=815
 	name="STATE_815"
+	resources={
+		steel=4
+	}
 	provinces={
-		3252 7493 7527 7569 7600 
+		3252 7569 7600 
 	}
-	resources = {
-		steel = 4
-	}
-	history={
-		victory_points = {
-			7600 1
-		}
-		add_building_construction = {
-			type = infrastructure
-			level = 1
-		}
-        owner = TAI
-        add_core_of = TAI
-    }
 	manpower=120512
-	buildings_max_level_factor=1.000
-	state_category = town
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
 }
