@@ -1,28 +1,15 @@
 state={
 	id=620
 	name="STATE_620"
-	provinces={
-		846 2284 2637 2690 3007 3941 6658 6762 6777 
+	resources={
+		steel=10
+		aluminium=7
 	}
-	history={
-		victory_points = {6777 15} # Чузура-Аль
-		victory_points = {3941 10} #
-        owner = SDL
-        add_core_of = SDL
-		add_core_of = ISU
-        buildings = {
-                infrastructure = 2
-		industrial_complex = 1
-		arms_factory = 1
-        }
-    }
-
-        resources = {
-        steel = 10
-        aluminium = 7
-        }
-
-	state_category = large_town
+	provinces={
+		381 386 846 2284 2637 2690 3007 3941 6658 6762 6777 
+	}
 	manpower=876264
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=large_town
+	local_supplies=0
 }

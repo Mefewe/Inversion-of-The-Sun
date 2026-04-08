@@ -1,32 +1,17 @@
 state={
 	id=648
 	name="STATE_648"
-	provinces={
-		73 831 894 2214 3312 3390 3708 4608 4712 4812 6790 6797 6807 6832 6836 6872 6910 
+	resources={
+		steel=10
+		aluminium=12
+		oil=7
+		rubber=12
 	}
-	history={
-	victory_points = {6807 20} #
-	victory_points = {4712 15} #
-	victory_points = {3312 10} #
-	owner = SDL
-	add_core_of = SDL
-        add_core_of = FEA
-        buildings = {
-                infrastructure = 2
-                industrial_complex = 1
-		dockyard = 2
-		air_base = 4
-        }
-    }
-
-        resources = {
-        steel = 10
-        aluminium = 12
-	oil = 7
-	rubber = 12
-        }
-
-        state_category = large_town
+	provinces={
+		73 323 831 894 2214 3312 3390 3708 4608 4712 4812 6790 6797 6807 6832 6836 6872 6910 
+	}
 	manpower=690174
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
+	state_category=large_town
+	local_supplies=0
 }
