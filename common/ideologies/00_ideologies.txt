@@ -231,6 +231,9 @@ ideologies = {
 		military_government = {
 
 		}
+		military_government_gov = {
+			
+		}
 	}
 
 	dynamic_faction_names = {
